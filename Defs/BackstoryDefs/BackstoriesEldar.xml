@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.BackstoryDef>
+    <defName>ExoditeOrigin</defName>
+    <title>Exodite child</title>
+    <baseDescription>[PAWN_nameDef] was born on an Eldar maiden world. Isolationism and Mistrust were prominent.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <workDisables>
+    </workDisables>
+    <disallowedTraits>
+        <li>
+            <defName>PsychicSensitivity</defName>
+            <degree>-2</degree>
+            <chance>100</chance>
+        </li>
+        <li>
+            <defName>PsychicSensitivity</defName>
+            <degree>-1</degree>
+            <chance>100</chance>
+        </li>
+        <li>
+            <defName>Beauty</defName>
+            <degree>-2</degree>
+            <chance>100</chance>
+        </li>
+        <li>
+            <defName>Beauty</defName>
+            <degree>-1</degree>
+            <chance>100</chance>
+        </li>
+    </disallowedTraits>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar</li>
+      <li>ExoditeChild</li>
+      <li>ExoditeCivilian</li>
+      <li>ExoditeCommand</li>
+      <li>ExoditeMilitary</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>CraftworldOrigin</defName>
+    <title>Craftworld child</title>
+    <baseDescription>[PAWN_nameDef] was born on an Eldar craftworld. The path of the Eldar shaped HIS life.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <workDisables>
+    </workDisables>
+    <disallowedTraits>
+        <li>
+            <defName>PsychicSensitivity</defName>
+            <degree>-2</degree>
+            <chance>100</chance>
+        </li>
+        <li>
+            <defName>PsychicSensitivity</defName>
+            <degree>-1</degree>
+            <chance>100</chance>
+        </li>
+        <li>
+            <defName>Beauty</defName>
+            <degree>-2</degree>
+            <chance>100</chance>
+        </li>
+        <li>
+            <defName>Beauty</defName>
+            <degree>-1</degree>
+            <chance>100</chance>
+        </li>
+    </disallowedTraits>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar</li>
+      <li>CraftworldChild</li>
+      <li>CraftworldCivilian</li>
+      <li>CraftworldCommand</li>
+      <li>CraftworldMilitary</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>CraftworldAwakeningArtist</defName>
+    <title>Path of Awakening</title>
+    <titleShort>Artist</titleShort>
+    <baseDescription>[PAWN_nameDef] has walked the path of the Awakening, gaining reputation among his fellow eldar.Those trained on this path can notice things that would seem insignificant or impossible to see, even to a normal Eldar. The Path of Awakening is the polar opposite of the Path of Dreaming, as it focuses on looking without rather than within. The Path of Awakening is usually a prelude to the Path of the Artisan.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar</li>
+      <li>CraftworldCivilian</li>
+      <li>ExoditeCivilian</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>CraftworldArtist</defName>
+    <title>Path of the artisan</title>
+    <titleShort>Artisan</titleShort>
+    <baseDescription>[PAWN_nameDef] has walked the path of the artisan, gaining reputation among his fellow eldar.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar</li>
+      <li>CraftworldCivilian</li>
+      <li>ExoditeCivilian</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>CraftworldSeer</defName>
+    <title>Path of the seer</title>
+    <titleShort>Seer</titleShort>
+    <baseDescription>[PAWN_nameDef] has walked the path of the seer.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <workDisables>
+    </workDisables>
+    <forcedTraits>
+        <li>
+            <defName>PsychicSensitivity</defName>
+            <degree>2</degree>
+            <chance>25</chance>
+        </li>
+        <li>
+            <defName>PsychicSensitivity</defName>
+            <degree>1</degree>
+            <chance>75</chance>
+        </li>
+    </forcedTraits>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar</li>
+      <li>CraftworldMilitary</li>
+      <li>ExoditeMilitary</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>CraftworldShaper</defName>
+    <title>Path of the shaper</title>
+    <titleShort>Shaper</titleShort>
+    <baseDescription>[PAWN_nameDef] has walked the path of the shaper.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar</li>
+      <li>CraftworldCivilian</li>
+      <li>ExoditeCivilian</li>
+      <li>CraftworldMilitary</li>
+      <li>ExoditeMilitary</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>CraftworldBonsinger</defName>
+    <title>Lost to the Path of the shaper</title>
+    <titleShort>Bonesinger</titleShort>
+    <baseDescription>[PAWN_nameDef] has become lost to the path of the shaper, becoming obessed with creating all manner of items of the highest quality</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar</li>
+      <li>CraftworldCivilian</li>
+      <li>ExoditeCivilian</li>
+      <li>CraftworldMilitary</li>
+      <li>ExoditeMilitary</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+  <AlienRace.BackstoryDef>
+    <defName>CraftworldMariner</defName>
+    <title>Path of the mariner</title>
+    <titleShort>Mariner</titleShort>
+    <baseDescription>[PAWN_nameDef] has walked the path of the mariner.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar</li>
+      <li>CraftworldMilitary</li>
+      <li>ExoditeMilitary</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>CraftworldDreamer</defName>
+    <title>Path of the dreamer</title>
+    <titleShort>Dreamer</titleShort>
+    <baseDescription>[PAWN_nameDef] has walked the path of the dreamer.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar</li>
+      <li>CraftworldCivilian</li>
+      <li>ExoditeCivilian</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>CraftworldCommand</defName>
+    <title>Path of command</title>
+    <titleShort>Commander</titleShort>
+    <baseDescription>[PAWN_nameDef] has walked the path of command.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar</li>
+      <li>CraftworldCommand</li>
+      <li>ExoditeCommand</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <AlienRace.BackstoryDef>
+    <defName>CraftworldOutcast</defName>
+    <title>Path of the Outcast</title>
+    <titleShort>Ranger</titleShort>
+    <baseDescription>[PAWN_nameDef] is walking the path of the outcast.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar</li>
+      <li>CraftworldOutcast</li>
+      <li>ExoditeOutcast</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+</Defs>

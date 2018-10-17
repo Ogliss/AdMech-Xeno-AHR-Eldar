@@ -1,0 +1,60 @@
+﻿<Defs>
+	<!--========================= Adeptus Mechanicus - Eldar Gear Catagories ==========================-->
+	<!--========================= Adeptus Mechanicus - Eldar Weapon Catagories ==========================-->
+	<ThingCategoryDef>
+		<defName>OGEWeapons</defName>
+		<label>Eldar Weapons</label>
+		<parent>Weapons</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>OGERanged</defName>
+		<label>Eldar Ranged Weapons</label>
+		<parent>OGEWeapons</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>OGEMelee</defName>
+		<label>Eldar Melee Weapons</label>
+		<parent>OGEWeapons</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>OGEGrens</defName>
+		<label>Eldar Grenades</label>
+		<parent>OGEWeapons</parent>
+	</ThingCategoryDef>	
+			
+	<!--========================= Adeptus Mechanicus - Eldar Armour Catagories ==========================-->
+	<ThingCategoryDef>
+		<defName>OGEArmour</defName>
+		<label>Eldar Armour</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>OGEHeadgear</defName>
+		<label>Eldar Headgear</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+	  	
+	<ThingCategoryDef>
+		<defName>OGEAddons</defName>
+		<label>Eldar Armour Addons</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+		
+	<ThingCategoryDef>
+		<defName>OGEWargear</defName>
+		<label>Eldar Wargear</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+	
+		
+    <ThingCategoryDef>
+      <defName>CorpsesEldarConstruct</defName>
+      <label>eldar construct corpses</label>
+      <parent>Corpses</parent>
+    </ThingCategoryDef>
+	
+</Defs>
