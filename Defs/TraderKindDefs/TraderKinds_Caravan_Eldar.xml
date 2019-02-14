@@ -209,7 +209,7 @@
 		</countRange>
       </li>
       <li Class="StockGenerator_Category">
-        <categoryDef>OGTRanged</categoryDef>
+        <categoryDef>OGERanged</categoryDef>
         <thingDefCountRange>
           <min>1</min>
           <max>10</max>
@@ -220,7 +220,7 @@
         </countRange>
       </li>
       <li Class="StockGenerator_Category">
-        <categoryDef>OGTRanged</categoryDef>
+        <categoryDef>OGERanged</categoryDef>
         <thingDefCountRange>
           <min>1</min>
           <max>10</max>
@@ -231,7 +231,7 @@
         </countRange>
       </li>
       <li Class="StockGenerator_Category">
-        <categoryDef>OGTArmour</categoryDef>
+        <categoryDef>OGEArmour</categoryDef>
         <thingDefCountRange>
           <min>1</min>
           <max>10</max>
@@ -242,7 +242,7 @@
         </countRange>
       </li>
       <li Class="StockGenerator_Category">
-        <categoryDef>OGTHeadgear</categoryDef>
+        <categoryDef>OGEHeadgear</categoryDef>
         <thingDefCountRange>
           <min>1</min>
           <max>10</max>

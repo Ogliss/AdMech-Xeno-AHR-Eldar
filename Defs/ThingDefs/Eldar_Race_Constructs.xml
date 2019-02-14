@@ -114,14 +114,14 @@
     <defName>EldarWraithGuardM</defName>
     <label>wraithblade</label>
     <race>Eldar_WraithGuard</race>
-    <combatPower>200</combatPower>
+    <combatPower>150</combatPower>
 
     <lifeStages>
       <li>
         <bodyGraphicData>
           <texPath>Pawn/EldarWraithGuard</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>1.5</drawSize>
+          <drawSize>2</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
           </shadowData>
@@ -141,14 +141,14 @@
     <defName>EldarWraithGuardR</defName>
     <label>wraithguard</label>
     <race>Eldar_WraithGuard</race>
-    <combatPower>200</combatPower>
+    <combatPower>150</combatPower>
 
     <lifeStages>
       <li>
         <bodyGraphicData>
           <texPath>Pawn/EldarWraithGuard</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>1.5</drawSize>
+          <drawSize>2</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
           </shadowData>

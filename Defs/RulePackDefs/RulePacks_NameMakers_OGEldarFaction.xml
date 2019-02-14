@@ -35,19 +35,15 @@
 		<defName>NamerOGEldarPawns</defName>
 		<rulePack>
 		  <rulesStrings>
-			<li>r_name->[OGEldarFirst] [OGof] [OGEldarCraftworldMajor]</li>
-			<li>r_name->[OGEldarFirst] [OGof] [OGEldarCraftworldMinor]</li>
-			<li>r_name->[OGEldarFirst] [OGof] [OGEldarCraftworldLost]</li>
-			<li>r_name->[OGEldarFirst] [OGof] [OGEldarCraftworldCorsair]</li>
+			<li>r_name->[OGEldarFirst] [OGEldarCraftworldMajor]</li>
+			<li>r_name->[OGEldarFirst] [OGEldarCraftworldMinor]</li>
+			<li>r_name->[OGEldarFirst] [OGEldarCraftworldLost]</li>
+			<li>r_name->[OGEldarFirst] [OGEldarCraftworldCorsair]</li>
 		  </rulesStrings>
 		  <rulesRaw>
 			<li Class="Rule_File">
 				<keyword>OGEldarFirst</keyword>
 				<path>NameBanks/OGEldarFirst</path>
-			</li>
-			<li Class="Rule_File">
-				<keyword>OGof</keyword>
-				<path>NameBanks/OGEldarOf</path>
 			</li>
 			<li Class="Rule_File">
 				<keyword>OGEldarCraftworldMajor</keyword>

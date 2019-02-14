@@ -2,9 +2,39 @@
 <ModMetaData>
 	<name>Adeptus Mechanicus Magos Xenobiologis (Playable Eldar)</name>
 	<author>Ogliss</author>
-	<targetVersion>0.19.2009</targetVersion>
-	<description>V1.0
-	Requires new start or  one of those faction managers.
+	<supportedVersions>
+        <li>1.0</li>
+	</supportedVersions>
+	<description>V1.1
 	Adds plyable WH40k Eldar
+	Requires new start or a faction manager mod to have faction bases on the world map.
+
+	This mod includes a compatability patch for the latest version of Combat Extended. Thanks for the assistance Saebbi!
+
+	Contents
+	Races:
+	Eldar - Humanlike
+	Wraithguard - Animal/mechanoid
+	
+	Apparel:
+	Eldar Mesh Armour
+	Eldar Mesh Helmet
+	Eldar Ranger Armour
+	Eldar Ranger Helmet
+	Eldar Banshee Armour
+	Eldar Banshee Helmet
+	Eldar Warlock Armour
+	Eldar Warlock Helmet
+	Eldar Rune Armour
+	
+	Wargear:
+	Grenade Packs (Plasma, Haywire, Melta, Hallucination)
+	Runes (Warding, Wrath, Fortune)
+	
+	Resources:
+	Wraithbone - a psycho active crafting material used in the almost all Eldar construction
+	Psychic Circuitry - eldar component counterpart
+	Spirit Stones - advanced eldar crafting component, that will eventually be needed for wraithguard/lord construction
+	
 		</description>
 </ModMetaData>

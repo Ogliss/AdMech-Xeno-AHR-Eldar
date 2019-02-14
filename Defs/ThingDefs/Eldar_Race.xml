@@ -90,7 +90,7 @@
 <AlienRace.ThingDef_AlienRace ParentName="BaseEldarPawn">
     <defName>Alien_Eldar</defName>
     <label>Eldar</label>
-    <description>The Eldar race has a long and complex spacefaring history, so long in fact that little is known for certain about the course of their physical evolution and early planet-bound existence. The original Eldar homeworld was destroyed during the catastrophic collapse of the Eldar civilisation known as the Fall of the Eldar. The remnants of Eldar culture that survived the cataclysm preserved much of their species' history in the form of traditional stories, songs and dance. Written records, monuments and visual records were almost completely destroyed except for a few instances where they were taken aboard voidcraft fleeing from the doomed worlds./n/nAs a humanoid race, Eldar are physically similar to humans, although not entirely identical by any means. They possess longer and cleaner limbs, and fine ascetic features with penetrating and slightly slanted, almond-shaped eyes. Their ears are also slightly pointed, but otherwise they could pass as human at first glance. The most obvious difference between humans and Eldar can only be seen when they move, for the movements of an Eldar radiate a subtle grace which is impossible for a human to emulate. This can be seen in even their slightest gestures or the dexterity with which they manipulate small objects./n/nThe Eldar mind, while similar in general to the human psyche, is far more inclined towards extremes. Because of this, Eldar are more intelligent but also far more intense than humans. Although an Eldar and a human can both feel grief or joy, the Eldar's experience is likely to be far more extreme.</description>
+    <description>The Eldar race has a long and complex spacefaring history, so long in fact that little is known for certain about the course of their physical evolution and early planet-bound existence. The original Eldar homeworld was destroyed during the catastrophic collapse of the Eldar civilisation known as the Fall of the Eldar. The remnants of Eldar culture that survived the cataclysm preserved much of their species' history in the form of traditional stories, songs and dance. Written records, monuments and visual records were almost completely destroyed except for a few instances where they were taken aboard voidcraft fleeing from the doomed worlds.\n\nAs a humanoid race, Eldar are physically similar to humans, although not entirely identical by any means. They possess longer and cleaner limbs, and fine ascetic features with penetrating and slightly slanted, almond-shaped eyes. Their ears are also slightly pointed, but otherwise they could pass as human at first glance. The most obvious difference between humans and Eldar can only be seen when they move, for the movements of an Eldar radiate a subtle grace which is impossible for a human to emulate. This can be seen in even their slightest gestures or the dexterity with which they manipulate small objects.\n\nThe Eldar mind, while similar in general to the human psyche, is far more inclined towards extremes. Because of this, Eldar are more intelligent but also far more intense than humans. Although an Eldar and a human can both feel grief or joy, the Eldar's experience is likely to be far more extreme.</description>
     <alienRace>
         <generalSettings>
 			<useOnlyPawnkindBackstories>true</useOnlyPawnkindBackstories>
@@ -222,12 +222,12 @@
                                <options>
             <li>
                 <weight>10</weight>
-				<only>RGBA(1.0,1.0,1.0,1)</only>
+				<only>RGBA(0.9412,0.851,0.7804,1)</only>
             </li>
 			<!--
 			<li>
-                <weight>8</weight>
-                <only>RGBA(0.874,0.874,0.874,1)</only>
+                <weight>10</weight>
+                <only>RGBA(0.9922,0.898,0.8235,1)</only>
             </li>
 			<li>
                 <weight>8</weight>
@@ -332,20 +332,41 @@
                 <li>
                     <projects>
 						<li>EldarTechBase</li>
-						<li>EldarArmour</li>
 						<li>EldarBasicWeaponsTech</li>
+						<li>EldarBasicMeleeTech</li>
 						<li>EldarAdvancedWeapons</li>
-						<li>EldarWraithTech</li>
+						<li>EldarPowerWeapons</li>
 						<li>EldarHeavyWeapons</li>
 						<li>EldarAdvancedMelee</li>
+						<li>EldarWraithTech</li>
+						<li>EldarArmour</li>
+						<li>EldarAspectArmour</li>
+						<li>EldarAdvancedArmour</li>
+						<li>EldarWargear</li>
+						<li>EldarAspectWargear</li>
+						<li>EldarAdvancedWargear</li>
                     </projects>
                 </li>
             </researchList>
+			<apparelList>
+				<li>OGE_Apparel_RuneWarding</li>
+				<li>OGE_Apparel_RuneWrath</li>
+				<li>OGE_Apparel_RuneFortune</li>
+			</apparelList>
             <recipeList>
                 <li>OGE_Apparel_MeshArmour</li>
                 <li>OGE_Apparel_MeshArmourHelmet</li>
                 <li>OGE_Apparel_RangerArmour</li>
+                <li>OGE_Apparel_RangerArmourHelmet</li>
+                <li>OGE_Apparel_BansheeArmour</li>
+                <li>OGE_Apparel_BansheeArmourHelmet</li>
                 <li>OGE_Apparel_WarlockHelmet</li>
+                <li>OGE_Apparel_RuneWarding</li>
+                <li>OGE_Apparel_RuneWrath</li>
+                <li>OGE_Apparel_RuneFortune</li>
+                <li>OGE_GrenadePack_Plasma</li>
+                <li>OGE_GrenadePack_Haywire</li>
+                <li>OGE_GrenadePack_Melta</li>
                 <li>OGE_Melee_ScorpionChainsword</li>
                 <li>OGE_Melee_BitingBlade</li>
                 <li>OGE_Melee_ScorpionsClaw</li>
@@ -368,9 +389,15 @@
                 <li>OGE_Gun_EBrightlance</li>
                 <li>OGE_Gun_EPrismRifle</li>
                 <li>OGE_Gun_FusionGun</li>
+                <li>OGE_Gun_ENeuroDisruptor</li>
+                <li>OGE_Gun_LasBlaster</li>
                 <li>OGE_Gun_ERangerLongrifle</li>
                 <li>OGE_Gun_EDeathspinner</li>
+                <li>OGE_Gun_HaywireCannon</li>
             </recipeList>
+			<buildingList>
+                <li>OGE_TableMachining</li>
+            </buildingList>
         </raceRestriction>
     </alienRace>
 	<statBases>
