@@ -3,7 +3,7 @@
 
 	<ScenarioDef>
 	<defName>EldarScenarioTest</defName>
-		<label>Testing Eldar pawns</label>
+		<label>Eldar Survivors</label>
 		<description>When your freighter was attacked by pirates, you knew you had to take your chances in the escape pods, or be ransomed to slavery...</description>
 <scenario>
 <summary>Five escaped Eldar attempt to build a colony. Difficult.</summary>

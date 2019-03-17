@@ -95,7 +95,7 @@
         <generalSettings>
 			<useOnlyPawnkindBackstories>true</useOnlyPawnkindBackstories>
             <maleGenderProbability>0.5</maleGenderProbability>
-            <immuneToAge>true</immuneToAge>
+            <immuneToAge>false</immuneToAge>
             <forcedRaceTraitEntries>
                 <li>
                     <defName>Beauty</defName>
@@ -287,7 +287,7 @@
             <humanRecipeImport>true</humanRecipeImport>
 		   <notXenophobistTowards>
 			<!--
-              <li>Alien_Kroot</li>
+              <li>Alien</li>
 			-->
            </notXenophobistTowards>
         </generalSettings>
@@ -299,7 +299,7 @@
         </graphicPaths>
         <hairSettings>
             <hasHair>true</hasHair>
-            <getsGreyAt>13000</getsGreyAt> 
+            <getsGreyAt>15000</getsGreyAt> 
             <hairTags>
 			<li>EldarHair</li>
             </hairTags>
