@@ -31,7 +31,7 @@
 		</recipeMaker>
 		<comps>  
 			<li Class="AbilityUser.CompProperties_AbilityItem">
-				<AbilityUserClass>AbilityUser.GenericCompAbilityUser</AbilityUserClass>
+				<AbilityUserClass>AbilityUser.GenericCompAbilityItem</AbilityUserClass>
 				<Abilities>
 					<li>OGE_Ability_ThrowPlasma</li>
 				</Abilities>
@@ -90,7 +90,7 @@
 		</recipeMaker>
 		<comps>  
 			<li Class="AbilityUser.CompProperties_AbilityItem">
-				<AbilityUserClass>AbilityUser.GenericCompAbilityUser</AbilityUserClass>
+				<AbilityUserClass>AbilityUser.GenericCompAbilityItem</AbilityUserClass>
 				<Abilities>
 					<li>OGE_Ability_ThrowHaywire</li>
 				</Abilities>
@@ -149,7 +149,7 @@
 		</recipeMaker>
 		<comps>  
 			<li Class="AbilityUser.CompProperties_AbilityItem">
-				<AbilityUserClass>AbilityUser.GenericCompAbilityUser</AbilityUserClass>
+				<AbilityUserClass>AbilityUser.GenericCompAbilityItem</AbilityUserClass>
 				<Abilities>
 					<li>OGE_Ability_ThrowMelta</li>
 				</Abilities>
@@ -208,7 +208,7 @@
 		</recipeMaker>
 		<comps>  
 			<li Class="AbilityUser.CompProperties_AbilityItem">
-				<AbilityUserClass>AbilityUser.GenericCompAbilityUser</AbilityUserClass>
+				<AbilityUserClass>AbilityUser.GenericCompAbilityItem</AbilityUserClass>
 				<Abilities>
 					<li>OGE_Ability_ThrowHallucinogen</li>
 				</Abilities>
