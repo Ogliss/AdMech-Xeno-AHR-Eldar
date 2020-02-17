@@ -6,7 +6,7 @@
             <alienslavekinds>
                 <li>
                     <kindDefs>
-                        <li>Eldar</li>
+                        <li>Colonist_OG_Eldar_Craftworld</li>
                     </kindDefs>
                     <chance>40.0</chance>
                 </li>
@@ -14,7 +14,7 @@
             <alienrefugeekinds>
                 <li>
                     <kindDefs>
-                        <li>Eldar</li>
+                        <li>Colonist_OG_Eldar_Craftworld</li>
                     </kindDefs>
                     <chance>50.0</chance>
                 </li>
@@ -24,19 +24,19 @@
 				<pawnKindEntries>
 					<li>
                     <kindDefs>
-                        <li>Eldar</li>
+                        <li>Colonist_OG_Eldar_Craftworld</li>
                     </kindDefs>
                     <chance>10.0</chance>
 					</li>
 					<li>
                     <kindDefs>
-							<li>Eldar</li>
+							<li>Colonist_OG_Eldar_Craftworld</li>
                     </kindDefs>
                     <chance>50.0</chance>
 					</li>
 				</pawnKindEntries>
 					<factionDefs>
-						<li>EldarPlayerColony</li> 
+						<li>OG_Eldar_Player_Craftworld</li> 
 					</factionDefs>
 				</li>
 			</startingColonists>
@@ -45,20 +45,21 @@
                     <pawnKindEntries>
                         <li>
                             <kindDefs>
-								<li>Eldar</li>
+								<li>Colonist_OG_Eldar_Craftworld</li>
                             </kindDefs>
                             <chance>50.0</chance>
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
-                        <li>EldarPlayerColony</li> 
+                        <li>OG_Eldar_Player_Craftworld</li> 
                     </factionDefs>
                 </li>
             </alienwandererkinds>
         </pawnKindSettings>
   </AlienRace.RaceSettings>
 
-<ThingDef Name="BaseEldarPawn" Abstract="True">
+<ThingDef ParentName="BasePawn" Name="OG_Eldar_Pawn_Base" Abstract="True">
+	<!--
     <thingClass>Pawn</thingClass>
     <category>Pawn</category>
     <selectable>true</selectable>
@@ -85,9 +86,10 @@
         </li>
     </comps>
     <drawGUIOverlay>true</drawGUIOverlay>
+	-->
 </ThingDef>
 
-<AlienRace.ThingDef_AlienRace ParentName="BaseEldarPawn">
+<AlienRace.ThingDef_AlienRace Name="OG_Eldar_Race" ParentName="OG_Eldar_Pawn_Base" Abstract="True">
     <defName>Alien_Eldar</defName>
     <label>Eldar</label>
     <description>The Eldar race has a long and complex spacefaring history, so long in fact that little is known for certain about the course of their physical evolution and early planet-bound existence. The original Eldar homeworld was destroyed during the catastrophic collapse of the Eldar civilisation known as the Fall of the Eldar. The remnants of Eldar culture that survived the cataclysm preserved much of their species' history in the form of traditional stories, songs and dance. Written records, monuments and visual records were almost completely destroyed except for a few instances where they were taken aboard voidcraft fleeing from the doomed worlds.\n\nAs a humanoid race, Eldar are physically similar to humans, although not entirely identical by any means. They possess longer and cleaner limbs, and fine ascetic features with penetrating and slightly slanted, almond-shaped eyes. Their ears are also slightly pointed, but otherwise they could pass as human at first glance. The most obvious difference between humans and Eldar can only be seen when they move, for the movements of an Eldar radiate a subtle grace which is impossible for a human to emulate. This can be seen in even their slightest gestures or the dexterity with which they manipulate small objects.\n\nThe Eldar mind, while similar in general to the human psyche, is far more inclined towards extremes. Because of this, Eldar are more intelligent but also far more intense than humans. Although an Eldar and a human can both feel grief or joy, the Eldar's experience is likely to be far more extreme.</description>
@@ -151,35 +153,36 @@
 		-->
             </disallowedTraits>
             <alienPartGenerator>
+				<customDrawSize>(0.8, 1.0)</customDrawSize>
                 <aliencrowntypes>
                     <li>Average_Normal</li>
-                    <li>Average_Narrow</li>
+                    <li>Narrow_Normal</li>
                     <li>Average_Wide</li>
                     <li>Average_Pointy</li>
                 </aliencrowntypes>
                 <alienbodytypes>
-                <li>Thin</li>
                 <li>Female</li>
 				<li>Male</li>
                 </alienbodytypes>
+				<useGenderedHeads>true</useGenderedHeads>
+				<useGenderedBodies>false</useGenderedBodies>
 	      <bodyAddons>
 		    <li>
-		      <path>Things/Eldar/Heads/Ears/Eldar_Ears</path>
-			  <bodyPart>Head</bodyPart>
-			  <inFrontOfBody>false</inFrontOfBody>
-			  <layerOffset>-0.275</layerOffset>
+		      <path>Things/Eldar/Heads/Ears/EarL</path>
+			  <bodyPart>left ear</bodyPart>
+			  <inFrontOfBody>true</inFrontOfBody>
+			  <drawnInBed>true</drawnInBed>
+			  <layerOffset>-0.27</layerOffset>
 			  <offsets>
 				  <south>
 					<bodyTypes>
 						<Male>(-0.42,0.5)</Male>
 						<Female>(-0.42,0.5)</Female>
-						<Fat>(-0.42,0.5)</Fat>
-						<Thin>(-0.42,0.5)</Thin>
 					</bodyTypes>
 					<crownTypes>
 						<Average_Normal>(-0.0,0.0)</Average_Normal>
-						<Average_Narrow>(-0.0,0.0)</Average_Narrow>
-						<Average_Wide>(-0.0,0.0)</Average_Wide>
+						<Narrow_Normal>(0.0,0.0)</Narrow_Normal>
+						<Average_Wide>(0.02,0.0)</Average_Wide>
 						<Average_Pointy>(-0.0,0.0)</Average_Pointy>
 					</crownTypes>
 				  </south>
@@ -187,12 +190,10 @@
 					<bodyTypes>
 						<Male>(0,0.9)</Male>
 						<Female>(0,0.9)</Female>
-						<Fat>(0,0.9)</Fat>
-						<Thin>(0,0.9)</Thin>
 					</bodyTypes>
 					<crownTypes>
 						<Average_Normal>(0,0.0)</Average_Normal>
-						<Average_Narrow>(0,0.0)</Average_Narrow>
+						<Narrow_Normal>(0,0.0)</Narrow_Normal>
 						<Average_Wide>(0,0.0)</Average_Wide>
 						<Average_Pointy>(0,0.0)</Average_Pointy>
 					</crownTypes>
@@ -201,12 +202,10 @@
 					<bodyTypes>
 						<Male>(-0.48,0.5)</Male>
 						<Female>(-0.48,0.5)</Female>
-						<Fat>(-0.48,0.5)</Fat>
-						<Thin>(-0.48,0.5)</Thin>
 					</bodyTypes>
 					<crownTypes>
 						<Average_Normal>(-0.0,0.0)</Average_Normal>
-						<Average_Narrow>(-0.0,0.0)</Average_Narrow>
+						<Narrow_Normal>(-0.0,0.0)</Narrow_Normal>
 						<Average_Wide>(-0.0,0.0)</Average_Wide>
 						<Average_Pointy>(-0.0,0.0)</Average_Pointy>
 					</crownTypes>
@@ -215,6 +214,58 @@
 		      <useSkinColor>true</useSkinColor>
 			  <hiddenUnderApparelFor>
                 <li>FullHead</li>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+		    </li>
+		    <li>
+		      <path>Things/Eldar/Heads/Ears/EarR</path>
+			  <bodyPart>right ear</bodyPart>
+			  <inFrontOfBody>true</inFrontOfBody>
+			  <drawnInBed>true</drawnInBed>
+			  <layerOffset>-0.27</layerOffset>
+			  <offsets>
+				  <south>
+					<bodyTypes>
+						<Male>(-0.42,0.5)</Male>
+						<Female>(-0.42,0.5)</Female>
+					</bodyTypes>
+					<crownTypes>
+						<Average_Normal>(-0.0,0.0)</Average_Normal>
+						<Female_Narrow_Normal>(0.01,0.0)</Female_Narrow_Normal>
+						<Narrow_Normal>(0.02,0.0)</Narrow_Normal>
+						<Average_Wide>(-0.01,0.0)</Average_Wide>
+						<Average_Pointy>(-0.0,0.0)</Average_Pointy>
+					</crownTypes>
+				  </south>
+				  <north>
+					<bodyTypes>
+						<Male>(0,0.9)</Male>
+						<Female>(0,0.9)</Female>
+					</bodyTypes>
+					<crownTypes>
+						<Average_Normal>(-0.0,0.0)</Average_Normal>
+						<Narrow_Normal>(-0.0,0.0)</Narrow_Normal>
+						<Average_Wide>(-0.0,0.0)</Average_Wide>
+						<Average_Pointy>(-0.0,0.0)</Average_Pointy>
+					</crownTypes>
+				  </north>
+				  <east>
+					<bodyTypes>
+						<Male>(-0.48,0.5)</Male>
+						<Female>(-0.48,0.5)</Female>
+					</bodyTypes>
+					<crownTypes>
+						<Average_Normal>(-0.0,0.0)</Average_Normal>
+						<Narrow_Normal>(-0.0,0.0)</Narrow_Normal>
+						<Average_Wide>(-0.0,0.0)</Average_Wide>
+						<Average_Pointy>(-0.0,0.0)</Average_Pointy>
+					</crownTypes>
+				  </east>
+			  </offsets>
+		      <useSkinColor>true</useSkinColor>
+			  <hiddenUnderApparelFor>
+                <li>FullHead</li>
+                <li>UpperHead</li>
               </hiddenUnderApparelFor>
 		    </li>
 		  </bodyAddons>
@@ -286,16 +337,116 @@
 		    </chemicalSettings>
             <humanRecipeImport>true</humanRecipeImport>
 		   <notXenophobistTowards>
-			<!--
-              <li>Alien</li>
-			-->
+              <li>OG_Alien_Eldar</li>
+              <li>Alien_Eldar</li>
            </notXenophobistTowards>
+		<factionRelations>
+                <li>
+                    <factions>
+                       <li>OG_Ork_Tek_Faction</li>
+                       <li>OrkFaction</li>
+                       <li>OG_Ork_Feral_Faction</li>
+                       <li>FeralOrkFaction</li>
+					   <li>OG_Ork_Player</li>
+					   <li>OG_Ork_Feral_Player</li>
+                    </factions>
+                    <goodwill>
+                       <min>-100</min>
+                       <max>-75</max>
+                    </goodwill>
+                </li>
+				<li>
+                    <factions>
+					   <li>PlayerColony</li>
+					   <li>PlayerTribe</li>
+                    </factions>
+                    <goodwill>
+                       <min>-100</min>
+                       <max>10</max>
+                    </goodwill>
+                </li>
+				<li>
+                    <factions>
+                       <li>OG_Eldar_Craftworld_Faction</li>
+                       <li>OG_Eldar_Exodite_Faction</li>
+                       <li>OG_Eldar_Harlequin_Faction</li>
+                       <li>EldarFaction</li>
+                       <li>OG_Eldar_Craftworld_PlayerColony</li>
+                       <li>OG_Eldar_Exodite_PlayerColony</li>
+                       <li>OG_Eldar_Harlequin_PlayerColony</li>
+					   <li>EldarPlayerColony</li>
+                    </factions>
+                    <goodwill>
+                       <min>-30</min>
+                       <max>100</max>
+                    </goodwill>
+                </li>
+				<li>
+                    <factions>
+                       <li>OG_DarkEldar_Faction</li>
+					   <li>OG_DarkEldar_PlayerColony</li>
+					   <li>OG_Necron_PlayerColony</li>
+					   <li>OG_Necron_Faction</li>
+					   <li>NecronFaction</li>
+					   <li>OG_Ork_Hulk</li>
+					   <li>HulkOrkz</li>
+					   <li>OG_Ork_Rok</li>
+					   <li>RokOrkz</li>
+					   <li>OG_Tyranid_Faction</li>
+					   <li>OG_Chaos_Deamon_Faction</li>
+                    </factions>
+                    <goodwill>
+                       <min>-100</min>
+                       <max>-100</max>
+                    </goodwill>
+                </li>
+				<li>
+                    <factions>
+                       <li>OG_Tau_Faction</li>
+                       <li>TauFaction</li>
+					   <li>OG_Tau_Player</li>
+					   <li>TauPlayerColony</li>
+                       <li>OG_Kroot_Faction</li>
+                       <li>KrootFaction</li>
+					   <li>OG_Kroot_PlayerColony</li>
+					   <li>OG_Kroot_Player_Tribal</li>
+					   <li>KrootPlayerColony</li>
+					   <li>KrootPlayerColonyTribal</li>
+                       <li>OG_Vespid_Faction</li>
+					   <li>OG_Vespid_PlayerColony</li>
+                    </factions>
+                    <goodwill>
+                       <min>-100</min>
+                       <max>25</max>
+                    </goodwill>
+                </li>  
+				<li>
+                    <factions>
+                       <li>ImperialMechanicusFaction</li>
+					   <li>OG_Mechanicus_Faction</li>
+					   <li>OG_Mechanicus_PlayerColony</li>
+					   <li>OG_Militarum_PlayerColony</li>
+                       <li>OG_Militarum_Cadian_Faction</li>
+                       <li>ImperialAstartesFaction</li>
+					   <li>ImperialAstartesPlayerColony</li>
+                    </factions>
+                    <goodwill>
+                       <min>-100</min>
+                       <max>25</max>
+                    </goodwill>
+                </li>
+		</factionRelations>
         </generalSettings>
         <graphicPaths>
+            <li>
+                <head>Things/Eldar/Heads/</head>
+            </li>
+			<!--
             <li>
                 <body>Things/Eldar/Bodies/</body>
                 <head>Things/Eldar/Heads/</head>
             </li>
+			-->
         </graphicPaths>
         <hairSettings>
             <hasHair>true</hasHair>
@@ -349,6 +500,12 @@
                 </li>
             </researchList>
 			<apparelList>
+                <li>OGE_Apparel_BansheeArmour</li>
+                <li>OGE_Apparel_BansheeArmourHelmet</li>
+                <li>OGE_Apparel_RuneArmourWarlock</li>
+                <li>OGE_Apparel_WarlockHelmet</li>
+                <li>OGE_Apparel_RuneArmourFarseer</li>
+                <li>OGE_Apparel_Ghosthelm</li>
 				<li>OGE_Apparel_RuneWarding</li>
 				<li>OGE_Apparel_RuneWrath</li>
 				<li>OGE_Apparel_RuneFortune</li>
@@ -356,11 +513,16 @@
             <recipeList>
                 <li>OGE_Apparel_MeshArmour</li>
                 <li>OGE_Apparel_MeshArmourHelmet</li>
+                <li>OGE_Apparel_DireAvengerArmour</li>
+                <li>OGE_Apparel_DireAvengerHelmet</li>
                 <li>OGE_Apparel_RangerArmour</li>
                 <li>OGE_Apparel_RangerArmourHelmet</li>
                 <li>OGE_Apparel_BansheeArmour</li>
                 <li>OGE_Apparel_BansheeArmourHelmet</li>
+                <li>OGE_Apparel_RuneArmourWarlock</li>
                 <li>OGE_Apparel_WarlockHelmet</li>
+                <li>OGE_Apparel_RuneArmourFarseer</li>
+                <li>OGE_Apparel_Ghosthelm</li>
                 <li>OGE_Apparel_RuneWarding</li>
                 <li>OGE_Apparel_RuneWrath</li>
                 <li>OGE_Apparel_RuneFortune</li>
@@ -486,7 +648,7 @@
       <leatherDef>Leather_Eldar</leatherDef>
       <nameGenerator>NamerOGEldarPawns</nameGenerator>
       <body>Human</body>
-      <bloodDef>FilthBloodEldar</bloodDef>	
+      <bloodDef>OG_FilthBlood_Eldar</bloodDef>	
       <meatColor>(200,135,100)</meatColor>
       <baseBodySize>0.95</baseBodySize>
       <baseHealthScale>0.95</baseHealthScale>
@@ -571,9 +733,17 @@
     </recipes>
 </AlienRace.ThingDef_AlienRace>
 
+<AlienRace.ThingDef_AlienRace ParentName="OG_Eldar_Race">
+    <defName>OG_Alien_Eldar</defName>
+</AlienRace.ThingDef_AlienRace>
+
+<AlienRace.ThingDef_AlienRace ParentName="OG_Eldar_Race">
+    <defName>Alien_Eldar</defName>
+</AlienRace.ThingDef_AlienRace>
+
   <!-- ============================ Wraithguard ========================== -->
   <!--
-  <AlienRace.ThingDef_AlienRace ParentName="BaseEldarPawn">
+  <AlienRace.ThingDef_AlienRace ParentName="OG_Eldar_Pawn_Base">
     <defName>Alien_Wraithguard</defName>
     <label>Wraithguard</label>
     <description>The Eldar Wraithguard are not living warriors; they are artificial robotic constructs created from the complex psycho-plastic material crafted by the Eldar of the Craftworlds known as Wraithbone. Each Wraithguard has a Spirit Stone containing the soul of an elite Eldar warrior that was drawn out of the Infinity Circuit of a Craftworld.</description>
@@ -840,7 +1010,7 @@
       <leatherDef>Leather_Kroot</leatherDef>
       <nameGenerator>NamerPersonKroot</nameGenerator>
       <body>Human</body>
-      <bloodDef>FilthBloodKroot</bloodDef>	
+      <bloodDef>OG_FilthBlood_Kroot</bloodDef>	
       <meatColor>(0, 0, 128)</meatColor>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>1.05</baseHealthScale>
@@ -925,10 +1095,4 @@
 </AlienRace.ThingDef_AlienRace>
   -->
 
-  <!-- ============================ Faction Leader ========================== -->
-  <!--
-  <AlienRace.ThingDef_AlienRace ParentName="BaseEldar">
-    <defName>Alien_EldarFarseer</defName>
-  </AlienRace.ThingDef_AlienRace>
-  -->
 </Defs>

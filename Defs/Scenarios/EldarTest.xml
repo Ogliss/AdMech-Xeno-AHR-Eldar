@@ -2,14 +2,14 @@
 <Defs>
 
 	<ScenarioDef>
-	<defName>EldarScenarioTest</defName>
+	<defName>OG_Eldar_Craftworld_Scenario_Test</defName>
 		<label>Eldar Survivors</label>
 		<description>When your freighter was attacked by pirates, you knew you had to take your chances in the escape pods, or be ransomed to slavery...</description>
 <scenario>
 <summary>Five escaped Eldar attempt to build a colony. Difficult.</summary>
 		<playerFaction>
 			<def>PlayerFaction</def>
-			<factionDef>EldarPlayerColony</factionDef>
+			<factionDef>OG_Eldar_Player_Craftworld</factionDef>
 		</playerFaction>
 		<parts>
 			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
@@ -118,13 +118,13 @@
 			<!-- 
 			<li Class="ScenPart_StartingAnimal">
 				<def>StartingAnimal</def>
-				<animalKind>EldarWraithGuardR</animalKind>
+				<animalKind>OG_Eldar_Wraithguard</animalKind>
 				<count>3</count>
 				<bondToRandomPlayerPawnChance>1</bondToRandomPlayerPawnChance>
 			</li>
 			<li Class="ScenPart_StartingAnimal">
 				<def>StartingAnimal</def>
-				<animalKind>EldarWraithGuardM</animalKind>
+				<animalKind>OG_Eldar_Wraithblade</animalKind>
 				<count>3</count>
 				<bondToRandomPlayerPawnChance>1</bondToRandomPlayerPawnChance>
 			</li>

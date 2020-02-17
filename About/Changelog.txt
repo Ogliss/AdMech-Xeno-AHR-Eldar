@@ -1,0 +1,9 @@
+22/12/2019 
+Finally started a changelog.
+Temp restriction Aspect Armour to Eldar Only.
+Retexured Wrathguard, Mesh Armour, Guardian Helmet, Ranger Armour, Ranger Helmet, Banshee Armour.
+Added Apparel (Rune Armour (Warlock & Farseer Variants, Psychic Shield), Ghost Helm, Warlock Helmet, Dire Avenger Armour, Dire Avenger Helmet)
+
+
+
+Probobly a bunch of other crap i cant remember too.

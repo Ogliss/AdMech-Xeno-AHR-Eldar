@@ -7,7 +7,7 @@
       <xpath>Defs/ResearchTabDef[defName="CE_Turrets"]</xpath>
     </li>
     <li Class="PatchOperationTest">
-      <xpath>Defs/ThingDef[@Name="BaseEldarPawn"]/statBases/MeleeParryChance</xpath>
+      <xpath>Defs/ThingDef[@Name="OG_Eldar_Pawn_Base"]/statBases/MeleeParryChance</xpath>
 		<success>Invert</success>
     </li>
 

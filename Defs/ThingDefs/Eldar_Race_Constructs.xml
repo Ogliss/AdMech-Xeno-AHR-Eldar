@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!-- Eldar Construct Base Abstract -->
-<!-- Race -->
-  <ThingDef ParentName="BasePawn" Name="BaseEldarConstruct" Abstract="True">
+<!-- Eldar Base Abstract -->
+  <ThingDef ParentName="BasePawn" Name="OG_Eldar_Wraithconstruct_Pawn_Base" Abstract="True">
+  <defName>OG_Eldar_Wraithconstruct</defName>
+    <label>Eldar Construct Race</label>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <statBases>
       <PsychicSensitivity>+0.5</PsychicSensitivity>
@@ -13,22 +14,26 @@
       <MeatAmount>0</MeatAmount>
     </statBases>
     <race>
-      <fleshType>EldarConstruct</fleshType>
+      <body>Human</body>
+      <fleshType>OG_Flesh_Construct_Eldar</fleshType>
 	  <useMeatFrom>Mech_Centipede</useMeatFrom>
       <needsRest>false</needsRest>
       <hasGenders>false</hasGenders>
       <foodType>None</foodType>
       <lifeExpectancy>99999</lifeExpectancy>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <trainability>Advanced</trainability>
     </race>
   </ThingDef>
-  
+
   <!-- Walker (Wraithguard/wraithblade/wraithknight/wraithlord) base -->
-  <ThingDef ParentName="BaseEldarConstruct" Name="BaseEldarWalker" Abstract="True">
+  <ThingDef ParentName="OG_Eldar_Wraithconstruct_Pawn_Base" Name="OG_Eldar_Wraithconstruct_Walker" Abstract="True">
     <race>
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <baseBodySize>1.0</baseBodySize>
-      <trainability>Advanced</trainability>
       <lifeStageAges>
         <li>
           <def>MechanoidFullyFormed</def>
@@ -44,16 +49,16 @@
       </soundCallIntervalRange>
     </race>
     <butcherProducts>
-      <OGE_Wraithbone>20</OGE_Wraithbone>
-      <OGE_Component>5</OGE_Component>
-      <OGE_SpiritStone>1</OGE_SpiritStone>
+      <Steel>20</Steel>
+      <Plasteel>5</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </butcherProducts>
   </ThingDef>
-  
-<!-- Eldar Wraith Guard -->
-
-  <ThingDef ParentName="BaseEldarWalker">
-    <defName>Eldar_WraithGuard</defName>
+ 
+<!-- Eldar Wraithguard/Wraithblade -->
+<!-- Base -->
+  <ThingDef ParentName="OG_Eldar_Wraithconstruct_Walker">
+    <defName>OG_Eldar_Wraithguard_Race</defName>
     <label>wraithguard</label>
     <description>The Eldar Wraithguard are not living warriors; they are artificial robotic constructs created from the complex psycho-plastic material crafted by the Eldar of the Craftworlds known as Wraithbone. Each Wraithguard has a Spirit Stone containing the soul of an elite Eldar warrior that was drawn out of the Infinity Circuit of a Craftworld. Wraithguard are smaller in size than Wraithlords, and carry a weapon known as a Wraithcannon which is a short-range, but potent weapon capable of opening a small rift into the Warp which sucks the target, or pieces of the target, within the Immaterium. When used against infantrymen, the result is invariably fatal. Due to their Wraithbone construction, Wraithguards can suffer damage that would cripple, or even kill, a living Eldar warrior and still continue to fight, making them useful in situations that would be suicide for living soldiers. They see through the Warp using what is known as "Wraithsight" but as the Warp is a tumultuous place, Wraithguards often have trouble discerning the true nature of realspace and so can find themselves blinded and unable to function effectively. Because of this tendency Wraithguard are often led into battle by Warlocks who help to guide them.</description>
     <statBases>
@@ -95,74 +100,21 @@
       </li>
     </tools>
     <race>
-      <body>EldarConstruct</body>
+      <body>OG_Eldar_ConstructBody</body>
       <baseBodySize>1.5</baseBodySize>
       <baseHealthScale>3</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
     </race>
+	<!-- <tickerType>Normal</tickerType> -->
+	<comps>
+	  <li Class="CompSlotLoadable.CompProperties_SlotLoadable">
+		<slots>
+			<li>OG_SlotLoadable_SoulStone</li>
+		</slots>
+	  </li>
+	</comps>
   </ThingDef>
-<!-- Pawnkind -->
-    <PawnKindDef Name="BaseEldarConstructKind" Abstract="True">
-    <defaultFactionType>EldarFaction</defaultFactionType>
-    <aiAvoidCover>false</aiAvoidCover>
-    <destroyGearOnDrop>false</destroyGearOnDrop>
-  </PawnKindDef> 
-  
-  <!-- Melee -->
-  <PawnKindDef ParentName="BaseEldarConstructKind">
-    <defName>EldarWraithGuardM</defName>
-    <label>wraithblade</label>
-    <race>Eldar_WraithGuard</race>
-    <combatPower>150</combatPower>
 
-    <lifeStages>
-      <li>
-        <bodyGraphicData>
-          <texPath>Pawn/EldarWraithGuard</texPath>
-          <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>2</drawSize>
-          <shadowData>
-            <volume>(0.4, 0.8, 0.4)</volume>
-          </shadowData>
-        </bodyGraphicData>
-      </li>
-    </lifeStages>
-    <weaponMoney>
-      <min>9999</min>
-      <max>9999</max>
-    </weaponMoney>
-    <weaponTags>
-      <li>EGhostMelee</li>
-    </weaponTags>
-  </PawnKindDef>  
-<!-- Ranged -->
-  <PawnKindDef ParentName="BaseEldarConstructKind">
-    <defName>EldarWraithGuardR</defName>
-    <label>wraithguard</label>
-    <race>Eldar_WraithGuard</race>
-    <combatPower>150</combatPower>
-
-    <lifeStages>
-      <li>
-        <bodyGraphicData>
-          <texPath>Pawn/EldarWraithGuard</texPath>
-          <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>2</drawSize>
-          <shadowData>
-            <volume>(0.4, 0.8, 0.4)</volume>
-          </shadowData>
-        </bodyGraphicData>
-      </li>
-    </lifeStages>
-    <weaponMoney>
-      <min>9999</min>
-      <max>9999</max>
-    </weaponMoney>
-    <weaponTags>
-      <li>EWraithcannon</li>
-    </weaponTags>
-  </PawnKindDef>  
-  
 </Defs>

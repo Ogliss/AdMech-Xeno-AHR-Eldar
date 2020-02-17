@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationSequence">
+  <operations>
+  
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ScenarioDef[defName = "OG_WeaponsTest_Eldar"]/scenario/parts</xpath>
+                <success>Always</success>
+                <match Class="PatchOperationAdd">
+                    <success>Always</success>
+                    <xpath>Defs/ScenarioDef[defName = "OG_WeaponsTest_Eldar"]/scenario/parts</xpath>
+                    <value>
+						<!-- Eldar Apparel -->
+						<li Class="ScenPart_StartingThing_Defined">
+						  <def>StartingThing_Defined</def>
+						  <thingDef>OGE_Apparel_MeshArmour</thingDef>
+						</li>
+						<li Class="ScenPart_StartingThing_Defined">
+						  <def>StartingThing_Defined</def>
+						  <thingDef>OGE_Apparel_MeshArmourHelmet</thingDef>
+						</li>
+						<li Class="ScenPart_StartingThing_Defined">
+						  <def>StartingThing_Defined</def>
+						  <thingDef>OGE_Apparel_DireAvengerArmour</thingDef>
+						</li>
+						<li Class="ScenPart_StartingThing_Defined">
+						  <def>StartingThing_Defined</def>
+						  <thingDef>OGE_Apparel_DireAvengerHelmet</thingDef>
+						</li>
+						
+						<li Class="ScenPart_StartingThing_Defined">
+						  <def>StartingThing_Defined</def>
+						  <thingDef>OGE_Apparel_RangerArmour</thingDef>
+						</li>
+						<li Class="ScenPart_StartingThing_Defined">
+						  <def>StartingThing_Defined</def>
+						  <thingDef>OGE_Apparel_RangerArmourHelmet</thingDef>
+						</li>
+						
+						<li Class="ScenPart_StartingThing_Defined">
+						  <def>StartingThing_Defined</def>
+						  <thingDef>OGE_Apparel_BansheeArmour</thingDef>
+						</li>
+						<li Class="ScenPart_StartingThing_Defined">
+						  <def>StartingThing_Defined</def>
+						  <thingDef>OGE_Apparel_BansheeArmourHelmet</thingDef>
+						</li>
+						
+						<li Class="ScenPart_StartingThing_Defined">
+						  <def>StartingThing_Defined</def>
+						  <thingDef>OGE_Apparel_RuneArmourWarlock</thingDef>
+						</li>
+						<li Class="ScenPart_StartingThing_Defined">
+						  <def>StartingThing_Defined</def>
+						  <thingDef>OGE_Apparel_WarlockHelmet</thingDef>
+						</li>
+						
+						<li Class="ScenPart_StartingThing_Defined">
+						  <def>StartingThing_Defined</def>
+						  <thingDef>OGE_Apparel_RuneArmourFarseer</thingDef>
+						</li>
+						<li Class="ScenPart_StartingThing_Defined">
+						  <def>StartingThing_Defined</def>
+						  <thingDef>OGE_Apparel_Ghosthelm</thingDef>
+						</li>
+						
+						<!-- Eldar Wargear -->
+						<li Class="ScenPart_StartingThing_Defined">
+							<def>StartingThing_Defined</def>
+							<thingDef>OGE_Apparel_RuneWarding</thingDef>
+						</li>
+						<li Class="ScenPart_StartingThing_Defined">
+							<def>StartingThing_Defined</def>
+							<thingDef>OGE_Apparel_RuneWrath</thingDef>
+						</li>
+						<li Class="ScenPart_StartingThing_Defined">
+							<def>StartingThing_Defined</def>
+							<thingDef>OGE_Apparel_RuneFortune</thingDef>
+						</li>
+                    </value>
+                </match>
+            </li>
+	
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ScenarioDef[defName = "OG_WeaponsTest_Eldar"]/scenario/playerFaction/factionDef</xpath>
+                <success>Always</success>
+                <match Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ScenarioDef[defName = "OG_WeaponsTest_Eldar"]/scenario/playerFaction/factionDef</xpath>
+                    <value>
+						<factionDef>OG_Eldar_Player_Craftworld</factionDef>
+                    </value>
+                </match>
+            </li>
+	
+  </operations>
+</Operation>
+
+</Patch>

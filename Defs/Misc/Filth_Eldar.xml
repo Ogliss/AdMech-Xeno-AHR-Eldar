@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="BaseFilth">
-    <defName>FilthBloodEldar</defName>
+    <defName>OG_FilthBlood_Eldar</defName>
     <label>blood</label>
     <statBases>
       <Beauty>-14</Beauty>
