@@ -21,9 +21,14 @@
     <factionNameMaker>NamerOGEldarFaction</factionNameMaker>
     <settlementNameMaker>NamerOGEldarBases</settlementNameMaker>
     <techLevel>Spacer</techLevel>
-    <backstoryCategories>
-		<li>Eldar_Craftworld</li>
-    </backstoryCategories>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Eldar_Craftworld</li>
+        </categories>
+        <commonality>0.95</commonality>
+      </li>
+    </backstoryFilters>
     <hairTags>
 		<li>Civil</li>
 		<li>Raider</li>
@@ -185,12 +190,12 @@
   <FactionDef ParentName="OG_Eldar_Faction_Base">
     <defName>OG_Eldar_Craftworld_Faction</defName>
 	<label>craftworld eldar strike force</label>
-	<homeIconPath>Icons/Icon_Eldar_Craftworld</homeIconPath>
-	<expandingIconTexture>Icons/Icon_Eldar_Craftworld</expandingIconTexture>
+	<factionIconPath>Icons/Icon_Eldar_Craftworld</factionIconPath>
+	<settlementTexturePath>Icons/Icon_Eldar_Craftworld</settlementTexturePath>
     <colorSpectrum>
       <li>(0.35, 0.30, 0.60)</li>
       <li>(0.45, 0.40, 0.90)</li>
     </colorSpectrum>
   </FactionDef>
-  
+
 </Defs>

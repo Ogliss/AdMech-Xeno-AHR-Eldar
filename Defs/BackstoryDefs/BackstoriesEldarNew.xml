@@ -54,8 +54,17 @@
 
     </disallowedTraits>
 	<forcedTraits>
-	
-    </forcedTraits>
+		<li>
+			<defName>PsychicSensitivity</defName>
+			<degree>2</degree>
+			<chance>50</chance>
+		</li>
+		<li>
+			<defName>PsychicSensitivity</defName>
+			<degree>1</degree>
+			<chance>100</chance>
+		</li>
+	</forcedTraits>
     <skillGains>
 	
     </skillGains>
@@ -191,7 +200,7 @@
   <AlienRace.BackstoryDef ParentName="Eldar_Base_Child">
     <defName>Eldar_Craftworld_Child</defName>
     <title>Craftworlder</title>
-	<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life.</baseDescription>
+	<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life. [PAWN_pronoun] showed signifcant Psychic potiential, even for one of the [PAWN_alienRace].</baseDescription>
 	<maleCommonality>0.5</maleCommonality>
     <femaleCommonality>0.5</femaleCommonality>
     <skillGains>
@@ -225,7 +234,7 @@
   <AlienRace.BackstoryDef ParentName="Eldar_Psyker_Child">
     <defName>Eldar_Craftworld_Psyker_Child</defName>
     <title>Craftworlder</title>
-	<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life.</baseDescription>
+	<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life. </baseDescription>
 	<maleCommonality>0.15</maleCommonality>
     <femaleCommonality>0.15</femaleCommonality>
     <skillGains>
@@ -419,6 +428,7 @@
       </li>
     </skillGains>
     <spawnCategories>
+      <li>Eldar_Craftworld</li>
       <li>Eldar_Craftworld_Civilian</li>
       <li>Eldar_Craftworld_Warrior_GuardianDefender</li>
       <li>Eldar_Craftworld_Warrior_GuardianStorm</li>
@@ -561,7 +571,7 @@
     <defName>Eldar_Base_Builder</defName>
     <title>Path of the Shaper</title>
     <titleShort>Bonesinger</titleShort>
-	<linkedBackstory>Eldar_Craftworld_Child</linkedBackstory>
+	<linkedBackstory>Eldar_Craftworld_Psyker_Child</linkedBackstory>
     <baseDescription>[PAWN_nameDef] is a Bonesinger serves as a psychic engineer and craftsman for the Craftworld Aeldari, the Asuryani. The Bonesingers are the builders and maintainers of all Aeldari weapons, tools and even the Craftworlds themselves. These powerful xenos psykers are gifted in the arts of construction using the solidified power of the Warp. They use their telepathic ability to summon or psychically generate the solidified substance of the Immaterium the Aeldari call Wraithbone, which they construct into buildings or tools and use to repair the Aeldari's vehicles, weapons and armour.
 
 Like all of their kind, the Bonesingers are following one of the many Asuryani Paths that determines their current focus and purpose in life. The Bonesinger's Path, the Path of Shaping, is closely related to both the Path of the Artisan and the Path of the Seer. During his or her time on the Path of Shaping, the Bonesinger is tasked with the construction and maintenance of Craftworld structures, weapons and machinery.</baseDescription>
@@ -574,7 +584,8 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
       </li>
     </skillGains>
     <spawnCategories>
-      <li>Eldar_Standard</li>
+      <li>Eldar_Craftworld_Psyker</li>
+      <li>Eldar_Craftworld_Psyker_Bonesinger</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
 
@@ -632,7 +643,7 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     </skillGains>
     <spawnCategories>
       <li>Eldar</li>
-      <li>Eldar_Standard</li>
+      <li>Eldar_Craftworld</li>
       <li>Eldar_Craftworld_Warrior</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
@@ -1449,7 +1460,7 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
 		<li>
 			<defName>PsychicSensitivity</defName>
 			<degree>1</degree>
-			<chance>25</chance>
+			<chance>100</chance>
 		</li>
 	</forcedTraits>
 	<skillGains>

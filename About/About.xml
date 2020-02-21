@@ -12,6 +12,7 @@
    </supportedGameVersions>
    <packageId>Ogliss.AdMech.Xenobiologis.Eldar</packageId>
    -->
+   <packageId>Ogliss.AdMech.Xenobiologis.Eldar</packageId>
 	<description>V1.5
 	Adds plyable WH40k Eldar
 	Requires new start or a faction manager mod to have faction bases on the world map.
