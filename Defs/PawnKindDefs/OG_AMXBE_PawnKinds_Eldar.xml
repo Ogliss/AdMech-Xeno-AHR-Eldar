@@ -2,7 +2,7 @@
 <Defs>
   <!-- ============================ Eldar Base ========================== -->
   <PawnKindDef Name="EldarBase" Abstract="True">
-    <defaultFactionType>EldarFaction</defaultFactionType>
+    <defaultFactionType>OG_Eldar_Craftworld_Faction</defaultFactionType>
 	<race>Alien_Eldar</race>
 
     <chemicalAddictionChance>0.015</chemicalAddictionChance>
