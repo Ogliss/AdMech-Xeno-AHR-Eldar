@@ -76,7 +76,7 @@
 			<effectWorking>Smith</effectWorking>
 			<soundWorking>Recipe_Machining</soundWorking>
 			<recipeUsers>
-				<li>OGE_TableMachining</li>
+				<li>OG_Eldar_TableMachining</li>
 			</recipeUsers>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<researchPrerequisite>EldarTechBase</researchPrerequisite>
@@ -130,7 +130,7 @@
 			<effectWorking>Smith</effectWorking>
 			<soundWorking>Recipe_Machining</soundWorking>
 			<recipeUsers>
-				<li>OGE_TableMachining</li>
+				<li>OG_Eldar_TableMachining</li>
 			</recipeUsers>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<researchPrerequisite>EldarTechBase</researchPrerequisite>

@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="BenchBase">
-    <defName>OGE_TableMachining</defName>
+    <defName>OG_Eldar_TableMachining</defName>
     <label>Eldar crafting supplies</label>
     <description>An eldar work station for assembling or breaking down machinery like components, armour, guns and ammunition, or dead mechanoids.</description>
     <thingClass>Building_WorkTable</thingClass>

@@ -556,7 +556,7 @@
                 <li>OGE_Gun_HaywireCannon</li>
             </recipeList>
 			<buildingList>
-                <li>OGE_TableMachining</li>
+                <li>OG_Eldar_TableMachining</li>
             </buildingList>
         </raceRestriction>
     </alienRace>
