@@ -58,11 +58,20 @@
 		<parent>OGESub</parent>
 	</ThingCategoryDef>
 	
-    <ThingCategoryDef>
-      <defName>CorpsesEldarConstruct</defName>
-      <label>eldar construct corpses</label>
-      <parent>Corpses</parent>
-    </ThingCategoryDef>
+	<!-- Eldar Corpse -->
+		<ThingCategoryDef>
+		  <defName>OG_Corpses_Eldar</defName>
+		  <label>eldar corpses</label>
+		  <parent>CorpsesHumanlike</parent>
+		</ThingCategoryDef>
+		
+	<!-- Eldar Construct Corpse -->
+		<ThingCategoryDef>
+		  <defName>OG_Corpses_Eldar_Construct</defName>
+		  <label>eldar construct remains</label>
+		  <parent>CorpsesMechanoid</parent>
+		</ThingCategoryDef>
+		
 
 	<!-- ========================= Adeptus Mechanicus - Dark Eldar Gear Catagories ========================== -->
 	<!-- ========================= Adeptus Mechanicus - Dark Eldar Weapon Catagories ========================== -->
