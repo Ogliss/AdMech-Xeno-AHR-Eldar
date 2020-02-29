@@ -24,24 +24,12 @@
     <backstoryFiltersOverride>
       <li>
         <categories>
-		  <li>Eldar_Craftworld</li>
-		  <li>Eldar_Craftworld_Civilian</li>
-		  <li>Eldar_Craftworld_Psyker</li>
+          <li>Eldar_Craftworld</li>
         </categories>
-      </li>
-    </backstoryFiltersOverride>
-	-->
-    <backstoryFilters>
-      <li>
-        <categories>
-          <li>Eldar_Craftworld_Child</li>
-          <li>Eldar_Craftworld_Civilian</li>
-        </categories>
-        <commonality>0.95</commonality>
+        <commonality>1</commonality>
       </li>
       <li>
         <categories>
-          <li>Eldar_Craftworld_Child</li>
           <li>Eldar_Craftworld_Warrior</li>
         </categories>
         <commonality>0.5</commonality>
@@ -52,7 +40,8 @@
         </categories>
         <commonality>0.25</commonality>
       </li>
-    </backstoryFilters>
+    </backstoryFiltersOverride>
+	-->
   </PawnKindDef>
 
   <PawnKindDef ParentName="BaseEldarPawnKind">
@@ -67,6 +56,26 @@
       <min>500</min>
       <max>1200</max>
     </apparelMoney>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Eldar_Craftworld</li>
+        </categories>
+        <commonality>1</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Eldar_Craftworld_Warrior</li>
+        </categories>
+        <commonality>0.5</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Eldar_Craftworld_Psyker</li>
+        </categories>
+        <commonality>0.25</commonality>
+      </li>
+    </backstoryFiltersOverride>
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
   </PawnKindDef>
 </Defs>

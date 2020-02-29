@@ -96,7 +96,6 @@
       <li>Advanced</li>
     </techHediffsTags>
 	<backstoryCategories>
-      <li>Eldar_Craftworld_Psyker_Child</li>
       <li>Eldar_Craftworld_Psyker_Farseer</li>
   	</backstoryCategories>
 	<minGenerationAge>8000</minGenerationAge>
@@ -139,7 +138,6 @@
       <li>Advanced</li>
     </techHediffsTags>
 	<backstoryCategories>
-      <li>Eldar_Craftworld_Child</li>
       <li>Eldar_Craftworld_Command</li>
   	</backstoryCategories>
 	<minGenerationAge>3000</minGenerationAge>
@@ -658,7 +656,6 @@
     <label>Farseer</label>
     <combatPower>250</combatPower>
 	<backstoryCategories>
-      <li>Eldar_Craftworld_Psyker_Child</li>
       <li>Eldar_Craftworld_Psyker_Farseer</li>
   	</backstoryCategories>
     <gearHealthRange>
@@ -723,7 +720,6 @@
     <label>Autarch</label>
     <combatPower>150</combatPower>
 	<backstoryCategories>
-      <li>Eldar_Craftworld_Child</li>
       <li>Eldar_Craftworld_Command</li>
   	</backstoryCategories>
     <gearHealthRange>

@@ -73,7 +73,7 @@
     </spawnCategories>
   </AlienRace.BackstoryDef>
   
-  <!-- Baseline Child -->
+  <!-- Eldar Childhoods -->
   <!-- Eldar_Base_Child -->
   <AlienRace.BackstoryDef Name="Eldar_Base_Child" ParentName="Eldar_Standard_Backstory" Abstract="true">
     <defName>Eldar_Base_Child</defName>
@@ -94,9 +94,7 @@
 	
     </skillGains>
     <spawnCategories>
-      <li>Eldar_Command</li>
-      <li>Eldar_Warrior</li>
-      <li>Eldar_Young</li>
+	
     </spawnCategories>
   </AlienRace.BackstoryDef>
   
@@ -121,12 +119,11 @@
 	
     </skillGains>
     <spawnCategories>
-      <li>Eldar_Command</li>
-      <li>Eldar_Pskyer</li>
-      <li>Eldar_Young</li>
+	
     </spawnCategories>
   </AlienRace.BackstoryDef>
  
+  <!-- Exodite Childhoods -->
   <!-- Exodite Child -->
   <!-- Eldar_Exodite_Child -->
   <AlienRace.BackstoryDef ParentName="Eldar_Base_Child">
@@ -158,7 +155,6 @@
     </forcedHediffs>
     <spawnCategories Inherit="true">
       <li>Eldar_Exodite</li>
-      <li>Eldar_Exodite_Child</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
    
@@ -192,10 +188,10 @@
     </forcedHediffs>
     <spawnCategories Inherit="true">
       <li>Eldar_Exodite_Psyker</li>
-      <li>Eldar_Exodite_Psyker_Child</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
    
+  <!-- Craftworld Childhoods -->
   <!-- Eldar_Craftworld_Child -->
   <AlienRace.BackstoryDef ParentName="Eldar_Base_Child">
     <defName>Eldar_Craftworld_Child</defName>
@@ -226,7 +222,30 @@
     </forcedHediffs>
     <spawnCategories Inherit="true">
       <li>Eldar_Craftworld</li>
-      <li>Eldar_Craftworld_Child</li>
+      <li>Eldar_Craftworld_Command</li>
+      <li>Eldar_Craftworld_Civilian</li>
+      <li>Eldar_Craftworld_Warrior</li>
+      <li>Eldar_Craftworld_Warrior_Guardian</li>
+      <li>Eldar_Craftworld_Warrior_GuardianDefender</li>
+      <li>Eldar_Craftworld_Warrior_GuardianStorm</li>
+      <li>Eldar_Craftworld_Warrior_Aspect</li>
+      <li>Eldar_Craftworld_Ranger</li>
+      <li>Eldar_Craftworld_Warrior_DireAvenger</li>
+      <li>Eldar_Craftworld_Exarch_DireAvenger</li>
+      <li>Eldar_Craftworld_Warrior_HowlingBanshee</li>
+      <li>Eldar_Craftworld_Exarch_HowlingBanshee</li>
+      <li>Eldar_Craftworld_Warrior_FireDragon</li>
+      <li>Eldar_Craftworld_Exarch_FireDragon</li>
+      <li>Eldar_Craftworld_Warrior_SwoopingHawk</li>
+      <li>Eldar_Craftworld_Exarch_SwoopingHawk</li>
+      <li>Eldar_Craftworld_Warrior_DarkReaper</li>
+      <li>Eldar_Craftworld_Exarch_DarkReaper</li>
+      <li>Eldar_Craftworld_Warrior_StrikingScorpion</li>
+      <li>Eldar_Craftworld_Exarch_StrikingScorpion</li>
+      <li>Eldar_Craftworld_Warrior_ShadowSpectre</li>
+      <li>Eldar_Craftworld_Exarch_ShadowSpectre</li>
+      <li>Eldar_Craftworld_Warrior_WarpSpider</li>
+      <li>Eldar_Craftworld_Exarch_WarpSpider</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
   
@@ -260,10 +279,15 @@
     </forcedHediffs>
     <spawnCategories Inherit="true">
       <li>Eldar_Craftworld_Psyker</li>
-      <li>Eldar_Craftworld_Psyker_Child</li>
+      <li>Eldar_Craftworld_Psyker_Farseer</li>
+      <li>Eldar_Craftworld_Psyker_Warlock</li>
+      <li>Eldar_Craftworld_Psyker_Spiritseer</li>
+      <li>Eldar_Craftworld_Psyker_Bonesinger</li>
+      <li>Eldar_Craftworld_Psyker_Healer</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
    
+  <!-- Harlequinn Childhoods -->
   <!-- Eldar_Harlequinn_Child -->
   <AlienRace.BackstoryDef ParentName="Eldar_Base_Child">
     <defName>Eldar_Harlequinn_Child</defName>
@@ -294,7 +318,6 @@
     </forcedHediffs>
     <spawnCategories Inherit="true">
       <li>Eldar_Harlequinn</li>
-      <li>Eldar_Harlequinn_Child</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
   
@@ -328,10 +351,10 @@
     </forcedHediffs>
     <spawnCategories Inherit="true">
       <li>Eldar_Harlequinn_Psyker</li>
-      <li>Eldar_Harlequinn_Psyker_Child</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
    
+  <!-- Outcast Childhoods -->
   <!-- Eldar_Outcast_Child -->
   <AlienRace.BackstoryDef ParentName="Eldar_Base_Child">
     <defName>Eldar_Outcast_Child</defName>
@@ -361,8 +384,31 @@
       <!-- <li>HyperactiveNymuneOrgan</li> -->
     </forcedHediffs>
     <spawnCategories Inherit="true">
-      <li>Eldar_Outcast</li>
-      <li>Eldar_Outcast_Child</li>
+      <li>Eldar_Craftworld_Outcast</li>
+      <li>Eldar_Craftworld_Command</li>
+      <li>Eldar_Craftworld_Civilian</li>
+      <li>Eldar_Craftworld_Warrior</li>
+      <li>Eldar_Craftworld_Warrior_Guardian</li>
+      <li>Eldar_Craftworld_Warrior_GuardianDefender</li>
+      <li>Eldar_Craftworld_Warrior_GuardianStorm</li>
+      <li>Eldar_Craftworld_Warrior_Aspect</li>
+      <li>Eldar_Craftworld_Ranger</li>
+      <li>Eldar_Craftworld_Warrior_DireAvenger</li>
+      <li>Eldar_Craftworld_Exarch_DireAvenger</li>
+      <li>Eldar_Craftworld_Warrior_HowlingBanshee</li>
+      <li>Eldar_Craftworld_Exarch_HowlingBanshee</li>
+      <li>Eldar_Craftworld_Warrior_FireDragon</li>
+      <li>Eldar_Craftworld_Exarch_FireDragon</li>
+      <li>Eldar_Craftworld_Warrior_SwoopingHawk</li>
+      <li>Eldar_Craftworld_Exarch_SwoopingHawk</li>
+      <li>Eldar_Craftworld_Warrior_DarkReaper</li>
+      <li>Eldar_Craftworld_Exarch_DarkReaper</li>
+      <li>Eldar_Craftworld_Warrior_StrikingScorpion</li>
+      <li>Eldar_Craftworld_Exarch_StrikingScorpion</li>
+      <li>Eldar_Craftworld_Warrior_ShadowSpectre</li>
+      <li>Eldar_Craftworld_Exarch_ShadowSpectre</li>
+      <li>Eldar_Craftworld_Warrior_WarpSpider</li>
+      <li>Eldar_Craftworld_Exarch_WarpSpider</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
 
@@ -395,11 +441,15 @@
       <!-- <li>HyperactiveNymuneOrgan</li> -->
     </forcedHediffs>
     <spawnCategories Inherit="true">
-      <li>Eldar_Outcast_Psyker</li>
-      <li>Eldar_Outcast_Psyker_Child</li>
+      <li>Eldar_Craftworld_Psyker_Farseer</li>
+      <li>Eldar_Craftworld_Psyker_Warlock</li>
+      <li>Eldar_Craftworld_Psyker_Spiritseer</li>
+      <li>Eldar_Craftworld_Psyker_Bonesinger</li>
+      <li>Eldar_Craftworld_Outcast_Psyker</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
 
+  <!-- Craftworld Adulthoods -->
   <!-- Path of Service -->
   <!-- Baseline Civilian -->
   <AlienRace.BackstoryDef Name="Eldar_Base_Civilian" ParentName="Eldar_Standard_Backstory" Abstract="true">
@@ -430,6 +480,7 @@
     <spawnCategories>
       <li>Eldar_Craftworld</li>
       <li>Eldar_Craftworld_Civilian</li>
+      <li>Eldar_Craftworld_Warrior_Guardian</li>
       <li>Eldar_Craftworld_Warrior_GuardianDefender</li>
       <li>Eldar_Craftworld_Warrior_GuardianStorm</li>
     </spawnCategories>
@@ -571,7 +622,7 @@
     <defName>Eldar_Base_Builder</defName>
     <title>Path of the Shaper</title>
     <titleShort>Bonesinger</titleShort>
-	<linkedBackstory>Eldar_Craftworld_Psyker_Child</linkedBackstory>
+	<!-- <linkedBackstory>Eldar_Craftworld_Psyker_Child</linkedBackstory> -->
     <baseDescription>[PAWN_nameDef] is a Bonesinger serves as a psychic engineer and craftsman for the Craftworld Aeldari, the Asuryani. The Bonesingers are the builders and maintainers of all Aeldari weapons, tools and even the Craftworlds themselves. These powerful xenos psykers are gifted in the arts of construction using the solidified power of the Warp. They use their telepathic ability to summon or psychically generate the solidified substance of the Immaterium the Aeldari call Wraithbone, which they construct into buildings or tools and use to repair the Aeldari's vehicles, weapons and armour.
 
 Like all of their kind, the Bonesingers are following one of the many Asuryani Paths that determines their current focus and purpose in life. The Bonesinger's Path, the Path of Shaping, is closely related to both the Path of the Artisan and the Path of the Seer. During his or her time on the Path of Shaping, the Bonesinger is tasked with the construction and maintenance of Craftworld structures, weapons and machinery.</baseDescription>
@@ -653,7 +704,7 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <defName>Eldar_Autarch</defName>
     <title>Eldar Autarch</title>
     <titleShort>Autarch</titleShort>
-	<linkedBackstory>Eldar_Craftworld_Child</linkedBackstory>
+	<!-- <linkedBackstory>Eldar_Craftworld_Child</linkedBackstory> -->
     <baseDescription>[PAWN_nameDef] is An Autarch, one of those few members of the Craftworld [PAWN_alienRace] who have mastered many of the Asuryani Paths over the centuries, including one or more facets of the Path of the Warrior. [PAWN_possessive] possess a consummate understanding of the art of war and serves as the supreme commanders of an Eldar Craftworld's warhost.\n\nThis Asuryani Path, known as the Path of Command or Path of the Leader, is pursued by highly skilled individuals who believe martial excellence can be achieved by gaining a wider perspective of battle that allows the [PAWN_alienRace] warhost to achieve victory in the most efficient and lethal way possible.\n\n[PAWN_pronoun] does not limit [PAWN_objective]self to the single-minded specifications required of a single Path like most [PAWN_alienRace]. [PAWN_nameDef] possesses an unparalleled strategic ability which far outshines an Exarch's obsession with only a singular facet of war. This enables [PAWN_objective] to lead a warhost that operates in perfect unison, with each component of the [PAWN_alienRace] war machine functioning in perfect synchronicity.\n\nIt is not only at the aspect of command that [PAWN_nameDef] excels, for [PAWN_pronoun] is a consummate warrior as well, and often spearheads assaults, fighting an enemy army's leader in personal combat or contemptuously destroying war machines with ease. Autarchs are considered integral parts of [PAWN_alienRace] culture due to their versatility and ability to lead the [PAWN_alienRace] on the myriad paths of life and death.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
     <bodyTypeMale>Male</bodyTypeMale>
@@ -1495,6 +1546,81 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
 	  <li>
 		<defName>Plants</defName>
 		<amount>2</amount>
+	  </li>
+	  <li>
+		<defName>Animals</defName>
+		<amount>-3</amount>
+	  </li>
+	  <li>
+		<defName>Crafting</defName>
+		<amount>-3</amount>
+	  </li>
+	  <li>
+		<defName>Medicine</defName>
+		<amount>2</amount>
+	  </li>
+	</skillGains>
+	<spawnCategories>
+	  <li>Eldar_Craftworld_Psyker_Farseer</li>
+	</spawnCategories>
+  </AlienRace.BackstoryDef>
+    
+  <!-- Farseer -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Seer">
+	<defName>Eldar_Psyker_Farseer_Ancient</defName>
+	<title>Ancient Farseer</title>
+	<titleShort>Farseer</titleShort>
+	<baseDescription>[PAWN_nameDef] is a Farseer, amongst the most powerful of Seers and probably represent some of the most potent psykers in the entire galaxy. Every Craftworld has a handful of Farseers amongst their populace who usually make up that Craftworld's guiding council. Much of a Farseer's time is spent in a trance-like state where his spirit roams at will throughout the Wraithbone of the Craftworld where they direct the psychic-energy flow throughout the entire world-ship. As such, a Farseer is not normally in a waking state, though their visionary skills allow them to direct their fellow Eldar in avoiding those dangers that can fall upon the Craftworlds. This is accomplished by way of exploring potential future paths that may lie ahead and making a determination about which paths need to be altered to produce a better future outcome. A Farseer's duties mean that they do not usually engage in combat duties despite their previous experiences and enormous psychic potential for destruction. Yet in times of desperate need, Farseers can return to the battlefield where they use their incomparable psychic powers to aid their race in combat.</baseDescription>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+	<workDisables>
+	</workDisables>
+	<forcedTraits>
+		<li>
+			<defName>PsychicSensitivity</defName>
+			<degree>2</degree>
+			<chance>75</chance>
+		</li>
+		<li>
+			<defName>PsychicSensitivity</defName>
+			<degree>1</degree>
+			<chance>100</chance>
+		</li>
+	</forcedTraits>
+	<skillGains>
+	  <li>
+		<defName>Social</defName>
+		<amount>8</amount>
+	  </li>
+	  <li>
+		<defName>Intellectual</defName>
+		<amount>4</amount>
+	  </li>
+	  <li>
+		<defName>Shooting</defName>
+		<amount>-1</amount>
+	  </li>
+	  <li>
+		<defName>Melee</defName>
+		<amount>-1</amount>
+	  </li>
+	  <li>
+		<defName>Construction</defName>
+		<amount>-1</amount>
+	  </li>
+	  <li>
+		<defName>Mining</defName>
+		<amount>-6</amount>
+	  </li>
+	  <li>
+		<defName>Cooking</defName>
+		<amount>-6</amount>
+	  </li>
+	  <li>
+		<defName>Plants</defName>
+		<amount>-6</amount>
 	  </li>
 	  <li>
 		<defName>Animals</defName>

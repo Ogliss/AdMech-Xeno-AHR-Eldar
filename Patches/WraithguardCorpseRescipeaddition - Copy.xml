@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+<!--
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/RecipeDef[defName = "ButcherCorpseMechanoid"]/fixedIngredientFilter/categories</xpath>
+				<xpath>Defs/PawnkindDef[defName = "ButcherCorpseMechanoid"]/fixedIngredientFilter/categories</xpath>
 				<value>			
 							<li>OG_Corpses_Eldar_Construct</li>
 				</value>
@@ -17,4 +18,5 @@
 			</li>
 		</operations>	
 	</Operation>
+	-->
 </Patch>

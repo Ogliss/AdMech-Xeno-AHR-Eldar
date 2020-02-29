@@ -47,15 +47,15 @@
     <Folder Include="Harmony\" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="0Harmony, Version=2.0.0.5, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\AdMechArmoury\1.1\Source\AdeptusMechanicusMain\packages\Lib.Harmony.2.0.0.5\lib\net472\0Harmony.dll</HintPath>
+    <Reference Include="0Harmony, Version=2.0.0.7, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\AdMechArmoury\1.1\Source\AdeptusMechanicusMain\packages\Lib.Harmony.2.0.0.7\lib\net472\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="1CompSlotLoadable">
       <HintPath>..\..\..\..\AdMechArmoury\1.1\Assemblies\1CompSlotLoadable.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AlienRace">
-      <HintPath>..\..\..\..\AlienRaces\Assemblies\AlienRace.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\workshop\content\294100\839005762\1.1\Assemblies\AlienRace.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
@@ -319,10 +319,6 @@
       <Project>{2ac73323-b4f2-4592-b3ea-53ac4f8d73a7}</Project>
       <Name>AdeptusMechanicusMain</Name>
       <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\AdMechArmoury\1.1\Source\CompSlotLoadable\CompSlotLoadable.csproj">
-      <Project>{6ec26d07-b5a0-4075-8919-3b05af74ce87}</Project>
-      <Name>CompSlotLoadable</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
