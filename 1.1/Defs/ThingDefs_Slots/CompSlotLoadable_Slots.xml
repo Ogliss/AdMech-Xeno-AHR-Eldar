@@ -6,7 +6,7 @@
 		<thingClass>CompSlotLoadable.SlotLoadable</thingClass>
 		<label>Spirit Stone Slot</label>
 		<slottableThingDefs>
-			<li>OG_Eldar_Wraithguard_Race</li>
+			<!--<li>OG_SoulStone</li>-->
 		</slottableThingDefs>
 		<doesChangeColor>false</doesChangeColor>
 	</ThingDef>

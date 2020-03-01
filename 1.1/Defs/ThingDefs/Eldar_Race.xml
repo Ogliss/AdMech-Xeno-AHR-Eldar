@@ -480,7 +480,6 @@
             <researchList>
                 <li>
                     <projects>
-						<!--
 						<li>EldarTechBase</li>
 						<li>EldarBasicWeaponsTech</li>
 						<li>EldarBasicMeleeTech</li>
@@ -495,7 +494,6 @@
 						<li>EldarWargear</li>
 						<li>EldarAspectWargear</li>
 						<li>EldarAdvancedWargear</li>
-						-->
                     </projects>
                 </li>
             </researchList>
