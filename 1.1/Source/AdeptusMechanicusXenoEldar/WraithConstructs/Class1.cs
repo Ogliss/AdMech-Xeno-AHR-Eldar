@@ -1,4 +1,4 @@
-﻿using CompSlotLoadable;
+﻿using AdeptusMechanicus;
 using Verse;
 using RimWorld;
 using AdeptusMechanicus.ExtensionMethods;
@@ -13,7 +13,7 @@ namespace AdeptusMechanicus
         public PawnKindDef soulKind = null;
     }
 
-    public class CompSoulStone : CompSlotLoadable.CompSlotLoadable
+    public class CompSoulStone : AdeptusMechanicus.CompSlotLoadable
     {
 
         public bool Filled

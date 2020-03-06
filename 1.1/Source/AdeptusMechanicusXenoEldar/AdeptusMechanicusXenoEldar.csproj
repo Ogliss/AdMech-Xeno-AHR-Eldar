@@ -38,6 +38,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdeptusMechanicusEldarExtensions.cs" />
+    <Compile Include="AMXBE_AMAMod_ModOptions_Patches.cs" />
     <Compile Include="WraithConstructs\Class1.cs" />
     <Compile Include="WraithConstructs\WraithPawn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

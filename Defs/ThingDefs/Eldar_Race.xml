@@ -666,8 +666,16 @@
           <minAge>0</minAge>
         </li>
         <li>
+          <def>HumanlikeToddler</def>
+          <minAge>1.2</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>4</minAge>
+        </li>
+        <li>
           <def>HumanlikeTeenager</def>
-          <minAge>14</minAge>
+          <minAge>13</minAge>
         </li>
         <li>
           <def>HumanlikeAdult</def>

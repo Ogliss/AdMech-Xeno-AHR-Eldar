@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Class="CompSlotLoadable.SlotLoadableDef">
+	<ThingDef Class="AdeptusMechanicus.SlotLoadableDef">
 		<defName>OG_SlotLoadable_SoulStone</defName>
-		<thingClass>CompSlotLoadable.SlotLoadable</thingClass>
+		<thingClass>AdeptusMechanicus.SlotLoadable</thingClass>
 		<label>Spirit Stone Slot</label>
 		<slottableThingDefs>
 			<!--<li>OG_SoulStone</li>-->

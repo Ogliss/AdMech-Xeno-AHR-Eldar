@@ -109,7 +109,7 @@
     </race>
 	<!-- <tickerType>Normal</tickerType> -->
 	<comps>
-	  <li Class="CompSlotLoadable.CompProperties_SlotLoadable">
+	  <li Class="AdeptusMechanicus.CompProperties_SlotLoadable">
 		<slots>
 			<li>OG_SlotLoadable_SoulStone</li>
 		</slots>

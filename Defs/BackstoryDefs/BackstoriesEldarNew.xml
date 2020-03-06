@@ -492,7 +492,7 @@
     <defName>Eldar_Base_Farmer</defName>
     <title>Path of the Botanist</title>
     <titleShort>Botanist</titleShort>
-	<linkedBackstory>Eldar_Craftworld_Child</linkedBackstory>
+	<!-- <linkedBackstory>Eldar_Craftworld_Child</linkedBackstory> -->
     <baseDescription>[PAWN_nameDef] is following The Path of the Botanist, a specialised extension of the Path of Service and includes gardeners, farmers and all who concern themselves with tending the enormous quantity of plants living within an Eldar Craftworld, many of them the last surviving species of one of the lost Eldar homeworlds.</baseDescription>
     <workDisables>
     </workDisables>
@@ -516,7 +516,7 @@
     <defName>Eldar_Base_Zoologist</defName>
     <title>Path of the Zoologist</title>
     <titleShort>Zoologist</titleShort>
-	<linkedBackstory>Eldar_Craftworld_Child</linkedBackstory>
+	<!-- <linkedBackstory>Eldar_Craftworld_Child</linkedBackstory> -->
     <baseDescription>[PAWN_nameDef] is following The Path of the Zoologist, a specialised extension of the Path of Service and includes all who concern themselves with tending the enormous quantity of animals living within an Eldar Craftworld, many of them the last surviving species of one of the lost Eldar homeworlds.</baseDescription>
     <workDisables>
     </workDisables>
@@ -540,7 +540,7 @@
     <defName>Eldar_Base_Cook</defName>
     <title>Path of the Cuisinier</title>
     <titleShort>Cuisinier</titleShort>
-	<linkedBackstory>Eldar_Craftworld_Child</linkedBackstory>
+	<!-- <linkedBackstory>Eldar_Craftworld_Child</linkedBackstory> -->
     <baseDescription>[PAWN_nameDef] is following The Path of the Cuisinier, a specialised extension of the Path of Service and includes all who concern themselves with preparing the food for those living within an Eldar Craftworld, many of them specialise of one of the lost Eldar homeworlds styles of cuisine.</baseDescription>
     <workDisables>
     </workDisables>
@@ -598,7 +598,7 @@
     <defName>Eldar_Base_Artisan</defName>
     <title>Path of the Artisan</title>
     <titleShort>Artisan</titleShort>
-	<linkedBackstory>Eldar_Craftworld_Child</linkedBackstory>
+	<!-- <linkedBackstory>Eldar_Craftworld_Child</linkedBackstory> -->
     <baseDescription>[PAWN_nameDef] is following The Path of the Zoologist, a specialised extension of the Path of Service and includes all who concern themselves with tending the enormous quantity of animals living within an Eldar Craftworld, many of them the last surviving species of one of the lost Eldar homeworlds.</baseDescription>
     <workDisables>
     </workDisables>
@@ -645,7 +645,7 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <defName>Eldar_Base_Craftsman</defName>
     <title>Path of the Artisan</title>
     <titleShort>Artisan</titleShort>
-	<linkedBackstory>Eldar_Craftworld_Child</linkedBackstory>
+	<!-- <linkedBackstory>Eldar_Craftworld_Child</linkedBackstory> -->
     <baseDescription>[PAWN_nameDef] is following The Path of the Artisan, it is a relatively common Path for an Eldar. There are many sub-specialisations along the Path of the Artisan, such as the Path of the Poet, the Path of the Musician, the Path of the Sculpter, the Path of the Painter, and so on. Even within each of these minor Paths there are conflicting schools of style, such as the School of Hithrinair, which teaches that the artist should become as much a part of his art as he can be, with its followers often bleaching their skin and marking themselves with stylistic tattoos to show that they have become one with their craft.</baseDescription>
 
     <!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
@@ -1281,7 +1281,7 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <title>Path of the Seer</title>
     <titleShort>Eldar Seer</titleShort>
     <slot>Adulthood</slot>
-	<linkedBackstory>Eldar_Craftworld_Psyker_Child</linkedBackstory>
+	<!-- <linkedBackstory>Eldar_Craftworld_Psyker_Child</linkedBackstory> -->
 
     <!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
 	<bodyTypeMale>Male</bodyTypeMale>
