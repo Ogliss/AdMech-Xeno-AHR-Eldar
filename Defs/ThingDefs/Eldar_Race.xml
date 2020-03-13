@@ -168,7 +168,7 @@
 				<useGenderedBodies>false</useGenderedBodies>
 	      <bodyAddons>
 		    <li>
-		      <path>Things/Eldar/Heads/Ears/EarL</path>
+		      <path>Things/Pawn/Humanlike/Eldar/Heads/Ears/EarL</path>
 			  <bodyPart>left ear</bodyPart>
 			  <inFrontOfBody>true</inFrontOfBody>
 			  <drawnInBed>true</drawnInBed>
@@ -218,7 +218,7 @@
               </hiddenUnderApparelFor>
 		    </li>
 		    <li>
-		      <path>Things/Eldar/Heads/Ears/EarR</path>
+		      <path>Things/Pawn/Humanlike/Eldar/Heads/Ears/EarR</path>
 			  <bodyPart>right ear</bodyPart>
 			  <inFrontOfBody>true</inFrontOfBody>
 			  <drawnInBed>true</drawnInBed>
@@ -436,10 +436,10 @@
 		</factionRelations>
         </generalSettings>
         <graphicPaths>
+			<!--
             <li>
                 <head>Things/Eldar/Heads/</head>
             </li>
-			<!--
             <li>
                 <body>Things/Eldar/Bodies/</body>
                 <head>Things/Eldar/Heads/</head>
