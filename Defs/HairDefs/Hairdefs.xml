@@ -2,7 +2,7 @@
 <Defs>
   <HairDef>
     <label>Eldar Bald</label>
-    <texPath>Things/Eldar/Hair/Bald</texPath>
+    <texPath>Things/Pawn/Humanlike/Eldar/Hair/Bald</texPath>
     <defName>EldarBald</defName>
     <hairGender>Any</hairGender>
 	<hairTags>

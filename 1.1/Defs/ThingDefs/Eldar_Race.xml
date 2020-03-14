@@ -450,7 +450,9 @@
             <hasHair>true</hasHair>
             <getsGreyAt>15000</getsGreyAt> 
             <hairTags>
-			<li>EldarHair</li>
+				<li>EldarHair</li>
+				<li>Urban</li>
+				<li>Rural</li>
             </hairTags>
         </hairSettings>
         <thoughtSettings>
@@ -645,7 +647,7 @@
       <nameGenerator>NamerOGEldarPawns</nameGenerator>
       <body>Human</body>
       <bloodDef>OG_FilthBlood_Eldar</bloodDef>	
-      <meatColor>(200,135,100)</meatColor>
+      <!--meatColor>(200,135,100)</meatColor-->
       <baseBodySize>0.95</baseBodySize>
       <baseHealthScale>0.95</baseHealthScale>
       <foodType>OmnivoreHuman</foodType>

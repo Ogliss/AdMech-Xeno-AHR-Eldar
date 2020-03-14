@@ -10,6 +10,7 @@
 			<texPath>Things/Item/Apparel/Eldar/EldarMeshArmour/EldarMeshArmourIcon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
+			<color>255,255,209</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>1500</MarketValue>
@@ -39,7 +40,9 @@
 		<recipeMaker>
 			<researchPrerequisite>EldarArmour</researchPrerequisite>
 		</recipeMaker>
+		
 		<apparel>
+		<useWornGraphicMask>true</useWornGraphicMask>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
@@ -81,8 +84,6 @@
       </li>
     </comps>
 	<!--
-	
-	-->
     <colorGenerator Class="ColorGenerator_Options">
       <options>
 		<li>
@@ -92,6 +93,7 @@
 		</li>
       </options>
     </colorGenerator>
+	-->
 	</ThingDef>
 
 	<!--========================= Eldar - Dire Avenger Armour ==========================-->
@@ -103,6 +105,7 @@
 			<texPath>Things/Item/Apparel/Eldar/EldarMeshArmour/EldarMeshArmourIcon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
+			<color>49,100,157</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>1500</MarketValue>
@@ -132,7 +135,9 @@
 		<recipeMaker>
 			<researchPrerequisite>EldarArmour</researchPrerequisite>
 		</recipeMaker>
+		
 		<apparel>
+		<useWornGraphicMask>true</useWornGraphicMask>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
@@ -174,17 +179,16 @@
       </li>
     </comps>
 	<!--
-	
-	-->
     <colorGenerator Class="ColorGenerator_Options">
       <options>
 		<li>
 			<weight>10</weight>
-			<max>(0.192,0.392,0.616)</max>
-			<min>(0.192,0.392,0.486)</min>
+			<max>(1,1,0.82)</max>
+			<min>(0.906,0.937,0.776)</min>
 		</li>
       </options>
     </colorGenerator>
+	-->
 	</ThingDef>
 
 	<!-- ========================= Eldar - Ranger Suit ========================== -->
@@ -196,6 +200,7 @@
 			<texPath>Things/Item/Apparel/Eldar/EldarRangerArmour/EldarRangerArmour</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
+			<color>255,255,209</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>1500</MarketValue>
@@ -225,7 +230,9 @@
 		<recipeMaker>
 			<researchPrerequisite>EldarArmour</researchPrerequisite>
 		</recipeMaker>
+		
 		<apparel>
+		<useWornGraphicMask>true</useWornGraphicMask>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
@@ -268,8 +275,6 @@
       </li>
     </comps>
 	<!--
-	
-	-->
     <colorGenerator Class="ColorGenerator_Options">
       <options>
 		<li>
@@ -279,6 +284,7 @@
 		</li>
       </options>
     </colorGenerator>
+	-->
 	</ThingDef>
 
 	<!--========================= Eldar - Banshee Armour ==========================-->
@@ -289,6 +295,7 @@
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/EldarBansheeArmour/EldarBansheeArmour</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<color>255,255,209</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>1500</MarketValue>
@@ -318,7 +325,9 @@
 		<recipeMaker>
 			<researchPrerequisite>EldarAspectArmour</researchPrerequisite>
 		</recipeMaker>
+		
 		<apparel>
+		<useWornGraphicMask>true</useWornGraphicMask>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
@@ -361,6 +370,7 @@
 			<WestOffset>0.35</WestOffset>
       </li>
     </comps>
+	<!--
     <colorGenerator Class="ColorGenerator_Options">
       <options>
 		<li>
@@ -370,6 +380,7 @@
 		</li>
       </options>
     </colorGenerator>
+	-->
 	</ThingDef>
 
 	<!--========================= Eldar - Striking Scorpion Armour ==========================-->
@@ -381,6 +392,7 @@
 			<texPath>Things/Item/Apparel/Eldar/EldarStrikingScorpionArmour/EldarMeshArmourIcon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
+			<color>255,255,209</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>1500</MarketValue>
@@ -410,7 +422,9 @@
 		<recipeMaker>
 			<researchPrerequisite>EldarArmour</researchPrerequisite>
 		</recipeMaker>
+		
 		<apparel>
+		<useWornGraphicMask>true</useWornGraphicMask>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
@@ -452,17 +466,16 @@
       </li>
     </comps>
 	<!--
-	
-	-->
     <colorGenerator Class="ColorGenerator_Options">
       <options>
 		<li>
 			<weight>10</weight>
-			<max>(0.651,0.839,0.063)</max>
-			<min>(0.551,0.739,0.063)</min>
+			<max>(1,1,0.82)</max>
+			<min>(0.906,0.937,0.776)</min>
 		</li>
       </options>
     </colorGenerator>
+	-->
 	</ThingDef>
 
 	<!--========================= Eldar - Warlock Rune Armour ==========================-->
@@ -474,6 +487,7 @@
 			<texPath>Things/Item/Apparel/Eldar/EldarWarlockArmour/EldarWarlockArmour</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
+			<color>255,255,209</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>1500</MarketValue>
@@ -503,7 +517,9 @@
 		<recipeMaker>
 			<researchPrerequisite>EldarAdvancedArmour</researchPrerequisite>
 		</recipeMaker>
+		
 		<apparel>
+		<useWornGraphicMask>true</useWornGraphicMask>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
@@ -568,6 +584,7 @@
       </li>
 	  
     </comps>
+	<!--
     <colorGenerator Class="ColorGenerator_Options">
       <options>
 		<li>
@@ -577,6 +594,7 @@
 		</li>
       </options>
     </colorGenerator>
+	-->
     <tickerType>Normal</tickerType>
     <thingClass>AdeptusMechanicus.PsychicShield</thingClass>
 	</ThingDef>
@@ -590,6 +608,7 @@
 			<texPath>Things/Item/Apparel/Eldar/EldarRuneArmour/EldarRuneArmour</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
+			<color>255,255,209</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>1500</MarketValue>
@@ -619,7 +638,9 @@
 		<recipeMaker>
 			<researchPrerequisite>EldarAdvancedArmour</researchPrerequisite>
 		</recipeMaker>
+		
 		<apparel>
+		<useWornGraphicMask>true</useWornGraphicMask>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
@@ -680,8 +701,9 @@
       </li>
 	  
 	  -->
-	  
     </comps>
+	  
+	<!--
     <colorGenerator Class="ColorGenerator_Options">
       <options>
 		<li>
@@ -691,6 +713,7 @@
 		</li>
       </options>
     </colorGenerator>
+	-->
     <tickerType>Normal</tickerType>
     <thingClass>AdeptusMechanicus.PsychicShield</thingClass>
 	</ThingDef>

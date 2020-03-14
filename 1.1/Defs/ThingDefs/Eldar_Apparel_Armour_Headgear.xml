@@ -10,6 +10,7 @@
 		<texPath>Things/Item/Apparel/Eldar/EldarGuardianHelmet/EldarGuardianHelmet</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<shaderType>CutoutComplex</shaderType>
+		<color>255,255,209</color>
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -39,6 +40,7 @@
 			<researchPrerequisite>EldarArmour</researchPrerequisite>
 		</recipeMaker>
 		<apparel>
+		<useWornGraphicMask>true</useWornGraphicMask>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
@@ -68,6 +70,7 @@
 		  <Chance>1</Chance>
 		</li>
 	</comps>
+	<!--
     <colorGenerator Class="ColorGenerator_Options">
       <options>
 		<li>
@@ -77,6 +80,7 @@
 		</li>
       </options>
     </colorGenerator>
+	-->
 	</ThingDef>
 
 	<!--========================= Eldar - Dire Avenger Helmet ==========================-->
@@ -88,6 +92,7 @@
 		<texPath>Things/Item/Apparel/Eldar/EldarDireAvengerHelmet/EldarDireAvengerHelmet</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<shaderType>CutoutComplex</shaderType>
+		<color>49,100,157</color>
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -117,6 +122,7 @@
 			<researchPrerequisite>EldarArmour</researchPrerequisite>
 		</recipeMaker>
 		<apparel>
+		<useWornGraphicMask>true</useWornGraphicMask>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
@@ -168,6 +174,7 @@
 		<texPath>Things/Item/Apparel/Eldar/EldarRangerHelmet/EldarRangerHelmet</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<shaderType>CutoutComplex</shaderType>
+		<color>255,255,209</color>
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -198,6 +205,7 @@
 			<researchPrerequisite>EldarArmour</researchPrerequisite>
 		</recipeMaker>
 		<apparel>
+		<useWornGraphicMask>true</useWornGraphicMask>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
@@ -227,6 +235,7 @@
 		  <Chance>1</Chance>
 		</li>
 	</comps>
+	<!--
     <colorGenerator Class="ColorGenerator_Options">
       <options>
 		<li>
@@ -236,6 +245,7 @@
 		</li>
       </options>
     </colorGenerator>
+	-->
 	</ThingDef>
 
 	<!--========================= Eldar - Banshee Armour Helmet ==========================-->
@@ -247,6 +257,7 @@
 		<texPath>Things/Item/Apparel/Eldar/EldarBansheeHelmet/EldarBansheeHelmet</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<shaderType>CutoutComplex</shaderType>
+		<color>255,255,209</color>
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -276,6 +287,7 @@
 			<researchPrerequisite>EldarAspectArmour</researchPrerequisite>
 		</recipeMaker>
 		<apparel>
+		<useWornGraphicMask>true</useWornGraphicMask>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
@@ -307,6 +319,7 @@
 		  <Chance>1</Chance>
 		</li>
 	</comps>
+	<!--
     <colorGenerator Class="ColorGenerator_Options">
       <options>
 		<li>
@@ -316,6 +329,7 @@
 		</li>
       </options>
     </colorGenerator>
+	-->
 	</ThingDef>
 
 	<!--========================= Eldar - Warlock Helmet ==========================-->
@@ -327,6 +341,7 @@
 		<texPath>Things/Item/Apparel/Eldar/EldarWarlockHelmet/EldarWarlockHelmet</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<shaderType>CutoutComplex</shaderType>
+		<color>255,255,209</color>
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -356,6 +371,7 @@
 			<researchPrerequisite>EldarAdvancedArmour</researchPrerequisite>
 		</recipeMaker>
 		<apparel>
+		<useWornGraphicMask>true</useWornGraphicMask>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
@@ -385,6 +401,7 @@
 		  <Chance>1</Chance>
 		</li>
 	</comps>
+	<!--
     <colorGenerator Class="ColorGenerator_Options">
       <options>
 		<li>
@@ -394,6 +411,7 @@
 		</li>
       </options>
     </colorGenerator>
+	-->
 	</ThingDef>
 	
 	<!--========================= Eldar - Ghosthelm ==========================-->
@@ -406,6 +424,7 @@
 		<graphicClass>Graphic_Single</graphicClass>
 		<shaderType>CutoutComplex</shaderType>
         <colorTwo>(255,255,255)</colorTwo>
+		<color>255,255,209</color>
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -435,6 +454,7 @@
 			<researchPrerequisite>EldarAdvancedArmour</researchPrerequisite>
 		</recipeMaker>
 		<apparel>
+		<useWornGraphicMask>true</useWornGraphicMask>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
@@ -479,6 +499,7 @@
 				<WestOffset>-0.35</WestOffset>
 		  </li>
 	</comps>
+	<!--
     <colorGenerator Class="ColorGenerator_Options">
       <options>
 		<li>
@@ -488,6 +509,7 @@
 		</li>
       </options>
     </colorGenerator>
+	-->
 	</ThingDef>
 	
 
