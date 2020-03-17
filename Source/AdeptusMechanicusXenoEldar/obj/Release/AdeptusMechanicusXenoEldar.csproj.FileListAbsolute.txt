@@ -1,9 +1,9 @@
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\Source\AdeptusMechanicusXenoEldar\bin\Release\AdeptusMechanicusEldar.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\Source\AdeptusMechanicusXenoEldar\bin\Release\AdeptusMechanicusEldar.pdb
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\Source\AdeptusMechanicusXenoEldar\bin\Release\0Harmony.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\Source\AdeptusMechanicusXenoEldar\obj\Release\AdeptusMechanicusXenoEldar.csprojResolveAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\Source\AdeptusMechanicusXenoEldar\obj\Release\AdeptusMechanicusXenoEldar.csproj.CoreCompileInputs.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\Source\AdeptusMechanicusXenoEldar\obj\Release\AdeptusMechanicusEldar.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\Source\AdeptusMechanicusXenoEldar\obj\Release\AdeptusMechanicusEldar.pdb
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\Assemblies\AdeptusMechanicusEldar.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\Assemblies\AdeptusMechanicusEldar.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\Source\AdeptusMechanicusXenoEldar\obj\Release\AdeptusMechanicusXenoEldar.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\Source\AdeptusMechanicusXenoEldar\obj\Release\AdeptusMechanicusXenoEldar.csproj.CopyComplete
