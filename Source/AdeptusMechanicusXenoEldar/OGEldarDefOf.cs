@@ -32,7 +32,6 @@ namespace RimWorld
 
         // Humanlike Race Defs
         public static AlienRace.ThingDef_AlienRace OG_Alien_Eldar;
-        public static AlienRace.ThingDef_AlienRace Alien_Eldar;
 
         public static FleshTypeDef OG_Flesh_Construct_Eldar;
         /*

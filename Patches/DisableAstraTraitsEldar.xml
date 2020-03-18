@@ -11,7 +11,7 @@
 				</xpath>
 				<success>Always</success>
 				<match Class="PatchOperationAdd">
-					<xpath>/Defs/AlienRace.ThingDef_AlienRace [defName = "Alien_Eldar" or defName = "Alien_Wraithguard"]/alienRace/generalSettings/disallowedTraits</xpath>
+					<xpath>/Defs/AlienRace.ThingDef_AlienRace [defName = "OG_Alien_Eldar" or defName = "Alien_Wraithguard"]/alienRace/generalSettings/disallowedTraits</xpath>
 					<value>
 					<li>IGTraitMechanicus</li>
 					<li>IGTraitAstraMilitarum</li>

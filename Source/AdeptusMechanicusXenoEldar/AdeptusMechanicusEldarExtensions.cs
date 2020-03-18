@@ -13,7 +13,7 @@ namespace AdeptusMechanicus.ExtensionMethods
     {
         public static bool isEldar(this Pawn pawn)
         {
-            return pawn.def == OGEldarThingDefOf.OG_Alien_Eldar || pawn.def == OGEldarThingDefOf.Alien_Eldar;
+            return pawn.def == OGEldarThingDefOf.OG_Alien_Eldar;
         }
 
         public static bool isWraithConstruct(this Pawn pawn)

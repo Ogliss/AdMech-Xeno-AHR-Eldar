@@ -9,18 +9,18 @@
     </li>
       <li Class="PatchOperationConditional">
         <xpath>
-          /Defs/AlienRace.ThingDef_AlienRace [defName = "Alien_Eldar"]/comps
+          /Defs/AlienRace.ThingDef_AlienRace [defName = "OG_Alien_Eldar"]/comps
         </xpath>
         <success>Always</success>
         <nomatch Class="PatchOperationAdd">
-          <xpath>/Defs/AlienRace.ThingDef_AlienRace [defName = "Alien_Eldar"]</xpath>
+          <xpath>/Defs/AlienRace.ThingDef_AlienRace [defName = "OG_Alien_Eldar"]</xpath>
           <value>
             <comps />
           </value>
         </nomatch>
       </li>
       <li Class="PatchOperationAdd">
-        <xpath>/Defs/AlienRace.ThingDef_AlienRace [defName = "Alien_Eldar"]/comps</xpath>
+        <xpath>/Defs/AlienRace.ThingDef_AlienRace [defName = "OG_Alien_Eldar"]/comps</xpath>
         <value>
           <li Class = "FacialStuff.CompProperties_BodyAnimator">
             <bipedWithHands>true</bipedWithHands>
@@ -50,7 +50,7 @@
       <value>
 		
   <BodyAnimDef>
-    <thingTarget>Alien_Eldar</thingTarget>
+    <thingTarget>OG_Alien_Eldar</thingTarget>
     <bodyDrawers>
       <li Class="AlienFaces.AlienBipedDrawer">
         <Graphics IsNull="True" />
@@ -141,7 +141,7 @@
   </BodyAnimDef>
   
   <BodyAnimDef>
-    <thingTarget>Alien_Eldar</thingTarget>
+    <thingTarget>OG_Alien_Eldar</thingTarget>
     <bodyDrawers>
       <li Class="AlienFaces.AlienBipedDrawer">
         <Graphics IsNull="True" />
@@ -232,7 +232,7 @@
   </BodyAnimDef>
   
   <BodyAnimDef>
-    <thingTarget>Alien_Eldar</thingTarget>
+    <thingTarget>OG_Alien_Eldar</thingTarget>
     <bodyDrawers>
       <li Class="AlienFaces.AlienBipedDrawer">
         <Graphics IsNull="True" />
@@ -323,7 +323,7 @@
   </BodyAnimDef>
   
   <BodyAnimDef>
-    <thingTarget>Alien_Eldar</thingTarget>
+    <thingTarget>OG_Alien_Eldar</thingTarget>
     <bodyDrawers>
       <li Class="AlienFaces.AlienBipedDrawer">
         <Graphics IsNull="True" />
@@ -414,7 +414,7 @@
   </BodyAnimDef>
   
   <BodyAnimDef>
-    <thingTarget>Alien_Eldar</thingTarget>
+    <thingTarget>OG_Alien_Eldar</thingTarget>
     <bodyDrawers>
       <li Class="AlienFaces.AlienBipedDrawer">
         <Graphics IsNull="True" />

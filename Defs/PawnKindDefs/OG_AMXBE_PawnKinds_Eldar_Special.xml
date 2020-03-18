@@ -10,7 +10,7 @@
     <minGenerationAge>200</minGenerationAge>
     <maxGenerationAge>5000</maxGenerationAge>
     <isFighter>true</isFighter>
-    <race>Alien_Eldar</race>
+    <race>OG_Alien_Eldar</race>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
     <backstoryCategories>
