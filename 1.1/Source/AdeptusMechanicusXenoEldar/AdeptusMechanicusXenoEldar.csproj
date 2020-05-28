@@ -38,15 +38,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdeptusMechanicusEldarExtensions.cs" />
-    <Compile Include="Harmony\Settings\AMXBE_AMAMod_ModOptions_Patches.cs" />
-    <Compile Include="AMEMain.cs" />
-    <Compile Include="Harmony\HarmonyInstance.cs" />
+    <Compile Include="AMXBE_AMAMod_ModOptions_Patches.cs" />
     <Compile Include="WraithConstructs\Class1.cs" />
     <Compile Include="WraithConstructs\WraithPawn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="OGEldarDefOf.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Harmony\" />
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="1CompSlotLoadable">
       <HintPath>..\..\..\..\AdMechArmoury\1.1\Assemblies\1CompSlotLoadable.dll</HintPath>
@@ -66,10 +66,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Rimworld.Ref">
-      <Version>1.1.2624</Version>
+      <Version>1.1.2571</Version>
     </PackageReference>
     <PackageReference Include="Lib.Harmony">
-      <Version>2.0.1</Version>
+      <Version>2.0.0.7</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
