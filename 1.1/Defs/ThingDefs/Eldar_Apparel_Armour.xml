@@ -38,7 +38,7 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>OG_Eldar_Tech_Apparel_Armour_T1</researchPrerequisite>
+			<researchPrerequisite>OG_Aeldari_Tech_Apparel_Armour_T1</researchPrerequisite>
 		</recipeMaker>
 		
 		<apparel>
@@ -133,7 +133,7 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>OG_Eldar_Tech_Apparel_Armour_T1</researchPrerequisite>
+			<researchPrerequisite>OG_Aeldari_Tech_Apparel_Armour_T1</researchPrerequisite>
 		</recipeMaker>
 		
 		<apparel>
@@ -228,7 +228,7 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>OG_Eldar_Tech_Apparel_Armour_T1</researchPrerequisite>
+			<researchPrerequisite>OG_Aeldari_Tech_Apparel_Armour_T1</researchPrerequisite>
 		</recipeMaker>
 		
 		<apparel>
@@ -420,7 +420,7 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>OG_Eldar_Tech_Apparel_Armour_T1</researchPrerequisite>
+			<researchPrerequisite>OG_Aeldari_Tech_Apparel_Armour_T1</researchPrerequisite>
 		</recipeMaker>
 		
 		<apparel>

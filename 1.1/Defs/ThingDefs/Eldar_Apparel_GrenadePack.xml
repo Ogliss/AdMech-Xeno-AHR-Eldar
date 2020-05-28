@@ -27,7 +27,7 @@
 			<OGE_Component>4</OGE_Component>
 		</costList>
 		<recipeMaker>
-			 <researchPrerequisite>OG_Eldar_Tech_Weapons_Ranged_T1</researchPrerequisite> 
+			 <researchPrerequisite>OG_Common_Tech_Weapons_Plasma</researchPrerequisite> 
 		</recipeMaker>
 		<comps>  
 			<li Class="AdeptusMechanicus.CompProperties_AbilityItem">
@@ -85,7 +85,7 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			 <researchPrerequisite>OG_Eldar_Tech_Weapons_Monofilament</researchPrerequisite>
+			 <researchPrerequisite>OG_Common_Tech_Weapons_Haywire</researchPrerequisite>
 			
 		</recipeMaker>
 		<comps>  
@@ -144,7 +144,7 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			 <researchPrerequisite>OG_Eldar_Tech_Weapons_Monofilament</researchPrerequisite>
+			 <researchPrerequisite>OG_Common_Tech_Weapons_Melta</researchPrerequisite>
 			
 		</recipeMaker>
 		<comps>  
@@ -203,7 +203,7 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			 <researchPrerequisite>OG_Eldar_Tech_Weapons_Monofilament</researchPrerequisite>
+			 <researchPrerequisite>OG_Eldar_Tech_Base_T2</researchPrerequisite>
 			
 		</recipeMaker>
 		<comps>  

@@ -87,7 +87,7 @@
 	<ThingDef Name="OGEArmorMakeable" ParentName="OGEArmorMakeableBase" Abstract="True">
 				<apparel>
 			<tags>
-				<li>OG_Eldar_Tech_Apparel_Armour_T1</li>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
 			</tags>
 		</apparel>
 		<thingCategories>
