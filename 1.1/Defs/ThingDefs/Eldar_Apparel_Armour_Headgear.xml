@@ -37,7 +37,7 @@
 			<OGE_Component>5</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>EldarArmour</researchPrerequisite>
+			<researchPrerequisite>OG_Eldar_Tech_Apparel_Armour_T1</researchPrerequisite>
 		</recipeMaker>
 		<apparel>
 		<useWornGraphicMask>true</useWornGraphicMask>
@@ -119,7 +119,7 @@
 			<OGE_Component>5</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>EldarArmour</researchPrerequisite>
+			<researchPrerequisite>OG_Eldar_Tech_Apparel_Armour_T1</researchPrerequisite>
 		</recipeMaker>
 		<apparel>
 		<useWornGraphicMask>true</useWornGraphicMask>
@@ -202,7 +202,7 @@
 			<OGE_Component>5</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>EldarArmour</researchPrerequisite>
+			<researchPrerequisite>OG_Eldar_Tech_Apparel_Armour_T1</researchPrerequisite>
 		</recipeMaker>
 		<apparel>
 		<useWornGraphicMask>true</useWornGraphicMask>
@@ -284,7 +284,7 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>EldarAspectArmour</researchPrerequisite>
+			<researchPrerequisite>OG_Eldar_Tech_Apparel_Armour_T2</researchPrerequisite>
 		</recipeMaker>
 		<apparel>
 		<useWornGraphicMask>true</useWornGraphicMask>
@@ -368,7 +368,7 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>EldarAdvancedArmour</researchPrerequisite>
+			<researchPrerequisite>OG_Eldar_Tech_Apparel_Armour_T3</researchPrerequisite>
 		</recipeMaker>
 		<apparel>
 		<useWornGraphicMask>true</useWornGraphicMask>
@@ -451,7 +451,7 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>EldarAdvancedArmour</researchPrerequisite>
+			<researchPrerequisite>OG_Eldar_Tech_Apparel_Armour_T3</researchPrerequisite>
 		</recipeMaker>
 		<apparel>
 		<useWornGraphicMask>true</useWornGraphicMask>

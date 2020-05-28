@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ========================= Eldar - Wargear S 3 ========================== -->
+    <!-- ========================= Eldar - Grenade Packs	========================== -->
+    <!-- ========================= Eldar - Plasma Grenades	========================== -->
+	<ThingDef ParentName="OGEWargearBase">
+		<defName>OGE_GrenadePack_Plasma</defName>
+		<label>plasma grenade pack</label>
+		<description>The Eldar and Dark Eldar use plasma grenades in placement of the more crudely designed Frag Grenades used by the Imperium. They use a small amount of exploding plasma to blind the enemy and prevent them from properly using their terrain to defend their position against advancing enemy forces.Plasma Grenades make use of a deliberate plasma containment failure to unleash a highly lethal blast of heat and light similar to a miniature sun which can take out almost any target.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/GrenadePacks/Eldar/EldarPlasmaGrenades</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1500</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>1.2</Mass>
+		</statBases>
+		<equippedStatOffsets>
+		
+		</equippedStatOffsets>
+		<costList>
+			<Steel>40</Steel>
+			<Plasteel>4</Plasteel>
+			<OGE_Wraithbone>20</OGE_Wraithbone>
+			<OGE_Component>4</OGE_Component>
+		</costList>
+		<recipeMaker>
+			 <researchPrerequisite>OG_Eldar_Tech_Weapons_Ranged_T1</researchPrerequisite> 
+		</recipeMaker>
+		<comps>  
+			<li Class="AbilityUser.CompProperties_AbilityItem">
+				<!-- <AbilityUserClass>AbilityUser.GenericCompAbilityItem</AbilityUserClass> -->
+				<Abilities>
+					<li>OGE_Ability_ThrowPlasma</li>
+				</Abilities>
+			</li>
+		</comps>
+		
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>BeltWargear3</li>
+			</layers>
+			<tags>
+				<li>OGEWargear</li>
+				<li>OGEGrens</li>
+				<li>OGEGrenPlasma</li>
+			</tags>
+		</apparel>
+		<thingCategories>
+			<li>OGEGrens</li>
+		</thingCategories>
+		<tradeTags>
+			<li>OGEGrens</li>
+		</tradeTags>
+	</ThingDef>
+	
+    <!-- ========================= Eldar - Haywire Grenades	========================== -->
+	<ThingDef ParentName="OGEWargearBase">
+		<defName>OGE_GrenadePack_Haywire</defName>
+		<label>haywire grenade pack</label>
+		<description>Haywire Grenades are used by both the Eldar and Dark Eldar for disabling enemy vehicles. Each one sends out a pulse of electromagnetic energy which shorts out electrical wires and disrupts many energy systems. They don't have any effect on biological creatures.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/GrenadePacks/Eldar/EldarHaywireGrenades</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1500</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>1.2</Mass>
+		</statBases>
+		<equippedStatOffsets>
+		
+		</equippedStatOffsets>
+		<costList>
+			<Steel>40</Steel>
+			<Plasteel>4</Plasteel>
+			<OGE_Wraithbone>30</OGE_Wraithbone>
+			<OGE_Component>10</OGE_Component>
+		</costList>
+		<recipeMaker>
+			 <researchPrerequisite>OG_Eldar_Tech_Weapons_Ranged_T2</researchPrerequisite>
+			
+		</recipeMaker>
+		<comps>  
+			<li Class="AbilityUser.CompProperties_AbilityItem">
+				<!-- <AbilityUserClass>AbilityUser.GenericCompAbilityItem</AbilityUserClass> -->
+				<Abilities>
+					<li>OGE_Ability_ThrowHaywire</li>
+				</Abilities>
+			</li>
+		</comps>
+		
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>BeltWargear3</li>
+			</layers>
+			<tags>
+				<li>OGEWargear</li>
+				<li>OGEGrens</li>
+				<li>OGEGrenHaywire</li>
+			</tags>
+		</apparel>
+		<thingCategories>
+			<li>OGEGrens</li>
+		</thingCategories>
+		<tradeTags>
+			<li>OGEGrens</li>
+		</tradeTags>
+	</ThingDef>
+	
+    <!-- ========================= Eldar - Melta Bomb	========================== -->
+	<ThingDef ParentName="OGEWargearBase">
+		<defName>OGE_GrenadePack_Melta</defName>
+		<label>melta bomb pack</label>
+		<description>A melta bomb is a type of explosive charge belonging to the melta design tree. Typical examples have dimensions analogous to that of a grenade, but can be larger. When activated, they explode with intense thermal energy, 'melting' the target away. Like all melta-weapons, melta bombs are especially useful for attacking vehicles, buildings and other armoured targets.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/GrenadePacks/Eldar/EldarMeltaBombs</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1500</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>1.2</Mass>
+		</statBases>
+		<equippedStatOffsets>
+		
+		</equippedStatOffsets>
+		<costList>
+			<Steel>40</Steel>
+			<Plasteel>4</Plasteel>
+			<OGE_Wraithbone>35</OGE_Wraithbone>
+			<OGE_Component>10</OGE_Component>
+		</costList>
+		<recipeMaker>
+			 <researchPrerequisite>OG_Eldar_Tech_Weapons_Ranged_T2</researchPrerequisite>
+			
+		</recipeMaker>
+		<comps>  
+			<li Class="AbilityUser.CompProperties_AbilityItem">
+				<!-- <AbilityUserClass>AbilityUser.GenericCompAbilityItem</AbilityUserClass> -->
+				<Abilities>
+					<li>OGE_Ability_ThrowMelta</li>
+				</Abilities>
+			</li>
+		</comps>
+		
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>BeltWargear3</li>
+			</layers>
+			<tags>
+				<li>OGEWargear</li>
+				<li>OGEGrens</li>
+				<li>OGEGrenMelta</li>
+			</tags>
+		</apparel>
+		<thingCategories>
+			<li>OGEGrens</li>
+		</thingCategories>
+		<tradeTags>
+			<li>OGEGrens</li>
+		</tradeTags>
+	</ThingDef>
+		
+    <!-- ========================= Eldar - Hallucinogen Grenades	========================== -->
+	<ThingDef ParentName="OGEWargearBase">
+		<defName>OGE_GrenadePack_Hallucinogen</defName>
+		<label>Hallucinogen grenade pack</label>
+		<description>Hallucinogen Grenades are used by both the Eldar and Dark Eldar for disabling enemy vehicles. Each one sends out a pulse of electromagnetic energy which shorts out electrical wires and disrupts many energy systems. They don't have any effect on biological creatures.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/GrenadePacks/Eldar/EldarHaywireGrenades</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1500</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>1.2</Mass>
+		</statBases>
+		<equippedStatOffsets>
+		
+		</equippedStatOffsets>
+		<costList>
+			<Steel>40</Steel>
+			<Plasteel>4</Plasteel>
+			<OGE_Wraithbone>40</OGE_Wraithbone>
+			<OGE_Component>10</OGE_Component>
+		</costList>
+		<recipeMaker>
+			 <researchPrerequisite>OG_Eldar_Tech_Weapons_Ranged_T2</researchPrerequisite>
+			
+		</recipeMaker>
+		<comps>  
+			<li Class="AbilityUser.CompProperties_AbilityItem">
+				<!-- <AbilityUserClass>AbilityUser.GenericCompAbilityItem</AbilityUserClass> -->
+				<Abilities>
+					<li>OGE_Ability_ThrowHallucinogen</li>
+				</Abilities>
+			</li>
+		</comps>
+		
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>BeltWargear3</li>
+			</layers>
+			<tags>
+				<li>OGEWargear</li>
+				<li>OGEGrens</li>
+				<li>OGEGrenHallucinogen</li>
+			</tags>
+		</apparel>
+		<thingCategories>
+			<li>OGEGrens</li>
+		</thingCategories>
+		<tradeTags>
+			<li>OGEGrens</li>
+		</tradeTags>
+	</ThingDef>
+			<!--
+		  <li Class="AdeptusMechanicus.CompProperties_HediffApparel">
+			<hediffDef>FragGrenadeThrowerHeDiff</hediffDef>
+			<severityBasedOnDurability>false</severityBasedOnDurability>
+			<partsToAffect>
+			  <li>A_BODYPARTDEF_HERE</li>
+			  <li>A_BODYPARTDEF_HERE</li>
+			  <li>A_BODYPARTDEF_HERE</li>
+			</partsToAffect>
+			<groupsToAffect>
+			  <li>A_BODYPARTGROUPDEF_HERE</li>
+			  <li>A_BODYPARTGROUPDEF_HERE</li>
+			  <li>A_BODYPARTGROUPDEF_HERE</li>
+			</groupsToAffect>
+		  </li>
+			-->
+</Defs>

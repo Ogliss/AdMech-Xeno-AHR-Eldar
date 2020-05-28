@@ -2,7 +2,7 @@
 <Defs>
     <!-- ========================= Eldar ========================== -->
     <!-- ========================= Eldar - Clothes Base - Apparel Base ========================== -->
-	<ThingDef Name="OGEApparelBase" ParentName="OGApparelBase" Abstract="True">
+	<ThingDef Name="OGEApparelBase" ParentName="OG_Apparel_Base" Abstract="True">
 		<apparel>
 			<tags>
 				<li>EldarApparel</li>
@@ -25,7 +25,7 @@
 				<li>HandTailoringBench</li>
 			</recipeUsers>
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-			<researchPrerequisite>EldarTechBase</researchPrerequisite>
+			<researchPrerequisite>OG_Eldar_Tech_Base_T1</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 		
@@ -57,7 +57,7 @@
 	</ThingDef>
 	
     <!-- ========================= Eldar - Clothes Base - Apparel Base ========================== -->
-	<ThingDef Name="OGEArmorBase" ParentName="OGApparelBase" Abstract="True">
+	<ThingDef Name="OGEArmorBase" ParentName="OG_Apparel_Base" Abstract="True">
 		<apparel>
 			<tags>
 				<li>EldarApparel</li>
@@ -79,7 +79,7 @@
 				<li>OG_Eldar_TableMachining</li>
 			</recipeUsers>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<researchPrerequisite>EldarTechBase</researchPrerequisite>
+			<researchPrerequisite>OG_Eldar_Tech_Base_T1</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 	
@@ -87,7 +87,7 @@
 	<ThingDef Name="OGEArmorMakeable" ParentName="OGEArmorMakeableBase" Abstract="True">
 				<apparel>
 			<tags>
-				<li>EldarArmour</li>
+				<li>OG_Eldar_Tech_Apparel_Armour_T1</li>
 			</tags>
 		</apparel>
 		<thingCategories>
@@ -111,7 +111,7 @@
 	</ThingDef>
 			
 	<!-- ========================= Eldar - Apparel Wargear Base ========================== -->
-	<ThingDef Name="OGEWargearBase" ParentName="OGApparelBase" Abstract="True">
+	<ThingDef Name="OGEWargearBase" ParentName="OG_Apparel_Base" Abstract="True">
 		<apparel>
 			<tags>
 				<li>EldarWargear</li>
@@ -133,7 +133,7 @@
 				<li>OG_Eldar_TableMachining</li>
 			</recipeUsers>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<researchPrerequisite>EldarTechBase</researchPrerequisite>
+			<researchPrerequisite>OG_Eldar_Tech_Base_T1</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>	
 </Defs>
