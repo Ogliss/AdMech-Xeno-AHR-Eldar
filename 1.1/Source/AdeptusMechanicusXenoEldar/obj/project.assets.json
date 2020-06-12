@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.7.2": {
-      "Krafs.Rimworld.Ref/1.1.2571": {
+      "Krafs.Rimworld.Ref/1.1.2647": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
@@ -85,7 +85,7 @@
           "ref/net472/mscorlib.dll": {}
         }
       },
-      "Lib.Harmony/2.0.0.7": {
+      "Lib.Harmony/2.0.1": {
         "type": "package",
         "frameworkAssemblies": [
           "System.Runtime.InteropServices.RuntimeInformation"
@@ -113,7 +113,7 @@
         "type": "project",
         "framework": ".NETFramework,Version=v4.7.2",
         "dependencies": {
-          "Krafs.Rimworld.Ref": "1.1.2624",
+          "Krafs.Rimworld.Ref": "1.1.2647",
           "Lib.Harmony": "2.0.1",
           "UnlimitedHugs.Rimworld.HugsLib": "7.2.1"
         },
@@ -126,7 +126,7 @@
       }
     },
     ".NETFramework,Version=v4.7.2/win": {
-      "Krafs.Rimworld.Ref/1.1.2571": {
+      "Krafs.Rimworld.Ref/1.1.2647": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
@@ -209,7 +209,7 @@
           "ref/net472/mscorlib.dll": {}
         }
       },
-      "Lib.Harmony/2.0.0.7": {
+      "Lib.Harmony/2.0.1": {
         "type": "package",
         "frameworkAssemblies": [
           "System.Runtime.InteropServices.RuntimeInformation"
@@ -237,7 +237,7 @@
         "type": "project",
         "framework": ".NETFramework,Version=v4.7.2",
         "dependencies": {
-          "Krafs.Rimworld.Ref": "1.1.2624",
+          "Krafs.Rimworld.Ref": "1.1.2647",
           "Lib.Harmony": "2.0.1",
           "UnlimitedHugs.Rimworld.HugsLib": "7.2.1"
         },
@@ -250,7 +250,7 @@
       }
     },
     ".NETFramework,Version=v4.7.2/win-x64": {
-      "Krafs.Rimworld.Ref/1.1.2571": {
+      "Krafs.Rimworld.Ref/1.1.2647": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
@@ -333,7 +333,7 @@
           "ref/net472/mscorlib.dll": {}
         }
       },
-      "Lib.Harmony/2.0.0.7": {
+      "Lib.Harmony/2.0.1": {
         "type": "package",
         "frameworkAssemblies": [
           "System.Runtime.InteropServices.RuntimeInformation"
@@ -361,7 +361,7 @@
         "type": "project",
         "framework": ".NETFramework,Version=v4.7.2",
         "dependencies": {
-          "Krafs.Rimworld.Ref": "1.1.2624",
+          "Krafs.Rimworld.Ref": "1.1.2647",
           "Lib.Harmony": "2.0.1",
           "UnlimitedHugs.Rimworld.HugsLib": "7.2.1"
         },
@@ -374,7 +374,7 @@
       }
     },
     ".NETFramework,Version=v4.7.2/win-x86": {
-      "Krafs.Rimworld.Ref/1.1.2571": {
+      "Krafs.Rimworld.Ref/1.1.2647": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
@@ -457,7 +457,7 @@
           "ref/net472/mscorlib.dll": {}
         }
       },
-      "Lib.Harmony/2.0.0.7": {
+      "Lib.Harmony/2.0.1": {
         "type": "package",
         "frameworkAssemblies": [
           "System.Runtime.InteropServices.RuntimeInformation"
@@ -485,7 +485,7 @@
         "type": "project",
         "framework": ".NETFramework,Version=v4.7.2",
         "dependencies": {
-          "Krafs.Rimworld.Ref": "1.1.2624",
+          "Krafs.Rimworld.Ref": "1.1.2647",
           "Lib.Harmony": "2.0.1",
           "UnlimitedHugs.Rimworld.HugsLib": "7.2.1"
         },
@@ -499,16 +499,16 @@
     }
   },
   "libraries": {
-    "Krafs.Rimworld.Ref/1.1.2571": {
-      "sha512": "iOuQhI/qZC10kaYDFbBNc+73fbrNC5ke2MCw/7Q+MLWti5y4uDXdv8OG0Uc9w2RFIBzZqebpnZe4mWZYCnqhjw==",
+    "Krafs.Rimworld.Ref/1.1.2647": {
+      "sha512": "ZZSpLLO/KXyQIQ9SrIN9O++nnxoAQsCKOVnkbHDuKZqSr/lrR9DZ8DafOUjZ+H84U8beFLt/4bxST5suAKtuJw==",
       "type": "package",
-      "path": "krafs.rimworld.ref/1.1.2571",
+      "path": "krafs.rimworld.ref/1.1.2647",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
         "icon.png",
-        "krafs.rimworld.ref.1.1.2571.nupkg.sha512",
+        "krafs.rimworld.ref.1.1.2647.nupkg.sha512",
         "krafs.rimworld.ref.nuspec",
         "ref/net472/Assembly-CSharp-firstpass.dll",
         "ref/net472/Assembly-CSharp.dll",
@@ -590,16 +590,16 @@
         "ref/net472/mscorlib.dll"
       ]
     },
-    "Lib.Harmony/2.0.0.7": {
-      "sha512": "qoc7Pc4KP1b1KlCvrcdvxOSI3fncc2a9AdMyQMbP8ycY5FFubKrMrk6ONvEBuhVkVGzCHlf1ycii7cxEAOx64g==",
+    "Lib.Harmony/2.0.1": {
+      "sha512": "TzITdGzVpADlLTFusBiqzZErhpJKlr/Cky62WdjX7VJJJoq5EcUpj/RIW2IJNfUAINX7mTDcg7Ym0SPO6j4DXQ==",
       "type": "package",
-      "path": "lib.harmony/2.0.0.7",
+      "path": "lib.harmony/2.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "HarmonyLogo.png",
         "LICENSE",
-        "lib.harmony.2.0.0.7.nupkg.sha512",
+        "lib.harmony.2.0.1.nupkg.sha512",
         "lib.harmony.nuspec",
         "lib/net35/0Harmony.dll",
         "lib/net35/0Harmony.xml",
@@ -638,8 +638,8 @@
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
       "AdeptusMechanicusMain >= 1.0.0",
-      "Krafs.Rimworld.Ref >= 1.1.2571",
-      "Lib.Harmony >= 2.0.0.7"
+      "Krafs.Rimworld.Ref >= 1.1.2647",
+      "Lib.Harmony >= 2.0.1"
     ]
   },
   "packageFolders": {
@@ -686,11 +686,11 @@
         "dependencies": {
           "Krafs.Rimworld.Ref": {
             "target": "Package",
-            "version": "[1.1.2571, )"
+            "version": "[1.1.2647, )"
           },
           "Lib.Harmony": {
             "target": "Package",
-            "version": "[2.0.0.7, )"
+            "version": "[2.0.1, )"
           }
         }
       }
@@ -706,33 +706,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Krafs.Rimworld.Ref from 1.1.2624 to 1.1.2571. Reference the package directly from the project to select a different version. \r\n AdeptusMechanicusXenoEldar -> AdeptusMechanicusMain -> Krafs.Rimworld.Ref (>= 1.1.2624) \r\n AdeptusMechanicusXenoEldar -> Krafs.Rimworld.Ref (>= 1.1.2571)",
-      "libraryId": "Krafs.Rimworld.Ref",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.7.2",
-        ".NETFramework,Version=v4.7.2/win",
-        ".NETFramework,Version=v4.7.2/win-x64",
-        ".NETFramework,Version=v4.7.2/win-x86"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Lib.Harmony from 2.0.1 to 2.0.0.7. Reference the package directly from the project to select a different version. \r\n AdeptusMechanicusXenoEldar -> AdeptusMechanicusMain -> Lib.Harmony (>= 2.0.1) \r\n AdeptusMechanicusXenoEldar -> Lib.Harmony (>= 2.0.0.7)",
-      "libraryId": "Lib.Harmony",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.7.2",
-        ".NETFramework,Version=v4.7.2/win",
-        ".NETFramework,Version=v4.7.2/win-x64",
-        ".NETFramework,Version=v4.7.2/win-x86"
-      ]
-    }
-  ]
+  }
 }

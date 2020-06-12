@@ -155,6 +155,7 @@
     </backstoryFiltersOverride>
   </PawnKindDef>
 
+  <!-- ============================ Eldar Faction Traders ========================== -->
   <PawnKindDef ParentName="OG_Eldar_Civ_BaseKind">
     <defName>OG_Eldar_Craftworld_Trader</defName>
     <label>Eldar trader</label>
@@ -168,6 +169,7 @@
   	</backstoryFilters>
   </PawnKindDef>
 
+  <!-- ============================ Eldar Faction Slave ========================== -->
   <PawnKindDef ParentName="OG_Eldar_Civ_BaseKind">
     <defName>Slave_OG_Eldar_Craftworld</defName>
     <label>Eldar slave</label>
@@ -390,13 +392,13 @@
     <label>Aspect Warrior</label>
     <combatPower>75</combatPower>
     <minGenerationAge>2000</minGenerationAge>
-	<backstoryFilters>
+	<!--backstoryFilters>
       <li>
         <categories>
 		
         </categories>
       </li>
-  	</backstoryFilters>
+  	</backstoryFilters-->
     <gearHealthRange>
       <min>0.7</min>
       <max>2.3</max>
@@ -410,6 +412,63 @@
     </apparelMoney>
     <weaponMoney>
       <min>8550</min>
+      <max>15800</max>
+    </weaponMoney>
+    <techHediffsMoney>
+      <min>1000</min>
+      <max>1500</max>
+    </techHediffsMoney>
+    <combatEnhancingDrugsCount>
+      <min>0</min>
+      <max>2</max>
+    </combatEnhancingDrugsCount>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.73</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>50</min>
+            <max>200</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+  <!-- ============================ Eldar Aspect Warrior Exarch Base ========================== -->
+  <PawnKindDef Name="EldarAspectExarchBase" ParentName="EldarAspectBase" Abstract="True">
+	<!--backstoryFilters>
+      <li>
+        <categories>
+		
+        </categories>
+      </li>
+  	</backstoryFilters-->
+    <gearHealthRange>
+      <min>1.7</min>
+      <max>2.3</max>
+    </gearHealthRange>
+    <apparelTags>
+		<li>EldarMilitary</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1500</min>
+      <max>6500</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>15800</min>
       <max>15800</max>
     </weaponMoney>
     <techHediffsMoney>
@@ -463,7 +522,7 @@
   </PawnKindDef>
   
   <!-- ============================ Eldar Avenger Exarch ========================== -->
-  <PawnKindDef ParentName="EldarAspectBase">
+  <PawnKindDef ParentName="EldarAspectExarchBase">
     <defName>OG_Eldar_DireAvenger_Exarch</defName>
     <label>Dire Avenger Exarch</label>
     <combatPower>90</combatPower>
@@ -505,7 +564,7 @@
   </PawnKindDef>
   
   <!-- ============================ Eldar Banshee Exarch ========================== -->
-  <PawnKindDef ParentName="EldarAspectBase">
+  <PawnKindDef ParentName="EldarAspectExarchBase">
     <defName>OG_Eldar_HowlingBanshee_Exarch</defName>
     <label>Howling Banshee Exarch</label>
     <combatPower>100</combatPower>
@@ -547,7 +606,7 @@
   </PawnKindDef>
   
   <!-- ============================ Eldar Dragon Exarch ========================== -->
-  <PawnKindDef ParentName="EldarAspectBase">
+  <PawnKindDef ParentName="EldarAspectExarchBase">
     <defName>OG_Eldar_FireDragon_Exarch</defName>
     <label>Fire Dragon Exarch</label>
     <combatPower>100</combatPower>
@@ -581,7 +640,7 @@
   </PawnKindDef>
   
   <!-- ============================ Eldar Hawk Exarch ========================== -->
-  <PawnKindDef ParentName="EldarAspectBase">
+  <PawnKindDef ParentName="EldarAspectExarchBase">
     <defName>OG_Eldar_SwoopingHawk_Exarch</defName>
     <label>Swooping Hawk Exarch</label>
     <combatPower>100</combatPower>
@@ -616,7 +675,7 @@
   </PawnKindDef>
   
   <!-- ============================ Eldar Reaper Exarch ========================== -->
-  <PawnKindDef ParentName="EldarAspectBase">
+  <PawnKindDef ParentName="EldarAspectExarchBase">
     <defName>OG_Eldar_DarkReaper_Exarch</defName>
     <label>Dark Reaper Exarch</label>
     <combatPower>100</combatPower>
@@ -653,7 +712,7 @@
   </PawnKindDef>
   
   <!-- ============================ Eldar Scorpion Exarch ========================== -->
-  <PawnKindDef ParentName="EldarAspectBase">
+  <PawnKindDef ParentName="EldarAspectExarchBase">
     <defName>OG_Eldar_StrikingScorpion_Exarch</defName>
     <label>Striking Scorpion Exarch</label>
     <combatPower>100</combatPower>
@@ -689,7 +748,7 @@
   </PawnKindDef>
   
   <!-- ============================ Eldar Spectre Exarch ========================== -->
-  <PawnKindDef ParentName="EldarAspectBase">
+  <PawnKindDef ParentName="EldarAspectExarchBase">
     <defName>OG_Eldar_ShadowSpectre_Exarch</defName>
     <label>Shadow Spectre Exarch</label>
     <combatPower>100</combatPower>
@@ -723,7 +782,7 @@
   </PawnKindDef>
   
   <!-- ============================ Eldar Spider Exarch ========================== -->
-  <PawnKindDef ParentName="EldarAspectBase">
+  <PawnKindDef ParentName="EldarAspectExarchBase">
     <defName>OG_Eldar_WarpSpider_Exarch</defName>
     <label>Warp Spider Exarch</label>
     <combatPower>100</combatPower>
@@ -854,7 +913,7 @@
     <apparelTags>
     </apparelTags>
     <weaponMoney>
-      <min>10000</min>
+      <min>15500</min>
       <max>15500</max>
     </weaponMoney>
     <weaponTags>

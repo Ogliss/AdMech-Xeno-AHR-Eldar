@@ -20,7 +20,7 @@
       <li>CraftworldCommand</li>
   	</backstoryCategories>
     <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
-	<expandingIconTexture>Icons/Icon_Eldar_Craftworld_B</expandingIconTexture>
+	<expandingIconTexture>Icons/Eldar/Craftworld/Icon_Eldar_CraftworldB</expandingIconTexture>
     <startingResearchTags>
       <li>ClassicStart</li>
     </startingResearchTags>

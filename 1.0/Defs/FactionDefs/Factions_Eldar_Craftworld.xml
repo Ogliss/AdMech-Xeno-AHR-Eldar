@@ -185,8 +185,8 @@
   <FactionDef ParentName="OG_Eldar_Faction_Base">
     <defName>OG_Eldar_Craftworld_Faction</defName>
 	<label>craftworld eldar strike force</label>
-	<homeIconPath>Icons/Icon_Eldar_Craftworld</homeIconPath>
-	<expandingIconTexture>Icons/Icon_Eldar_Craftworld</expandingIconTexture>
+	<homeIconPath>Icons/Eldar/Icon_Eldar_Craftworld</homeIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     <colorSpectrum>
       <li>(0.35, 0.30, 0.60)</li>
       <li>(0.45, 0.40, 0.90)</li>
