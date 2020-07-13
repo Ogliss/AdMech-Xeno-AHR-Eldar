@@ -37,7 +37,7 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AMKMain.cs" />
+    <Compile Include="AMEMain.cs" />
     <Compile Include="ExtentsionMethods\AdeptusMechanicusEldarExtensions.cs" />
     <Compile Include="Harmony\AMXBE_AMAMod_ModOptions_Patches.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
