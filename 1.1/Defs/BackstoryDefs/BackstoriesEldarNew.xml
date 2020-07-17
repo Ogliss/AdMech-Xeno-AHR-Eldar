@@ -135,11 +135,11 @@
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>2</amount>
+        <amount>1</amount>
       </li>
       <li>
         <defName>Melee</defName>
-        <amount>4</amount>
+        <amount>3</amount>
       </li>
       <li>
         <defName>Plants</defName>
@@ -168,7 +168,7 @@
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>4</amount>
+        <amount>3</amount>
       </li>
       <li>
         <defName>Melee</defName>
@@ -202,7 +202,7 @@
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>4</amount>
+        <amount>3</amount>
       </li>
       <li>
         <defName>Melee</defName>
@@ -259,7 +259,7 @@
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>4</amount>
+        <amount>3</amount>
       </li>
       <li>
         <defName>Melee</defName>
@@ -298,7 +298,7 @@
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>4</amount>
+        <amount>3</amount>
       </li>
       <li>
         <defName>Melee</defName>
@@ -331,7 +331,7 @@
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>4</amount>
+        <amount>3</amount>
       </li>
       <li>
         <defName>Melee</defName>
@@ -365,11 +365,11 @@
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>6</amount>
+        <amount>2</amount>
       </li>
       <li>
         <defName>Melee</defName>
-        <amount>-2</amount>
+        <amount>2</amount>
       </li>
       <li>
         <defName>Plants</defName>
@@ -378,6 +378,10 @@
       <li>
         <defName>Animals</defName>
         <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-3</amount>
       </li>
     </skillGains>
     <forcedHediffs>
@@ -417,16 +421,16 @@
     <defName>Eldar_Outcast_Psyker_Child</defName>
     <title>Outcast</title>
 	<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. However the strict paths of the [PAWN_alienRace] that shape the lives of Craftworld [PAWN_alienRace] proved too much for [PAWN_pronoun].</baseDescription>
-	<maleCommonality>0.25</maleCommonality>
-    <femaleCommonality>0.25</femaleCommonality>
+	<maleCommonality>0.05</maleCommonality>
+    <femaleCommonality>0.05</femaleCommonality>
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>6</amount>
+        <amount>3</amount>
       </li>
       <li>
         <defName>Melee</defName>
-        <amount>-2</amount>
+        <amount>2</amount>
       </li>
       <li>
         <defName>Plants</defName>
@@ -435,6 +439,10 @@
       <li>
         <defName>Animals</defName>
         <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-2</amount>
       </li>
     </skillGains>
     <forcedHediffs>
@@ -783,7 +791,7 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
       </li>
       <li>
         <defName>Shooting</defName>
-        <amount>6</amount>
+        <amount>4</amount>
       </li>
       <li>
         <defName>Melee</defName>
@@ -818,8 +826,8 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
   <!-- Eldar_Craftworld_Aspect_Warrior -->
   <AlienRace.BackstoryDef Name="Eldar_Craftworld_Aspect_Warrior" ParentName="Eldar_Base_Warrior" Abstract="true">
     <defName>Eldar_Craftworld_Aspect_Warrior</defName>
-	<maleCommonality>0.5</maleCommonality>
-    <femaleCommonality>0.5</femaleCommonality>
+	<maleCommonality>0.1</maleCommonality>
+    <femaleCommonality>0.1</femaleCommonality>
     <skillGains>
       <li>
         <defName>Construction</defName>
@@ -835,7 +843,7 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
       </li>
       <li>
         <defName>Artistic</defName>
-        <amount>-3</amount>
+        <amount>-2</amount>
       </li>
     </skillGains>
     <forcedHediffs>
@@ -852,8 +860,8 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <title>Dire Avenger</title>
     <titleShort>Avenger</titleShort>
     <baseDescription>[PAWN_nameDef] is currently walking the path of the Avenger, The Dire Avengers were the first amongst the Aspect Warriors of the Eldar. They represent the Eldar War God Khaela Mensha Khaine in his aspect as the noblest and yet most merciless of warriors. The Dire Avengers show no mercy to their foes and are unwavering in their devotion to their people.\n\nThese warriors are the least specialised and the most tactically flexible of all the Warrior Aspects, as they serve Eldar armies as elite ranged infantry. The Dire Avengers are also the most common of the Warrior Aspects amongst the Eldar, and their shrines are the largest to be found on all the Craftworlds.</baseDescription>
-	<maleCommonality>0.5</maleCommonality>
-    <femaleCommonality>0.5</femaleCommonality>
+	<maleCommonality>0.25</maleCommonality>
+    <femaleCommonality>0.25</femaleCommonality>
     <skillGains>
       <li>
         <defName>Shooting</defName>
@@ -878,8 +886,6 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <title>Howling Banshee</title>
     <titleShort>Banshee</titleShort>
     <baseDescription>[PAWN_nameDef] is currently walking the path of the Banshee, The Howling Banshees are the all-female Eldar Aspect Warriors who specialise in highly mobile melee combat and represent the Eldar War God Khaela Mensha Khaine's ability to instill fear in his foes. The banshee is a harbinger of woe and death in Eldar Mythology. Their cry is said to herald ill fate and can even wrench a soul from its Spirit Stone. It is fitting that these most feared of all the Eldar Aspect Warriors draw their inspiration from this creature. These lightly-equipped warrior-women are fearsome melee combat specialists who draw their inspiration from the unearthly creature with which they share a name. What the Howling Banshees lack in brute strength they make up for with their uncanny and inhuman precision and efficiency. The piercing warcry of these Aspect Warriors has heralded the coming doom of countless enemies of the Eldar people.</baseDescription>
-	<maleCommonality>0.5</maleCommonality>
-    <femaleCommonality>0.5</femaleCommonality>
     <skillGains>
       <li>
         <defName>Shooting</defName>
@@ -904,8 +910,6 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <title>Fire Dragon</title>
     <titleShort>Dragon</titleShort>
     <baseDescription>[PAWN_nameDef] is currently walking the path of the Dragon, The Fire Dragons are Eldar Aspect Warriors who seek to embody the writhing, sinewy dragons of Eldar Mythology. No Eldar Aspect Warriors revel more in destruction than those who serve the Shrine of the Fire Dragons. Taking as their totem the fierce, fire-breathing creatures of Eldar legend, they epitomise the brutal, wanton destruction of war. When called to arms their goal is the total annihilation of their foes, to the exclusion of all else. Fire Dragons are aggressive and warlike close combat fighters who utilise heat-based weaponry to destroy enemy armoured vehicles and drive the foe from his fortified strongpoints. They have an unsurpassed mastery of their chosen and highly dangerous weapons, and take savage delight in the devastation they create. For this reason, the Eldar believe that the Fire Dragons are the embodiment of the Eldar War God Kaela Mensha Khaine's penchant for pure destruction. It is said that Fire Dragon Exarchs generate a corona of lambent flame around themselves when the battle lust is upon them.</baseDescription>
-	<maleCommonality>0.5</maleCommonality>
-    <femaleCommonality>0.5</femaleCommonality>
     <skillGains>
       <li>
         <defName>Shooting</defName>
@@ -930,8 +934,6 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <title>Swooping Hawk</title>
     <titleShort>Hawk</titleShort>
     <baseDescription>[PAWN_nameDef] is currently walking the path of the Hawk, The Swooping Hawks are the aerial Aspect Warriors of the Eldar. They wear cunningly constructed anti-gravitic wings that enable them to launch high into the air at a moment's notice. They are able to launch lightning-fast aerial assaults against their foes, cutting them down with the deadly energy weapons known as Lasblasters in a blur of colour. The Swooping Hawks take their name from the wild hunting birds of Eldar Mythology, who symbolise revenge and retribution. Just as these birds of legend contained the spirit of a murdered Eldar, hovering over their killers as a mark of guilt, so too do the Swooping Hawks fly across the battlefield, dealing swift death as retribution to the enemies of the Eldar.</baseDescription>
-	<maleCommonality>0.5</maleCommonality>
-    <femaleCommonality>0.5</femaleCommonality>
     <skillGains>
       <li>
         <defName>Shooting</defName>
@@ -956,12 +958,10 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <title>Dark Reaper</title>
     <titleShort>Reaper</titleShort>
     <baseDescription>[PAWN_nameDef] is currently walking the path of the Reaper, The Dark Reapers are the most menacing of the Eldar Aspect Warriors. They exemplify the Eldar War God Kaela Mensha Khaine in his aspect as the Destroyer, and their skull-masked costume echoes that of their founder and Phoenix Lord, the "Harvester of Souls," Maugan Ra. They specialise in the use of highly-destructive, long-range heavy weaponry.</baseDescription>
-	<maleCommonality>0.5</maleCommonality>
-    <femaleCommonality>0.5</femaleCommonality>
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>5</amount>
+        <amount>4</amount>
       </li>
       <li>
         <defName>Melee</defName>
@@ -982,8 +982,6 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <title>Striking Scorpion</title>
     <titleShort>Scorpion</titleShort>
     <baseDescription>[PAWN_nameDef] is currently walking the path of the Scorpion, The Eldar Aspect Warriors known as the Striking Scorpions epitomise the deadly attributes of their namesake, and they are the most skilled of all the close-assault Warrior Aspects on the Eldar Path of the Warrior. They are merciless killers without exception, reveling in the hunt and the kill, using stealth and shadow to cloak themselves from sight until the moment of attack. The Striking Scorpions represent the wrath of the War God Kaela Mensha Khaine, which can fall without warning and with extraordinary savagery upon his foes.</baseDescription>
-	<maleCommonality>0.5</maleCommonality>
-    <femaleCommonality>0.5</femaleCommonality>
     <skillGains>
       <li>
         <defName>Shooting</defName>
@@ -991,7 +989,7 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
       </li>
       <li>
         <defName>Melee</defName>
-        <amount>5</amount>
+        <amount>4</amount>
       </li>
     </skillGains>
     <forcedHediffs>
@@ -1008,12 +1006,10 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <title>Shadow Spectre</title>
     <titleShort>Spectre</titleShort>
     <baseDescription>[PAWN_nameDef] is currently walking the path of the Spectre, The Shadow Spectres are a recently re-discovered group of Eldar Aspect Warriors who specialise in the deployment of highly-mobile, infantry-based anti-armour firepower who are experts at striking at enemy vehicles from concealment and extreme long-range. Armed with Prism Rifles, each a potent anti-tank weapon, and equipped with Jetpacks, their mobility allows them to hunt down their chosen targets with the implacable patience of the dead, materialising seemingly from the very air to unleash their overwhelming firepower. The Shadow Spectres represent the Eldar God of War Kaela Mensha Khaine in his aspect as the Eternal Warrior, for whom death is no release from duty. It is therefore appropriate that the Shadow Spectres Aspect Shrine has historically been associated with the Wraithguard. Traditionally, Eldar who lose their lives in service to the Shadow Spectres Shrine have their Spirit Stone transferred to a Wraithbone combat walker body; in turn, the Wraithguard have acted as the guardians of the Shadow Spectre Shrine for many Terran millennia.</baseDescription>
-	<maleCommonality>0.5</maleCommonality>
-    <femaleCommonality>0.5</femaleCommonality>
-    <skillGains>
+   <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>6</amount>
+        <amount>4</amount>
       </li>
       <li>
         <defName>Melee</defName>
@@ -1034,8 +1030,6 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <title>Warp Spider</title>
     <titleShort>Spider</titleShort>
     <baseDescription>[PAWN_nameDef] is currently walking the path of the Spider, The Warp Spiders are Eldar Aspect Warriors who specialise in the use of a personal teleportation device built into their Aspect Armour to make a series of rapid jumps through the Immaterium that make them nearly impossible to target and allow them to attack the enemy suddenly and disappear before he can strike back.\n\nTaking their name from the same creatures who protect the Infinity Circuits of their Craftworlds, the Warp Spiders epitomise the concept of an aggressive defence.</baseDescription>
-	<maleCommonality>0.5</maleCommonality>
-    <femaleCommonality>0.5</femaleCommonality>
     <skillGains>
       <li>
         <defName>Shooting</defName>
@@ -1057,8 +1051,8 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
   <!-- Eldar_Craftworld_Warrior_AspectExarch -->
   <AlienRace.BackstoryDef Name="Eldar_Craftworld_Aspect_Warrior_Exarch" ParentName="Eldar_Base_Warrior" Abstract="true">
     <defName>Eldar_Craftworld_Aspect_Warrior_Exarch</defName>
-	<maleCommonality>0.25</maleCommonality>
-    <femaleCommonality>0.25</femaleCommonality>
+	<maleCommonality>0.05</maleCommonality>
+    <femaleCommonality>0.05</femaleCommonality>
     <skillGains>
 	
     </skillGains>
@@ -1076,8 +1070,6 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <title>Dire Avenger</title>
     <titleShort>Avenger</titleShort>
     <baseDescription>[PAWN_nameDef] is an Exarch, lost to the path of the Avenger, The Dire Avengers were the first amongst the Aspect Warriors of the Eldar. They represent the Eldar War God Khaela Mensha Khaine in his aspect as the noblest and yet most merciless of warriors. The Dire Avengers show no mercy to their foes and are unwavering in their devotion to their people.\n\nThese warriors are the least specialised and the most tactically flexible of all the Warrior Aspects, as they serve Eldar armies as elite ranged infantry. The Dire Avengers are also the most common of the Warrior Aspects amongst the Eldar, and their shrines are the largest to be found on all the Craftworlds.</baseDescription>
-	<maleCommonality>0.5</maleCommonality>
-    <femaleCommonality>0.5</femaleCommonality>
     <skillGains>
       <li>
         <defName>Shooting</defName>
@@ -1102,8 +1094,6 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <title>Howling Banshee</title>
     <titleShort>Banshee</titleShort>
     <baseDescription>[PAWN_nameDef] is an Exarch, lost the path of the Banshee, The Howling Banshees are the all-female Eldar Aspect Warriors who specialise in highly mobile melee combat and represent the Eldar War God Khaela Mensha Khaine's ability to instill fear in his foes. The banshee is a harbinger of woe and death in Eldar Mythology. Their cry is said to herald ill fate and can even wrench a soul from its Spirit Stone. It is fitting that these most feared of all the Eldar Aspect Warriors draw their inspiration from this creature. These lightly-equipped warrior-women are fearsome melee combat specialists who draw their inspiration from the unearthly creature with which they share a name. What the Howling Banshees lack in brute strength they make up for with their uncanny and inhuman precision and efficiency. The piercing warcry of these Aspect Warriors has heralded the coming doom of countless enemies of the Eldar people.</baseDescription>
-	<maleCommonality>0.5</maleCommonality>
-    <femaleCommonality>0.5</femaleCommonality>
     <skillGains>
       <li>
         <defName>Shooting</defName>
@@ -1128,8 +1118,6 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <title>Fire Dragon</title>
     <titleShort>Dragon</titleShort>
     <baseDescription>[PAWN_nameDef] is an Exarch, lost the path of the Dragon, The Fire Dragons are Eldar Aspect Warriors who seek to embody the writhing, sinewy dragons of Eldar Mythology. No Eldar Aspect Warriors revel more in destruction than those who serve the Shrine of the Fire Dragons. Taking as their totem the fierce, fire-breathing creatures of Eldar legend, they epitomise the brutal, wanton destruction of war. When called to arms their goal is the total annihilation of their foes, to the exclusion of all else. Fire Dragons are aggressive and warlike close combat fighters who utilise heat-based weaponry to destroy enemy armoured vehicles and drive the foe from his fortified strongpoints. They have an unsurpassed mastery of their chosen and highly dangerous weapons, and take savage delight in the devastation they create. For this reason, the Eldar believe that the Fire Dragons are the embodiment of the Eldar War God Kaela Mensha Khaine's penchant for pure destruction. It is said that Fire Dragon Exarchs generate a corona of lambent flame around themselves when the battle lust is upon them.</baseDescription>
-	<maleCommonality>0.5</maleCommonality>
-    <femaleCommonality>0.5</femaleCommonality>
     <skillGains>
       <li>
         <defName>Shooting</defName>
@@ -1154,8 +1142,6 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <title>Swooping Hawk</title>
     <titleShort>Hawk</titleShort>
     <baseDescription>[PAWN_nameDef] is an Exarch, lost the path of the Hawk, The Swooping Hawks are the aerial Aspect Warriors of the Eldar. They wear cunningly constructed anti-gravitic wings that enable them to launch high into the air at a moment's notice. They are able to launch lightning-fast aerial assaults against their foes, cutting them down with the deadly energy weapons known as Lasblasters in a blur of colour. The Swooping Hawks take their name from the wild hunting birds of Eldar Mythology, who symbolise revenge and retribution. Just as these birds of legend contained the spirit of a murdered Eldar, hovering over their killers as a mark of guilt, so too do the Swooping Hawks fly across the battlefield, dealing swift death as retribution to the enemies of the Eldar.</baseDescription>
-	<maleCommonality>0.5</maleCommonality>
-    <femaleCommonality>0.5</femaleCommonality>
     <skillGains>
       <li>
         <defName>Shooting</defName>
@@ -1180,9 +1166,7 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <title>Dark Reaper</title>
     <titleShort>Reaper</titleShort>
     <baseDescription>[PAWN_nameDef] is an Exarch, lost the path of the Reaper, The Dark Reapers are the most menacing of the Eldar Aspect Warriors. They exemplify the Eldar War God Kaela Mensha Khaine in his aspect as the Destroyer, and their skull-masked costume echoes that of their founder and Phoenix Lord, the "Harvester of Souls," Maugan Ra. They specialise in the use of highly-destructive, long-range heavy weaponry.</baseDescription>
-	<maleCommonality>0.5</maleCommonality>
-    <femaleCommonality>0.5</femaleCommonality>
-    <skillGains>
+   <skillGains>
       <li>
         <defName>Shooting</defName>
         <amount>3</amount>
@@ -1206,8 +1190,6 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <title>Striking Scorpion</title>
     <titleShort>Scorpion</titleShort>
     <baseDescription>[PAWN_nameDef] is an Exarch, lost the path of the Scorpion, The Eldar Aspect Warriors known as the Striking Scorpions epitomise the deadly attributes of their namesake, and they are the most skilled of all the close-assault Warrior Aspects on the Eldar Path of the Warrior. They are merciless killers without exception, reveling in the hunt and the kill, using stealth and shadow to cloak themselves from sight until the moment of attack. The Striking Scorpions represent the wrath of the War God Kaela Mensha Khaine, which can fall without warning and with extraordinary savagery upon his foes.</baseDescription>
-	<maleCommonality>0.5</maleCommonality>
-    <femaleCommonality>0.5</femaleCommonality>
     <skillGains>
       <li>
         <defName>Shooting</defName>
@@ -1232,8 +1214,6 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <title>Shadow Spectre</title>
     <titleShort>Spectre</titleShort>
     <baseDescription>[PAWN_nameDef] is an Exarch, lost the path of the Spectre, The Shadow Spectres are a recently re-discovered group of Eldar Aspect Warriors who specialise in the deployment of highly-mobile, infantry-based anti-armour firepower who are experts at striking at enemy vehicles from concealment and extreme long-range. Armed with Prism Rifles, each a potent anti-tank weapon, and equipped with Jetpacks, their mobility allows them to hunt down their chosen targets with the implacable patience of the dead, materialising seemingly from the very air to unleash their overwhelming firepower. The Shadow Spectres represent the Eldar God of War Kaela Mensha Khaine in his aspect as the Eternal Warrior, for whom death is no release from duty. It is therefore appropriate that the Shadow Spectres Aspect Shrine has historically been associated with the Wraithguard. Traditionally, Eldar who lose their lives in service to the Shadow Spectres Shrine have their Spirit Stone transferred to a Wraithbone combat walker body; in turn, the Wraithguard have acted as the guardians of the Shadow Spectre Shrine for many Terran millennia.</baseDescription>
-	<maleCommonality>0.5</maleCommonality>
-    <femaleCommonality>0.5</femaleCommonality>
     <skillGains>
       <li>
         <defName>Shooting</defName>
@@ -1258,8 +1238,6 @@ Like all of their kind, the Bonesingers are following one of the many Asuryani P
     <title>Warp Spider</title>
     <titleShort>Spider</titleShort>
     <baseDescription>[PAWN_nameDef] is an Exarch, lost the path of the Spider, The Warp Spiders are Eldar Aspect Warriors who specialise in the use of a personal teleportation device built into their Aspect Armour to make a series of rapid jumps through the Immaterium that make them nearly impossible to target and allow them to attack the enemy suddenly and disappear before he can strike back.\n\nTaking their name from the same creatures who protect the Infinity Circuits of their Craftworlds, the Warp Spiders epitomise the concept of an aggressive defence.</baseDescription>
-	<maleCommonality>0.5</maleCommonality>
-    <femaleCommonality>0.5</femaleCommonality>
     <skillGains>
       <li>
         <defName>Shooting</defName>
