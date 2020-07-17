@@ -162,7 +162,7 @@
   <AlienRace.BackstoryDef ParentName="Eldar_Psyker_Child">
     <defName>Eldar_Exodite_Psyker_Child</defName>
     <title>Exodite</title>
-	<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life.</baseDescription>
+	<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] maiden world. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life.</baseDescription>
 	<maleCommonality>0.15</maleCommonality>
     <femaleCommonality>0.15</femaleCommonality>
     <skillGains>
@@ -599,16 +599,20 @@
     <title>Path of the Artisan</title>
     <titleShort>Artisan</titleShort>
 	<!-- <linkedBackstory>Eldar_Craftworld_Child</linkedBackstory> -->
-    <baseDescription>[PAWN_nameDef] is following The Path of the Zoologist, a specialised extension of the Path of Service and includes all who concern themselves with tending the enormous quantity of animals living within an Eldar Craftworld, many of them the last surviving species of one of the lost Eldar homeworlds.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is following The Path of the Artisan, a relatively common Path for an Asuryani. There are many sub-specialisations along the Path of the Artisan, such as the Path of the Poet, the Path of the Musician, the Path of the Sculpter, the Path of the Painter, and so on. Even within each of these minor Paths there are conflicting schools of style, such as the School of Hithrinair, which teaches that the artist should become as much a part of their art as they can be, with its followers often bleaching their skin and marking themselves with stylistic tattoos to show that they have become one with their craft.</baseDescription>
     <workDisables>
     </workDisables>
     <skillGains>
       <li>
         <defName>Plants</defName>
-        <amount>-6</amount>
+        <amount>-4</amount>
       </li>
       <li>
         <defName>Animals</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
         <amount>6</amount>
       </li>
     </skillGains>
