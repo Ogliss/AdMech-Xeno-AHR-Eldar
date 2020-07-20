@@ -23,12 +23,14 @@ namespace RimWorld
         public static ThingDef OG_Eldar_Grog;
         */
         // Backstory Defs
+        /*
         public static AlienRace.BackstoryDef Eldar_Exodite_Child;
         public static AlienRace.BackstoryDef Eldar_Exodite_Psyker_Child;
         public static AlienRace.BackstoryDef Eldar_Craftworld_Child;
         public static AlienRace.BackstoryDef Eldar_Craftworld_Psyker_Child;
         public static AlienRace.BackstoryDef Eldar_Harlequinn_Child;
         public static AlienRace.BackstoryDef Eldar_Harlequinn_Psyker_Child;
+        */
 
         // Humanlike Race Defs
         public static AlienRace.ThingDef_AlienRace OG_Alien_Eldar;
