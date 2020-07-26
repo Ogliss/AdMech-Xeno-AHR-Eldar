@@ -19,8 +19,8 @@ namespace RimWorld
         public static ThingDef OG_Eldar_FermentingBarrel;
 
         // Item Defs
-        public static ThingDef OG_Eldar_Waart;
-        public static ThingDef OG_Eldar_Grog;
+        public static ThingDef OGE_Wraithbone;
+        public static ThingDef OGE_SpiritStones;
         */
         // Backstory Defs
         /*
