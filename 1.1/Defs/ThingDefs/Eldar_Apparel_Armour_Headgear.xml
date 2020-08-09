@@ -37,7 +37,9 @@
 			<OGE_Component>5</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>OG_Aeldari_Tech_Apparel_Armour_T1</researchPrerequisite>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<apparel>
 		<useWornGraphicMask>true</useWornGraphicMask>
@@ -119,7 +121,9 @@
 			<OGE_Component>5</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>OG_Aeldari_Tech_Apparel_Armour_T1</researchPrerequisite>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<apparel>
 		<useWornGraphicMask>true</useWornGraphicMask>
@@ -202,7 +206,9 @@
 			<OGE_Component>5</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>OG_Aeldari_Tech_Apparel_Armour_T1</researchPrerequisite>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<apparel>
 		<useWornGraphicMask>true</useWornGraphicMask>
@@ -284,7 +290,9 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>OG_Eldar_Tech_Apparel_Armour_T2</researchPrerequisite>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<apparel>
 		<useWornGraphicMask>true</useWornGraphicMask>
@@ -368,7 +376,9 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>OG_Eldar_Tech_Apparel_Armour_T3</researchPrerequisite>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T3</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<apparel>
 		<useWornGraphicMask>true</useWornGraphicMask>
@@ -451,7 +461,9 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>OG_Eldar_Tech_Apparel_Armour_T3</researchPrerequisite>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T3</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<apparel>
 		<useWornGraphicMask>true</useWornGraphicMask>

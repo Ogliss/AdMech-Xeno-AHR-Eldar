@@ -27,7 +27,9 @@
 			<OGE_Component>4</OGE_Component>
 		</costList>
 		<recipeMaker>
-			 <researchPrerequisite>OG_Common_Tech_Weapons_Plasma</researchPrerequisite> 
+			<researchPrerequisites>
+				<li>OG_Common_Tech_Weapons_Plasma</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<comps>  
 			<li Class="AbilitesExtended.CompProperties_AbilityItem">
@@ -85,8 +87,9 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			 <researchPrerequisite>OG_Common_Tech_Weapons_Haywire</researchPrerequisite>
-			
+			<researchPrerequisites>
+				<li>OG_Common_Tech_Weapons_Haywire</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<comps>  
 			<li Class="AbilitesExtended.CompProperties_AbilityItem">

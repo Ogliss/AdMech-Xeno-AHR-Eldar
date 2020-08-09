@@ -89,7 +89,7 @@
 	-->
 </ThingDef>
 
-<AlienRace.ThingDef_AlienRace Name="OG_Eldar_Race" ParentName="OG_Eldar_Pawn_Base" Abstract="True">
+<AlienRace.ThingDef_AlienRace Name="OG_Eldar_RaceBase" ParentName="OG_Eldar_Pawn_Base" Abstract="True">
     <defName>OG_Alien_Eldar</defName>
     <label>Eldar</label>
     <description>The Eldar race has a long and complex spacefaring history, so long in fact that little is known for certain about the course of their physical evolution and early planet-bound existence. The original Eldar homeworld was destroyed during the catastrophic collapse of the Eldar civilisation known as the Fall of the Eldar. The remnants of Eldar culture that survived the cataclysm preserved much of their species' history in the form of traditional stories, songs and dance. Written records, monuments and visual records were almost completely destroyed except for a few instances where they were taken aboard voidcraft fleeing from the doomed worlds.\n\nAs a humanoid race, Eldar are physically similar to humans, although not entirely identical by any means. They possess longer and cleaner limbs, and fine ascetic features with penetrating and slightly slanted, almond-shaped eyes. Their ears are also slightly pointed, but otherwise they could pass as human at first glance. The most obvious difference between humans and Eldar can only be seen when they move, for the movements of an Eldar radiate a subtle grace which is impossible for a human to emulate. This can be seen in even their slightest gestures or the dexterity with which they manipulate small objects.\n\nThe Eldar mind, while similar in general to the human psyche, is far more inclined towards extremes. Because of this, Eldar are more intelligent but also far more intense than humans. Although an Eldar and a human can both feel grief or joy, the Eldar's experience is likely to be far more extreme.</description>
@@ -130,27 +130,6 @@
                 </li>
 
             </forcedRaceTraitEntries>
-			<disallowedTraits>
-               <li>Cannibal</li>
-			   <!--
-        <li>
-            <defName>PsychicSensitivity</defName>
-            <degree>-2</degree>
-        </li>
-        <li>
-            <defName>PsychicSensitivity</defName>
-            <degree>-1</degree>
-        </li>
-        <li>
-            <defName>Beauty</defName>
-            <degree>-2</degree>
-        </li>
-        <li>
-            <defName>Beauty</defName>
-            <degree>-1</degree>
-        </li>
-		-->
-            </disallowedTraits>
             <alienPartGenerator>
 				<customDrawSize>(0.8, 1.0)</customDrawSize>
                 <aliencrowntypes>
@@ -165,172 +144,6 @@
                 </alienbodytypes>
 				<useGenderedHeads>true</useGenderedHeads>
 				<useGenderedBodies>false</useGenderedBodies>
-	      <bodyAddons>
-		    <li>
-		      <path>Things/Pawn/Humanlike/Eldar/Heads/Ears/EarL</path>
-			  <bodyPart>left ear</bodyPart>
-			  <inFrontOfBody>true</inFrontOfBody>
-			  <drawnInBed>true</drawnInBed>
-			  <layerOffset>-0.27</layerOffset>
-			  <offsets>
-				  <south>
-					<bodyTypes>
-						<Male>(-0.42,0.5)</Male>
-						<Female>(-0.42,0.5)</Female>
-					</bodyTypes>
-					<crownTypes>
-						<Average_Normal>(-0.0,0.0)</Average_Normal>
-						<Narrow_Normal>(0.0,0.0)</Narrow_Normal>
-						<Average_Wide>(0.02,0.0)</Average_Wide>
-						<Average_Pointy>(-0.0,0.0)</Average_Pointy>
-					</crownTypes>
-				  </south>
-				  <north>
-					<bodyTypes>
-						<Male>(0,0.9)</Male>
-						<Female>(0,0.9)</Female>
-					</bodyTypes>
-					<crownTypes>
-						<Average_Normal>(0,0.0)</Average_Normal>
-						<Narrow_Normal>(0,0.0)</Narrow_Normal>
-						<Average_Wide>(0,0.0)</Average_Wide>
-						<Average_Pointy>(0,0.0)</Average_Pointy>
-					</crownTypes>
-				  </north>
-				  <east>
-					<bodyTypes>
-						<Male>(-0.48,0.5)</Male>
-						<Female>(-0.48,0.5)</Female>
-					</bodyTypes>
-					<crownTypes>
-						<Average_Normal>(-0.0,0.0)</Average_Normal>
-						<Narrow_Normal>(-0.0,0.0)</Narrow_Normal>
-						<Average_Wide>(-0.0,0.0)</Average_Wide>
-						<Average_Pointy>(-0.0,0.0)</Average_Pointy>
-					</crownTypes>
-				  </east>
-			  </offsets>
-		      <useSkinColor>true</useSkinColor>
-			  <hiddenUnderApparelFor>
-                <li>FullHead</li>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
-		    </li>
-		    <li>
-		      <path>Things/Pawn/Humanlike/Eldar/Heads/Ears/EarR</path>
-			  <bodyPart>right ear</bodyPart>
-			  <inFrontOfBody>true</inFrontOfBody>
-			  <drawnInBed>true</drawnInBed>
-			  <layerOffset>-0.27</layerOffset>
-			  <offsets>
-				  <south>
-					<bodyTypes>
-						<Male>(-0.42,0.5)</Male>
-						<Female>(-0.42,0.5)</Female>
-					</bodyTypes>
-					<crownTypes>
-						<Average_Normal>(-0.0,0.0)</Average_Normal>
-						<Female_Narrow_Normal>(0.01,0.0)</Female_Narrow_Normal>
-						<Narrow_Normal>(0.02,0.0)</Narrow_Normal>
-						<Average_Wide>(-0.01,0.0)</Average_Wide>
-						<Average_Pointy>(-0.0,0.0)</Average_Pointy>
-					</crownTypes>
-				  </south>
-				  <north>
-					<bodyTypes>
-						<Male>(0,0.9)</Male>
-						<Female>(0,0.9)</Female>
-					</bodyTypes>
-					<crownTypes>
-						<Average_Normal>(-0.0,0.0)</Average_Normal>
-						<Narrow_Normal>(-0.0,0.0)</Narrow_Normal>
-						<Average_Wide>(-0.0,0.0)</Average_Wide>
-						<Average_Pointy>(-0.0,0.0)</Average_Pointy>
-					</crownTypes>
-				  </north>
-				  <east>
-					<bodyTypes>
-						<Male>(-0.48,0.5)</Male>
-						<Female>(-0.48,0.5)</Female>
-					</bodyTypes>
-					<crownTypes>
-						<Average_Normal>(-0.0,0.0)</Average_Normal>
-						<Narrow_Normal>(-0.0,0.0)</Narrow_Normal>
-						<Average_Wide>(-0.0,0.0)</Average_Wide>
-						<Average_Pointy>(-0.0,0.0)</Average_Pointy>
-					</crownTypes>
-				  </east>
-			  </offsets>
-		      <useSkinColor>true</useSkinColor>
-			  <hiddenUnderApparelFor>
-                <li>FullHead</li>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
-		    </li>
-		  </bodyAddons>
-			    <alienskincolorgen Class="ColorGenerator_Options">
-                               <options>
-            <li>
-                <weight>10</weight>
-				<only>RGBA(0.9412,0.851,0.7804,1)</only>
-            </li>
-			<!--
-			<li>
-                <weight>10</weight>
-                <only>RGBA(0.9922,0.898,0.8235,1)</only>
-            </li>
-			<li>
-                <weight>8</weight>
-                <only>RGBA(0.925,0.925,0.925,1)</only>
-            </li>
-			<li>
-                <weight>8</weight>
-                <only>RGBA(0.952,0.952,0.952,1)</only>
-            </li>
-			<li>
-                <weight>8</weight>
-                <only>RGBA(0.831,0.831,0.831,1)</only>
-            </li>
-			<li>
-                <weight>8</weight>
-                <only>RGBA(0.982,0.982,0.982,1)</only>
-            </li>
-			<li>
-                <weight>8</weight>
-                <only>RGBA(0.690,0.690,0.690,1)</only>
-            </li>
-            <li>
-                <weight>8</weight>
-                <only>RGBA(0.952,0.913,0.349,1)</only>
-            </li>
-            <li>
-                <weight>8</weight>
-                <only>RGBA(0.980,0.631,0.227,1)</only>
-            </li>
-			<li>
-                <weight>6</weight>
-                <only>RGBA(0.980,0.227,0.227,1)</only>
-            </li>
-            <li>
-                <weight>6</weight>
-                <only>RGBA(0.282,0.894,0.525,1)</only>
-            </li>
-            <li>
-                <weight>6</weight>
-                <only>RGBA(0.886,0.756,0.56,1)</only>
-            </li>
-            <li>
-                <weight>6</weight>
-                <only>RGBA(0.415,0.25,0.474,1)</only>
-            </li>
-             <li>
-                <weight>7</weight>
-                <only>RGBA(0.25,0.274,0.474,1)</only>
-            </li>
-			-->
-            </options>
-                </alienskincolorgen>
-            <useSkincolorForHair>false</useSkincolorForHair>
             </alienPartGenerator>
 			<chemicalSettings>	
 		    </chemicalSettings>
