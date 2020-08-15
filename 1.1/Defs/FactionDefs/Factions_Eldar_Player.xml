@@ -24,7 +24,7 @@
       </li>
     </backstoryFilters>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
-	<factionIconPath>Icons/Icon_Eldar_Craftworld</factionIconPath>
+	<factionIconPath>Icons/Eldar/Icon_Eldar_Craftworld</factionIconPath>
     <startingResearchTags>
       <li>ClassicStart</li>
     </startingResearchTags>
@@ -71,7 +71,7 @@
       <li>ExoditeCommand</li>
   	</backstoryCategories>
     <factionIconPath>World/WorldObjects/TribalSettlement</factionIconPath>
-	<settlementTexturePath>Icons/Icon_Eldar_Exodite_B</settlementTexturePath>
+	<settlementTexturePath>Icons/Eldar/Icon_Eldar_Exodite_B</settlementTexturePath>
     <startingResearchTags>
       <li>TribalStart</li>
     </startingResearchTags>
@@ -119,7 +119,7 @@
       <li>ExoditeCommand</li>
   	</backstoryCategories>
     <factionIconPath>World/WorldObjects/TribalSettlement</factionIconPath>
-	<settlementTexturePath>Icons/Icon_Eldar_Harlequin_B</settlementTexturePath>
+	<settlementTexturePath>Icons/Eldar/Icon_Eldar_Harlequin_B</settlementTexturePath>
     <startingResearchTags>
       <li>TribalStart</li>
     </startingResearchTags>

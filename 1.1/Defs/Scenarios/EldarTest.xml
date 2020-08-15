@@ -60,12 +60,12 @@
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>OGE_Gun_EShurikenCatapult</thingDef>
+				<thingDef>OGE_Gun_ShurikenCatapult</thingDef>
 				<count>2</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>OGE_Gun_EShurikenCatapultAvenger</thingDef>
+				<thingDef>OGE_Gun_ShurikenCatapultAvenger</thingDef>
 			</li>
 			<li Class="ScenPart_ScatterThingsNearPlayerStart">
 				<def>ScatterThingsNearPlayerStart</def>

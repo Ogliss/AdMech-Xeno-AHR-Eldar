@@ -108,13 +108,13 @@
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
     </race>
 	<!-- <tickerType>Normal</tickerType> -->
-	<comps>
-	  <li Class="AdeptusMechanicus.CompProperties_SlotLoadable">
+	<!--comps>
+	  <li Class="OgsCompSlotLoadable.CompProperties_SlotLoadable">
 		<slots>
 			<li>OG_SlotLoadable_SoulStone</li>
 		</slots>
 	  </li>
-	</comps>
+	</comps-->
   </ThingDef>
 
 </Defs>

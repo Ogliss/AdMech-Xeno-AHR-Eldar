@@ -37,7 +37,9 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			 <researchPrerequisite>EldarAdvancedArmour</researchPrerequisite> 
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T3</li>
+			</researchPrerequisites>
 		</recipeMaker>
     <apparel>
 		<careIfWornByCorpse>false</careIfWornByCorpse>
@@ -97,7 +99,9 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			 <researchPrerequisite>EldarAdvancedArmour</researchPrerequisite> 
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T3</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<apparel>
 			<bodyPartGroups>
@@ -148,7 +152,9 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			 <researchPrerequisite>EldarAdvancedArmour</researchPrerequisite> 
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T3</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		<apparel>
 			<bodyPartGroups>

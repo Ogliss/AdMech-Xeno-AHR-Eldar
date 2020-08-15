@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <FactionDef Abstract="True">
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+  <FactionDef Parent="PlayerFactionBase" Name="OG_Eldar_Player_Craftworld_Base"  Abstract="True">
+    <label>Craftworld Eldar</label>
+    <description>Your own community.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Colonist_OG_Eldar_Craftworld</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerOGEldarFaction</factionNameMaker>
+    <settlementNameMaker>NamerOGEldarBases</settlementNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategories>
+      <li>CraftworldCommand</li>
+  	</backstoryCategories>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
+	<expandingIconTexture>Icons/Eldar/Craftworld/Icon_Eldar_CraftworldB</expandingIconTexture>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+			<li>EldarHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <colorSpectrum>
+      <li>(1, 0.437, 0.847)</li>
+    </colorSpectrum>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+  </FactionDef>
+  
+	
+  <FactionDef ParentName="OG_Eldar_Player_Craftworld_Base">
+    <defName>OG_Eldar_Player_Craftworld</defName>
+  </FactionDef>
+
+  <FactionDef ParentName="OG_Eldar_Player_Craftworld_Base">
+    <defName>EldarPlayerColony</defName>
+  </FactionDef>
+<!--
+    <FactionDef Parent="PlayerFactionBase" Name="OG_Eldar_Player_Exodite_Base"  Abstract="True">
+    <label>Exodite Eldar</label>
+    <description>Eldar Exodite Start.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Colonist_OG_Eldar_Craftworld</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerOGEldarFaction</factionNameMaker>
+    <settlementNameMaker>NamerOGEldarBases</settlementNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategories>
+      <li>ExoditeCommand</li>
+  	</backstoryCategories>
+    <homeIconPath>World/WorldObjects/TribalSettlement</homeIconPath>
+	<expandingIconTexture>Icons/Icon_Eldar_Exodite_B</expandingIconTexture>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <hairTags>
+			<li>EldarHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <colorSpectrum>
+      <li>(0, 0.437, 0.847)</li>
+    </colorSpectrum>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    </FactionDef>
+	
+  <FactionDef ParentName="OG_Eldar_Player_Exodite_Base">
+    <defName>OG_Eldar_Player_Exodite</defName>
+  </FactionDef>
+
+  <FactionDef ParentName="OG_Eldar_Player_Exodite_Base">
+    <defName>EldarPlayerColonyTribal</defName>
+  </FactionDef>
+
+    <FactionDef Parent="PlayerFactionBase" Name="OG_Eldar_Player_Harlequin_Base"  Abstract="True">
+    <label>Harlequin Eldar</label>
+    <description>Eldar Harlequin Start.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Colonist_OG_Eldar_Craftworld</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerOGEldarFaction</factionNameMaker>
+    <settlementNameMaker>NamerOGEldarBases</settlementNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategories>
+      <li>ExoditeCommand</li>
+  	</backstoryCategories>
+    <homeIconPath>World/WorldObjects/TribalSettlement</homeIconPath>
+	<expandingIconTexture>Icons/Icon_Eldar_Harlequin_B</expandingIconTexture>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <hairTags>
+			<li>EldarHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <colorSpectrum>
+      <li>(0, 0.437, 0.847)</li>
+    </colorSpectrum>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    </FactionDef>
+	
+  <FactionDef ParentName="OG_Eldar_Player_Harlequin_Base">
+    <defName>OG_Eldar_Player_Harlequin</defName>
+  </FactionDef>
+-->
+</Defs>

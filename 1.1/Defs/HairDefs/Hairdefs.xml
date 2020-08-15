@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <label>Eldar Bald</label>
+    <texPath>Things/Pawn/Humanlike/Eldar/Hair/Bald</texPath>
+    <defName>EldarBald</defName>
+    <hairGender>Any</hairGender>
+	<hairTags>
+		<li>EldarHair</li>
+	</hairTags>
+  </HairDef>
+ 
+  <HairDef>
+    <defName>Bob</defName>
+    <label>bob</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Bob</texPath>
+	<hairTags>
+		<li>EldarHair</li>
+	</hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>OGBurgundy</defName>
+    <label>burgundy</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Burgundy</texPath>
+	<hairTags>
+		<li>EldarHair</li>
+	</hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>OGFlowy</defName>
+    <label>flowy</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Flowy</texPath>
+	<hairTags>
+		<li>EldarHair</li>
+	</hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>OGLong</defName>
+    <label>long</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Long</texPath>
+    <hairTags>
+		<li>EldarHair</li>
+	</hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>OGMop</defName>
+    <label>mop</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Mop</texPath>
+	<hairTags>
+		<li>EldarHair</li>
+	</hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>OGShaved</defName>
+    <label>shaved</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Shaved</texPath>
+	<hairTags>
+		<li>EldarHair</li>
+	</hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>OGWavy</defName>
+    <label>wavy</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Wavy</texPath>
+	<hairTags>
+		<li>EldarHair</li>
+	</hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>OGBraidedKnot</defName>
+    <label>braided knot</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Braidbun</texPath>
+    <hairTags>
+		<li>EldarHair</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>OGSenorita</defName>
+    <label>senorita</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Senorita</texPath>
+    <hairTags>
+		<li>EldarHair</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>OGScorpionTail</defName>
+    <label>scorpion tail</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Scorpiontail</texPath>
+    <hairTags>
+		<li>EldarHair</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>OGBriefPonytail</defName>
+    <label>brief ponytail</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Gaston</texPath>
+    <hairTags>
+		<li>EldarHair</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>OGMessy</defName>
+    <label>messy</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Mess</texPath>
+    <hairTags>
+		<li>EldarHair</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>OGPrincess</defName>
+    <label>princess</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Princess</texPath>
+    <hairTags>
+		<li>EldarHair</li>
+    </hairTags>
+  </HairDef>
+</Defs>

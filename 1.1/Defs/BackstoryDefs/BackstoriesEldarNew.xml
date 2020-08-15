@@ -1,0 +1,1683 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Eldar --> 
+  <!-- Baseline Eldar -->
+  <!-- Eldar_Base_Backstory -->
+  <AlienRace.BackstoryDef Name="Eldar_Base_Backstory" Abstract="true">
+    <defName>Eldar_Base_Backstory</defName>
+    <workDisables>
+	
+    </workDisables>
+	<disallowedTraits>
+
+    </disallowedTraits>
+	<forcedTraits>
+	
+    </forcedTraits>
+    <skillGains>
+	
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Standard Eldar -->
+  <!-- Eldar_Standard_Backstory -->
+  <AlienRace.BackstoryDef Name="Eldar_Standard_Backstory" ParentName="Eldar_Base_Backstory" Abstract="true">
+    <defName>Eldar_Standard_Backstory</defName>
+    <workDisables>
+	
+    </workDisables>
+	<disallowedTraits>
+
+    </disallowedTraits>
+	<forcedTraits>
+	
+    </forcedTraits>
+    <skillGains>
+	
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar_Standard</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Psyker Eldar -->
+  <!-- Psyker Eldar_Psyker_Backstory -->
+  <AlienRace.BackstoryDef Name="Eldar_Psyker_Backstory" ParentName="Eldar_Base_Backstory" Abstract="true">
+    <defName>Eldar_Psyker_Backstory</defName>
+    <workDisables>
+	
+    </workDisables>
+	<disallowedTraits>
+
+    </disallowedTraits>
+	<forcedTraits>
+		<li>
+			<defName>PsychicSensitivity</defName>
+			<degree>2</degree>
+			<chance>50</chance>
+		</li>
+		<li>
+			<defName>PsychicSensitivity</defName>
+			<degree>1</degree>
+			<chance>100</chance>
+		</li>
+	</forcedTraits>
+    <skillGains>
+	
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar_Psyker</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar Childhoods -->
+  <!-- Eldar_Base_Child -->
+  <AlienRace.BackstoryDef Name="Eldar_Base_Child" ParentName="Eldar_Standard_Backstory" Abstract="true">
+    <defName>Eldar_Base_Child</defName>
+    <title>Eldar child</title>
+    <titleShort>Eldar child</titleShort>
+    <baseDescription>[PAWN_nameDef] is a young [PAWN_alienRace].</baseDescription>
+
+    <!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+	<disallowedTraits>
+
+    </disallowedTraits>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+	
+    </skillGains>
+    <spawnCategories>
+	
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Psyker Child -->
+  <!-- Eldar_Psyker_Child -->
+  <AlienRace.BackstoryDef Name="Eldar_Psyker_Child" ParentName="Eldar_Psyker_Backstory" Abstract="true">
+    <defName>Eldar_Psyker_Child</defName>
+    <title>Eldar child</title>
+    <titleShort>Eldar child</titleShort>
+    <baseDescription>[PAWN_nameDef] is a young [PAWN_alienRace] Pskyer.</baseDescription>
+
+    <!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+	<disallowedTraits>
+
+    </disallowedTraits>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+	
+    </skillGains>
+    <spawnCategories>
+	
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+ 
+  <!-- Exodite Childhoods -->
+  <!-- Exodite Child -->
+  <!-- Eldar_Exodite_Child -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Child">
+    <defName>Eldar_Exodite_Child</defName>
+    <title>Exodite</title>
+    <baseDescription>[PAWN_nameDef] was born on an Eldar maiden world. Isolationism and Mistrust were prominent.</baseDescription>
+	<maleCommonality>0.0</maleCommonality>
+    <femaleCommonality>0.0</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>EldarWingMutation</li> -->
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Exodite</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+   
+  <!-- Eldar_Exodite_Psyker_Child -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Psyker_Child">
+    <defName>Eldar_Exodite_Psyker_Child</defName>
+    <title>Exodite</title>
+	<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] maiden world. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life.</baseDescription>
+	<maleCommonality>0.15</maleCommonality>
+    <femaleCommonality>0.15</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>EldarBoldMutation</li> -->
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Exodite_Psyker</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+   
+  <!-- Craftworld Childhoods -->
+  <!-- Eldar_Craftworld_Child -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Child">
+    <defName>Eldar_Craftworld_Child</defName>
+    <title>Craftworlder</title>
+	<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life. [PAWN_pronoun] showed signifcant Psychic potiential, even for one of the [PAWN_alienRace].</baseDescription>
+	<maleCommonality>0.5</maleCommonality>
+    <femaleCommonality>0.5</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>EldarBoldMutation</li> -->
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld</li>
+      <li>Eldar_Craftworld_Command</li>
+      <li>Eldar_Craftworld_Civilian</li>
+      <li>Eldar_Craftworld_Warrior</li>
+      <li>Eldar_Craftworld_Warrior_Guardian</li>
+      <li>Eldar_Craftworld_Warrior_GuardianDefender</li>
+      <li>Eldar_Craftworld_Warrior_GuardianStorm</li>
+      <li>Eldar_Craftworld_Warrior_Aspect</li>
+      <li>Eldar_Craftworld_Ranger</li>
+      <li>Eldar_Craftworld_Warrior_DireAvenger</li>
+      <li>Eldar_Craftworld_Exarch_DireAvenger</li>
+      <li>Eldar_Craftworld_Warrior_HowlingBanshee</li>
+      <li>Eldar_Craftworld_Exarch_HowlingBanshee</li>
+      <li>Eldar_Craftworld_Warrior_FireDragon</li>
+      <li>Eldar_Craftworld_Exarch_FireDragon</li>
+      <li>Eldar_Craftworld_Warrior_SwoopingHawk</li>
+      <li>Eldar_Craftworld_Exarch_SwoopingHawk</li>
+      <li>Eldar_Craftworld_Warrior_DarkReaper</li>
+      <li>Eldar_Craftworld_Exarch_DarkReaper</li>
+      <li>Eldar_Craftworld_Warrior_StrikingScorpion</li>
+      <li>Eldar_Craftworld_Exarch_StrikingScorpion</li>
+      <li>Eldar_Craftworld_Warrior_ShadowSpectre</li>
+      <li>Eldar_Craftworld_Exarch_ShadowSpectre</li>
+      <li>Eldar_Craftworld_Warrior_WarpSpider</li>
+      <li>Eldar_Craftworld_Exarch_WarpSpider</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Psyker_Child -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Psyker_Child">
+    <defName>Eldar_Craftworld_Psyker_Child</defName>
+    <title>Craftworlder</title>
+	<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life. </baseDescription>
+	<maleCommonality>0.15</maleCommonality>
+    <femaleCommonality>0.15</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>EldarBoldMutation</li> -->
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Psyker</li>
+      <li>Eldar_Craftworld_Psyker_Farseer</li>
+      <li>Eldar_Craftworld_Psyker_Warlock</li>
+      <li>Eldar_Craftworld_Psyker_Spiritseer</li>
+      <li>Eldar_Craftworld_Psyker_Bonesinger</li>
+      <li>Eldar_Craftworld_Psyker_Healer</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+   
+  <!-- Harlequinn Childhoods -->
+  <!-- Eldar_Harlequinn_Child -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Child">
+    <defName>Eldar_Harlequinn_Child</defName>
+    <title>Harlequinn</title>
+	<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] was to shape [PAWN_possessive] life, but when [PAWN_pronoun] was offered a place in a passing group of Harlequinns [PAWN_pronoun] left [PAWN_possessive] Craftworld to wander the Webway.</baseDescription>
+	<maleCommonality>0.05</maleCommonality>
+    <femaleCommonality>0.05</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>EldarBoldMutation</li> -->
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Harlequinn</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Harlequinn_Psyker_Child -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Psyker_Child">
+    <defName>Eldar_Harlequinn_Psyker_Child</defName>
+    <title>Harlequinn</title>
+	<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] was to shape [PAWN_possessive] life, but when [PAWN_pronoun] was offered a place in a passing group of Harlequinns [PAWN_pronoun] left [PAWN_possessive] Craftworld to wander the Webway.</baseDescription>
+	<maleCommonality>0.015</maleCommonality>
+    <femaleCommonality>0.015</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>EldarBoldMutation</li> -->
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Harlequinn_Psyker</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+   
+  <!-- Outcast Childhoods -->
+  <!-- Eldar_Outcast_Child -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Child">
+    <defName>Eldar_Outcast_Child</defName>
+    <title>Outcast</title>
+	<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. However the strict paths of the [PAWN_alienRace] that shape the lives of Craftworld [PAWN_alienRace] proved too much for [PAWN_pronoun].</baseDescription>
+	<maleCommonality>0.25</maleCommonality>
+    <femaleCommonality>0.25</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>HyperactiveNymuneOrgan</li> -->
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Outcast</li>
+      <li>Eldar_Craftworld_Command</li>
+      <li>Eldar_Craftworld_Civilian</li>
+      <li>Eldar_Craftworld_Warrior</li>
+      <li>Eldar_Craftworld_Warrior_Guardian</li>
+      <li>Eldar_Craftworld_Warrior_GuardianDefender</li>
+      <li>Eldar_Craftworld_Warrior_GuardianStorm</li>
+      <li>Eldar_Craftworld_Warrior_Aspect</li>
+      <li>Eldar_Craftworld_Ranger</li>
+      <li>Eldar_Craftworld_Warrior_DireAvenger</li>
+      <li>Eldar_Craftworld_Exarch_DireAvenger</li>
+      <li>Eldar_Craftworld_Warrior_HowlingBanshee</li>
+      <li>Eldar_Craftworld_Exarch_HowlingBanshee</li>
+      <li>Eldar_Craftworld_Warrior_FireDragon</li>
+      <li>Eldar_Craftworld_Exarch_FireDragon</li>
+      <li>Eldar_Craftworld_Warrior_SwoopingHawk</li>
+      <li>Eldar_Craftworld_Exarch_SwoopingHawk</li>
+      <li>Eldar_Craftworld_Warrior_DarkReaper</li>
+      <li>Eldar_Craftworld_Exarch_DarkReaper</li>
+      <li>Eldar_Craftworld_Warrior_StrikingScorpion</li>
+      <li>Eldar_Craftworld_Exarch_StrikingScorpion</li>
+      <li>Eldar_Craftworld_Warrior_ShadowSpectre</li>
+      <li>Eldar_Craftworld_Exarch_ShadowSpectre</li>
+      <li>Eldar_Craftworld_Warrior_WarpSpider</li>
+      <li>Eldar_Craftworld_Exarch_WarpSpider</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Eldar_Outcast_Psyker_Child -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Psyker_Child">
+    <defName>Eldar_Outcast_Psyker_Child</defName>
+    <title>Outcast</title>
+	<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. However the strict paths of the [PAWN_alienRace] that shape the lives of Craftworld [PAWN_alienRace] proved too much for [PAWN_pronoun].</baseDescription>
+	<maleCommonality>0.05</maleCommonality>
+    <femaleCommonality>0.05</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>HyperactiveNymuneOrgan</li> -->
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Psyker_Farseer</li>
+      <li>Eldar_Craftworld_Psyker_Warlock</li>
+      <li>Eldar_Craftworld_Psyker_Spiritseer</li>
+      <li>Eldar_Craftworld_Psyker_Bonesinger</li>
+      <li>Eldar_Craftworld_Outcast_Psyker</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Craftworld Adulthoods -->
+  <!-- Path of Service -->
+  <!-- Baseline Civilian -->
+  <AlienRace.BackstoryDef Name="Eldar_Base_Civilian" ParentName="Eldar_Standard_Backstory" Abstract="true">
+    <defName>Eldar_Base_Civilian</defName>
+    <title>Path of Service</title>
+    <titleShort>Service</titleShort>
+    <slot>Adulthood</slot>
+
+    <!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<disallowedTraits>
+
+    </disallowedTraits>
+    <workDisables>
+	
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar_Craftworld</li>
+      <li>Eldar_Craftworld_Civilian</li>
+      <li>Eldar_Craftworld_Warrior_Guardian</li>
+      <li>Eldar_Craftworld_Warrior_GuardianDefender</li>
+      <li>Eldar_Craftworld_Warrior_GuardianStorm</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Civilians -->
+  <!-- Botanist --> 
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Civilian">
+    <defName>Eldar_Base_Farmer</defName>
+    <title>Path of the Botanist</title>
+    <titleShort>Botanist</titleShort>
+	<!-- <linkedBackstory>Eldar_Craftworld_Child</linkedBackstory> -->
+    <baseDescription>[PAWN_nameDef] is following The Path of the Botanist, a specialised extension of the Path of Service and includes gardeners, farmers and all who concern themselves with tending the enormous quantity of plants living within an Eldar Craftworld, many of them the last surviving species of one of the lost Eldar homeworlds.</baseDescription>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+	
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Zoologist --> 
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Civilian">
+    <defName>Eldar_Base_Zoologist</defName>
+    <title>Path of the Zoologist</title>
+    <titleShort>Zoologist</titleShort>
+	<!-- <linkedBackstory>Eldar_Craftworld_Child</linkedBackstory> -->
+    <baseDescription>[PAWN_nameDef] is following The Path of the Zoologist, a specialised extension of the Path of Service and includes all who concern themselves with tending the enormous quantity of animals living within an Eldar Craftworld, many of them the last surviving species of one of the lost Eldar homeworlds.</baseDescription>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>-6</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar_Base_Farmer</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Cook --> 
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Civilian">
+    <defName>Eldar_Base_Cook</defName>
+    <title>Path of the Cuisinier</title>
+    <titleShort>Cuisinier</titleShort>
+	<!-- <linkedBackstory>Eldar_Craftworld_Child</linkedBackstory> -->
+    <baseDescription>[PAWN_nameDef] is following The Path of the Cuisinier, a specialised extension of the Path of Service and includes all who concern themselves with preparing the food for those living within an Eldar Craftworld, many of them specialise of one of the lost Eldar homeworlds styles of cuisine.</baseDescription>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>-6</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar_Base_Farmer</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Path of Awakening -->
+  <!-- Awakening Civilian -->
+  <AlienRace.BackstoryDef Name="Eldar_Base_Awakening" ParentName="Eldar_Base_Backstory" Abstract="true">
+    <defName>Eldar_Base_Awakening</defName>
+    <title>Path of Awakening</title>
+    <titleShort>Awakening</titleShort>
+    <slot>Adulthood</slot>
+
+    <!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<disallowedTraits>
+
+    </disallowedTraits>
+    <workDisables>
+	
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar_Craftworld_Civilian</li>
+      <li>Eldar_Craftworld_Warrior_GuardianDefender</li>
+      <li>Eldar_Craftworld_Warrior_GuardianStorm</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+   
+  <!-- Artisan --> 
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Civilian">
+    <defName>Eldar_Base_Artisan</defName>
+    <title>Path of the Artisan</title>
+    <titleShort>Artisan</titleShort>
+	<!-- <linkedBackstory>Eldar_Craftworld_Child</linkedBackstory> -->
+    <baseDescription>[PAWN_nameDef] is following The Path of the Artisan, a relatively common Path for an Asuryani. There are many sub-specialisations along the Path of the Artisan, such as the Path of the Poet, the Path of the Musician, the Path of the Sculpter, the Path of the Painter, and so on. Even within each of these minor Paths there are conflicting schools of style, such as the School of Hithrinair, which teaches that the artist should become as much a part of their art as they can be, with its followers often bleaching their skin and marking themselves with stylistic tattoos to show that they have become one with their craft.</baseDescription>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar_Base_Farmer</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+   
+  <!-- Eldar_Base_Builder -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Awakening">
+    <defName>Eldar_Base_Builder</defName>
+    <title>Path of the Shaper</title>
+    <titleShort>Bonesinger</titleShort>
+	<!-- <linkedBackstory>Eldar_Craftworld_Psyker_Child</linkedBackstory> -->
+    <baseDescription>[PAWN_nameDef] is a Bonesinger serves as a psychic engineer and craftsman for the Craftworld Aeldari, the Asuryani. The Bonesingers are the builders and maintainers of all Aeldari weapons, tools and even the Craftworlds themselves. These powerful xenos psykers are gifted in the arts of construction using the solidified power of the Warp. They use their telepathic ability to summon or psychically generate the solidified substance of the Immaterium the Aeldari call Wraithbone, which they construct into buildings or tools and use to repair the Aeldari's vehicles, weapons and armour.
+
+Like all of their kind, the Bonesingers are following one of the many Asuryani Paths that determines their current focus and purpose in life. The Bonesinger's Path, the Path of Shaping, is closely related to both the Path of the Artisan and the Path of the Seer. During his or her time on the Path of Shaping, the Bonesinger is tasked with the construction and maintenance of Craftworld structures, weapons and machinery.</baseDescription>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar_Craftworld_Psyker</li>
+      <li>Eldar_Craftworld_Psyker_Bonesinger</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Craftsman -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Awakening">
+    <defName>Eldar_Base_Craftsman</defName>
+    <title>Path of the Artisan</title>
+    <titleShort>Artisan</titleShort>
+	<!-- <linkedBackstory>Eldar_Craftworld_Child</linkedBackstory> -->
+    <baseDescription>[PAWN_nameDef] is following The Path of the Artisan, it is a relatively common Path for an Eldar. There are many sub-specialisations along the Path of the Artisan, such as the Path of the Poet, the Path of the Musician, the Path of the Sculpter, the Path of the Painter, and so on. Even within each of these minor Paths there are conflicting schools of style, such as the School of Hithrinair, which teaches that the artist should become as much a part of his art as he can be, with its followers often bleaching their skin and marking themselves with stylistic tattoos to show that they have become one with their craft.</baseDescription>
+
+    <!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar_Standard</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+ 
+  <!-- Path of Warrior -->
+  <!-- Baseline Warrior -->
+  <AlienRace.BackstoryDef Name="Eldar_Base_Warrior" ParentName="Eldar_Base_Backstory" Abstract="true">
+    <defName>Eldar_Base_Warrior</defName>
+    <title>Path of the Warrior</title>
+    <titleShort>Eldar Warrior</titleShort>
+    <slot>Adulthood</slot>
+
+    <!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<disallowedTraits>
+
+    </disallowedTraits>
+    <workDisables>
+	
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar</li>
+      <li>Eldar_Craftworld</li>
+      <li>Eldar_Craftworld_Warrior</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Autarch -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Warrior">
+    <defName>Eldar_Autarch</defName>
+    <title>Eldar Autarch</title>
+    <titleShort>Autarch</titleShort>
+	<!-- <linkedBackstory>Eldar_Craftworld_Child</linkedBackstory> -->
+    <baseDescription>[PAWN_nameDef] is An Autarch, one of those few members of the Craftworld [PAWN_alienRace] who have mastered many of the Asuryani Paths over the centuries, including one or more facets of the Path of the Warrior. [PAWN_possessive] possess a consummate understanding of the art of war and serves as the supreme commanders of an Eldar Craftworld's warhost.\n\nThis Asuryani Path, known as the Path of Command or Path of the Leader, is pursued by highly skilled individuals who believe martial excellence can be achieved by gaining a wider perspective of battle that allows the [PAWN_alienRace] warhost to achieve victory in the most efficient and lethal way possible.\n\n[PAWN_pronoun] does not limit [PAWN_objective]self to the single-minded specifications required of a single Path like most [PAWN_alienRace]. [PAWN_nameDef] possesses an unparalleled strategic ability which far outshines an Exarch's obsession with only a singular facet of war. This enables [PAWN_objective] to lead a warhost that operates in perfect unison, with each component of the [PAWN_alienRace] war machine functioning in perfect synchronicity.\n\nIt is not only at the aspect of command that [PAWN_nameDef] excels, for [PAWN_pronoun] is a consummate warrior as well, and often spearheads assaults, fighting an enemy army's leader in personal combat or contemptuously destroying war machines with ease. Autarchs are considered integral parts of [PAWN_alienRace] culture due to their versatility and ability to lead the [PAWN_alienRace] on the myriad paths of life and death.</baseDescription>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar_Craftworld_Command</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+   
+  <!-- Eldar_Ranger -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Warrior">
+    <defName>Eldar_Ranger</defName>
+    <title>Ranger Outcast</title>
+    <titleShort>Ranger</titleShort>
+	<linkedBackstory>Eldar_Outcast_Child</linkedBackstory>
+    <baseDescription>[PAWN_nameDef] is An Outcast, The Path of the Outcast is the Path, paradoxically, of those Eldar who abandon the disciplined life of the Eldar Paths. Those who desert the Eldar Paths are known as Outcasts on the Craftworlds. The intensely potent and volatile Eldar mind sometimes rebels against the highly structured delineation of achievement which the Eldar Paths offer. Without the protection of the Eldar Paths an individual is likely to eventually succumb to self-destructive urges. The worst fate of all for an Outcast is to fall to the Path of Damnation, but no Eldar will speak of this aberration and so almost nothing is known about it save that they believe it is the Path walked, unknowingly or not, by their Dark Eldar kin. Sometimes young, inexperienced or disgraced Eldar leave their Craftworlds to wander among the stars. Most of the time such Outcasts become Rangers. Some eventually return to their Craftworlds and to the safety of the Paths. Those who are unable to return, for one reason or another, perhaps because they become lost upon the Path of the Outcast, eventually become the Rangers known as Pathfinders. Other Outcasts become pirates, raiders, and Eldar Corsairs.</baseDescription>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar_Craftworld_Ranger</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Aspect_Warrior -->
+  <AlienRace.BackstoryDef Name="Eldar_Craftworld_Aspect_Warrior" ParentName="Eldar_Base_Warrior" Abstract="true">
+    <defName>Eldar_Craftworld_Aspect_Warrior</defName>
+	<maleCommonality>0.1</maleCommonality>
+    <femaleCommonality>0.1</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>HyperactiveNymuneOrgan</li> -->
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Warrior_Aspect</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Warrior_DireAvenger -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Craftworld_Aspect_Warrior">
+    <defName>Eldar_Craftworld_Warrior_DireAvenger</defName>
+    <title>Dire Avenger</title>
+    <titleShort>Avenger</titleShort>
+    <baseDescription>[PAWN_nameDef] is currently walking the path of the Avenger, The Dire Avengers were the first amongst the Aspect Warriors of the Eldar. They represent the Eldar War God Khaela Mensha Khaine in his aspect as the noblest and yet most merciless of warriors. The Dire Avengers show no mercy to their foes and are unwavering in their devotion to their people.\n\nThese warriors are the least specialised and the most tactically flexible of all the Warrior Aspects, as they serve Eldar armies as elite ranged infantry. The Dire Avengers are also the most common of the Warrior Aspects amongst the Eldar, and their shrines are the largest to be found on all the Craftworlds.</baseDescription>
+	<maleCommonality>0.25</maleCommonality>
+    <femaleCommonality>0.25</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Warrior_DireAvenger</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Warrior_HowlingBanshee -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Craftworld_Aspect_Warrior">
+    <defName>Eldar_Craftworld_Warrior_HowlingBanshee</defName>
+    <title>Howling Banshee</title>
+    <titleShort>Banshee</titleShort>
+    <baseDescription>[PAWN_nameDef] is currently walking the path of the Banshee, The Howling Banshees are the all-female Eldar Aspect Warriors who specialise in highly mobile melee combat and represent the Eldar War God Khaela Mensha Khaine's ability to instill fear in his foes. The banshee is a harbinger of woe and death in Eldar Mythology. Their cry is said to herald ill fate and can even wrench a soul from its Spirit Stone. It is fitting that these most feared of all the Eldar Aspect Warriors draw their inspiration from this creature. These lightly-equipped warrior-women are fearsome melee combat specialists who draw their inspiration from the unearthly creature with which they share a name. What the Howling Banshees lack in brute strength they make up for with their uncanny and inhuman precision and efficiency. The piercing warcry of these Aspect Warriors has heralded the coming doom of countless enemies of the Eldar people.</baseDescription>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Warrior_HowlingBanshee</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Warrior_FireDragon -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Craftworld_Aspect_Warrior">
+    <defName>Eldar_Craftworld_Warrior_FireDragon</defName>
+    <title>Fire Dragon</title>
+    <titleShort>Dragon</titleShort>
+    <baseDescription>[PAWN_nameDef] is currently walking the path of the Dragon, The Fire Dragons are Eldar Aspect Warriors who seek to embody the writhing, sinewy dragons of Eldar Mythology. No Eldar Aspect Warriors revel more in destruction than those who serve the Shrine of the Fire Dragons. Taking as their totem the fierce, fire-breathing creatures of Eldar legend, they epitomise the brutal, wanton destruction of war. When called to arms their goal is the total annihilation of their foes, to the exclusion of all else. Fire Dragons are aggressive and warlike close combat fighters who utilise heat-based weaponry to destroy enemy armoured vehicles and drive the foe from his fortified strongpoints. They have an unsurpassed mastery of their chosen and highly dangerous weapons, and take savage delight in the devastation they create. For this reason, the Eldar believe that the Fire Dragons are the embodiment of the Eldar War God Kaela Mensha Khaine's penchant for pure destruction. It is said that Fire Dragon Exarchs generate a corona of lambent flame around themselves when the battle lust is upon them.</baseDescription>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Warrior_FireDragon</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Warrior_SwoopingHawk -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Craftworld_Aspect_Warrior">
+    <defName>Eldar_Craftworld_Warrior_SwoopingHawk</defName>
+    <title>Swooping Hawk</title>
+    <titleShort>Hawk</titleShort>
+    <baseDescription>[PAWN_nameDef] is currently walking the path of the Hawk, The Swooping Hawks are the aerial Aspect Warriors of the Eldar. They wear cunningly constructed anti-gravitic wings that enable them to launch high into the air at a moment's notice. They are able to launch lightning-fast aerial assaults against their foes, cutting them down with the deadly energy weapons known as Lasblasters in a blur of colour. The Swooping Hawks take their name from the wild hunting birds of Eldar Mythology, who symbolise revenge and retribution. Just as these birds of legend contained the spirit of a murdered Eldar, hovering over their killers as a mark of guilt, so too do the Swooping Hawks fly across the battlefield, dealing swift death as retribution to the enemies of the Eldar.</baseDescription>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Warrior_SwoopingHawk</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Warrior_DarkReaper -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Craftworld_Aspect_Warrior">
+    <defName>Eldar_Craftworld_Warrior_DarkReaper</defName>
+    <title>Dark Reaper</title>
+    <titleShort>Reaper</titleShort>
+    <baseDescription>[PAWN_nameDef] is currently walking the path of the Reaper, The Dark Reapers are the most menacing of the Eldar Aspect Warriors. They exemplify the Eldar War God Kaela Mensha Khaine in his aspect as the Destroyer, and their skull-masked costume echoes that of their founder and Phoenix Lord, the "Harvester of Souls," Maugan Ra. They specialise in the use of highly-destructive, long-range heavy weaponry.</baseDescription>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Warrior_DarkReaper</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Warrior_StrikingScorpion -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Craftworld_Aspect_Warrior">
+    <defName>Eldar_Craftworld_Warrior_StrikingScorpion</defName>
+    <title>Striking Scorpion</title>
+    <titleShort>Scorpion</titleShort>
+    <baseDescription>[PAWN_nameDef] is currently walking the path of the Scorpion, The Eldar Aspect Warriors known as the Striking Scorpions epitomise the deadly attributes of their namesake, and they are the most skilled of all the close-assault Warrior Aspects on the Eldar Path of the Warrior. They are merciless killers without exception, reveling in the hunt and the kill, using stealth and shadow to cloak themselves from sight until the moment of attack. The Striking Scorpions represent the wrath of the War God Kaela Mensha Khaine, which can fall without warning and with extraordinary savagery upon his foes.</baseDescription>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Warrior_StrikingScorpion</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Warrior_ShadowSpectre -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Craftworld_Aspect_Warrior">
+    <defName>Eldar_Craftworld_Warrior_ShadowSpectre</defName>
+    <title>Shadow Spectre</title>
+    <titleShort>Spectre</titleShort>
+    <baseDescription>[PAWN_nameDef] is currently walking the path of the Spectre, The Shadow Spectres are a recently re-discovered group of Eldar Aspect Warriors who specialise in the deployment of highly-mobile, infantry-based anti-armour firepower who are experts at striking at enemy vehicles from concealment and extreme long-range. Armed with Prism Rifles, each a potent anti-tank weapon, and equipped with Jetpacks, their mobility allows them to hunt down their chosen targets with the implacable patience of the dead, materialising seemingly from the very air to unleash their overwhelming firepower. The Shadow Spectres represent the Eldar God of War Kaela Mensha Khaine in his aspect as the Eternal Warrior, for whom death is no release from duty. It is therefore appropriate that the Shadow Spectres Aspect Shrine has historically been associated with the Wraithguard. Traditionally, Eldar who lose their lives in service to the Shadow Spectres Shrine have their Spirit Stone transferred to a Wraithbone combat walker body; in turn, the Wraithguard have acted as the guardians of the Shadow Spectre Shrine for many Terran millennia.</baseDescription>
+   <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Warrior_ShadowSpectre</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Warrior_WarpSpider -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Craftworld_Aspect_Warrior">
+    <defName>Eldar_Craftworld_Warrior_WarpSpider</defName>
+    <title>Warp Spider</title>
+    <titleShort>Spider</titleShort>
+    <baseDescription>[PAWN_nameDef] is currently walking the path of the Spider, The Warp Spiders are Eldar Aspect Warriors who specialise in the use of a personal teleportation device built into their Aspect Armour to make a series of rapid jumps through the Immaterium that make them nearly impossible to target and allow them to attack the enemy suddenly and disappear before he can strike back.\n\nTaking their name from the same creatures who protect the Infinity Circuits of their Craftworlds, the Warp Spiders epitomise the concept of an aggressive defence.</baseDescription>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Warrior_WarpSpider</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Warrior_AspectExarch -->
+  <AlienRace.BackstoryDef Name="Eldar_Craftworld_Aspect_Warrior_Exarch" ParentName="Eldar_Base_Warrior" Abstract="true">
+    <defName>Eldar_Craftworld_Aspect_Warrior_Exarch</defName>
+	<maleCommonality>0.05</maleCommonality>
+    <femaleCommonality>0.05</femaleCommonality>
+    <skillGains>
+	
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>HyperactiveNymuneOrgan</li> -->
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Aspect_Warrior_Exarch</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Eldar_Craftworld_Exarch_DireAvenger -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Craftworld_Aspect_Warrior_Exarch">
+    <defName>Eldar_Craftworld_Exarch_DireAvenger</defName>
+    <title>Dire Avenger</title>
+    <titleShort>Avenger</titleShort>
+    <baseDescription>[PAWN_nameDef] is an Exarch, lost to the path of the Avenger, The Dire Avengers were the first amongst the Aspect Warriors of the Eldar. They represent the Eldar War God Khaela Mensha Khaine in his aspect as the noblest and yet most merciless of warriors. The Dire Avengers show no mercy to their foes and are unwavering in their devotion to their people.\n\nThese warriors are the least specialised and the most tactically flexible of all the Warrior Aspects, as they serve Eldar armies as elite ranged infantry. The Dire Avengers are also the most common of the Warrior Aspects amongst the Eldar, and their shrines are the largest to be found on all the Craftworlds.</baseDescription>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Exarch_DireAvenger</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Exarch_HowlingBanshee -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Craftworld_Aspect_Warrior_Exarch">
+    <defName>Eldar_Craftworld_Exarch_HowlingBanshee</defName>
+    <title>Howling Banshee</title>
+    <titleShort>Banshee</titleShort>
+    <baseDescription>[PAWN_nameDef] is an Exarch, lost the path of the Banshee, The Howling Banshees are the all-female Eldar Aspect Warriors who specialise in highly mobile melee combat and represent the Eldar War God Khaela Mensha Khaine's ability to instill fear in his foes. The banshee is a harbinger of woe and death in Eldar Mythology. Their cry is said to herald ill fate and can even wrench a soul from its Spirit Stone. It is fitting that these most feared of all the Eldar Aspect Warriors draw their inspiration from this creature. These lightly-equipped warrior-women are fearsome melee combat specialists who draw their inspiration from the unearthly creature with which they share a name. What the Howling Banshees lack in brute strength they make up for with their uncanny and inhuman precision and efficiency. The piercing warcry of these Aspect Warriors has heralded the coming doom of countless enemies of the Eldar people.</baseDescription>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Exarch_HowlingBanshee</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Exarch_FireDragon -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Craftworld_Aspect_Warrior_Exarch">
+    <defName>Eldar_Craftworld_Exarch_FireDragon</defName>
+    <title>Fire Dragon</title>
+    <titleShort>Dragon</titleShort>
+    <baseDescription>[PAWN_nameDef] is an Exarch, lost the path of the Dragon, The Fire Dragons are Eldar Aspect Warriors who seek to embody the writhing, sinewy dragons of Eldar Mythology. No Eldar Aspect Warriors revel more in destruction than those who serve the Shrine of the Fire Dragons. Taking as their totem the fierce, fire-breathing creatures of Eldar legend, they epitomise the brutal, wanton destruction of war. When called to arms their goal is the total annihilation of their foes, to the exclusion of all else. Fire Dragons are aggressive and warlike close combat fighters who utilise heat-based weaponry to destroy enemy armoured vehicles and drive the foe from his fortified strongpoints. They have an unsurpassed mastery of their chosen and highly dangerous weapons, and take savage delight in the devastation they create. For this reason, the Eldar believe that the Fire Dragons are the embodiment of the Eldar War God Kaela Mensha Khaine's penchant for pure destruction. It is said that Fire Dragon Exarchs generate a corona of lambent flame around themselves when the battle lust is upon them.</baseDescription>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Exarch_FireDragon</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Exarch_SwoopingHawk -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Craftworld_Aspect_Warrior_Exarch">
+    <defName>Eldar_Craftworld_Exarch_SwoopingHawk</defName>
+    <title>Swooping Hawk</title>
+    <titleShort>Hawk</titleShort>
+    <baseDescription>[PAWN_nameDef] is an Exarch, lost the path of the Hawk, The Swooping Hawks are the aerial Aspect Warriors of the Eldar. They wear cunningly constructed anti-gravitic wings that enable them to launch high into the air at a moment's notice. They are able to launch lightning-fast aerial assaults against their foes, cutting them down with the deadly energy weapons known as Lasblasters in a blur of colour. The Swooping Hawks take their name from the wild hunting birds of Eldar Mythology, who symbolise revenge and retribution. Just as these birds of legend contained the spirit of a murdered Eldar, hovering over their killers as a mark of guilt, so too do the Swooping Hawks fly across the battlefield, dealing swift death as retribution to the enemies of the Eldar.</baseDescription>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Exarch_SwoopingHawk</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Exarch_DarkReaper -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Craftworld_Aspect_Warrior_Exarch">
+    <defName>Eldar_Craftworld_Exarch_DarkReaper</defName>
+    <title>Dark Reaper</title>
+    <titleShort>Reaper</titleShort>
+    <baseDescription>[PAWN_nameDef] is an Exarch, lost the path of the Reaper, The Dark Reapers are the most menacing of the Eldar Aspect Warriors. They exemplify the Eldar War God Kaela Mensha Khaine in his aspect as the Destroyer, and their skull-masked costume echoes that of their founder and Phoenix Lord, the "Harvester of Souls," Maugan Ra. They specialise in the use of highly-destructive, long-range heavy weaponry.</baseDescription>
+   <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Exarch_DarkReaper</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Exarch_StrikingScorpion -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Craftworld_Aspect_Warrior_Exarch">
+    <defName>Eldar_Craftworld_Exarch_StrikingScorpion</defName>
+    <title>Striking Scorpion</title>
+    <titleShort>Scorpion</titleShort>
+    <baseDescription>[PAWN_nameDef] is an Exarch, lost the path of the Scorpion, The Eldar Aspect Warriors known as the Striking Scorpions epitomise the deadly attributes of their namesake, and they are the most skilled of all the close-assault Warrior Aspects on the Eldar Path of the Warrior. They are merciless killers without exception, reveling in the hunt and the kill, using stealth and shadow to cloak themselves from sight until the moment of attack. The Striking Scorpions represent the wrath of the War God Kaela Mensha Khaine, which can fall without warning and with extraordinary savagery upon his foes.</baseDescription>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Exarch_StrikingScorpion</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Exarch_ShadowSpectre -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Craftworld_Aspect_Warrior_Exarch">
+    <defName>Eldar_Craftworld_Exarch_ShadowSpectre</defName>
+    <title>Shadow Spectre</title>
+    <titleShort>Spectre</titleShort>
+    <baseDescription>[PAWN_nameDef] is an Exarch, lost the path of the Spectre, The Shadow Spectres are a recently re-discovered group of Eldar Aspect Warriors who specialise in the deployment of highly-mobile, infantry-based anti-armour firepower who are experts at striking at enemy vehicles from concealment and extreme long-range. Armed with Prism Rifles, each a potent anti-tank weapon, and equipped with Jetpacks, their mobility allows them to hunt down their chosen targets with the implacable patience of the dead, materialising seemingly from the very air to unleash their overwhelming firepower. The Shadow Spectres represent the Eldar God of War Kaela Mensha Khaine in his aspect as the Eternal Warrior, for whom death is no release from duty. It is therefore appropriate that the Shadow Spectres Aspect Shrine has historically been associated with the Wraithguard. Traditionally, Eldar who lose their lives in service to the Shadow Spectres Shrine have their Spirit Stone transferred to a Wraithbone combat walker body; in turn, the Wraithguard have acted as the guardians of the Shadow Spectre Shrine for many Terran millennia.</baseDescription>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Exarch_ShadowSpectre</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Eldar_Craftworld_Exarch_WarpSpider -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Craftworld_Aspect_Warrior_Exarch">
+    <defName>Eldar_Craftworld_Exarch_WarpSpider</defName>
+    <title>Warp Spider</title>
+    <titleShort>Spider</titleShort>
+    <baseDescription>[PAWN_nameDef] is an Exarch, lost the path of the Spider, The Warp Spiders are Eldar Aspect Warriors who specialise in the use of a personal teleportation device built into their Aspect Armour to make a series of rapid jumps through the Immaterium that make them nearly impossible to target and allow them to attack the enemy suddenly and disappear before he can strike back.\n\nTaking their name from the same creatures who protect the Infinity Circuits of their Craftworlds, the Warp Spiders epitomise the concept of an aggressive defence.</baseDescription>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Exarch_WarpSpider</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  <!-- Path of Seer -->
+  <!-- Baseline Psyker -->
+  <AlienRace.BackstoryDef Name="Eldar_Base_Seer" ParentName="Eldar_Psyker_Backstory" Abstract="true">
+    <defName>Eldar_Base_Seer</defName>
+    <title>Path of the Seer</title>
+    <titleShort>Eldar Seer</titleShort>
+    <slot>Adulthood</slot>
+	<!-- <linkedBackstory>Eldar_Craftworld_Psyker_Child</linkedBackstory> -->
+
+    <!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<disallowedTraits>
+
+    </disallowedTraits>
+    <workDisables>
+	
+    </workDisables>
+    <skillGains>
+	
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar_Craftworld_Psyker</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+   
+  <!-- Eldar_Base_Healer --> 
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Seer">
+    <defName>Eldar_Base_Healer</defName>
+    <title>Path of the Healer</title>
+    <titleShort>Healer</titleShort>
+    <baseDescription>[PAWN_nameDef] is following The Path of the Healer, which is pursued by those Eldar who find spiritual satisfaction in bringing living things back to full wellness. Eldar Healers include all physicians, surgeons and what humans might consider biomedical researchers.</baseDescription>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-6</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>-6</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-6</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar_Craftworld_Psyker_Healer</li>
+      <li>Eldar_Standard</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Warlock -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Seer">
+	<defName>Eldar_Psyker_Warlock</defName>
+	<title>Eldar Warlock</title>
+	<titleShort>Warlock</titleShort>
+	<baseDescription>[PAWN_nameDef] is a Warlock, an Eldar Seer or psyker who previously walked the Path of the Warrior as an Aspect Warrior of the Eldar Craftworlds and now uses [PAWN_pronoun] potent psychic powers to help lead Eldar warhosts. Warlocks who lose themselves upon this path ultimately become Farseers. The most aggressive and warlike of all the potential variants of the Path of the Seer is that of the Warlock. Since Warlocks are Seers who once trod the Path of the Warrior, their previous experience as Aspect Warriors allows them to harness their more destructive impulses when using their psychic powers in combat.</baseDescription>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+	<workDisables>
+	</workDisables>
+	<forcedTraits>
+		<li>
+			<defName>PsychicSensitivity</defName>
+			<degree>2</degree>
+			<chance>25</chance>
+		</li>
+		<li>
+			<defName>PsychicSensitivity</defName>
+			<degree>1</degree>
+			<chance>75</chance>
+		</li>
+	</forcedTraits>
+	<skillGains>
+	  <li>
+		<defName>Social</defName>
+		<amount>2</amount>
+	  </li>
+	  <li>
+		<defName>Intellectual</defName>
+		<amount>4</amount>
+	  </li>
+	  <li>
+		<defName>Shooting</defName>
+		<amount>2</amount>
+	  </li>
+	  <li>
+		<defName>Melee</defName>
+		<amount>2</amount>
+	  </li>
+	  <li>
+		<defName>Construction</defName>
+		<amount>-4</amount>
+	  </li>
+	  <li>
+		<defName>Mining</defName>
+		<amount>-4</amount>
+	  </li>
+	  <li>
+		<defName>Cooking</defName>
+		<amount>-4</amount>
+	  </li>
+	  <li>
+		<defName>Plants</defName>
+		<amount>-3</amount>
+	  </li>
+	  <li>
+		<defName>Animals</defName>
+		<amount>-3</amount>
+	  </li>
+	  <li>
+		<defName>Crafting</defName>
+		<amount>-3</amount>
+	  </li>
+	  <li>
+		<defName>Medicine</defName>
+		<amount>2</amount>
+	  </li>
+	</skillGains>
+	<spawnCategories>
+	  <li>Eldar_Craftworld_Psyker_Warlock</li>
+	</spawnCategories>
+  </AlienRace.BackstoryDef>
+   
+  <!-- Spiritseer -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Seer">
+	<defName>Eldar_Psyker_Spiritseer</defName>
+	<title>Eldar Spiritseer</title>
+	<titleShort>Spiritseer</titleShort>
+	<baseDescription>[PAWN_nameDef] is a Those rare Warlocks who specialise in summoning and guiding the spirits of the Eldar dead that exist within the Infinity Circuits of the Craftworlds are known as Spiritseers. Their role in combat is to direct and command the Eldar Wraithguard and Wraithlord combat walker that are deployed in the more dire military situations faced by the Craftworlds' forces. Both of these types of Eldar units are Wraithbone constructs that are animated by a Spirit Stone at their hearts that holds the soul of a dead Eldar. The use of such units is is seen as little better than engaging in necromancy among the Eldar, but the practice is tolerated because the Eldar's low population makes reliance upon their dead a necessity if the race is to survive in its weakened state. Spiritseers' special training has hardened their own souls against the danger of becoming too enthralled by their command over the dead and thus actually becoming a true necromancer who glories in the manipulation of the dead for his own profit.</baseDescription>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+	<workDisables>
+	</workDisables>
+	<forcedTraits>
+		<li>
+			<defName>PsychicSensitivity</defName>
+			<degree>2</degree>
+			<chance>25</chance>
+		</li>
+		<li>
+			<defName>PsychicSensitivity</defName>
+			<degree>1</degree>
+			<chance>75</chance>
+		</li>
+	</forcedTraits>
+	<skillGains>
+	  <li>
+		<defName>Social</defName>
+		<amount>2</amount>
+	  </li>
+	  <li>
+		<defName>Intellectual</defName>
+		<amount>4</amount>
+	  </li>
+	  <li>
+		<defName>Shooting</defName>
+		<amount>2</amount>
+	  </li>
+	  <li>
+		<defName>Melee</defName>
+		<amount>2</amount>
+	  </li>
+	  <li>
+		<defName>Construction</defName>
+		<amount>-4</amount>
+	  </li>
+	  <li>
+		<defName>Mining</defName>
+		<amount>-4</amount>
+	  </li>
+	  <li>
+		<defName>Cooking</defName>
+		<amount>-4</amount>
+	  </li>
+	  <li>
+		<defName>Plants</defName>
+		<amount>-3</amount>
+	  </li>
+	  <li>
+		<defName>Animals</defName>
+		<amount>-3</amount>
+	  </li>
+	  <li>
+		<defName>Crafting</defName>
+		<amount>-3</amount>
+	  </li>
+	  <li>
+		<defName>Medicine</defName>
+		<amount>2</amount>
+	  </li>
+	</skillGains>
+	<spawnCategories>
+	  <li>Eldar_Craftworld_Psyker_Spiritseer</li>
+	</spawnCategories>
+  </AlienRace.BackstoryDef>
+   
+  <!-- Farseer -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Seer">
+	<defName>Eldar_Psyker_Farseer</defName>
+	<title>Eldar Farseer</title>
+	<titleShort>Farseer</titleShort>
+	<baseDescription>[PAWN_nameDef] is a Farseer, amongst the most powerful of Seers and probably represent some of the most potent psykers in the entire galaxy. Every Craftworld has a handful of Farseers amongst their populace who usually make up that Craftworld's guiding council. Much of a Farseer's time is spent in a trance-like state where his spirit roams at will throughout the Wraithbone of the Craftworld where they direct the psychic-energy flow throughout the entire world-ship. As such, a Farseer is not normally in a waking state, though their visionary skills allow them to direct their fellow Eldar in avoiding those dangers that can fall upon the Craftworlds. This is accomplished by way of exploring potential future paths that may lie ahead and making a determination about which paths need to be altered to produce a better future outcome. A Farseer's duties mean that they do not usually engage in combat duties despite their previous experiences and enormous psychic potential for destruction. Yet in times of desperate need, Farseers can return to the battlefield where they use their incomparable psychic powers to aid their race in combat.</baseDescription>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+	<workDisables>
+	</workDisables>
+	<forcedTraits>
+		<li>
+			<defName>PsychicSensitivity</defName>
+			<degree>2</degree>
+			<chance>75</chance>
+		</li>
+		<li>
+			<defName>PsychicSensitivity</defName>
+			<degree>1</degree>
+			<chance>100</chance>
+		</li>
+	</forcedTraits>
+	<skillGains>
+	  <li>
+		<defName>Social</defName>
+		<amount>8</amount>
+	  </li>
+	  <li>
+		<defName>Intellectual</defName>
+		<amount>2</amount>
+	  </li>
+	  <li>
+		<defName>Shooting</defName>
+		<amount>-2</amount>
+	  </li>
+	  <li>
+		<defName>Melee</defName>
+		<amount>-2</amount>
+	  </li>
+	  <li>
+		<defName>Construction</defName>
+		<amount>-2</amount>
+	  </li>
+	  <li>
+		<defName>Mining</defName>
+		<amount>-2</amount>
+	  </li>
+	  <li>
+		<defName>Cooking</defName>
+		<amount>-1</amount>
+	  </li>
+	  <li>
+		<defName>Plants</defName>
+		<amount>2</amount>
+	  </li>
+	  <li>
+		<defName>Animals</defName>
+		<amount>-3</amount>
+	  </li>
+	  <li>
+		<defName>Crafting</defName>
+		<amount>-3</amount>
+	  </li>
+	  <li>
+		<defName>Medicine</defName>
+		<amount>2</amount>
+	  </li>
+	</skillGains>
+	<spawnCategories>
+	  <li>Eldar_Craftworld_Psyker_Farseer</li>
+	</spawnCategories>
+  </AlienRace.BackstoryDef>
+    
+  <!-- Farseer -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Seer">
+	<defName>Eldar_Psyker_Farseer_Ancient</defName>
+	<title>Ancient Farseer</title>
+	<titleShort>Farseer</titleShort>
+	<baseDescription>[PAWN_nameDef] is a Farseer, amongst the most powerful of Seers and probably represent some of the most potent psykers in the entire galaxy. Every Craftworld has a handful of Farseers amongst their populace who usually make up that Craftworld's guiding council. Much of a Farseer's time is spent in a trance-like state where his spirit roams at will throughout the Wraithbone of the Craftworld where they direct the psychic-energy flow throughout the entire world-ship. As such, a Farseer is not normally in a waking state, though their visionary skills allow them to direct their fellow Eldar in avoiding those dangers that can fall upon the Craftworlds. This is accomplished by way of exploring potential future paths that may lie ahead and making a determination about which paths need to be altered to produce a better future outcome. A Farseer's duties mean that they do not usually engage in combat duties despite their previous experiences and enormous psychic potential for destruction. Yet in times of desperate need, Farseers can return to the battlefield where they use their incomparable psychic powers to aid their race in combat.</baseDescription>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+	<workDisables>
+	</workDisables>
+	<forcedTraits>
+		<li>
+			<defName>PsychicSensitivity</defName>
+			<degree>2</degree>
+			<chance>75</chance>
+		</li>
+		<li>
+			<defName>PsychicSensitivity</defName>
+			<degree>1</degree>
+			<chance>100</chance>
+		</li>
+	</forcedTraits>
+	<skillGains>
+	  <li>
+		<defName>Social</defName>
+		<amount>8</amount>
+	  </li>
+	  <li>
+		<defName>Intellectual</defName>
+		<amount>4</amount>
+	  </li>
+	  <li>
+		<defName>Shooting</defName>
+		<amount>-1</amount>
+	  </li>
+	  <li>
+		<defName>Melee</defName>
+		<amount>-1</amount>
+	  </li>
+	  <li>
+		<defName>Construction</defName>
+		<amount>-1</amount>
+	  </li>
+	  <li>
+		<defName>Mining</defName>
+		<amount>-6</amount>
+	  </li>
+	  <li>
+		<defName>Cooking</defName>
+		<amount>-6</amount>
+	  </li>
+	  <li>
+		<defName>Plants</defName>
+		<amount>-6</amount>
+	  </li>
+	  <li>
+		<defName>Animals</defName>
+		<amount>-3</amount>
+	  </li>
+	  <li>
+		<defName>Crafting</defName>
+		<amount>-3</amount>
+	  </li>
+	  <li>
+		<defName>Medicine</defName>
+		<amount>2</amount>
+	  </li>
+	</skillGains>
+	<spawnCategories>
+	  <li>Eldar_Craftworld_Psyker_Farseer</li>
+	</spawnCategories>
+  </AlienRace.BackstoryDef>
+    
+  <!-- Eldar_Craftworld_Warrior_GuardianDefender -->
+  <!--
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Warrior">
+    <defName>Eldar_Craftworld_Warrior_GuardianDefender</defName>
+    <title>Eldar Guardian Defender</title>
+    <titleShort>Guardian Defender</titleShort>
+    <baseDescription>[PAWN_nameDef] is a Guardian Defender, who act as support units, manning anti-grav heavy weapon platforms that glide effortlessly over rugged terrain as they blast away at any targets that get too close. If the enemy closes in on their position, the Guardians will unleash a withering hail of fire from their Shuriken Catapults, moving steadily to safety all the while./n/nGuardians are one of the militia troops of the Eldar Craftworlds. In times of peace the Guardians pursue their normal civilian roles. All adult Eldar, however, are trained in the arts of warfare and can be called to arms if their Craftworld is threatened. It is a painful irony that, in the Eldar race's endless quest for survival, the very civilians the warhosts fight to protect are all too often forced to take up arms. Every Eldar is trained and ready to fight as a Guardian if need be.</baseDescription>
+	<maleCommonality>0.5</maleCommonality>
+    <femaleCommonality>0.5</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Warrior</li>
+      <li>Eldar_Craftworld_Warrior_GuardianDefender</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  -->
+  
+  <!-- Eldar_Craftworld_Warrior_GuardianStorm -->
+  <!--
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Warrior">
+    <defName>Eldar_Craftworld_Warrior_GuardianStorm</defName>
+    <title>Eldar Storm Guardian</title>
+    <titleShort>Storm Guardian</titleShort>
+    <baseDescription>[PAWN_nameDef] is a Guardian Defender, who act as support units, manning anti-grav heavy weapon platforms that glide effortlessly over rugged terrain as they blast away at any targets that get too close. If the enemy closes in on their position, the Guardians will unleash a withering hail of fire from their Shuriken Catapults, moving steadily to safety all the while./n/nGuardians are one of the militia troops of the Eldar Craftworlds. In times of peace the Guardians pursue their normal civilian roles. All adult Eldar, however, are trained in the arts of warfare and can be called to arms if their Craftworld is threatened. It is a painful irony that, in the Eldar race's endless quest for survival, the very civilians the warhosts fight to protect are all too often forced to take up arms. Every Eldar is trained and ready to fight as a Guardian if need be.</baseDescription>
+	<maleCommonality>0.5</maleCommonality>
+    <femaleCommonality>0.5</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+	
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Craftworld_Warrior</li>
+      <li>Eldar_Craftworld_Warrior_GuardianStorm</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  -->
+  
+</Defs>

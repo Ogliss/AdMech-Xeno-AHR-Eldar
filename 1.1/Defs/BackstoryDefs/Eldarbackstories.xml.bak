@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Eldar -->
+  <!-- Baseline Eldar -->
+  <!-- Eldar_Base_Backstory -->
+  <AlienRace.BackstoryDef Name="Eldar_Base_Backstory" Abstract="true">
+    <defName>Eldar_Base_Backstory</defName>
+    <workDisables>
+
+    </workDisables>
+    <disallowedTraits>
+
+    </disallowedTraits>
+    <forcedTraits>
+
+    </forcedTraits>
+    <skillGains>
+
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Standard Eldar -->
+  <!-- Eldar_Standard_Backstory -->
+  <AlienRace.BackstoryDef Name="Eldar_Standard_Backstory" ParentName="Eldar_Base_Backstory" Abstract="true">
+    <defName>Eldar_Standard_Backstory</defName>
+    <workDisables>
+
+    </workDisables>
+    <disallowedTraits>
+
+    </disallowedTraits>
+    <forcedTraits>
+
+    </forcedTraits>
+    <skillGains>
+
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar_Standard</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Psyker Eldar -->
+  <!-- Psyker Eldar_Psyker_Backstory -->
+  <AlienRace.BackstoryDef Name="Eldar_Psyker_Backstory" ParentName="Eldar_Base_Backstory" Abstract="true">
+    <defName>Eldar_Psyker_Backstory</defName>
+    <workDisables>
+
+    </workDisables>
+    <disallowedTraits>
+
+    </disallowedTraits>
+    <forcedTraits>
+      <li>
+        <defName>PsychicSensitivity</defName>
+        <degree>1</degree>
+        <chance>100</chance>
+      </li>
+    </forcedTraits>
+    <skillGains>
+
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar_Psyker</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!--Temp defs to satisfy errors-->
+
+  <!-- Eldar_Base_Child -->
+  <AlienRace.BackstoryDef Name="Eldar_Base_Child" ParentName="Eldar_Standard_Backstory" Abstract="true">
+    <defName>Eldar_Base_Child</defName>
+    <title>Eldar child</title>
+    <titleShort>Eldar child</titleShort>
+    <baseDescription>[PAWN_nameDef] is a young [PAWN_alienRace].</baseDescription>
+
+    <!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <disallowedTraits>
+
+    </disallowedTraits>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+
+    </skillGains>
+    <spawnCategories>
+
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Psyker Child -->
+  <!-- Eldar_Psyker_Child -->
+  <AlienRace.BackstoryDef Name="Eldar_Psyker_Child" ParentName="Eldar_Psyker_Backstory" Abstract="true">
+    <defName>Eldar_Psyker_Child</defName>
+    <title>Eldar child</title>
+    <titleShort>Eldar child</titleShort>
+    <baseDescription>[PAWN_nameDef] is a young [PAWN_alienRace] Pskyer.</baseDescription>
+
+    <!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <disallowedTraits>
+
+    </disallowedTraits>
+    <workDisables>
+    </workDisables>
+    <skillGains>
+
+    </skillGains>
+    <spawnCategories>
+
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Exodite Childhoods -->
+  <!-- Exodite Child -->
+  <!-- Eldar_Exodite_Child -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Child">
+    <defName>Eldar_Exodite_Child</defName>
+    <title>Exodite</title>
+    <baseDescription>[PAWN_nameDef] was born on an Eldar maiden world. Isolationism and Mistrust were prominent.</baseDescription>
+    <maleCommonality>0.0</maleCommonality>
+    <femaleCommonality>0.0</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>EldarWingMutation</li> -->
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Exodite</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Eldar_Exodite_Psyker_Child -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Psyker_Child">
+    <defName>Eldar_Exodite_Psyker_Child</defName>
+    <title>Exodite</title>
+    <baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] maiden world. The path of the [PAWN_alienRace], and [PAWN_possessive] apptitude for the psychic craft shaped [PAWN_possessive] life.</baseDescription>
+    <maleCommonality>0.0</maleCommonality>
+    <femaleCommonality>0.0</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>EldarBoldMutation</li> -->
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Exodite_Psyker</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Craftworld Childhoods -->
+  <!-- Eldar_Craftworld_Child -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Child">
+    <defName>Eldar_Craftworld_Child</defName>
+    <title>Craftworlder</title>
+    <baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life. </baseDescription>
+    <maleCommonality>0.0</maleCommonality>
+    <femaleCommonality>0.0</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>EldarBoldMutation</li> -->
+    </forcedHediffs>
+    <spawnCategories >
+
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Eldar_Craftworld_Psyker_Child -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Psyker_Child">
+    <defName>Eldar_Craftworld_Psyker_Child</defName>
+    <title>Craftworlder</title>
+    <baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life. [PAWN_pronoun] showed signifcant Psychic potiential, even for one of the [PAWN_alienRace].</baseDescription>
+    <maleCommonality>0.0</maleCommonality>
+    <femaleCommonality>0.0</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>EldarBoldMutation</li> -->
+    </forcedHediffs>
+    <spawnCategories >
+
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Harlequinn Childhoods -->
+  <!-- Eldar_Harlequinn_Child -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Child">
+    <defName>Eldar_Harlequinn_Child</defName>
+    <title>Harlequinn</title>
+    <baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] was to shape [PAWN_possessive] life, but when [PAWN_pronoun] was offered a place in a passing group of Harlequinns [PAWN_pronoun] left [PAWN_possessive] Craftworld to wander the Webway.</baseDescription>
+    <maleCommonality>0.05</maleCommonality>
+    <femaleCommonality>0.05</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>EldarBoldMutation</li> -->
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Harlequinn</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Eldar_Harlequinn_Psyker_Child -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Psyker_Child">
+    <defName>Eldar_Harlequinn_Psyker_Child</defName>
+    <title>Harlequinn</title>
+    <baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] was to shape [PAWN_possessive] life, but when [PAWN_pronoun] was offered a place in a passing group of Harlequinns [PAWN_pronoun] left [PAWN_possessive] Craftworld to wander the Webway.</baseDescription>
+    <maleCommonality>0.00</maleCommonality>
+    <femaleCommonality>0.00</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>EldarBoldMutation</li> -->
+    </forcedHediffs>
+    <spawnCategories Inherit="true">
+      <li>Eldar_Harlequinn_Psyker</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Outcast Childhoods -->
+  <!-- Eldar_Outcast_Child -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Base_Child">
+    <defName>Eldar_Outcast_Child</defName>
+    <title>Outcast</title>
+    <baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. However the strict paths of the [PAWN_alienRace] that shape the lives of Craftworld [PAWN_alienRace] proved too much for [PAWN_pronoun].</baseDescription>
+    <maleCommonality>0.0</maleCommonality>
+    <femaleCommonality>0.0</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>HyperactiveNymuneOrgan</li> -->
+    </forcedHediffs>
+    <spawnCategories>
+
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <!-- Eldar_Outcast_Psyker_Child -->
+  <AlienRace.BackstoryDef ParentName="Eldar_Psyker_Child">
+    <defName>Eldar_Outcast_Psyker_Child</defName>
+    <title>Outcast</title>
+    <baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. However the strict paths of the [PAWN_alienRace] that shape the lives of Craftworld [PAWN_alienRace] proved too much for [PAWN_pronoun].</baseDescription>
+    <maleCommonality>0.0</maleCommonality>
+    <femaleCommonality>0.0</femaleCommonality>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedHediffs>
+      <!-- <li>HyperactiveNymuneOrgan</li> -->
+    </forcedHediffs>
+    <spawnCategories >
+
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+  <!--end of temp defs to satisfy errors-->
+  <!-- Eldar Pathes (Childhood only) -->
+  <!-- Path of the Seer -->
+  <AlienRace.BackstoryDef Name="Eldar_Seer" ParentName="Eldar_Psyker_Backstory">
+    <defName>Path_of_seer_child</defName>
+    <title>Path of the Seer</title>
+    <titleShort>Eldar Seer</titleShort>
+    <baseDescription>[PAWN_nameDef] follows the path of the Seer.</baseDescription>
+
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <disallowedTraits>
+
+    </disallowedTraits>
+    <forcedTraits>
+      <li>
+        <defName>Nerves</defName>
+        <degree>1</degree>
+        <chance>30</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>
+        Mining
+      </li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>0</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+      <!--li>
+        <defName>Mining</defName>
+        <amount>0</amount>
+      </li-->
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>0</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>0</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>Eldar_Farseer</li>
+      <li>Eldar_Bonesinger</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+
+  <!-- Eldar Pathes (Childhood and Adult) -->
+
+  <!-- Eldar Pathes (Adult only) -->
+
+  <!-- Path of the Farseer -->
+  <AlienRace.BackstoryDef Name="Eldar_Farseer" ParentName="Eldar_Base_Backstory">
+    <defName>Path_of_farseer_adult</defName>
+    <title>Path of the Farseer</title>
+    <titleShort>Eldar Farseer</titleShort>
+    <baseDescription>[PAWN_nameDef] follows the path of the Farseer.</baseDescription>
+
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <disallowedTraits>
+
+    </disallowedTraits>
+    <forcedTraits>
+      <li>
+        <defName>PsychicSensitivity</defName>
+        <degree>2</degree>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>50</chance>
+      </li>
+    </forcedTraits>
+
+      <workDisables>
+        <li>Animals</li>
+        <li>ManualDumb</li>
+        </workDisables>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>0</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>0</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>0</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>0</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+  <!-- Path of the Bonesinger -->
+  <AlienRace.BackstoryDef Name="Eldar_Bonesinger" ParentName="Eldar_Base_Backstory">
+    <defName>Path_of_Bonesinger_adult</defName>
+    <title>Path of the Bonesinger</title>
+    <titleShort>Bonesinger</titleShort>
+    <baseDescription>[PAWN_nameDef] follows the path of the Bonesinger.</baseDescription>
+
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <disallowedTraits>
+
+    </disallowedTraits>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>30</chance>
+      </li>
+    </forcedTraits>
+
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>0</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>0</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>0</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>0</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>0</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+</Defs>  

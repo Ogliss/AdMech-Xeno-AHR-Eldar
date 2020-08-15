@@ -38,7 +38,9 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>EldarArmour</researchPrerequisite>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		
 		<apparel>
@@ -77,10 +79,10 @@
 					<commonality>10</commonality>
 				</li>
 			</PauldronEntries>
-			<NorthOffset>0.5</NorthOffset>
-			<SouthOffset>-0.001</SouthOffset>
-			<EastOffset>0.35</EastOffset>
-			<WestOffset>0.35</WestOffset>
+			<NorthOffset>0,0.5,0</NorthOffset>
+			<SouthOffset>0,-0.001,0</SouthOffset>
+			<EastOffset>0,0.35,0</EastOffset>
+			<WestOffset>0,0.35,0</WestOffset>
       </li>
     </comps>
 	<!--
@@ -133,7 +135,9 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>EldarArmour</researchPrerequisite>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		
 		<apparel>
@@ -172,10 +176,10 @@
 					<commonality>10</commonality>
 				</li>
 			</PauldronEntries>
-			<NorthOffset>0.5</NorthOffset>
-			<SouthOffset>-0.001</SouthOffset>
-			<EastOffset>0.35</EastOffset>
-			<WestOffset>0.35</WestOffset>
+			<NorthOffset>0,0.5,0</NorthOffset>
+			<SouthOffset>0,-0.001,0</SouthOffset>
+			<EastOffset>0,0.35,0</EastOffset>
+			<WestOffset>0,0.35,0</WestOffset>
       </li>
     </comps>
 	<!--
@@ -228,7 +232,9 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>EldarArmour</researchPrerequisite>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		
 		<apparel>
@@ -268,10 +274,10 @@
 					<commonality>10</commonality>
 				</li>
 			</PauldronEntries>
-			<NorthOffset>0.5</NorthOffset>
-			<SouthOffset>-0.001</SouthOffset>
-			<EastOffset>0.35</EastOffset>
-			<WestOffset>0.35</WestOffset>
+			<NorthOffset>0,0.5,0</NorthOffset>
+			<SouthOffset>0,-0.001,0</SouthOffset>
+			<EastOffset>0,0.35,0</EastOffset>
+			<WestOffset>0,0.35,0</WestOffset>
       </li>
     </comps>
 	<!--
@@ -323,7 +329,9 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>EldarAspectArmour</researchPrerequisite>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		
 		<apparel>
@@ -364,10 +372,10 @@
 					<commonality>10</commonality>
 				</li>
 			</PauldronEntries>
-			<NorthOffset>0.5</NorthOffset>
-			<SouthOffset>-0.001</SouthOffset>
-			<EastOffset>0.35</EastOffset>
-			<WestOffset>0.35</WestOffset>
+			<NorthOffset>0,0.5,0</NorthOffset>
+			<SouthOffset>0,-0.001,0</SouthOffset>
+			<EastOffset>0,0.35,0</EastOffset>
+			<WestOffset>0,0.35,0</WestOffset>
       </li>
     </comps>
 	<!--
@@ -420,7 +428,9 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>EldarArmour</researchPrerequisite>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		
 		<apparel>
@@ -459,10 +469,10 @@
 					<commonality>10</commonality>
 				</li>
 			</PauldronEntries>
-			<NorthOffset>0.5</NorthOffset>
-			<SouthOffset>-0.001</SouthOffset>
-			<EastOffset>0.35</EastOffset>
-			<WestOffset>0.35</WestOffset>
+			<NorthOffset>0,0.5,0</NorthOffset>
+			<SouthOffset>0,-0.001,0</SouthOffset>
+			<EastOffset>0,0.35,0</EastOffset>
+			<WestOffset>0,0.35,0</WestOffset>
       </li>
     </comps>
 	<!--
@@ -515,7 +525,9 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>EldarAdvancedArmour</researchPrerequisite>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T3</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		
 		<apparel>
@@ -555,10 +567,10 @@
 					<commonality>10</commonality>
 				</li>
 			</PauldronEntries>
-			<NorthOffset>0.5</NorthOffset>
-			<SouthOffset>-0.001</SouthOffset>
-			<EastOffset>0.35</EastOffset>
-			<WestOffset>0.35</WestOffset>
+			<NorthOffset>0,0.5,0</NorthOffset>
+			<SouthOffset>0,-0.001,0</SouthOffset>
+			<EastOffset>0,0.35,0</EastOffset>
+			<WestOffset>0,0.35,0</WestOffset>
       </li>
 	  
       <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
@@ -577,10 +589,10 @@
 				</li>
 			</PauldronEntries>
 			<PauldronEntryChance>0.5</PauldronEntryChance>
-			<NorthOffset>-0.13</NorthOffset>
-			<SouthOffset>-0.027</SouthOffset>
-			<EastOffset>-0.375</EastOffset>
-			<WestOffset>-0.375</WestOffset>
+			<NorthOffset>0,-0.13,0</NorthOffset>
+			<SouthOffset>0,-0.027,0</SouthOffset>
+			<EastOffset>0,-0.375,0</EastOffset>
+			<WestOffset>0,-0.375,0</WestOffset>
       </li>
 	  
     </comps>
@@ -636,7 +648,9 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>EldarAdvancedArmour</researchPrerequisite>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T3</li>
+			</researchPrerequisites>
 		</recipeMaker>
 		
 		<apparel>
@@ -677,10 +691,10 @@
 					<commonality>10</commonality>
 				</li>
 			</PauldronEntries>
-			<NorthOffset>0.5</NorthOffset>
-			<SouthOffset>-0.001</SouthOffset>
-			<EastOffset>0.35</EastOffset>
-			<WestOffset>0.35</WestOffset>
+			<NorthOffset>0,0.5,0</NorthOffset>
+			<SouthOffset>0,-0.001,0</SouthOffset>
+			<EastOffset>0,0.35,0</EastOffset>
+			<WestOffset>0,0.35,0</WestOffset>
       </li>
 	  <!--
       <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
@@ -694,10 +708,10 @@
 					<commonality>10</commonality>
 				</li>
 			</PauldronEntries>
-			<NorthOffset>-0.13</NorthOffset>
-			<SouthOffset>-0.027</SouthOffset>
-			<EastOffset>-0.15</EastOffset>
-			<WestOffset>-0.15</WestOffset>
+			<NorthOffset>0,-0.13,0</NorthOffset>
+			<SouthOffset>0,-0.027,0</SouthOffset>
+			<EastOffset>0,-0.15,0</EastOffset>
+			<WestOffset>0,-0.15,0</WestOffset>
       </li>
 	  
 	  -->
