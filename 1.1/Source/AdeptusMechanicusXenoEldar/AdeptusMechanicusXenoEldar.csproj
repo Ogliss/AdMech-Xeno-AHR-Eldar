@@ -39,7 +39,7 @@
   <ItemGroup>
     <Compile Include="AMEMain.cs" />
     <Compile Include="ExtentsionMethods\AdeptusMechanicusEldarExtensions.cs" />
-    <Compile Include="Harmony\AMXBE_AMAMod_ModOptions_Patches.cs" />
+    <Compile Include="Harmony\AMMod_PlayableEldarSettings_Patch.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="WraithConstructs\Class1.cs" />
     <Compile Include="WraithConstructs\WraithPawn.cs" />

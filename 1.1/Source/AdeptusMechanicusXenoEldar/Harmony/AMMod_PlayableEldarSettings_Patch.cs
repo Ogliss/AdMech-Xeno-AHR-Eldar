@@ -12,7 +12,7 @@ using AdeptusMechanicus.ExtensionMethods;
 namespace AdeptusMechanicus.HarmonyInstance
 {
     [HarmonyPatch(typeof(AMAMod), "ModLoaded")]
-    public static class AME_AMAMod_SettingsCategory_Patch
+    public static class AMAMod_SettingsCategory_Patch
     {
         [HarmonyPostfix]
         public static void ModsLoaded(ref AMAMod __instance, ref string __result)
@@ -21,23 +21,8 @@ namespace AdeptusMechanicus.HarmonyInstance
         }
     }
 
-	/*
-    [HarmonyPatch(typeof(AMAMod), "get_MenuLength")]
-    public static class AMO_AMAMod_MenuLength_Patch
-    {
-        [HarmonyPostfix]
-        public static void MenuLength_Postfix(ref float __result)
-        {
-            //    Log.Message(string.Format("PreModOptions_Prefix num2: {0}",  num2));
-            __result += (AMSettings.Instance.ShowOrk ? (AdeptusIntergrationUtil.enabled_MagosXenobiologis ? 60f : 120f) : 0);
-
-            //    Log.Message(string.Format("PreModOptions_Prefix num2: {0}", num2));
-        }
-
-    }
-	*/
     [HarmonyPatch(typeof(AMAMod), "EldarSettings")]
-    public static class AME_AMMod_PlayableEldarSettings_Patch
+    public static class AMMod_PlayableEldarSettings_Patch
     {
         [HarmonyPrefix]
         public static void EldarSettings_Prefix(ref AMAMod __instance, ref Listing_Standard listing_Main, Rect rect, Rect inRect, float num, float num2)
