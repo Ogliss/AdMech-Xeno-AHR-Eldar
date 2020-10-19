@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TipSetDef[defName = "GameplayTips"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TipSetDef[defName = "GameplayTips"]/tips</xpath>
+				<value>			
+					<li>Eldar weapons and technology can only be produced/researched by Eldar</li>
+				</value>
+			</li>
+		</operations>	
+	</Operation>
+	
+</Patch>

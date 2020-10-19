@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "PmifbffHpHCBzMchK1eKVq+0ax3hBNujxLHd3dh3hGzKEvrM1Mk/MkiK3OxdYu+d3IijPwiNYPhP5sL3WaWafw==",
+  "success": true,
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AdMech-Xeno-AHR-Eldar\\1.1\\Source\\AdeptusMechanicusXenoEldar\\AdeptusMechanicusXenoEldar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\krafs.rimworld.ref\\1.2.2753\\krafs.rimworld.ref.1.2.2753.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\lib.harmony\\2.0.2\\lib.harmony.2.0.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\unlimitedhugs.rimworld.hugslib\\8.0.0\\unlimitedhugs.rimworld.hugslib.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

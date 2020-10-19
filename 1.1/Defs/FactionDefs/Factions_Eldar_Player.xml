@@ -53,7 +53,7 @@
   
 	
   <FactionDef ParentName="OG_Eldar_Player_Craftworld_Base">
-    <defName>OG_Eldar_Player_Craftworld</defName>
+    <defName>OG_Eldar_Craftworld_PlayerColony</defName>
   </FactionDef>
 
 <!--

@@ -36,7 +36,7 @@
 					</li>
 				</pawnKindEntries>
 					<factionDefs>
-						<li>OG_Eldar_Player_Craftworld</li> 
+						<li>OG_Eldar_Craftworld_PlayerColony</li> 
 					</factionDefs>
 				</li>
 			</startingColonists>
@@ -51,7 +51,7 @@
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
-                        <li>OG_Eldar_Player_Craftworld</li> 
+                        <li>OG_Eldar_Craftworld_PlayerColony</li> 
                     </factionDefs>
                 </li>
             </alienwandererkinds>
@@ -148,105 +148,103 @@
 			<chemicalSettings>	
 		    </chemicalSettings>
             <humanRecipeImport>true</humanRecipeImport>
-		   <notXenophobistTowards>
-              <li>OG_Alien_Eldar</li>
-              <li>OG_Alien_Eldar</li>
-           </notXenophobistTowards>
-		<factionRelations>
-                <li>
-                    <factions>
-                       <li>OG_Ork_Tek_Faction</li>
-                       <li>OrkFaction</li>
-                       <li>OG_Ork_Feral_Faction</li>
-                       <li>FeralOrkFaction</li>
-					   <li>OG_Ork_Player</li>
-					   <li>OG_Ork_Feral_Player</li>
-                    </factions>
-                    <goodwill>
-                       <min>-100</min>
-                       <max>-75</max>
-                    </goodwill>
-                </li>
+			<notXenophobistTowards>
+			  <li>OG_Alien_Eldar</li>
+			  <li>OG_Alien_Eldar</li>
+			</notXenophobistTowards>
+			<factionRelations>
 				<li>
-                    <factions>
+					<factions>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Ork_Tek_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Ork_Feral_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
+					</factions>
+					<goodwill>
+					   <min>-100</min>
+					   <max>-75</max>
+					</goodwill>
+				</li>
+				<li>
+					<factions>
 					   <li>PlayerColony</li>
 					   <li>PlayerTribe</li>
-                    </factions>
-                    <goodwill>
-                       <min>-100</min>
-                       <max>10</max>
-                    </goodwill>
-                </li>
+					</factions>
+					<goodwill>
+					   <min>-100</min>
+					   <max>10</max>
+					</goodwill>
+				</li>
 				<li>
-                    <factions>
-                       <li>OG_Eldar_Craftworld_Faction</li>
-                       <li>OG_Eldar_Exodite_Faction</li>
-                       <li>OG_Eldar_Harlequin_Faction</li>
-                       <li>OG_Eldar_Craftworld_PlayerColony</li>
-                       <li>OG_Eldar_Exodite_PlayerColony</li>
-                       <li>OG_Eldar_Harlequin_PlayerColony</li>
-					   <li>EldarPlayerColony</li>
-                    </factions>
-                    <goodwill>
-                       <min>-30</min>
-                       <max>100</max>
-                    </goodwill>
-                </li>
+					<factions>
+					   <li>OG_Eldar_Craftworld_Faction</li>
+					   <!--li>OG_Eldar_Exodite_Faction</li-->
+					   <!--li>OG_Eldar_Harlequin_Faction</li-->
+					   <li>OG_Eldar_Craftworld_PlayerColony</li>
+					   <!--li>OG_Eldar_Exodite_PlayerColony</li-->
+					   <!--li>OG_Eldar_Harlequin_PlayerColony</li-->
+					</factions>
+					<goodwill>
+					   <min>-30</min>
+					   <max>100</max>
+					</goodwill>
+				</li>
 				<li>
-                    <factions>
-                       <li>OG_DarkEldar_Faction</li>
-					   <li>OG_DarkEldar_PlayerColony</li>
-					   <li>OG_Necron_PlayerColony</li>
-					   <li>OG_Necron_Faction</li>
-					   <li>NecronFaction</li>
-					   <li>OG_Ork_Hulk</li>
-					   <li>HulkOrkz</li>
-					   <li>OG_Ork_Rok</li>
-					   <li>RokOrkz</li>
-					   <li>OG_Tyranid_Faction</li>
-					   <li>OG_Chaos_Deamon_Faction</li>
-                    </factions>
-                    <goodwill>
-                       <min>-100</min>
-                       <max>-100</max>
-                    </goodwill>
-                </li>
+					<factions>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Ork_Hulk</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Ork_Rok</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Hulk</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Rok</li>
+					</factions>
+					<goodwill>
+					   <min>-100</min>
+					   <max>-100</max>
+					</goodwill>
+				</li>
 				<li>
-                    <factions>
-                       <li>OG_Tau_Faction</li>
-                       <li>TauFaction</li>
-					   <li>OG_Tau_Player</li>
-					   <li>TauPlayerColony</li>
-                       <li>OG_Kroot_Faction</li>
-                       <li>KrootFaction</li>
-					   <li>OG_Kroot_PlayerColony</li>
-					   <li>OG_Kroot_Player_Tribal</li>
-					   <li>KrootPlayerColony</li>
-					   <li>KrootPlayerColonyTribal</li>
-                       <li>OG_Vespid_Faction</li>
-					   <li>OG_Vespid_PlayerColony</li>
-                    </factions>
-                    <goodwill>
-                       <min>-100</min>
-                       <max>25</max>
-                    </goodwill>
-                </li>  
+					<factions>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tau_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerTribe</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_Faction</li>
+					   <!--li>OG_Vespid_PlayerColony</li-->
+					</factions>
+					<goodwill>
+					   <min>-100</min>
+					   <max>25</max>
+					</goodwill>
+				</li>  
 				<li>
-                    <factions>
-                       <li>ImperialMechanicusFaction</li>
-					   <li>OG_Mechanicus_Faction</li>
-					   <li>OG_Mechanicus_PlayerColony</li>
-					   <li>OG_Militarum_PlayerColony</li>
-                       <li>OG_Militarum_Cadian_Faction</li>
-                       <li>ImperialAstartesFaction</li>
-					   <li>ImperialAstartesPlayerColony</li>
-                    </factions>
-                    <goodwill>
-                       <min>-100</min>
-                       <max>25</max>
-                    </goodwill>
-                </li>
-		</factionRelations>
+					<factions>
+					   <!--li>ImperialMechanicusFaction</li-->
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+					   <!--li>ImperialAstartesFaction</li-->
+					   <!--li>ImperialAstartesPlayerColony</li-->
+					</factions>
+					<goodwill>
+					   <min>-100</min>
+					   <max>25</max>
+					</goodwill>
+				</li>
+			</factionRelations>
         </generalSettings>
         <graphicPaths>
 			<!--
@@ -270,8 +268,8 @@
         </hairSettings>
         <thoughtSettings>
 			<cannotReceiveThoughts>
-				<li>FeelingRandom</li>
-				<li>CabinFever</li>
+				<!--li>FeelingRandom</li-->
+				<!--li>CabinFever</li-->
 				<li>KnowPrisonerDiedInnocent</li>
 				<li>SoldPrisoner</li>
 				<li>ExecutedPrisoner</li>
@@ -311,54 +309,67 @@
 				<li>OGE_Apparel_RuneFortune</li>
 			</apparelList>
             <recipeList>
-                <li>OGE_Apparel_MeshArmour</li>
-                <li>OGE_Apparel_MeshArmourHelmet</li>
-                <li>OGE_Apparel_DireAvengerArmour</li>
-                <li>OGE_Apparel_DireAvengerHelmet</li>
-                <li>OGE_Apparel_RangerArmour</li>
-                <li>OGE_Apparel_RangerArmourHelmet</li>
-                <li>OGE_Apparel_BansheeArmour</li>
-                <li>OGE_Apparel_BansheeArmourHelmet</li>
-                <li>OGE_Apparel_RuneArmourWarlock</li>
-                <li>OGE_Apparel_WarlockHelmet</li>
-                <li>OGE_Apparel_RuneArmourFarseer</li>
-                <li>OGE_Apparel_Ghosthelm</li>
-                <li>OGE_Apparel_RuneWarding</li>
-                <li>OGE_Apparel_RuneWrath</li>
-                <li>OGE_Apparel_RuneFortune</li>
-                <li>OGE_GrenadePack_Plasma</li>
-                <li>OGE_GrenadePack_Haywire</li>
-                <li>OGE_GrenadePack_Melta</li>
-                <li>OGE_Melee_ScorpionChainsword</li>
-                <li>OGE_Melee_BitingBlade</li>
-                <li>OGE_Melee_ScorpionsClaw</li>
-                <li>OGE_Melee_PowerSword</li>
-                <li>OGE_Melee_Diresword</li>
-                <li>OGE_Melee_Witchblade</li>
-                <li>OGE_Melee_Miststave</li>
-                <li>OGE_Melee_GhostSword</li>
-                <li>OGE_Melee_DualGhostSword</li>
-                <li>OGE_Melee_GhostAxe</li>
-                <li>OGE_Melee_Executioner</li>
-                <li>OGE_Melee_HarlequinsKiss</li>
-                <li>OGE_Melee_SingingSpear</li>
-                <li>OGE_Gun_ShurikenPistol</li>
-                <li>OGE_Gun_ShurikenCatapult</li>
-                <li>OGE_Gun_ShurikenCatapultAvenger</li>
-                <li>OGE_Gun_ShurikenCannon</li>
-                <li>OGE_Gun_Starcannon</li>
-                <li>OGE_Gun_Wraithcannon</li>
-                <li>OGE_Gun_Brightlance</li>
-                <li>OGE_Gun_PrismRifle</li>
-                <li>OGE_Gun_FusionGun</li>
-                <li>OGE_Gun_NeuroDisruptor</li>
-                <li>OGE_Gun_LasBlaster</li>
-                <li>OGE_Gun_RangerLongrifle</li>
-                <li>OGE_Gun_Deathspinner</li>
-                <li>OGE_Gun_HaywireCannon</li>
+                <li>Make_OGE_Apparel_MeshArmour</li>
+                <li>Make_OGE_Apparel_MeshArmourHelmet</li>
+                <li>Make_OGE_Apparel_DireAvengerArmour</li>
+                <li>Make_OGE_Apparel_DireAvengerHelmet</li>
+                <li>Make_OGE_Apparel_RangerArmour</li>
+                <li>Make_OGE_Apparel_RangerArmourHelmet</li>
+                <li>Make_OGE_Apparel_BansheeArmour</li>
+                <li>Make_OGE_Apparel_BansheeArmourHelmet</li>
+                <li>Make_OGE_Apparel_StrikingScorpionArmour</li>
+                <!--li>Make_OGE_Apparel_StrikingScorpionArmourHelmet</li-->
+                <li>Make_OGE_Apparel_RuneArmourWarlock</li>
+                <li>Make_OGE_Apparel_WarlockHelmet</li>
+                <li>Make_OGE_Apparel_RuneArmourFarseer</li>
+                <li>Make_OGE_Apparel_Ghosthelm</li>
+                <li>Make_OGE_Apparel_RuneWarding</li>
+                <li>Make_OGE_Apparel_RuneWrath</li>
+                <li>Make_OGE_Apparel_RuneFortune</li>
+                <li>Make_OGE_GrenadePack_Plasma</li>
+                <li>Make_OGE_GrenadePack_Haywire</li>
+                <li>Make_OGE_GrenadePack_Melta</li>
+                <li>Make_OGE_Melee_ScorpionChainsword</li>
+                <li>Make_OGE_Melee_BitingBlade</li>
+                <li>Make_OGE_Melee_ScorpionsClaw</li>
+                <li>Make_OGE_Melee_PowerSword</li>
+                <li>Make_OGE_Melee_MirrorswordS</li>
+                <li>Make_OGE_Melee_MirrorswordD</li>
+                <li>Make_OGE_Melee_GhostSword</li>
+                <li>Make_OGE_Melee_GhostSwordD</li>
+                <li>Make_OGE_Melee_GhostAxe</li>
+                <li>Make_OGE_Melee_Executioner</li>
+                <li>Make_OGE_Melee_Diresword</li>
+                <li>Make_OGE_Melee_Witchblade</li>
+                <li>Make_OGE_Melee_Miststave</li>
+                <li>Make_OGE_Melee_HarlequinsKiss</li>
+                <li>Make_OGE_Melee_SingingSpear</li>
+                <li>Make_OGE_Gun_ShurikenPistol</li>
+                <li>Make_OGE_Gun_ShurikenCatapult</li>
+                <li>Make_OGE_Gun_ShurikenCatapultAvenger</li>
+                <li>Make_OGE_Gun_ShurikenCannon</li>
+                <li>Make_OGE_Gun_Starcannon</li>
+                <li>Make_OGE_Gun_Wraithcannon</li>
+                <li>Make_OGE_Gun_LasBlaster</li>
+                <li>Make_OGE_Gun_RangerLongrifle</li>
+                <li>Make_OGE_Gun_PrismRifle</li>
+                <li>Make_OGE_Gun_Brightlance</li>
+                <li>Make_OGE_Gun_FusionGun</li>
+                <li>Make_OGE_Gun_NeuroDisruptor</li>
+                <li>Make_OGE_Gun_Deathspinner</li>
+                <li>Make_OGE_Gun_ReaperLauncher</li>
+                <li>Make_OGE_Gun_NeuroDisruptor</li>
+                <li>Make_OGE_Gun_HaywireCannon</li>
             </recipeList>
 			<buildingList>
                 <li>OG_Eldar_TableMachining</li>
+                <li>OGE_Turret_ShurikenCannonDual_Auto</li>
+                <li>OGE_Turret_Missile_Auto</li>
+                <li>OGE_Turret_Brightlance_Auto</li>
+                <li>OGE_Turret_BrightlanceDual_Auto</li>
+                <li>OGE_Turret_DistortCannon_Auto</li>
+                <li>OGE_Turret_VibroCannon</li>
+                <li>OGE_Turret_ShadowWeaver_Manual</li>
             </buildingList>
         </raceRestriction>
     </alienRace>

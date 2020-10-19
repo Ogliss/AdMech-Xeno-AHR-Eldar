@@ -9,7 +9,7 @@
 <summary>Five escaped Eldar attempt to build a colony. Difficult.</summary>
 		<playerFaction>
 			<def>PlayerFaction</def>
-			<factionDef>OG_Eldar_Player_Craftworld</factionDef>
+			<factionDef>OG_Eldar_Craftworld_PlayerColony</factionDef>
 		</playerFaction>
 		<parts>
 			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
