@@ -87,6 +87,13 @@
     </comps>
     <drawGUIOverlay>true</drawGUIOverlay>
 	-->
+    <comps>
+		<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.CompProperties_Inventory" />
+		<li MayRequire="CETeam.CombatExtended">
+		  <compClass>CombatExtended.CompPawnGizmo</compClass>
+		</li>
+		<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.CompProperties_Suppressable" />
+    </comps>
 </ThingDef>
 
 <AlienRace.ThingDef_AlienRace Name="OG_Eldar_RaceBase" ParentName="OG_Eldar_Pawn_Base" Abstract="True">
@@ -392,6 +399,8 @@
         <GlobalLearningFactor>1.15</GlobalLearningFactor>
         <MeleeDodgeChance>1.25</MeleeDodgeChance>
         <MeleeHitChance>1.15</MeleeHitChance>
+        <MeleeCritChance MayRequire="CETeam.CombatExtended">1.15</MeleeCritChance>
+        <MeleeParryChance MayRequire="CETeam.CombatExtended">1.25</MeleeParryChance>
         <GeneralLaborSpeed>1.18</GeneralLaborSpeed>
         <ButcheryFleshSpeed>0.85</ButcheryFleshSpeed>
         <ButcheryFleshEfficiency>0.85</ButcheryFleshEfficiency>
@@ -548,6 +557,14 @@
       <li>Euthanize</li>
       <li>Anesthetize</li>
     </recipes>
+    <comps>
+	
+    </comps>
+    <modExtensions>
+		<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.RacePropertiesExtensionCE">
+			<bodyShape>Humanoid</bodyShape>
+		</li>
+    </modExtensions>
 </AlienRace.ThingDef_AlienRace>
 
 <AlienRace.ThingDef_AlienRace ParentName="OG_Eldar_Race">
