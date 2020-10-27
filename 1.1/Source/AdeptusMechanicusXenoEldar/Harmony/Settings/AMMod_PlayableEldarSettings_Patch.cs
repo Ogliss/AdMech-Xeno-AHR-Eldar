@@ -35,8 +35,15 @@ namespace AdeptusMechanicus.HarmonyInstance
             int Options = 3;
             float RaceSettings = __instance.Length(setting, Options, lineheight, 8, showRaces ? 1 : 0); //(settings.ShowImperium ? (lineheight * 2) : (lineheight * 1)) + (settings.ShowImperium ? 10 : 0);
             float options = __instance.Length(setting, Options - 1, lineheight, 0, 0);
-
-            Listing_Standard listing_Race = listing_Main.BeginSection(RaceSettings);
+            Listing_Standard listing_Race;
+            if (AccessTools.GetMethodNames(typeof(Listing_Standard)).Contains("BeginSection_NewTemp"))
+            {
+                listing_Race = ArmouryMain.BeginSection_OnePointTwo(ref listing_Main, RaceSettings);
+            }
+            else
+            {
+                listing_Race = ArmouryMain.BeginSection_OnePointOne(ref listing_Main, RaceSettings);
+            }
             listing_Race.CheckboxLabeled("AMXB_ShowEldar".Translate() + " Settings" + (Prefs.DevMode && SteamUtility.SteamPersonaName.Contains("Ogliss") ? " Menu Length: " + __instance.XenobiologisEldarMenuLength : "") + (Prefs.DevMode && SteamUtility.SteamPersonaName.Contains("Ogliss") && setting ? " options length: " + options : ""), ref settings.ShowEldar, null, false, true);
 
             if (setting)

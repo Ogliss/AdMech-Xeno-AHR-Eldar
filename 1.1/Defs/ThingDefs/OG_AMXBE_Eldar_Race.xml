@@ -162,22 +162,12 @@
 			<factionRelations>
 				<li>
 					<factions>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Ork_Tek_Faction</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Ork_Feral_Faction</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
-					</factions>
-					<goodwill>
-					   <min>-100</min>
-					   <max>-75</max>
-					</goodwill>
-				</li>
-				<li>
-					<factions>
 					   <li>PlayerColony</li>
 					   <li>PlayerTribe</li>
+					   <li>OutlanderCivil</li>
+					   <li>OutlanderRough</li>
+					   <li>TribeCivil</li>
+					   <li>TribeRough</li>
 					</factions>
 					<goodwill>
 					   <min>-100</min>
@@ -187,11 +177,11 @@
 				<li>
 					<factions>
 					   <li>OG_Eldar_Craftworld_Faction</li>
-					   <!--li>OG_Eldar_Exodite_Faction</li-->
-					   <!--li>OG_Eldar_Harlequin_Faction</li-->
 					   <li>OG_Eldar_Craftworld_PlayerColony</li>
-					   <!--li>OG_Eldar_Exodite_PlayerColony</li-->
-					   <!--li>OG_Eldar_Harlequin_PlayerColony</li-->
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Exodite_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Player_Exodite</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Harlequin_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Player_Harlequin</li>
 					</factions>
 					<goodwill>
 					   <min>-30</min>
@@ -200,28 +190,13 @@
 				</li>
 				<li>
 					<factions>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Faction</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_PlayerColony</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Ork_Hulk</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Ork_Rok</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Hulk</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Rok</li>
-					</factions>
-					<goodwill>
-					   <min>-100</min>
-					   <max>-100</max>
-					</goodwill>
-				</li>
-				<li>
-					<factions>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Astartes">OG_Astartes_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Astartes">OG_AstartesNeophyte_PlayerColony</li>
+					   <li MayRequire="CptOhu.CorruptionCore">PlayerColony_IoM</li>
 					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tau_Faction</li>
 					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_Faction</li>
 					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_PlayerColony</li>
@@ -235,24 +210,48 @@
 					   <min>-100</min>
 					   <max>25</max>
 					</goodwill>
-				</li>  
+				</li>
 				<li>
 					<factions>
-					   <!--li>ImperialMechanicusFaction</li-->
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
-					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
-					   <!--li>ImperialAstartesFaction</li-->
-					   <!--li>ImperialAstartesPlayerColony</li-->
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Ork_Tek_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Ork_Feral_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
 					</factions>
 					<goodwill>
 					   <min>-100</min>
-					   <max>25</max>
+					   <max>10</max>
+					</goodwill>
+				</li>
+				<li>
+					<factions>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Hulk</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Rok</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Ork_Hulk</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Ork_Rok</li>
+					   <li MayRequire="CptOhu.CorruptionCore">PlayerColony_Chaos</li>
+					   <li MayRequire="QX.AstraMilitarum.Factions">IG_ChaosMarineFaction</li>
+					   <li MayRequire="QX.AstraMilitarum.Factions">TraitorGuardFaction</li>
+					   <li MayRequire="QX.AstraMilitarum.Factions">TyranidFaction</li>
+					</factions>
+					<goodwill>
+					   <min>-100</min>
+					   <max>-100</max>
 					</goodwill>
 				</li>
 			</factionRelations>
-        </generalSettings>
+		</generalSettings>
         <graphicPaths>
 			<!--
             <li>
@@ -316,7 +315,7 @@
 				<li>OGE_Apparel_RuneFortune</li>
 			</apparelList>
             <recipeList>
-                <li>Make_OGE_Apparel_MeshArmour</li>
+                <!--li>Make_OGE_Apparel_MeshArmour</li>
                 <li>Make_OGE_Apparel_MeshArmourHelmet</li>
                 <li>Make_OGE_Apparel_DireAvengerArmour</li>
                 <li>Make_OGE_Apparel_DireAvengerHelmet</li>
@@ -325,7 +324,7 @@
                 <li>Make_OGE_Apparel_BansheeArmour</li>
                 <li>Make_OGE_Apparel_BansheeArmourHelmet</li>
                 <li>Make_OGE_Apparel_StrikingScorpionArmour</li>
-                <!--li>Make_OGE_Apparel_StrikingScorpionArmourHelmet</li-->
+                <li>Make_OGE_Apparel_StrikingScorpionArmourHelmet</li>
                 <li>Make_OGE_Apparel_RuneArmourWarlock</li>
                 <li>Make_OGE_Apparel_WarlockHelmet</li>
                 <li>Make_OGE_Apparel_RuneArmourFarseer</li>
@@ -366,17 +365,17 @@
                 <li>Make_OGE_Gun_Deathspinner</li>
                 <li>Make_OGE_Gun_ReaperLauncher</li>
                 <li>Make_OGE_Gun_NeuroDisruptor</li>
-                <li>Make_OGE_Gun_HaywireCannon</li>
+                <li>Make_OGE_Gun_HaywireCannon</li-->
             </recipeList>
 			<buildingList>
-                <li>OG_Eldar_TableMachining</li>
+                <!--li>OGE_TableMachining</li>
                 <li>OGE_Turret_ShurikenCannonDual_Auto</li>
                 <li>OGE_Turret_Missile_Auto</li>
                 <li>OGE_Turret_Brightlance_Auto</li>
                 <li>OGE_Turret_BrightlanceDual_Auto</li>
                 <li>OGE_Turret_DistortCannon_Auto</li>
                 <li>OGE_Turret_VibroCannon</li>
-                <li>OGE_Turret_ShadowWeaver_Manual</li>
+                <li>OGE_Turret_ShadowWeaver_Manual</li-->
             </buildingList>
         </raceRestriction>
     </alienRace>
@@ -509,53 +508,53 @@
         <volume>(0.3, 0.8, 0.4)</volume>
         <offset>(0,0,-0.3)</offset>
       </specialShadowData>
-      <ageGenerationCurve>
-        <points>
-                    <li>(16,0)</li>
-                    <li>(170,150)</li>
-                    <li>(1500,100)</li>
-                    <li>(2000,100)</li>
-                    <li>(3000,100)</li>
-                    <li>(4000,12)</li>
-                    <li>(5000,6)</li>
-					<li>(7500,3)</li>
-					<li>(10000,2)</li>
-					<li>(12500,1)</li>
-                    <li>(15000,0)</li>
-        </points>
-      </ageGenerationCurve>
-      <hediffGiverSets>
-        <li>OrganicAgeless</li>
-      </hediffGiverSets>
+		<ageGenerationCurve>
+			<points>
+				<li>(16,0)</li>
+				<li>(170,150)</li>
+				<li>(1500,100)</li>
+				<li>(2000,100)</li>
+				<li>(3000,100)</li>
+				<li>(4000,12)</li>
+				<li>(5000,6)</li>
+				<li>(7500,3)</li>
+				<li>(10000,2)</li>
+				<li>(12500,1)</li>
+				<li>(15000,0)</li>
+			</points>
+		</ageGenerationCurve>
+		<hediffGiverSets>
+			<li>OrganicAgeless</li>
+		</hediffGiverSets>
     </race>
     <recipes>
-       <li>InstallArchotechEye</li>
-      <li>InstallArchotechArm</li>
-      <li>InstallArchotechLeg</li>
-      <li>InstallPowerClaw</li>
-      <li>InstallBionicEye</li>
-      <li>InstallBionicArm</li>
-      <li>InstallBionicLeg</li>
-      <li>InstallBionicSpine</li>
-      <li>InstallBionicHeart</li>
-      <li>InstallBionicStomach</li>
-      <li>InstallBionicEar</li>
-      <li>InstallSimpleProstheticArm</li>
-      <li>InstallSimpleProstheticLeg</li>
-      <li>InstallSimpleProstheticHeart</li>
-      <li>InstallCochlearImplant</li>
-      <li>InstallPegLeg</li>
-      <li>InstallDenture</li>
-      <li>InstallJoywire</li>
-      <li>InstallPainstopper</li>
-      <li>InstallNaturalHeart</li>
-      <li>InstallNaturalLung</li>
-      <li>InstallNaturalKidney</li>
-      <li>InstallNaturalLiver</li>
-      <li>ExciseCarcinoma</li>
-      <li>RemoveBodyPart</li>
-      <li>Euthanize</li>
-      <li>Anesthetize</li>
+		<li>InstallArchotechEye</li>
+		<li>InstallArchotechArm</li>
+		<li>InstallArchotechLeg</li>
+		<li>InstallPowerClaw</li>
+		<li>InstallBionicEye</li>
+		<li>InstallBionicArm</li>
+		<li>InstallBionicLeg</li>
+		<li>InstallBionicSpine</li>
+		<li>InstallBionicHeart</li>
+		<li>InstallBionicStomach</li>
+		<li>InstallBionicEar</li>
+		<li>InstallSimpleProstheticArm</li>
+		<li>InstallSimpleProstheticLeg</li>
+		<li>InstallSimpleProstheticHeart</li>
+		<li>InstallCochlearImplant</li>
+		<li>InstallPegLeg</li>
+		<li>InstallDenture</li>
+		<li>InstallJoywire</li>
+		<li>InstallPainstopper</li>
+		<li>InstallNaturalHeart</li>
+		<li>InstallNaturalLung</li>
+		<li>InstallNaturalKidney</li>
+		<li>InstallNaturalLiver</li>
+		<li>ExciseCarcinoma</li>
+		<li>RemoveBodyPart</li>
+		<li>Euthanize</li>
+		<li>Anesthetize</li>
     </recipes>
     <comps>
 	

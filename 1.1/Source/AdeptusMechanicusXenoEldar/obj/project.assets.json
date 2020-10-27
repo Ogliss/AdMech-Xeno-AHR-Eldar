@@ -96,33 +96,6 @@
         "runtime": {
           "lib/net472/0Harmony.dll": {}
         }
-      },
-      "UnlimitedHugs.Rimworld.HugsLib/8.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Lib.Harmony": "2.0.0.8"
-        },
-        "compile": {
-          "lib/net472/HugsLib.dll": {}
-        },
-        "runtime": {
-          "lib/net472/_._": {}
-        }
-      },
-      "AdeptusMechanicusMain/1.0.0": {
-        "type": "project",
-        "framework": ".NETFramework,Version=v4.7.2",
-        "dependencies": {
-          "Krafs.Rimworld.Ref": "1.2.2753",
-          "Lib.Harmony": "2.0.2",
-          "UnlimitedHugs.Rimworld.HugsLib": "8.0.0"
-        },
-        "compile": {
-          "bin/placeholder/AdeptusMechanicusMain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AdeptusMechanicusMain.dll": {}
-        }
       }
     },
     ".NETFramework,Version=v4.7.2/win": {
@@ -219,33 +192,6 @@
         },
         "runtime": {
           "lib/net472/0Harmony.dll": {}
-        }
-      },
-      "UnlimitedHugs.Rimworld.HugsLib/8.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Lib.Harmony": "2.0.0.8"
-        },
-        "compile": {
-          "lib/net472/HugsLib.dll": {}
-        },
-        "runtime": {
-          "lib/net472/_._": {}
-        }
-      },
-      "AdeptusMechanicusMain/1.0.0": {
-        "type": "project",
-        "framework": ".NETFramework,Version=v4.7.2",
-        "dependencies": {
-          "Krafs.Rimworld.Ref": "1.2.2753",
-          "Lib.Harmony": "2.0.2",
-          "UnlimitedHugs.Rimworld.HugsLib": "8.0.0"
-        },
-        "compile": {
-          "bin/placeholder/AdeptusMechanicusMain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AdeptusMechanicusMain.dll": {}
         }
       }
     },
@@ -344,33 +290,6 @@
         "runtime": {
           "lib/net472/0Harmony.dll": {}
         }
-      },
-      "UnlimitedHugs.Rimworld.HugsLib/8.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Lib.Harmony": "2.0.0.8"
-        },
-        "compile": {
-          "lib/net472/HugsLib.dll": {}
-        },
-        "runtime": {
-          "lib/net472/_._": {}
-        }
-      },
-      "AdeptusMechanicusMain/1.0.0": {
-        "type": "project",
-        "framework": ".NETFramework,Version=v4.7.2",
-        "dependencies": {
-          "Krafs.Rimworld.Ref": "1.2.2753",
-          "Lib.Harmony": "2.0.2",
-          "UnlimitedHugs.Rimworld.HugsLib": "8.0.0"
-        },
-        "compile": {
-          "bin/placeholder/AdeptusMechanicusMain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AdeptusMechanicusMain.dll": {}
-        }
       }
     },
     ".NETFramework,Version=v4.7.2/win-x86": {
@@ -467,33 +386,6 @@
         },
         "runtime": {
           "lib/net472/0Harmony.dll": {}
-        }
-      },
-      "UnlimitedHugs.Rimworld.HugsLib/8.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Lib.Harmony": "2.0.0.8"
-        },
-        "compile": {
-          "lib/net472/HugsLib.dll": {}
-        },
-        "runtime": {
-          "lib/net472/_._": {}
-        }
-      },
-      "AdeptusMechanicusMain/1.0.0": {
-        "type": "project",
-        "framework": ".NETFramework,Version=v4.7.2",
-        "dependencies": {
-          "Krafs.Rimworld.Ref": "1.2.2753",
-          "Lib.Harmony": "2.0.2",
-          "UnlimitedHugs.Rimworld.HugsLib": "8.0.0"
-        },
-        "compile": {
-          "bin/placeholder/AdeptusMechanicusMain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AdeptusMechanicusMain.dll": {}
         }
       }
     }
@@ -614,30 +506,10 @@
         "lib/netcoreapp3.1/0Harmony.dll",
         "lib/netcoreapp3.1/0Harmony.xml"
       ]
-    },
-    "UnlimitedHugs.Rimworld.HugsLib/8.0.0": {
-      "sha512": "6hQkFBcEsFmmjQ00aHcD89DoowmED0QyAeSA+ozLlIpilwcQTTYfMb6Ytv6G/tNma9A8411Faw2Z6DzS0Gf09Q==",
-      "type": "package",
-      "path": "unlimitedhugs.rimworld.hugslib/8.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "images/icon.png",
-        "lib/net472/HugsLib.dll",
-        "lib/net472/HugsLib.xml",
-        "unlimitedhugs.rimworld.hugslib.8.0.0.nupkg.sha512",
-        "unlimitedhugs.rimworld.hugslib.nuspec"
-      ]
-    },
-    "AdeptusMechanicusMain/1.0.0": {
-      "type": "project",
-      "path": "../../../../AdMechArmoury/1.1/Source/AdeptusMechanicusMain/AdeptusMechanicusMain.csproj",
-      "msbuildProject": "../../../../AdMechArmoury/1.1/Source/AdeptusMechanicusMain/AdeptusMechanicusMain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
-      "AdeptusMechanicusMain >= 1.0.0",
       "Krafs.Rimworld.Ref >= 1.2.2753",
       "Lib.Harmony >= 2.0.2"
     ]
@@ -673,11 +545,7 @@
       },
       "frameworks": {
         "net472": {
-          "projectReferences": {
-            "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AdMechArmoury\\1.1\\Source\\AdeptusMechanicusMain\\AdeptusMechanicusMain.csproj": {
-              "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AdMechArmoury\\1.1\\Source\\AdeptusMechanicusMain\\AdeptusMechanicusMain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       }
     },

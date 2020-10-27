@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Eldar --> 
+	<!-- Baseline Eldar -->
+	<!-- Eldar_Base_Backstory -->
+	<AlienRace.BackstoryDef Name="OG_Eldar_Base_Backstory" Abstract="true">
+		<defName>OG_Eldar_Base_Backstory</defName>
+		<maleCommonality>0.5</maleCommonality>
+		<femaleCommonality>0.5</femaleCommonality>
+		<workDisables>
+		
+		</workDisables>
+		<disallowedTraits>
+
+		</disallowedTraits>
+		<forcedTraits>
+		
+		</forcedTraits>
+		<skillGains>
+		
+		</skillGains>
+		<spawnCategories>
+			<li>Eldar</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	  
+	<!-- Standard Eldar -->
+	<!-- Eldar_Standard_Backstory -->
+	<AlienRace.BackstoryDef Name="OG_Eldar_Standard_Backstory" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
+		<defName>OG_Eldar_Standard_Backstory</defName>
+		<workDisables>
+		
+		</workDisables>
+		<disallowedTraits>
+
+		</disallowedTraits>
+		<forcedTraits>
+		
+		</forcedTraits>
+		<skillGains>
+		
+		</skillGains>
+		<spawnCategories>
+			<li>Eldar_Standard</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	  
+	<!-- Psyker Eldar -->
+	<!-- Psyker Eldar_Psyker_Backstory -->
+	<AlienRace.BackstoryDef Name="OG_Eldar_Psyker_Backstory" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
+		<defName>OG_Eldar_Psyker_Backstory</defName>
+		<workDisables>
+		
+		</workDisables>
+		<disallowedTraits>
+
+		</disallowedTraits>
+		<forcedTraits>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>2</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<skillGains>
+		
+		</skillGains>
+		<spawnCategories>
+			<li>Eldar_Psyker</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	  
+	<!-- Eldar Childhoods -->
+	<!-- Eldar_Base_Child -->
+	<AlienRace.BackstoryDef Name="OG_Eldar_Base_Child" ParentName="OG_Eldar_Standard_Backstory" Abstract="true">
+		<defName>OG_Eldar_Base_Child</defName>
+		<title>Eldar child</title>
+		<titleShort>Eldar child</titleShort>
+		<baseDescription>[PAWN_nameDef] is a young [PAWN_alienRace].</baseDescription>
+		<slot>Childhood</slot>
+		<disallowedTraits>
+
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<skillGains>
+		
+		</skillGains>
+		<spawnCategories>
+		
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	  
+	<!-- Psyker Child -->
+	<!-- Eldar_Child_Psyker -->
+	<AlienRace.BackstoryDef Name="OG_Eldar_Child_Psyker" ParentName="OG_Eldar_Psyker_Backstory" Abstract="true">
+		<defName>OG_Eldar_Child_Psyker</defName>
+		<title>Eldar child</title>
+		<titleShort>Eldar child</titleShort>
+		<baseDescription>[PAWN_nameDef] is a young [PAWN_alienRace] Pskyer.</baseDescription>
+
+		<!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<disallowedTraits>
+
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<skillGains>
+		
+		</skillGains>
+		<spawnCategories>
+		
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	  
+</Defs>

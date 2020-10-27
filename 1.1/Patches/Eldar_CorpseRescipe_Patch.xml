@@ -23,7 +23,7 @@
 			<!--li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[@Name = "ButcherCorpseMechanoidBase"]/fixedIngredientFilter/categories</xpath>
 				<value>			
-							<li>OG_Corpses_Eldar_Construct</li>
+					li>OG_Corpses_Eldar_Construct</li>
 				</value>
 			</li-->
 			
@@ -31,7 +31,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[defName = "ButcherCorpseFlesh"]/fixedIngredientFilter/disallowedCategories</xpath>
 				<value>			
-							<li>OG_Corpses_Eldar_Construct</li>
+					<li>OG_Corpses_Eldar_Construct</li>
 				</value>
 			</li>
 			

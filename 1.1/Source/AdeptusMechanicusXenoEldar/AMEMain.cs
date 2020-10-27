@@ -12,44 +12,29 @@ namespace AdeptusMechanicus
     [StaticConstructorOnStartup]
     public class AMEMain
     {
-        public static List<ResearchProjectDef> EldarResearch => DefDatabase<ResearchProjectDef>.AllDefs.Where(x => x.defName.Contains("OG_Eldar_Tech_") || x.defName.Contains("OG_Aeldari_Tech_")).ToList();
-        public static List<ResearchProjectDef> DarkEldarResearch => DefDatabase<ResearchProjectDef>.AllDefs.Where(x => x.defName.Contains("OG_DarkEldar_Tech_") || x.defName.Contains("OG_Aeldari_Tech_")).ToList();
+        public static List<ResearchProjectDef> AeldariResearch => DefDatabase<ResearchProjectDef>.AllDefs.Where(x => x.defName.Contains("OG_Aeldari_Tech_")).ToList();
+        public static List<ResearchProjectDef> EldarResearch => DefDatabase<ResearchProjectDef>.AllDefs.Where(x => x.defName.Contains("OG_Eldar_Tech_")).ToList();
+        public static List<ResearchProjectDef> DarkEldarResearch => DefDatabase<ResearchProjectDef>.AllDefs.Where(x => x.defName.Contains("OG_DarkEldar_Tech_")).ToList();
         static AMEMain()
         {
             AlienRace.ThingDef_AlienRace eldar = OGEldarThingDefOf.OG_Alien_Eldar as AlienRace.ThingDef_AlienRace;
-            foreach (ResearchProjectDef def in EldarResearch)
+            AlienRace.ThingDef_AlienRace darkeldar = DefDatabase<ThingDef>.GetNamedSilentFail("OG_Alien_DarkEldar") as AlienRace.ThingDef_AlienRace;
+            List<ResearchProjectDef> research = EldarResearch;
+            List<string> Tags = new List<string>() { "E" };
+            research.AddRange(AeldariResearch);
+            if (darkeldar == null)
             {
-                if (!AlienRace.RaceRestrictionSettings.researchRestrictionDict.ContainsKey(key: def))
-                    AlienRace.RaceRestrictionSettings.researchRestrictionDict.Add(key: def, value: new List<AlienRace.ThingDef_AlienRace>());
-                AlienRace.RaceRestrictionSettings.researchRestrictionDict[key: def].Add(item: eldar);
+                research.AddRange(DarkEldarResearch);
+                Tags.Add("DE");
             }
-
-            HarmonyPatches.TryAddRacialRestrictions(eldar, "E");
-
+            ArmouryMain.DoRacialRestrictionsFor(eldar, Tags, research);
             if (!AdeptusIntergrationUtil.enabled_XenobiologisDarkEldar)
             {
-                AlienRace.ThingDef_AlienRace darkeldar = DefDatabase<ThingDef>.GetNamedSilentFail("OG_Alien_DarkEldar") as AlienRace.ThingDef_AlienRace;
-                if (darkeldar == null)
+                if (darkeldar != null)
                 {
-                    foreach (ResearchProjectDef def in DarkEldarResearch)
-                    {
-                        if (!AlienRace.RaceRestrictionSettings.researchRestrictionDict.ContainsKey(key: def))
-                            AlienRace.RaceRestrictionSettings.researchRestrictionDict.Add(key: def, value: new List<AlienRace.ThingDef_AlienRace>());
-                        AlienRace.RaceRestrictionSettings.researchRestrictionDict[key: def].Add(item: eldar);
-                    }
-
-                    HarmonyPatches.TryAddRacialRestrictions(eldar, "DE");
-                }
-                else
-                {
-                    foreach (ResearchProjectDef def in DarkEldarResearch)
-                    {
-                        if (!AlienRace.RaceRestrictionSettings.researchRestrictionDict.ContainsKey(key: def))
-                            AlienRace.RaceRestrictionSettings.researchRestrictionDict.Add(key: def, value: new List<AlienRace.ThingDef_AlienRace>());
-                        AlienRace.RaceRestrictionSettings.researchRestrictionDict[key: def].Add(item: darkeldar);
-                    }
-
-                    HarmonyPatches.TryAddRacialRestrictions(darkeldar, "DE");
+                    research = DarkEldarResearch;
+                    research.AddRange(AeldariResearch);
+                    ArmouryMain.DoRacialRestrictionsFor(darkeldar, "DE", research);
                 }
             }
         }
