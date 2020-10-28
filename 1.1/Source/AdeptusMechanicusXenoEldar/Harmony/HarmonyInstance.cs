@@ -10,9 +10,9 @@ using System;
 namespace AdeptusMechanicus.HarmonyInstance
 {
     [StaticConstructorOnStartup]
-    class Main
+    class EldarMain
     {
-        static Main()
+        static EldarMain()
         {
             var harmony = new Harmony("com.ogliss.rimworld.mod.AdeptusMechanicus.Eldar");
             harmony.PatchAll(Assembly.GetExecutingAssembly());

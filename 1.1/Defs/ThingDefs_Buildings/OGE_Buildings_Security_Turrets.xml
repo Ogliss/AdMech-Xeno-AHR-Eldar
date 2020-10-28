@@ -234,6 +234,9 @@
 
   <ThingDef ParentName="OGE_HeavyTurret" Name="OGE_HeavyLaserTurret" Abstract="True"> 
     <thingClass>AdeptusMechanicus.Building_LaserGun</thingClass>
+    <researchPrerequisites>
+      <li>OG_Common_Tech_Weapons_Laser</li>
+    </researchPrerequisites>
   </ThingDef>
 
   <!--=============== Shuriken Cannon turret ===============-->
@@ -286,6 +289,7 @@
       <turretBurstCooldownTime>3.5</turretBurstCooldownTime>
     </building>
     <researchPrerequisites>
+      <li>OG_Eldar_Tech_Weapons_Shuriken</li>
       <li>HeavyTurrets</li>
     </researchPrerequisites>
   </ThingDef>
@@ -630,6 +634,7 @@
     </building>
 	<beamPowerConsumption>30</beamPowerConsumption>
     <researchPrerequisites>
+      <li>OG_Eldar_Tech_Weapons_Vortex</li>
       <li>HeavyTurrets</li>
     </researchPrerequisites>
   </ThingDef>
@@ -743,6 +748,7 @@
       <turretBurstCooldownTime>3.2</turretBurstCooldownTime>
     </building>
     <researchPrerequisites>
+      <li>OG_Common_Tech_Weapons_Sonic</li>
       <li>SniperTurret</li>
     </researchPrerequisites>
   </ThingDef>
@@ -832,6 +838,9 @@
     </building>
 	<uiIconPath>Things/Buildings/Eldar/Security/TurretMount_ShadowWeaver_Menu</uiIconPath>
   <uiIconScale>0.9</uiIconScale>
+    <researchPrerequisites>
+      <li>OG_Aeldari_Tech_Weapons_Monofilament</li>
+    </researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="BaseArtilleryWeapon">

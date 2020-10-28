@@ -19,12 +19,15 @@ namespace AdeptusMechanicus.HarmonyInstance
         [HarmonyPostfix]
         public static void Postfix(TraitDef tDef, Pawn ___pawn, ref bool __result)
         {
-            if (tDef == TraitDefOf.Beauty || tDef == OGTraitDefOf.Nimble && ___pawn != null)
+            if (___pawn != null)
+            {
+            if (tDef == TraitDefOf.Beauty || tDef == OGTraitDefOf.Nimble)
             {
                 if (___pawn.isEldar())
                 {
                     __result = true;
                 }
+            }
             }
         }
     }
