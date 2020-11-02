@@ -2,7 +2,7 @@
 <Defs>
     <!-- ========================= Eldar ========================== -->
     <!-- ========================= Eldar - Clothes Base - Apparel Base ========================== -->
-	<ThingDef Name="OGEApparelBase" ParentName="OG_Apparel_Base" Abstract="True">
+	<ThingDef Name="OG_Eldar_Apparel_Base" ParentName="OG_Apparel_Base" Abstract="True">
 		<apparel>
 			<tags>
 				<li>EldarApparel</li>
@@ -14,7 +14,7 @@
 	</ThingDef>
 	
     <!-- ========================= Eldar - Clothes Base - Apparel Makable Base ========================== -->
-	<ThingDef Name="OGEApparelMakeableBase" ParentName="OGEApparelBase" Abstract="True">
+	<ThingDef Name="OG_Eldar_Apparel_Makeable" ParentName="OG_Eldar_Apparel_Base" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -32,7 +32,7 @@
 	</ThingDef>
 		
     <!-- ========================= Eldar - Clothes - Apparel Makable ========================== -->
-	<ThingDef Name="OGEApparelMakeable" ParentName="OGEApparelMakeableBase" Abstract="True">
+	<ThingDef Name="OG_Eldar_Apparel" ParentName="OG_Eldar_Apparel_Makeable" Abstract="True">
 		<apparel>
 			<tags>
 				<li>EldarClothing</li>
@@ -44,7 +44,7 @@
 	</ThingDef>
 	
 	<!-- ========================= Eldar - Headgear - Hat Makable ========================== -->
-	<ThingDef Name="OGEHatMakeable" ParentName="OGEApparelMakeableBase" Abstract="True">
+	<ThingDef Name="OG_Eldar_Apparel_Headgear" ParentName="OG_Eldar_Apparel_Makeable" Abstract="True">
 		<apparel>
 			<tags>
 				<li>EldarHat</li>
@@ -59,7 +59,7 @@
 	</ThingDef>
 	
     <!-- ========================= Eldar - Clothes Base - Apparel Base ========================== -->
-	<ThingDef Name="OGEArmorBase" ParentName="OG_Apparel_Base" Abstract="True">
+	<ThingDef Name="OG_Eldar_Apparel_Armor_Base" ParentName="OG_Apparel_Base" Abstract="True">
 		<apparel>
 			<tags>
 				<li>EldarApparel</li>
@@ -71,8 +71,9 @@
 	</ThingDef>
 
     <!-- ========================= Eldar - Apparel Armor Makable Base ========================== -->
-	<ThingDef Name="OGEArmorMakeableBase" ParentName="OGEArmorBase" Abstract="True">
+	<ThingDef Name="OG_Eldar_Apparel_Armor_Makeable" ParentName="OG_Eldar_Apparel_Armor_Base" Abstract="True">
 		<recipeMaker>
+			<useIngredientsForColor>false</useIngredientsForColor>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
 			<effectWorking>Smith</effectWorking>
@@ -88,7 +89,7 @@
 	</ThingDef>
 	
     <!-- ========================= Eldar - Apparel Armor Makable Base ========================== -->
-	<ThingDef Name="OGEArmorMakeable" ParentName="OGEArmorMakeableBase" Abstract="True">
+	<ThingDef Name="OG_Eldar_Apparel_Armor" ParentName="OG_Eldar_Apparel_Armor_Makeable" Abstract="True">
 				<apparel>
 			<tags>
 				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
@@ -100,7 +101,7 @@
 	</ThingDef>	
 		
 	<!-- ========================= Eldar - Headgear Base - Helmet Makable Base ========================== -->
-	<ThingDef Name="OGEHelmetMakeable" ParentName="OGEArmorMakeableBase" Abstract="True">
+	<ThingDef Name="OG_Eldar_Apparel_Armor_Headgear" ParentName="OG_Eldar_Apparel_Armor_Makeable" Abstract="True">
 		<apparel>
 			<tags>
 				<li>EldarHelmet</li>
@@ -115,7 +116,7 @@
 	</ThingDef>
 			
 	<!-- ========================= Eldar - Apparel Wargear Base ========================== -->
-	<ThingDef Name="OGEWargearBase" ParentName="OG_Apparel_Base" Abstract="True">
+	<ThingDef Name="OG_Eldar_Apparel_Wargear_Base" ParentName="OG_Apparel_Base" Abstract="True">
 		<apparel>
 			<tags>
 				<li>EldarWargear</li>
@@ -127,7 +128,7 @@
 	</ThingDef>	
 	
 	<!-- ========================= Eldar - Apparel Wargear Makable Base ========================== -->
-	<ThingDef Name="OGEWargearMakeable" ParentName="OGEWargearBase" Abstract="True">
+	<ThingDef Name="OG_Eldar_Apparel_Wargear_Makeable" ParentName="OG_Eldar_Apparel_Wargear_Base" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>

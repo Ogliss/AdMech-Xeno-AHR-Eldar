@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<!--success>Always</success-->
+		<operations>
+			<!-- ========================= Eldar - Gaurdian Armour ========================== -->
+			<li Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="OGE_Apparel_MeshArmour"]/statBases/MaxHitPoints</xpath>
+			  <value>
+				<MaxHitPoints>225</MaxHitPoints>
+			  </value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="OGE_Apparel_MeshArmour"]/statBases/Mass</xpath>
+			  <value>
+				<Mass>5</Mass>
+			  </value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="OGE_Apparel_MeshArmour"]/statBases/ArmorRating_Sharp</xpath>
+			  <value>
+				<ArmorRating_Sharp>8</ArmorRating_Sharp>
+			  </value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="OGE_Apparel_MeshArmour"]/statBases/ArmorRating_Blunt</xpath>
+			  <value>
+				<ArmorRating_Blunt>10</ArmorRating_Blunt>
+			  </value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+			  <xpath>/Defs/ThingDef[defName="OGE_Apparel_MeshArmour"]/equippedStatOffsets</xpath>
+			  <value>
+				  <CarryWeight>10</CarryWeight>
+				  <CarryBulk>8</CarryBulk>
+			  </value>
+			</li>
+			
+			<!-- ========================= Eldar - Gaurdian Helmet ========================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_MeshArmourHelmet"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>4</ArmorRating_Sharp>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_MeshArmourHelmet"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>8</ArmorRating_Blunt>
+				</value>
+			</li>
+		  
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_MeshArmourHelmet"]/apparel/layers</xpath>
+				<value>
+					<li>MiddleHead</li>
+				</value>
+			</li>
+			<!-- ========================= Eldar - Avenger Armour ========================== -->
+			<li Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="OGE_Apparel_DireAvengerArmour"]/statBases/ArmorRating_Sharp</xpath>
+			  <value>
+				<ArmorRating_Sharp>9</ArmorRating_Sharp>
+			  </value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="OGE_Apparel_DireAvengerArmour"]/statBases/ArmorRating_Blunt</xpath>
+			  <value>
+				<ArmorRating_Blunt>11</ArmorRating_Blunt>
+			  </value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+			  <xpath>/Defs/ThingDef[defName="OGE_Apparel_DireAvengerArmour"]/equippedStatOffsets</xpath>
+			  <value>
+				  <CarryWeight>10</CarryWeight>
+				  <CarryBulk>8</CarryBulk>
+			  </value>
+			</li>
+			
+			<!-- ========================= Eldar - Avenger Helmet ========================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_DireAvengerHelmet"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>4</ArmorRating_Sharp>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_DireAvengerHelmet"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>8</ArmorRating_Blunt>
+				</value>
+			</li>
+		  
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_DireAvengerHelmet"]/apparel/layers</xpath>
+				<value>
+					<li>MiddleHead</li>
+				</value>
+			</li>
+
+			<!-- ========================= Eldar - Ranger Armour ========================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RangerArmour"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>2</ArmorRating_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RangerArmour"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>3.25</ArmorRating_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RangerArmour"]/statBases/ArmorRating_Heat</xpath>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RangerArmour"]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>25</Steel>
+					</costList>
+					<stuffCategories>
+						<li>Fabric</li>
+					</stuffCategories>
+					<costStuffCount>70</costStuffCount>
+				</value>
+			</li>
+
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RangerArmour"]/equippedStatOffsets</xpath>
+			</li>
+		
+			<!-- ========================= Eldar - Ranger Helmet ========================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RangerArmourHelmet"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>3.5</ArmorRating_Sharp>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RangerArmourHelmet"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>7.5</ArmorRating_Blunt>
+				</value>
+			</li>
+		  
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RangerArmourHelmet"]/apparel/layers</xpath>
+				<value>
+					<li>MiddleHead</li>
+				</value>
+			</li>
+
+			<!-- ========================= Eldar - Banshee Armour ========================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_BansheeArmour"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>11</ArmorRating_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_BansheeArmour"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>14</ArmorRating_Blunt>
+				</value>
+			</li>			
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_BansheeArmour"]/apparel/bodyPartGroups</xpath>
+				<value>
+					<li>Hands</li>
+					<li>Feet</li>
+				</value>
+			</li>
+
+			<!-- ========================= Eldar - Banshee Helmet ========================== -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_BansheeArmourHelmet"]/statBases</xpath>
+				<value>
+					<Bulk>5</Bulk>
+					<WornBulk>1.1</WornBulk>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_BansheeArmourHelmet"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>11.5</ArmorRating_Sharp>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_BansheeArmourHelmet"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>23</ArmorRating_Blunt>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_BansheeArmourHelmet"]/apparel/layers</xpath>
+				<value>
+					<layers>
+					<li>OnHead</li>
+					<li>StrappedHead</li>
+					<li>MiddleHead</li>
+					<li>Overhead</li>
+					</layers>
+				</value>
+			</li>	
+
+			<!-- ========================= Eldar - Scoprion Armour ========================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_StrikingScorpionArmour"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>11</ArmorRating_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_StrikingScorpionArmour"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>14</ArmorRating_Blunt>
+				</value>
+			</li>			
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_StrikingScorpionArmour"]/apparel/bodyPartGroups</xpath>
+				<value>
+					<li>Hands</li>
+					<li>Feet</li>
+				</value>
+			</li>
+
+			<!-- ========================= Eldar - Banshee Helmet ========================== -->
+			
+			<!--li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_BansheeArmourHelmet"]/statBases</xpath>
+				<value>
+					<Bulk>5</Bulk>
+					<WornBulk>1.1</WornBulk>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_BansheeArmourHelmet"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>11.5</ArmorRating_Sharp>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_BansheeArmourHelmet"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>23</ArmorRating_Blunt>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_BansheeArmourHelmet"]/apparel/layers</xpath>
+				<value>
+					<layers>
+					<li>OnHead</li>
+					<li>StrappedHead</li>
+					<li>MiddleHead</li>
+					<li>Overhead</li>
+					</layers>
+				</value>
+			</li-->	
+			<!-- ========================= Eldar - Warlock Armour ========================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RuneArmourWarlock"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>2</ArmorRating_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RuneArmourWarlock"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>3.25</ArmorRating_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RuneArmourWarlock"]/statBases/ArmorRating_Heat</xpath>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RuneArmourWarlock"]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>25</Steel>
+					</costList>
+					<stuffCategories>
+						<li>Fabric</li>
+					</stuffCategories>
+					<costStuffCount>70</costStuffCount>
+				</value>
+			</li>
+
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RuneArmourWarlock"]/equippedStatOffsets</xpath>
+			</li>
+		
+			<!-- ========================= Eldar - Warlock Helmet ========================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_WarlockHelmet"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>3.5</ArmorRating_Sharp>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_WarlockHelmet"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>7.5</ArmorRating_Blunt>
+				</value>
+			</li>
+		  
+			<!-- ========================= Eldar - Farseer Armour ========================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RuneArmourFarseer"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>2</ArmorRating_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RuneArmourFarseer"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>3.25</ArmorRating_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RuneArmourFarseer"]/statBases/ArmorRating_Heat</xpath>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RuneArmourFarseer"]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>25</Steel>
+					</costList>
+					<stuffCategories>
+						<li>Fabric</li>
+					</stuffCategories>
+					<costStuffCount>70</costStuffCount>
+				</value>
+			</li>
+
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RuneArmourFarseer"]/equippedStatOffsets</xpath>
+			</li>
+		
+			<!-- ========================= Eldar - Farseer Helmet ========================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RangerArmourHelmet"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>3.5</ArmorRating_Sharp>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_RangerArmourHelmet"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>7.5</ArmorRating_Blunt>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+</Patch>

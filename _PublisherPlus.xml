@@ -2,7 +2,33 @@
 <Configuration>
   <Excluded>
     <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\.git</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.0\Assemblies\AdeptusMechanicusEldar.pdb</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.0\Defs\FactionDefs\Factions_Eldar_Exodite.xml.disabled</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.0\Defs\FactionDefs\Factions_Eldar_Harlequin.xml.disabled</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.0\Defs\Misc\Items_Resource_Manufactured_Eldar.xml.bak</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.0\Defs\ThingDefs\Abstracts_Apparel_DarkEldar.xml.bak</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.0\Defs\ThingDefs\Eldar_BaseAbstracts_Apparel.xml.bak</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.0\Defs\ThingDefs_Buildings\OGE_Buildings_Base.xml.bak</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.0\Defs\ThingDefs_Buildings\OGE_Buildings_Growing.xml.bak</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.0\Defs\ThingDefs_Plants\MSI_Plants_Base.xml.bak</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.0\Defs\ThingDefs_Plants\MSI_Plants_Cultivated.xml.bak</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.0\Patches\Eldar_FixPatch.xml.bak</exclude>
     <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.0\Source</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.1\Assemblies\AdeptusMechanicusEldar.pdb</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.1\Defs\BackstoryDefs\Eldarbackstories.xml.bak</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.1\Defs\FactionDefs\Factions_Eldar_Exodite.xml.disabled</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.1\Defs\FactionDefs\Factions_Eldar_Harlequin.xml.disabled</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.1\Defs\Misc\Items_Resource_Manufactured_Eldar.xml.bak</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.1\Defs\ThingDefs\OG_AMXBE_Abstracts_Apparel_DarkEldar.xml.bak</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.1\Defs\ThingDefs\OG_AMXBE_Eldar_BaseAbstracts_Apparel.xml.bak</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.1\Defs\ThingDefs_Buildings\OGE_Buildings_Base.xml.bak</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.1\Defs\ThingDefs_Buildings\OGE_Buildings_Growing.xml.bak</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.1\Defs\ThingDefs_Plants\MSI_Plants_Base.xml.bak</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.1\Defs\ThingDefs_Plants\MSI_Plants_Cultivated.xml.bak</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.1\Patches\Eldar_FixPatch.xml.bak</exclude>
     <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\1.1\Source</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\Textures\Things\Item\Apparel\Eldar\EldarMeshArmour\EldarMeshArmour.7z</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\Textures\Things\Pawn\Animal\Gyrinx\Gyrinx_east_Source.psd</exclude>
+    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AdMech-Xeno-AHR-Eldar\Textures\Things\Pawn\Humanlike\Eldar\Heads\desktop.ini</exclude>
   </Excluded>
 </Configuration>

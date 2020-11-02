@@ -2,7 +2,7 @@
 <Defs>
 	<!--========================= Eldar - Armour ==========================-->
 	<!--========================= Eldar - Mesh Armour ==========================-->
-	<ThingDef ParentName="OGEArmorMakeableBase">
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_MeshArmour</defName>
 		<label>mesh armour</label>
 		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
@@ -14,14 +14,16 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>1500</MarketValue>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToMake>60000</WorkToMake>
-			<ArmorRating_Blunt>0.80</ArmorRating_Blunt>
-			<ArmorRating_Sharp>1.10</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.50</ArmorRating_Heat>
+			<ArmorRating_Blunt>0.92</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.92</ArmorRating_Heat>
 			<Insulation_Heat>10</Insulation_Heat>
 			<Insulation_Cold>30</Insulation_Cold>
-			<Mass>4</Mass>
+			<Mass>6</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">10</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">8</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.03</MoveSpeed>
@@ -50,6 +52,8 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarMeshArmour/EldarMeshArmour</wornGraphicPath>
 			<layers>
@@ -100,7 +104,7 @@
 	</ThingDef>
 
 	<!--========================= Eldar - Dire Avenger Armour ==========================-->
-	<ThingDef ParentName="OGEArmorMakeableBase">
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_DireAvengerArmour</defName>
 		<label>dire avenger armour</label>
 		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
@@ -112,14 +116,16 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>1500</MarketValue>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>225</MaxHitPoints>
 			<WorkToMake>65000</WorkToMake>
-			<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
-			<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.55</ArmorRating_Heat>
+			<ArmorRating_Blunt>0.95</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.95</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.95</ArmorRating_Heat>
 			<Insulation_Heat>12</Insulation_Heat>
 			<Insulation_Cold>32</Insulation_Cold>
-			<Mass>4</Mass>
+			<Mass>6.5</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">10</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">8</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.02</MoveSpeed>
@@ -198,7 +204,7 @@
 	</ThingDef>
 
 	<!-- ========================= Eldar - Ranger Suit ========================== -->
-	<ThingDef ParentName="OGEArmorMakeableBase">
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_RangerArmour</defName>
 		<label>ranger armour</label>
 		<description>Ranger armour is similar to the Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons. The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply and heat-sensing lenses.\n\nRanger Armour also incorporates a camoline overcoat</description>
@@ -210,17 +216,19 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>1500</MarketValue>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToMake>60000</WorkToMake>
-			<ArmorRating_Blunt>0.80</ArmorRating_Blunt>
-			<ArmorRating_Sharp>1.10</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.50</ArmorRating_Heat>
-			<Insulation_Heat>10</Insulation_Heat>
+			<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.85</ArmorRating_Heat>
+			<Insulation_Heat>30</Insulation_Heat>
 			<Insulation_Cold>30</Insulation_Cold>
 			<Mass>4</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">5</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">6</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.0</MoveSpeed>
+			<MoveSpeed>0.05</MoveSpeed>
 			<WorkSpeedGlobal>-0.30</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
 			<HuntingStealth>0.50</HuntingStealth>
@@ -238,7 +246,6 @@
 				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
 			</researchPrerequisites>
 		</recipeMaker>
-		
 		<apparel>
 		<useWornGraphicMask>true</useWornGraphicMask>
 			<bodyPartGroups>
@@ -297,7 +304,7 @@
 	</ThingDef>
 
 	<!--========================= Eldar - Banshee Armour ==========================-->
-	<ThingDef ParentName="OGEArmorMakeableBase">
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_BansheeArmour</defName>
 		<label>banshee armour</label>
 		<description>Like other Eldar Aspects, Howling Banshees wear lightweight synthetic bodysuits, reinforced with plates of psycho-sensitive bioplastics that will instantly harden to resist impacts. Those plates can also morph their shape in accordance with the wearer's movements, meaning the armour does not encumber the wearer in the slightest, affording both good protection with excellent mobility. The reinforced breastplate of the Aspect Warrior's armour bears her Spirit Stone, a precious item for all Eldar. This psycho-receptive gem is attuned to the individual so that at the moment of death, when the Eldar's psychic spirit is released, it is captured instead within the stone. Otherwise it is believed by the Eldar that the spirit would be released into the Warp, where the Chaos God Slaanesh, "She Who Thirsts," awaits to consume it. Contrary to popular belief, the small domes and blisters on the Howling Banshees' Aspect Armour are not extra gems, but small compartments that contain the suit's technical systems. A tabard or pennant is a common addition to the Howling Banshees' Aspect Armour. Its runic inscriptions name the shrine for which the Aspect Warrior is fighting and identifies the shrine's allegiance to its particular Craftworld. Regardless of a shrine's Craftworld of origin, the Aspect's colour scheme is usually bone white and flaming red. The red proclaims the Howling Banshees' ferocity and the burning passion that defines their variant of the Warrior Path. The bone white colour symbolises the eternal death the spirit of the Banshee brings to the foes of the Eldar.</description>
@@ -308,14 +315,16 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>1500</MarketValue>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>225</MaxHitPoints>
 			<WorkToMake>60000</WorkToMake>
-			<ArmorRating_Blunt>0.80</ArmorRating_Blunt>
-			<ArmorRating_Sharp>1.10</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.50</ArmorRating_Heat>
-			<Insulation_Heat>10</Insulation_Heat>
+			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.06</ArmorRating_Heat>
+			<Insulation_Heat>20</Insulation_Heat>
 			<Insulation_Cold>30</Insulation_Cold>
-			<Mass>4</Mass>
+			<Mass>7</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">11</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">9</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.13</MoveSpeed>
@@ -344,6 +353,8 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarBansheeArmour/EldarBansheeArmour</wornGraphicPath>
 			<layers>
@@ -396,7 +407,7 @@
 	</ThingDef>
 
 	<!--========================= Eldar - Striking Scorpion Armour ==========================-->
-	<ThingDef ParentName="OGEArmorMakeableBase">
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_StrikingScorpionArmour</defName>
 		<label>striking scorpion armour</label>
 		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
@@ -408,14 +419,16 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>1500</MarketValue>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToMake>65000</WorkToMake>
-			<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
-			<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.55</ArmorRating_Heat>
+			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.06</ArmorRating_Heat>
 			<Insulation_Heat>12</Insulation_Heat>
 			<Insulation_Cold>32</Insulation_Cold>
-			<Mass>4</Mass>
+			<Mass>7</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">11</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">9</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.02</MoveSpeed>
@@ -444,6 +457,8 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarStrikingScorpionArmour/EldarMeshArmour</wornGraphicPath>
 			<layers>
@@ -494,10 +509,12 @@
 	</ThingDef>
 
 	<!--========================= Eldar - Warlock Rune Armour ==========================-->
-	<ThingDef ParentName="OGEArmorMakeableBase">
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_RuneArmourWarlock</defName>
 		<label>warlock rune armour</label>
 		<description>Warlock Rune Armour is a protective wraithbone armour suit psychically moulded to its Eldar recipient. It provides greater protection than other, bulkier forms of armour, in part because its psychic energy can deflect a shot or blast before it hits the armour. Even lascannons and Plasma Weapons can be turned aside by Rune Armour. This Rune Armour is worn only by Warlocks.\n\nONLY WEARABLE BY ELDAR!</description>
+		<tickerType>Normal</tickerType>
+		<thingClass>AdeptusMechanicus.PsychicShield</thingClass>
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/EldarWarlockArmour/EldarWarlockArmour</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -506,14 +523,16 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>1500</MarketValue>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>175</MaxHitPoints>
 			<WorkToMake>60000</WorkToMake>
-			<ArmorRating_Blunt>0.80</ArmorRating_Blunt>
-			<ArmorRating_Sharp>1.10</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.50</ArmorRating_Heat>
+			<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.85</ArmorRating_Heat>
 			<Insulation_Heat>10</Insulation_Heat>
 			<Insulation_Cold>30</Insulation_Cold>
 			<Mass>4</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">6</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">7</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.03</MoveSpeed>
@@ -542,6 +561,8 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarWarlockArmour/EldarWarlockArmour</wornGraphicPath>
 			<layers>
@@ -563,8 +584,8 @@
 			<li>Apparel</li>
 		</tradeTags>
     <comps>
-      <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
-        <compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+		<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
 			<PauldronEntries>
 				<li>
 					<shoulderPadType>Both</shoulderPadType>
@@ -577,10 +598,9 @@
 			<SouthOffset>0,-0.001,0</SouthOffset>
 			<EastOffset>0,0.35,0</EastOffset>
 			<WestOffset>0,0.35,0</WestOffset>
-      </li>
-	  
-      <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
-        <compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+		</li>
+		<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
 			<PauldronEntries>
 				<li>
 					<shoulderPadType>Both</shoulderPadType>
@@ -599,29 +619,28 @@
 			<SouthOffset>0,-0.027,0</SouthOffset>
 			<EastOffset>0,-0.375,0</EastOffset>
 			<WestOffset>0,-0.375,0</WestOffset>
-      </li>
-	  
+		</li>
     </comps>
 	<!--
     <colorGenerator Class="ColorGenerator_Options">
-      <options>
-		<li>
-			<weight>10</weight>
-			<max>(1,1,0.82)</max>
-			<min>(0.906,0.937,0.776)</min>
-		</li>
-      </options>
+		<options>
+			<li>
+				<weight>10</weight>
+				<max>(1,1,0.82)</max>
+				<min>(0.906,0.937,0.776)</min>
+			</li>
+		</options>
     </colorGenerator>
 	-->
-    <tickerType>Normal</tickerType>
-    <thingClass>AdeptusMechanicus.PsychicShield</thingClass>
 	</ThingDef>
 
 	<!--========================= Eldar - Rune Armour ==========================-->
-	<ThingDef ParentName="OGEArmorMakeableBase">
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_RuneArmourFarseer</defName>
 		<label>farseer rune armour</label>
 		<description>Farseer Rune Armour is a protective wraithbone armour suit psychically moulded to its Eldar recipient. It provides greater protection than other, bulkier forms of armour, in part because its psychic energy can deflect a shot or blast before it hits the armour. Even lascannons and Plasma Weapons can be turned aside by Rune Armour. Rune Armour is worn only by Farseers.\n\nONLY WEARABLE BY ELDAR!</description>
+    <tickerType>Normal</tickerType>
+    <thingClass>AdeptusMechanicus.PsychicShield</thingClass>
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/EldarRuneArmour/EldarRuneArmour</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -630,14 +649,16 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>1500</MarketValue>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>175</MaxHitPoints>
 			<WorkToMake>60000</WorkToMake>
-			<ArmorRating_Blunt>0.80</ArmorRating_Blunt>
-			<ArmorRating_Sharp>1.10</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.50</ArmorRating_Heat>
+			<ArmorRating_Blunt>0.87</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.87</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.87</ArmorRating_Heat>
 			<Insulation_Heat>10</Insulation_Heat>
 			<Insulation_Cold>30</Insulation_Cold>
 			<Mass>4</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">6.5</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">7.5</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.03</MoveSpeed>
@@ -666,6 +687,8 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarRuneArmour/EldarRuneArmour</wornGraphicPath>
 			<!-- <wornGraphicPath>Things/Item/Apparel/Eldar/EldarWarlockArmour/EldarWarlockArmour</wornGraphicPath> -->
@@ -735,8 +758,6 @@
       </options>
     </colorGenerator>
 	-->
-    <tickerType>Normal</tickerType>
-    <thingClass>AdeptusMechanicus.PsychicShield</thingClass>
 	</ThingDef>
 
 	

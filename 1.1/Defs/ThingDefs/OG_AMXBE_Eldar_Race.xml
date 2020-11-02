@@ -105,6 +105,7 @@
             <maleGenderProbability>0.5</maleGenderProbability>
             <immuneToAge>false</immuneToAge>
             <forcedRaceTraitEntries>
+				<!--
                 <li>
                     <defName>Beauty</defName>
                     <degree>1</degree>
@@ -115,7 +116,6 @@
                     <degree>2</degree>
                     <chance>10</chance>
                 </li>
-				<!--
                 <li>
                     <defName>PsychicSensitivity</defName>
                     <degree>1</degree>
@@ -135,7 +135,6 @@
                     <defName>GreatMemory</defName>
                     <chance>10</chance>
                 </li>
-
             </forcedRaceTraitEntries>
             <alienPartGenerator>
 				<customDrawSize>(0.8, 1.0)</customDrawSize>

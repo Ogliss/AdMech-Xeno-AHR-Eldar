@@ -141,7 +141,7 @@
       <xpath>/Defs/AlienRace.BackstoryDef[defName = "Eldar_Standard_Backstory"]/disallowedTraits</xpath>
 		<value>	
 			<li>
-				<defName>Gifted</defName>
+				<defName>TM_Gifted</defName>
 			</li>
 			<li>
 				<defName>InnerFire</defName>
@@ -203,7 +203,7 @@
       <xpath>/Defs/AlienRace.BackstoryDef[defName = "Eldar_Craftworld_Psyker_Child" or defName = "Eldar_Harlequinn_Psyker_Child" or defName = "Eldar_Outcast_Psyker_Child" or defName = "Eldar_Exodite_Psyker_Child"]/forcedTraits</xpath>
 		<value>	
 			<li>
-				<defName>Gifted</defName>
+				<defName>TM_Gifted</defName>
 				<degree>2</degree>
 				<chance>75</chance>
 			</li>
