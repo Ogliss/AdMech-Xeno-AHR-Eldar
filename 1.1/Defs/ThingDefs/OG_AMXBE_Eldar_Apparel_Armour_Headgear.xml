@@ -7,10 +7,10 @@
 		<label>Mesh Armour Helmet</label>
 		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
 		<graphicData>
-		<texPath>Things/Item/Apparel/Eldar/EldarGuardianHelmet/EldarGuardianHelmet</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<shaderType>CutoutComplex</shaderType>
-		<color>255,255,209</color>
+			<texPath>Things/Item/Apparel/Eldar/EldarGuardianHelmet/EldarGuardianHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>255,255,209</color>
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -44,11 +44,11 @@
 			</researchPrerequisites>
 		</recipeMaker>
 		<apparel>
-		<useWornGraphicMask>true</useWornGraphicMask>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarGuardianHelmet/EldarGuardianHelmet</wornGraphicPath>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarGuardianHelmet/EldarGuardianHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -99,10 +99,10 @@
 		<label>dire avenger Hhelmet</label>
 		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
 		<graphicData>
-		<texPath>Things/Item/Apparel/Eldar/EldarDireAvengerHelmet/EldarDireAvengerHelmet</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<shaderType>CutoutComplex</shaderType>
-		<color>49,100,157</color>
+			<texPath>Things/Item/Apparel/Eldar/EldarDireAvengerHelmet/EldarDireAvengerHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>49,100,157</color>
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -136,11 +136,11 @@
 			</researchPrerequisites>
 		</recipeMaker>
 		<apparel>
-		<useWornGraphicMask>true</useWornGraphicMask>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarDireAvengerHelmet/EldarDireAvengerHelmet</wornGraphicPath>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarDireAvengerHelmet/EldarDireAvengerHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -191,10 +191,10 @@
 		<label>Ranger Helmet</label>
 		<description>Ranger armour is similar to the Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons. The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply and heat-sensing lenses.\n\nRanger Armour also incorporates a camoline overcoat, an independent air supply and heat-sensing lenses.</description>
 		<graphicData>
-		<texPath>Things/Item/Apparel/Eldar/EldarRangerHelmet/EldarRangerHelmet</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<shaderType>CutoutComplex</shaderType>
-		<color>255,255,209</color>
+			<texPath>Things/Item/Apparel/Eldar/EldarRangerHelmet/EldarRangerHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>255,255,209</color>
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -229,11 +229,11 @@
 			</researchPrerequisites>
 		</recipeMaker>
 		<apparel>
-		<useWornGraphicMask>true</useWornGraphicMask>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarRangerHelmet/EldarRangerHelmet</wornGraphicPath>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarRangerHelmet/EldarRangerHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -284,10 +284,10 @@
 		<label>Banshee Mask</label>
 		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. A standard Howling Banshees Aspect Warrior's Banshee Mask is tall with their long flowing hair spilling from the top of it like a lion's mane. Their distinctive Banshee Masks contain psychosonic aplifiers that magnify their keening battle screams into mind-destroying shockwaves. This inflicts severe damage to the central nervous system of the Eldar warrior's foe, inspiring feeling of mortal terror and causing momentary paralysis. By custom, it is this helmet that marks the Aspect Warriors as the protectors and avengers of their Craftworld. It bears the Howling Banshees Aspect rune traced upon its forehead.</description>
 		<graphicData>
-		<texPath>Things/Item/Apparel/Eldar/EldarBansheeHelmet/EldarBansheeHelmet</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<shaderType>CutoutComplex</shaderType>
-		<color>255,255,209</color>
+			<texPath>Things/Item/Apparel/Eldar/EldarBansheeHelmet/EldarBansheeHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>255,255,209</color>
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -319,11 +319,11 @@
 			</researchPrerequisites>
 		</recipeMaker>
 		<apparel>
-		<useWornGraphicMask>true</useWornGraphicMask>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarBansheeHelmet/EldarBansheeHelmet</wornGraphicPath>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarBansheeHelmet/EldarBansheeHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -376,10 +376,10 @@
 		<label>Warlock Helmet</label>
 		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
 		<graphicData>
-		<texPath>Things/Item/Apparel/Eldar/EldarWarlockHelmet/EldarWarlockHelmet</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<shaderType>CutoutComplex</shaderType>
-		<color>255,255,209</color>
+			<texPath>Things/Item/Apparel/Eldar/EldarWarlockHelmet/EldarWarlockHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>255,255,209</color>
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -411,11 +411,11 @@
 			</researchPrerequisites>
 		</recipeMaker>
 		<apparel>
-		<useWornGraphicMask>true</useWornGraphicMask>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarWarlockHelmet/EldarWarlockHelmet</wornGraphicPath>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarWarlockHelmet/EldarWarlockHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 				<li MayRequire="CETeam.CombatExtended">MiddleHead</li>
@@ -467,11 +467,11 @@
 		<label>ghosthelm</label>
 		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
 		<graphicData>
-		<texPath>Things/Item/Apparel/Eldar/EldarWarlockHelmet/EldarWarlockHelmet</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<shaderType>CutoutComplex</shaderType>
-        <colorTwo>(255,255,255)</colorTwo>
-		<color>255,255,209</color>
+			<texPath>Things/Item/Apparel/Eldar/EldarWarlockHelmet/EldarWarlockHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<colorTwo>(255,255,255)</colorTwo>
+			<color>255,255,209</color>
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -503,11 +503,11 @@
 			</researchPrerequisites>
 		</recipeMaker>
 		<apparel>
-		<useWornGraphicMask>true</useWornGraphicMask>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarWarlockHelmet/EldarWarlockHelmet</wornGraphicPath>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarWarlockHelmet/EldarWarlockHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 				<li MayRequire="CETeam.CombatExtended">MiddleHead</li>
@@ -534,13 +534,17 @@
 			  <li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
 			  <Chance>1</Chance>
 			</li>
-			  <li Class="AdeptusMechanicus.CompProperties_ApparelExtraDrawer">
-				<compClass>AdeptusMechanicus.CompApparelExtraDrawer</compClass>
+			  <li Class="AdeptusMechanicus.CompProperties_ApparelExtraPartDrawer">
 					<ExtrasEntries>
 						<li>
+							<graphicData>
+								<texPath>Things/Item/Apparel/Eldar/EldarWarlockHelmet/Details/HornBack</texPath>
+								<!--graphicClass>Graphic_Single</graphicClass-->
+								<shaderType>CutoutComplex</shaderType>
+								<colorTwo>(255,255,255)</colorTwo>
+								<color>255,255,209</color>
+							</graphicData>
 							<UseBodytypeOffsets>false</UseBodytypeOffsets>
-							<shaderType>CutoutComplex</shaderType>
-							<extraTexPath>Things/Item/Apparel/Eldar/EldarWarlockHelmet/Details/HornBack</extraTexPath>
 							<commonality>10</commonality>
 						</li>
 					</ExtrasEntries>
