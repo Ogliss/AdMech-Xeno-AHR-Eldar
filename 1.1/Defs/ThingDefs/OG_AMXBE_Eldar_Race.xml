@@ -266,7 +266,7 @@
             <hasHair>true</hasHair>
             <getsGreyAt>15000</getsGreyAt> 
             <hairTags>
-				<li>EldarHair</li>
+				<li>OG_Eldar_Hair</li>
 				<li>Urban</li>
 				<li>Rural</li>
             </hairTags>

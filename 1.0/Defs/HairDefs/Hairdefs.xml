@@ -6,7 +6,7 @@
     <defName>EldarBald</defName>
     <hairGender>Any</hairGender>
 	<hairTags>
-		<li>EldarHair</li>
+		<li>OG_Eldar_Hair</li>
 	</hairTags>
   </HairDef>
  
@@ -16,7 +16,7 @@
     <hairGender>Any</hairGender>
     <texPath>Things/Pawn/Humanlike/Hairs/Bob</texPath>
 	<hairTags>
-		<li>EldarHair</li>
+		<li>OG_Eldar_Hair</li>
 	</hairTags>
   </HairDef>
   
@@ -26,7 +26,7 @@
     <hairGender>Male</hairGender>
     <texPath>Things/Pawn/Humanlike/Hairs/Burgundy</texPath>
 	<hairTags>
-		<li>EldarHair</li>
+		<li>OG_Eldar_Hair</li>
 	</hairTags>
   </HairDef>
   
@@ -36,7 +36,7 @@
     <hairGender>Female</hairGender>
     <texPath>Things/Pawn/Humanlike/Hairs/Flowy</texPath>
 	<hairTags>
-		<li>EldarHair</li>
+		<li>OG_Eldar_Hair</li>
 	</hairTags>
   </HairDef>
   
@@ -46,7 +46,7 @@
     <hairGender>Any</hairGender>
     <texPath>Things/Pawn/Humanlike/Hairs/Long</texPath>
     <hairTags>
-		<li>EldarHair</li>
+		<li>OG_Eldar_Hair</li>
 	</hairTags>
   </HairDef>
   
@@ -56,7 +56,7 @@
     <hairGender>MaleUsually</hairGender>
     <texPath>Things/Pawn/Humanlike/Hairs/Mop</texPath>
 	<hairTags>
-		<li>EldarHair</li>
+		<li>OG_Eldar_Hair</li>
 	</hairTags>
   </HairDef>
 
@@ -66,7 +66,7 @@
     <hairGender>MaleUsually</hairGender>
     <texPath>Things/Pawn/Humanlike/Hairs/Shaved</texPath>
 	<hairTags>
-		<li>EldarHair</li>
+		<li>OG_Eldar_Hair</li>
 	</hairTags>
   </HairDef>
   
@@ -76,7 +76,7 @@
     <hairGender>Any</hairGender>
     <texPath>Things/Pawn/Humanlike/Hairs/Wavy</texPath>
 	<hairTags>
-		<li>EldarHair</li>
+		<li>OG_Eldar_Hair</li>
 	</hairTags>
   </HairDef>
 
@@ -86,7 +86,7 @@
     <hairGender>Any</hairGender>
     <texPath>Things/Pawn/Humanlike/Hairs/Braidbun</texPath>
     <hairTags>
-		<li>EldarHair</li>
+		<li>OG_Eldar_Hair</li>
     </hairTags>
   </HairDef>
   
@@ -96,7 +96,7 @@
     <hairGender>Any</hairGender>
     <texPath>Things/Pawn/Humanlike/Hairs/Senorita</texPath>
     <hairTags>
-		<li>EldarHair</li>
+		<li>OG_Eldar_Hair</li>
     </hairTags>
   </HairDef>
 
@@ -106,7 +106,7 @@
     <hairGender>Any</hairGender>
     <texPath>Things/Pawn/Humanlike/Hairs/Scorpiontail</texPath>
     <hairTags>
-		<li>EldarHair</li>
+		<li>OG_Eldar_Hair</li>
     </hairTags>
   </HairDef>
 
@@ -116,7 +116,7 @@
     <hairGender>Any</hairGender>
     <texPath>Things/Pawn/Humanlike/Hairs/Gaston</texPath>
     <hairTags>
-		<li>EldarHair</li>
+		<li>OG_Eldar_Hair</li>
     </hairTags>
   </HairDef>
 
@@ -126,7 +126,7 @@
     <hairGender>Any</hairGender>
     <texPath>Things/Pawn/Humanlike/Hairs/Mess</texPath>
     <hairTags>
-		<li>EldarHair</li>
+		<li>OG_Eldar_Hair</li>
     </hairTags>
   </HairDef>
 
@@ -136,7 +136,7 @@
     <hairGender>Any</hairGender>
     <texPath>Things/Pawn/Humanlike/Hairs/Princess</texPath>
     <hairTags>
-		<li>EldarHair</li>
+		<li>OG_Eldar_Hair</li>
     </hairTags>
   </HairDef>
 </Defs>

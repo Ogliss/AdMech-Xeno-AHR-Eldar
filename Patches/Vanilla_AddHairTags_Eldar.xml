@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+  <operations>
+    <li Class="PatchOperationAdd">
+      <xpath>/Defs/HairDef[
+	  defName = "Princess" or 
+	  defName = "Lackland" or 
+	  defName = "Cleopatra" or 
+	  defName = "Decent" or 
+	  defName = "FancyBun" or 
+	  defName = "Senorita" or 
+	  defName = "Flowy" or 
+	  defName = "Long" or 
+	  defName = "Frozen" or 
+	  defName = "Snazzy" or 
+	  defName = "Junkie" or 
+	  defName = "Randy" or 
+	  defName = "Rookie" or 
+	  defName = "ShaveTopBraid" or 
+	  defName = "BraidedKnot" or 
+	  defName = "Primal" or 
+	  defName = "Locks" or 
+	  defName = "Sticky" or 
+	  defName = "ScorpionTail" or 
+	  defName = "Mohawk"
+	  ]/hairTags</xpath>
+		<value>	
+			<li>OG_Eldar_Hair</li>
+		</value>
+    </li>
+	
+  <!-- Add William from royalty -->
+  </operations>
+</Operation>
+
+</Patch>

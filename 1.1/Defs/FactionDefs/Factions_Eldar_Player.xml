@@ -29,7 +29,7 @@
       <li>ClassicStart</li>
     </startingResearchTags>
     <hairTags>
-			<li>EldarHair</li>
+			<li>OG_Eldar_Hair</li>
 			<li>Rural</li>
     </hairTags>
     <apparelStuffFilter>
@@ -76,7 +76,7 @@
       <li>TribalStart</li>
     </startingResearchTags>
     <hairTags>
-			<li>EldarHair</li>
+			<li>OG_Eldar_Hair</li>
     </hairTags>
     <apparelStuffFilter>
       <thingDefs>
@@ -124,7 +124,7 @@
       <li>TribalStart</li>
     </startingResearchTags>
     <hairTags>
-			<li>EldarHair</li>
+			<li>OG_Eldar_Hair</li>
     </hairTags>
     <apparelStuffFilter>
       <thingDefs>
