@@ -17,7 +17,7 @@ namespace AdeptusMechanicus.HarmonyInstance
             var harmony = new Harmony("com.ogliss.rimworld.mod.AdeptusMechanicus.Eldar");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
 
-            if (AdeptusIntergrationUtil.enabled_SOS2)
+            if (AdeptusIntergrationUtility.enabled_SOS2)
             {
                 HarmonyPatches.SOSConstructPatch();
             }

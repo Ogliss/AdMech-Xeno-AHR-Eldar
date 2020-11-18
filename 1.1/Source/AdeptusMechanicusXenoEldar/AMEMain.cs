@@ -28,7 +28,7 @@ namespace AdeptusMechanicus
                 Tags.Add("DE");
             }
             ArmouryMain.DoRacialRestrictionsFor(eldar, Tags, research);
-            if (!AdeptusIntergrationUtil.enabled_XenobiologisDarkEldar)
+            if (!AdeptusIntergrationUtility.enabled_XenobiologisDarkEldar)
             {
                 if (darkeldar != null)
                 {
