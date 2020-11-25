@@ -188,7 +188,7 @@
   <ThingDef ParentName="BuildingBase" Name="OGE_HeavyTurret" Abstract="True"> 
     <thingClass>Building_TurretGun</thingClass>
     <graphicData>
-      <texPath>Things/Buildings/Eldar/Security/TurretHeavy_Base</texPath>
+      <texPath>Things/Building/Eldar/Security/TurretHeavy_Base</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.5, 1.5)</drawSize>
       <drawOffset>(0,0,0.1)</drawOffset>
@@ -244,7 +244,7 @@
     <defName>OGE_Turret_ShurikenCannonDual_Auto</defName>
     <label>twin-linked shuriken cannon turret</label>
     <description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged.</description>    
-	<uiIconPath>Things/Buildings/Eldar/Security/TurretMount_ShurikenCannonDual_Menu</uiIconPath>
+	<uiIconPath>Things/Building/Eldar/Security/TurretMount_ShurikenCannonDual_Menu</uiIconPath>
     <statBases>
 		<AimingAccuracy MayRequire="CETeam.CombatExtended">0.25</AimingAccuracy>
 		<ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
@@ -299,7 +299,7 @@
     <label>twin-linked shuriken cannon</label>
     <description>A self-loading quad heavy stubber designed to attach to a turret.</description>
     <graphicData>
-      <texPath>Things/Buildings/Eldar/Security/TurretMount_ShurikenCannonDual_Top</texPath>
+      <texPath>Things/Building/Eldar/Security/TurretMount_ShurikenCannonDual_Top</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,1)</drawSize>
     </graphicData>
@@ -346,7 +346,7 @@
     <defName>OGE_Turret_Missile_Auto</defName>
     <label>missile turret</label>
     <description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged.</description>   
-	<uiIconPath>Things/Buildings/Eldar/Security/TurretMount_MissileLauncher_Menu</uiIconPath>
+	<uiIconPath>Things/Building/Eldar/Security/TurretMount_MissileLauncher_Menu</uiIconPath>
     <statBases>
 		<AimingAccuracy MayRequire="CETeam.CombatExtended">0.75</AimingAccuracy>
 		<ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
@@ -400,7 +400,7 @@
     <label>missile launcher</label>
     <description>A self-loading large-bore cannon designed to attach to a turret.</description>
     <graphicData>
-      <texPath>Things/Buildings/Eldar/Security/TurretMount_MissileLauncher_Top</texPath>
+      <texPath>Things/Building/Eldar/Security/TurretMount_MissileLauncher_Top</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
 	<comps>     
@@ -443,7 +443,7 @@
     <defName>OGE_Turret_Brightlance_Auto</defName>
     <label>brightlance turret</label>
     <description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged.</description>  
-	<uiIconPath>Things/Buildings/Eldar/Security/TurretMount_Brightlance_Menu</uiIconPath>
+	<uiIconPath>Things/Building/Eldar/Security/TurretMount_Brightlance_Menu</uiIconPath>
     <statBases>
 		<AimingAccuracy MayRequire="CETeam.CombatExtended">0.75</AimingAccuracy>
 		<ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
@@ -483,7 +483,7 @@
     <label>brightlance</label>
     <description>A self-loading large-bore cannon designed to attach to a turret.</description>
     <graphicData>
-      <texPath>Things/Buildings/Eldar/Security/TurretMount_Brightlance_Top</texPath>
+      <texPath>Things/Building/Eldar/Security/TurretMount_Brightlance_Top</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -518,7 +518,7 @@
     <defName>OGE_Turret_BrightlanceDual_Auto</defName>
     <label>twin-linked brightlance turret</label>
     <description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged.</description>   
-	<uiIconPath>Things/Buildings/Eldar/Security/TurretMount_BrightlanceDual_Menu</uiIconPath>
+	<uiIconPath>Things/Building/Eldar/Security/TurretMount_BrightlanceDual_Menu</uiIconPath>
     <statBases>
 		<AimingAccuracy MayRequire="CETeam.CombatExtended">0.75</AimingAccuracy>
 		<ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
@@ -559,7 +559,7 @@
     <label>brightlance</label>
     <description>A self-loading large-bore cannon designed to attach to a turret.</description>
     <graphicData>
-      <texPath>Things/Buildings/Eldar/Security/TurretMount_BrightlanceDual_Top</texPath>
+      <texPath>Things/Building/Eldar/Security/TurretMount_BrightlanceDual_Top</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -603,7 +603,7 @@
     <defName>OGE_Turret_DistortCannon_Auto</defName>
     <label>D-cannon turret</label>
     <description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged.</description>  
-	<uiIconPath>Things/Buildings/Eldar/Security/TurretMount_DistortCannon_Menu</uiIconPath>
+	<uiIconPath>Things/Building/Eldar/Security/TurretMount_DistortCannon_Menu</uiIconPath>
     <statBases>
 		<AimingAccuracy MayRequire="CETeam.CombatExtended">0.75</AimingAccuracy>
 		<ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
@@ -644,7 +644,7 @@
     <label>D-Cannon</label>
     <description>A self-loading large-bore cannon designed to attach to a turret.</description>
     <graphicData>
-      <texPath>Things/Buildings/Eldar/Security/TurretMount_DistortCannon_Top</texPath>
+      <texPath>Things/Building/Eldar/Security/TurretMount_DistortCannon_Top</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -702,7 +702,7 @@
     <defName>OGE_Turret_VibroCannon</defName>
     <label>vibro cannon turret</label>
     <description>An armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor, but it requires new uranium slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged.</description>
-	<uiIconPath>Things/Buildings/Eldar/Security/TurretMount_VibroCannon_Menu</uiIconPath>
+	<uiIconPath>Things/Building/Eldar/Security/TurretMount_VibroCannon_Menu</uiIconPath>
     <statBases>
 		<AimingAccuracy MayRequire="CETeam.CombatExtended">0.75</AimingAccuracy>
 		<ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
@@ -758,7 +758,7 @@
     <label>uranium slug cannon</label>
     <description>A self-loading uranium slug cannon designed to attach to a turret.</description>
     <graphicData>
-      <texPath>Things/Buildings/Eldar/Security/TurretMount_VibroCannon_Top</texPath>
+      <texPath>Things/Building/Eldar/Security/TurretMount_VibroCannon_Top</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(2,2)</drawSize>
     </graphicData>
@@ -836,7 +836,7 @@
         <li>Artillery_MannedMortar</li>
       </buildingTags>
     </building>
-	<uiIconPath>Things/Buildings/Eldar/Security/TurretMount_ShadowWeaver_Menu</uiIconPath>
+	<uiIconPath>Things/Building/Eldar/Security/TurretMount_ShadowWeaver_Menu</uiIconPath>
   <uiIconScale>0.9</uiIconScale>
     <researchPrerequisites>
       <li>OG_Aeldari_Tech_Weapons_Monofilament</li>
@@ -848,7 +848,7 @@
     <label>mortar</label>
     <description>Mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged.</description>
     <graphicData>
-      <texPath>Things/Buildings/Eldar/Security/TurretMount_ShadowWeaver_Top</texPath>
+      <texPath>Things/Building/Eldar/Security/TurretMount_ShadowWeaver_Top</texPath>
     </graphicData>
     <weaponTags>
       <li>Artillery_BaseDestroyer</li>
