@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.RaceSettings>
+    <defName>Eldar_Settings</defName>
+    <pawnKindSettings>
+            <alienslavekinds>
+                <li>
+                    <kindDefs>
+                        <li>Colonist_OG_Eldar_Craftworld</li>
+                    </kindDefs>
+                    <chance>40.0</chance>
+                </li>
+            </alienslavekinds>
+            <alienrefugeekinds>
+                <li>
+                    <kindDefs>
+                        <li>Colonist_OG_Eldar_Craftworld</li>
+                    </kindDefs>
+                    <chance>50.0</chance>
+                </li>
+            </alienrefugeekinds>
+			<startingColonists>
+				<li>
+				<pawnKindEntries>
+					<li>
+                    <kindDefs>
+                        <li>Colonist_OG_Eldar_Craftworld</li>
+                    </kindDefs>
+                    <chance>10.0</chance>
+					</li>
+					<li>
+                    <kindDefs>
+							<li>Colonist_OG_Eldar_Craftworld</li>
+                    </kindDefs>
+                    <chance>50.0</chance>
+					</li>
+				</pawnKindEntries>
+					<factionDefs>
+						<li>OG_Eldar_Craftworld_PlayerColony</li> 
+					</factionDefs>
+				</li>
+			</startingColonists>
+            <alienwandererkinds>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+								<li>Colonist_OG_Eldar_Craftworld</li>
+                            </kindDefs>
+                            <chance>50.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>OG_Eldar_Craftworld_PlayerColony</li> 
+                    </factionDefs>
+                </li>
+            </alienwandererkinds>
+        </pawnKindSettings>
+  </AlienRace.RaceSettings>
+
+</Defs>
