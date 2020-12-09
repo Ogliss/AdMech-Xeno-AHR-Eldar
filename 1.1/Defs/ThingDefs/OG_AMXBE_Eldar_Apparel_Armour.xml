@@ -58,6 +58,7 @@
 			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarMeshArmour/EldarMeshArmour</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
+				<li>Middle</li>
 			</layers>
 			<tags>
 				<li>EldarMilitary</li>
@@ -82,12 +83,12 @@
 					<shaderType>CutoutComplex</shaderType>
 					<padTexPath>Things/Item/Apparel/Eldar/EldarMeshArmour/Pauldrons/Pauldron</padTexPath>
 					<commonality>10</commonality>
+					<northtop>PostHead</northtop>
+					<southtop>Shell</southtop>
+					<easttop>PostHead</easttop>
+					<westtop>PostHead</westtop>
 				</li>
 			</PauldronEntries>
-			<NorthOffset>0,0.5,0</NorthOffset>
-			<SouthOffset>0,-0.001,0</SouthOffset>
-			<EastOffset>0,0.35,0</EastOffset>
-			<WestOffset>0,0.35,0</WestOffset>
       </li>
     </comps>
 	<!--
@@ -158,6 +159,7 @@
 			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarMeshArmour/EldarMeshArmour</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
+				<li>Middle</li>
 			</layers>
 			<tags>
 				<li>EldarMilitary</li>
@@ -182,12 +184,13 @@
 					<shaderType>CutoutComplex</shaderType>
 					<padTexPath>Things/Item/Apparel/Eldar/EldarMeshArmour/Pauldrons/Pauldron</padTexPath>
 					<commonality>10</commonality>
+					<northtop>PostHead</northtop>
+					<southtop>Shell</southtop>
+					<easttop>PostHead</easttop>
+					<westtop>PostHead</westtop>
+
 				</li>
 			</PauldronEntries>
-			<NorthOffset>0,0.5,0</NorthOffset>
-			<SouthOffset>0,-0.001,0</SouthOffset>
-			<EastOffset>0,0.35,0</EastOffset>
-			<WestOffset>0,0.35,0</WestOffset>
       </li>
     </comps>
 	<!--
@@ -282,12 +285,12 @@
 					<shaderType>CutoutComplex</shaderType>
 					<padTexPath>Things/Item/Apparel/Eldar/EldarRangerArmour/Pauldrons/Pauldron</padTexPath>
 					<commonality>10</commonality>
+					<northtop>PostHead</northtop>
+					<southtop>Shell</southtop>
+					<easttop>PostHead</easttop>
+					<westtop>PostHead</westtop>
 				</li>
 			</PauldronEntries>
-			<NorthOffset>0,0.5,0</NorthOffset>
-			<SouthOffset>0,-0.001,0</SouthOffset>
-			<EastOffset>0,0.35,0</EastOffset>
-			<WestOffset>0,0.35,0</WestOffset>
       </li>
     </comps>
 	<!--
@@ -359,6 +362,7 @@
 			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarBansheeArmour/EldarBansheeArmour</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
+				<li>Middle</li>
 			</layers>
 			<tags>
 				<li>EldarMilitary</li>
@@ -385,12 +389,12 @@
 					<shaderType>CutoutComplex</shaderType>
 					<padTexPath>Things/Item/Apparel/Eldar/EldarBansheeArmour/Pauldrons/Pauldron</padTexPath>
 					<commonality>10</commonality>
+					<northtop>PostHead</northtop>
+					<southtop>Shell</southtop>
+					<easttop>PostHead</easttop>
+					<westtop>PostHead</westtop>
 				</li>
 			</PauldronEntries>
-			<NorthOffset>0,0.5,0</NorthOffset>
-			<SouthOffset>0,-0.001,0</SouthOffset>
-			<EastOffset>0,0.35,0</EastOffset>
-			<WestOffset>0,0.35,0</WestOffset>
       </li>
     </comps>
 	<!--
@@ -463,6 +467,7 @@
 			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarStrikingScorpionArmour/EldarMeshArmour</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
+				<li>Middle</li>
 			</layers>
 			<tags>
 				<li>EldarMilitary</li>
@@ -487,12 +492,12 @@
 					<shaderType>CutoutComplex</shaderType>
 					<padTexPath>Things/Item/Apparel/Eldar/EldarStrikingScorpionArmour/Pauldrons/Pauldron</padTexPath>
 					<commonality>10</commonality>
+					<northtop>PostHead</northtop>
+					<southtop>Shell</southtop>
+					<easttop>PostHead</easttop>
+					<westtop>PostHead</westtop>
 				</li>
 			</PauldronEntries>
-			<NorthOffset>0,0.5,0</NorthOffset>
-			<SouthOffset>0,-0.001,0</SouthOffset>
-			<EastOffset>0,0.35,0</EastOffset>
-			<WestOffset>0,0.35,0</WestOffset>
       </li>
     </comps>
 	<!--
@@ -567,6 +572,7 @@
 			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarWarlockArmour/EldarWarlockArmour</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
+				<li>Middle</li>
 			</layers>
 			<tags>
 				<li>EldarMilitary</li>
@@ -586,18 +592,23 @@
     <comps>
 		<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
 			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+			<drawAll>true</drawAll>
 			<PauldronEntries>
 				<li>
 					<shoulderPadType>Both</shoulderPadType>
 					<shaderType>CutoutComplex</shaderType>
 					<padTexPath>Things/Item/Apparel/Eldar/EldarWarlockArmour/Pauldrons/Pauldron</padTexPath>
 					<commonality>10</commonality>
+					<northtop>PostHead</northtop>
+					<southtop>Shell</southtop>
+					<easttop>PostHead</easttop>
+					<westtop>PostHead</westtop>
 				</li>
 			</PauldronEntries>
-			<NorthOffset>0,0.5,0</NorthOffset>
+			<!--NorthOffset>0,0.5,0</NorthOffset>
 			<SouthOffset>0,-0.001,0</SouthOffset>
 			<EastOffset>0,0.35,0</EastOffset>
-			<WestOffset>0,0.35,0</WestOffset>
+			<WestOffset>0,0.35,0</WestOffset-->
 		</li>
 		<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
 			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
@@ -612,13 +623,17 @@
 					<!-- <overrideSecondaryColor>1,1,1</overrideSecondaryColor> -->
 					<!-- <overrideSecondaryColor>0.441,0.32,0.118</overrideSecondaryColor> -->
 					<commonality>10</commonality>
+					<northtop>PostHead</northtop>
+					<southtop>Shell</southtop>
+					<easttop>PostHead</easttop>
+					<westtop>PostHead</westtop>
 				</li>
 			</PauldronEntries>
 			<PauldronEntryChance>0.5</PauldronEntryChance>
-			<NorthOffset>0,-0.13,0</NorthOffset>
+			<!--NorthOffset>0,-0.13,0</NorthOffset>
 			<SouthOffset>0,-0.027,0</SouthOffset>
 			<EastOffset>0,-0.375,0</EastOffset>
-			<WestOffset>0,-0.375,0</WestOffset>
+			<WestOffset>0,-0.375,0</WestOffset-->
 		</li>
     </comps>
 	<!--
@@ -694,6 +709,7 @@
 			<!-- <wornGraphicPath>Things/Item/Apparel/Eldar/EldarWarlockArmour/EldarWarlockArmour</wornGraphicPath> -->
 			<layers>
 				<li>Shell</li>
+				<li>Middle</li>
 			</layers>
 			<tags>
 				<li>EldarMilitary</li>
@@ -719,12 +735,16 @@
 					<shaderType>CutoutComplex</shaderType>
 					<padTexPath>Things/Item/Apparel/Eldar/EldarRuneArmour/Pauldrons/Pauldron</padTexPath>
 					<commonality>10</commonality>
+					<northtop>PostHead</northtop>
+					<southtop>Shell</southtop>
+					<easttop>PostHead</easttop>
+					<westtop>PostHead</westtop>
 				</li>
 			</PauldronEntries>
-			<NorthOffset>0,0.5,0</NorthOffset>
+			<!--NorthOffset>0,0.5,0</NorthOffset>
 			<SouthOffset>0,-0.001,0</SouthOffset>
 			<EastOffset>0,0.35,0</EastOffset>
-			<WestOffset>0,0.35,0</WestOffset>
+			<WestOffset>0,0.35,0</WestOffset-->
       </li>
 	  <!--
       <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
