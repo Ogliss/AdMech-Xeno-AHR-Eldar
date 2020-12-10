@@ -10,6 +10,14 @@
                <li MayRequire="QX.AstraMilitarum">IGTraitInquisition</li>
                <li MayRequire="QX.AstraMilitarum">IGTraitImperialMedic</li>
                <li MayRequire="QX.AstraMilitarum">IG_TraitAstarte</li>
+				<li MayRequire="CptOhu.CorruptionCore">Emperor_Hope</li>
+				<li MayRequire="CptOhu.CorruptionCore">Khorne_Fervor</li>
+				<li MayRequire="CptOhu.CorruptionCore">Nurgle_Fervor</li>
+				<li MayRequire="CptOhu.CorruptionCore">Slaanesh_Fervor</li>
+				<li MayRequire="CptOhu.CorruptionCore">Tzeentch_Fervor</li>
+				<li MayRequire="CptOhu.CorruptionCore">Undivided_Fervor</li>
+				<li MayRequire="CptOhu.CorruptionCore">ORK_Brutality</li>
+				<li MayRequire="CptOhu.CorruptionCore">TAU_Philosophy</li>
                <li>Cannibal</li>
 			   <!--
 				<li>
