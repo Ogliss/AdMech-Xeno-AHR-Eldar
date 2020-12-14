@@ -55,18 +55,20 @@
             </disallowedTraits>
             <alienPartGenerator>
 				<bodyAddons>
-					<li>
+					<li Class="AdeptusMechanicus.LinkedBodyAddon">
 						<path>Things/Pawn/Humanlike/Eldar/Heads/Ears/EarL</path>
 						<debug>false</debug>
 						<bodyPart>left ear</bodyPart>
 						<inFrontOfBody>true</inFrontOfBody>
+						<useHeadPosition>true</useHeadPosition>
+						<useHeadDrawSize>true</useHeadDrawSize>
 						<drawnInBed>true</drawnInBed>
 						<layerOffset>-0.27</layerOffset>
 						<offsets>
 							  <south>
 								<bodyTypes>
-									<Male>(-0.42,0.5)</Male>
-									<Female>(-0.42,0.5)</Female>
+									<Male>(-0.0,0.0)</Male>
+									<Female>(-0.0,0.0)</Female>
 								</bodyTypes>
 								<crownTypes>
 									<Average_Normal>(-0.0,0.0)</Average_Normal>
@@ -77,8 +79,8 @@
 							  </south>
 							  <north>
 								<bodyTypes>
-									<Male>(0,0.9)</Male>
-									<Female>(0,0.9)</Female>
+									<Male>(0,0.0)</Male>
+									<Female>(0,0.0)</Female>
 								</bodyTypes>
 								<crownTypes>
 									<Average_Normal>(0,0.0)</Average_Normal>
@@ -89,8 +91,8 @@
 							  </north>
 							  <east>
 								<bodyTypes>
-									<Male>(-0.48,0.5)</Male>
-									<Female>(-0.48,0.5)</Female>
+									<Male>(-0.0,0.0)</Male>
+									<Female>(-0.0,0.0)</Female>
 								</bodyTypes>
 								<crownTypes>
 									<Average_Normal>(-0.0,0.0)</Average_Normal>
@@ -106,18 +108,20 @@
 							<li>UpperHead</li>
 						</hiddenUnderApparelFor>
 					</li>
-					<li>
+					<li Class="AdeptusMechanicus.LinkedBodyAddon">
 						<path>Things/Pawn/Humanlike/Eldar/Heads/Ears/EarR</path>
 						<debug>false</debug>
 						<bodyPart>right ear</bodyPart>
 						<inFrontOfBody>true</inFrontOfBody>
+						<useHeadPosition>true</useHeadPosition>
+						<useHeadDrawSize>true</useHeadDrawSize>
 						<drawnInBed>true</drawnInBed>
 						<layerOffset>-0.27</layerOffset>
 						<offsets>
 							<south>
 								<bodyTypes>
-									<Male>(-0.42,0.5)</Male>
-									<Female>(-0.42,0.5)</Female>
+									<Male>(-0.0,0.0)</Male>
+									<Female>(-0.0,0.0)</Female>
 								</bodyTypes>
 								<crownTypes>
 									<Average_Normal>(-0.0,0.0)</Average_Normal>
@@ -129,8 +133,8 @@
 							</south>
 							<north>
 								<bodyTypes>
-									<Male>(0,0.9)</Male>
-									<Female>(0,0.9)</Female>
+									<Male>(0,0.0)</Male>
+									<Female>(0,0.0)</Female>
 								</bodyTypes>
 								<crownTypes>
 									<Average_Normal>(-0.0,0.0)</Average_Normal>
@@ -141,8 +145,8 @@
 							</north>
 							<east>
 								<bodyTypes>
-									<Male>(-0.48,0.5)</Male>
-									<Female>(-0.48,0.5)</Female>
+									<Male>(-0.0,0.0)</Male>
+									<Female>(-0.0,0.0)</Female>
 								</bodyTypes>
 								<crownTypes>
 									<Average_Normal>(-0.0,0.0)</Average_Normal>
