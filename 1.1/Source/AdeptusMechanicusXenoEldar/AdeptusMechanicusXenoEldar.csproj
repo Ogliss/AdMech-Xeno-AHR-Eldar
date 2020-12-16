@@ -39,6 +39,7 @@
   <ItemGroup>
     <Compile Include="AMEMain.cs" />
     <Compile Include="ExtentsionMethods\AdeptusMechanicusEldarExtensions.cs" />
+    <Compile Include="Harmony\Patches\PawnGenerator_GeneratePawn_Orkoid_Patch.cs" />
     <Compile Include="Harmony\Patches\TraitSet_GetTrait_Eldar_Patch.cs" />
     <Compile Include="Harmony\Patches\TraitSet_DegreeOfTrait_Eldar_Patch.cs" />
     <Compile Include="Harmony\Settings\AMMod_PlayableEldarSettings_Patch.cs" />

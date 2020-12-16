@@ -4,7 +4,7 @@
 	<!--========================= Eldar - Mesh Armour Helmet ==========================-->
     <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_MeshArmourHelmet</defName>
-		<label>Mesh Armour Helmet</label>
+		<label>mesh armour helmet</label>
 		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/EldarGuardianHelmet/EldarGuardianHelmet</texPath>
@@ -96,7 +96,7 @@
 	<!--========================= Eldar - Dire Avenger Helmet ==========================-->
     <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_DireAvengerHelmet</defName>
-		<label>dire avenger Hhelmet</label>
+		<label>dire avenger helmet</label>
 		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/EldarDireAvengerHelmet/EldarDireAvengerHelmet</texPath>
@@ -188,7 +188,7 @@
 	<!--========================= Eldar - Ranger Armour Helmet ==========================-->
     <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_RangerArmourHelmet</defName>
-		<label>Ranger Helmet</label>
+		<label>ranger helmet</label>
 		<description>Ranger armour is similar to the Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons. The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply and heat-sensing lenses.\n\nRanger Armour also incorporates a camoline overcoat, an independent air supply and heat-sensing lenses.</description>
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/EldarRangerHelmet/EldarRangerHelmet</texPath>
@@ -281,7 +281,7 @@
 	<!--========================= Eldar - Banshee Armour Helmet ==========================-->
     <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_BansheeArmourHelmet</defName>
-		<label>Banshee Mask</label>
+		<label>banshee mask</label>
 		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. A standard Howling Banshees Aspect Warrior's Banshee Mask is tall with their long flowing hair spilling from the top of it like a lion's mane. Their distinctive Banshee Masks contain psychosonic aplifiers that magnify their keening battle screams into mind-destroying shockwaves. This inflicts severe damage to the central nervous system of the Eldar warrior's foe, inspiring feeling of mortal terror and causing momentary paralysis. By custom, it is this helmet that marks the Aspect Warriors as the protectors and avengers of their Craftworld. It bears the Howling Banshees Aspect rune traced upon its forehead.</description>
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/EldarBansheeHelmet/EldarBansheeHelmet</texPath>
@@ -373,7 +373,7 @@
 	<!--========================= Eldar - Warlock Helmet ==========================-->
     <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_WarlockHelmet</defName>
-		<label>Warlock Helmet</label>
+		<label>warlock helmet</label>
 		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/EldarWarlockHelmet/EldarWarlockHelmet</texPath>

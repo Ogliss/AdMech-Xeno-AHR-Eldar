@@ -87,8 +87,8 @@
                     <li>Average_Pointy</li>
                 </aliencrowntypes>
                 <alienbodytypes>
-                <li>Female</li>
-				<li>Male</li>
+					<li>Female</li>
+					<li>Male</li>
                 </alienbodytypes>
 				<useGenderedHeads>true</useGenderedHeads>
 				<useGenderedBodies>false</useGenderedBodies>
