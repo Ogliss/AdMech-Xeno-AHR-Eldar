@@ -27,7 +27,7 @@ namespace AdeptusMechanicus.HarmonyInstance
         [HarmonyPrefix]
         public static void EldarSettings_Prefix(ref AMAMod __instance, ref Listing_Standard listing_Main, Rect rect, Rect inRect, float num, float num2)
         {
-            AMSettings settings = __instance.settings;
+            AMSettings settings = AMAMod.settings;
             bool showRaces = settings.ShowAllowedRaceSettings;
             bool setting = settings.ShowAllowedRaceSettings && settings.ShowEldar;
             float lineheight = (Text.LineHeight + listing_Main.verticalSpacing);
