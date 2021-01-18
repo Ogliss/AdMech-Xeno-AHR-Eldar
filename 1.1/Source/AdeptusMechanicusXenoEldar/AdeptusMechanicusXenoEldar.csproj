@@ -39,12 +39,13 @@
   <ItemGroup>
     <Compile Include="AMEMain.cs" />
     <Compile Include="ExtentsionMethods\AdeptusMechanicusEldarExtensions.cs" />
-    <Compile Include="Harmony\Patches\PawnGenerator_GeneratePawn_Orkoid_Patch.cs" />
+    <Compile Include="Harmony\Patches\PawnGenerator_GeneratePawn_Eldar_Patch.cs" />
     <Compile Include="Harmony\Patches\TraitSet_GetTrait_Eldar_Patch.cs" />
     <Compile Include="Harmony\Patches\TraitSet_DegreeOfTrait_Eldar_Patch.cs" />
-    <Compile Include="Harmony\Settings\AMMod_PlayableEldarSettings_Patch.cs" />
+    <Compile Include="Harmony\Settings\AMAMod_PlayableEldarSettings_Patch.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\Patches\TraitSet_HasTrait_Eldar_Patch.cs" />
+    <Compile Include="Utils\ThoughtWorker_DarkEldar_NeedSoul.cs" />
     <Compile Include="WraithConstructs\CompSoulStone.cs" />
     <Compile Include="WraithConstructs\WraithPawn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

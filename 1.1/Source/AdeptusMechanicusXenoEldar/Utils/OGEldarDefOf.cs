@@ -44,6 +44,7 @@ namespace AdeptusMechanicus
         */
     }
 
+    [DefOf]
     public static class OGEldarPawnKindDefOf
     {
         // Token: 0x0600377C RID: 14204 RVA: 0x001A83CC File Offset: 0x001A67CC
@@ -62,6 +63,7 @@ namespace AdeptusMechanicus
         */
     }
 
+    [DefOf]
     public static class OGEldarFactionDefOf
     {
         // Token: 0x06003770 RID: 14192 RVA: 0x001A8272 File Offset: 0x001A6672
@@ -82,6 +84,7 @@ namespace AdeptusMechanicus
         */
     }
 
+    [DefOf]
     public static class OGEldarJobDefOf
     {
         // Token: 0x06003770 RID: 14192 RVA: 0x001A8272 File Offset: 0x001A6672

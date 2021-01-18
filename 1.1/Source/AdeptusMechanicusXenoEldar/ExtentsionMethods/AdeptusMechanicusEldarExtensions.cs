@@ -8,7 +8,7 @@ using Verse;
 namespace AdeptusMechanicus.ExtensionMethods
 {
 
-    public static class AdeptusMechanicusEldarExtensions
+    public static class EldarExtensions
     {
         public static bool isEldar(this Pawn pawn)
         {

@@ -31,15 +31,12 @@
 				<li>OG_Common_Tech_Weapons_Plasma</li>
 			</researchPrerequisites>
 		</recipeMaker>
-		<comps>  
-			<li Class="AbilitesExtended.CompProperties_AbilityItem">
-				<!-- <AbilityUserClass>AbilityUser.GenericCompAbilityItem</AbilityUserClass> -->
-				<Abilities>
-					<li>OGE_Ability_ThrowPlasma</li>
-				</Abilities>
-			</li>
-		</comps>
-		
+		<thingCategories>
+			<li>OGEGrens</li>
+		</thingCategories>
+		<tradeTags>
+			<li>OGEGrens</li>
+		</tradeTags>
 		<apparel>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<bodyPartGroups>
@@ -54,12 +51,44 @@
 				<li>OGEGrenPlasma</li>
 			</tags>
 		</apparel>
-		<thingCategories>
-			<li>OGEGrens</li>
-		</thingCategories>
-		<tradeTags>
-			<li>OGEGrens</li>
-		</tradeTags>
+		<verbs>
+			<li>
+				<label>throw plasma grenade</label>
+				<verbClass>Verb_LaunchProjectileStatic</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<range>12.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<defaultCooldownTime>1.9</defaultCooldownTime>
+				<warmupTime>1.5</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<!--soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale-->
+				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>OGE_GrenadeThrown_Plasma</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="AdeptusMechanicus.CompProperties_WargearUseable">
+				<Cooldown>12</Cooldown>
+				<hotKey>Misc4</hotKey>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<!--comps>  
+			<li Class="AbilityUser.CompProperties_AbilityItem">
+				
+				<Abilities>
+					<li>OGE_Ability_ThrowPlasma</li>
+				</Abilities>
+			</li>
+		</comps-->
 	</ThingDef>
 	
     <!-- ========================= Eldar - Haywire Grenades	========================== -->
@@ -91,15 +120,12 @@
 				<li>OG_Common_Tech_Weapons_Haywire</li>
 			</researchPrerequisites>
 		</recipeMaker>
-		<comps>  
-			<li Class="AbilitesExtended.CompProperties_AbilityItem">
-				<!-- <AbilityUserClass>AbilityUser.GenericCompAbilityItem</AbilityUserClass> -->
-				<Abilities>
-					<li>OGE_Ability_ThrowHaywire</li>
-				</Abilities>
-			</li>
-		</comps>
-		
+		<thingCategories>
+			<li>OGEGrens</li>
+		</thingCategories>
+		<tradeTags>
+			<li>OGEGrens</li>
+		</tradeTags>
 		<apparel>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<bodyPartGroups>
@@ -114,12 +140,44 @@
 				<li>OGEGrenHaywire</li>
 			</tags>
 		</apparel>
-		<thingCategories>
-			<li>OGEGrens</li>
-		</thingCategories>
-		<tradeTags>
-			<li>OGEGrens</li>
-		</tradeTags>
+		<verbs>
+			<li>
+				<label>throw haywire grenade</label>
+				<verbClass>Verb_LaunchProjectileStatic</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<range>12.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<defaultCooldownTime>1.9</defaultCooldownTime>
+				<warmupTime>1.5</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<!--soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale-->
+				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>OGE_GrenadeThrown_Haywire</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="AdeptusMechanicus.CompProperties_WargearUseable">
+				<Cooldown>10</Cooldown>
+				<hotKey>Misc4</hotKey>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<!--comps>  
+			<li Class="AbilityUser.CompProperties_AbilityItem">
+				
+				<Abilities>
+					<li>OGE_Ability_ThrowHaywire</li>
+				</Abilities>
+			</li>
+		</comps-->
 	</ThingDef>
 	
     <!-- ========================= Eldar - Melta Bomb	========================== -->
@@ -147,18 +205,16 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			 <researchPrerequisite>OG_Common_Tech_Weapons_Melta</researchPrerequisite>
-			
+			<researchPrerequisites>
+				<li>OG_Common_Tech_Weapons_Melta</li>
+			</researchPrerequisites>
 		</recipeMaker>
-		<comps>  
-			<li Class="AbilitesExtended.CompProperties_AbilityItem">
-				<!-- <AbilityUserClass>AbilityUser.GenericCompAbilityItem</AbilityUserClass> -->
-				<Abilities>
-					<li>OGE_Ability_ThrowMelta</li>
-				</Abilities>
-			</li>
-		</comps>
-		
+		<thingCategories>
+			<li>OGEGrens</li>
+		</thingCategories>
+		<tradeTags>
+			<li>OGEGrens</li>
+		</tradeTags>
 		<apparel>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<bodyPartGroups>
@@ -173,12 +229,44 @@
 				<li>OGEGrenMelta</li>
 			</tags>
 		</apparel>
-		<thingCategories>
-			<li>OGEGrens</li>
-		</thingCategories>
-		<tradeTags>
-			<li>OGEGrens</li>
-		</tradeTags>
+		<verbs>
+			<li>
+				<label>throw melta grenade</label>
+				<verbClass>Verb_LaunchProjectileStatic</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<range>12.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<defaultCooldownTime>1.9</defaultCooldownTime>
+				<warmupTime>1.5</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<!--soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale-->
+				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>OGE_GrenadeThrown_Melta</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="AdeptusMechanicus.CompProperties_WargearUseable">
+				<Cooldown>15</Cooldown>
+				<hotKey>Misc4</hotKey>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<!--comps>  
+			<li Class="AbilityUser.CompProperties_AbilityItem">
+				
+				<Abilities>
+					<li>OGE_Ability_ThrowMelta</li>
+				</Abilities>
+			</li>
+		</comps-->
 	</ThingDef>
 		
     <!-- ========================= Eldar - Hallucinogen Grenades	========================== -->
@@ -206,18 +294,16 @@
 			<OGE_Component>10</OGE_Component>
 		</costList>
 		<recipeMaker>
-			 <researchPrerequisite>OG_Eldar_Tech_Base_T2</researchPrerequisite>
-			
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Base_T2</li>
+			</researchPrerequisites>
 		</recipeMaker>
-		<comps>  
-			<li Class="AbilitesExtended.CompProperties_AbilityItem">
-				<!-- <AbilityUserClass>AbilityUser.GenericCompAbilityItem</AbilityUserClass> -->
-				<Abilities>
-					<li>OGE_Ability_ThrowHallucinogen</li>
-				</Abilities>
-			</li>
-		</comps>
-		
+		<thingCategories>
+			<li>OGEGrens</li>
+		</thingCategories>
+		<tradeTags>
+			<li>OGEGrens</li>
+		</tradeTags>
 		<apparel>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<bodyPartGroups>
@@ -232,12 +318,43 @@
 				<li>OGEGrenHallucinogen</li>
 			</tags>
 		</apparel>
-		<thingCategories>
-			<li>OGEGrens</li>
-		</thingCategories>
-		<tradeTags>
-			<li>OGEGrens</li>
-		</tradeTags>
+		<verbs>
+			<li>
+				<label>throw hallucinogen grenade</label>
+				<verbClass>Verb_LaunchProjectileStatic</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<range>12.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<defaultCooldownTime>1.9</defaultCooldownTime>
+				<warmupTime>1.5</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<!--soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale-->
+				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>OGE_GrenadeThrown_Hallucinogen</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="AdeptusMechanicus.CompProperties_WargearUseable">
+				<Cooldown>10</Cooldown>
+				<hotKey>Misc4</hotKey>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<!--comps>  
+			<li Class="AbilityUser.CompProperties_AbilityItem">
+				<Abilities>
+					<li>OGE_Ability_ThrowHallucinogen</li>
+				</Abilities>
+			</li>
+		</comps-->
 	</ThingDef>
 
 

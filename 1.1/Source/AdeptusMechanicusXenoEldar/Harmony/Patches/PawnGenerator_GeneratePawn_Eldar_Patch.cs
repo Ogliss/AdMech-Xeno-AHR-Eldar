@@ -49,7 +49,7 @@ namespace AdeptusMechanicus.HarmonyInstance
             }
         }
         
-        [HarmonyPostfix]
+        [HarmonyPostfix, HarmonyPriority(Priority.Last)]
         public static void Post_GeneratePawn(PawnGenerationRequest request, ref Pawn __result)
         {
             if (__result != null && __result.def == OGEldarThingDefOf.OG_Alien_Eldar)
