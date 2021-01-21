@@ -30,6 +30,8 @@
 			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
 			<PsychicSensitivity>0.10</PsychicSensitivity>
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>20</Steel>
@@ -133,6 +135,8 @@
 			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
 			<PsychicSensitivity>0.10</PsychicSensitivity>
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>50</Steel>
@@ -155,6 +159,8 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarMeshArmour/EldarMeshArmour</wornGraphicPath>
 			<layers>
@@ -176,8 +182,8 @@
 			<li>Apparel</li>
 		</tradeTags>
     <comps>
-      <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
-        <compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+		<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
 			<PauldronEntries>
 				<li>
 					<shoulderPadType>Both</shoulderPadType>
@@ -191,7 +197,7 @@
 
 				</li>
 			</PauldronEntries>
-      </li>
+		</li>
     </comps>
 	<!--
     <colorGenerator Class="ColorGenerator_Options">
@@ -235,6 +241,8 @@
 			<WorkSpeedGlobal>-0.30</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
 			<HuntingStealth>0.50</HuntingStealth>
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>40</Steel>
@@ -256,6 +264,8 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarRangerArmour/EldarRangerArmour</wornGraphicPath>
 			<layers>
@@ -334,6 +344,8 @@
 			<WorkSpeedGlobal>-0.13</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
 			<PsychicSensitivity>0.10</PsychicSensitivity>
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>40</Steel>
@@ -439,6 +451,8 @@
 			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
 			<PsychicSensitivity>0.10</PsychicSensitivity>
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>50</Steel>
@@ -544,6 +558,8 @@
 			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
 			<PsychicSensitivity>0.10</PsychicSensitivity>
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>50</Steel>
@@ -680,6 +696,8 @@
 			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
 			<PsychicSensitivity>0.10</PsychicSensitivity>
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>50</Steel>

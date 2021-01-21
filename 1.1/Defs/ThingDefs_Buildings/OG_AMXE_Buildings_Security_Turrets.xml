@@ -820,6 +820,23 @@
     <defName>OGE_Turret_ShadowWeaver_Manual</defName>
     <label>shadow weaver</label>
     <description>A manned mortar that launches all kinds of shells. While it can inflict devastating damage, the mortar's inherent inaccuracy makes it more useful for attacking large fortifications than groups of enemies in the field.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/Eldar/Security/TurretHeavy_Base</texPath>
+      <drawSize>(4,4)</drawSize>
+      <damageData>
+        <rect>(0.38,0.2,0.56375,0.8)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+      </damageData>
+      <shadowData>
+        <offset>(-0.13,-0.87,-0.1)</offset>
+        <volume>(0.5,0.4,1.05)</volume>
+      </shadowData>
+    </graphicData>
+    <stuffCategories Inherit="false">
+      <!--li>Metallic</li-->
+    </stuffCategories>
+    <costStuffCount>0</costStuffCount>
     <comps>
       <li Class="CompProperties_Explosive">
         <wickTicks>240</wickTicks>
