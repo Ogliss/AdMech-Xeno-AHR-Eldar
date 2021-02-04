@@ -176,14 +176,6 @@
 				</value>
 			</li>			
 
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="OGE_Apparel_BansheeArmour"]/apparel/bodyPartGroups</xpath>
-				<value>
-					<li>Hands</li>
-					<li>Feet</li>
-				</value>
-			</li>
-
 			<!-- ========================= Eldar - Banshee Helmet ========================== -->
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="OGE_Apparel_BansheeArmourHelmet"]/statBases</xpath>
@@ -232,15 +224,7 @@
 				</value>
 			</li>			
 
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="OGE_Apparel_StrikingScorpionArmour"]/apparel/bodyPartGroups</xpath>
-				<value>
-					<li>Hands</li>
-					<li>Feet</li>
-				</value>
-			</li>
-
-			<!-- ========================= Eldar - Banshee Helmet ========================== -->
+			<!-- ========================= Eldar - Scoprion Helmet ========================== -->
 			
 			<!--li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="OGE_Apparel_BansheeArmourHelmet"]/statBases</xpath>

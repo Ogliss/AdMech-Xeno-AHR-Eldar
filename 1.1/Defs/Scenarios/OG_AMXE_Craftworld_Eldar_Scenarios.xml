@@ -135,6 +135,10 @@
 				<def>StartingReligion</def>
 				<pantheon>EldarPantheon</pantheon>
 			</li>
+			<li MayRequire="Corruption.Psykers"  Class="Corruption.Psykers.ScenPart_PsykerStart">
+				<def>PsykerStart</def>
+				<minPsykerCount>1</minPsykerCount>
+			</li>
 		</parts>
 	</scenario>
 </ScenarioDef>
