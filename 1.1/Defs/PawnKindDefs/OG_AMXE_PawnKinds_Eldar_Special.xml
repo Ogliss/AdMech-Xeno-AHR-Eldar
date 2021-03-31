@@ -13,13 +13,13 @@
     <race>OG_Alien_Eldar</race>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
-    <backstoryFilters>
+    <backstoryFiltersOverride>
       <li>
         <categories>
 			<li>Eldar</li>
         </categories>
       </li>
-    </backstoryFilters>
+    </backstoryFiltersOverride>
     <invNutrition>10.0</invNutrition>
     <inventoryOptions>
       <subOptionsChooseOne>

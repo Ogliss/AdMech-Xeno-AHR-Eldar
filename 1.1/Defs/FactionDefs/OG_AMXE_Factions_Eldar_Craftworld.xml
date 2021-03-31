@@ -25,9 +25,8 @@
     <backstoryFilters>
       <li>
         <categories>
-          <li>Eldar_Craftworld</li>
+			<li>Raider</li>
         </categories>
-        <commonality>0.95</commonality>
       </li>
     </backstoryFilters>
     <hairTags>
@@ -103,7 +102,6 @@
 		<li>
 			<kindDef>Peaceful</kindDef>
 			<options>
-				<Colonist_OG_Eldar_Craftworld>7</Colonist_OG_Eldar_Craftworld>
 				<OG_Eldar_Cadet>7</OG_Eldar_Cadet>
 				<!--
 				<OG_Gryinx_Eldar>100</OG_Gryinx_Eldar>
@@ -132,7 +130,6 @@
 				<Dromedary>2</Dromedary>
 			</carriers>
 			<guards>
-				<Colonist_OG_Eldar_Craftworld>7</Colonist_OG_Eldar_Craftworld>
 				<OG_Eldar_Cadet>7</OG_Eldar_Cadet>
 				<!--
 				<OG_Gryinx_Eldar>100</OG_Gryinx_Eldar>
@@ -151,7 +148,6 @@
 		<li>
 			<kindDef>Settlement</kindDef>
 			<options>
-				<Colonist_OG_Eldar_Craftworld>5</Colonist_OG_Eldar_Craftworld>
 				<OG_Eldar_Cadet>9</OG_Eldar_Cadet>
 				<!--
 				<OG_Gryinx_Eldar>100</OG_Gryinx_Eldar>

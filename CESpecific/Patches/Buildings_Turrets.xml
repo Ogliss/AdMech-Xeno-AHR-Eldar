@@ -12,7 +12,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[@Name="OGE_HeavyLaserTurret"]/thingClass</xpath>
 				<value>
-					<thingClass>AdeptusMechanicus.Building_LaserGunCE</thingClass>
+					<thingClass>AdeptusMechanicus.Lasers.Building_LaserGunCE</thingClass>
 				</value>
 			</li>
 			<!--===============  Shuriken Cannon turret ===============-->
@@ -224,7 +224,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs</xpath>
 				<value>
-					<ThingDef Class="AdeptusMechanicus.LaserBeamDefCE" ParentName="OG_Bullet_LaserGeneric">
+					<ThingDef Class="AdeptusMechanicus.Lasers.LaserBeamDefCE" ParentName="OG_Bullet_LaserGeneric">
 						<defName>OGE_Bullet_BrightlanceDual</defName>
 						<label>brightlance beam</label>
 						<description>A focused pinpoint laser beam which is strong enough to take an ordinary human arm off with one shot but is not as effective against the more durable alien bodies and stronger types of personal armour.</description>
@@ -240,13 +240,13 @@
 							<pelletCount>2</pelletCount>
 						</projectile>
 						<modExtensions>
-							<li Class="AdeptusMechanicus.EffectProjectileExtension">
-								<explosionMote>true</explosionMote>
+							<li Class="AdeptusMechanicus.ProjectileVFX">
+								
 								<explosionMoteSize>0.25</explosionMoteSize>
-								<ImpactMoteDef>Mote_YellowSparkFlash</ImpactMoteDef>
-								<ImpactMoteSize>1</ImpactMoteSize>
-								<ImpactGlowMoteDef>Mote_ExplosionFlash</ImpactGlowMoteDef>
-								<ImpactGlowMoteSize>2.5</ImpactGlowMoteSize>
+								<impactMoteDef>Mote_YellowSparkFlash</impactMoteDef>
+								<impactMoteSize>1</impactMoteSize>
+								<impactGlowMoteDef>Mote_ExplosionFlash</impactGlowMoteDef>
+								<impactGlowMoteSize>2.5</impactGlowMoteSize>
 							</li>
 						</modExtensions>
 					</ThingDef>
@@ -300,7 +300,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="OGE_Bullet_DistortCannon"]</xpath>
 				<value>
-					<ThingDef Class="AdeptusMechanicus.LaserBeamDefCE" ParentName="OG_Bullet_LaserGeneric">
+					<ThingDef Class="AdeptusMechanicus.Lasers.LaserBeamDefCE" ParentName="OG_Bullet_LaserGeneric">
 						<defName>OGE_Bullet_DistortCannon</defName>
 						<label>wraithcannon blast</label>
 						<textures>
@@ -322,13 +322,13 @@
 							<soundExplode>MeleeHit_Metal_ThunderHammer</soundExplode>
 						</projectile>
 						<modExtensions>
-							<li Class="AdeptusMechanicus.EffectProjectileExtension">
-								<explosionMote>true</explosionMote>
+							<li Class="AdeptusMechanicus.ProjectileVFX">
+								
 								<explosionMoteSize>0.25</explosionMoteSize>
-								<ImpactMoteDef>Mote_YellowSparkFlash</ImpactMoteDef>
-								<ImpactMoteSize>1</ImpactMoteSize>
-								<ImpactGlowMoteDef>Mote_ExplosionFlash</ImpactGlowMoteDef>
-								<ImpactGlowMoteSize>2.5</ImpactGlowMoteSize>
+								<impactMoteDef>Mote_YellowSparkFlash</impactMoteDef>
+								<impactMoteSize>1</impactMoteSize>
+								<impactGlowMoteDef>Mote_ExplosionFlash</impactGlowMoteDef>
+								<impactGlowMoteSize>2.5</impactGlowMoteSize>
 							</li>
 						</modExtensions>
 					</ThingDef>
@@ -405,8 +405,8 @@
 							<trailerMoteInterval>6</trailerMoteInterval>
 						  </li>
 						  <li Class="AdeptusMechanicus.GlowerProjectileExtension">
-							<GlowMoteDef>Mote_PlasmaGlow</GlowMoteDef>
-							<GlowMoteSize>6.5</GlowMoteSize>
+							<glowMoteDef>Mote_PlasmaGlow</glowMoteDef>
+							<glowMoteSize>6.5</glowMoteSize>
 						  </li>
 						</modExtensions>
 					</ThingDef>

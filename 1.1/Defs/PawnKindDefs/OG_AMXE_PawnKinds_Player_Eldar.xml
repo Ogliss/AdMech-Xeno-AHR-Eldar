@@ -46,7 +46,7 @@
 
   <PawnKindDef ParentName="BaseEldarPawnKind">
     <defName>Colonist_OG_Eldar_Craftworld</defName>
-    <label>Eldar colonist</label>
+    <label>colonist (Eldar)</label>
     <defaultFactionType>OG_Eldar_Craftworld_PlayerColony</defaultFactionType>
     <apparelTags>
       <li>Spacer</li>

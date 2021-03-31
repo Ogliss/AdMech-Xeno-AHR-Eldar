@@ -22,7 +22,7 @@ namespace AdeptusMechanicus.ExtensionMethods
 
         public static CompSoulStone SlotLoadable(this Pawn pawn)
         {
-            return pawn.TryGetComp<CompSoulStone>();
+            return pawn.TryGetCompFast<CompSoulStone>();
         }
     }
     

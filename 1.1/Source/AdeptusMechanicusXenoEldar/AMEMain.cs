@@ -27,14 +27,14 @@ namespace AdeptusMechanicus
                 research.AddRange(DarkEldarResearch);
                 Tags.Add("DE");
             }
-            ArmouryMain.DoRacialRestrictionsFor(eldar, Tags, research);
+            AlienRaceUtility.DoRacialRestrictionsFor(eldar, Tags, research);
             if (!AdeptusIntergrationUtility.enabled_XenobiologisDarkEldar)
             {
                 if (darkeldar != null)
                 {
                     research = DarkEldarResearch;
                     research.AddRange(AeldariResearch);
-                    ArmouryMain.DoRacialRestrictionsFor(darkeldar, "DE", research);
+                    AlienRaceUtility.DoRacialRestrictionsFor(darkeldar, "DE", research);
                 }
             }
         }

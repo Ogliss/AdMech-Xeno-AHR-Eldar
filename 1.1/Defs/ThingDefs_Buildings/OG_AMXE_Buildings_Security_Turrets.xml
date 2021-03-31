@@ -52,7 +52,7 @@
   </ThingDef>
 
   <ThingDef ParentName="OGE_Turret" Name="OGE_LaserTurret" Abstract="True"> 
-    <thingClass>AdeptusMechanicus.Building_LaserGun</thingClass>
+    <thingClass>AdeptusMechanicus.Lasers.Building_LaserGun</thingClass>
   </ThingDef>
 
 <!--
@@ -233,7 +233,7 @@
   </ThingDef>
 
   <ThingDef ParentName="OGE_HeavyTurret" Name="OGE_HeavyLaserTurret" Abstract="True"> 
-    <thingClass>AdeptusMechanicus.Building_LaserGun</thingClass>
+    <thingClass>AdeptusMechanicus.Lasers.Building_LaserGun</thingClass>
     <researchPrerequisites>
       <li>OG_Common_Tech_Weapons_Laser</li>
     </researchPrerequisites>
@@ -439,7 +439,7 @@
   </ThingDef>
 
   <!--=============== Brightlance turret ===============-->
-  <ThingDef ParentName="OGE_HeavyLaserTurret" Class="AdeptusMechanicus.Building_LaserGunDef">
+  <ThingDef ParentName="OGE_HeavyLaserTurret" Class="AdeptusMechanicus.Lasers.Building_LaserGunDef">
     <defName>OGE_Turret_Brightlance_Auto</defName>
     <label>brightlance turret</label>
     <description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged.</description>  
@@ -514,7 +514,7 @@
   </ThingDef>
 
   <!--=============== Twin-Linked Brightlance turret ===============-->
-  <ThingDef ParentName="OGE_HeavyLaserTurret" Class="AdeptusMechanicus.Building_LaserGunDef">
+  <ThingDef ParentName="OGE_HeavyLaserTurret" Class="AdeptusMechanicus.Lasers.Building_LaserGunDef">
     <defName>OGE_Turret_BrightlanceDual_Auto</defName>
     <label>twin-linked brightlance turret</label>
     <description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged.</description>   
@@ -599,7 +599,7 @@
   </ThingDef>
 
   <!--=============== D-Cannon turret ===============-->
-  <ThingDef ParentName="OGE_HeavyLaserTurret" Class="AdeptusMechanicus.Building_LaserGunDef">
+  <ThingDef ParentName="OGE_HeavyLaserTurret" Class="AdeptusMechanicus.Lasers.Building_LaserGunDef">
     <defName>OGE_Turret_DistortCannon_Auto</defName>
     <label>D-cannon turret</label>
     <description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged.</description>  
@@ -674,7 +674,7 @@
     </verbs>
   </ThingDef>
 
-	<ThingDef ParentName="OG_Bullet_LaserGeneric" Class="AdeptusMechanicus.LaserBeamDef">
+	<ThingDef ParentName="OG_Bullet_LaserGeneric" Class="AdeptusMechanicus.Lasers.LaserBeamDef">
 		<defName>OGE_Bullet_DistortCannon</defName>
 		<label>wraithcannon blast</label>
 		<textures>
@@ -809,8 +809,8 @@
         <trailerMoteInterval>6</trailerMoteInterval>
       </li>
       <li Class="AdeptusMechanicus.GlowerProjectileExtension">
-        <GlowMoteDef>Mote_PlasmaGlow</GlowMoteDef>
-        <GlowMoteSize>6.5</GlowMoteSize>
+        <glowMoteDef>Mote_PlasmaGlow</glowMoteDef>
+        <glowMoteSize>6.5</glowMoteSize>
       </li>
     </modExtensions>
   </ThingDef>
