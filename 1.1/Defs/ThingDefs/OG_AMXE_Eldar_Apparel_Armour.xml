@@ -7,7 +7,7 @@
 		<label>mesh armour</label>
 		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
 		<graphicData>
-			<texPath>Things/Item/Apparel/Eldar/EldarMeshArmour/EldarMeshArmourIcon</texPath>
+			<texPath>Things/Item/Apparel/Eldar/GuardianArmour/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<color>255,255,209</color>
@@ -57,7 +57,7 @@
 				<li MayRequire="CETeam.CombatExtended">Hands</li>
 				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarMeshArmour/EldarMeshArmour</wornGraphicPath>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/GuardianArmour/Base</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 				<li>Middle</li>
@@ -83,7 +83,7 @@
 				<li>
 					<shoulderPadType>Both</shoulderPadType>
 					<shaderType>CutoutComplex</shaderType>
-					<padTexPath>Things/Item/Apparel/Eldar/EldarMeshArmour/Pauldrons/Pauldron</padTexPath>
+					<padTexPath>Things/Item/Apparel/Eldar/GuardianArmour/Pauldrons/Pauldron</padTexPath>
 					<commonality>10</commonality>
 					<northtop>PostHead</northtop>
 					<southtop>Shell</southtop>
@@ -112,7 +112,7 @@
 		<label>dire avenger armour</label>
 		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
 		<graphicData>
-			<texPath>Things/Item/Apparel/Eldar/EldarMeshArmour/EldarMeshArmourIcon</texPath>
+			<texPath>Things/Item/Apparel/Eldar/GuardianArmour/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<color>49,100,157</color>
@@ -162,7 +162,7 @@
 				<li MayRequire="CETeam.CombatExtended">Hands</li>
 				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarMeshArmour/EldarMeshArmour</wornGraphicPath>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/GuardianArmour/Base</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 				<li>Middle</li>
@@ -188,7 +188,7 @@
 				<li>
 					<shoulderPadType>Both</shoulderPadType>
 					<shaderType>CutoutComplex</shaderType>
-					<padTexPath>Things/Item/Apparel/Eldar/EldarMeshArmour/Pauldrons/Pauldron</padTexPath>
+					<padTexPath>Things/Item/Apparel/Eldar/GuardianArmour/Pauldrons/Pauldron</padTexPath>
 					<commonality>10</commonality>
 					<northtop>PostHead</northtop>
 					<southtop>Shell</southtop>
@@ -218,7 +218,7 @@
 		<label>ranger armour</label>
 		<description>Ranger armour is similar to the Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons. The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply and heat-sensing lenses.\n\nRanger Armour also incorporates a camoline overcoat</description>
 		<graphicData>
-			<texPath>Things/Item/Apparel/Eldar/EldarRangerArmour/EldarRangerArmour</texPath>
+			<texPath>Things/Item/Apparel/Eldar/RangerArmour/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<color>255,255,209</color>
@@ -267,7 +267,7 @@
 				<li MayRequire="CETeam.CombatExtended">Hands</li>
 				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarRangerArmour/EldarRangerArmour</wornGraphicPath>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/RangerArmour/Base</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 				<li>Shell</li>
@@ -293,7 +293,7 @@
 				<li>
 					<shoulderPadType>Both</shoulderPadType>
 					<shaderType>CutoutComplex</shaderType>
-					<padTexPath>Things/Item/Apparel/Eldar/EldarRangerArmour/Pauldrons/Pauldron</padTexPath>
+					<padTexPath>Things/Item/Apparel/Eldar/RangerArmour/Pauldrons/Pauldron</padTexPath>
 					<commonality>10</commonality>
 					<northtop>PostHead</northtop>
 					<southtop>Shell</southtop>
@@ -322,7 +322,7 @@
 		<label>banshee armour</label>
 		<description>Like other Eldar Aspects, Howling Banshees wear lightweight synthetic bodysuits, reinforced with plates of psycho-sensitive bioplastics that will instantly harden to resist impacts. Those plates can also morph their shape in accordance with the wearer's movements, meaning the armour does not encumber the wearer in the slightest, affording both good protection with excellent mobility. The reinforced breastplate of the Aspect Warrior's armour bears her Spirit Stone, a precious item for all Eldar. This psycho-receptive gem is attuned to the individual so that at the moment of death, when the Eldar's psychic spirit is released, it is captured instead within the stone. Otherwise it is believed by the Eldar that the spirit would be released into the Warp, where the Chaos God Slaanesh, "She Who Thirsts," awaits to consume it. Contrary to popular belief, the small domes and blisters on the Howling Banshees' Aspect Armour are not extra gems, but small compartments that contain the suit's technical systems. A tabard or pennant is a common addition to the Howling Banshees' Aspect Armour. Its runic inscriptions name the shrine for which the Aspect Warrior is fighting and identifies the shrine's allegiance to its particular Craftworld. Regardless of a shrine's Craftworld of origin, the Aspect's colour scheme is usually bone white and flaming red. The red proclaims the Howling Banshees' ferocity and the burning passion that defines their variant of the Warrior Path. The bone white colour symbolises the eternal death the spirit of the Banshee brings to the foes of the Eldar.</description>
 		<graphicData>
-			<texPath>Things/Item/Apparel/Eldar/EldarBansheeArmour/EldarBansheeArmour</texPath>
+			<texPath>Things/Item/Apparel/Eldar/BansheeArmour/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>255,255,209</color>
 		</graphicData>
@@ -371,7 +371,7 @@
 				<li MayRequire="CETeam.CombatExtended">Hands</li>
 				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarBansheeArmour/EldarBansheeArmour</wornGraphicPath>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/BansheeArmour/Base</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 				<li>Middle</li>
@@ -399,7 +399,7 @@
 				<li>
 					<shoulderPadType>Both</shoulderPadType>
 					<shaderType>CutoutComplex</shaderType>
-					<padTexPath>Things/Item/Apparel/Eldar/EldarBansheeArmour/Pauldrons/Pauldron</padTexPath>
+					<padTexPath>Things/Item/Apparel/Eldar/BansheeArmour/Pauldrons/Pauldron</padTexPath>
 					<commonality>10</commonality>
 					<northtop>PostHead</northtop>
 					<southtop>Shell</southtop>
@@ -422,16 +422,16 @@
 	-->
 	</ThingDef>
 
-	<!--========================= Eldar - Striking Scorpion Armour ==========================-->
+	<!--========================= Eldar - Scorpion Armour ==========================-->
 	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
-		<defName>OGE_Apparel_StrikingScorpionArmour</defName>
+		<defName>OGE_Apparel_ScorpionArmour</defName>
 		<label>striking scorpion armour</label>
 		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
 		<graphicData>
-			<texPath>Things/Item/Apparel/Eldar/EldarStrikingScorpionArmour/EldarMeshArmourIcon</texPath>
+			<texPath>Things/Item/Apparel/Eldar/ScorpionArmour/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<color>255,255,209</color>
+			<color>101,179,69</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>1500</MarketValue>
@@ -478,13 +478,14 @@
 				<li MayRequire="CETeam.CombatExtended">Hands</li>
 				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarStrikingScorpionArmour/EldarMeshArmour</wornGraphicPath>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/ScorpionArmour/Base</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 				<li>Middle</li>
 			</layers>
 			<tags>
 				<li>EldarMilitary</li>
+				<li>StrikingScorpion</li>
 				<li>EVA</li>
 			</tags>
 			<defaultOutfitTags>
@@ -504,7 +505,7 @@
 				<li>
 					<shoulderPadType>Both</shoulderPadType>
 					<shaderType>CutoutComplex</shaderType>
-					<padTexPath>Things/Item/Apparel/Eldar/EldarStrikingScorpionArmour/Pauldrons/Pauldron</padTexPath>
+					<padTexPath>Things/Item/Apparel/Eldar/ScorpionArmour/Pauldrons/Pauldron</padTexPath>
 					<commonality>10</commonality>
 					<northtop>PostHead</northtop>
 					<southtop>Shell</southtop>
@@ -535,7 +536,7 @@
 		<tickerType>Normal</tickerType>
 		<thingClass>AdeptusMechanicus.PsychicShield</thingClass>
 		<graphicData>
-			<texPath>Things/Item/Apparel/Eldar/EldarWarlockArmour/EldarWarlockArmour</texPath>
+			<texPath>Things/Item/Apparel/Eldar/WarlockArmour/_Icon</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>255,255,209</color>
@@ -585,7 +586,7 @@
 				<li MayRequire="CETeam.CombatExtended">Hands</li>
 				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarWarlockArmour/EldarWarlockArmour</wornGraphicPath>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/WarlockArmour/Base</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 				<li>Middle</li>
@@ -613,7 +614,7 @@
 				<li>
 					<shoulderPadType>Both</shoulderPadType>
 					<shaderType>CutoutComplex</shaderType>
-					<padTexPath>Things/Item/Apparel/Eldar/EldarWarlockArmour/Pauldrons/Pauldron</padTexPath>
+					<padTexPath>Things/Item/Apparel/Eldar/WarlockArmour/Pauldrons/Pauldron</padTexPath>
 					<commonality>10</commonality>
 					<northtop>PostHead</northtop>
 					<southtop>Shell</southtop>
@@ -673,7 +674,7 @@
     <tickerType>Normal</tickerType>
     <thingClass>AdeptusMechanicus.PsychicShield</thingClass>
 		<graphicData>
-			<texPath>Things/Item/Apparel/Eldar/EldarRuneArmour/EldarRuneArmour</texPath>
+			<texPath>Things/Item/Apparel/Eldar/RuneArmour/_Icon</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>255,255,209</color>
@@ -723,8 +724,8 @@
 				<li MayRequire="CETeam.CombatExtended">Hands</li>
 				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Item/Apparel/Eldar/EldarRuneArmour/EldarRuneArmour</wornGraphicPath>
-			<!-- <wornGraphicPath>Things/Item/Apparel/Eldar/EldarWarlockArmour/EldarWarlockArmour</wornGraphicPath> -->
+			<wornGraphicPath>Things/Item/Apparel/Eldar/RuneArmour/Base</wornGraphicPath>
+			<!-- <wornGraphicPath>Things/Item/Apparel/Eldar/WarlockArmour/Base</wornGraphicPath> -->
 			<layers>
 				<li>Shell</li>
 				<li>Middle</li>
@@ -751,7 +752,7 @@
 				<li>
 					<shoulderPadType>Both</shoulderPadType>
 					<shaderType>CutoutComplex</shaderType>
-					<padTexPath>Things/Item/Apparel/Eldar/EldarRuneArmour/Pauldrons/Pauldron</padTexPath>
+					<padTexPath>Things/Item/Apparel/Eldar/RuneArmour/Pauldrons/Pauldron</padTexPath>
 					<commonality>10</commonality>
 					<northtop>PostHead</northtop>
 					<southtop>Shell</southtop>

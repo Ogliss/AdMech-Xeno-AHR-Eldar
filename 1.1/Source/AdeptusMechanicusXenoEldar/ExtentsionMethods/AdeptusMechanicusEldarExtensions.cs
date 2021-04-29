@@ -12,12 +12,12 @@ namespace AdeptusMechanicus.ExtensionMethods
     {
         public static bool isEldar(this Pawn pawn)
         {
-            return pawn.def == OGEldarThingDefOf.OG_Alien_Eldar;
+            return pawn.def == EldarThingDefOf.OG_Alien_Eldar;
         }
 
         public static bool isWraithConstruct(this Pawn pawn)
         {
-            return pawn.RaceProps.FleshType == OGEldarThingDefOf.OG_Flesh_Construct_Eldar;
+            return pawn.RaceProps.FleshType == EldarThingDefOf.OG_Flesh_Construct_Eldar;
         }
 
         public static CompSoulStone SlotLoadable(this Pawn pawn)

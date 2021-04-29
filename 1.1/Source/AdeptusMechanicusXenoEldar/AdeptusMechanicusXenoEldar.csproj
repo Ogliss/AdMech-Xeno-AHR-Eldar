@@ -47,13 +47,15 @@
     <Compile Include="Harmony\Settings\AMAMod_PlayableEldarSettings_Patch.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\Patches\TraitSet_HasTrait_Eldar_Patch.cs" />
-    <Compile Include="Utils\ThoughtWorker_DarkEldar_NeedSoul.cs" />
+    <Compile Include="ThoughtWorkers\ThoughtWorker_Eldar_NeedSoulstone.cs" />
     <Compile Include="WraithConstructs\CompSoulStone.cs" />
     <Compile Include="WraithConstructs\WraithPawn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utils\OGEldarDefOf.cs" />
+    <Compile Include="EldarDefOfs.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Utils\" />
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="1CompSlotLoadable">
       <HintPath>..\..\..\..\..\..\..\..\..\..\Users\User\Desktop\OgsTools\CompSlotLoadable\bin\Debug\1CompSlotLoadable.dll</HintPath>

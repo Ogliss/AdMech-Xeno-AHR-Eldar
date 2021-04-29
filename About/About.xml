@@ -42,12 +42,12 @@
 
 	This mod includes a compatability patch for the latest version of Combat Extended. Thanks for the assistance Saebbi!
 
-	Contents
-	Races:
+Contents
+Races:
 	Eldar - Humanlike
 	Wraithguard - Animal/mechanoid
 	
-	Apparel:
+Apparel:
 	Eldar Mesh Armour
 	Eldar Mesh Helmet
 	Eldar Avenger Armour
@@ -61,14 +61,31 @@
 	Eldar Rune Armour
 	Eldar Ghost Helmet
 	
-	Wargear:
+Wargear:
 	Grenade Packs (Plasma, Haywire, Melta, Hallucination)
 	Runes (Warding, Wrath, Fortune)
 	
-	Resources:
+Resources:
 	Wraithbone - a psycho active crafting material used in the almost all Eldar construction
 	Psychic Circuitry - eldar component counterpart
 	Spirit Stones - advanced eldar crafting component, that will eventually be needed for wraithguard/lord construction
 	
+Load Order info:
+	Humanoid Alien Races( if used, ideally this should be loaded as close to the top of your list as possible )
+	SRTS( if used )
+	Combat Extended( if used )
+	Astra Militarum Core( if used )
+	Astra offical addons( if used )
+	Corruption Core( if used )
+	Corruption offical addons( if used )
+	Armoury
+	Magos Xenobiologis( if used )
+	Playable Orkz,Eldar( This Mod ),Tau,Etc( if used ) order doesnt matter
+
+Credits:
+SirLaLaPyon: Textures for
+
+Ogliss: XML, C#, Textures for
+	Everything not listed above!
 	</description>
 </ModMetaData>

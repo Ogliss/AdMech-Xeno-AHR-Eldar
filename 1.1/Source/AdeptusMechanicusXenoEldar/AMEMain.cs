@@ -17,7 +17,7 @@ namespace AdeptusMechanicus
         public static List<ResearchProjectDef> DarkEldarResearch => DefDatabase<ResearchProjectDef>.AllDefs.Where(x => x.defName.Contains("OG_DarkEldar_Tech_")).ToList();
         static AMEMain()
         {
-            AlienRace.ThingDef_AlienRace eldar = OGEldarThingDefOf.OG_Alien_Eldar as AlienRace.ThingDef_AlienRace;
+            AlienRace.ThingDef_AlienRace eldar = EldarThingDefOf.OG_Alien_Eldar as AlienRace.ThingDef_AlienRace;
             AlienRace.ThingDef_AlienRace darkeldar = DefDatabase<ThingDef>.GetNamedSilentFail("OG_Alien_DarkEldar") as AlienRace.ThingDef_AlienRace;
             List<ResearchProjectDef> research = EldarResearch;
             List<string> Tags = new List<string>() { "E" };
