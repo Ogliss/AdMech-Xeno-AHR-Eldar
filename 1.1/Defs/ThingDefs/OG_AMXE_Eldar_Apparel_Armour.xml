@@ -13,7 +13,7 @@
 			<color>255,255,209</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>1500</MarketValue>
+			<!--MarketValue>1500</MarketValue-->
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToMake>60000</WorkToMake>
 			<ArmorRating_Blunt>0.92</ArmorRating_Blunt>
@@ -118,7 +118,7 @@
 			<color>49,100,157</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>1500</MarketValue>
+			<!--MarketValue>1500</MarketValue-->
 			<MaxHitPoints>225</MaxHitPoints>
 			<WorkToMake>65000</WorkToMake>
 			<ArmorRating_Blunt>0.95</ArmorRating_Blunt>
@@ -224,7 +224,7 @@
 			<color>255,255,209</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>1500</MarketValue>
+			<!--MarketValue>1500</MarketValue-->
 			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToMake>60000</WorkToMake>
 			<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
@@ -327,7 +327,7 @@
 			<color>255,255,209</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>1500</MarketValue>
+			<!--MarketValue>1500</MarketValue-->
 			<MaxHitPoints>225</MaxHitPoints>
 			<WorkToMake>60000</WorkToMake>
 			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
@@ -434,7 +434,7 @@
 			<color>101,179,69</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>1500</MarketValue>
+			<!--MarketValue>1500</MarketValue-->
 			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToMake>65000</WorkToMake>
 			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
@@ -542,7 +542,7 @@
 			<color>255,255,209</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>1500</MarketValue>
+			<!--MarketValue>1500</MarketValue-->
 			<MaxHitPoints>175</MaxHitPoints>
 			<WorkToMake>60000</WorkToMake>
 			<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
@@ -671,8 +671,8 @@
 		<defName>OGE_Apparel_RuneArmourFarseer</defName>
 		<label>farseer rune armour</label>
 		<description>Farseer Rune Armour is a protective wraithbone armour suit psychically moulded to its Eldar recipient. It provides greater protection than other, bulkier forms of armour, in part because its psychic energy can deflect a shot or blast before it hits the armour. Even lascannons and Plasma Weapons can be turned aside by Rune Armour. Rune Armour is worn only by Farseers.\n\nONLY WEARABLE BY ELDAR!</description>
-    <tickerType>Normal</tickerType>
-    <thingClass>AdeptusMechanicus.PsychicShield</thingClass>
+		<tickerType>Normal</tickerType>
+		<thingClass>AdeptusMechanicus.PsychicShield</thingClass>
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/RuneArmour/_Icon</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -680,7 +680,7 @@
 			<color>255,255,209</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>1500</MarketValue>
+			<!--MarketValue>1500</MarketValue-->
 			<MaxHitPoints>175</MaxHitPoints>
 			<WorkToMake>60000</WorkToMake>
 			<ArmorRating_Blunt>0.87</ArmorRating_Blunt>
@@ -745,59 +745,56 @@
 		<tradeTags>
 			<li>Apparel</li>
 		</tradeTags>
-    <comps>
-      <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
-        <compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
-			<PauldronEntries>
-				<li>
-					<shoulderPadType>Both</shoulderPadType>
-					<shaderType>CutoutComplex</shaderType>
-					<padTexPath>Things/Item/Apparel/Eldar/RuneArmour/Pauldrons/Pauldron</padTexPath>
-					<commonality>10</commonality>
-					<northtop>PostHead</northtop>
-					<southtop>Shell</southtop>
-					<easttop>PostHead</easttop>
-					<westtop>PostHead</westtop>
-				</li>
-			</PauldronEntries>
-			<!--NorthOffset>0,0.5,0</NorthOffset>
-			<SouthOffset>0,-0.001,0</SouthOffset>
-			<EastOffset>0,0.35,0</EastOffset>
-			<WestOffset>0,0.35,0</WestOffset-->
-      </li>
-	  <!--
-      <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
-        <compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
-			<PauldronEntries>
-				<li>
-					<shoulderPadType>Both</shoulderPadType>
-					<shaderType>CutoutComplex</shaderType>
-					<padTexPath>Things/Item/Apparel/Eldar/Overcoat/Robe</padTexPath>
-					<PrimaryColor>1,1,1</PrimaryColor>
-					<commonality>10</commonality>
-				</li>
-			</PauldronEntries>
-			<NorthOffset>0,-0.13,0</NorthOffset>
-			<SouthOffset>0,-0.027,0</SouthOffset>
-			<EastOffset>0,-0.15,0</EastOffset>
-			<WestOffset>0,-0.15,0</WestOffset>
-      </li>
-	  
-	  -->
-    </comps>
-	  
-	<!--
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-		<li>
-			<weight>10</weight>
-			<max>(1,1,0.82)</max>
-			<min>(0.906,0.937,0.776)</min>
-		</li>
-      </options>
-    </colorGenerator>
-	-->
+		<comps>
+		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+				<PauldronEntries>
+					<li>
+						<shoulderPadType>Both</shoulderPadType>
+						<shaderType>CutoutComplex</shaderType>
+						<padTexPath>Things/Item/Apparel/Eldar/RuneArmour/Pauldrons/Pauldron</padTexPath>
+						<commonality>10</commonality>
+						<northtop>PostHead</northtop>
+						<southtop>Shell</southtop>
+						<easttop>PostHead</easttop>
+						<westtop>PostHead</westtop>
+					</li>
+				</PauldronEntries>
+				<!--NorthOffset>0,0.5,0</NorthOffset>
+				<SouthOffset>0,-0.001,0</SouthOffset>
+				<EastOffset>0,0.35,0</EastOffset>
+				<WestOffset>0,0.35,0</WestOffset-->
+		  </li>
+		  <!--
+		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+				<PauldronEntries>
+					<li>
+						<shoulderPadType>Both</shoulderPadType>
+						<shaderType>CutoutComplex</shaderType>
+						<padTexPath>Things/Item/Apparel/Eldar/Overcoat/Robe</padTexPath>
+						<PrimaryColor>1,1,1</PrimaryColor>
+						<commonality>10</commonality>
+					</li>
+				</PauldronEntries>
+				<NorthOffset>0,-0.13,0</NorthOffset>
+				<SouthOffset>0,-0.027,0</SouthOffset>
+				<EastOffset>0,-0.15,0</EastOffset>
+				<WestOffset>0,-0.15,0</WestOffset>
+		  </li>
+		  -->
+		</comps>
+		<!--
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+				<weight>10</weight>
+				<max>(1,1,0.82)</max>
+				<min>(0.906,0.937,0.776)</min>
+			</li>
+		  </options>
+		</colorGenerator>
+		-->
 	</ThingDef>
-
 	
 </Defs>
