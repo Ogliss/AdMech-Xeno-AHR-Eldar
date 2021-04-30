@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!--========================= Eldar - Headgear ==========================-->
-	<!--========================= Eldar - Mesh Armour Helmet ==========================-->
+	<!--========================= Eldar - Guardian Helmet ==========================-->
     <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_MeshArmourHelmet</defName>
 		<label>mesh armour helmet</label>
@@ -17,19 +17,17 @@
 			<!--MarketValue>500</MarketValue-->
 			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToMake>30000</WorkToMake>
-			<ArmorRating_Blunt>0.92</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.92</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.92</ArmorRating_Heat>
-			<Insulation_Heat>3</Insulation_Heat>
+			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<Insulation_Heat>2</Insulation_Heat>
 			<Insulation_Cold>-10</Insulation_Cold>
 			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
 			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
-			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
-			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
-			<PsychicSensitivity>-0.10</PsychicSensitivity>
+			<WorkSpeedGlobal>-0.005</WorkSpeedGlobal>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>30</Steel>
@@ -111,9 +109,9 @@
 			<!--MarketValue>500</MarketValue-->
 			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToMake>30000</WorkToMake>
-			<ArmorRating_Blunt>0.95</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.95</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.95</ArmorRating_Heat>
+			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.90</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.90</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
 			<Insulation_Cold>-10</Insulation_Cold>
 			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
@@ -189,7 +187,7 @@
 		-->
 	</ThingDef>
 
-	<!--========================= Eldar - Ranger Armour Helmet ==========================-->
+	<!--========================= Eldar - Ranger Helmet ==========================-->
     <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_RangerArmourHelmet</defName>
 		<label>ranger helmet</label>
@@ -284,7 +282,7 @@
 		-->
 	</ThingDef>
 
-	<!--========================= Eldar - Banshee Armour Helmet ==========================-->
+	<!--========================= Eldar - Banshee Helmet ==========================-->
     <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_BansheeArmourHelmet</defName>
 		<label>banshee mask</label>
@@ -376,7 +374,7 @@
 		-->
 	</ThingDef>
 
-	<!--========================= Eldar - Scorpion Armour Helmet ==========================-->
+	<!--========================= Eldar - Scorpion Helmet ==========================-->
     <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_ScorpionArmourHelmet</defName>
 		<label>scorpion helmet</label>
@@ -386,6 +384,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<color>101,179,69</color>
+			<colorTwo>61,147,83</colorTwo>
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -458,20 +457,39 @@
 							<texPath>Things/Item/Apparel/Eldar/ScorpionHelmet/Plumes/Base</texPath>
 							<!--graphicClass>Graphic_Single</graphicClass-->
 							<shaderType>Cutout</shaderType>
+							<!--color>255,255,255</color-->
 						</graphicData>
+						<commonality>1</commonality>
+						<maxQuality>Excellent</maxQuality>
+						<useParentPrimaryColor>false</useParentPrimaryColor>
 						<UseBodytypeTextures>false</UseBodytypeTextures>
-						<commonality>10</commonality>
-						<EastOffset>-0.45,-0.35,0</EastOffset>
-						<WestOffset>0.45,0.35,0</WestOffset>
+						<EastOffset>-0.425,-0.35,0</EastOffset>
+						<WestOffset>0.425,0.35,0</WestOffset>
+					</li>
+					<li>
+						<graphicData>
+							<texPath>Things/Item/Apparel/Eldar/ScorpionHelmet/Plumes/Flip</texPath>
+							<!--graphicClass>Graphic_Single</graphicClass-->
+							<shaderType>Cutout</shaderType>
+							<!--color>255,255,255</color-->
+						</graphicData>
+						<commonality>1</commonality>
+						<maxQuality>Excellent</maxQuality>
+						<useParentPrimaryColor>false</useParentPrimaryColor>
+						<UseBodytypeTextures>false</UseBodytypeTextures>
+						<EastOffset>-0.425,0.35,0</EastOffset>
+						<WestOffset>0.425,-0.35,0</WestOffset>
 					</li>
 					<li>
 						<graphicData>
 							<texPath>Things/Item/Apparel/Eldar/ScorpionHelmet/Plumes/Exarch</texPath>
 							<!--graphicClass>Graphic_Single</graphicClass-->
-							<shaderType>CutoutComplex</shaderType>
+							<shaderType>Cutout</shaderType>
 						</graphicData>
+						<commonality>10</commonality>
+						<useParentPrimaryColor>false</useParentPrimaryColor>
+						<minQuality>Masterwork</minQuality>
 						<UseBodytypeTextures>false</UseBodytypeTextures>
-						<commonality>1</commonality>
 						<EastOffset>0,0.0,0</EastOffset>
 						<WestOffset>0,0.0,0</WestOffset>
 					</li>
