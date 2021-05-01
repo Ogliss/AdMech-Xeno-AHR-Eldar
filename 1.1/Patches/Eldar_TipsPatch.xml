@@ -11,6 +11,7 @@
 				<xpath>/Defs/TipSetDef[defName = "GameplayTips"]/tips</xpath>
 				<value>			
 					<li>Eldar weapons and technology can only be produced/researched by Eldar</li>
+					<li>Ask not the Eldar a question, for they will give you three answers, all of which are true and terrifying to know. - Inquisitor Czevak</li>
 				</value>
 			</li>
 		</operations>	
