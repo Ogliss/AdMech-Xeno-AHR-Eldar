@@ -21,7 +21,7 @@ namespace AdeptusMechanicus.HarmonyInstance
         {
             if (___pawn != null)
             {
-            if (tDef == TraitDefOf.Beauty || tDef == OGTraitDefOf.Nimble)
+            if (tDef == TraitDefOf.Beauty || tDef == AdeptusTraitDefOf.Nimble)
             {
                 if (___pawn.isEldar())
                 {

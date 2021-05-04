@@ -89,7 +89,13 @@
             </forcedRaceTraitEntries>
             <alienPartGenerator>
 				<customDrawSize>(0.8, 1.0)</customDrawSize>
+				<!--customHeadDrawSize>(1.00, 1.00)</customHeadDrawSize-->
                 <aliencrowntypes>
+                    <!--li>Eldar_Head_Gaunt</li>
+                    <li>Eldar_Head_Pointy</li>
+                    <li>Eldar_Head_Square</li>
+                    <li>Eldar_Head_Straight</li>
+                    <li>Eldar_Head_Triangle</li-->
                     <li>Average_Normal</li>
                     <li>Narrow_Normal</li>
                     <li>Average_Wide</li>
@@ -106,7 +112,6 @@
 		    </chemicalSettings>
             <humanRecipeImport>true</humanRecipeImport>
 			<notXenophobistTowards>
-			  <li>OG_Alien_Eldar</li>
 			  <li>OG_Alien_Eldar</li>
 			</notXenophobistTowards>
 			<factionRelations>
@@ -203,13 +208,13 @@
 			</factionRelations>
 		</generalSettings>
         <graphicPaths>
+            <li>
+                <head>Things/Pawn/Humanlike/Eldar/Head/</head>
+                <body>Things/Pawn/Humanlike/Eldar/Bodies/</body>
+            </li>
 			<!--
             <li>
-                <head>Things/Eldar/Heads/</head>
-            </li>
-            <li>
-                <body>Things/Eldar/Bodies/</body>
-                <head>Things/Eldar/Heads/</head>
+                <head>Things/Pawn/Humanlike/Eldar/Head/</head>
             </li>
 			-->
         </graphicPaths>

@@ -28,7 +28,7 @@ namespace AdeptusMechanicus.HarmonyInstance
                         __result = ___pawn.gender == Gender.Male ? 1 : 2;
                     }
                     else
-                    if (tDef == OGTraitDefOf.Nimble)
+                    if (tDef == AdeptusTraitDefOf.Nimble)
                     {
                         __result = 0;
                     }

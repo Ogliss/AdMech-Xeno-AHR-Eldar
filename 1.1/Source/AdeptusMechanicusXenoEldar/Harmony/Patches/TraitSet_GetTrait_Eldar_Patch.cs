@@ -18,7 +18,7 @@ namespace AdeptusMechanicus.HarmonyInstance
     {
         private static Trait beautyEldarMale = new Trait(TraitDefOf.Beauty, 1);
         private static Trait beautyEldarFemale = new Trait(TraitDefOf.Beauty, 2);
-        private static Trait nimble = new Trait(OGTraitDefOf.Nimble);
+        private static Trait nimble = new Trait(AdeptusTraitDefOf.Nimble);
         [HarmonyPostfix]
         public static void Postfix(TraitDef tDef, Pawn ___pawn, ref Trait __result)
         {
@@ -30,7 +30,7 @@ namespace AdeptusMechanicus.HarmonyInstance
                     {
                         __result = ___pawn.gender == Gender.Male ? beautyEldarMale : beautyEldarFemale;
                     }
-                    if (tDef == OGTraitDefOf.Nimble)
+                    if (tDef == AdeptusTraitDefOf.Nimble)
                     {
                         __result = nimble;
                     }

@@ -27,6 +27,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
+			<ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn>
 			<WorkSpeedGlobal>-0.005</WorkSpeedGlobal>
 		</equippedStatOffsets>
 		<costList>
@@ -97,7 +98,7 @@
     <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_DireAvengerHelmet</defName>
 		<label>dire avenger helmet</label>
-		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
+		<description>Each warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. As a standard Dire Avenger, the helmet is distinctively tall with a long top crest of exotic animal hair, often dyed to match the parent Craftworld's colours.</description>
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/DireAvengerHelmet/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -191,7 +192,7 @@
     <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_RangerArmourHelmet</defName>
 		<label>ranger helmet</label>
-		<description>Ranger armour is similar to the Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons. The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply and heat-sensing lenses.\n\nRanger Armour also incorporates a camoline overcoat, an independent air supply and heat-sensing lenses.</description>
+		<description>Ranger armour is a mesh suit with Eldar carapace plates attached to it. As a result, it is very flexible, allowing Rangers to move freely. However, this flexibility comes at the expense of protection, offering protection similar to Imperial Flak armour. Another feature is the intergration of a Cameleoline overcoat, which helps Rangers to blend into their surroundings, especially in poorly-lit environments.</description>
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/RangerHelmet/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -203,9 +204,9 @@
 			<!--MarketValue>500</MarketValue-->
 			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToMake>30000</WorkToMake>
-			<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.85</ArmorRating_Heat>
+			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
 			<Insulation_Cold>10</Insulation_Cold>
 			<Bulk MayRequire="CETeam.CombatExtended">2.5</Bulk>
@@ -374,16 +375,110 @@
 		-->
 	</ThingDef>
 
+	<!--========================= Eldar - Hawk Helmet ==========================-->
+    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
+		<defName>OGE_Apparel_HawkHelmet</defName>
+		<label>swooping Hawk helmet</label>
+		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. A standard Howling Banshees Aspect Warrior's Banshee Mask is tall with their long flowing hair spilling from the top of it like a lion's mane. Their distinctive Banshee Masks contain psychosonic aplifiers that magnify their keening battle screams into mind-destroying shockwaves. This inflicts severe damage to the central nervous system of the Eldar warrior's foe, inspiring feeling of mortal terror and causing momentary paralysis. By custom, it is this helmet that marks the Aspect Warriors as the protectors and avengers of their Craftworld. It bears the Howling Banshees Aspect rune traced upon its forehead.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/HawkHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>0,129,148</color> <!-- HAWK TURQUOISE -->
+			<colorTwo>0,111,69</colorTwo> <!-- SNOT GREEN -->
+		</graphicData>
+		<statBases>
+			<Mass>1</Mass>
+			<!--MarketValue>500</MarketValue-->
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>30000</WorkToMake>
+			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.06</ArmorRating_Heat>
+			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.01</MoveSpeed>
+			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<OGE_Wraithbone>20</OGE_Wraithbone>
+			<OGE_Component>10</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/HawkHelmet/Base</wornGraphicPath>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>EldarMilitary</li>
+				<li>EldarHawk</li>
+				<li>EldarHawkHeadgear</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>OGEHeadgear</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Headgear</li>
+		</tradeTags>
+		<tickerType>Normal</tickerType>
+		<comps>     
+			  <li Class="AdeptusMechanicus.CompProperties_EyeProtectionApparel">
+			  <Chance>1</Chance>
+			</li>
+			  <li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
+			  <Chance>1</Chance>
+			</li>
+		</comps>
+		<modExtensions>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingGasMask</hediff>
+			</li>
+		</modExtensions>
+		<!--
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+				<weight>10</weight>
+				<max>(1,1,0.82)</max>
+				<min>(0.906,0.937,0.776)</min>
+			</li>
+		  </options>
+		</colorGenerator>
+		-->
+	</ThingDef>
+
 	<!--========================= Eldar - Scorpion Helmet ==========================-->
     <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_ScorpionArmourHelmet</defName>
 		<label>striking scorpion helmet</label>
-		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. A standard Howling Banshees Aspect Warrior's Banshee Mask is tall with their long flowing hair spilling from the top of it like a lion's mane. Their distinctive Banshee Masks contain psychosonic aplifiers that magnify their keening battle screams into mind-destroying shockwaves. This inflicts severe damage to the central nervous system of the Eldar warrior's foe, inspiring feeling of mortal terror and causing momentary paralysis. By custom, it is this helmet that marks the Aspect Warriors as the protectors and avengers of their Craftworld. It bears the Howling Banshees Aspect rune traced upon its forehead.</description>
+		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. A standard Striking Scorpions warrior helmet is distinctively tall and swept back and incorporates a pair of weapon pods positioned and shaped much like the mandibles of a scorpion. Each pod houses a mandible blaster, or Mandiblaster, a unique and deadly device also known as the Sting of the Scorpion.</description>
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/ScorpionHelmet/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<color>101,179,69</color>
+			<color>101,179,69</color> <!-- SCORPION GREEN -->
+			<colorTwo>0,111,69</colorTwo> <!-- SNOT GREEN -->
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -521,7 +616,7 @@
     <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_DragonArmourHelmet</defName>
 		<label>fire dragon helmet</label>
-		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. A standard Howling Banshees Aspect Warrior's Banshee Mask is tall with their long flowing hair spilling from the top of it like a lion's mane. Their distinctive Banshee Masks contain psychosonic aplifiers that magnify their keening battle screams into mind-destroying shockwaves. This inflicts severe damage to the central nervous system of the Eldar warrior's foe, inspiring feeling of mortal terror and causing momentary paralysis. By custom, it is this helmet that marks the Aspect Warriors as the protectors and avengers of their Craftworld. It bears the Howling Banshees Aspect rune traced upon its forehead.</description>
+		<description>Each warrior Aspect has its own distinctive helmet, and within each shrine of the Aspect the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. A standard Fire Dragon Aspect Warrior's helmet is distinctively tall with a long top crest. By custom, it is this helmet that marks the Aspect Warriors as the protectors and avengers of their Craftworld. It bears the rune of the Fire Dragons traced upon its forehead.</description>
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/DragonHelmet/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -590,6 +685,99 @@
 			</li>
 			  <li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
 			  <Chance>1</Chance>
+			</li>
+		</comps>
+		<modExtensions>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingGasMask</hediff>
+			</li>
+		</modExtensions>
+		<!--
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+				<weight>10</weight>
+				<max>(1,1,0.82)</max>
+				<min>(0.906,0.937,0.776)</min>
+			</li>
+		  </options>
+		</colorGenerator>
+		-->
+	</ThingDef>
+
+	<!--========================= Eldar - Spider Helmet ==========================-->
+    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
+		<defName>OGE_Apparel_SpiderHelmet</defName>
+		<label>warp spider helmet</label>
+		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. For a standard Warp Spider, the helmet is swept back and comes to a slight point.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/SpiderHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>238,213,172</color> <!-- BLEACHED BONE -->
+			<colorTwo>168,32,20</colorTwo> <!-- MECHRITE RED -->
+		</graphicData>
+		<statBases>
+			<Mass>1</Mass>
+			<!--MarketValue>500</MarketValue-->
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>30000</WorkToMake>
+			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.06</ArmorRating_Heat>
+			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.01</MoveSpeed>
+			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<OGE_Wraithbone>20</OGE_Wraithbone>
+			<OGE_Component>10</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/SpiderHelmet/Base</wornGraphicPath>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>EldarMilitary</li>
+				<li>EldarWarpSpider</li>
+				<li>EldarWarpSpiderHeadgear</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>OGEHeadgear</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Headgear</li>
+		</tradeTags>
+		<tickerType>Normal</tickerType>
+		<comps>     
+			<li Class="AdeptusMechanicus.CompProperties_EyeProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
+				<Chance>1</Chance>
 			</li>
 		</comps>
 		<modExtensions>

@@ -17,26 +17,21 @@ namespace AdeptusMechanicus
         public static List<ResearchProjectDef> DarkEldarResearch => DefDatabase<ResearchProjectDef>.AllDefs.Where(x => x.defName.Contains("OG_DarkEldar_Tech_")).ToList();
         static AMEMain()
         {
-            AlienRace.ThingDef_AlienRace eldar = EldarThingDefOf.OG_Alien_Eldar as AlienRace.ThingDef_AlienRace;
-            AlienRace.ThingDef_AlienRace darkeldar = DefDatabase<ThingDef>.GetNamedSilentFail("OG_Alien_DarkEldar") as AlienRace.ThingDef_AlienRace;
-            List<ResearchProjectDef> research = EldarResearch;
-            List<string> Tags = new List<string>() { "E" };
-            research.AddRange(AeldariResearch);
-            if (darkeldar == null)
+            List<string> blackTags = new List<string>() { "I", "C" };
+            List<ResearchProjectDef> blackProjects = new List<ResearchProjectDef>();
+            blackProjects.AddRange(ArmouryMain.ReseachImperial);
+            blackProjects.AddRange(ArmouryMain.ReseachChaos);
+
+            List<ResearchProjectDef> whiteProjects = EldarResearch;
+            List<string> whiteTags = new List<string>() { "E" };
+            whiteProjects.AddRange(AeldariResearch);
+            if (EldarThingDefOf.OG_Alien_DarkEldar == null)
             {
-                research.AddRange(DarkEldarResearch);
-                Tags.Add("DE");
+                whiteProjects.AddRange(DarkEldarResearch);
+                whiteTags.Add("DE");
             }
-            AlienRaceUtility.DoRacialRestrictionsFor(eldar, Tags, research);
-            if (!AdeptusIntergrationUtility.enabled_XenobiologisDarkEldar)
-            {
-                if (darkeldar != null)
-                {
-                    research = DarkEldarResearch;
-                    research.AddRange(AeldariResearch);
-                    AlienRaceUtility.DoRacialRestrictionsFor(darkeldar, "DE", research);
-                }
-            }
+
+            AlienRaceUtility.DoRacialRestrictionsFor(EldarThingDefOf.OG_Alien_Eldar, whiteTags, blackTags, whiteProjects, blackProjects);
         }
 
     }

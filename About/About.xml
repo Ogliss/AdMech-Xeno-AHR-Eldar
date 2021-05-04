@@ -45,21 +45,33 @@
 Contents
 Races:
 	Eldar - Humanlike
-	Wraithguard - Animal/mechanoid
+	Wraithguard - Tool User
 	
+Items:
+	Craftworld Colours: 
+		Items tagged with CC allow you to toggle between variants for each craftworld when the items on the ground
+	Eldar Only: 
+		Items tagged with EO are Only useable by Eldar.
+		
 Apparel:
-	Eldar Mesh Armour
-	Eldar Mesh Helmet
-	Eldar Avenger Armour
-	Eldar Avenger Helmet
-	Eldar Ranger Armour
-	Eldar Ranger Helmet
-	Eldar Banshee Armour
-	Eldar Banshee Helmet
-	Eldar Warlock Armour
-	Eldar Warlock Helmet
-	Eldar Rune Armour
-	Eldar Ghost Helmet
+	Mesh Armour (EO)
+	Mesh Helmet (EO)
+	Ranger Armour (EO)
+	Ranger Helmet (EO)
+	Dire Avenger Armour (EO)
+	Dire Avenger Helmet (EO)
+	Howling Banshee Armour (EO)
+	Howling Banshee Helmet (EO)
+	Striking Scorpion Armour (EO)
+	Striking Scorpion Helmet (EO)
+	Fire Dragon Armour (EO)
+	Fire Dragon Helmet (EO)
+	Warp Spider Armour (EO)
+	Warp Spider Helmet (EO)
+	Warlock Rune Armour (EO)
+	Warlock Helmet (EO)
+	Farseer Rune Armour (EO)
+	Ghost Helmet (EO)
 	
 Wargear:
 	Grenade Packs (Plasma, Haywire, Melta, Hallucination)
@@ -84,6 +96,11 @@ Load Order info:
 
 Credits:
 SirLaLaPyon: Textures for
+
+Pagoda: Textures for
+	Fire Dragon Armour, Helmet
+	Striking Scorpion Armour, Helmet
+	Warp Spider Armour, Helmet
 
 Ogliss: XML, C#, Textures for
 	Everything not listed above!

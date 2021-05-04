@@ -32,6 +32,8 @@ namespace AdeptusMechanicus
 
         // Humanlike Race Defs
         public static AlienRace.ThingDef_AlienRace OG_Alien_Eldar;
+        [MayRequireDarkEldar]
+        public static AlienRace.ThingDef_AlienRace OG_Alien_DarkEldar;
 
         public static FleshTypeDef OG_Flesh_Construct_Eldar;
         /*
