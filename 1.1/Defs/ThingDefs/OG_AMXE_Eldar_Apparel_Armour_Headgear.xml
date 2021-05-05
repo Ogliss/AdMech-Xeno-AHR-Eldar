@@ -287,7 +287,7 @@
     <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_BansheeArmourHelmet</defName>
 		<label>howling banshee mask</label>
-		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. A standard Howling Banshees Aspect Warrior's Banshee Mask is tall with their long flowing hair spilling from the top of it like a lion's mane. Their distinctive Banshee Masks contain psychosonic aplifiers that magnify their keening battle screams into mind-destroying shockwaves. This inflicts severe damage to the central nervous system of the Eldar warrior's foe, inspiring feeling of mortal terror and causing momentary paralysis. By custom, it is this helmet that marks the Aspect Warriors as the protectors and avengers of their Craftworld. It bears the Howling Banshees Aspect rune traced upon its forehead.</description>
+		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. A standard Howling Banshees Aspect Warrior's Banshee Mask is tall with their long flowing hair spilling from the top of it like a lion's mane. Their distinctive Banshee Masks contain psychosonic aplifiers that magnify their keening battle screams into mind-destroying shockwaves. This inflicts severe damage to the central nervous system of the Eldar warrior's foe, inspiring feeling of mortal terror and causing momentary paralysis.</description>
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/BansheeHelmet/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -379,7 +379,7 @@
     <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_HawkHelmet</defName>
 		<label>swooping Hawk helmet</label>
-		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. A standard Howling Banshees Aspect Warrior's Banshee Mask is tall with their long flowing hair spilling from the top of it like a lion's mane. Their distinctive Banshee Masks contain psychosonic aplifiers that magnify their keening battle screams into mind-destroying shockwaves. This inflicts severe damage to the central nervous system of the Eldar warrior's foe, inspiring feeling of mortal terror and causing momentary paralysis. By custom, it is this helmet that marks the Aspect Warriors as the protectors and avengers of their Craftworld. It bears the Howling Banshees Aspect rune traced upon its forehead.</description>
+		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. For a standard Swooping Hawk, the helmet is distinctively tall and swept back, allowing for better aerodynamics.</description>
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/HawkHelmet/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
