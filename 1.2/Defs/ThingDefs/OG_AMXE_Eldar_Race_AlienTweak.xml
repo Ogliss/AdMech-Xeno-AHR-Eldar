@@ -167,7 +167,7 @@
 						<alignWithHead>true</alignWithHead>
 						<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 						<drawnInBed>true</drawnInBed>
-						<layerOffset>-0.2</layerOffset>
+						<layerOffset>-0.27</layerOffset>
 						<offsets>
 							  <south>
 								<bodyTypes>
