@@ -331,6 +331,7 @@
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/BansheeArmour/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 			<color>238,213,172</color> <!-- BLEACHED BONE -->
 			<colorTwo>168,32,20</colorTwo> <!-- MECHRITE RED -->
 		</graphicData>
