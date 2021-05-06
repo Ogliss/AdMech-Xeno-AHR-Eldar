@@ -371,14 +371,28 @@
 						<maxQuality>Excellent</maxQuality>
 						<useParentPrimaryColor>false</useParentPrimaryColor>
 						<UseBodytypeTextures>false</UseBodytypeTextures>
-						<EastOffset>-0.425,-0.35,0</EastOffset>
-						<WestOffset>0.425,0.35,0</WestOffset>
+						<EastOffset>-0.0,0.0,0.0</EastOffset>
+						<WestOffset>0.0,0.0,0.0</WestOffset>
+					</li>
+					<li>
+						<graphicData>
+							<texPath>Things/Item/Apparel/Eldar/BansheeHelmet/Plume/Flip</texPath>
+							<!--graphicClass>Graphic_Single</graphicClass-->
+							<shaderType>Cutout</shaderType>
+							<!--color>255,255,255</color-->
+						</graphicData>
+						<commonality>1</commonality>
+						<maxQuality>Excellent</maxQuality>
+						<useParentPrimaryColor>false</useParentPrimaryColor>
+						<UseBodytypeTextures>false</UseBodytypeTextures>
+						<EastOffset>-0.0,0.0,0.0</EastOffset>
+						<WestOffset>0.0,0.0,0.0</WestOffset>
 					</li>
 				</ExtrasEntries>
-				<NorthOffset>0,0.35,0</NorthOffset>
-				<SouthOffset>0,0.0,0</SouthOffset>
-				<EastOffset>0,0.0,0</EastOffset>
-				<WestOffset>0,0.0,0</WestOffset>
+				<NorthOffset>0.0,0.35,0.0</NorthOffset>
+				<SouthOffset>0.0,-0.35,0.0</SouthOffset>
+				<EastOffset>0.0,-0.35,0.0</EastOffset>
+				<WestOffset>0.0,-0.35,0.0</WestOffset>
 			</li>
 		</comps>
 		<modExtensions>

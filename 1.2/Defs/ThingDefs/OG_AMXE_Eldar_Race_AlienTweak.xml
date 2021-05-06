@@ -160,7 +160,7 @@
 					</li>
 					<!-- Ears -->
 					<li Class="AdeptusMechanicus.LinkedBodyAddon">
-						<path>Things/Pawn/Humanlike/Eldar/Head/Ears/Eldar_EarL</path>
+						<path>Things/Pawn/Humanlike/Eldar/Head/Ears/Eldar_Ear_L</path>
 						<debug>false</debug>
 						<bodyPart>left ear</bodyPart>
 						<inFrontOfBody>true</inFrontOfBody>
@@ -213,7 +213,7 @@
 						</hiddenUnderApparelFor>
 					</li>
 					<li Class="AdeptusMechanicus.LinkedBodyAddon">
-						<path>Things/Pawn/Humanlike/Eldar/Head/Ears/Eldar_EarR</path>
+						<path>Things/Pawn/Humanlike/Eldar/Head/Ears/Eldar_Ear_R</path>
 						<debug>false</debug>
 						<bodyPart>right ear</bodyPart>
 						<inFrontOfBody>true</inFrontOfBody>
