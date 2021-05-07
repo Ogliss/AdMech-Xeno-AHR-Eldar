@@ -293,6 +293,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<color>238,213,172</color> <!-- BLEACHED BONE -->
+			<colorTwo>25,85,60</colorTwo> <!-- DARK ANGEL GREEN -->
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -515,8 +516,8 @@
 			<texPath>Things/Item/Apparel/Eldar/DragonHelmet/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<!--color>249,185,8</color-->
-			<color>197,160,9</color>
+			<colorTwo>197,160,9</colorTwo>
+			<color>244,121,32</color> <!-- FIERY ORANGE -->
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -752,8 +753,8 @@
 			<texPath>Things/Item/Apparel/Eldar/SpiderHelmet/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<color>238,213,172</color> <!-- BLEACHED BONE -->
-			<colorTwo>168,32,20</colorTwo> <!-- MECHRITE RED -->
+			<color>168,32,20</color> <!-- MECHRITE RED -->
+			<colorTwo>26,33,61</colorTwo> <!-- NECRON ABYSS -->
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -845,8 +846,8 @@
 			<texPath>Things/Item/Apparel/Eldar/ReaperHelmet/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<color>238,213,172</color> <!-- BLEACHED BONE -->
-			<colorTwo>168,32,20</colorTwo> <!-- MECHRITE RED -->
+			<color>26,33,61</color> <!-- NECRON ABYSS -->
+			<colorTwo>238,213,172</colorTwo> <!-- BLEACHED BONE -->
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>

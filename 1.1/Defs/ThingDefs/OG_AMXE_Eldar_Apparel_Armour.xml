@@ -333,7 +333,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<color>238,213,172</color> <!-- BLEACHED BONE -->
-			<colorTwo>168,32,20</colorTwo> <!-- MECHRITE RED -->
+			<colorTwo>25,85,60</colorTwo> <!-- DARK ANGEL GREEN -->
 		</graphicData>
 		<statBases>
 			<!--MarketValue>1500</MarketValue-->
@@ -544,12 +544,8 @@
 			<texPath>Things/Item/Apparel/Eldar/DragonArmour/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<!--color>234,100,25</color-->
-			<color>153,6,0</color>
-			<!--colorTwo>168,32,20</colorTwo--> <!-- MECHRITE RED -->
-			<!--colorTwo>244,121,32</colorTwo--> <!-- FIERY ORANGE -->
-			<!--colorTwo>230,89,37</colorTwo--> <!-- BLAZING ORANGE -->
-			<colorTwo>234,100,25</colorTwo>
+			<colorTwo>197,160,9</colorTwo>
+			<color>244,121,32</color> <!-- FIERY ORANGE -->
 		</graphicData>
 		<statBases>
 			<!--MarketValue>1500</MarketValue-->
@@ -762,8 +758,8 @@
 			<texPath>Things/Item/Apparel/Eldar/SpiderArmour/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<color>238,213,172</color> <!-- BLEACHED BONE -->
-			<colorTwo>168,32,20</colorTwo> <!-- MECHRITE RED -->
+			<color>168,32,20</color> <!-- MECHRITE RED -->
+			<colorTwo>26,33,61</colorTwo> <!-- NECRON ABYSS -->
 		</graphicData>
 		<statBases>
 			<!--MarketValue>1500</MarketValue-->
