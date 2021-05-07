@@ -63,21 +63,21 @@
 			</li>
 			<!-- ========================= Eldar - Avenger Armour ========================== -->
 			<li Class="PatchOperationReplace">
-			  <xpath>/Defs/ThingDef[defName="OGE_Apparel_DireAvengerArmour"]/statBases/ArmorRating_Sharp</xpath>
+			  <xpath>/Defs/ThingDef[defName="OGE_Apparel_AvengerArmour"]/statBases/ArmorRating_Sharp</xpath>
 			  <value>
 				<ArmorRating_Sharp>9</ArmorRating_Sharp>
 			  </value>
 			</li>
 
 			<li Class="PatchOperationReplace">
-			  <xpath>/Defs/ThingDef[defName="OGE_Apparel_DireAvengerArmour"]/statBases/ArmorRating_Blunt</xpath>
+			  <xpath>/Defs/ThingDef[defName="OGE_Apparel_AvengerArmour"]/statBases/ArmorRating_Blunt</xpath>
 			  <value>
 				<ArmorRating_Blunt>11</ArmorRating_Blunt>
 			  </value>
 			</li>
 
 			<!--li Class="PatchOperationAdd">
-			  <xpath>/Defs/ThingDef[defName="OGE_Apparel_DireAvengerArmour"]/equippedStatOffsets</xpath>
+			  <xpath>/Defs/ThingDef[defName="OGE_Apparel_AvengerArmour"]/equippedStatOffsets</xpath>
 			  <value>
 				  <CarryWeight>10</CarryWeight>
 				  <CarryBulk>8</CarryBulk>
@@ -86,21 +86,21 @@
 			
 			<!-- ========================= Eldar - Avenger Helmet ========================== -->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="OGE_Apparel_DireAvengerHelmet"]/statBases/ArmorRating_Sharp</xpath>
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_AvengerHelmet"]/statBases/ArmorRating_Sharp</xpath>
 				<value>
 					<ArmorRating_Sharp>4</ArmorRating_Sharp>
 				</value>
 			</li>
 
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="OGE_Apparel_DireAvengerHelmet"]/statBases/ArmorRating_Blunt</xpath>
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_AvengerHelmet"]/statBases/ArmorRating_Blunt</xpath>
 				<value>
 					<ArmorRating_Blunt>8</ArmorRating_Blunt>
 				</value>
 			</li>
 		  
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="OGE_Apparel_DireAvengerHelmet"]/apparel/layers</xpath>
+				<xpath>Defs/ThingDef[defName="OGE_Apparel_AvengerHelmet"]/apparel/layers</xpath>
 				<value>
 					<li>MiddleHead</li>
 				</value>

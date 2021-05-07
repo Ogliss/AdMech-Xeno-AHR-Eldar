@@ -34,11 +34,11 @@
 						</li>
 						<li Class="ScenPart_StartingThing_Defined">
 						  <def>StartingThing_Defined</def>
-						  <thingDef>OGE_Apparel_DireAvengerArmour</thingDef>
+						  <thingDef>OGE_Apparel_AvengerArmour</thingDef>
 						</li>
 						<li Class="ScenPart_StartingThing_Defined">
 						  <def>StartingThing_Defined</def>
-						  <thingDef>OGE_Apparel_DireAvengerHelmet</thingDef>
+						  <thingDef>OGE_Apparel_AvengerHelmet</thingDef>
 						</li>
 						
 						<li Class="ScenPart_StartingThing_Defined">

@@ -574,7 +574,7 @@
 			<li>EShurikenCatapultA</li>
 		</weaponTags>
 		<apparelRequired>
-			<li>OGE_Apparel_DireAvengerArmour</li>
+			<li>OGE_Apparel_AvengerArmour</li>
 		</apparelRequired>
 		<apparelTags>
 			<li>EldarDireAvenger</li>
@@ -601,8 +601,8 @@
 			<li>EDireSword</li>
 		</weaponTags>
 		<apparelRequired>
-			<li>OGE_Apparel_DireAvengerArmour</li>
-			<li>OGE_Apparel_DireAvengerHelmet</li>
+			<li>OGE_Apparel_AvengerArmour</li>
+			<li>OGE_Apparel_AvengerHelmet</li>
 		</apparelRequired>
 		<apparelTags>
 			<li>EldarDireAvengerWargear</li>

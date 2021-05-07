@@ -164,6 +164,7 @@
 						<debug>false</debug>
 						<bodyPart>left ear</bodyPart>
 						<inFrontOfBody>true</inFrontOfBody>
+						<layerInvert>true</layerInvert>
 						<alignWithHead>true</alignWithHead>
 						<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 						<drawnInBed>true</drawnInBed>
@@ -171,7 +172,7 @@
 						<offsets>
 							  <south>
 								<bodyTypes>
-									<Male>(-0.0,-0.0)</Male>
+									<Male>(-0.0,0.050)</Male>
 									<Female>(-0.0,0.0)</Female>
 								</bodyTypes>
 								<crownTypes>
@@ -183,7 +184,7 @@
 							  </south>
 							  <north>
 								<bodyTypes>
-									<Male>(0,0.0)</Male>
+									<Male>(0,0.050)</Male>
 									<Female>(0,0.0)</Female>
 								</bodyTypes>
 								<crownTypes>
@@ -217,6 +218,7 @@
 						<debug>false</debug>
 						<bodyPart>right ear</bodyPart>
 						<inFrontOfBody>true</inFrontOfBody>
+						<layerInvert>true</layerInvert>
 						<alignWithHead>true</alignWithHead>
 						<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 						<drawnInBed>true</drawnInBed>
@@ -224,20 +226,20 @@
 						<offsets>
 							<south>
 								<bodyTypes>
-									<Male>(-0.0,0.0)</Male>
+									<Male>(-0.0,0.050)</Male>
 									<Female>(-0.0,0.0)</Female>
 								</bodyTypes>
 								<crownTypes>
 									<Average_Normal>(-0.0,0.0)</Average_Normal>
 									<Female_Narrow_Normal>(0.01,0.0)</Female_Narrow_Normal>
-									<Narrow_Normal>(0.02,0.0)</Narrow_Normal>
-									<Average_Wide>(-0.01,0.0)</Average_Wide>
+									<Narrow_Normal>(0.00,0.0)</Narrow_Normal>
+									<Average_Wide>(-0.00,0.0)</Average_Wide>
 									<Average_Pointy>(-0.0,0.0)</Average_Pointy>
 								</crownTypes>
 							</south>
 							<north>
 								<bodyTypes>
-									<Male>(0,0.0)</Male>
+									<Male>(0,0.050)</Male>
 									<Female>(0,0.0)</Female>
 								</bodyTypes>
 								<crownTypes>

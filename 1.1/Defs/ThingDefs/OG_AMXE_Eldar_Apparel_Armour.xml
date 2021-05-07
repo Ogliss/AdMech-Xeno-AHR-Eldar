@@ -216,13 +216,13 @@
 	</ThingDef>
 
 	<!--========================= 4+ ==========================-->
-	<!--========================= Eldar - Dire Avenger Armour ==========================-->
+	<!--========================= Eldar - Avenger Armour ==========================-->
 	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
-		<defName>OGE_Apparel_DireAvengerArmour</defName>
+		<defName>OGE_Apparel_AvengerArmour</defName>
 		<label>dire avenger armour</label>
-		<description>Like other Aeldari Aspects, Dire Avengers wear lightweight synthetic bodysuits, reinforced with plates of psycho-sensitive bioplastics that will instantly harden to resist impacts. As well as absorbing impacts, those plates can morph their shape in accordance with the wearer's movements, meaning the armour does not encumber the wearer in the slightest, affording good protection with excellent mobility. It offers protection roughly equivalent to Imperial Carapace armour.</description>
+		<description>Like other Aeldari Aspects, Dire Avengers wear lightweight synthetic bodysuits, reinforced with plates of psycho-sensitive bioplastics that will instantly harden to resist impacts. As well as absorbing impacts, those plates can morph their shape in accordance with the wearer's movements, meaning the armour does not encumber the wearer in the slightest, affording good protection with excellent mobility.</description>
 		<graphicData>
-			<texPath>Things/Item/Apparel/Eldar/GuardianArmour/_Icon</texPath>
+			<texPath>Things/Item/Apparel/Eldar/AvengerArmour/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<color>49,100,157</color>
@@ -270,7 +270,7 @@
 				<li MayRequire="CETeam.CombatExtended">Hands</li>
 				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Item/Apparel/Eldar/GuardianArmour/Base</wornGraphicPath>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/AvengerArmour/Base</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 				<li>Middle</li>
@@ -298,7 +298,7 @@
 					<li>
 						<shoulderPadType>Both</shoulderPadType>
 						<shaderType>CutoutComplex</shaderType>
-						<padTexPath>Things/Item/Apparel/Eldar/GuardianArmour/Pauldrons/Pauldron</padTexPath>
+						<padTexPath>Things/Item/Apparel/Eldar/AvengerArmour/Pauldrons/Base</padTexPath>
 						<commonality>10</commonality>
 						<northtop>PostHead</northtop>
 						<southtop>Shell</southtop>
@@ -815,8 +815,8 @@
 			</layers>
 			<tags>
 				<li>EldarMilitary</li>
-				<li>EldarScorpion</li>
-				<li>EldarScorpionArmour</li>
+				<li>EldarSpider</li>
+				<li>EldarSpiderArmour</li>
 				<li>EVA</li>
 			</tags>
 			<defaultOutfitTags>
@@ -837,6 +837,111 @@
 						<shoulderPadType>Backpack</shoulderPadType>
 						<shaderType>CutoutComplex</shaderType>
 						<padTexPath>Things/Item/Apparel/Eldar/SpiderArmour/Backpack/Base</padTexPath>
+						<commonality>10</commonality>
+						<northtop>PostHead</northtop>
+						<easttop>PostHead</easttop>
+					</li>
+				</PauldronEntries>
+		  </li>
+		</comps>
+		<!--
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+				<weight>10</weight>
+				<max>(1,1,0.82)</max>
+				<min>(0.906,0.937,0.776)</min>
+			</li>
+		  </options>
+		</colorGenerator>
+		-->
+	</ThingDef>
+
+	<!--========================= Eldar - Reaper Armour ==========================-->
+	<!--========================= 3+ ==========================-->
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
+		<defName>OGE_Apparel_ReaperArmour</defName>
+		<label>dark reaper armour</label>
+		<description>Like other Aeldari Aspects, Dark Reapers wear lightweight synthetic bodysuits, reinforced with plates of psycho-sensitive bioplastics that will instantly harden to resist impacts. As well as absorbing impacts, those plates can morph their shape in accordance with the wearer's movements, meaning the armour does not encumber the wearer in the slightest, affording good protection with excellent mobility. The Dark Reapers pride themselves on their accuracy. To absorb the recoil of firing the Reaper Launcher and maintain a steady firing position, the powered limb supports include lower leg armour and boots fitted with stabilisers and clamps to secure the Dark Reaper to the ground.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/ReaperArmour/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>26,33,61</color> <!-- NECRON ABYSS -->
+			<colorTwo>238,213,1720</colorTwo> <!-- BLEACHED BONE -->
+		</graphicData>
+		<statBases>
+			<!--MarketValue>1500</MarketValue-->
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>65000</WorkToMake>
+			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.06</ArmorRating_Heat>
+			<Insulation_Heat>12</Insulation_Heat>
+			<Insulation_Cold>32</Insulation_Cold>
+			<Mass>7</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">11</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">9</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.10</PsychicSensitivity>
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
+		</equippedStatOffsets>
+		<costList>
+			<DevilstrandCloth>20</DevilstrandCloth>
+			<OGE_Wraithbone>30</OGE_Wraithbone>
+			<OGE_SpiritStone>1</OGE_SpiritStone>
+			<OGE_Component>2</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/ReaperArmour/Base</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>EldarMilitary</li>
+				<li>EldarReaper</li>
+				<li>EldarReaperArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>OGEArmour</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Apparel</li>
+		</tradeTags>
+		<comps>
+		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+				<PauldronEntries>
+					<li>
+						<shoulderPadType>Backpack</shoulderPadType>
+						<shaderType>CutoutComplex</shaderType>
+						<padTexPath>Things/Item/Apparel/Eldar/ReaperArmour/Pauldrons/Base</padTexPath>
 						<commonality>10</commonality>
 						<northtop>PostHead</northtop>
 						<easttop>PostHead</easttop>
