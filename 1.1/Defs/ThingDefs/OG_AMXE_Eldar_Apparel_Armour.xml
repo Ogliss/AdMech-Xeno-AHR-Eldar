@@ -501,6 +501,11 @@
 			<li>Apparel</li>
 		</tradeTags>
 		<comps>
+		<li Class="AbilitesExtended.CompProperties_AbilityItem">
+			<Abilities>
+				<li>OGAA_Ability_JumpPack</li>
+			</Abilities>
+		</li>
 		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
 			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
 				<PauldronEntries>
