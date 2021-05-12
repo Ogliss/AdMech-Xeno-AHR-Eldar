@@ -51,7 +51,6 @@
     <Compile Include="WraithConstructs\CompSoulStone.cs" />
     <Compile Include="WraithConstructs\WraithPawn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="EldarDefOfs.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Utils\" />

@@ -26,14 +26,14 @@ namespace AdeptusMechanicus
             List<string> whiteTags = new List<string>() { "E" };
             List<ThingDef> whiteApparel = DefDatabase<ThingDef>.AllDefsListForReading.FindAll(x => x.defName.Contains("OGE_Apparel_"));
             whiteProjects.AddRange(AeldariResearch);
-            if (EldarThingDefOf.OG_Alien_DarkEldar == null)
+            if (AdeptusThingDefOf.OG_Alien_DarkEldar == null)
             {
                 whiteProjects.AddRange(DarkEldarResearch);
                 whiteApparel.AddRange(DefDatabase<ThingDef>.AllDefsListForReading.FindAll(x => x.IsApparel && x.defName.Contains("OGDE_Apparel_")));
                 whiteTags.Add("DE");
             }
 
-            AlienRaceUtility.DoRacialRestrictionsFor(EldarThingDefOf.OG_Alien_Eldar, whiteTags, blackTags, whiteProjects, blackProjects, whiteApparel, Logging: AMAMod.Dev);
+            AlienRaceUtility.DoRacialRestrictionsFor(AdeptusThingDefOf.OG_Alien_Eldar, whiteTags, blackTags, whiteProjects, blackProjects, whiteApparel, Logging: AMAMod.Dev);
         }
 
     }

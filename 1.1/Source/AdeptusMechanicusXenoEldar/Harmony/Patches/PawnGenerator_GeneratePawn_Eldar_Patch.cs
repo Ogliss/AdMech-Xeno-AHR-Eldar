@@ -20,7 +20,7 @@ namespace AdeptusMechanicus.HarmonyInstance
         [HarmonyPrefix, HarmonyPriority(Priority.Last)]
         public static void Pre_GeneratePawn(ref PawnGenerationRequest request)
         {
-            if (request.KindDef.race == EldarThingDefOf.OG_Alien_Eldar)
+            if (request.KindDef.race == AdeptusThingDefOf.OG_Alien_Eldar)
             {
                 /*
                 //    Log.Message(string.Format("GeneratePawn request is {0}, {1}, {2}", request.KindDef.LabelCap, request.FixedGender, request.MustBeCapableOfViolence));
@@ -52,7 +52,7 @@ namespace AdeptusMechanicus.HarmonyInstance
         [HarmonyPostfix, HarmonyPriority(Priority.Last)]
         public static void Post_GeneratePawn(PawnGenerationRequest request, ref Pawn __result)
         {
-            if (__result != null && __result.def == EldarThingDefOf.OG_Alien_Eldar)
+            if (__result != null && __result.def == AdeptusThingDefOf.OG_Alien_Eldar)
             {
                 if (__result.story == null)
                 {
