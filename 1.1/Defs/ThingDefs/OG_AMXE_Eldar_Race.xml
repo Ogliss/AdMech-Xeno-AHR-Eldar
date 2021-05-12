@@ -259,15 +259,31 @@
                 </li>
             </researchList>
 			<apparelList>
+                <!--li>OGE_Apparel_MeshArmour</li>
+                <li>OGE_Apparel_MeshArmourHelmet<</li>
+                <li>OGE_Apparel_RangerArmour</li>
+                <li>OGE_Apparel_RangerArmourHelmet<</li>
+                <li>OGE_Apparel_AvengerArmour</li>
+                <li>OGE_Apparel_AvengerArmourHelmet<</li>
                 <li>OGE_Apparel_BansheeArmour</li>
                 <li>OGE_Apparel_BansheeArmourHelmet</li>
+                <li>OGE_Apparel_HawkArmour</li>
+                <li>OGE_Apparel_HawkArmourHelmet<</li>
+                <li>OGE_Apparel_DragonArmour</li>
+                <li>OGE_Apparel_DragonArmourHelmet<</li>
+                <li>OGE_Apparel_ScorpionArmour</li>
+                <li>OGE_Apparel_ScorpionArmourHelmet<</li>
+                <li>OGE_Apparel_SpiderArmour</li>
+                <li>OGE_Apparel_SpiderArmourHelmet<</li>
+                <li>OGE_Apparel_ReaperArmour</li>
+                <li>OGE_Apparel_ReaperArmourHelmet<</li>
                 <li>OGE_Apparel_RuneArmourWarlock</li>
                 <li>OGE_Apparel_WarlockHelmet</li>
                 <li>OGE_Apparel_RuneArmourFarseer</li>
                 <li>OGE_Apparel_Ghosthelm</li>
 				<li>OGE_Apparel_RuneWarding</li>
 				<li>OGE_Apparel_RuneWrath</li>
-				<li>OGE_Apparel_RuneFortune</li>
+				<li>OGE_Apparel_RuneFortune</li-->
 			</apparelList>
             <recipeList>
                 <!--li>Make_OGE_Apparel_MeshArmour</li>

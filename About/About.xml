@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Adeptus Mechanicus: Xenobiologis (Playable Eldar)</name>
+	<name>Adeptus Xenobiologis: Eldar</name>
 	<packageId>Ogliss.AdMech.Xenobiologis.Eldar</packageId>
 	<author>Ogliss</author>
 	<supportedVersions>
@@ -11,7 +11,7 @@
 	<modDependencies>
 		<li>
 			<packageId>Ogliss.AdMech.Armoury</packageId>
-			<displayName>Adeptus Mechanicus: Armoury R1.1</displayName>
+			<displayName>Adeptus Mechanicus: Armoury</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/1541438614</steamWorkshopUrl>
 			<downloadUrl>https://github.com/Ogliss/AdMechArmoury</downloadUrl>
 		</li>
@@ -35,6 +35,7 @@
 	</loadBefore>
 	<incompatibleWith>
 		<li>Ogliss.FeralOrkz</li>
+		<li>Mlie.O21Rimhammer40K</li>
 	</incompatibleWith>	
 	<description>V1.6.1.1
 	Adds plyable WH40k Eldar

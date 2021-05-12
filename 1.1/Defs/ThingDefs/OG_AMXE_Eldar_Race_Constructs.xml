@@ -119,4 +119,60 @@
 		</comps-->
 	</ThingDef>
 
+	<!-- Wraithguard/Wraithblade -->
+	<ThingDef ParentName="OG_Eldar_Wraithconstruct_Walker">
+		<defName>OG_Eldar_Wraithlord_Race</defName>
+		<label>wraithlord</label>
+		<description>A Wraithlord, also called an Iron Knight, Wraith-giant and by the Imperium an Eldar Dreadnought, is a Craftworld Aeldari robotic combat walker known as a Ghost Warrior that contains no living pilot; rather, it is merely a robotic shell, a repository of the animating soul of a dead Asuryani hero. Wraithlords are graceful but mighty giants that dwarf their smaller Wraithguard Ghost Warrior cousins.</description>
+		<statBases>
+			<MoveSpeed>3.0</MoveSpeed>
+			<ArmorRating_Sharp>1.76</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.76</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.76</ArmorRating_Heat>
+			<MeleeCritChance MayRequire="CETeam.CombatExtended">1.0</MeleeCritChance>
+		</statBases>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>22.0</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>22.0</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+			</li>
+		</tools>
+		<race>
+			<baseBodySize>1.5</baseBodySize>
+			<baseHealthScale>3</baseHealthScale>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+		</race>
+		<butcherProducts>
+			<OGE_Wraithbone>70</OGE_Wraithbone>
+			<OGE_Component>5</OGE_Component>
+			<OGE_SpiritStone>1</OGE_SpiritStone>
+		</butcherProducts>
+		<!-- <tickerType>Normal</tickerType> -->
+		<!--comps>
+			<li Class="OgsCompSlotLoadable.CompProperties_SlotLoadable">
+			<slots>
+				<li>OG_SlotLoadable_SoulStone</li>
+			</slots>
+			</li>
+		</comps-->
+	</ThingDef>
+
 </Defs>

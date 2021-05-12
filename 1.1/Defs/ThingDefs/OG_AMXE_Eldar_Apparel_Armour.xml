@@ -12,6 +12,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<color>238,213,172</color> <!-- BLEACHED BONE -->
+			<colorTwo>74,76,88</colorTwo> <!-- ADEPTUS BATTLEGREY -->
 		</graphicData>
 		<statBases>
 			<!--MarketValue>1500</MarketValue-->
@@ -85,7 +86,7 @@
 					<li>
 						<shoulderPadType>Both</shoulderPadType>
 						<shaderType>CutoutComplex</shaderType>
-						<padTexPath>Things/Item/Apparel/Eldar/GuardianArmour/Pauldrons/Pauldron</padTexPath>
+						<padTexPath>Things/Item/Apparel/Eldar/GuardianArmour/Pauldrons/Base</padTexPath>
 						<commonality>10</commonality>
 						<northtop>PostHead</northtop>
 						<southtop>Shell</southtop>
@@ -119,7 +120,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<color>238,213,172</color> <!-- BLEACHED BONE -->
-			<colorTwo>0,111,69</colorTwo> <!-- SNOT GREEN -->
+			<colorTwo>38,55,45</colorTwo> <!-- ORKHIDE SHADE  -->
 		</graphicData>
 		<statBases>
 			<!--MarketValue>1500</MarketValue-->
@@ -192,7 +193,7 @@
 					<li>
 						<shoulderPadType>Both</shoulderPadType>
 						<shaderType>CutoutComplex</shaderType>
-						<padTexPath>Things/Item/Apparel/Eldar/RangerArmour/Pauldrons/Pauldron</padTexPath>
+						<padTexPath>Things/Item/Apparel/Eldar/RangerArmour/Pauldrons/Base</padTexPath>
 						<commonality>10</commonality>
 						<northtop>PostHead</northtop>
 						<southtop>Shell</southtop>
@@ -503,7 +504,7 @@
 		<comps>
 		<li Class="AbilitesExtended.CompProperties_AbilityItem">
 			<Abilities>
-				<li>OGAA_Ability_JumpPack</li>
+				<li>OGE_Ability_HawkJump</li>
 			</Abilities>
 		</li>
 		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">

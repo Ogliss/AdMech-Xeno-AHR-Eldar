@@ -51,7 +51,7 @@
 	</ThingDef-->
 
 	<AbilitesExtended.EquipmentAbilityDef>
-		<defName>OGE_Ability_JumpPack</defName>
+		<defName>OGE_Ability_HawkJump</defName>
 		<label>Jump</label>
 		<iconPath>Things/Item/Apparel/Eldar/HawkArmour/Pauldrons/Pauldron_Male_north</iconPath>
 		<description>Use Jump Pack.</description>
@@ -72,13 +72,13 @@
 		</verbProperties>
 		<comps>
 			<li Class="AdeptusMechanicus.CompProperties_EquipmentAbilityJumpPack">
-			<compClass>AdeptusMechanicus.CompAbilityEffect_JumpPack</compClass>
-			<psychic>false</psychic>
-			<goodwillImpact>0</goodwillImpact>
-			<screenShakeIntensity>0</screenShakeIntensity>
-			<stunTicks>70~120</stunTicks>
-			<explodingLeaperRadius>2.5</explodingLeaperRadius>
-			<clamorRadius>10</clamorRadius>
+				<compClass>AdeptusMechanicus.CompAbilityEffect_JumpPack</compClass>
+				<psychic>false</psychic>
+				<goodwillImpact>0</goodwillImpact>
+				<screenShakeIntensity>0</screenShakeIntensity>
+				<stunTicks>70~120</stunTicks>
+				<explodingLeaperRadius>2.5</explodingLeaperRadius>
+				<clamorRadius>10</clamorRadius>
 			</li>
 		</comps>
 	</AbilitesExtended.EquipmentAbilityDef>
