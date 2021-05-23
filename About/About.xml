@@ -37,7 +37,7 @@
 		<li>Ogliss.FeralOrkz</li>
 		<li>Mlie.O21Rimhammer40K</li>
 	</incompatibleWith>	
-	<description>V1.6.1.1
+	<description>V1.6.5.0
 	Adds plyable WH40k Eldar
 	Requires new start or a faction manager mod to have faction bases on the world map.
 
@@ -65,14 +65,18 @@ Apparel:
 	Howling Banshee Helmet (EO)
 	Striking Scorpion Armour (EO)
 	Striking Scorpion Helmet (EO)
+	Swooping Hawk Armour (EO)
+	Swooping Hawk Helmet (EO)
 	Fire Dragon Armour (EO)
 	Fire Dragon Helmet (EO)
+	Dark Reaper Armour (EO)
+	Dark Reaper Helmet (EO)
 	Warp Spider Armour (EO)
 	Warp Spider Helmet (EO)
 	Warlock Rune Armour (EO)
 	Warlock Helmet (EO)
 	Farseer Rune Armour (EO)
-	Ghost Helmet (EO)
+	Ghosthelm (EO)
 	
 Wargear:
 	Grenade Packs (Plasma, Haywire, Melta, Hallucination)
@@ -96,12 +100,21 @@ Load Order info:
 	Playable Orkz,Eldar( This Mod ),Tau,Etc( if used ) order doesnt matter
 
 Credits:
-SirLaLaPyon: Textures for
 
 Pagoda: Textures for
+	Mesh Armour, Helmet
+	Ranger Armour, Helmet
+	Dark Reaper Armour, Helmet
+	Dire Avenger Armour, Helmet
 	Fire Dragon Armour, Helmet
+	Howling Banshee Armour, Helmet
+	Swooping Hawk Armour, Helmet
 	Striking Scorpion Armour, Helmet
 	Warp Spider Armour, Helmet
+	Research Benches
+	Manchining Table
+	Smithing Tables
+	Wraithguard
 
 Ogliss: XML, C#, Textures for
 	Everything not listed above!

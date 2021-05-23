@@ -47,4 +47,37 @@
 			</operations>	
 		</match>
 	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="OGE_FueledSmithy"]</xpath>
+		<!--success>Always</success-->
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/WorkGiverDef[defName = "DoBillsMakeWeapons"]/fixedBillGiverDefs</xpath>
+			<value>
+				<li>OGE_FueledSmithy</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="OGE_ElectricSmithy"]</xpath>
+		<!--success>Always</success-->
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/WorkGiverDef[defName = "DoBillsMakeWeapons"]/fixedBillGiverDefs</xpath>
+			<value>
+				<li>OGE_ElectricSmithy</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="OGE_TableMachining"]</xpath>
+		<!--success>Always</success-->
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/WorkGiverDef[defName = "DoBillsMachiningTable"]/fixedBillGiverDefs</xpath>
+			<value>
+				<li>OGE_TableMachining</li>
+			</value>
+		</match>
+	</Operation>
 </Patch>

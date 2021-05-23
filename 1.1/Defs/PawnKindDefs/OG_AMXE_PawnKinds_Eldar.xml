@@ -240,7 +240,7 @@
 		</inventoryOptions>
 		<apparelRequired>
 			<li>OGE_Apparel_MeshArmour</li>
-			<li>OGE_Apparel_MeshArmourHelmet</li>
+			<li>OGE_Apparel_MeshHelmet</li>
 		</apparelRequired>
 	</PawnKindDef>
 
@@ -433,7 +433,7 @@
 		</weaponTags>
 		<apparelRequired>
 			<li>OGE_Apparel_RangerArmour</li>
-			<li>OGE_Apparel_RangerArmourHelmet</li>
+			<li>OGE_Apparel_RangerHelmet</li>
 		</apparelRequired>
 		<apparelTags>
 			<li>EldarRanger</li>
@@ -658,7 +658,7 @@
 		</weaponTags>
 		<apparelRequired>
 			<li>OGE_Apparel_BansheeArmour</li>
-			<li>OGE_Apparel_BansheeArmourHelmet</li>
+			<li>OGE_Apparel_BansheeHelmet</li>
 		</apparelRequired>
 		<apparelTags>
 			<li>EldarHowlingBansheeWargear</li>
@@ -816,7 +816,7 @@
 		</weaponTags>
 		<apparelRequired>
 			<li>OGE_Apparel_ScorpionArmour</li>
-			<li>OGE_Apparel_ScorpionArmourHelmet</li>
+			<li>OGE_Apparel_ScorpionHelmet</li>
 		</apparelRequired>
 		<apparelTags>
 			<li>EldarStrikingScorpion</li>
@@ -841,7 +841,7 @@
 		</weaponTags>
 		<!--apparelRequired>
 			<li>OGE_Apparel_SpectreArmour</li>
-			<li>OGE_Apparel_SpectreArmourHelmet</li>
+			<li>OGE_Apparel_SpectreHelmet</li>
 		</apparelRequired-->
 		<apparelTags>
 			<li>EldarShadowSpectre</li>
@@ -868,7 +868,7 @@
 		</weaponTags>
 		<!--apparelRequired>
 			<li>OGE_Apparel_SpectreArmour</li>
-			<li>OGE_Apparel_SpectreArmourHelmet</li>
+			<li>OGE_Apparel_SpectreHelmet</li>
 		</apparelRequired-->
 		<apparelTags>
 			<li>EldarShadowSpectre</li>
@@ -895,7 +895,7 @@
 		</weaponTags>
 		<!--apparelRequired>
 			<li>OGE_Apparel_SpiderArmour</li>
-			<li>OGE_Apparel_SpiderArmourHelmet</li>
+			<li>OGE_Apparel_SpiderHelmet</li>
 		</apparelRequired-->
 		<apparelTags>
 			<li>EldarWarpSpider</li>
@@ -922,7 +922,7 @@
 		</weaponTags>
 		<!--apparelRequired>
 			<li>OGE_Apparel_SpiderArmour</li>
-			<li>OGE_Apparel_SpiderArmourHelmet</li>
+			<li>OGE_Apparel_SpiderHelmet</li>
 		</apparelRequired-->
 		<apparelTags>
 			<li>EldarWarpSpider</li>
@@ -956,7 +956,7 @@
 		</apparelRequired>
 		<!--apparelRequired>
 			<li>OGE_Apparel_ScorpionArmour</li>
-			<li>OGE_Apparel_ScorpionArmourHelmet</li>
+			<li>OGE_Apparel_ScorpionHelmet</li>
 		</apparelRequired-->
 		<apparelTags>
 			<li>EldarWarlock</li>
@@ -992,7 +992,7 @@
 		</apparelRequired>
 		<!--apparelRequired>
 			<li>OGE_Apparel_ScorpionArmour</li>
-			<li>OGE_Apparel_ScorpionArmourHelmet</li>
+			<li>OGE_Apparel_ScorpionHelmet</li>
 		</apparelRequired-->
 		<apparelTags>
 			<li>EldarFarseer</li>
@@ -1064,11 +1064,11 @@
 		</apparelMoney>
 		<apparelRequired>
 			<li>OGE_Apparel_MeshArmour</li>
-			<li>OGE_Apparel_MeshArmourHelmet</li>
+			<li>OGE_Apparel_MeshHelmet</li>
 		</apparelRequired>
 		<!--apparelRequired>
 			<li>OGE_Apparel_ScorpionArmour</li>
-			<li>OGE_Apparel_ScorpionArmourHelmet</li>
+			<li>OGE_Apparel_ScorpionHelmet</li>
 		</apparelRequired-->
 		<apparelTags>
 			<li>EldarAutarch</li>

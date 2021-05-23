@@ -13,8 +13,8 @@
     <basicMemberKind>Colonist_OG_Eldar_Craftworld</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-		<factionNameMaker>NamerOGEldarFaction</factionNameMaker>
-    <settlementNameMaker>NamerOGEldarBases</settlementNameMaker>
+		<factionNameMaker>OG_Eldar_Craftworld_NamerFaction</factionNameMaker>
+    <settlementNameMaker>OG_Eldar_NamerBases</settlementNameMaker>
     <techLevel>Ultra</techLevel>
     <backstoryFilters>
       <li>
@@ -64,8 +64,8 @@
     <basicMemberKind>Colonist_OG_Eldar_Craftworld</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-		<factionNameMaker>NamerOGEldarFaction</factionNameMaker>
-    <settlementNameMaker>NamerOGEldarBases</settlementNameMaker>
+		<factionNameMaker>OG_Eldar_Craftworld_NamerFaction</factionNameMaker>
+    <settlementNameMaker>OG_Eldar_NamerBases</settlementNameMaker>
     <techLevel>Ultra</techLevel>
     <backstoryCategories>
       <li>ExoditeCommand</li>
@@ -112,8 +112,8 @@
     <basicMemberKind>Colonist_OG_Eldar_Craftworld</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-		<factionNameMaker>NamerOGEldarFaction</factionNameMaker>
-    <settlementNameMaker>NamerOGEldarBases</settlementNameMaker>
+		<factionNameMaker>OG_Eldar_Craftworld_NamerFaction</factionNameMaker>
+    <settlementNameMaker>OG_Eldar_NamerBases</settlementNameMaker>
     <techLevel>Ultra</techLevel>
     <backstoryCategories>
       <li>ExoditeCommand</li>

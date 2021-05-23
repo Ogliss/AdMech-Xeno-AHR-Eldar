@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="BasePawn" Name="OG_Eldar_Pawn_Base" Abstract="True">
+	<!--
+    <thingClass>Pawn</thingClass>
+    <category>Pawn</category>
+    <selectable>true</selectable>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Pawn</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <hasTooltip>true</hasTooltip>
+    <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
+    <inspectorTabs>
+        <li>ITab_Pawn_Health</li>
+        <li>ITab_Pawn_Needs</li>
+        <li>ITab_Pawn_Character</li>
+        <li>ITab_Pawn_Training</li>
+        <li>ITab_Pawn_Gear</li>
+        <li>ITab_Pawn_Guest</li>
+        <li>ITab_Pawn_Prisoner</li>
+        <li>ITab_Pawn_Social</li>
+        <li>ITab_Pawn_Log</li>
+        <li>ITab_Pawn_FormingCaravan</li>
+    </inspectorTabs>
+    <comps>
+        <li>
+            <compClass>CompAttachBase</compClass>
+        </li>
+    </comps>
+    <drawGUIOverlay>true</drawGUIOverlay>
+	-->
+    <inspectorTabs>
+		<li MayRequire="Corruption.Core">Corruption.Core.Soul.ITab_Pawn_Soul</li>
+    </inspectorTabs>
+    <comps>
+		<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.CompProperties_Inventory" />
+		<li MayRequire="CETeam.CombatExtended">
+			<compClass>CombatExtended.CompPawnGizmo</compClass>
+		</li>
+		<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.CompProperties_Suppressable" />
+		<li MayRequire="Corruption.Psykers">
+			<compClass>Corruption.Psykers.CompPsyker</compClass>
+		</li>
+		<li MayRequire="Corruption.Core">
+			<compClass>Corruption.Core.Soul.CompSoul</compClass>
+		</li>
+    </comps>
+</ThingDef>
+
+<AlienRace.ThingDef_AlienRace Name="OG_Eldar_RaceBase" ParentName="OG_Eldar_Pawn_Base" Abstract="True">
+    <defName>OG_Alien_Eldar</defName>
+    <label>Eldar</label>
+    <description>The Eldar race has a long and complex spacefaring history, so long in fact that little is known for certain about the course of their physical evolution and early planet-bound existence. The original Eldar homeworld was destroyed during the catastrophic collapse of the Eldar civilisation known as the Fall of the Eldar. The remnants of Eldar culture that survived the cataclysm preserved much of their species' history in the form of traditional stories, songs and dance. Written records, monuments and visual records were almost completely destroyed except for a few instances where they were taken aboard voidcraft fleeing from the doomed worlds.\n\nAs a humanoid race, Eldar are physically similar to humans, although not entirely identical by any means. They possess longer and cleaner limbs, and fine ascetic features with penetrating and slightly slanted, almond-shaped eyes. Their ears are also slightly pointed, but otherwise they could pass as human at first glance. The most obvious difference between humans and Eldar can only be seen when they move, for the movements of an Eldar radiate a subtle grace which is impossible for a human to emulate. This can be seen in even their slightest gestures or the dexterity with which they manipulate small objects.\n\nThe Eldar mind, while similar in general to the human psyche, is far more inclined towards extremes. Because of this, Eldar are more intelligent but also far more intense than humans. Although an Eldar and a human can both feel grief or joy, the Eldar's experience is likely to be far more extreme.</description>
+    <alienRace>
+        <generalSettings>
+            <maleGenderProbability>0.5</maleGenderProbability>
+            <immuneToAge>false</immuneToAge>
+            <forcedRaceTraitEntries>
+				<!--
+                <li>
+                    <defName>Beauty</defName>
+                    <degree>1</degree>
+                    <chance>25</chance>
+                </li>
+                <li>
+                    <defName>Beauty</defName>
+                    <degree>2</degree>
+                    <chance>10</chance>
+                </li>
+                <li>
+                    <defName>PsychicSensitivity</defName>
+                    <degree>1</degree>
+                    <chance>10</chance>
+                </li>
+                <li>
+                    <defName>PsychicSensitivity</defName>
+                    <degree>2</degree>
+                    <chance>5</chance>
+                </li>
+				-->
+                <li>
+                    <defName>FastLearner</defName>
+                    <chance>10</chance>
+                </li>
+                <li>
+                    <defName>GreatMemory</defName>
+                    <chance>10</chance>
+                </li>
+            </forcedRaceTraitEntries>
+            <alienPartGenerator>
+				<customDrawSize>(0.8, 1.0)</customDrawSize>
+				<!--customHeadDrawSize>(1.00, 1.00)</customHeadDrawSize-->
+                <aliencrowntypes>
+                    <!--li>Eldar_Head_Gaunt</li>
+                    <li>Eldar_Head_Pointy</li>
+                    <li>Eldar_Head_Square</li>
+                    <li>Eldar_Head_Straight</li>
+                    <li>Eldar_Head_Triangle</li-->
+                    <li>Average_Normal</li>
+                    <li>Narrow_Normal</li>
+                    <li>Average_Wide</li>
+                    <li>Average_Pointy</li>
+                </aliencrowntypes>
+                <alienbodytypes>
+					<li>Female</li>
+					<li>Male</li>
+                </alienbodytypes>
+				<useGenderedHeads>true</useGenderedHeads>
+				<useGenderedBodies>false</useGenderedBodies>
+            </alienPartGenerator>
+			<chemicalSettings>	
+		    </chemicalSettings>
+            <humanRecipeImport>true</humanRecipeImport>
+			<notXenophobistTowards>
+			  <li>OG_Alien_Eldar</li>
+			</notXenophobistTowards>
+			<factionRelations>
+				<li>
+					<factions>
+					   <li>PlayerColony</li>
+					   <li>PlayerTribe</li>
+					   <li>OutlanderCivil</li>
+					   <li>OutlanderRough</li>
+					   <li>TribeCivil</li>
+					   <li>TribeRough</li>
+					</factions>
+					<goodwill>
+					   <min>-100</min>
+					   <max>10</max>
+					</goodwill>
+				</li>
+				<li>
+					<factions>
+					   <li>OG_Eldar_Craftworld_Faction</li>
+					   <li>OG_Eldar_Craftworld_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Exodite_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Player_Exodite</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Harlequin_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Player_Harlequin</li>
+					</factions>
+					<goodwill>
+					   <min>-30</min>
+					   <max>100</max>
+					</goodwill>
+				</li>
+				<li>
+					<factions>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Astartes">OG_Astartes_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Astartes">OG_AstartesNeophyte_PlayerColony</li>
+					   <li MayRequire="CptOhu.CorruptionCore">PlayerColony_IoM</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tau_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerTribe</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_Faction</li>
+					   <!--li>OG_Vespid_PlayerColony</li-->
+					</factions>
+					<goodwill>
+					   <min>-100</min>
+					   <max>25</max>
+					</goodwill>
+				</li>
+				<li>
+					<factions>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Ork_Tek_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Ork_Feral_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
+					</factions>
+					<goodwill>
+					   <min>-100</min>
+					   <max>10</max>
+					</goodwill>
+				</li>
+				<li>
+					<factions>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Hulk</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Rok</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Ork_Hulk</li>
+					   <li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Ork_Rok</li>
+					   <li MayRequire="CptOhu.CorruptionCore">PlayerColony_Chaos</li>
+					   <li MayRequire="QX.AstraMilitarum.Factions">IG_ChaosMarineFaction</li>
+					   <li MayRequire="QX.AstraMilitarum.Factions">TraitorGuardFaction</li>
+					   <li MayRequire="QX.AstraMilitarum.Factions">TyranidFaction</li>
+					</factions>
+					<goodwill>
+					   <min>-100</min>
+					   <max>-100</max>
+					</goodwill>
+				</li>
+			</factionRelations>
+		</generalSettings>
+        <graphicPaths>
+            <li>
+                <head>Things/Pawn/Humanlike/Eldar/Head/</head>
+                <body>Things/Pawn/Humanlike/Eldar/Bodies/</body>
+            </li>
+			<!--
+            <li>
+                <head>Things/Pawn/Humanlike/Eldar/Head/</head>
+            </li>
+			-->
+        </graphicPaths>
+        <hairSettings>
+            <hasHair>true</hasHair>
+            <getsGreyAt>15000</getsGreyAt> 
+            <hairTags>
+				<li>OG_Eldar_Hair</li>
+				<li>Urban</li>
+				<li>Rural</li>
+            </hairTags>
+        </hairSettings>
+        <thoughtSettings>
+			<cannotReceiveThoughts>
+				<!--li>FeelingRandom</li-->
+				<!--li>CabinFever</li-->
+				<li>KnowPrisonerDiedInnocent</li>
+				<li>SoldPrisoner</li>
+				<li>ExecutedPrisoner</li>
+				<li>KnowPrisonerSold</li>
+				<li>SleptInBarracks</li>
+            </cannotReceiveThoughts>
+        </thoughtSettings>
+        <relationSettings>
+            <relationChanceModifierParent>1</relationChanceModifierParent>
+            <relationChanceModifierChild>1</relationChanceModifierChild>
+            <relationChanceModifierSibling>1</relationChanceModifierSibling>
+			
+            <relationChanceModifierLover>1</relationChanceModifierLover>
+            <relationChanceModifierExLover>1</relationChanceModifierExLover>
+			
+            <relationChanceModifierFiance>1</relationChanceModifierFiance>
+            <relationChanceModifierSpouse>1</relationChanceModifierSpouse>
+            <relationChanceModifierExSpouse>1</relationChanceModifierExSpouse>
+        </relationSettings>
+        <raceRestriction>
+            <researchList>
+                <li>
+                    <projects>
+					
+                    </projects>
+                </li>
+            </researchList>
+			<apparelList>
+                <!--li>OGE_Apparel_MeshArmour</li>
+                <li>OGE_Apparel_MeshHelmet<</li>
+                <li>OGE_Apparel_RangerArmour</li>
+                <li>OGE_Apparel_RangerHelmet<</li>
+                <li>OGE_Apparel_AvengerArmour</li>
+                <li>OGE_Apparel_AvengerHelmet<</li>
+                <li>OGE_Apparel_BansheeArmour</li>
+                <li>OGE_Apparel_BansheeHelmet</li>
+                <li>OGE_Apparel_HawkArmour</li>
+                <li>OGE_Apparel_HawkHelmet<</li>
+                <li>OGE_Apparel_DragonArmour</li>
+                <li>OGE_Apparel_DragonHelmet<</li>
+                <li>OGE_Apparel_ScorpionArmour</li>
+                <li>OGE_Apparel_ScorpionHelmet<</li>
+                <li>OGE_Apparel_SpiderArmour</li>
+                <li>OGE_Apparel_SpiderHelmet<</li>
+                <li>OGE_Apparel_ReaperArmour</li>
+                <li>OGE_Apparel_ReaperHelmet<</li>
+                <li>OGE_Apparel_RuneArmourWarlock</li>
+                <li>OGE_Apparel_WarlockHelmet</li>
+                <li>OGE_Apparel_RuneArmourFarseer</li>
+                <li>OGE_Apparel_Ghosthelm</li>
+				<li>OGE_Apparel_RuneWarding</li>
+				<li>OGE_Apparel_RuneWrath</li>
+				<li>OGE_Apparel_RuneFortune</li-->
+			</apparelList>
+            <recipeList>
+                <!--li>Make_OGE_Apparel_MeshArmour</li>
+                <li>Make_OGE_Apparel_MeshHelmet</li>
+                <li>Make_OGE_Apparel_AvengerArmour</li>
+                <li>Make_OGE_Apparel_AvengerHelmet</li>
+                <li>Make_OGE_Apparel_RangerArmour</li>
+                <li>Make_OGE_Apparel_RangerHelmet</li>
+                <li>Make_OGE_Apparel_BansheeArmour</li>
+                <li>Make_OGE_Apparel_BansheeHelmet</li>
+                <li>Make_OGE_Apparel_ScorpionArmour</li>
+                <li>Make_OGE_Apparel_ScorpionHelmet</li>
+                <li>Make_OGE_Apparel_RuneArmourWarlock</li>
+                <li>Make_OGE_Apparel_WarlockHelmet</li>
+                <li>Make_OGE_Apparel_RuneArmourFarseer</li>
+                <li>Make_OGE_Apparel_Ghosthelm</li>
+                <li>Make_OGE_Apparel_RuneWarding</li>
+                <li>Make_OGE_Apparel_RuneWrath</li>
+                <li>Make_OGE_Apparel_RuneFortune</li>
+                <li>Make_OGE_GrenadePack_Plasma</li>
+                <li>Make_OGE_GrenadePack_Haywire</li>
+                <li>Make_OGE_GrenadePack_Melta</li>
+                <li>Make_OGE_Melee_ScorpionChainsword</li>
+                <li>Make_OGE_Melee_BitingBlade</li>
+                <li>Make_OGE_Melee_ScorpionsClaw</li>
+                <li>Make_OGE_Melee_PowerSword</li>
+                <li>Make_OGE_Melee_MirrorswordS</li>
+                <li>Make_OGE_Melee_MirrorswordD</li>
+                <li>Make_OGE_Melee_GhostSword</li>
+                <li>Make_OGE_Melee_GhostSwordD</li>
+                <li>Make_OGE_Melee_GhostAxe</li>
+                <li>Make_OGE_Melee_Executioner</li>
+                <li>Make_OGE_Melee_Diresword</li>
+                <li>Make_OGE_Melee_Witchblade</li>
+                <li>Make_OGE_Melee_Miststave</li>
+                <li>Make_OGE_Melee_HarlequinsKiss</li>
+                <li>Make_OGE_Melee_SingingSpear</li>
+                <li>Make_OGE_Gun_ShurikenPistol</li>
+                <li>Make_OGE_Gun_ShurikenCatapult</li>
+                <li>Make_OGE_Gun_ShurikenCatapultAvenger</li>
+                <li>Make_OGE_Gun_ShurikenCannon</li>
+                <li>Make_OGE_Gun_Starcannon</li>
+                <li>Make_OGE_Gun_Wraithcannon</li>
+                <li>Make_OGE_Gun_LasBlaster</li>
+                <li>Make_OGE_Gun_RangerLongrifle</li>
+                <li>Make_OGE_Gun_PrismRifle</li>
+                <li>Make_OGE_Gun_Brightlance</li>
+                <li>Make_OGE_Gun_FusionGun</li>
+                <li>Make_OGE_Gun_NeuroDisruptor</li>
+                <li>Make_OGE_Gun_Deathspinner</li>
+                <li>Make_OGE_Gun_ReaperLauncher</li>
+                <li>Make_OGE_Gun_NeuroDisruptor</li>
+                <li>Make_OGE_Gun_HaywireCannon</li-->
+            </recipeList>
+			<buildingList>
+                <!--li>OGE_TableMachining</li>
+                <li>OGE_Turret_ShurikenCannonDual_Auto</li>
+                <li>OGE_Turret_Missile_Auto</li>
+                <li>OGE_Turret_Brightlance_Auto</li>
+                <li>OGE_Turret_BrightlanceDual_Auto</li>
+                <li>OGE_Turret_DistortCannon_Auto</li>
+                <li>OGE_Turret_VibroCannon</li>
+                <li>OGE_Turret_ShadowWeaver_Manual</li-->
+            </buildingList>
+			<blackBuildingList>
+				<li>TableMachining</li>
+				<li>SimpleResearchBench</li>
+				<li>HiTechResearchBench</li>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+			</blackBuildingList>
+        </raceRestriction>
+    </alienRace>
+	<statBases>
+		<MarketValue>2000</MarketValue>
+		<MoveSpeed>5</MoveSpeed>
+		<Flammability>0.3</Flammability>
+		<ComfyTemperatureMin>8</ComfyTemperatureMin>
+		<ComfyTemperatureMax>32</ComfyTemperatureMax>
+		<LeatherAmount>55</LeatherAmount>
+        <CarryingCapacity>80</CarryingCapacity>
+		<PsychicSensitivity>1.250</PsychicSensitivity>
+		<MiningSpeed>0.75</MiningSpeed>
+		<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
+		<AimingDelayFactor>0.75</AimingDelayFactor>
+		<MentalBreakThreshold>0.025</MentalBreakThreshold>
+        <ImmunityGainSpeed>1.05</ImmunityGainSpeed>
+        <PainShockThreshold>0.85</PainShockThreshold>
+        <ForagedNutritionPerDay>1.0</ForagedNutritionPerDay>
+        <GlobalLearningFactor>1.15</GlobalLearningFactor>
+        <MeleeDodgeChance>1.25</MeleeDodgeChance>
+        <MeleeHitChance>1.15</MeleeHitChance>
+        <MeleeCritChance MayRequire="CETeam.CombatExtended">1.15</MeleeCritChance>
+        <MeleeParryChance MayRequire="CETeam.CombatExtended">1.25</MeleeParryChance>
+        <GeneralLaborSpeed>1.18</GeneralLaborSpeed>
+        <ButcheryFleshSpeed>0.85</ButcheryFleshSpeed>
+        <ButcheryFleshEfficiency>0.85</ButcheryFleshEfficiency>
+        <SmeltingSpeed>0.85</SmeltingSpeed>
+        <NegotiationAbility>1.15</NegotiationAbility>
+        <SocialImpact>1.15</SocialImpact>
+        <TradePriceImprovement>1.15</TradePriceImprovement>
+		<!--
+		-->
+    </statBases>
+  <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>22</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>22</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.8</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>15000</lifeExpectancy>
+      <leatherDef>Leather_Eldar</leatherDef>
+      <nameGenerator>OG_Eldar_NamerPerson</nameGenerator>
+      <nameGeneratorFemale>OG_Eldar_NamerPersonFemale</nameGeneratorFemale>
+      <body>Human</body>
+      <bloodDef>OG_FilthBlood_Eldar</bloodDef>	
+      <!--meatColor>(200,135,100)</meatColor-->
+      <baseBodySize>0.95</baseBodySize>
+      <baseHealthScale>0.95</baseHealthScale>
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeToddler</def>
+          <minAge>1.2</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>4</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>18</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+		<ageGenerationCurve>
+			<points>
+				<li>(16,0)</li>
+				<li>(170,150)</li>
+				<li>(1500,100)</li>
+				<li>(2000,100)</li>
+				<li>(3000,100)</li>
+				<li>(4000,12)</li>
+				<li>(5000,6)</li>
+				<li>(7500,3)</li>
+				<li>(10000,2)</li>
+				<li>(12500,1)</li>
+				<li>(15000,0)</li>
+			</points>
+		</ageGenerationCurve>
+		<hediffGiverSets>
+			<li>OrganicAgeless</li>
+		</hediffGiverSets>
+    </race>
+    <recipes>
+		<li>InstallArchotechEye</li>
+		<li>InstallArchotechArm</li>
+		<li>InstallArchotechLeg</li>
+		<li>InstallPowerClaw</li>
+		<li>InstallBionicEye</li>
+		<li>InstallBionicArm</li>
+		<li>InstallBionicLeg</li>
+		<li>InstallBionicSpine</li>
+		<li>InstallBionicHeart</li>
+		<li>InstallBionicStomach</li>
+		<li>InstallBionicEar</li>
+		<li>InstallSimpleProstheticArm</li>
+		<li>InstallSimpleProstheticLeg</li>
+		<li>InstallSimpleProstheticHeart</li>
+		<li>InstallCochlearImplant</li>
+		<li>InstallPegLeg</li>
+		<li>InstallDenture</li>
+		<li>InstallJoywire</li>
+		<li>InstallPainstopper</li>
+		<li>InstallNaturalHeart</li>
+		<li>InstallNaturalLung</li>
+		<li>InstallNaturalKidney</li>
+		<li>InstallNaturalLiver</li>
+		<li>ExciseCarcinoma</li>
+		<li>RemoveBodyPart</li>
+		<li>Euthanize</li>
+		<li>Anesthetize</li>
+    </recipes>
+    <comps>
+	
+    </comps>
+    <modExtensions>
+		<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.RacePropertiesExtensionCE">
+			<bodyShape>Humanoid</bodyShape>
+		</li>
+    </modExtensions>
+</AlienRace.ThingDef_AlienRace>
+
+<AlienRace.ThingDef_AlienRace ParentName="OG_Eldar_Race">
+    <defName>OG_Alien_Eldar</defName>
+</AlienRace.ThingDef_AlienRace>
+
+</Defs>

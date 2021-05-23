@@ -19,8 +19,8 @@
 		<max>60</max>
     </startingGoodwill>
     <earliestRaidDays>45</earliestRaidDays>
-    <factionNameMaker>NamerOGEldarFaction</factionNameMaker>
-    <settlementNameMaker>NamerOGEldarBases</settlementNameMaker>
+    <factionNameMaker>OG_Eldar_Craftworld_NamerFaction</factionNameMaker>
+    <settlementNameMaker>OG_Eldar_NamerBases</settlementNameMaker>
     <techLevel>Spacer</techLevel>
     <backstoryFilters>
       <li>

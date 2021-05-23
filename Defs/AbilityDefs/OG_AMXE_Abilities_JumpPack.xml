@@ -1,55 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
-<!-- ======================== Jump Pack Ability Defs ================================== -->
-<!-- ======================== Imperial - Jump Ability ================================== -->
-	<!--ThingDef ParentName="BaseBullet" Name="FlyingObject_JumpPack">
-		<defName>FlyingObject_JumpPack</defName>
-		<thingClass>AdeptusMechanicus.FlyingObject_JumpPack</thingClass>
-		<label>jump</label>
-		<graphicData>
-			<texPath>DummyTexture</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutFlying</shaderType>
-		</graphicData>
+<!-- ======================== Jump Pack Ability Defs ================================== -->	
+	<ThingDef ParentName="FlyingObject_JumpPack">
+		<defName>FlyingObject_JumpPackEldar</defName>
 		<projectile>
-			<flyOverhead>true</flyOverhead>
-			<damageDef>Stun</damageDef>
-			<damageAmountBase>60</damageAmountBase>
-			<explosionRadius>2</explosionRadius>
-			<speed>30</speed>
+			<speed>25</speed>
 		</projectile>
-		<skyfaller>
-			<reversed>true</reversed>
-			<anticipationSound>Shuttle_Leaving</anticipationSound>
-			<anticipationSoundTicks>-10</anticipationSoundTicks>
-			<moteSpawnTime>0.05</moteSpawnTime>
-			<zPositionCurve>
-				<points>
-					<li>(0,0)</li>
-					<li>(0.5,10)</li>
-					<li>(0.9,10)</li>
-					<li>(1,0)</li>
-				</points>
-			</zPositionCurve>
-			<xPositionCurve>
-				<points>
-					<li>(0,0)</li>
-					<li>(0.5,5)</li>
-					<li>(1,0)</li>
-				</points>
-			</xPositionCurve>
-			<speedCurve>
-				<points>
-					<li>(0,1)</li>
-					<li>(0.5,2)</li>
-					<li>(0.9,5)</li>
-					<li>(1,0)</li>
-				</points>
-			</speedCurve>
-		</skyfaller>
-	</ThingDef-->
-
+	</ThingDef>
+	
 	<AbilitesExtended.EquipmentAbilityDef>
 		<defName>OGE_Ability_HawkJump</defName>
 		<label>Jump</label>
@@ -73,6 +32,39 @@
 		<comps>
 			<li Class="AdeptusMechanicus.CompProperties_EquipmentAbilityJumpPack">
 				<compClass>AdeptusMechanicus.CompAbilityEffect_JumpPack</compClass>
+				<jumpingThing>FlyingObject_JumpPackEldar</jumpingThing>
+				<stunTicks>70~120</stunTicks>
+				<explodingLeaperRadius>2.5</explodingLeaperRadius>
+				<clamorRadius>10</clamorRadius>
+			</li>
+		</comps>
+	</AbilitesExtended.EquipmentAbilityDef>
+
+	<AbilitesExtended.EquipmentAbilityDef>
+		<defName>OGE_Ability_SpiderJump</defName>
+		<label>Jump</label>
+		<iconPath>Things/Item/Apparel/Eldar/SpiderArmour/Backpack/Base_Male_north</iconPath>
+		<description>Use Jump Pack.</description>
+		<abilityClass>AbilitesExtended.EquipmentAbility</abilityClass>
+		<cooldown>15</cooldown>
+		<verbProperties>
+			<verbClass>AbilitesExtended.Verb_UseEquipment</verbClass>
+			<range>24</range>
+			<requireLineOfSight>false</requireLineOfSight>
+			<minRange>0</minRange>
+			<warmupTime>0.5</warmupTime>
+			<!--warmupEffecter>JumpWarmupEffect</warmupEffecter-->
+			<targetParams>
+			<canTargetPawns>True</canTargetPawns>
+			<canTargetBuildings>false</canTargetBuildings>
+			<canTargetLocations>True</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AdeptusMechanicus.CompProperties_EquipmentAbilityJumpPack">
+				<compClass>AdeptusMechanicus.CompAbilityEffect_JumpPack</compClass>
+				<!--destination>Selected</destination-->
+				<type>Teleport</type>
 				<psychic>false</psychic>
 				<goodwillImpact>0</goodwillImpact>
 				<screenShakeIntensity>0</screenShakeIntensity>

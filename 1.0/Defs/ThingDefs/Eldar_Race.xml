@@ -504,7 +504,7 @@
             </researchList>
 			<apparelList>
                 <li>OGE_Apparel_BansheeArmour</li>
-                <li>OGE_Apparel_BansheeArmourHelmet</li>
+                <li>OGE_Apparel_BansheeHelmet</li>
                 <li>OGE_Apparel_RuneArmourWarlock</li>
                 <li>OGE_Apparel_WarlockHelmet</li>
                 <li>OGE_Apparel_RuneArmourFarseer</li>
@@ -515,13 +515,13 @@
 			</apparelList>
             <recipeList>
                 <li>OGE_Apparel_MeshArmour</li>
-                <li>OGE_Apparel_MeshArmourHelmet</li>
+                <li>OGE_Apparel_MeshHelmet</li>
                 <li>OGE_Apparel_DireAvengerArmour</li>
                 <li>OGE_Apparel_DireAvengerHelmet</li>
                 <li>OGE_Apparel_RangerArmour</li>
-                <li>OGE_Apparel_RangerArmourHelmet</li>
+                <li>OGE_Apparel_RangerHelmet</li>
                 <li>OGE_Apparel_BansheeArmour</li>
-                <li>OGE_Apparel_BansheeArmourHelmet</li>
+                <li>OGE_Apparel_BansheeHelmet</li>
                 <li>OGE_Apparel_RuneArmourWarlock</li>
                 <li>OGE_Apparel_WarlockHelmet</li>
                 <li>OGE_Apparel_RuneArmourFarseer</li>

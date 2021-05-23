@@ -30,7 +30,7 @@
 						</li>
 						<li Class="ScenPart_StartingThing_Defined">
 						  <def>StartingThing_Defined</def>
-						  <thingDef>OGE_Apparel_MeshArmourHelmet</thingDef>
+						  <thingDef>OGE_Apparel_MeshHelmet</thingDef>
 						</li>
 						<li Class="ScenPart_StartingThing_Defined">
 						  <def>StartingThing_Defined</def>
@@ -47,7 +47,7 @@
 						</li>
 						<li Class="ScenPart_StartingThing_Defined">
 						  <def>StartingThing_Defined</def>
-						  <thingDef>OGE_Apparel_RangerArmourHelmet</thingDef>
+						  <thingDef>OGE_Apparel_RangerHelmet</thingDef>
 						</li>
 						
 						<li Class="ScenPart_StartingThing_Defined">
@@ -56,7 +56,7 @@
 						</li>
 						<li Class="ScenPart_StartingThing_Defined">
 						  <def>StartingThing_Defined</def>
-						  <thingDef>OGE_Apparel_BansheeArmourHelmet</thingDef>
+						  <thingDef>OGE_Apparel_BansheeHelmet</thingDef>
 						</li>
 						
 						<li Class="ScenPart_StartingThing_Defined">
