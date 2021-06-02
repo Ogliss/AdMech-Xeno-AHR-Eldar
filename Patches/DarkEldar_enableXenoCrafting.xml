@@ -31,10 +31,10 @@
 						</value>
 					</li>
 					<li Class="PatchOperationRemove">
-						<xpath>/Defs/ResearchProjectDef[@Name = "OG_DarkEldar_ReseachBase"]/requiredResearchFacilities</xpath>
+						<xpath>/Defs/ResearchProjectDef[@Name = "OG_DarkEldar_Tech_Base"]/requiredResearchFacilities</xpath>
 					</li>
 					<li Class="PatchOperationRemove">
-						<xpath>/Defs/ResearchProjectDef[@Name = "OG_DarkEldar_ReseachBase"]/requiredResearchBuilding</xpath>
+						<xpath>/Defs/ResearchProjectDef[@Name = "OG_DarkEldar_Tech_Base"]/requiredResearchBuilding</xpath>
 					</li>
 					<li Class="PatchOperationConditional">
 						<xpath>Defs/ThingDef[defName="OGDE_TableMachining"]/comps/li[@Class="CompProperties_Facility"]</xpath>

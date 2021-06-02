@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ResearchProjectDef>
-		<tab>OGAMA_RTab</tab>
+	<ResearchProjectDef ParentName="OG_Aeldari_ReseachBase">
 		<defName>OG_Aeldari_Tech_Base</defName>
 		<label>Aeldari</label>
 		<description>The Eldar, or Aeldari as they were known in the Aeldari Lexicon before the fall of their lost realm, or the Asuryani (followers of Asuryan) as they refer to themselves, are an ancient humanoid alien species whose vast empire once extended the width and breadth of the known galaxy.\n\nThe Aeldari Empire was without equal, and they counted themselves masters of the stars. But millennia ago, the Aeldari's overweening pride and their fall into hedonistic practices led to a cataclysm that all but eradicated their kind and led to the birth of the Chaos God Slaanesh.</description>
@@ -16,7 +15,7 @@
 		</prerequisites>
 		<techLevel>Spacer</techLevel>
 		<researchViewX>0.00</researchViewX>
-		<researchViewY>7.50</researchViewY>
+		<researchViewY>3.00</researchViewY>
 	</ResearchProjectDef>
 	
 </Defs>

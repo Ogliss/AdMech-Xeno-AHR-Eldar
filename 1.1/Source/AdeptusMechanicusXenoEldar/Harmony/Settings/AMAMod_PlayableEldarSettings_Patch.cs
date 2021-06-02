@@ -17,7 +17,7 @@ namespace AdeptusMechanicus.HarmonyInstance
         [HarmonyPostfix]
         public static void ModsLoaded(ref AMAMod __instance, ref string __result)
         {
-            __result += ", " + "AME_ModName".Translate();
+            __result += ", " + "AdeptusMechanicus.Eldar.ModName".Translate();
         }
     }
     [HarmonyPatch(typeof(AMAMod), "EldarSettings")]
@@ -42,7 +42,7 @@ namespace AdeptusMechanicus.HarmonyInstance
         [HarmonyPrefix]
         public static void EldarSettings_Prefix(ref AMAMod __instance, ref Listing_StandardExpanding listing_Main, Rect rect, Rect inRect, float num, ref float num2)
         {
-            string label = "AMXB_ShowEldar".Translate() + " Settings";
+            string label = "AdeptusMechanicus.Xenobiologis.ShowEldar".Translate() + " Settings";
             string tooltip = string.Empty;
             if (Dev)
             {
@@ -67,23 +67,23 @@ namespace AdeptusMechanicus.HarmonyInstance
                 {
                     Listing_StandardExpanding listing_General = listing_Race.BeginSection(MenuLength, true);
                     listing_General.ColumnWidth *= 0.488f;
-                    listing_General.CheckboxLabeled("AMXB_AllowEldarCraftworld".Translate() + (!DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Craftworld")) ? "AMXB_NotYetAvailable".Translate() : "AMXB_HiddenFaction".Translate()),
+                    listing_General.CheckboxLabeled("AdeptusMechanicus.Xenobiologis.AllowEldarCraftworld".Translate() + (!DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Craftworld")) ? "AdeptusMechanicus.Xenobiologis.NotYetAvailable".Translate() : "AdeptusMechanicus.Xenobiologis.HiddenFaction".Translate()),
                         ref settings.AllowEldarCraftworld,
                         null,
                         !DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Craftworld")) || !settings.AllowEldarWeapons,
                         DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Craftworld")) && settings.AllowEldarWeapons);
-                    listing_General.CheckboxLabeled("AMXB_AllowEldarWraithguard".Translate(),
+                    listing_General.CheckboxLabeled("AdeptusMechanicus.Xenobiologis.AllowEldarWraithguard".Translate(),
                         ref settings.AllowEldarWraithguard,
                         null,
                         !DefDatabase<ThingDef>.AllDefs.Any(x => x.defName.Contains("Wraithguard")) || !settings.AllowEldarWeapons,
                         DefDatabase<ThingDef>.AllDefs.Any(x => x.defName.Contains("Wraithguard")) && settings.AllowEldarWeapons);
                     listing_General.NewColumn();
-                    listing_General.CheckboxLabeled("AMXB_AllowEldarExodite".Translate() + (!DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Exodite")) ? "AMXB_NotYetAvailable".Translate() : "AMXB_Faction".Translate()),
+                    listing_General.CheckboxLabeled("AdeptusMechanicus.Xenobiologis.AllowEldarExodite".Translate() + (!DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Exodite")) ? "AdeptusMechanicus.Xenobiologis.NotYetAvailable".Translate() : "AdeptusMechanicus.Xenobiologis.Faction".Translate()),
                         ref settings.AllowEldarExodite,
                         null,
                         !DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Exodite")) || !settings.AllowEldarWeapons,
                         DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Exodite")) && settings.AllowEldarWeapons);
-                    listing_General.CheckboxLabeled("AMXB_AllowEldarHarlequinn".Translate() + (!DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Harlequin")) ? "AMXB_NotYetAvailable".Translate() : "AMXB_HiddenFaction".Translate()),
+                    listing_General.CheckboxLabeled("AdeptusMechanicus.Xenobiologis.AllowEldarHarlequinn".Translate() + (!DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Harlequin")) ? "AdeptusMechanicus.Xenobiologis.NotYetAvailable".Translate() : "AdeptusMechanicus.Xenobiologis.HiddenFaction".Translate()),
                         ref settings.AllowEldarHarlequinn,
                         null,
                         !DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Harlequin")) || !settings.AllowEldarWeapons,
@@ -116,36 +116,36 @@ namespace AdeptusMechanicus.HarmonyInstance
             float options = __instance.Length(setting, Options - 1, lineheight, 0, 0);
             if (!Xenobiologis)
             {
-                if (!listing_Main.ButtonText("AME_ModName".Translate() + " Options", ref settings.ShowEldar))
+                if (!listing_Main.ButtonText("AdeptusMechanicus.Eldar.ModName".Translate() + " Options", ref settings.ShowEldar))
                 {
                 //    __instance.XenobiologisEldarMenuLength = 0;
                     return;
                 }
             }
             Listing_StandardExpanding listing_Race = listing_Main.BeginSection(RaceSettings, false, 3, 4, 0);
-            listing_Race.CheckboxLabeled("AMXB_ShowEldar".Translate() + " Settings", ref settings.ShowEldar, null, false, true, ArmouryMain.collapseTex, ArmouryMain.expandTex);
+            listing_Race.CheckboxLabeled("AdeptusMechanicus.Xenobiologis.ShowEldar".Translate() + " Settings", ref settings.ShowEldar, null, false, true, ArmouryMain.collapseTex, ArmouryMain.expandTex);
 
             if (setting)
             {
                 Listing_StandardExpanding listing_General = listing_Race.BeginSection(options, true);
                 listing_General.ColumnWidth *= 0.488f;
-                listing_General.CheckboxLabeled("AMXB_AllowEldarCraftworld".Translate() + (!DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Craftworld")) ? "AMXB_NotYetAvailable".Translate() : "AMXB_HiddenFaction".Translate()),
+                listing_General.CheckboxLabeled("AdeptusMechanicus.Xenobiologis.AllowEldarCraftworld".Translate() + (!DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Craftworld")) ? "AdeptusMechanicus.Xenobiologis.NotYetAvailable".Translate() : "AdeptusMechanicus.Xenobiologis.HiddenFaction".Translate()),
                     ref settings.AllowEldarCraftworld,
                     null,
                     !DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Craftworld")) || !settings.AllowEldarWeapons,
                     DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Craftworld")) && settings.AllowEldarWeapons);
-                listing_General.CheckboxLabeled("AMXB_AllowEldarWraithguard".Translate(),
+                listing_General.CheckboxLabeled("AdeptusMechanicus.Xenobiologis.AllowEldarWraithguard".Translate(),
                     ref settings.AllowEldarWraithguard,
                     null,
                     !DefDatabase<ThingDef>.AllDefs.Any(x => x.defName.Contains("Wraithguard")) || !settings.AllowEldarWeapons,
                     DefDatabase<ThingDef>.AllDefs.Any(x => x.defName.Contains("Wraithguard")) && settings.AllowEldarWeapons);
                 listing_General.NewColumn();
-                listing_General.CheckboxLabeled("AMXB_AllowEldarExodite".Translate() + (!DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Exodite")) ? "AMXB_NotYetAvailable".Translate() : "AMXB_Faction".Translate()),
+                listing_General.CheckboxLabeled("AdeptusMechanicus.Xenobiologis.AllowEldarExodite".Translate() + (!DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Exodite")) ? "AdeptusMechanicus.Xenobiologis.NotYetAvailable".Translate() : "AdeptusMechanicus.Xenobiologis.Faction".Translate()),
                     ref settings.AllowEldarExodite,
                     null,
                     !DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Exodite")) || !settings.AllowEldarWeapons,
                     DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Exodite")) && settings.AllowEldarWeapons);
-                listing_General.CheckboxLabeled("AMXB_AllowEldarHarlequinn".Translate() + (!DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Harlequin")) ? "AMXB_NotYetAvailable".Translate() : "AMXB_HiddenFaction".Translate()),
+                listing_General.CheckboxLabeled("AdeptusMechanicus.Xenobiologis.AllowEldarHarlequinn".Translate() + (!DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Harlequin")) ? "AdeptusMechanicus.Xenobiologis.NotYetAvailable".Translate() : "AdeptusMechanicus.Xenobiologis.HiddenFaction".Translate()),
                     ref settings.AllowEldarHarlequinn,
                     null,
                     !DefDatabase<FactionDef>.AllDefs.Any(x => x.defName.Contains("OG_Eldar_Harlequin")) || !settings.AllowEldarWeapons,
