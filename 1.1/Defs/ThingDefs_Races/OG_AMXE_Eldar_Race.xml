@@ -223,8 +223,6 @@
             <getsGreyAt>15000</getsGreyAt> 
             <hairTags>
 				<li>OG_Eldar_Hair</li>
-				<li>Urban</li>
-				<li>Rural</li>
             </hairTags>
         </hairSettings>
         <thoughtSettings>
@@ -354,6 +352,7 @@
 				<li>HiTechResearchBench</li>
 				<li>ElectricSmithy</li>
 				<li>FueledSmithy</li>
+				<li>WindTurbine</li>
 			</blackBuildingList>
         </raceRestriction>
     </alienRace>

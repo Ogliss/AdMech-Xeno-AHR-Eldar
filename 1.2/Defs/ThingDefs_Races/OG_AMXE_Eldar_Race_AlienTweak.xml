@@ -208,6 +208,16 @@
 							  </east>
 						</offsets>
 						<colorChannel>skin</colorChannel>
+						<allowPairWith>
+							<li>
+								<li>0</li>
+								<li>4</li>
+							</li>
+							<li>
+								<li>1</li>
+								<li>2</li>
+							</li>
+						</allowPairWith>
 						<hiddenUnderApparelFor>
 							<li>FullHead</li>
 							<li>UpperHead</li>
@@ -216,6 +226,7 @@
 					<li Class="AdeptusMechanicus.LinkedBodyAddon">
 						<path>Things/Pawn/Humanlike/Eldar/Head/Ears/Eldar_Ear_R</path>
 						<debug>false</debug>
+						<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
 						<bodyPart>right ear</bodyPart>
 						<inFrontOfBody>true</inFrontOfBody>
 						<layerInvert>true</layerInvert>

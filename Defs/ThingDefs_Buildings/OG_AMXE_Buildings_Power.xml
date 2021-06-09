@@ -209,7 +209,7 @@
     </placeWorkers>
     <comps>
       <li Class="CompProperties_Power">
-        <compClass>CompPowerPlantWind</compClass>
+        <compClass>AdeptusMechanicus.CompPowerPlantWind</compClass>
         <basePowerConsumption>-2300</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
       </li>
