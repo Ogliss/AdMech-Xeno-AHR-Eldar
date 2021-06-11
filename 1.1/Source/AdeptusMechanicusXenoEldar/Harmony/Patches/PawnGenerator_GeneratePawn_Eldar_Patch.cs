@@ -61,6 +61,17 @@ namespace AdeptusMechanicus.HarmonyInstance
                 Pawn_StoryTracker storyTracker = __result.story;
                 Backstory adulthood = storyTracker.adulthood;
                 bool adult = adulthood != null;
+                switch (__result.gender)
+                {
+                    case Gender.Male:
+                        storyTracker.bodyType = BodyTypeDefOf.Male;
+                        break;
+                    case Gender.Female:
+                        storyTracker.bodyType = BodyTypeDefOf.Female;
+                        break;
+                    default:
+                        break;
+                }
                 if (storyTracker.childhood.spawnCategories.Contains("Ork_Base_Child"))
                 {
 
