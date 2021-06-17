@@ -9,7 +9,7 @@ namespace AdeptusMechanicus
     public class ThoughtWorker_Eldar_NeedSoulstone : ThoughtWorker
 	{
 		// Token: 0x0600353E RID: 13630 RVA: 0x00124F04 File Offset: 0x00123104
-		protected override ThoughtState CurrentStateInternal(Pawn p)
+		public override ThoughtState CurrentStateInternal(Pawn p)
 		{
 			if (!p.isEldar())
 			{
