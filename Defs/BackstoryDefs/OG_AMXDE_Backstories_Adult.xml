@@ -1,0 +1,1651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_Chosen_of_Lhilitu</defName>
+		<title>Chosen of Lhilitu</title>
+		<baseDescription>The Consort of the Void's worshippers comprise a mysterious sisterhood who are desired by powerful Archons to serve as courtesans in their courts. These Lhamaeans are renowned in Commorragh for being both imaginative lovers and exceptional poisoners. They descend from the Cult of Llamaea, whose courtesan elite also worshipped Lhilitu, and gained their knowledge of poisons from Shaimesh.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Beauty</defName>
+				<chance>50</chance>
+				<degree>1</degree>
+			</li>
+			<li>
+				<defName>Bisexual</defName>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>6</amount>
+			</li>	
+			<li>
+				<defName>Medicine</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>-2</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_ScionofVileth</defName>
+		<title>Scion of Vileth</title>
+		<baseDescription>Vileth is a being synonymous with the immense arrogance so often displayed by the Drukhari, and is particularly popular as an ideal to which many Drukhari Archons aspire. The "Scions of Vileth" are also known as the best aerial hunters of the Drukhari, piloting aircraft such as Razorwing jetfighters and Voidraven bombers. These Drukhari pilots will sometimes form mercenary aerial squadrons that will work for Kabals, Wych Cults, and the Haemonculi of the Dark City.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>SpeedOffset</defName>
+				<chance>30</chance>
+				<degree>2</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>	
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Kabal_Archon</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_ChosenofQaleh</defName>
+		<title>Chosen of Qa'leh</title>
+		<baseDescription>Traditionalist Wych Cults also often seek the ritual favour of the Mistress of Blades with a sacrifice for good fortune before combat.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Beauty</defName>
+				<chance>50</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>	
+			<li>
+				<defName>Shooting</defName>
+				<amount>-2</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Cult_Wych</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_HaemonculisRetainer</defName>
+		<title>Haemonculi's Retainer</title>
+		<baseDescription>One Haemonculus might only dine upon the left hands of his victims, while another may only drink from a fluted glass filled with the tears of children. Suffice to say [PAWN_nameDef] has seen the twisted innerworkings of the mind of their Haemonculus master. This has left them with both boons of knowledge and technological skill as a result with at times the scars to prove it.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Beauty</defName>
+				<chance>15</chance>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<chance>20</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>	
+			<li>
+				<defName>Medicine</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>-2</amount>
+			</li>		
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_WychBloodbride</defName>
+		<title>Wych Bloodbride</title>
+		<baseDescription>It is common for a Succubus to gather the most talented and skilled of her Hekatrix handmaidens into a clique of elite murdereresses, led by the most skilled Hekatrix in the cult, who holds the position of Syren. These cliques, whose members are known as Hekatrix Bloodbrides.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>ManualDumb</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Beauty</defName>
+				<chance>70</chance>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<chance>20</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>	
+			<li>
+				<defName>Shooting</defName>
+				<amount>-4</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>		
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Cult_Wych</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_KabaliteWarrior</defName>
+		<title>Kabalite Warrior</title>
+		<baseDescription>The Warriors of the Dark Eldar Kabals lie at the heart of every Dark Eldar strike force, pirate fleet and slave raider assault. They are the cruelest members of their caste, hungry for power over their fellows and thirsty to taste the suffering of others. [PAWN_nameDef] has tasted the glory often granted to those who partake in the sinister raids inflicted by their Kabal.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>ManualDumb</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>10</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>	
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>-2</amount>
+			</li>		
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Kabal_Warrior</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_ReaverRider</defName>
+		<title>Reaver Rider</title>
+		<baseDescription>The Reavers of Commorragh are those Drukhari fascinated by bringing death to others at high speeds. They ride to war upon the most streamlined and pared-down of all Aeldari skycraft -- the Aeldari Jetbike, the perfect fusion of motion and lethal power.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>ManualDumb</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>10</chance>
+				<degree>1</degree>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<chance>30</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>	
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>-2</amount>
+			</li>		
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Kabal_Warrior</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_VeteranSybarite</defName>
+		<title>Veteran Sybarite</title>
+		<baseDescription>Sybarites are not only veteran raiders of realspace, but also the Kabalites who have the honour and duty of initiating each new warrior into the always-brutal mysteries of their Kabal.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>5</amount>
+			</li>	
+			<li>
+				<defName>Shooting</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>		
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Kabal_Warrior</li>
+			<li>DarkEldar_Kabal_Warrior_Elite</li>
+			<li>DarkEldar_Kabal_Sybarite_Elite</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_HellionRider</defName>
+		<title>Hellion Rider</title>
+		<baseDescription>The tortured skies of Commorragh are warzones as perilous as its xenos-riddled ghettos and its noble-ruled spires. Through the mists soar arrogant lords and winged hunters seeking the next kill. The most savage of these airborne horrors are the Hellions, gangs of feral Dark Eldar who descend upon their prey in a flurry of blades before soaring away, safely out of reach.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>SpeedOffset</defName>
+				<chance>20</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>	
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Kabal_Warrior</li>
+			<li>DarkEldar_Kabal_Warrior_Elite</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_WychBeastmaster</defName>
+		<title>Wych Beastmaster</title>
+		<baseDescription>Over the millennia since Commorragh's founding, its sand-filled arenas have drunk the blood of millions. Each arena has witnessed countless spectacles of perversity and death, but there is one gladiatorial favourite that never fades in popularity: the wild hunts of the Beastmasters.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables />
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>15</chance>
+				<degree>1</degree>
+			</li>
+			<li>
+				<defName>Beauty</defName>
+				<chance>15</chance>
+				<degree>-1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>6</amount>
+			</li>	
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>-4</amount>
+			</li>		
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Cult_Wych</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_FleshObsessed</defName>
+		<title>Flesh Obsessed</title>
+		<baseDescription>[PAWN_nameDef] takes great pleasure in the collection, display, and consumption of the flesh of the enemies they have defeated in their numerous raids into realspace. Centuries of practice have allowed [PAWN_nameDef] to accumulate knowledge on the myriad ways to "prepare" flesh in creative ways.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+			<li>
+				<defName>Gourmand</defName>
+				<chance>20</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Artistic</defName>
+				<amount>6</amount>
+			</li>	
+			<li>
+				<defName>Crafting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>4</amount>
+			</li>		
+			<li>
+				<defName>Social</defName>
+				<amount>-4</amount>
+			</li>		
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_KeeperoftheLash</defName>
+		<title>Keeper of the Lash</title>
+		<baseDescription>Overwhelmingly the denizens of Commorragh take pleasure in the oppression of creatures and slaves deemed inferior to the Drukhari.[PAWN_nameDef] is no exception.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>5</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>	
+			<li>
+				<defName>Animals</defName>
+				<amount>4</amount>
+			</li>		
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_ArchitectofFear</defName>
+		<title>Architect of Fear</title>
+		<baseDescription>The painfully beautiful contraptions and structures of the Drukhari are truly something to behold within the depths of Commorragh. [PAWN_nameDef] has studied the bloody ways of their manufacture.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>5</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Construction</defName>
+				<amount>4</amount>
+			</li>	
+			<li>
+				<defName>Crafting</defName>
+				<amount>4</amount>
+			</li>		
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_KabalPoisonKeeper</defName>
+		<title>Kabal Poison Keeper</title>
+		<baseDescription>[PAWN_nameDef] understands that the cranial fluid of slaves who have been poisoned with a combination of other drugs and toxins including Corpse Obmulen and Liquid Agony, will result in a potent Murder's Boon. As such, [PAWN_nameDef] has been honored with the position of Poison Keeper within the Kabal. A powerful but an undertandably mistrusted position.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>5</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>6</amount>
+			</li>	
+			<li>
+				<defName>Plants</defName>
+				<amount>6</amount>
+			</li>		
+			<li>
+				<defName>Social</defName>
+				<amount>-4</amount>
+			</li>		
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+	 
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_RavagerRider</defName>
+		<title>Ravager Rider</title>
+		<baseDescription>It is perhaps indicative of the wider mindset of the Drukkhari that the Ravager, the most ubiquitous of their gunship designs, exhibits that speed is prized above all. [PAWN_nameDef] has ridden on the Ravagers of their Kabal excelling at picking off unfortunate targets from afar before escaping rapidly.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>5</chance>
+				<degree>1</degree>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<chance>50</chance>
+				<degree>2</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>6</amount>
+			</li>	
+			<li>
+				<defName>Melee</defName>
+				<amount>-4</amount>
+			</li>		
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Kabal_Warrior</li>
+			<li>DarkEldar_Kabal_Warrior_Elite</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+	 
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_GluttonofBlood</defName>
+		<title>Glutton of Blood</title>
+		<baseDescription>[PAWN_nameDef] takes exceptional pleasure in drawing out the lifeblood of their enemies and slaves. Blood has so many uses and... tastes.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>5</chance>
+				<degree>1</degree>
+			</li>
+			<li>
+				<defName>Gourmand</defName>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>3</amount>
+			</li>	
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>	
+			<li>
+				<defName>Medicine</defName>
+				<amount>3</amount>
+			</li>		
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+			<li>DarkEldar_Kabal_Warrior_Melee</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+	 
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_BloodyBladeHedonist</defName>
+		<title>Bloody Blade Hedonist</title>
+		<baseDescription>The Drukhari understand that there is no simpler but greater ecstasy experienced than when seeing the blood of a powerful foe or inferior being on their blade. [PAWN_nameDef] want to maximize the gore upon their chosen tool of close combat. Those who deny them this wish best keep clear...</baseDescription>
+		<slot>Adulthood</slot>
+		<!--workDisables>
+			<li>Shooting</li>
+		</workDisables-->
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>5</chance>
+				<degree>1</degree>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+				<chance>75</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>7</amount>
+			</li>	
+			<li>
+				<defName>Social</defName>
+				<amount>-4</amount>
+			</li>	
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Kabal_Warrior_Melee</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+	 
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_BloodsportGladiator</defName>
+		<title>Bloodsport Gladiator</title>
+		<baseDescription>The nightly battles between the gladiatrixes of the Wych Cults draw baying crowds to every Commorrite arena. Wyches wield a variety of outlandish weapons that can whip out, extend, enmesh, retract, split in two, or snap an opponent's blade with the twist of a supple wrist.</baseDescription>
+		<slot>Adulthood</slot>
+		<!--workDisables>
+			<li>Shooting</li>
+		</workDisables-->
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>5</chance>
+				<degree>1</degree>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>	
+			<li>
+				<defName>Social</defName>
+				<amount>-2</amount>
+			</li>	
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Cult_Wych</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+	 
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_BloodsportChampion</defName>
+		<title>Bloodsport Champion</title>
+		<baseDescription>The nightly battles between the gladiatrixes of the Wych Cults draw baying crowds to every Commorrite arena. Wyches wield a variety of outlandish weapons that can whip out, extend, enmesh, retract, split in two, or snap an opponent's blade with the twist of a supple wrist.</baseDescription>
+		<slot>Adulthood</slot>
+		<!--workDisables>
+			<li>Shooting</li>
+		</workDisables-->
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+				<chance>70</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>7</amount>
+			</li>	
+			<li>
+				<defName>Social</defName>
+				<amount>-4</amount>
+			</li>	
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Cult_Wych</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	 
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_RealspaceRaidProcurer</defName>
+		<title>Realspace Raid Procurer</title>
+		<baseDescription>Raids into realspace require tense and often violent negotiations with the various individuals to be involved in the planned incursion. Additionally, procurers are often resourceful in their acquisition of the logistics necessary to properly supply the raid.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>5</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>	
+			<li>
+				<defName>Crafting</defName>
+				<amount>4</amount>
+			</li>	
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+	 
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_RealspaceRaidSchemer</defName>
+		<title>Realspace Raid Schemer</title>
+		<baseDescription>Raids into realspace require a cunning mind for its leader to concoct a sadistic plan. Additionally, schemers are often brillant in their ability to procure poisons and utilize them to soften the resistance of the targeted planet's defenders.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>5</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>2</amount>
+			</li>	
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>	
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+	 
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_Incubus</defName>
+		<title>Incubus</title>
+		<baseDescription>The act of becoming an Incubus is dangerous in the extreme; through long and gruelling practice, the strong prosper, while the weak are cut down and their bodies burnt as an offering to the statue of Khaine, the Aeldari god of war, at the heart of each Incubus shrine.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>ManualDumb</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+				<chance>50</chance>
+			</li>		
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>8</amount>
+			</li>	
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>	
+			<li>
+				<defName>Social</defName>
+				<amount>-4</amount>
+			</li>	
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Klave_Incubi</li>
+			<li>DarkEldar_Klave_Incubi_Lord</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_ProphetofFlesh</defName>
+		<title>Prophet of Flesh</title>
+		<baseDescription>The Prophets of Flesh are the Coven of Urien Rakarth himself. They are considered by many Commorrites to be the apex – or rather the nadir – of the inverted hierarchy of the underspires, and as such they receive more supplicants than any other Coven.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>	
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>	
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>	
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_FeasterofPech</defName>
+		<title>Feaster of Pech</title>
+		<baseDescription>After capturing not only countless T’au upon Vigos but also the mercenaries with which they bolster their cadres, the Prophets of Flesh discovered that the Kroot are able to adapt and evolve by selectively devouring the dead. The Haemonculi of the Coven immediately began experimenting on the captives in the hopes of appropriating this ability.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+			<li>
+				<defName>Gourmand</defName>
+				<chance>20</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>	
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>	
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_HarvesterofChogros</defName>
+		<title>Harvester of Chogros</title>
+		<baseDescription>The Kabal of the Broken Sigil began a series of raids on the planet Chogros, capturing the Ogryn natives for the arenas. When Astra Militarum regiments arrive to intervene, the conflict escalates into a planet-wide engagement. Though they fight hard, the soldiers of the Imperium are eventually defeated. The Crucibael is thronged for many nights to come as the captured Guardsmen are forced to fight the very Ogryns they were sent to save.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>	
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>	
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+ 
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_DelivereroftheSerpentA</defName>
+		<title>Deliverer of the Serpent</title>
+		<baseDescription>The toxin crafters of the Kabal of the Poisoned Tongue tailor their venoms to the targets of a raid, ensuring they will have the most gruesome effect on the victims’ physiologies.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>			
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>	
+			<li>
+				<defName>Medicine</defName>
+				<amount>4</amount>
+			</li>	
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>  
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_DelivereroftheSerpentB</defName>
+		<title>Deliverer of the Serpent</title>
+		<baseDescription>The toxin crafters of the Kabal of the Poisoned Tongue tailor their venoms to the targets of a raid, ensuring they will have the most gruesome effect on the victims’ physiologies.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>			
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>	
+			<li>
+				<defName>Medicine</defName>
+				<amount>4</amount>
+			</li>	
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>  
+ 
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_DistillerofFear</defName>
+		<title>Distiller of Fear</title>
+		<baseDescription>The Prophets of Flesh have modified their own bodies and those of their servants to an extraordinary extent – so much so that few weapons their enemies bring to bear against them can inflict damage greater than that they have already endured.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>2</amount>
+			</li>			
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>	
+			<li>
+				<defName>Medicine</defName>
+				<amount>2</amount>
+			</li>	
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>   
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_ConnoisseurofPain</defName>
+		<title>Connoisseur of Pain</title>
+		<baseDescription>The Coven of the Dark Creed has perfected every method of inducing terror, to the extent that their mere presence fills the minds of their enemies with nightmarish dread.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>		
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>	
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>	
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+ 
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_InflictorofMalediction</defName>
+		<title>Inflictor of Malediction</title>
+		<baseDescription>When released, the souls of psykers tortured unto death that are held within a crucible of malediction spew outward, driving insane any nearby whose minds are attuned to the warp. What glorious screams they made...</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>		
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>	
+			<li>
+				<defName>Artistic</defName>
+				<amount>2</amount>
+			</li>	
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>  
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_MasterNemesine</defName>
+		<title>Master Nemesine</title>
+		<baseDescription>Out of a twisted scientific curiosity, this Warlord knows a variety of ways to kill every realspace species they have ever discovered. There is no weak point unknown to them, and no nerve cluster they cannot excise with their scalpels.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>ManualDumb</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>		
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>	
+			<li>
+				<defName>Medicine</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>				
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Kabal_Archon</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>  
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_TreacherousDeceiver</defName>
+		<title>Treacherous Deceiver</title>
+		<baseDescription>The Succubi of the Cult of the Cursed Blade are cunning and treacherous, exploiting any opportunity to wrong- foot and deceive their foes before striking them with concealed weapons.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>		
+			<li>
+				<defName>Melee</defName>
+				<amount>5</amount>
+			</li>	
+			<li>
+				<defName>Medicine</defName>
+				<amount>2</amount>
+			</li>				
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>  
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_DiabolicalSoothsayer</defName>
+		<title>Diabolical Soothsayer</title>
+		<baseDescription>Many Haemonculi of the Prophets of Flesh dabble in soothsaying, despite the prohibition on psychic activity that pervades Commorragh. The insights they gain by doing so give them a great advantage before launching a realspace raid.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>		
+			<li>
+				<defName>Intellectual</defName>
+				<amount>5</amount>
+			</li>	
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>				
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>  
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_ScarletEpicurean</defName>
+		<title>Scarlet Epicurean</title>
+		<baseDescription>The Haemonculi of the Coven of Twelve have been slain and resurrected so many times that there are few methods of death they are not intimately familiar with. Unless they wish to experience a new fatality, they are notoriously difficult to kill.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+			<li>ManualDumb</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defName>Tough</defName>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>		
+			<li>
+				<defName>Melee</defName>
+				<amount>5</amount>
+			</li>	
+			<li>
+				<defName>Shooting</defName>
+				<amount>5</amount>
+			</li>				
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Kabal_Archon</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>  
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_DecadentofDeath</defName>
+		<title>Decadent of Death</title>
+		<baseDescription>The Last Hatred are recognisable for the myriad, still-living bodies that adorn the hulls of their raiding craft in different states of necrosis. The twisted grimaces and agonised screams of these unfortunates not only terrifies the Kabal’s enemies, but also invigorates its warriors as they ride into battle.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defName>Tough</defName>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>		
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>	
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>				
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_BringerofTwilight</defName>
+		<title>Bringer of Twilight</title>
+		<baseDescription>Proportionally, the Dying Sun are comprised of more Trueborn Drukhari than any other Kabal, and they show open disdain to those lesser born. Even Asdrubael Vect is viewed amongst the Kabal as a usurper who has elevated himself far beyond his birthright.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>		
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>	
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>				
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_WrightofWar</defName>
+		<title>Wright of War</title>
+		<baseDescription>The deafening scream of grav-engines heralds the Lords of Iron Thorn as they burst from the webway into realspace. Few other Kabals can boast as great a navy as the rulers of Pandaimon, and none can match their ability to create these machines of war.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>		
+			<li>
+				<defName>Construction</defName>
+				<amount>3</amount>
+			</li>	
+			<li>
+				<defName>Crafting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>2</amount>
+			</li>				
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+ 
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_WeaverofFear</defName>
+		<title>Weaver of Fear</title>
+		<baseDescription>Though uncontrolled fear is a common byproduct of a Drukhari raid, the Broken Sigil ensure that their victims are gripped with terror before a single Kabalite has emerged from the shadows. Perched in the wings of the webway, they wait for the sound of screaming to beckon them to the stage of battle.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>		
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>	
+			<li>
+				<defName>Crafting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>				
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_GhorvenfalRaider</defName>
+		<title>Ghorvenfal Raider</title>
+		<baseDescription>One of the more infamous joint endeavours between the Kabal of the Black Heart and the Wych Cult of Strife was the raid upon the world of Ghorvenfal. The planet was a stronghold of the Alpha Legion, a Heretic Astartes faction synonymous with the use of stealth and subterfuge. For decades an Alpha Legion warlord by the name of Jaghathra Vrax had operated out of a fortress in Ghorvenfal’s Black Mountains.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>		
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>	
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>2</amount>
+			</li>				
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_ThiefofLethidia</defName>
+		<title>Thief of Lethidia</title>
+		<baseDescription>Following their successful experimentations on the Kroot, the Prophets of Flesh turned their attention to the hyper-adaptive capabilities of the Tyranids. Urien Rakarth mustered a number of Covens under his banner, and together they set out for the southern edge of the galaxy.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>		
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>	
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>				
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Civilian</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+
+	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+		<defName>OG_AMXDE_Adult_ButcherwithoutEqual</defName>
+		<title>Butcher without Equal</title>
+		<baseDescription>Masters of close-quarters combat. They must be, for the only way to ascend the ranks of the Coven is for a Wrack to slaughter their master, and each Haemonculus is always on guard against the gruesome scheme that would see their body ravaged beyond repair.</baseDescription>
+		<slot>Adulthood</slot>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<chance>25</chance>
+				<degree>2</degree>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+				<chance>50</chance>
+			</li>			
+		</forcedTraits>
+		<disallowedTraits />
+		<skillGains>		
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>	
+			<li>
+				<defName>Cooking</defName>
+				<amount>3</amount>
+			</li>				
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+			<li>DarkEldar_Standard</li>
+			<li>DarkEldar_Kabal_Archon</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef> 
+ 
+</Defs>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_Base_PawnKind">
+		<race>OG_Alien_DarkEldar</race>
+		<combatPower>40</combatPower>
+		<baseRecruitDifficulty>1.0</baseRecruitDifficulty>
+		<isFighter>false</isFighter>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+			<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<drawSize>0.75</drawSize>
+				</bodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<drawSize>1</drawSize>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+		<!--
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Eldar_Craftworld</li>
+				</categories>
+				<commonality>1</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Eldar_Craftworld_Warrior</li>
+				</categories>
+				<commonality>0.5</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Eldar_Craftworld_Psyker</li>
+				</categories>
+				<commonality>0.25</commonality>
+			</li>
+		</backstoryFiltersOverride>
+		-->
+	</PawnKindDef>
+
+	<PawnKindDef Abstract="True" Name="Colonist_OG_DarkEldar_Kabal_Base" ParentName="OG_DarkEldar_Base_PawnKind">
+		<label>colonist (Dark Eldar)</label>
+		<defaultFactionType>OG_DarkEldar_Kabal_PlayerColony</defaultFactionType>
+		<apparelTags>
+			<li>Spacer</li>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>500</min>
+			<max>1200</max>
+		</apparelMoney>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Standard</li>
+				</categories>
+				<commonality>1</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>DarkEldar_Kabal_Warrior</li>
+				</categories>
+				<commonality>0.5</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>DarkEldar_Kabal_Archon</li>
+				</categories>
+				<commonality>0.25</commonality>
+			</li>
+		</backstoryFiltersOverride>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+	</PawnKindDef>
+	
+</Defs>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ============================ Dark Eldar Civilians ========================== -->
+	<!-- ============================ Dark Eldar Faction Leader Archon ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_Archon_FactionBase">
+		<defName>OG_DarkEldar_Archon_Faction</defName>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>17~27</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Faction Traders ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_Archon_FactionBase">
+		<defName>OG_DarkEldar_Trader</defName>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Faction Slave ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_SlaveBase">
+		<defName>Slave_OG_DarkEldar</defName>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Security ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_CadetBase">
+		<defName>OG_DarkEldar_Cadet</defName>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Military ========================== -->	
+	<!-- ============================ Dark Eldar Kabalite Ranged ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_Kabalite_WarriorBase">
+		<defName>OG_DarkEldar_Kabalite_Warrior</defName>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Kabalite Melee ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_Kabalite_StormBase">
+		<defName>OG_DarkEldar_Kabalite_Storm</defName>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Kabalite Support ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_Kabalite_SupportBase">
+		<defName>OG_DarkEldar_Kabalite_Support</defName>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Sybarite ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_Kabalite_SybariteBase">
+		<defName>OG_DarkEldar_Kabalite_Sybarite</defName>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Wych ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_WychBase">
+		<defName>OG_DarkEldar_Wych</defName>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>19~29</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Wych Exarch ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_Wych_ExarchBase">
+		<defName>OG_DarkEldar_Wych_Exarch</defName>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>19~29</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Hellion ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_HellionBase">
+		<defName>OG_DarkEldar_Hellion</defName>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>19~29</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Hellion Exarch ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_Hellion_EliteBase">
+		<defName>OG_DarkEldar_Hellion_Elite</defName>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>19~29</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Scourge ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_ScourgeBase">
+		<defName>OG_DarkEldar_Scourge</defName>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>20~36</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Haemonculus ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_HaemonculusBase">
+		<defName>OG_DarkEldar_Haemonculus</defName>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>20~36</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Haemonculus Exarch ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_Haemonculus_ExarchBase">
+		<defName>OG_DarkEldar_Haemonculus_Exarch</defName>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>20~36</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Incubi ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_IncubiBase">
+		<defName>OG_DarkEldar_Incubi</defName>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>20~36</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Incubi Lord ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_Incubi_LordBase">
+		<defName>OG_DarkEldar_Incubi_Lord</defName>
+		<initialWillRange>6~8</initialWillRange>
+		<initialResistanceRange>37~66</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Medusae ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_MedusaeBase">
+		<defName>OG_DarkEldar_Medusae</defName>
+		<initialWillRange>2~3</initialWillRange>
+		<initialResistanceRange>20~36</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Archon ========================== -->
+	<PawnKindDef ParentName="OG_DarkEldar_ArchonBase">
+		<defName>OG_DarkEldar_Archon</defName>
+		<initialWillRange>6~8</initialWillRange>
+		<initialResistanceRange>37~66</initialResistanceRange>
+	</PawnKindDef>
+	
+</Defs>

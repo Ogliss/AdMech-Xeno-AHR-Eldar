@@ -481,7 +481,7 @@
 				</points>
 			</ageGenerationCurve>
 			<hediffGiverSets>
-				<li>OrganicAgeless</li>
+				<li>OG_Aeldari_OrganicAgeless</li>
 			</hediffGiverSets>
 		</race>
 		<recipes>

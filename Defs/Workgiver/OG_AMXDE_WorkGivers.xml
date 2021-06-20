@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--==================== Dark Eldar  - Work Giver =========================-->
+	
+	<WorkGiverDef>
+		<defName>DoBillsDarkEldarMachining</defName>
+		<label>Fabricate DarkEldar Resources</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>45</priorityInType>
+		<fixedBillGiverDefs>
+			<li>OGDE_TableMachining</li>
+		</fixedBillGiverDefs>
+		<verb>Fabricate Resources</verb>
+		<gerund>Fabricating Resources at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>DoBillsSacrificialAlter</defName>
+		<label>Sacrifice the weaklings to the Kabaal</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>45</priorityInType>
+		<fixedBillGiverDefs>
+			<li>OGDE_SacrificialAlter</li>
+		</fixedBillGiverDefs>
+		<verb>Fabricate Resources</verb>
+		<gerund>Fabricating Resources at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+
+</Defs>

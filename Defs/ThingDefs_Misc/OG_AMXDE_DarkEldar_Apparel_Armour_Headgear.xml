@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ====== Dark Eldar Helmets ====== -->
+	<!-- ====== Kabalite Helmet ====== -->
+	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Headgear">
+		<defName>OGDE_Apparel_Armor_KabaliteHelmet</defName>
+		<label>kabalite helmet</label>
+		<description>The helmet commonly worn by the Dark Eldar.</description>
+		<thingClass>AdeptusMechanicus.ApparelComposite</thingClass>
+		<graphicData> 
+			<texPath>Things/Item/Apparel/DarkEldar/KabaliteHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>1.8</Mass>
+			<WorkToMake>10000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<Insulation_Cold>15</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2.5</EquipDelay>
+			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>0.08</ShootingAccuracyPawn>
+			<ToxicSensitivity>-0.30</ToxicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>15</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<OGDE_Wraithbone>15</OGDE_Wraithbone>
+			<OGDE_Component>5</OGDE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/DarkEldar/KabaliteHelmet/Base</wornGraphicPath>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>DarkEldarMilitary</li>
+				<li>DEKabaliteArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>DarkEldarSoldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<!--li>OGDEHeadgear</li-->
+		</thingCategories>
+		<tradeTags>
+			<!--li>OGDEHeadgear</li-->
+		</tradeTags>
+		<tickerType>Normal</tickerType>
+		<comps Inherit = "false">
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="AdeptusMechanicus.CompProperties_FactionColorable">
+				<Key>DarkEldar_Kabal</Key>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<!--li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponMelee</nameMaker>
+				<descriptionMaker>OG_AMAA_ArtDescription_ApparelArmour</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li-->
+			<li Class="AdeptusMechanicus.CompProperties_EyeProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>AdeptusMechanicus.ITab_ToggleLivelry</li>
+		</inspectorTabs>
+		<colorGenerator Class="AdeptusMechanicus.TwoColorGenerator_Options">
+			<options>
+				<li>
+					<only>55,56,69</only>
+				</li>
+			</options>
+			<optionsTwo>
+				<li>
+					<only>11,99,113</only>
+				</li>
+			</optionsTwo>
+		</colorGenerator>
+		<modExtensions>
+		  <li Class="AdeptusMechanicus.ApparelGraphicExtension">
+			<defaultLabel>default</defaultLabel>
+			<keyLabel>Style</keyLabel>
+			<alternateGraphics>
+				<li>
+					<label>spiked</label>
+					<saveKey>VarA</saveKey>
+					<texPath>Things/Item/Apparel/DarkEldar/KabaliteHelmet/_Icon_VarA</texPath>
+					<wornGraphicPath>Things/Item/Apparel/DarkEldar/KabaliteHelmet/VarA</wornGraphicPath>
+				</li>
+			</alternateGraphics>
+		  </li>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingGasMask</hediff>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ====== Sybarite Helmet ====== -->
+	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Headgear">
+		<defName>OGDE_Apparel_Armor_SybariteHelmet</defName>
+		<label>sybarite helmet</label>
+		<description>The helmet commonly worn by the Dark Eldar Sybarite.</description>
+		<thingClass>AdeptusMechanicus.ApparelComposite</thingClass>
+		<graphicData> 
+			<texPath>Things/Item/Apparel/DarkEldar/SybariteHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>1.8</Mass>
+			<WorkToMake>10000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.8</ArmorRating_Heat>
+			<Insulation_Cold>15</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2.5</EquipDelay>
+			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>0.08</ShootingAccuracyPawn>
+			<ToxicSensitivity>-0.30</ToxicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>20</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<OGDE_Wraithbone>15</OGDE_Wraithbone>
+			<OGDE_Component>5</OGDE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/DarkEldar/SybariteHelmet/Base</wornGraphicPath>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>DarkEldarMilitary</li>
+				<li>DESybariteArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>DarkEldarSoldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<!--li>OGDEHeadgear</li-->
+		</thingCategories>
+		<tradeTags>
+			<!--li>OGDEHeadgear</li-->
+		</tradeTags>
+		<tickerType>Normal</tickerType>
+		<comps Inherit = "false">
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="AdeptusMechanicus.CompProperties_FactionColorable">
+				<Key>DarkEldar_Kabal</Key>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_EyeProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>AdeptusMechanicus.ITab_ToggleLivelry</li>
+		</inspectorTabs>
+		<colorGenerator Class="AdeptusMechanicus.TwoColorGenerator_Options">
+			<options>
+				<li>
+					<only>55,56,69</only>
+				</li>
+			</options>
+			<optionsTwo>
+				<li>
+					<only>11,99,113</only>
+				</li>
+			</optionsTwo>
+		</colorGenerator>
+		<modExtensions>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingGasMask</hediff>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ====== Wych Helmet ====== -->
+	<!-- Add 0.55 inv save, increased in CQC to 0.92 -->
+	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Headgear">
+		<defName>OGDE_Apparel_Armor_WychHelmet</defName>
+		<label>wych mask</label>
+		<description>The helmet commonly worn by the Dark Eldar Wyches.</description>
+		<thingClass>AdeptusMechanicus.ApparelComposite</thingClass>
+		<graphicData> 
+			<texPath>Things/Item/Apparel/DarkEldar/WychMask/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+		</graphicData>
+		<statBases>
+			<Mass>1.8</Mass>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.55</ArmorRating_Heat>
+			<OG_ArmorRating_InvunerableSave>0.55</OG_ArmorRating_InvunerableSave>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+			<MeleeDodgeChance>0.15</MeleeDodgeChance>
+			<MeleeHitChance>0.10</MeleeHitChance>
+			<ToxicSensitivity>-0.15</ToxicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>60</Steel>
+			<Cloth>30</Cloth>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<OGDE_Wraithbone>15</OGDE_Wraithbone>
+			<OGDE_Component>5</OGDE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/DarkEldar/WychMask/Base</wornGraphicPath>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>DarkEldarMilitary</li>
+				<li>DEKabaliteArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>DarkEldarSoldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<!--li>OGDEHeadgear</li-->
+		</thingCategories>
+		<tradeTags>
+			<!--li>OGDEHeadgear</li-->
+		</tradeTags>
+		<tickerType>Normal</tickerType>
+		<comps>	 
+			<li Class="AdeptusMechanicus.CompProperties_EyeProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+		</comps>
+		<modExtensions>
+		  <li Class="AdeptusMechanicus.ApparelGraphicExtension">
+			<defaultLabel>battle-brother</defaultLabel>
+			<keyLabel>Style</keyLabel>
+			<alternateGraphics>
+				<li>
+					<label>Flipped</label>
+					<saveKey>Fliped</saveKey>
+					<texPath>Things/Item/Apparel/DarkEldar/WychMask/_Icon_Flip</texPath>
+					<wornGraphicPath>Things/Item/Apparel/DarkEldar/WychMask/Flip</wornGraphicPath>
+				</li>
+			</alternateGraphics>
+		  </li>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingGasMask</hediff>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ====== Wych Beastmaster Helmet ====== -->
+	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Headgear">
+		<defName>OGDE_Apparel_Armor_BeastmasterHelmet</defName>
+		<label>beastmaster helmet</label>
+		<description>The helmet commonly worn by the Dark Eldar Beastmasters.</description>
+		<graphicData> 
+			<texPath>Things/Item/Apparel/DarkEldar/BeastmasterHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+		</graphicData>
+		<statBases>
+			<Mass>1.8</Mass>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.55</ArmorRating_Heat>
+			<!--OG_ArmorRating_InvunerableSave>0.55</OG_ArmorRating_InvunerableSave-->
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+			<MeleeDodgeChance>0.15</MeleeDodgeChance>
+			<MeleeHitChance>0.10</MeleeHitChance>
+			<ToxicSensitivity>-0.15</ToxicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>60</Steel>
+			<Cloth>30</Cloth>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<OGDE_Wraithbone>15</OGDE_Wraithbone>
+			<OGDE_Component>5</OGDE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/DarkEldar/BeastmasterHelmet/Base</wornGraphicPath>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>DarkEldarMilitary</li>
+				<li>DEBeastmasterArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>DarkEldarSoldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<!--li>OGDEHeadgear</li-->
+		</thingCategories>
+		<tradeTags>
+			<!--li>OGDEHeadgear</li-->
+		</tradeTags>
+		<tickerType>Normal</tickerType>
+		<comps>	 
+			<li Class="AdeptusMechanicus.CompProperties_EyeProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+		</comps>
+		<modExtensions>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingGasMask</hediff>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ====== Wrack Helmet ====== -->
+	<!-- Add 0.55 inv save -->
+	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Headgear">
+		<defName>OGDE_Apparel_Armor_WrackHelmet</defName>
+		<label>wrack helmet</label>
+		<description>The helmet commonly worn by the Dark Eldar Wracks.</description>
+		<graphicData> 
+			<texPath>Things/Item/Apparel/DarkEldar/WrackHelmet/WrackHelmet__Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+		</graphicData>
+		<statBases>
+			<Mass>1.8</Mass>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.30</ArmorRating_Heat>
+			<OG_ArmorRating_InvunerableSave>0.55</OG_ArmorRating_InvunerableSave>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+			<MeleeDodgeChance>0.15</MeleeDodgeChance>
+			<MeleeHitChance>0.10</MeleeHitChance>
+			<ToxicSensitivity>-0.15</ToxicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>60</Steel>
+			<Cloth>30</Cloth>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<OGDE_Wraithbone>15</OGDE_Wraithbone>
+			<OGDE_Component>5</OGDE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/DarkEldar/WrackHelmet/WrackHelmet</wornGraphicPath>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>DarkEldarMilitary</li>
+				<li>DEWrackArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>DarkEldarSoldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<!--li>OGDEHeadgear</li-->
+		</thingCategories>
+		<tradeTags>
+			<!--li>OGDEHeadgear</li-->
+		</tradeTags>
+		<tickerType>Normal</tickerType>
+		<comps>	 
+			<li Class="AdeptusMechanicus.CompProperties_EyeProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+		</comps>
+		<modExtensions>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingGasMask</hediff>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ====== Haemonculi Helmet ====== -->
+	<!-- Add 0.75 inv save -->
+	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Headgear">
+		<defName>OGDE_Apparel_Armor_HaemonculusHelmet</defName>
+		<label>haemonculi Helmet</label>
+		<description>The helmet commonly worn by the Dark Eldar Haemonculi.</description>
+		<graphicData> 
+			<texPath>Things/Item/Apparel/DarkEldar/HaemonculusHelmet/HaemonculusHelmet__Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>1.8</Mass>
+			<WorkToMake>18000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.55</ArmorRating_Heat>
+			<OG_ArmorRating_InvunerableSave>0.75</OG_ArmorRating_InvunerableSave>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>15</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+			<MeleeDodgeChance>0.05</MeleeDodgeChance>
+			<MeleeHitChance>0.05</MeleeHitChance>
+			<MedicalTendSpeed>0.35</MedicalTendSpeed>
+			<MedicalSurgerySuccessChance>0.35</MedicalSurgerySuccessChance>
+			<ToxicSensitivity>-1</ToxicSensitivity>
+			<PsychicSensitivity>-0.05</PsychicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>150</Steel>
+			<Plasteel>80</Plasteel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<OGDE_Wraithbone>15</OGDE_Wraithbone>
+			<OGDE_Component>5</OGDE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/DarkEldar/HaemonculusHelmet/HaemonculusHelmet</wornGraphicPath>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>DarkEldarMilitary</li>
+				<li>DEKabaliteArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>DarkEldarSoldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<!--li>OGDEHeadgear</li-->
+		</thingCategories>
+		<tradeTags>
+			<!--li>OGDEHeadgear</li-->
+		</tradeTags>
+		<tickerType>Normal</tickerType>
+		<comps>	 
+			<li Class="AdeptusMechanicus.CompProperties_EyeProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+		</comps>
+		<modExtensions>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingGasMask</hediff>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ====== Hellion Helmet ====== -->
+	<!-- Add 0.55 inv save -->
+	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Headgear">
+		<defName>OGDE_Apparel_Armor_HellionHelmet</defName>
+		<label>hellion helmet</label>
+		<description>The helmet commonly worn by the Dark Eldar Hellion Riders.</description>
+		<graphicData> 
+			<texPath>Things/Item/Apparel/DarkEldar/HellionHelmet/HellionHelmet__Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+		</graphicData>
+		<statBases>
+			<Mass>1.8</Mass>
+			<WorkToMake>18000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Blunt>0.92</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.92</ArmorRating_Heat>
+			<OG_ArmorRating_InvunerableSave>0.55</OG_ArmorRating_InvunerableSave>
+			<Insulation_Cold>15</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2.5</EquipDelay>
+			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<ToxicSensitivity>-0.30</ToxicSensitivity>
+			<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+			<MeleeDodgeChance>0.15</MeleeDodgeChance>
+			<MeleeHitChance>0.20</MeleeHitChance>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>60</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<OGDE_Wraithbone>15</OGDE_Wraithbone>
+			<OGDE_Component>5</OGDE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_DarkEldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<!--wornGraphicPath>Things/Item/Apparel/DarkEldar/HellionHelmet/HellionHelmet</wornGraphicPath-->
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>DarkEldarMilitary</li>
+				<li>DESybariteArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>DarkEldarSoldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<!--li>OGDEHeadgear</li-->
+		</thingCategories>
+		<tradeTags>
+			<!--li>OGDEHeadgear</li-->
+		</tradeTags>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="AdeptusMechanicus.CompProperties_EyeProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_ApparelExtraPartDrawer">
+				<ExtrasEntries>
+					<li>
+						<graphicData>
+							<texPath>Things/Item/Apparel/DarkEldar/HellionHelmet/HellionHelmet</texPath>
+							<!--graphicClass>Graphic_Single</graphicClass-->
+							<shaderType>CutoutComplex</shaderType>
+						</graphicData>
+						<UseBodytypeTextures>false</UseBodytypeTextures>
+						<commonality>10</commonality>
+					</li>
+				</ExtrasEntries>
+				<NorthOffset>0,-0.05,0</NorthOffset>
+				<SouthOffset>0,0.000,0</SouthOffset>
+				<EastOffset>0,00.000,0</EastOffset>
+				<WestOffset>0,0.000,0</WestOffset>
+			</li>  
+		</comps>
+		<modExtensions>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingGasMask</hediff>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ====== Scourge Helmet ====== -->
+	<!-- Add 0.55 inv save -->
+	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Headgear">
+		<defName>OGDE_Apparel_Armor_ScourgeHelmet</defName>
+		<label>scourge helmet</label>
+		<description>The helmet commonly worn by the Dark Eldar Scourge.</description>
+		<graphicData> 
+			<texPath>Things/Item/Apparel/DarkEldar/ScourgeHelmet/ScourgeHelmet__Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>1.8</Mass>
+			<WorkToMake>26000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Blunt>0.92</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.92</ArmorRating_Heat>
+			<OG_ArmorRating_InvunerableSave>0.55</OG_ArmorRating_InvunerableSave>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2.5</EquipDelay>
+			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>0.20</ShootingAccuracyPawn>
+			<ToxicSensitivity>-0.60</ToxicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>150</Steel>
+			<Plasteel>80</Plasteel>
+			<Gold>80</Gold>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<OGDE_Wraithbone>15</OGDE_Wraithbone>
+			<OGDE_Component>5</OGDE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_DarkEldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/DarkEldar/ScourgeHelmet/ScourgeHelmet</wornGraphicPath>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>DarkEldarMilitary</li>
+				<li>DEKabaliteArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>DarkEldarSoldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<!--li>OGDEHeadgear</li-->
+		</thingCategories>
+		<tradeTags>
+			<!--li>OGDEHeadgear</li-->
+		</tradeTags>
+		<tickerType>Normal</tickerType>
+		<comps Inherit = "false">
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="AdeptusMechanicus.CompProperties_FactionColorable">
+				<Key>DarkEldar_Kabal</Key>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<!--li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponMelee</nameMaker>
+				<descriptionMaker>OG_AMAA_ArtDescription_ApparelArmour</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li-->
+			<li Class="AdeptusMechanicus.CompProperties_EyeProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>AdeptusMechanicus.ITab_ToggleLivelry</li>
+		</inspectorTabs>
+		<colorGenerator Class="AdeptusMechanicus.TwoColorGenerator_Options">
+			<options>
+				<li>
+					<only>55,56,69</only>
+				</li>
+			</options>
+			<optionsTwo>
+				<li>
+					<only>11,99,113</only>
+				</li>
+			</optionsTwo>
+		</colorGenerator>
+		<modExtensions>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingGasMask</hediff>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ====== Incubi Helmet ====== -->
+	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Headgear">
+		<defName>OGDE_Apparel_Armor_IncubiHelmet</defName>
+		<label>Incubi helmet</label>
+		<description>The helmet commonly worn by the Dark Eldar Incubi.</description>
+		<graphicData> 
+			<texPath>Things/Item/Apparel/DarkEldar/IncubiHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>1.8</Mass>
+			<WorkToMake>24000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.06</ArmorRating_Heat>
+			<Insulation_Cold>15</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<ToxicSensitivity>-0.30</ToxicSensitivity>
+			<EquipDelay>2.5</EquipDelay>
+			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+			<MeleeDodgeChance>0.10</MeleeDodgeChance>
+			<MeleeHitChance>0.15</MeleeHitChance>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>150</Steel>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<OGDE_Wraithbone>15</OGDE_Wraithbone>
+			<OGDE_Component>5</OGDE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_DarkEldar_Tech_Apparel_Armour_T3</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/DarkEldar/IncubiHelmet/Base</wornGraphicPath>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>DarkEldarMilitary</li>
+				<li>DEIncubiArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>DarkEldarSoldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<!--li>OGDEHeadgear</li-->
+		</thingCategories>
+		<tradeTags>
+			<!--li>OGDEHeadgear</li-->
+		</tradeTags>
+		<tickerType>Normal</tickerType>
+		<comps>	 
+			<li Class="AdeptusMechanicus.CompProperties_EyeProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+		</comps>
+		<modExtensions>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingGasMask</hediff>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ====== Incubi Lord Helmet ====== -->
+	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Headgear">
+		<defName>OGDE_Apparel_Armor_IncubiLordHelmet</defName>
+		<label>incubi lord helmet</label>
+		<description>The helmet commonly worn by the Dark Eldar Incubi.</description>
+		<graphicData> 
+			<texPath>Things/Item/Apparel/DarkEldar/IncubiHelmet/_Icon_Lord</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>1.8</Mass>
+			<WorkToMake>24000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.06</ArmorRating_Heat>
+			<Insulation_Cold>15</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<ToxicSensitivity>-0.30</ToxicSensitivity>
+			<EquipDelay>2.5</EquipDelay>
+			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+			<MeleeDodgeChance>0.10</MeleeDodgeChance>
+			<MeleeHitChance>0.15</MeleeHitChance>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>150</Steel>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<OGDE_Wraithbone>15</OGDE_Wraithbone>
+			<OGDE_Component>5</OGDE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_DarkEldar_Tech_Apparel_Armour_T3</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/DarkEldar/IncubiHelmet/Lord</wornGraphicPath>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>DarkEldarMilitary</li>
+				<li>DEIncubiArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>DarkEldarSoldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<!--li>OGDEHeadgear</li-->
+		</thingCategories>
+		<tradeTags>
+			<!--li>OGDEHeadgear</li-->
+		</tradeTags>
+		<tickerType>Normal</tickerType>
+		<comps>	 
+			<li Class="AdeptusMechanicus.CompProperties_EyeProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_ApparelExtraPartDrawer">
+				<ExtraPartEntryChance>1</ExtraPartEntryChance>
+				<onHead>true</onHead>
+				<ExtrasEntries>
+					<li>
+						<graphicData>
+							<texPath>Things/Item/Apparel/DarkEldar/IncubiHelmet/Details/Horns</texPath>
+							<!--graphicClass>Graphic_Single</graphicClass-->
+							<shaderType>CutoutComplex</shaderType>
+						</graphicData>
+						<UseBodytypeTextures>false</UseBodytypeTextures>
+						<commonality>10</commonality>
+					</li>
+				</ExtrasEntries>
+				<NorthOffset>0,0.20,0.31</NorthOffset>
+				<SouthOffset>0,0.35,0.31</SouthOffset>
+				<EastOffset>0,0.35,0.31</EastOffset>
+				<WestOffset>0,0.35,0.31</WestOffset>
+			</li>
+		</comps>
+		<modExtensions>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingGasMask</hediff>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ====== Archon Helmet ====== -->
+	<!-- Add 1.25 inv save -->
+	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Headgear">
+		<defName>OGDE_Apparel_Armor_ArchonHelmet</defName>
+		<label>archon helmet</label>
+		<description>The helmet commonly worn by the Dark Eldar Archon.</description>
+		<graphicData> 
+			<texPath>Things/Item/Apparel/DarkEldar/ArchonHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>1.8</Mass>
+			<WorkToMake>30000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<OG_ArmorRating_InvunerableSave>1.25</OG_ArmorRating_InvunerableSave>
+			<Insulation_Cold>25</Insulation_Cold>
+			<Insulation_Heat>15</Insulation_Heat>
+			<ToxicSensitivity>-1</ToxicSensitivity>
+			<EquipDelay>4</EquipDelay>
+			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<WorkSpeedGlobal>0.55</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>0.35</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>350</Steel>
+			<Plasteel>200</Plasteel>
+			<Gold>120</Gold>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<OGDE_Wraithbone>15</OGDE_Wraithbone>
+			<OGDE_Component>5</OGDE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_DarkEldar_Tech_Apparel_Armour_T3</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/DarkEldar/ArchonHelmet/Base</wornGraphicPath>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>DarkEldarMilitary</li>
+				<li>DEArchonArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>DarkEldarSoldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<!--li>OGDEHeadgear</li-->
+		</thingCategories>
+		<tradeTags>
+			<!--li>OGDEHeadgear</li-->
+		</tradeTags>
+		<tickerType>Normal</tickerType>
+		<comps Inherit = "false">
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="AdeptusMechanicus.CompProperties_FactionColorable">
+				<Key>DarkEldar_Kabal</Key>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<!--li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponMelee</nameMaker>
+				<descriptionMaker>OG_AMAA_ArtDescription_ApparelArmour</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li-->
+			<li Class="AdeptusMechanicus.CompProperties_EyeProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
+				<Chance>1</Chance>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_ApparelExtraPartDrawer">
+				<ExtraPartEntryChance>1</ExtraPartEntryChance>
+				<onHead>true</onHead>
+				<ExtrasEntries>
+					<li>
+						<graphicData>
+							<texPath>Things/Item/Apparel/DarkEldar/ArchonHelmet/Details/Horn</texPath>
+							<!--graphicClass>Graphic_Single</graphicClass-->
+							<shaderType>CutoutComplex</shaderType>
+						</graphicData>
+						<UseBodytypeTextures>false</UseBodytypeTextures>
+						<commonality>10</commonality>
+					</li>
+				</ExtrasEntries>
+				<NorthOffset>0,-0.350,0.31</NorthOffset>
+				<SouthOffset>0,0.35,0.31</SouthOffset>
+				<EastOffset>0,0.35,0.31</EastOffset>
+				<WestOffset>0,0.35,0.31</WestOffset>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_ApparelExtraPartDrawer">
+				<ExtraPartEntryChance>1</ExtraPartEntryChance>
+				<onHead>true</onHead>
+				<ExtrasEntries>
+					<li>
+						<graphicData>
+							<texPath>Things/Item/Apparel/DarkEldar/ArchonHelmet/Details/Tail</texPath>
+							<!--graphicClass>Graphic_Single</graphicClass-->
+							<shaderType>CutoutComplex</shaderType>
+						</graphicData>
+						<UseBodytypeTextures>false</UseBodytypeTextures>
+						<commonality>10</commonality>
+					</li>
+				</ExtrasEntries>
+				<NorthOffset>0,0.35,0.31</NorthOffset>
+				<SouthOffset>0,-0.350,0.31</SouthOffset>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>AdeptusMechanicus.ITab_ToggleLivelry</li>
+		</inspectorTabs>
+		<colorGenerator Class="AdeptusMechanicus.TwoColorGenerator_Options">
+			<options>
+				<li>
+					<only>55,56,69</only>
+				</li>
+			</options>
+			<optionsTwo>
+				<li>
+					<only>11,99,113</only>
+				</li>
+			</optionsTwo>
+		</colorGenerator>
+		<modExtensions>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingGasMask</hediff>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef ParentName="OG_DarkEldar_StrangerInBlack_Base">
+		<defName>StrangerInBlackDarkEldar</defName>
+	</PawnKindDef>
+
+</Defs>

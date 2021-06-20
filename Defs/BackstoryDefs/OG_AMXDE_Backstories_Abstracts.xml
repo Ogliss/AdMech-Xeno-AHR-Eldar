@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Dark Eldar --> 
+	<!-- Baseline Dark Eldar -->
+	<!-- DarkEldar_Base_Backstory -->
+	<AlienRace.BackstoryDef Name="OG_DarkEldar_Base_Backstory" Abstract="true">
+		<defName>OG_DarkEldar_Base_Backstory</defName>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>0.5</maleCommonality>
+		<femaleCommonality>0.5</femaleCommonality>
+		<workDisables>
+		
+		</workDisables>
+		<disallowedTraits>
+
+		</disallowedTraits>
+		<forcedTraits>
+		
+		</forcedTraits>
+		<skillGains>
+		
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	  
+	<!-- Standard Dark Eldar -->
+	<!-- DarkEldar_Standard_Backstory -->
+	<AlienRace.BackstoryDef Name="OG_DarkEldar_Standard_Backstory" ParentName="OG_DarkEldar_Base_Backstory" Abstract="true">
+		<defName>OG_DarkEldar_Standard_Backstory</defName>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>		
+		<workDisables>
+		
+		</workDisables>
+		<disallowedTraits>
+
+		</disallowedTraits>
+		<forcedTraits>
+		
+		</forcedTraits>
+		<skillGains>
+		
+		</skillGains>
+		<spawnCategories>
+			<li>DarkEldar_Standard</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	  
+	<!-- Dark Eldar Childhoods -->
+	<!-- DarkEldar_Base_Child -->
+	<AlienRace.BackstoryDef Name="OG_DarkEldar_Base_Child" ParentName="OG_DarkEldar_Standard_Backstory" Abstract="true">
+		<defName>OG_DarkEldar_Base_Child</defName>
+		<title>Dark Eldar child</title>
+		<titleShort>Dark Eldar child</titleShort>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<baseDescription>[PAWN_nameDef] is a young [PAWN_alienRace].</baseDescription>
+		<slot>Childhood</slot>
+		<disallowedTraits>
+
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<skillGains>
+		
+		</skillGains>
+		<spawnCategories>
+		
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	  
+</Defs>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef ParentName="OG_DarkEldar_Player_Kabal_Base">
+		<defName>OG_DarkEldar_Kabal_PlayerColony</defName>
+	</FactionDef>
+
+	<!--
+	<FactionDef ParentName="OG_DarkEldar_Player_Coven_Base">
+		<defName>OG_DarkEldar_Coven_PlayerColony</defName>
+	</FactionDef>
+	-->
+	
+</Defs>

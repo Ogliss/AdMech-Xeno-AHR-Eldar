@@ -1,1122 +1,150 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!-- ============================ Eldar Base ========================== -->
-	<PawnKindDef Name="OG_Eldar_BaseKind" Abstract="True">
-		<defaultFactionType>OG_Eldar_Craftworld_Faction</defaultFactionType>
-		<race>OG_Alien_Eldar</race>
-		<chemicalAddictionChance>0.015</chemicalAddictionChance>
-		<baseRecruitDifficulty>1</baseRecruitDifficulty>
-		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
-		<modExtensions>
-			<li Class="AlienRace.Info">
-				<allowHumanBios>false</allowHumanBios>
-				<maleGenderProbability>0.5</maleGenderProbability>
-			</li>
-		</modExtensions>
-	</PawnKindDef>
-	
-	<!-- ============================ Eldar Civilian Base ========================== -->
-	<PawnKindDef Name="OG_Eldar_Civ_BaseKind" ParentName="OG_Eldar_BaseKind" Abstract="True">
-		<combatPower>25</combatPower>
-		<itemQuality>Normal</itemQuality>
-		<isFighter>false</isFighter>
-		<gearHealthRange>
-			<min>0.2</min>
-			<max>2.0</max>
-		</gearHealthRange>
-		<apparelMoney>
-			<min>300</min>
-			<max>900</max>
-		</apparelMoney>
-		<weaponMoney>
-			<min>750</min>
-			<max>750</max>
-		</weaponMoney>
-		<weaponTags>
-			<li>EShurikenPistol</li>
-		</weaponTags>
-		<techHediffsMoney>
-			<min>200</min>
-			<max>300</max>
-		</techHediffsMoney>
-		<techHediffsTags>
-			<li>Simple</li>
-		</techHediffsTags>
-		<techHediffsChance>0.51</techHediffsChance>
-		<invNutrition>2.55</invNutrition>
-		<inventoryOptions>
-			<skipChance>0.75</skipChance>
-			<subOptionsChooseOne>
-				<li>
-					<choiceChance>90</choiceChance>
-					<thingDef>Silver</thingDef>
-					<countRange>
-					<min>25</min>
-					<max>70</max>
-					</countRange>
-				</li>
-				<li>
-					<choiceChance>10</choiceChance>
-					<thingDef>Silver</thingDef>
-					<countRange>
-					<min>700</min>
-					<max>1000</max>
-					</countRange>
-				</li>
-			</subOptionsChooseOne>
-		</inventoryOptions>
-		<modExtensions>
-			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.LoadoutPropertiesExtension">
-				<primaryMagazineCount>
-					<min>2</min>
-					<max>5</max>
-				</primaryMagazineCount>
-			</li>
-		</modExtensions>
-	</PawnKindDef>
-
 	<!-- ============================ Eldar Civilians ========================== -->
 	<!-- ============================ Eldar Faction Leader Farseer ========================== -->
-	<PawnKindDef ParentName="OG_Eldar_Civ_BaseKind">
+	<PawnKindDef ParentName="OG_Eldar_Farseer_FactionBase">
 		<defName>OG_Eldar_Farseer_Faction</defName>
-		<label>Ancient Farseer</label>
-		<labelPlural>Ancient Farseers</labelPlural>
-		<factionLeader>true</factionLeader>
-		<isFighter>true</isFighter>
-		<gearHealthRange>
-			<min>0.5</min>
-			<max>2.0</max>
-		</gearHealthRange>
-		<apparelMoney>
-			<min>1000</min>
-			<max>5000</max>
-		</apparelMoney>
-		<apparelTags>
-			<li>Eldar</li>
-		</apparelTags>
-		<weaponMoney>
-			<min>10000</min>
-			<max>15500</max>
-		</weaponMoney>
-		<weaponTags>
-			<li>ESingingSpear</li>
-		</weaponTags>
-		<techHediffsMoney>
-			<min>200</min>
-			<max>300</max>
-		</techHediffsMoney>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Psyker_Farseer</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<apparelRequired>
-			<li>OGE_Apparel_RuneArmourFarseer</li>
-			<li>OGE_Apparel_Ghosthelm</li>
-		</apparelRequired>
 	</PawnKindDef>
 
 	<!-- ============================ Eldar Faction Leader Autarch ========================== -->
-	<PawnKindDef ParentName="OG_Eldar_Civ_BaseKind">
+	<PawnKindDef ParentName="OG_Eldar_Autarch_FactionBase">
 		<defName>OG_Eldar_Autarch_Faction</defName>
-		<label>Grand Autarch</label>
-		<labelPlural>Grand Autarchs</labelPlural>
-		<factionLeader>true</factionLeader>
-		<isFighter>true</isFighter>
-		<gearHealthRange>
-			<min>0.5</min>
-			<max>2.0</max>
-		</gearHealthRange>
-		<apparelMoney>
-			<min>1000</min>
-			<max>5000</max>
-		</apparelMoney>
-		<apparelTags>
-			<li>Eldar</li>
-		</apparelTags>
-		<weaponMoney>
-			<min>10000</min>
-			<max>15500</max>
-		</weaponMoney>
-		<weaponTags>
-			<li>ESingingSpear</li>
-		</weaponTags>
-		<techHediffsMoney>
-			<min>200</min>
-			<max>300</max>
-		</techHediffsMoney>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Command</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
 	</PawnKindDef>
 
 	<!-- ============================ Eldar Faction Traders ========================== -->
-	<PawnKindDef ParentName="OG_Eldar_Civ_BaseKind">
+	<PawnKindDef ParentName="OG_Eldar_Craftworld_TraderBase">
 		<defName>OG_Eldar_Craftworld_Trader</defName>
-		<label>Eldar trader</label>
-		<trader>true</trader>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Civilian</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
 	</PawnKindDef>
 
 	<!-- ============================ Eldar Faction Slave ========================== -->
-	<PawnKindDef ParentName="OG_Eldar_Civ_BaseKind">
+	<PawnKindDef ParentName="OG_Eldar_Craftworld_SlaveBase">
 		<defName>Slave_OG_Eldar_Craftworld</defName>
-		<label>Eldar slave</label>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Civilian</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-	</PawnKindDef>
- 
-	<!-- ============================ Eldar Security ========================== -->
-	<PawnKindDef ParentName="OG_Eldar_Civ_BaseKind">
-		<defName>OG_Eldar_Cadet</defName>
-		<label>Eldar Guardian</label>
-		<combatPower>50</combatPower>
-		<maxGenerationAge>700</maxGenerationAge>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Civilian</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<gearHealthRange>
-			<min>0.5</min>
-			<max>1.8</max>
-		</gearHealthRange>
-		<apparelMoney>
-			<min>300</min>
-			<max>1500</max>
-		</apparelMoney>
-		<apparelTags>
-			<li>Neolithic</li>
-			<li>EldarMilitary</li>
-		</apparelTags>
-		<weaponMoney>
-			<min>500</min>
-			<max>1500</max>
-		</weaponMoney>
-		<weaponTags>
-			<li>EGun</li>
-		</weaponTags>
-		<techHediffsMoney>
-			<min>200</min>
-			<max>500</max>
-		</techHediffsMoney>
-		<techHediffsTags>
-			<li>Simple</li>
-		</techHediffsTags>
-		<techHediffsChance>0.20</techHediffsChance>
-		<invNutrition>2.55</invNutrition>
-		<inventoryOptions>
-			<skipChance>0.95</skipChance>
-			<thingDef>Silver</thingDef>
-			<countRange>
-				<min>30</min>
-				<max>100</max>
-			</countRange>
-		</inventoryOptions>
-		<apparelRequired>
-			<li>OGE_Apparel_MeshArmour</li>
-			<li>OGE_Apparel_MeshHelmet</li>
-		</apparelRequired>
 	</PawnKindDef>
 
-	<!-- ============================ Eldar Military Base ========================== -->
-	<PawnKindDef Name="OG_Eldar_Mil_BaseKind" ParentName="OG_Eldar_BaseKind" Abstract="True">
-		<chemicalAddictionChance>0</chemicalAddictionChance>
-		<isFighter>true</isFighter>
-		<invNutrition>2.55</invNutrition>
-		<itemQuality>Normal</itemQuality>
-		<minGenerationAge>30</minGenerationAge>
-		<maxGenerationAge>10000</maxGenerationAge>
-		<gearHealthRange>
-			<min>0.7</min>
-			<max>2.3</max>
-		</gearHealthRange>
-		<apparelTags>
-			<li>Outlander</li>
-			<li>Military</li>
-			<li>EldarMilitary</li>
-		</apparelTags>
-		<apparelMoney>
-			<min>1500</min>
-			<max>2800</max>
-		</apparelMoney>
-		<weaponMoney>
-			<min>2750</min>
-			<max>7500</max>
-		</weaponMoney>
-		<techHediffsMoney>
-			<min>1000</min>
-			<max>1500</max>
-		</techHediffsMoney>
-		<inventoryOptions>
-			<skipChance>0.8</skipChance>
-			<subOptionsChooseOne>
-				<li>
-					<thingDef>Silver</thingDef>
-					<countRange>
-					<min>50</min>
-					<max>200</max>
-					</countRange>
-				</li>
-				<li>
-					<thingDef>MedicineIndustrial</thingDef>
-					<countRange>
-					<min>1</min>
-					<max>1</max>
-					</countRange>
-				</li>
-			</subOptionsChooseOne>
-		</inventoryOptions>
-		<modExtensions>
-			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.LoadoutPropertiesExtension">
-				<primaryMagazineCount>
-					<min>5</min>
-					<max>8</max>
-				</primaryMagazineCount>
-			</li>
-		</modExtensions>
+	<!-- ============================ Eldar Security ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_CadetBase">
+		<defName>OG_Eldar_Cadet</defName>
 	</PawnKindDef>
 
 	<!-- ============================ Eldar Military ========================== -->	
-	<!-- ============================ Eldar Guardian Base ========================== -->
-	<PawnKindDef Name="EldarGuardianBase" ParentName="OG_Eldar_Mil_BaseKind" Abstract="True">
-		<label>Eldar Military</label>
-		<combatPower>50</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Civilian</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<apparelRequired>
-			<li>OGE_Apparel_MeshArmour</li>
-		</apparelRequired>
-		<apparelTags>
-			<li>EldarBasic</li>
-			<li>EldarGaurdian</li>
-			<li>EldarGaurdianHeadgear</li>
-			<li>EldarGaurdianWargear</li>
-		</apparelTags>
-	</PawnKindDef>	
-
 	<!-- ============================ Eldar Guardian Defender ========================== -->
-	<PawnKindDef ParentName="EldarGuardianBase">
+	<PawnKindDef ParentName="OG_Eldar_GuardianBase">
 		<defName>OG_Eldar_Guardian</defName>
-		<label>Guardian Defender</label>
-		<combatPower>50</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Warrior_GuardianDefender</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EShurikenCatapult</li>
-			<li>EFusionGun</li>
-		</weaponTags>
-		<apparelTags>
-			<li>EldarGaurdianWargearDefender</li>
-		</apparelTags>
 	</PawnKindDef>
-	
+
 	<!-- ============================ Eldar Storm Guardian ========================== -->
-	<PawnKindDef ParentName="EldarGuardianBase">
+	<PawnKindDef ParentName="OG_Eldar_GuardianStormBase">
 		<defName>OG_Eldar_GuardianStorm</defName>
-		<combatPower>50</combatPower>
-		<label>Storm Guardian</label>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Warrior_GuardianStorm</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EShurikenPistol</li>
-			<li>EScorpionChainsword</li>
-			<li>EPowerSword</li>
-		</weaponTags>
-		<apparelTags>
-			<li>EldarGaurdianWargearStorm</li>
-		</apparelTags>
 	</PawnKindDef>
 
 	<!-- ============================ Eldar Support Guardian ========================== -->
-	<PawnKindDef ParentName="EldarGuardianBase">
+	<PawnKindDef ParentName="OG_Eldar_GuardianSupportBase">
 		<defName>OG_Eldar_GuardianSupport</defName>
-		<label>Fire Support Guardian</label>
-		<combatPower>100</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Warrior_GuardianDefender</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EShurikenCannon</li>
-			<li>EStarcannon</li>
-			<li>EBrightlance</li>
-		</weaponTags>
-		<apparelTags>
-			<li>EldarGaurdianWargearSupport</li>
-		</apparelTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Ranger ========================== -->
-	<PawnKindDef ParentName="OG_Eldar_Mil_BaseKind">
+	<PawnKindDef ParentName="OG_Eldar_RangerBase">
 		<defName>OG_Eldar_Ranger</defName>
-		<label>ranger</label>
-		<combatPower>60</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Outcast_Child</li>
-					<li>Eldar_Craftworld_Ranger</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>ERangerLongrifle</li>
-		</weaponTags>
-		<apparelRequired>
-			<li>OGE_Apparel_RangerArmour</li>
-		</apparelRequired>
-		<apparelTags>
-			<li>EldarRanger</li>
-			<li>EldarRangerHeadgear</li>
-			<li>EldarRangerWargear</li>
-		</apparelTags>
 	</PawnKindDef>
 	
-	<PawnKindDef ParentName="OG_Eldar_Mil_BaseKind">
+	<!-- ============================ Eldar Pathfinder ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_Ranger_PathfinderBase">
 		<defName>OG_Eldar_Ranger_Pathfinder</defName>
-		<label>pathfinder</label>
-		<combatPower>90</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Outcast_Child</li>
-					<li>Eldar_Craftworld_Ranger</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>ERangerLongrifle</li>
-		</weaponTags>
-		<apparelRequired>
-			<li>OGE_Apparel_RangerArmour</li>
-			<li>OGE_Apparel_RangerHelmet</li>
-		</apparelRequired>
-		<apparelTags>
-			<li>EldarRanger</li>
-			<li>EldarRangerWargearPathfinder</li>
-		</apparelTags>
-	</PawnKindDef>
-	
-	<!-- ============================ Eldar Aspect Warrior Base ========================== -->
-	<PawnKindDef Name="EldarAspectBase" ParentName="OG_Eldar_Mil_BaseKind" Abstract="True">
-		<label>Aspect Warrior</label>
-		<combatPower>75</combatPower>
-		<minGenerationAge>2000</minGenerationAge>
-		<!--backstoryFiltersOverride>
-			<li>
-				<categories>
-				
-				</categories>
-			</li>
-		</backstoryFiltersOverride-->
-		<gearHealthRange>
-			<min>0.7</min>
-			<max>2.3</max>
-		</gearHealthRange>
-		<apparelTags>
-			<li>EldarMilitary</li>
-		</apparelTags>
-		<apparelMoney>
-			<min>1500</min>
-			<max>6500</max>
-		</apparelMoney>
-		<weaponMoney>
-			<min>8550</min>
-			<max>15800</max>
-		</weaponMoney>
-		<techHediffsMoney>
-			<min>1000</min>
-			<max>1500</max>
-		</techHediffsMoney>
-		<combatEnhancingDrugsCount>
-			<min>0</min>
-			<max>2</max>
-		</combatEnhancingDrugsCount>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
-		<techHediffsChance>0.73</techHediffsChance>
-		<inventoryOptions>
-			<skipChance>0.8</skipChance>
-			<subOptionsChooseOne>
-				<li>
-					<thingDef>Silver</thingDef>
-					<countRange>
-					<min>50</min>
-					<max>200</max>
-					</countRange>
-				</li>
-				<li>
-					<thingDef>MedicineIndustrial</thingDef>
-					<countRange>
-					<min>1</min>
-					<max>1</max>
-					</countRange>
-				</li>
-			</subOptionsChooseOne>
-		</inventoryOptions>
-	</PawnKindDef>
-	
-	<!-- ============================ Eldar Aspect Warrior Exarch Base ========================== -->
-	<PawnKindDef Name="EldarAspectExarchBase" ParentName="EldarAspectBase" Abstract="True">
-		<!--backstoryFiltersOverride>
-			<li>
-			<categories>
-			
-			</categories>
-			</li>
-			</backstoryFilters-->
-		<gearHealthRange>
-			<min>1.7</min>
-			<max>2.3</max>
-		</gearHealthRange>
-		<apparelTags>
-			<li>EldarMilitary</li>
-		</apparelTags>
-		<apparelMoney>
-			<min>1500</min>
-			<max>6500</max>
-		</apparelMoney>
-		<weaponMoney>
-			<min>15800</min>
-			<max>15800</max>
-		</weaponMoney>
-		<techHediffsMoney>
-			<min>1000</min>
-			<max>1500</max>
-		</techHediffsMoney>
-		<combatEnhancingDrugsCount>
-			<min>0</min>
-			<max>2</max>
-		</combatEnhancingDrugsCount>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
-		<techHediffsChance>0.73</techHediffsChance>
-		<inventoryOptions>
-			<skipChance>0.8</skipChance>
-			<subOptionsChooseOne>
-				<li>
-					<thingDef>Silver</thingDef>
-					<countRange>
-					<min>50</min>
-					<max>200</max>
-					</countRange>
-				</li>
-				<li>
-					<thingDef>MedicineIndustrial</thingDef>
-					<countRange>
-					<min>1</min>
-					<max>1</max>
-					</countRange>
-				</li>
-			</subOptionsChooseOne>
-		</inventoryOptions>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Avenger ========================== -->
-	<PawnKindDef ParentName="EldarAspectBase">
+	<PawnKindDef ParentName="OG_Eldar_DireAvengerBase">
 		<defName>OG_Eldar_DireAvenger</defName>
-		<label>Dire Avenger</label>
-		<combatPower>65</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-			<categories>
-				<li>Eldar_Craftworld_Warrior_DireAvenger</li>
-			</categories>
-			</li>
-			</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EShurikenCatapultA</li>
-		</weaponTags>
-		<apparelRequired>
-			<li>OGE_Apparel_AvengerArmour</li>
-		</apparelRequired>
-		<apparelTags>
-			<li>EldarDireAvenger</li>
-			<li>EldarDireAvengerHeadgear</li>
-			<li>EldarDireAvengerWargear</li>
-		</apparelTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Avenger Exarch ========================== -->
-	<PawnKindDef ParentName="EldarAspectExarchBase">
+	<PawnKindDef ParentName="OG_Eldar_DireAvenger_ExarchBase">
 		<defName>OG_Eldar_DireAvenger_Exarch</defName>
-		<label>Dire Avenger Exarch</label>
-		<combatPower>90</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Exarch_DireAvenger</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EShurikenCatapultA</li>
-			<li>EShurikenPistol</li>
-			<li>EDireSword</li>
-		</weaponTags>
-		<apparelRequired>
-			<li>OGE_Apparel_AvengerArmour</li>
-			<li>OGE_Apparel_AvengerHelmet</li>
-		</apparelRequired>
-		<apparelTags>
-			<li>EldarDireAvengerWargear</li>
-			<li>EldarDireAvengerWargearExarch</li>
-		</apparelTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Banshee ========================== -->
-	<PawnKindDef ParentName="EldarAspectBase">
+	<PawnKindDef ParentName="OG_Eldar_HowlingBansheeBase">
 		<defName>OG_Eldar_HowlingBanshee</defName>
-		<label>Howling Banshee</label>
-		<combatPower>75</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Warrior_HowlingBanshee</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EShurikenPistol</li>
-			<li>EPowerSword</li>
-			<li>EMirrorsword</li>
-		</weaponTags>
-		<apparelRequired>
-			<li>OGE_Apparel_BansheeArmour</li>
-		</apparelRequired>
-		<apparelTags>
-			<li>EldarHowlingBanshee</li>
-			<li>EldarHowlingBansheeHeadgear</li>
-			<li>EldarHowlingBansheeWargear</li>
-		</apparelTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Banshee Exarch ========================== -->
-	<PawnKindDef ParentName="EldarAspectExarchBase">
+	<PawnKindDef ParentName="OG_Eldar_HowlingBanshee_ExarchBase">
 		<defName>OG_Eldar_HowlingBanshee_Exarch</defName>
-		<label>Howling Banshee Exarch</label>
-		<combatPower>100</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Exarch_HowlingBanshee</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EShurikenPistol</li>
-			<li>EPowerSword</li>
-			<li>EMirrorsword</li>
-			<li>EDMirrorswords</li>
-			<li>EExecutioner</li>
-		</weaponTags>
-		<apparelRequired>
-			<li>OGE_Apparel_BansheeArmour</li>
-			<li>OGE_Apparel_BansheeHelmet</li>
-		</apparelRequired>
-		<apparelTags>
-			<li>EldarHowlingBansheeWargear</li>
-			<li>EldarHowlingBansheeWargearExarch</li>
-		</apparelTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Dragon ========================== -->
-	<PawnKindDef ParentName="EldarAspectBase">
+	<PawnKindDef ParentName="OG_Eldar_FireDragonBase">
 		<defName>OG_Eldar_FireDragon</defName>
-		<label>Fire Dragon</label>
-		<combatPower>75</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Warrior_FireDragon</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EFusionGun</li>
-		</weaponTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Dragon Exarch ========================== -->
-	<PawnKindDef ParentName="EldarAspectExarchBase">
+	<PawnKindDef ParentName="OG_Eldar_FireDragon_ExarchBase">
 		<defName>OG_Eldar_FireDragon_Exarch</defName>
-		<label>Fire Dragon Exarch</label>
-		<combatPower>100</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Exarch_FireDragon</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EFusionGun</li>
-		</weaponTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Hawk ========================== -->
-	<PawnKindDef ParentName="EldarAspectBase">
+	<PawnKindDef ParentName="OG_Eldar_SwoopingHawkBase">
 		<defName>OG_Eldar_SwoopingHawk</defName>
-		<label>Swooping Hawk</label>
-		<combatPower>75</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Warrior_SwoopingHawk</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>ELasblaster</li>
-		</weaponTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Hawk Exarch ========================== -->
-	<PawnKindDef ParentName="EldarAspectExarchBase">
+	<PawnKindDef ParentName="OG_Eldar_SwoopingHawk_ExarchBase">
 		<defName>OG_Eldar_SwoopingHawk_Exarch</defName>
-		<label>Swooping Hawk Exarch</label>
-		<combatPower>100</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Exarch_SwoopingHawk</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>ELasblaster</li>
-			<li>EBrightlance</li>
-		</weaponTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Reaper ========================== -->
-	<PawnKindDef ParentName="EldarAspectBase">
+	<PawnKindDef ParentName="OG_Eldar_DarkReaperBase">
 		<defName>OG_Eldar_DarkReaper</defName>
-		<label>Dark Reaper</label>
-		<combatPower>75</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Warrior_DarkReaper</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EShurikenCannon</li>
-		</weaponTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Reaper Exarch ========================== -->
-	<PawnKindDef ParentName="EldarAspectExarchBase">
+	<PawnKindDef ParentName="OG_Eldar_DarkReaper_ExarchBase">
 		<defName>OG_Eldar_DarkReaper_Exarch</defName>
-		<label>Dark Reaper Exarch</label>
-		<combatPower>100</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Exarch_DarkReaper</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EShurikenCannon</li>
-			<li>EStarcannon</li>
-			<li>EBrightlance</li>
-		</weaponTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Scorpion ========================== -->
-	<PawnKindDef ParentName="EldarAspectBase">
+	<PawnKindDef ParentName="OG_Eldar_StrikingScorpionBase">
 		<defName>OG_Eldar_StrikingScorpion</defName>
-		<label>Striking Scorpion</label>
-		<combatPower>75</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Warrior_StrikingScorpion</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EShurikenPistol</li>
-			<li>EScorpionChainsword</li>
-		</weaponTags>
-		<apparelRequired>
-			<li>OGE_Apparel_ScorpionArmour</li>
-		</apparelRequired>
-		<apparelTags>
-			<li>EldarStrikingScorpion</li>
-			<li>EldarStrikingScorpionHeadgear</li>
-			<li>EldarStrikingScorpionWargear</li>
-		</apparelTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Scorpion Exarch ========================== -->
-	<PawnKindDef ParentName="EldarAspectExarchBase">
+	<PawnKindDef ParentName="OG_Eldar_StrikingScorpion_ExarchBase">
 		<defName>OG_Eldar_StrikingScorpion_Exarch</defName>
-		<label>Striking Scorpion Exarch</label>
-		<combatPower>100</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Exarch_StrikingScorpion</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EShurikenPistol</li>
-			<li>EBitingBlade</li>
-			<li>EScorpionsClaw</li>
-		</weaponTags>
-		<apparelRequired>
-			<li>OGE_Apparel_ScorpionArmour</li>
-			<li>OGE_Apparel_ScorpionHelmet</li>
-		</apparelRequired>
-		<apparelTags>
-			<li>EldarStrikingScorpion</li>
-			<li>EldarStrikingScorpionWargearExarch</li>
-		</apparelTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Spectre ========================== -->
-	<PawnKindDef ParentName="EldarAspectBase">
+	<PawnKindDef ParentName="OG_Eldar_ShadowSpectreBase">
 		<defName>OG_Eldar_ShadowSpectre</defName>
-		<label>Shadow Spectre</label>
-		<combatPower>75</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Warrior_ShadowSpectre</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EPrismRifle</li>
-		</weaponTags>
-		<!--apparelRequired>
-			<li>OGE_Apparel_SpectreArmour</li>
-			<li>OGE_Apparel_SpectreHelmet</li>
-		</apparelRequired-->
-		<apparelTags>
-			<li>EldarShadowSpectre</li>
-			<li>EldarShadowSpectreHeadgear</li>
-			<li>EldarShadowSpectreWargear</li>
-			<li>EldarShadowSpectreWargearExarch</li>
-		</apparelTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Spectre Exarch ========================== -->
-	<PawnKindDef ParentName="EldarAspectExarchBase">
+	<PawnKindDef ParentName="OG_Eldar_ShadowSpectre_ExarchBase">
 		<defName>OG_Eldar_ShadowSpectre_Exarch</defName>
-		<label>Shadow Spectre Exarch</label>
-		<combatPower>100</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Exarch_ShadowSpectre</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EPrismRifle</li>
-		</weaponTags>
-		<!--apparelRequired>
-			<li>OGE_Apparel_SpectreArmour</li>
-			<li>OGE_Apparel_SpectreHelmet</li>
-		</apparelRequired-->
-		<apparelTags>
-			<li>EldarShadowSpectre</li>
-			<li>EldarShadowSpectreHeadgear</li>
-			<li>EldarShadowSpectreWargear</li>
-			<li>EldarShadowSpectreWargearExarch</li>
-		</apparelTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Spider ========================== -->
-	<PawnKindDef ParentName="EldarAspectBase">
+	<PawnKindDef ParentName="OG_Eldar_WarpSpiderBase">
 		<defName>OG_Eldar_WarpSpider</defName>
-		<label>Warp Spider</label>
-		<combatPower>75</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Warrior_WarpSpider</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EDeathspinner</li>
-		</weaponTags>
-		<!--apparelRequired>
-			<li>OGE_Apparel_SpiderArmour</li>
-			<li>OGE_Apparel_SpiderHelmet</li>
-		</apparelRequired-->
-		<apparelTags>
-			<li>EldarWarpSpider</li>
-			<li>EldarWarpSpiderHeadgear</li>
-			<li>EldarWarpSpiderWargear</li>
-			<li>EldarWarpSpiderWargearExarch</li>
-		</apparelTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Spider Exarch ========================== -->
-	<PawnKindDef ParentName="EldarAspectExarchBase">
+	<PawnKindDef ParentName="OG_Eldar_WarpSpider_ExarchBase">
 		<defName>OG_Eldar_WarpSpider_Exarch</defName>
-		<label>Warp Spider Exarch</label>
-		<combatPower>100</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Exarch_WarpSpider</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EDeathspinner</li>
-		</weaponTags>
-		<!--apparelRequired>
-			<li>OGE_Apparel_SpiderArmour</li>
-			<li>OGE_Apparel_SpiderHelmet</li>
-		</apparelRequired-->
-		<apparelTags>
-			<li>EldarWarpSpider</li>
-			<li>EldarWarpSpiderHeadgear</li>
-			<li>EldarWarpSpiderWargear</li>
-			<li>EldarWarpSpiderWargearExarch</li>
-		</apparelTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Warlock ========================== -->
-	<PawnKindDef ParentName="OG_Eldar_Mil_BaseKind">
+	<PawnKindDef ParentName="OG_Eldar_WarlockBase">
 		<defName>OG_Eldar_Warlock</defName>
-		<label>Warlock</label>
-		<combatPower>125</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Child_Psyker</li>
-					<li>Eldar_Craftworld_Psyker_Warlock</li>
-					<li>Eldar_Craftworld_Psyker_Spiritseer</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponTags>
-			<li>EShurikenPistol</li>
-			<li>EPsykerMelee</li>
-		</weaponTags>
-		<apparelRequired>
-			<li>OGE_Apparel_RuneArmourWarlock</li>
-			<li>OGE_Apparel_WarlockHelmet</li>
-		</apparelRequired>
-		<!--apparelRequired>
-			<li>OGE_Apparel_ScorpionArmour</li>
-			<li>OGE_Apparel_ScorpionHelmet</li>
-		</apparelRequired-->
-		<apparelTags>
-			<li>EldarWarlock</li>
-			<li>EldarWarlockHeadgear</li>
-			<li>EldarWarlockWargear</li>
-			<li>EldarWarlockWargearExarch</li>
-		</apparelTags>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Farseer ========================== -->
-	<PawnKindDef ParentName="OG_Eldar_Mil_BaseKind">
+	<PawnKindDef ParentName="OG_Eldar_FarseerBase">
 		<defName>OG_Eldar_Farseer</defName>
-		<label>Farseer</label>
-		<combatPower>250</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Psyker_Farseer</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<gearHealthRange>
-			<min>0.8</min>
-			<max>3.5</max>
-		</gearHealthRange>
-		<apparelMoney>
-			<min>3000</min>
-			<max>9000</max>
-		</apparelMoney>
-		<apparelRequired>
-			<li>OGE_Apparel_RuneArmourFarseer</li>
-			<li>OGE_Apparel_Ghosthelm</li>
-		</apparelRequired>
-		<!--apparelRequired>
-			<li>OGE_Apparel_ScorpionArmour</li>
-			<li>OGE_Apparel_ScorpionHelmet</li>
-		</apparelRequired-->
-		<apparelTags>
-			<li>EldarFarseer</li>
-			<li>EldarFarseerHeadgear</li>
-			<li>EldarFarseerWargear</li>
-			<li>EldarFarseerWargearExarch</li>
-		</apparelTags>
-		<weaponMoney>
-			<min>10000</min>
-			<max>15500</max>
-		</weaponMoney>
-		<weaponTags>
-			<li>EShurikenPistol</li>
-			<li>EPsykerMelee</li>
-		</weaponTags>
-		<techHediffsMoney>
-			<min>2000</min>
-			<max>3000</max>
-		</techHediffsMoney>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
-		<techHediffsChance>0.80</techHediffsChance>
-		<combatEnhancingDrugsCount>
-			<min>1</min>
-			<max>2</max>
-		</combatEnhancingDrugsCount>
-		<combatEnhancingDrugsChance>0.1</combatEnhancingDrugsChance>
-		<inventoryOptions>
-			<skipChance>0.8</skipChance>
-			<subOptionsChooseOne>
-				<li>
-					<thingDef>Silver</thingDef>
-					<countRange>
-						<min>120</min>
-						<max>480</max>
-					</countRange>
-				</li>
-				<li>
-					<thingDef>MedicineIndustrial</thingDef>
-					<countRange>
-						<min>1</min>
-						<max>2</max>
-					</countRange>
-				</li>
-			</subOptionsChooseOne>
-		</inventoryOptions>
 	</PawnKindDef>
 	
 	<!-- ============================ Eldar Autarch ========================== -->
-	<PawnKindDef ParentName="OG_Eldar_Mil_BaseKind">
+	<PawnKindDef ParentName="OG_Eldar_AutarchBase">
 		<defName>OG_Eldar_Autarch</defName>
-		<label>Autarch</label>
-		<combatPower>150</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Eldar_Craftworld_Command</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<gearHealthRange>
-			<min>0.8</min>
-			<max>3.5</max>
-		</gearHealthRange>
-		<apparelMoney>
-			<min>3000</min>
-			<max>9000</max>
-		</apparelMoney>
-		<apparelRequired>
-			<li>OGE_Apparel_MeshArmour</li>
-			<li>OGE_Apparel_MeshHelmet</li>
-		</apparelRequired>
-		<!--apparelRequired>
-			<li>OGE_Apparel_ScorpionArmour</li>
-			<li>OGE_Apparel_ScorpionHelmet</li>
-		</apparelRequired-->
-		<apparelTags>
-			<li>EldarAutarch</li>
-			<li>EldarAutarchHeadgear</li>
-			<li>EldarAutarchWargear</li>
-			<li>EldarAutarchWargearExarch</li>
-		</apparelTags>
-		<weaponMoney>
-			<min>15500</min>
-			<max>15500</max>
-		</weaponMoney>
-		<weaponTags>
-			<li>EShurikenCatapult</li>
-			<li>EEliteGun</li>
-			<li>EHeavyGun</li>
-			<li>OGEMelee</li>
-		</weaponTags>
-		<techHediffsMoney>
-			<min>2000</min>
-			<max>3000</max>
-		</techHediffsMoney>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
-		<techHediffsChance>0.80</techHediffsChance>
-		<combatEnhancingDrugsCount>
-			<min>1</min>
-			<max>2</max>
-		</combatEnhancingDrugsCount>
-		<combatEnhancingDrugsChance>0.1</combatEnhancingDrugsChance>
-		<inventoryOptions>
-			<skipChance>0.8</skipChance>
-			<subOptionsChooseOne>
-				<li>
-					<thingDef>Silver</thingDef>
-					<countRange>
-						<min>120</min>
-						<max>480</max>
-					</countRange>
-				</li>
-				<li>
-					<thingDef>MedicineIndustrial</thingDef>
-					<countRange>
-						<min>1</min>
-						<max>2</max>
-					</countRange>
-				</li>
-			</subOptionsChooseOne>
-		</inventoryOptions>
 	</PawnKindDef>
+	
 </Defs>
