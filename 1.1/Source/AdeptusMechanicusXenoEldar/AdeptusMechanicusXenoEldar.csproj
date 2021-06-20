@@ -61,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="1CompSlotLoadable">
-      <HintPath>..\..\..\..\..\..\..\..\..\..\Users\User\Desktop\OgsTools\CompSlotLoadable\bin\Debug\1CompSlotLoadable.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Users\User\Desktop\OgsTools\CompSlotLoadable\1.1\bin\Debug\1CompSlotLoadable.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AdeptusMechanicusArmoury">
