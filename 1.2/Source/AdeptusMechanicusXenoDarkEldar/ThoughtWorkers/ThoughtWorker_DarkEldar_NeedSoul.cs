@@ -7,7 +7,7 @@ namespace AdeptusMechanicus
     public class ThoughtWorker_DarkEldar_NeedSoul : ThoughtWorker
 	{
 		NeedDef Need;
-		protected override ThoughtState CurrentStateInternal(Pawn p)
+		public override ThoughtState CurrentStateInternal(Pawn p)
 		{
 			Need_DarkEldar_Soul need = p.needs.TryGetNeed(Need) as Need_DarkEldar_Soul;
 			if (need == null)
