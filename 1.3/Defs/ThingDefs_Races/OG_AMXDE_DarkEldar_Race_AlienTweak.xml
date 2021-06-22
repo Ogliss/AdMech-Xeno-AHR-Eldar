@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.ThingDef_AlienRace Name="OG_DarkEldar_Race" ParentName="OG_DarkEldar_RaceBase" Abstract="True">
+    <alienRace>
+        <generalSettings>
+			<disallowedTraits>
+				<li MayRequire="QX.AstraMilitarum">
+					<defName>IGTraitMechanicus</defName>
+				</li>
+				<li MayRequire="QX.AstraMilitarum">
+					<defName>IGTraitAstraMilitarum</defName>
+				</li>
+				<li MayRequire="QX.AstraMilitarum">
+					<defName>IGTraitAssassinorum</defName>
+				</li>
+				<li MayRequire="QX.AstraMilitarum">
+					<defName>IGTraitInquisition</defName>
+				</li>
+				<li MayRequire="QX.AstraMilitarum">
+					<defName>IGTraitImperialMedic</defName>
+				</li>
+				<li MayRequire="QX.AstraMilitarum">
+					<defName>IG_TraitAstarte</defName>
+				</li>
+				<li MayRequire="CptOhu.CorruptionCore">
+					<defName>Emperor_Hope</defName>
+				</li>
+				<li MayRequire="CptOhu.CorruptionCore">
+					<defName>Khorne_Fervor</defName>
+				</li>
+				<li MayRequire="CptOhu.CorruptionCore">
+					<defName>Nurgle_Fervor</defName>
+				</li>
+				<li MayRequire="CptOhu.CorruptionCore">
+					<defName>Slaanesh_Fervor</defName>
+				</li>
+				<li MayRequire="CptOhu.CorruptionCore">
+					<defName>Tzeentch_Fervor</defName>
+				</li>
+				<li MayRequire="CptOhu.CorruptionCore">
+					<defName>Undivided_Fervor</defName>
+				</li>
+				<!--li MayRequire="CptOhu.CorruptionCore">
+					<defName>DE_Depravity</defName>
+				</li-->
+				<li MayRequire="CptOhu.CorruptionCore">
+					<defName>ORK_Brutality</defName>
+				</li>
+				<li MayRequire="CptOhu.CorruptionCore">
+					<defName>TAU_Philosophy</defName>
+				</li>
+				<li>
+					<defName>Cannibal</defName>
+				</li>
+            </disallowedTraits>
+            <alienPartGenerator>
+				<bodyAddons>
+					<li Class="AdeptusMechanicus.LinkedBodyAddon">
+						<path>Things/Pawn/Humanlike/DarkEldar/Heads/Ears/EarL</path>
+						<debug>false</debug>
+						<bodyPart>left ear</bodyPart>
+						<inFrontOfBody>true</inFrontOfBody>
+						<alignWithHead>true</alignWithHead>
+						<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+						<drawnInBed>true</drawnInBed>
+						<layerOffset>-0.27</layerOffset>
+						<offsets>
+							  <south>
+								<bodyTypes>
+									<Male>(-0.0,0.0)</Male>
+									<Female>(-0.0,0.0)</Female>
+								</bodyTypes>
+								<crownTypes>
+									<Average_Normal>(-0.0,0.0)</Average_Normal>
+									<Narrow_Normal>(0.0,0.0)</Narrow_Normal>
+									<Average_Wide>(0.02,0.0)</Average_Wide>
+									<Average_Pointy>(-0.0,0.0)</Average_Pointy>
+								</crownTypes>
+							  </south>
+							  <north>
+								<bodyTypes>
+									<Male>(0,0.0)</Male>
+									<Female>(0,0.0)</Female>
+								</bodyTypes>
+								<crownTypes>
+									<Average_Normal>(0,0.0)</Average_Normal>
+									<Narrow_Normal>(0,0.0)</Narrow_Normal>
+									<Average_Wide>(0,0.0)</Average_Wide>
+									<Average_Pointy>(0,0.0)</Average_Pointy>
+								</crownTypes>
+							  </north>
+							  <east>
+								<bodyTypes>
+									<Male>(-0.0,0.0)</Male>
+									<Female>(-0.0,0.0)</Female>
+								</bodyTypes>
+								<crownTypes>
+									<Average_Normal>(-0.0,0.0)</Average_Normal>
+									<Narrow_Normal>(-0.0,0.0)</Narrow_Normal>
+									<Average_Wide>(-0.0,0.0)</Average_Wide>
+									<Average_Pointy>(-0.0,0.0)</Average_Pointy>
+								</crownTypes>
+							  </east>
+						</offsets>
+						<colorChannel>skin</colorChannel>
+						<hiddenUnderApparelFor>
+							<li>FullHead</li>
+							<li>UpperHead</li>
+						</hiddenUnderApparelFor>
+					</li>
+					<li Class="AdeptusMechanicus.LinkedBodyAddon">
+						<path>Things/Pawn/Humanlike/DarkEldar/Heads/Ears/EarR</path>
+						<debug>false</debug>
+						<bodyPart>right ear</bodyPart>
+						<inFrontOfBody>true</inFrontOfBody>
+						<alignWithHead>true</alignWithHead>
+						<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+						<drawnInBed>true</drawnInBed>
+						<layerOffset>-0.27</layerOffset>
+						<offsets>
+							<south>
+								<bodyTypes>
+									<Male>(-0.0,0.0)</Male>
+									<Female>(-0.0,0.0)</Female>
+								</bodyTypes>
+								<crownTypes>
+									<Average_Normal>(-0.0,0.0)</Average_Normal>
+									<Female_Narrow_Normal>(0.01,0.0)</Female_Narrow_Normal>
+									<Narrow_Normal>(0.02,0.0)</Narrow_Normal>
+									<Average_Wide>(-0.01,0.0)</Average_Wide>
+									<Average_Pointy>(-0.0,0.0)</Average_Pointy>
+								</crownTypes>
+							</south>
+							<north>
+								<bodyTypes>
+									<Male>(0,0.0)</Male>
+									<Female>(0,0.0)</Female>
+								</bodyTypes>
+								<crownTypes>
+									<Average_Normal>(-0.0,0.0)</Average_Normal>
+									<Narrow_Normal>(-0.0,0.0)</Narrow_Normal>
+									<Average_Wide>(-0.0,0.0)</Average_Wide>
+									<Average_Pointy>(-0.0,0.0)</Average_Pointy>
+								</crownTypes>
+							</north>
+							<east>
+								<bodyTypes>
+									<Male>(-0.0,0.0)</Male>
+									<Female>(-0.0,0.0)</Female>
+								</bodyTypes>
+								<crownTypes>
+									<Average_Normal>(-0.0,0.0)</Average_Normal>
+									<Narrow_Normal>(-0.0,0.0)</Narrow_Normal>
+									<Average_Wide>(-0.0,0.0)</Average_Wide>
+									<Average_Pointy>(-0.0,0.0)</Average_Pointy>
+								</crownTypes>
+							</east>
+						</offsets>
+						<colorChannel>skin</colorChannel>
+						<hiddenUnderApparelFor>
+							<li>FullHead</li>
+							<li>UpperHead</li>
+						</hiddenUnderApparelFor>
+					</li>
+				</bodyAddons>
+				<colorChannels>
+					<li>
+						<name>skin</name>
+						<first Class="ColorGenerator_Options">
+							<options>
+								<li>
+									<weight>10</weight>
+									<only>(216,206,208)</only>
+								</li>
+								<li>
+									<weight>10</weight>
+									<only>(230,213,219)</only>
+								</li>
+								<li>
+									<weight>10</weight>
+									<only>(211,205,174)</only>
+								</li>
+								<li>
+									<weight>10</weight>
+									<only>(206,193,197)</only>
+								</li>
+								<!--li>
+									<weight>10</weight>
+									<min>(160,175,170)</min>
+									<max>(170,167,175)</max>
+								</li-->
+								<!--li>
+									<weight>10</weight>
+									<only>(69, 69, 69)</only>
+								</li>
+								<li>
+									<weight>10</weight>
+									<only>(133, 133, 133)</only>
+								</li>
+								<li>
+									<weight>10</weight>
+									<only>(105, 105, 105)</only>
+								</li>
+								<li>
+									<weight>10</weight>
+									<only>(95, 124, 130)</only>
+								</li>
+								<li>
+									<weight>10</weight>
+									<only>(50, 83, 89)</only>
+								</li>
+								<li>
+									<weight>10</weight>
+									<only>(57, 77, 92)</only>
+								</li-->
+							</options>
+						</first>
+						<!--second Class="ColorGenerator_Options">
+							<options>
+								<li>
+									<weight>10</weight>
+									<only>RGBA(0.500, 1.000, 0.000, 1.000)</only>
+								</li>
+							</options>
+						</second-->
+					</li>
+					<li>
+						<name>hair</name>
+						<first Class="ColorGenerator_Options">
+							<options>
+							<li>
+								<weight>10</weight>
+								<only>(219, 219, 219)</only>
+							</li>
+							</options>
+						</first>
+						<!--second Class="ColorGenerator_Options">
+							<options>
+								<li>
+									<weight>10</weight>
+									<only>RGBA(0.500, 1.000, 0.000, 1.000)</only>
+								</li>
+							</options>
+						</second-->
+					</li>
+				</colorChannels>
+            </alienPartGenerator>
+        </generalSettings>
+   </alienRace>
+</AlienRace.ThingDef_AlienRace>
+</Defs>
