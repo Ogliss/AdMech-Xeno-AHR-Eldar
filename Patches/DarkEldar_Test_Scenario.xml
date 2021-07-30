@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationSequence">
+	<operations>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name="SurgeryInstallImplantBase"]/recipeUsers</xpath>
+		<value>
+			<li>OG_Alien_DarkEldar</li>
+		</value>
+	</li>
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name="SurgeryRemoveImplantBase"]/recipeUsers</xpath>
+		<value>
+			<li>OG_Alien_DarkEldar</li>
+		</value>
+	</li>
+	<li Class="PatchOperationConditional">
+		<xpath>/Defs/ScenarioDef[defName = "OGAM_TestScenario_DarkEldar"]/scenario/playerFaction/factionDef</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ScenarioDef[defName = "OGAM_TestScenario_DarkEldar"]/scenario/playerFaction/factionDef</xpath>
+			<value>
+				<factionDef>OG_DarkEldar_Kabal_PlayerColony</factionDef>
+			</value>
+		</match>
+	</li>
+	</operations>
+</Operation>
+
+</Patch>

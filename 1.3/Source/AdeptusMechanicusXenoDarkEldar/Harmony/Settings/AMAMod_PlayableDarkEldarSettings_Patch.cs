@@ -16,7 +16,7 @@ namespace AdeptusMechanicus.HarmonyInstance
     {
     //    private static bool showRaces => (settings.ShowAllowedRaceSettings && showXB) || !Xenobiologis;
         [HarmonyPostfix]
-        public static void ModsLoaded(ref AMAMod __instance, ref string __result)
+        public static void ModsLoaded(ref string __result)
         {
             __result += ", " + "AdeptusMechanicus.DarkEldar.ModName".Translate();
         }
@@ -42,7 +42,7 @@ namespace AdeptusMechanicus.HarmonyInstance
         public static float MenuLength = 0;
         private static float inc = 0;
         [HarmonyPrefix]
-        public static void DarkEldarSettings_Prefix(ref AMAMod __instance, ref Listing_StandardExpanding listing_Main, Rect rect, Rect inRect, float num, ref float num2)
+        public static void DarkEldarSettings_Prefix(ref Listing_StandardExpanding listing_Main, ref float num2)
         {
             string label = "AdeptusMechanicus.Xenobiologis.ShowDarkEldar".Translate() + " Settings";
             string tooltip = string.Empty;

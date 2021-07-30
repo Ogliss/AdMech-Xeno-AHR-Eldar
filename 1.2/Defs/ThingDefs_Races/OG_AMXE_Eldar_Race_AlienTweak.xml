@@ -57,7 +57,7 @@
 				<bodyAddons>
 					<!-- Eyes -->
 					<li Class="AdeptusMechanicus.LinkedBodyAddon">
-						<path>Things/Pawn/Humanlike/Eldar/Head/Eyes/Eldar_Eye_Right</path>
+						<path>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Eye_Right</path>
 						<bodyPart>right eye</bodyPart>
 						<inFrontOfBody>true</inFrontOfBody>
 						<linkLifeStageDrawSize>true</linkLifeStageDrawSize>
@@ -103,12 +103,12 @@
 							<li>UpperHead</li>
 						</hiddenUnderApparelFor-->                
 						<hediffGraphics>
-							<BionicEye>Things/Pawn/Humanlike/Eldar/Head/Eyes/Eldar_Bionic_Eye_R</BionicEye>
-							<!--MissingBodyPart>Things/Pawn/Humanlike/Eldar/Head/Eyes/Eldar_Missing_Eye_R</MissingBodyPart-->
+							<BionicEye>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Bionic_Eye_R</BionicEye>
+							<!--MissingBodyPart>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Missing_Eye_R</MissingBodyPart-->
 						</hediffGraphics>
 					</li>
 					<li Class="AdeptusMechanicus.LinkedBodyAddon">
-						<path>Things/Pawn/Humanlike/Eldar/Head/Eyes/Eldar_Eye_Left</path>
+						<path>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Eye_Left</path>
 						<bodyPart>left eye</bodyPart>
 						<inFrontOfBody>true</inFrontOfBody>
 						<linkLifeStageDrawSize>true</linkLifeStageDrawSize>
@@ -154,13 +154,13 @@
 							<li>UpperHead</li>
 						</hiddenUnderApparelFor-->     
 						<hediffGraphics>
-							<BionicEye>Things/Pawn/Humanlike/Eldar/Head/Eyes/Eldar_Bionic_Eye_L</BionicEye>
-							<!--MissingBodyPart>Things/Pawn/Humanlike/Eldar/Head/Eyes/Eldar_Missing_Eye_L</MissingBodyPart-->
+							<BionicEye>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Bionic_Eye_L</BionicEye>
+							<!--MissingBodyPart>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Missing_Eye_L</MissingBodyPart-->
 						</hediffGraphics>
 					</li>
 					<!-- Ears -->
 					<li Class="AdeptusMechanicus.LinkedBodyAddon">
-						<path>Things/Pawn/Humanlike/Eldar/Head/Ears/Eldar_Ear_L</path>
+						<path>Things/Pawn/Humanlike/Aeldari/Head/Ears/Eldar_Ear_L</path>
 						<debug>false</debug>
 						<bodyPart>left ear</bodyPart>
 						<inFrontOfBody>true</inFrontOfBody>
@@ -224,7 +224,7 @@
 						</hiddenUnderApparelFor>
 					</li>
 					<li Class="AdeptusMechanicus.LinkedBodyAddon">
-						<path>Things/Pawn/Humanlike/Eldar/Head/Ears/Eldar_Ear_R</path>
+						<path>Things/Pawn/Humanlike/Aeldari/Head/Ears/Eldar_Ear_R</path>
 						<debug>false</debug>
 						<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
 						<bodyPart>right ear</bodyPart>
@@ -303,6 +303,13 @@
 				</colorChannels>
             </alienPartGenerator>
         </generalSettings>
+		<hairSettings>
+			<hasHair>true</hasHair>
+			<getsGreyAt>15000</getsGreyAt> 
+			<hairTags>
+				<li>OG_Eldar_Hair</li>
+			</hairTags>
+		</hairSettings>
    </alienRace>
 </AlienRace.ThingDef_AlienRace>
 </Defs>

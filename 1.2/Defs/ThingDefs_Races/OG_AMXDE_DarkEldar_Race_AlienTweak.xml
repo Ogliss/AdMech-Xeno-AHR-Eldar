@@ -55,11 +55,116 @@
             </disallowedTraits>
             <alienPartGenerator>
 				<bodyAddons>
+					<!-- Eyes -->
 					<li Class="AdeptusMechanicus.LinkedBodyAddon">
-						<path>Things/Pawn/Humanlike/DarkEldar/Heads/Ears/EarL</path>
+						<path>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Eye_Right</path>
+						<bodyPart>right eye</bodyPart>
+						<inFrontOfBody>true</inFrontOfBody>
+						<linkLifeStageDrawSize>true</linkLifeStageDrawSize>
+						<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+						<alignWithHead>true</alignWithHead>
+						<debug>false</debug>
+						<layerOffset>-0.2740</layerOffset>
+						<offsets>
+							<south>
+								<bodyTypes>
+									<Male>(-0.00,-0.050)</Male>
+									<Female>(-0.00,-0.050)</Female>
+								</bodyTypes>
+								<crownTypes>
+									<Average_Ork>(-0.0,0.0)</Average_Ork>
+								</crownTypes>
+							</south>
+							<north>
+								<bodyTypes>
+									<Male>(-0.00,-0.050)</Male>
+									<Female>(-0.00,-0.050)</Female>
+								</bodyTypes>
+								<crownTypes>
+									<Average_Ork>(0,0.0)</Average_Ork>
+								</crownTypes>
+							</north>
+							<east>
+								<bodyTypes>
+									<Male>(-0.00,-0.050)</Male>
+									<Female>(-0.00,-0.050)</Female>
+								</bodyTypes>
+								<crownTypes>
+									<Average_Ork>(-0.0,0.0)</Average_Ork>
+								</crownTypes>
+							</east>
+						</offsets>
+						<colorChannel>none</colorChannel>
+						<!--colorChannel>skin</colorChannel-->
+						<!--hiddenUnderApparelFor>
+							<li>OrkFullHead</li>
+							<li>OrkUpperHead</li>
+							<li>FullHead</li>
+							<li>UpperHead</li>
+						</hiddenUnderApparelFor-->                
+						<hediffGraphics>
+							<BionicEye>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Bionic_Eye_R</BionicEye>
+							<!--MissingBodyPart>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Missing_Eye_R</MissingBodyPart-->
+						</hediffGraphics>
+					</li>
+					<li Class="AdeptusMechanicus.LinkedBodyAddon">
+						<path>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Eye_Left</path>
+						<bodyPart>left eye</bodyPart>
+						<inFrontOfBody>true</inFrontOfBody>
+						<linkLifeStageDrawSize>true</linkLifeStageDrawSize>
+						<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+						<alignWithHead>true</alignWithHead>
+						<debug>false</debug>
+						<layerOffset>-0.2740</layerOffset>
+						<offsets>
+							<south>
+								<bodyTypes>
+									<Male>(-0.00,-0.050)</Male>
+									<Female>(-0.00,-0.050)</Female>
+								</bodyTypes>
+								<crownTypes>
+									<Average_Ork>(-0.0,0.0)</Average_Ork>
+								</crownTypes>
+							</south>
+							<north>
+								<bodyTypes>
+									<Male>(-0.00,-0.050)</Male>
+									<Female>(-0.00,-0.050)</Female>
+								</bodyTypes>
+								<crownTypes>
+									<Average_Ork>(0,0.0)</Average_Ork>
+								</crownTypes>
+							</north>
+							<east>
+								<bodyTypes>
+									<Male>(-0.00,-0.050)</Male>
+									<Female>(-0.00,-0.050)</Female>
+								</bodyTypes>
+								<crownTypes>
+									<Average_Ork>(-0.0,0.0)</Average_Ork>
+								</crownTypes>
+							</east>
+						</offsets>
+						<colorChannel>none</colorChannel>
+						<!--colorChannel>skin</colorChannel-->
+						<!--hiddenUnderApparelFor>
+							<li>OrkFullHead</li>
+							<li>OrkUpperHead</li>
+							<li>FullHead</li>
+							<li>UpperHead</li>
+						</hiddenUnderApparelFor-->     
+						<hediffGraphics>
+							<BionicEye>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Bionic_Eye_L</BionicEye>
+							<!--MissingBodyPart>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Missing_Eye_L</MissingBodyPart-->
+						</hediffGraphics>
+					</li>
+					<!-- Ears -->
+					<li Class="AdeptusMechanicus.LinkedBodyAddon">
+						<path>Things/Pawn/Humanlike/Aeldari/Head/Ears/Eldar_Ear_L</path>
 						<debug>false</debug>
 						<bodyPart>left ear</bodyPart>
 						<inFrontOfBody>true</inFrontOfBody>
+						<layerInvert>true</layerInvert>
 						<alignWithHead>true</alignWithHead>
 						<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 						<drawnInBed>true</drawnInBed>
@@ -67,7 +172,7 @@
 						<offsets>
 							  <south>
 								<bodyTypes>
-									<Male>(-0.0,0.0)</Male>
+									<Male>(-0.0,0.050)</Male>
 									<Female>(-0.0,0.0)</Female>
 								</bodyTypes>
 								<crownTypes>
@@ -79,7 +184,7 @@
 							  </south>
 							  <north>
 								<bodyTypes>
-									<Male>(0,0.0)</Male>
+									<Male>(0,0.050)</Male>
 									<Female>(0,0.0)</Female>
 								</bodyTypes>
 								<crownTypes>
@@ -103,16 +208,28 @@
 							  </east>
 						</offsets>
 						<colorChannel>skin</colorChannel>
+						<allowPairWith>
+							<li>
+								<li>0</li>
+								<li>4</li>
+							</li>
+							<li>
+								<li>1</li>
+								<li>2</li>
+							</li>
+						</allowPairWith>
 						<hiddenUnderApparelFor>
 							<li>FullHead</li>
 							<li>UpperHead</li>
 						</hiddenUnderApparelFor>
 					</li>
 					<li Class="AdeptusMechanicus.LinkedBodyAddon">
-						<path>Things/Pawn/Humanlike/DarkEldar/Heads/Ears/EarR</path>
+						<path>Things/Pawn/Humanlike/Aeldari/Head/Ears/Eldar_Ear_R</path>
 						<debug>false</debug>
+						<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
 						<bodyPart>right ear</bodyPart>
 						<inFrontOfBody>true</inFrontOfBody>
+						<layerInvert>true</layerInvert>
 						<alignWithHead>true</alignWithHead>
 						<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 						<drawnInBed>true</drawnInBed>
@@ -120,20 +237,20 @@
 						<offsets>
 							<south>
 								<bodyTypes>
-									<Male>(-0.0,0.0)</Male>
+									<Male>(-0.0,0.050)</Male>
 									<Female>(-0.0,0.0)</Female>
 								</bodyTypes>
 								<crownTypes>
 									<Average_Normal>(-0.0,0.0)</Average_Normal>
 									<Female_Narrow_Normal>(0.01,0.0)</Female_Narrow_Normal>
-									<Narrow_Normal>(0.02,0.0)</Narrow_Normal>
-									<Average_Wide>(-0.01,0.0)</Average_Wide>
+									<Narrow_Normal>(0.00,0.0)</Narrow_Normal>
+									<Average_Wide>(-0.00,0.0)</Average_Wide>
 									<Average_Pointy>(-0.0,0.0)</Average_Pointy>
 								</crownTypes>
 							</south>
 							<north>
 								<bodyTypes>
-									<Male>(0,0.0)</Male>
+									<Male>(0,0.050)</Male>
 									<Female>(0,0.0)</Female>
 								</bodyTypes>
 								<crownTypes>
@@ -246,6 +363,17 @@
 				</colorChannels>
             </alienPartGenerator>
         </generalSettings>
+		<hairSettings>
+			<hasHair>true</hasHair>
+			<getsGreyAt>15000</getsGreyAt> 
+			<hairTags>
+				<li>OG_DarkEldar_Hair</li>
+				<li>Raider</li>
+				<li>Pirate</li>
+				<li>Punk</li>
+				<li>Tribal</li>
+			</hairTags>
+		</hairSettings>
    </alienRace>
 </AlienRace.ThingDef_AlienRace>
 </Defs>

@@ -74,7 +74,7 @@
     </placeWorkers>
   </ThingDef-->
 
-  <ThingDef ParentName="OG_BenchBase">
+  <!--ThingDef ParentName="OG_BenchBase">
     <defName>OGDE_ConstructionSpire</defName>
     <label>Construction Spire</label>
     <description>A Dark Eldar work station for assembling or breaking down machinery like components, armour, guns and ammunition, or dead mechanoids.</description>
@@ -139,13 +139,13 @@
     </building>
     <constructEffect>ConstructMetal</constructEffect>
     <researchPrerequisites>
-      <!--li>ImperialTechBase</li-->
+      <li>OG_DarkEldar_Tech_Base_T1</li>
     </researchPrerequisites>
     <designationHotKey>Misc7</designationHotKey>
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
-  </ThingDef>
+  </ThingDef-->
 
   <ThingDef ParentName="OG_BenchBase">
     <defName>OGDE_SacrificialAlter</defName>
@@ -212,7 +212,7 @@
     </building>
     <constructEffect>ConstructMetal</constructEffect>
     <researchPrerequisites>
-      <!--li>ImperialTechBase</li-->
+      <li>OG_DarkEldar_Tech_Base_T2</li>
     </researchPrerequisites>
     <designationHotKey>Misc7</designationHotKey>
     <placeWorkers>

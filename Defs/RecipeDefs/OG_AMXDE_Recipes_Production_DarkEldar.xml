@@ -131,7 +131,7 @@
 	</recipeUsers>
   </RecipeDef>
 
-	<RecipeDef>
+	<!--RecipeDef>
 		<defName>Make_OGDE_KabalFavor</defName>
 		<label>Sacrifce the soul and flesh to the Kabaal</label>
 		<description>Sacrifce the soul and flesh to the Kabaal!</description>
@@ -178,6 +178,6 @@
 		<skillRequirements>
 			<Crafting>1</Crafting>
 		</skillRequirements>
-	</RecipeDef>
+	</RecipeDef-->
 	
 </Defs>

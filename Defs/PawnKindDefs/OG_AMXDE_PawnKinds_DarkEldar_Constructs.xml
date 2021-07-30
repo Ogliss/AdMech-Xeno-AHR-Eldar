@@ -28,13 +28,6 @@
         </bodyGraphicData>
       </li>
     </lifeStages>
-    <!--weaponMoney>
-      <min>9999</min>
-      <max>9999</max>
-    </weaponMoney>
-    <weaponTags>
-      <li>EGhostMelee</li>
-    </weaponTags-->
   </PawnKindDef>  
   
 </Defs>

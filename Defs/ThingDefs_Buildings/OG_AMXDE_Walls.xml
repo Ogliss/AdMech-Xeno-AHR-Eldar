@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BuildingBase">
+	<!--ThingDef ParentName="BuildingBase">
 		<defName>CSM_WallOne</defName>
 		<label>Dark Concrete Wall</label>
 		<description>Designed with strength in mind. Capable of holding up a roof, and is fireproof</description>
@@ -125,6 +125,6 @@
 			</blueprintGraphicData>
 		</building>
 		<designationHotKey>Misc3</designationHotKey>
-	</ThingDef>
+	</ThingDef-->
 
 </Defs>

@@ -147,6 +147,7 @@
 			<Mass>8</Mass>
 			<Flammability>0</Flammability>
 			<Beauty>35</Beauty>
+			<TerrorSource MayRequire="Ludeon.RimWorld.Ideology">0</TerrorSource>
 		</statBases>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<costList>

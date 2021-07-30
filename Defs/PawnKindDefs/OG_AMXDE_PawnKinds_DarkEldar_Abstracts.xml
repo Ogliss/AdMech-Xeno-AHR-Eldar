@@ -547,7 +547,7 @@
 			<li>ELasblaster</li>
 		</weaponTags>
 		<apparelRequired>
-			<li>OGDE_Apparel_Armor_Scourge</li>
+			<!--li>OGDE_Apparel_Armor_Scourge</li-->
 			<li>OGDE_Apparel_Armor_ScourgeHelmet</li>
 		</apparelRequired>
 	</PawnKindDef>
@@ -566,10 +566,10 @@
 		<weaponTags>
 			<li>EShurikenCannon</li>
 		</weaponTags>
-		<apparelRequired>
+		<!--apparelRequired>
 			<li>OGDE_Apparel_Armor_Haemonculus</li>
 			<li>OGDE_Apparel_Armor_HaemonculusHelmet</li>
-		</apparelRequired>
+		</apparelRequired-->
 	</PawnKindDef>
 
 	<!-- ============================ Dark Eldar Haemonculus Exarch ========================== -->

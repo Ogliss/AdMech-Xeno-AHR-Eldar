@@ -200,18 +200,18 @@
 		</generalSettings>
 		<graphicPaths>
 			<li>
-					<head>Things/Pawn/Humanlike/Eldar/Head/</head>
+					<head>Things/Pawn/Humanlike/Aeldari/Head/</head>
 					<body>Things/Pawn/Humanlike/Eldar/Bodies/</body>
 			</li>
 		<!--
 			<li>
-					<head>Things/Pawn/Humanlike/Eldar/Head/</head>
+					<head>Things/Pawn/Humanlike/Aeldari/Head/</head>
 			</li>
 		-->
 		</graphicPaths>
-		<hairSettings>
+		<!--hairSettings>
 			<hasHair>false</hasHair>
-		</hairSettings>
+		</hairSettings-->
 		<compatibility>
 			<isFlesh>false</isFlesh>
 			<hasBlood>false</hasBlood> 
@@ -602,13 +602,6 @@
 						<head>Things/Eldar/HeadsBase/</head>
 				</li>
 			</graphicPaths>
-			<hairSettings>
-				<hasHair>true</hasHair>
-				<getsGreyAt>200</getsGreyAt> 
-				<hairTags>
-						 <li>KrootHair</li>
-				</hairTags>
-			</hairSettings>
 			<thoughtSettings>
 			<cannotReceiveThoughts>
 						<li>ButcheredHumanlikeCorpse</li>

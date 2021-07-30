@@ -464,7 +464,7 @@
 
 	<!-- ====== Haemonculus Armor ====== -->
 	<!-- Add 0.75 inv save -->
-	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Makeable">
+	<!--ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Makeable">
 		<defName>OGDE_Apparel_Armor_Haemonculus</defName>
 		<label>haemonculus garb</label>
 		<techLevel>Spacer</techLevel>
@@ -564,24 +564,13 @@
 				</PauldronEntries>
 		  </li>
 		</comps>
-		<!--
-		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
-			<li>
-				<weight>10</weight>
-				<max>(1,1,0.82)</max>
-				<min>(0.906,0.937,0.776)</min>
-			</li>
-		  </options>
-		</colorGenerator>
-		-->
-	</ThingDef>
+	</ThingDef-->
 
 	<!-- ====== Hellion Armor ====== -->
 	<!-- Add 0.55 inv save -->
 	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Makeable">
 		<defName>OGDE_Apparel_Armor_Hellion</defName>
-		<label>Dark Eldar Hellion Rider Armor</label>
+		<label>hellion rider armour</label>
 		<techLevel>Spacer</techLevel>
 		<description>The armor commonly worn by the Dark Eldar Hellion Riders.</description>
 		<graphicData>
@@ -707,7 +696,7 @@
 
 	<!-- ====== Scourge Armor ====== -->
 	<!-- Add 0.55 inv save -->
-	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Makeable">
+	<!--ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Makeable">
 		<defName>OGDE_Apparel_Armor_Scourge</defName>
 		<label>Dark Eldar Scourge Armor</label>
 		<description>The armor commonly worn by the Dark Eldar Scourge.</description>
@@ -804,7 +793,6 @@
 				</PauldronEntries>
 		  </li>
 		</comps>
-		<!--
 		<colorGenerator Class="ColorGenerator_Options">
 		  <options>
 			<li>
@@ -814,8 +802,7 @@
 			</li>
 		  </options>
 		</colorGenerator>
-		-->
-	</ThingDef>
+	</ThingDef-->
 
 	<!-- ====== Incubi Armor ====== -->
 	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Makeable">

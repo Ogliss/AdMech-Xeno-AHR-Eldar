@@ -419,7 +419,7 @@
 
 	<!-- ====== Wrack Helmet ====== -->
 	<!-- Add 0.55 inv save -->
-	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Headgear">
+	<!--ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Headgear">
 		<defName>OGDE_Apparel_Armor_WrackHelmet</defName>
 		<label>wrack helmet</label>
 		<description>The helmet commonly worn by the Dark Eldar Wracks.</description>
@@ -483,10 +483,10 @@
 			</defaultOutfitTags>
 		</apparel>
 		<thingCategories>
-			<!--li>OGDEHeadgear</li-->
+		
 		</thingCategories>
 		<tradeTags>
-			<!--li>OGDEHeadgear</li-->
+		
 		</tradeTags>
 		<tickerType>Normal</tickerType>
 		<comps>	 
@@ -502,11 +502,11 @@
 				<hediff>WearingGasMask</hediff>
 			</li>
 		</modExtensions>
-	</ThingDef>
+	</ThingDef-->
 
 	<!-- ====== Haemonculi Helmet ====== -->
 	<!-- Add 0.75 inv save -->
-	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Headgear">
+	<!--ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Headgear">
 		<defName>OGDE_Apparel_Armor_HaemonculusHelmet</defName>
 		<label>haemonculi Helmet</label>
 		<description>The helmet commonly worn by the Dark Eldar Haemonculi.</description>
@@ -574,10 +574,10 @@
 			</defaultOutfitTags>
 		</apparel>
 		<thingCategories>
-			<!--li>OGDEHeadgear</li-->
+		
 		</thingCategories>
 		<tradeTags>
-			<!--li>OGDEHeadgear</li-->
+		
 		</tradeTags>
 		<tickerType>Normal</tickerType>
 		<comps>	 
@@ -593,7 +593,7 @@
 				<hediff>WearingGasMask</hediff>
 			</li>
 		</modExtensions>
-	</ThingDef>
+	</ThingDef-->
 
 	<!-- ====== Hellion Helmet ====== -->
 	<!-- Add 0.55 inv save -->

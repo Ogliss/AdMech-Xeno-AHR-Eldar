@@ -239,12 +239,12 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <!--=============== Shuriken Cannon turret ===============-->
+  <!--=============== Splinter Cannon turret ===============-->
   <ThingDef ParentName="OGDE_HeavyTurret">
-    <defName>OGDE_Turret_ShurikenCannonDual_Auto</defName>
-    <label>twin-linked shuriken cannon turret</label>
+    <defName>OGDE_Turret_SplinterCannonDual_Auto</defName>
+    <label>twin-linked splinter cannon turret</label>
     <description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged.</description>    
-	<uiIconPath>Things/Building/Eldar/Security/TurretMount_ShurikenCannonDual_Menu</uiIconPath>
+	<uiIconPath>Things/Building/DarkEldar/Security/TurretMount_SplinterCannonDual_Menu</uiIconPath>
     <statBases>
 		<AimingAccuracy MayRequire="CETeam.CombatExtended">0.25</AimingAccuracy>
 		<ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
@@ -285,7 +285,7 @@
       </li>
     </comps>
     <building>
-      <turretGunDef>OGDE_GunTurret_SurikenCannonDual</turretGunDef>
+      <turretGunDef>OGDE_GunTurret_SplinterCannonDual</turretGunDef>
       <turretBurstCooldownTime>3.5</turretBurstCooldownTime>
     </building>
     <researchPrerequisites>
@@ -295,11 +295,11 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseWeaponTurret">
-    <defName>OGDE_GunTurret_SurikenCannonDual</defName>
-    <label>twin-linked shuriken cannon</label>
+    <defName>OGDE_GunTurret_SplinterCannonDual</defName>
+    <label>twin-linked splinter cannon</label>
     <description>A self-loading quad heavy stubber designed to attach to a turret.</description>
     <graphicData>
-      <texPath>Things/Building/Eldar/Security/TurretMount_ShurikenCannonDual_Top</texPath>
+      <texPath>Things/Building/Eldar/Security/TurretMount_SplinterCannonDual_Top</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,1)</drawSize>
     </graphicData>

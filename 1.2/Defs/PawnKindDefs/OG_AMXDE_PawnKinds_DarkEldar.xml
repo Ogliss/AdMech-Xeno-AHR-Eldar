@@ -63,19 +63,19 @@
 	</PawnKindDef>
 	
 	<!-- ============================ Dark Eldar Scourge ========================== -->
-	<PawnKindDef ParentName="OG_DarkEldar_ScourgeBase">
+	<!--PawnKindDef ParentName="OG_DarkEldar_ScourgeBase">
 		<defName>OG_DarkEldar_Scourge</defName>
-	</PawnKindDef>
+	</PawnKindDef-->
 	
 	<!-- ============================ Dark Eldar Haemonculus ========================== -->
-	<PawnKindDef ParentName="OG_DarkEldar_HaemonculusBase">
+	<!--PawnKindDef ParentName="OG_DarkEldar_HaemonculusBase">
 		<defName>OG_DarkEldar_Haemonculus</defName>
-	</PawnKindDef>
+	</PawnKindDef-->
 	
 	<!-- ============================ Dark Eldar Haemonculus Exarch ========================== -->
-	<PawnKindDef ParentName="OG_DarkEldar_Haemonculus_ExarchBase">
+	<!--PawnKindDef ParentName="OG_DarkEldar_Haemonculus_ExarchBase">
 		<defName>OG_DarkEldar_Haemonculus_Exarch</defName>
-	</PawnKindDef>
+	</PawnKindDef-->
 	
 	<!-- ============================ Dark Eldar Incubi ========================== -->
 	<PawnKindDef ParentName="OG_DarkEldar_IncubiBase">

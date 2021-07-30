@@ -116,14 +116,6 @@
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
     </race>
-	<!-- <tickerType>Normal</tickerType> -->
-	<!--comps>
-	  <li Class="OgsCompSlotLoadable.CompProperties_SlotLoadable">
-		<slots>
-			<li>OG_SlotLoadable_SoulStone</li>
-		</slots>
-	  </li>
-	</comps-->
   </ThingDef>
 
 </Defs>

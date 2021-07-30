@@ -54,6 +54,7 @@ namespace AdeptusMechanicus.HarmonyInstance
         {
             if (__result != null && __result.def == AdeptusThingDefOf.OG_Alien_Eldar)
             {
+            //    Log.Message(__result.Name + " " + __result.gender.ToString());
                 if (__result.story == null)
                 {
                     return;
@@ -72,16 +73,6 @@ namespace AdeptusMechanicus.HarmonyInstance
                     default:
                         break;
                 }
-                if (storyTracker.childhood.spawnCategories.Contains("Ork_Base_Child"))
-                {
-
-                }
-                else
-                if (storyTracker.childhood.spawnCategories.Contains("Ork_Odd_Child"))
-                {
-
-                }
-                else
                 if (storyTracker.childhood.spawnCategories.Contains("Eldar_Craftworld_Psyker"))
                 {
                     if (!storyTracker.traits.HasTrait(TraitDefOf.PsychicSensitivity))
@@ -130,56 +121,8 @@ namespace AdeptusMechanicus.HarmonyInstance
                         }
                     }
                 }
-                /*
-                if (adult)
-                {
-                    if (__result.isOrk())
-                    {
-                        if (storyTracker.adulthood.identifier.Contains("_Boss") || storyTracker.adulthood.identifier.Contains("_Nob"))
-                        {
-                            HarmonyPatches.ChangeBodyType(__result, BodyTypeDefOf.Hulk);
-                        }
-                        else
-                        {
-                            HarmonyPatches.ChangeBodyType(__result, BodyTypeDefOf.Male);
-                        }
-                    }
-                }
-                */
             }
         }
         
-        /*
-        [HarmonyPostfix]
-        public static void Post_GeneratePawn(ref Pawn __result)
-        {
-            if (__result!=null)
-            {
-                if (__result.kindDef!=null)
-                {
-                    if (__result.kindDef.isOrkoid())
-                    {
-                        PawnKindDef kindDef = __result.kindDef;
-                        if (__result.RaceProps!=null)
-                        {
-                            if (__result.RaceProps.Humanlike)
-                            {
-                                Pawn_StoryTracker storyTracker = __result.story;
-                                bool weirdKind = kindDef.defName.Contains("Weird");
-                                bool weirdStory = storyTracker.adulthood.identifier.Contains("Weird") || storyTracker.childhood.identifier.Contains("Weird");
-                                bool weirdOrk = __result.def == OGOrkThingDefOf.OG_Alien_Ork && (weirdStory || weirdKind);
-                                bool weirdGrot = __result.def == OGOrkThingDefOf.OG_Alien_Grot && (weirdStory || weirdKind);
-                                bool weird = (weirdGrot || weirdOrk);
-                                if (weird)
-                                {
-                                    //   Log.Message(string.Format("{0} iz a wierd {1}....",__result.NameShortColored, __result.def.LabelCap));
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        */
     }
 }

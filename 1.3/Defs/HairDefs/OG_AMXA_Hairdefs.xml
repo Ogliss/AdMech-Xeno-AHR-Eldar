@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <StyleItemCategoryDef>
+    <defName>OG_Eldar_Hair</defName>
+    <label>eldar hair</label>
+  </StyleItemCategoryDef>
+
+  <StyleItemCategoryDef>
+    <defName>OG_DarkEldar_Hair</defName>
+    <label>dark eldar hair</label>
+  </StyleItemCategoryDef>
+
+  <HairDef>
+    <defName>OG_Aeldari_Bald</defName>
+    <label>Aeldari Bald</label>
+    <texPath>Things/Pawn/Humanlike/Aeldari/Hair/Bald</texPath>
+    <hairGender>Any</hairGender>
+	<styleTags>
+		<li>OG_Eldar_Hair</li>
+		<li>OG_DarkEldar_Hair</li>
+	</styleTags>
+  </HairDef>
+ 
+</Defs>

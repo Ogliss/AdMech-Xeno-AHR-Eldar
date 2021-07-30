@@ -5,6 +5,9 @@
 		<defName>OG_Eldar_Craftworld_Faction</defName>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority>20</configurationListOrderPriority>
+		<allowedCultures>
+			<li>OG_Aeldari_Asuryani</li>
+		</allowedCultures>
 	</FactionDef>
 
 </Defs>

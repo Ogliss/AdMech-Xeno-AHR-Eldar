@@ -15,7 +15,7 @@ namespace AdeptusMechanicus.HarmonyInstance
     public static class AMAMod_SettingsCategory_Patch
     {
         [HarmonyPostfix]
-        public static void ModsLoaded(ref AMAMod __instance, ref string __result)
+        public static void ModsLoaded(ref string __result)
         {
             __result += ", " + "AdeptusMechanicus.Eldar.ModName".Translate();
         }
@@ -29,18 +29,18 @@ namespace AdeptusMechanicus.HarmonyInstance
 
         private static bool Dev => AMAMod.Dev;
         private static bool Xenobiologis => AdeptusIntergrationUtility.enabled_MagosXenobiologis;
-        private static bool showXB => settings.ShowXenobiologisSettings;
-        private static bool showRaces => (Xenobiologis && settings.ShowAllowedRaceSettings && showXB) || (!Xenobiologis && settings.ShowEldar);
-        private static bool setting => showRaces && settings.ShowEldar;
+        private static bool ShowXB => settings.ShowXenobiologisSettings;
+        private static bool ShowRaces => (Xenobiologis && settings.ShowAllowedRaceSettings && ShowXB) || (!Xenobiologis && settings.ShowEldar);
+        private static bool Setting => ShowRaces && settings.ShowEldar;
 
         private static int Options = 3;
-        private static float RaceSettings => mod.Length(setting, Options, lineheight, 8, showRaces ? 1 : 0);
+        private static float RaceSettings => mod.Length(Setting, Options, lineheight, 8, ShowRaces ? 1 : 0);
 
         public static float MainMenuLength = 0;
         public static float MenuLength = 0;
         private static float inc = 0;
         [HarmonyPrefix]
-        public static void EldarSettings_Prefix(ref AMAMod __instance, ref Listing_StandardExpanding listing_Main, Rect rect, Rect inRect, float num, ref float num2)
+        public static void EldarSettings_Prefix(ref Listing_StandardExpanding listing_Main, ref float num2)
         {
             string label = "AdeptusMechanicus.Xenobiologis.ShowEldar".Translate() + " Settings";
             string tooltip = string.Empty;
@@ -56,7 +56,7 @@ namespace AdeptusMechanicus.HarmonyInstance
                     return;
                 }
             }
-            if (showRaces)
+            if (ShowRaces)
             {
                 Listing_StandardExpanding listing_Race = listing_Main.BeginSection((num2 != 0 ? num2 : RaceSettings) + inc, false, 3, 4, 0);
                 if (Xenobiologis)

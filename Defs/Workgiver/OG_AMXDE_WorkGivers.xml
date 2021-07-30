@@ -3,7 +3,7 @@
 
 	<!--==================== Dark Eldar  - Work Giver =========================-->
 	
-	<WorkGiverDef>
+	<!--WorkGiverDef>
 		<defName>DoBillsDarkEldarMachining</defName>
 		<label>Fabricate DarkEldar Resources</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
@@ -18,9 +18,9 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 		<prioritizeSustains>true</prioritizeSustains>
-	</WorkGiverDef>
+	</WorkGiverDef-->
 
-	<WorkGiverDef>
+	<!--WorkGiverDef>
 		<defName>DoBillsSacrificialAlter</defName>
 		<label>Sacrifice the weaklings to the Kabaal</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
@@ -35,7 +35,7 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 		<prioritizeSustains>true</prioritizeSustains>
-	</WorkGiverDef>
+	</WorkGiverDef-->
 
 
 </Defs>

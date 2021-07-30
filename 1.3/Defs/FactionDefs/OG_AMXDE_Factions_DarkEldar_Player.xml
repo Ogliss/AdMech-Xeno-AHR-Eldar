@@ -3,11 +3,17 @@
 
 	<FactionDef ParentName="OG_DarkEldar_Player_Kabal_Base">
 		<defName>OG_DarkEldar_Kabal_PlayerColony</defName>
+		<allowedCultures>
+			<li>OG_Aeldari_Drukhari</li>
+		</allowedCultures>
 	</FactionDef>
 
 	<!--
 	<FactionDef ParentName="OG_DarkEldar_Player_Coven_Base">
 		<defName>OG_DarkEldar_Coven_PlayerColony</defName>
+		<allowedCultures>
+			<li>OG_Aeldari_Drukhari</li>
+		</allowedCultures>
 	</FactionDef>
 	-->
 	
