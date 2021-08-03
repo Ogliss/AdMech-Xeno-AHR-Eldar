@@ -990,6 +990,7 @@
 							<shaderType>CutoutComplex</shaderType>
 						</graphicData>
 						<UseBodytypeTextures>false</UseBodytypeTextures>
+						<forceDynamicDraw IgnoreIfNoMatchingField="True">true</forceDynamicDraw>
 						<commonality>10</commonality>
 					</li>
 				</ExtrasEntries>
@@ -1110,6 +1111,7 @@
 						</graphicData>
 						<UseBodytypeTextures>false</UseBodytypeTextures>
 						<commonality>10</commonality>
+						<forceDynamicDraw IgnoreIfNoMatchingField="True">true</forceDynamicDraw>
 					</li>
 				</ExtrasEntries>
 				<NorthOffset>0,-0.350,0.31</NorthOffset>
@@ -1129,6 +1131,7 @@
 						</graphicData>
 						<UseBodytypeTextures>false</UseBodytypeTextures>
 						<commonality>10</commonality>
+						<forceDynamicDraw IgnoreIfNoMatchingField="True">true</forceDynamicDraw>
 					</li>
 				</ExtrasEntries>
 				<NorthOffset>0,0.35,0.31</NorthOffset>
