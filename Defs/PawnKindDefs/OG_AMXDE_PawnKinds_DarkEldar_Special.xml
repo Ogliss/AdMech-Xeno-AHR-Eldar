@@ -3,6 +3,8 @@
 
 	<PawnKindDef ParentName="OG_DarkEldar_StrangerInBlack_Base">
 		<defName>StrangerInBlackDarkEldar</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">0~0</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">0~2</initialResistanceRange>
 	</PawnKindDef>
 
 </Defs>

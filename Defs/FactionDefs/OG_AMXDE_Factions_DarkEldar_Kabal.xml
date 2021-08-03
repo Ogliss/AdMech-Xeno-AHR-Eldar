@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef ParentName="OG_DarkEldar_Kabal_Faction_Base">
+		<defName>OG_DarkEldar_Kabal_Faction</defName>
+		<maxConfigurableAtWorldCreation IgnoreIfNoMatchingField="True">9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority IgnoreIfNoMatchingField="True">20</configurationListOrderPriority>
+		<allowedCultures IgnoreIfNoMatchingField="True">
+			<li>OG_Aeldari_Drukhari</li>
+		</allowedCultures>
+		<hairTags IgnoreIfNoMatchingField="True">
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Rural</li>
+		</hairTags>
+		<startingGoodwill IgnoreIfNoMatchingField="True">
+			<min>-60</min>
+			<max>60</max>
+		</startingGoodwill>
+		<naturalColonyGoodwill IgnoreIfNoMatchingField="True">
+			<min>-60</min>
+			<max>0</max>
+		</naturalColonyGoodwill>
+	</FactionDef>
+
+	<FactionDef ParentName="OG_DarkEldar_Kabal_BlackHand_Base">
+		<defName>OG_DarkEldar_Kabal_BlackHand</defName>
+		<maxConfigurableAtWorldCreation IgnoreIfNoMatchingField="True">9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority IgnoreIfNoMatchingField="True">20</configurationListOrderPriority>
+		<allowedCultures IgnoreIfNoMatchingField="True">
+			<li>OG_Aeldari_Drukhari</li>
+		</allowedCultures>
+		<hairTags IgnoreIfNoMatchingField="True">
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Rural</li>
+		</hairTags>
+		<startingGoodwill IgnoreIfNoMatchingField="True">
+			<min>-60</min>
+			<max>60</max>
+		</startingGoodwill>
+		<naturalColonyGoodwill IgnoreIfNoMatchingField="True">
+			<min>-60</min>
+			<max>0</max>
+		</naturalColonyGoodwill>
+	</FactionDef>
+
+</Defs>

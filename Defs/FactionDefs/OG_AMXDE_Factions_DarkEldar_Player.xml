@@ -3,17 +3,31 @@
 
 	<FactionDef ParentName="OG_DarkEldar_Player_Kabal_Base">
 		<defName>OG_DarkEldar_Kabal_PlayerColony</defName>
-		<allowedCultures>
+		<allowedCultures IgnoreIfNoMatchingField="True">
 			<li>OG_Aeldari_Drukhari</li>
 		</allowedCultures>
+		<hairTags IgnoreIfNoMatchingField="True">
+			<li>OG_DarkEldar_Hair</li>
+			<li>Pirate</li>
+			<li>Punk</li>
+			<li>Tribal</li>
+			<li>Raider</li>
+		</hairTags>
 	</FactionDef>
 
 	<!--
 	<FactionDef ParentName="OG_DarkEldar_Player_Coven_Base">
 		<defName>OG_DarkEldar_Coven_PlayerColony</defName>
-		<allowedCultures>
+		<allowedCultures IgnoreIfNoMatchingField="True">
 			<li>OG_Aeldari_Drukhari</li>
 		</allowedCultures>
+		<hairTags IgnoreIfNoMatchingField="True">
+			<li>OG_DarkEldar_Hair</li>
+			<li>Pirate</li>
+			<li>Punk</li>
+			<li>Tribal</li>
+			<li>Raider</li>
+		</hairTags>
 	</FactionDef>
 	-->
 	

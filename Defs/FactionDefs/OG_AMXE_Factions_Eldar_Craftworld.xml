@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef ParentName="OG_Eldar_Craftworld_Faction_Base">
+		<defName>OG_Eldar_Craftworld_Faction</defName>
+		<maxConfigurableAtWorldCreation IgnoreIfNoMatchingField="True">9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority IgnoreIfNoMatchingField="True">20</configurationListOrderPriority>
+		<allowedCultures IgnoreIfNoMatchingField="True">
+			<li>OG_Aeldari_Asuryani</li>
+		</allowedCultures>
+		<disallowedMemes IgnoreIfNoMatchingField="True">
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		</disallowedMemes>
+		<disallowedPrecepts IgnoreIfNoMatchingField="True">
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+		</disallowedPrecepts>
+		<structureMemeWeights IgnoreIfNoMatchingField="True">
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
+		</structureMemeWeights>
+		<hairTags IgnoreIfNoMatchingField="True">
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Rural</li>
+		</hairTags>
+		<naturalColonyGoodwill IgnoreIfNoMatchingField="True">
+			<min>-60</min>
+			<max>0</max>
+		</naturalColonyGoodwill>
+		<startingGoodwill IgnoreIfNoMatchingField="True">
+			<min>-60</min>
+			<max>60</max>
+		</startingGoodwill>
+	</FactionDef>
+
+</Defs>

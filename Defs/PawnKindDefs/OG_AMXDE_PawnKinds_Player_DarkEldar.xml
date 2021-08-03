@@ -3,6 +3,8 @@
 
 	<PawnKindDef ParentName="Colonist_OG_DarkEldar_Kabal_Base">
 		<defName>Colonist_OG_DarkEldar_Kabal</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">0~0</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">13~21</initialResistanceRange>
 	</PawnKindDef>
 
 </Defs>

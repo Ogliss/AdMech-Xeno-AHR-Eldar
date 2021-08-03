@@ -164,7 +164,8 @@
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
-		</researchPrerequisites>	
+		</researchPrerequisites>
+		<size>(1,2)</size>
 	</ThingDef>
 
 	<ThingDef ParentName="FurnitureBase">
@@ -206,6 +207,7 @@
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>	
+		<size>(2,2)</size>
 	</ThingDef>
 
 	<ThingDef ParentName="FurnitureBase">
@@ -247,6 +249,7 @@
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>	
+		<size>(3,2)</size>
 	</ThingDef>
 
 	<ThingDef ParentName="FurnitureBase">
