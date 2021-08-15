@@ -180,15 +180,15 @@ namespace AdeptusMechanicus
 			switch (cat)
 			{
 				case SoulCategory.Energized:
-					return 2.66666666E-05f * num;
+					return BaseSoulFallPerTick * num;
 				case SoulCategory.Satisfied:
-					return 2.66666666E-05f * num * 0.5f;
+					return BaseSoulFallPerTick * num * 0.5f;
 				case SoulCategory.Diminished:
-					return 2.66666666E-05f * num * 0.25f;
+					return BaseSoulFallPerTick * num * 0.25f;
 				case SoulCategory.Fading:
-					return 2.66666666E-05f * num * 0.125f;
+					return BaseSoulFallPerTick * num * 0.125f;
 				case SoulCategory.Withering:
-					return 2.66666666E-05f * num * 0.075f;
+					return BaseSoulFallPerTick * num * 0.075f;
 				default:
 					return 999f;
 			}

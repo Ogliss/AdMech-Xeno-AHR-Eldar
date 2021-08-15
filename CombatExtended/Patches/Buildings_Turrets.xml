@@ -3,7 +3,7 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<!--=============== Auto turrets ===============-->
-			<li Class="PatchOperationReplace">
+			<!--li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[@Name="OGE_HeavyTurret"]/thingClass</xpath>
 				<value>
 					<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
@@ -14,7 +14,7 @@
 				<value>
 					<thingClass>AdeptusMechanicus.Lasers.Building_LaserGunCE</thingClass>
 				</value>
-			</li>
+			</li-->
 			<!--===============  Shuriken Cannon turret ===============-->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "OGE_Turret_ShurikenCannonDual_Auto"]/researchPrerequisites/li[text()="HeavyTurrets"]</xpath>

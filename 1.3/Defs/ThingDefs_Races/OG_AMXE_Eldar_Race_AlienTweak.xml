@@ -67,7 +67,7 @@
 						<defaultOffset>Center</defaultOffset>
 						<offsets>
 							<south>
-								<layerOffset>-0.0</layerOffset> <!-- -0.2740 -->
+								<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
 								<bodyTypes>
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
@@ -77,7 +77,7 @@
 								</crownTypes>
 							</south>
 							<north>
-								<layerOffset>-0.0</layerOffset> <!-- -0.2740 -->
+								<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
 								<bodyTypes>
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
@@ -87,7 +87,7 @@
 								</crownTypes>
 							</north>
 							<east>
-								<layerOffset>-0.0</layerOffset> <!-- -0.2740 -->
+								<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
 								<bodyTypes>
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
@@ -121,7 +121,7 @@
 						<defaultOffset>Center</defaultOffset>
 						<offsets>
 							<south>
-								<layerOffset>-0.0</layerOffset> <!-- -0.2740 -->
+								<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
 								<bodyTypes>
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
@@ -131,7 +131,7 @@
 								</crownTypes>
 							</south>
 							<north>
-								<layerOffset>-0.0</layerOffset> <!-- -0.2740 -->
+								<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
 								<bodyTypes>
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
@@ -141,7 +141,7 @@
 								</crownTypes>
 							</north>
 							<east>
-								<layerOffset>-0.0</layerOffset> <!-- -0.2740 -->
+								<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
 								<bodyTypes>
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>

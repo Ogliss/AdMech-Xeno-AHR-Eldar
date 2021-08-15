@@ -22,19 +22,18 @@ namespace AdeptusMechanicus
             if (checkTick >= checkInterval)
             {
                 checkTick = 0;
+                List<Pawn> toRemove = new List<Pawn>();
                 for (int i = 0; i < painMaker.Count; i++)
                 {
                     Pawn p = painMaker[i];
                     if (p == null)
                     {
-                        painMaker.RemoveAt(i);
-                        i--;
+                        toRemove.Add(p);
                         continue;
                     }
                     if (p.Dead)
                     {
-                        painMaker.RemoveAt(i);
-                        i--;
+                        toRemove.Add(p);
                         continue;
                     }
                     if (p.Map == null)
@@ -43,15 +42,13 @@ namespace AdeptusMechanicus
                         {
                             if (p.MapHeld != map)
                             {
-                                painMaker.RemoveAt(i);
-                                i--;
+                                toRemove.Add(p);
                                 continue;
                             }
                         }
                         else
                         {
-                            painMaker.RemoveAt(i);
-                            i--;
+                            toRemove.Add(p);
                             continue;
                         }
                     }
@@ -61,18 +58,20 @@ namespace AdeptusMechanicus
                         {
                             if (p.MapHeld != map)
                             {
-                                painMaker.RemoveAt(i);
-                                i--;
+                                toRemove.Add(p);
                                 continue;
                             }
                         }
                         else
                         {
-                            painMaker.RemoveAt(i);
-                            i--;
+                            toRemove.Add(p);
                             continue;
                         }
                     }
+                }
+                foreach (var item in toRemove)
+                {
+                    painMaker.Remove(item);
                 }
                 totalPain = TotalPain;
             }

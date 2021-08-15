@@ -87,7 +87,7 @@
 	<ThingDef ParentName="FurnitureBase">
 		<defName>OGDE_SoulFireBrazier</defName>
 		<label>Soul Fire Brazier</label>
-		<description>Torture Table</description>
+		<description>Soul Fire Brazier</description>
 		<graphicData>
 			<texPath>Things/Building/DarkEldar/Decorations/Other/SoulFireBrazier</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -122,7 +122,45 @@
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>		
-		<size>(1,1)</size>		
+		<size>(1,1)</size>	
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>10</glowRadius>
+				<glowColor>(78,226,229,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>3.5</heatPerSecond>
+				<heatPushMaxTemperature>23</heatPushMaxTemperature>
+			</li>
+			<!--li Class="CompProperties_FireOverlay">
+				<fireSize>0.4</fireSize>
+				<offset>(0,0,0.2)</offset>
+			</li-->
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes><li>Flame</li></focusTypes>
+				<offsets>
+					<li Class="FocusStrengthOffset_Lit">
+						<offset>0.1</offset>
+					</li>
+					<li Class="FocusStrengthOffset_BuildingDefsLit">
+						<defs>
+							<li>Campfire</li>
+							<li>TorchLamp</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">Darktorch</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">DarktorchFungus</li>
+						</defs>
+						<offsetPerBuilding>0.01</offsetPerBuilding>
+						<radius>9.9</radius>
+						<maxBuildings>8</maxBuildings>
+						<explanationKey>MeditationFocusPerFlame</explanationKey>
+						<explanationKeyAbstract>MeditationFocusPerFlameAbstract</explanationKeyAbstract>
+					</li>
+				</offsets>
+			</li>
+		</comps>	
 	</ThingDef>
 
 	<ThingDef ParentName="FurnitureBase">
@@ -293,8 +331,8 @@
 		</researchPrerequisites>	
 	</ThingDef>
 
-  <!--============================== Pile Decorations ==============================-->
-  <!--============================== Skull Pile ==============================-->
+	<!--============================== Pile Decorations ==============================-->
+	<!--============================== Skull Pile ==============================-->
 	<ThingDef ParentName="FurnitureBase">
 		<defName>OGDE_Pile_Skull</defName>
 		<label>Skull Pile</label>
@@ -336,9 +374,9 @@
 		<size>(1,1)</size>		
 	</ThingDef>
 
-  <!--============================== Weapon Decorations ==============================-->
-  <!--============================== Weapon Pile ==============================-->
-  	<ThingDef ParentName="FurnitureBase">
+	<!--============================== Weapon Decorations ==============================-->
+	<!--============================== Weapon Pile ==============================-->
+		<ThingDef ParentName="FurnitureBase">
 		<defName>OGDE_Pile_Weapon</defName>
 		<label>Weapon Pile</label>
 		<description>Weapon Loot Pile</description>
@@ -379,7 +417,7 @@
 		<size>(1,1)</size>		
 	</ThingDef>
 
-  	<ThingDef ParentName="FurnitureBase">
+		<ThingDef ParentName="FurnitureBase">
 		<defName>OGDE_PikedDeath</defName>
 		<label>Piked Corpses</label>
 		<description>Piked Corpses</description>

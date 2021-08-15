@@ -1,55 +1,78 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationFindModID">
-				<mods>
-					<li>Ogliss.AdMech.Xenobiologis.DarkEldar</li>
-				</mods>
-		<nomatch Class="PatchOperationConditional">
-			<xpath>Defs/ThingDef[defName="OGDE_TableMachining"]</xpath>
-			<!--success>Always</success-->
-			<match Class="PatchOperationSequence">
-				<!--success>Always</success-->
-				<operations>	
-					<li Class="PatchOperationReplace">
-						<xpath>/Defs/ThingDef[defName = "OGDE_TableMachining"]/designationCategory</xpath>
-						<value>
-							<designationCategory>Production</designationCategory>
-						</value>
-					</li>
-					<li Class="PatchOperationReplace">
-						<xpath>/Defs/ThingDef[defName = "OGDE_TableMachining"]/researchPrerequisites</xpath>
-						<value>
-							<researchPrerequisites>
-							  <li>OG_DarkEldar_Tech_Base_T1</li>
-							</researchPrerequisites>
-						</value>
-					</li>
-					<li Class="PatchOperationAdd">
-						<xpath>/Defs/ResearchProjectDef[defName = "OG_DarkEldar_Tech_Base_T1"]/prerequisites</xpath>
-						<value>
-							  <li>OG_Aeldari_Tech_Base</li>
-						</value>
-					</li>
-					<li Class="PatchOperationRemove">
-						<xpath>/Defs/ResearchProjectDef[@Name = "OG_DarkEldar_Tech_Base"]/requiredResearchFacilities</xpath>
-					</li>
-					<li Class="PatchOperationRemove">
-						<xpath>/Defs/ResearchProjectDef[@Name = "OG_DarkEldar_Tech_Base"]/requiredResearchBuilding</xpath>
-					</li>
-					<li Class="PatchOperationConditional">
-						<xpath>Defs/ThingDef[defName="OGDE_TableMachining"]/comps/li[@Class="CompProperties_Facility"]</xpath>
-						<match Class="PatchOperationRemove">
-							<xpath>/Defs/ThingDef[defName="OGDE_TableMachining"]/comps/li[@Class="CompProperties_Facility"]</xpath>
-						</match>
-					</li>
-					<li Class="PatchOperationConditional">
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="OGDE_TableMachining"]</xpath>
+		<match Class="PatchOperationSequence">
+			<operations>	
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "OGDE_TableMachining"]/designationCategory</xpath>
+					<value>
+						<designationCategory>Production</designationCategory>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "OGDE_TableMachining"]/researchPrerequisites</xpath>
+					<value>
+						<researchPrerequisites>
+						  <li>OG_DarkEldar_Tech_Base_T1</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ResearchProjectDef[defName = "OG_DarkEldar_Tech_Base_T1"]/prerequisites</xpath>
+					<value>
+						  <li>OG_Aeldari_Tech_Base</li>
+					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ResearchProjectDef[@Name = "OG_DarkEldar_Tech_Base"]/requiredResearchFacilities</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ResearchProjectDef[@Name = "OG_DarkEldar_Tech_Base"]/requiredResearchBuilding</xpath>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/ThingDef[defName="OGDE_TableMachining"]/comps/li[@Class="CompProperties_Facility"]</xpath>
+					<match Class="PatchOperationRemove">
+						<xpath>/Defs/ThingDef[defName="OGDE_TableMachining"]/comps/li[@Class="CompProperties_Facility"]</xpath>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="HiTechResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="OGDE_TableMachining"]</xpath>
+					<match Class="PatchOperationRemove">
 						<xpath>/Defs/ThingDef[defName="HiTechResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="OGDE_TableMachining"]</xpath>
-						<match Class="PatchOperationRemove">
-							<xpath>/Defs/ThingDef[defName="HiTechResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="OGDE_TableMachining"]</xpath>
-						</match>
-					</li>
-				</operations>	
-			</match>
-		</nomatch>
+					</match>
+				</li>
+			</operations>	
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="OGDE_FueledSmithy"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/WorkGiverDef[defName = "DoBillsMakeWeapons"]/fixedBillGiverDefs</xpath>
+			<value>
+				<li>OGDE_FueledSmithy</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="OGDE_ElectricSmithy"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/WorkGiverDef[defName = "DoBillsMakeWeapons"]/fixedBillGiverDefs</xpath>
+			<value>
+				<li>OGDE_ElectricSmithy</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="OGDE_TableMachining"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/WorkGiverDef[defName = "DoBillsMachiningTable"]/fixedBillGiverDefs</xpath>
+			<value>
+				<li>OGDE_TableMachining</li>
+			</value>
+		</match>
 	</Operation>
 </Patch>
