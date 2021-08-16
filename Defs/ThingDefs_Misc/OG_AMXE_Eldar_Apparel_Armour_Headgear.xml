@@ -234,7 +234,7 @@
 						<maxQuality>Excellent</maxQuality>
 						<useParentPrimaryColor>false</useParentPrimaryColor>
 						<UseBodytypeTextures>false</UseBodytypeTextures>
-						<forceDynamicDraw>true</forceDynamicDraw>
+						<forceDynamicDraw IgnoreIfNoMatchingField="True">true</forceDynamicDraw>
 						<EastOffset>-0.0,0.0,0.0</EastOffset>
 						<WestOffset>0.0,0.0,0.0</WestOffset>
 					</li>
@@ -249,7 +249,7 @@
 						<maxQuality>Excellent</maxQuality>
 						<useParentPrimaryColor>false</useParentPrimaryColor>
 						<UseBodytypeTextures>false</UseBodytypeTextures>
-						<forceDynamicDraw>true</forceDynamicDraw>
+						<forceDynamicDraw IgnoreIfNoMatchingField="True">true</forceDynamicDraw>
 						<EastOffset>-0.0,0.0,0.0</EastOffset>
 						<WestOffset>0.0,0.0,0.0</WestOffset>
 					</li>
@@ -442,7 +442,7 @@
 						<maxQuality>Excellent</maxQuality>
 						<useParentPrimaryColor>false</useParentPrimaryColor>
 						<UseBodytypeTextures>false</UseBodytypeTextures>
-						<forceDynamicDraw>true</forceDynamicDraw>
+						<forceDynamicDraw IgnoreIfNoMatchingField="True">true</forceDynamicDraw>
 						<EastOffset>-0.425,-0.35,0</EastOffset>
 						<WestOffset>0.425,0.35,0</WestOffset>
 					</li>
@@ -457,7 +457,7 @@
 						<maxQuality>Excellent</maxQuality>
 						<useParentPrimaryColor>false</useParentPrimaryColor>
 						<UseBodytypeTextures>false</UseBodytypeTextures>
-						<forceDynamicDraw>true</forceDynamicDraw>
+						<forceDynamicDraw IgnoreIfNoMatchingField="True">true</forceDynamicDraw>
 						<EastOffset>-0.425,0.35,0</EastOffset>
 						<WestOffset>0.425,-0.35,0</WestOffset>
 					</li>
@@ -471,7 +471,7 @@
 						<minQuality>Masterwork</minQuality>
 						<useParentPrimaryColor>false</useParentPrimaryColor>
 						<UseBodytypeTextures>false</UseBodytypeTextures>
-						<forceDynamicDraw>true</forceDynamicDraw>
+						<forceDynamicDraw IgnoreIfNoMatchingField="True">true</forceDynamicDraw>
 						<EastOffset>-0.425,-0.35,0</EastOffset>
 						<WestOffset>0.425,0.35,0</WestOffset>
 					</li>
@@ -607,7 +607,7 @@
 						<maxQuality>Excellent</maxQuality>
 						<useParentPrimaryColor>false</useParentPrimaryColor>
 						<UseBodytypeTextures>false</UseBodytypeTextures>
-						<forceDynamicDraw>true</forceDynamicDraw>
+						<forceDynamicDraw IgnoreIfNoMatchingField="True">true</forceDynamicDraw>
 						<EastOffset>-0.0,0.0,0.0</EastOffset>
 						<WestOffset>0.0,0.0,0.0</WestOffset>
 					</li>
@@ -622,7 +622,7 @@
 						<maxQuality>Excellent</maxQuality>
 						<useParentPrimaryColor>false</useParentPrimaryColor>
 						<UseBodytypeTextures>false</UseBodytypeTextures>
-						<forceDynamicDraw>true</forceDynamicDraw>
+						<forceDynamicDraw IgnoreIfNoMatchingField="True">true</forceDynamicDraw>
 						<EastOffset>-0.0,0.0,0.0</EastOffset>
 						<WestOffset>0.0,0.0,0.0</WestOffset>
 					</li>
