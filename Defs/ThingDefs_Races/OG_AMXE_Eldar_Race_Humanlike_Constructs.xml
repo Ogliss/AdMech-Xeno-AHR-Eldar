@@ -106,7 +106,7 @@
 			<li>OG_Alien_Eldar</li>
 		</notXenophobistTowards>
 		<factionRelations>
-			<li>
+			<!--li>
 				<factions>
 					<li>PlayerColony</li>
 					<li>PlayerTribe</li>
@@ -150,7 +150,6 @@
 					<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerColony</li>
 					<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerTribe</li>
 					<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_Faction</li>
-					<!--li>OG_Vespid_PlayerColony</li-->
 				</factions>
 				<goodwill>
 					<min>-100</min>
@@ -192,7 +191,7 @@
 					<min>-100</min>
 					<max>-100</max>
 				</goodwill>
-			</li>
+			</li-->
 		</factionRelations>
 		</generalSettings>
 		<graphicPaths>
