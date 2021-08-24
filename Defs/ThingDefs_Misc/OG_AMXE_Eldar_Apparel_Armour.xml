@@ -846,6 +846,7 @@
 						<padTexPath>Things/Item/Apparel/Eldar/SpiderArmour/Backpack/Base</padTexPath>
 						<commonality>10</commonality>
 						<northtop>PostHead</northtop>
+						<southtop>Shell</southtop>
 						<easttop>PostHead</easttop>
 					</li>
 				</PauldronEntries>
