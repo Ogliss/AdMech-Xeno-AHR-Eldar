@@ -4,7 +4,7 @@
 		<!--success>Always</success-->
 		<operations>
 			<!--========================= 5+ ==========================-->
-			<!-- ========================= Eldar - Ranger Armour ========================== -->
+			<!-- ========================= Ranger Armour ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_RangerArmour</defName>
 				<statBases>
@@ -22,7 +22,7 @@
 				</stuffCost-->
 			</li>
 		
-			<!-- ========================= Eldar - Ranger Helmet ========================== -->
+			<!-- ========================= Ranger Helmet ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_RangerHelmet</defName>
 				<statBases>
@@ -32,7 +32,7 @@
 				</statBases>
 			</li>
 
-			<!-- ========================= Eldar - Gaurdian Armour ========================== -->
+			<!-- ========================= Gaurdian Armour ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_MeshArmour</defName>
 				<statBases>
@@ -41,7 +41,7 @@
 				</statBases>
 			</li>
 
-			<!-- ========================= Eldar - Gaurdian Helmet ========================== -->
+			<!-- ========================= Gaurdian Helmet ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_MeshHelmet</defName>
 				<statBases>
@@ -51,7 +51,7 @@
 			</li>
 			
 			<!--========================= 4+ ==========================-->
-			<!-- ========================= Eldar - Avenger Armour ========================== -->
+			<!-- ========================= Avenger Armour ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_AvengerArmour</defName>
 				<statBases>
@@ -60,7 +60,7 @@
 				</statBases>
 			</li>
 			
-			<!-- ========================= Eldar - Avenger Helmet ========================== -->
+			<!-- ========================= Avenger Helmet ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_AvengerHelmet</defName>
 				<statBases>
@@ -69,7 +69,7 @@
 				</statBases>
 			</li>
 			
-			<!-- ========================= Eldar - Banshee Armour ========================== -->
+			<!-- ========================= Banshee Armour ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_BansheeArmour</defName>
 				<statBases>
@@ -78,7 +78,7 @@
 				</statBases>
 			</li>	
 
-			<!-- ========================= Eldar - Banshee Helmet ========================== -->
+			<!-- ========================= Banshee Helmet ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_BansheeHelmet</defName>
 				<statBases>
@@ -87,7 +87,7 @@
 				</statBases>
 			</li>
 			
-			<!-- ========================= Eldar - Hawk Armour ========================== -->
+			<!-- ========================= Hawk Armour ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_HawkArmour</defName>
 				<statBases>
@@ -96,7 +96,7 @@
 				</statBases>
 			</li>	
 
-			<!-- ========================= Eldar - Hawk Helmet ========================== -->
+			<!-- ========================= Hawk Helmet ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_HawkHelmet</defName>
 				<statBases>
@@ -105,7 +105,7 @@
 				</statBases>
 			</li>
 			
-			<!-- ========================= Eldar - Dragon Armour ========================== -->
+			<!-- ========================= Dragon Armour ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_DragonArmour</defName>
 				<statBases>
@@ -114,7 +114,7 @@
 				</statBases>
 			</li>	
 
-			<!-- ========================= Eldar - Dragon Helmet ========================== -->
+			<!-- ========================= Dragon Helmet ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_DragonHelmet</defName>
 				<statBases>
@@ -124,7 +124,7 @@
 			</li>
 						
 			<!--========================= 3+ ==========================-->
-			<!-- ========================= Eldar - Scoprion Armour ========================== -->
+			<!-- ========================= Scoprion Armour ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_ScorpionArmour</defName>
 				<statBases>
@@ -133,7 +133,7 @@
 				</statBases>
 			</li>		
 
-			<!-- ========================= Eldar - Scoprion Helmet ========================== -->
+			<!-- ========================= Scoprion Helmet ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_ScorpionHelmet</defName>
 				<statBases>
@@ -142,7 +142,7 @@
 				</statBases>
 			</li>
 			
-			<!-- ========================= Eldar - Spider Armour ========================== -->
+			<!-- ========================= Spider Armour ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_SpiderArmour</defName>
 				<statBases>
@@ -151,7 +151,7 @@
 				</statBases>
 			</li>		
 
-			<!-- ========================= Eldar - Spider Helmet ========================== -->
+			<!-- ========================= Spider Helmet ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_SpiderHelmet</defName>
 				<statBases>
@@ -160,7 +160,7 @@
 				</statBases>
 			</li>
 			
-			<!-- ========================= Eldar - Reaper Armour ========================== -->
+			<!-- ========================= Reaper Armour ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_ReaperArmour</defName>
 				<statBases>
@@ -169,7 +169,7 @@
 				</statBases>
 			</li>		
 
-			<!-- ========================= Eldar - Reaper Helmet ========================== -->
+			<!-- ========================= Reaper Helmet ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_ReaperHelmet</defName>
 				<statBases>
@@ -179,7 +179,7 @@
 			</li>
 						
 			<!--========================= 6+ ==========================-->
-			<!-- ========================= Eldar - Warlock Armour ========================== -->
+			<!-- ========================= Warlock Armour ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_RuneArmourWarlock</defName>
 				<statBases>
@@ -194,7 +194,7 @@
 				</stuffCost>
 			</li>
 		
-			<!-- ========================= Eldar - Warlock Helmet ========================== -->
+			<!-- ========================= Warlock Helmet ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_WarlockHelmet</defName>
 				<statBases>
@@ -204,7 +204,7 @@
 				</statBases>
 			</li>
 
-			<!-- ========================= Eldar - Farseer Armour ========================== -->
+			<!-- ========================= Farseer Armour ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_RuneArmourFarseer</defName>
 				<statBases>
@@ -219,7 +219,7 @@
 				</stuffCost>
 			</li>
 		
-			<!-- ========================= Eldar - Ghosthelm ========================== -->
+			<!-- ========================= Ghosthelm ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_Ghosthelm</defName>
 				<statBases>
