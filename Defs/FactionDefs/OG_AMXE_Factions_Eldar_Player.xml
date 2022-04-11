@@ -16,10 +16,10 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
 		</disallowedPrecepts>
 		<structureMemeWeights IgnoreIfNoMatchingField="True">
-			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1000</Structure_TheistAbstract>
 		</structureMemeWeights>
 		<hairTags IgnoreIfNoMatchingField="True">
-			<li>OG_Eldar_Hair</li>
+			<li>OG_Aeldari_Eldar</li>
 			<li>Rural</li>
 		</hairTags>
 	</FactionDef>
@@ -28,7 +28,7 @@
 	<FactionDef ParentName="OG_Eldar_Player_Exodite_Base">
 		<defName>OG_Eldar_Exodite_PlayerColony</defName>
 		<hairTags IgnoreIfNoMatchingField="True">
-			<li>OG_Eldar_Hair</li>
+			<li>OG_Aeldari_Eldar</li>
 			<li>Rural</li>
 		</hairTags>
 	</FactionDef>
@@ -36,7 +36,7 @@
 	<FactionDef ParentName="OG_Eldar_Player_Harlequin_Base">
 		<defName>OG_Eldar_Harlequin_PlayerColony</defName>
 		<hairTags IgnoreIfNoMatchingField="True">
-			<li>OG_Eldar_Hair</li>
+			<li>OG_Aeldari_Eldar</li>
 			<li>Rural</li>
 		</hairTags>
 	</FactionDef>

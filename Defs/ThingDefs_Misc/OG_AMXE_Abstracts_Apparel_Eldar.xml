@@ -4,7 +4,12 @@
     <!-- ========================= Eldar - Clothes Base - Apparel Base ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel_Base" ParentName="OG_Apparel_Base" Abstract="True">
 		<apparel>
+			<ideoDesireAllowedFactionCategoryTags IgnoreIfNoMatchingField="True">
+				<li>OG_Outlander_Craftworld</li>
+				<li>OG_OutlanderRefugee_Craftworld</li>
+			</ideoDesireAllowedFactionCategoryTags>
 			<tags>
+				<li>AeldariApparel</li>
 				<li>EldarApparel</li>
 			</tags>
 		</apparel>
@@ -13,7 +18,7 @@
 		</thingCategories>
 	</ThingDef>
 	
-    <!-- ========================= Eldar - Clothes Base - Apparel Makable Base ========================== -->
+    <!-- ========================= Eldar - Clothes Base - Apparel Makeable Base ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel_Makeable" ParentName="OG_Eldar_Apparel_Base" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -31,7 +36,7 @@
 		</recipeMaker>
 	</ThingDef>
 		
-    <!-- ========================= Eldar - Clothes - Apparel Makable ========================== -->
+    <!-- ========================= Eldar - Clothes - Apparel Makeable ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel" ParentName="OG_Eldar_Apparel_Makeable" Abstract="True">
 		<apparel>
 			<tags>
@@ -43,7 +48,7 @@
 		</thingCategories>
 	</ThingDef>
 	
-	<!-- ========================= Eldar - Headgear - Hat Makable ========================== -->
+	<!-- ========================= Eldar - Headgear - Hat Makeable ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel_Headgear" ParentName="OG_Eldar_Apparel_Makeable" Abstract="True">
 		<apparel>
 			<tags>
@@ -58,9 +63,13 @@
     </statBases>
 	</ThingDef>
 	
-    <!-- ========================= Eldar - Clothes Base - Apparel Base ========================== -->
+    <!-- ========================= Eldar - Armor Base - Apparel Base ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel_Armor_Base" ParentName="OG_Apparel_Base" Abstract="True">
 		<apparel>
+			<ideoDesireAllowedFactionCategoryTags IgnoreIfNoMatchingField="True">
+				<li>OG_Outlander_Craftworld</li>
+				<li>OG_OutlanderRefugee_Craftworld</li>
+			</ideoDesireAllowedFactionCategoryTags>
 			<tags>
 				<li>EldarArmour</li>
 			</tags>
@@ -70,7 +79,7 @@
 		</thingCategories>
 	</ThingDef>
 
-    <!-- ========================= Eldar - Apparel Armor Makable Base ========================== -->
+    <!-- ========================= Eldar - Apparel Armor Makeable Base ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel_Armor_Makeable" ParentName="OG_Eldar_Apparel_Armor_Base" Abstract="True">
 		<graphicData>
 			<color>238,213,172</color> <!-- BLEACHED BONE -->
@@ -98,7 +107,7 @@
 		</apparel>
 	</ThingDef>
 	
-    <!-- ========================= Eldar - Apparel Armor Makable Base ========================== -->
+    <!-- ========================= Eldar - Apparel Armor Makeable Base ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel_Armor" ParentName="OG_Eldar_Apparel_Armor_Makeable" Abstract="True">
 		<apparel>
 			<tags>
@@ -110,7 +119,7 @@
 		</thingCategories>
 	</ThingDef>	
 		
-	<!-- ========================= Eldar - Headgear Base - Helmet Makable Base ========================== -->
+	<!-- ========================= Eldar - Headgear Base - Helmet Makeable Base ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel_Armor_Headgear" ParentName="OG_Eldar_Apparel_Armor_Makeable" Abstract="True">
 		<apparel>
 			<bodyPartGroups>
@@ -155,7 +164,7 @@
 	</ThingDef>
 			
 	<!-- ========================= Eldar - Apparel Wargear Base ========================== -->
-	<ThingDef Name="OG_Eldar_Apparel_Wargear_Base" ParentName="OG_Apparel_Base" Abstract="True">
+	<ThingDef Name="OG_Eldar_Apparel_Wargear_Base" ParentName="OG_Apparel_Wargear_Base" Abstract="True">
 		<apparel>
 			<tags>
 				<li>EldarWargear</li>
@@ -170,7 +179,7 @@
 		</tradeTags>
 	</ThingDef>	
 	
-	<!-- ========================= Eldar - Apparel Wargear Makable Base ========================== -->
+	<!-- ========================= Eldar - Apparel Wargear Makeable Base ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel_Wargear_Makeable" ParentName="OG_Eldar_Apparel_Wargear_Base" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -183,6 +192,7 @@
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<researchPrerequisites>
 				<li>OG_Eldar_Tech_Base_T1</li>
+				<li>OG_Eldar_Tech_Apparel_Wargear</li>
 			</researchPrerequisites>
 		</recipeMaker>
 	</ThingDef>	

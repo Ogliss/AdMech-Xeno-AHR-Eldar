@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>		
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName = "OG_Eldar_Tech_Base_T1"]/description</xpath>
+				<value>
+					<description>The Asuryani, often referred to by outsiders as "Craftworld Eldar" were those of the ancient Aeldari who fled their ancient empire in the Craftworlds, their culture was redefined by their decision to pursue the Asuryani Path that they believed had been laid out for them by the chief Aeldari god, the Phoenix King Asuryan.\n\nAsuryani Research and Technology can Only be researched/crafted by Asuryani.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName = "OG_DarkEldar_Tech_Base_T1"]/description</xpath>
+				<value>
+					<description>The Drukhari, often referred to by outsiders as "Dark Eldar" were the malevolent faction of the ancient Aeldari who had chosen to remain within the Webway after the Fall and continued to pursue the decadent and hedonistic ways that nearly led to their extinction.\n\nDrukhari Research and Technology can Only be researched/crafted by Drukhari.</description>
+				</value>
+			</li>
+			
+		</operations>	
+	</Operation>
+</Patch>

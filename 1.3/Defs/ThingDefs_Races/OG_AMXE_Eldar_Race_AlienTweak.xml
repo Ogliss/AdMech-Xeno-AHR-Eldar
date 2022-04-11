@@ -55,7 +55,7 @@
             </disallowedTraits>
             <alienPartGenerator>
 				<bodyAddons>
-					<!-- Eyes -->
+				<!-- Eyes -->
 					<li Class="AdeptusMechanicus.LinkedBodyAddon">
 						<path>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Eye_Right</path>
 						<bodyPart>right eye</bodyPart>
@@ -87,7 +87,7 @@
 								</crownTypes>
 							</north>
 							<east>
-								<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
+								<layerOffset>-0.27575</layerOffset> <!-- -0.2740 -->
 								<bodyTypes>
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
@@ -100,8 +100,6 @@
 						<colorChannel>none</colorChannel>
 						<!--colorChannel>skin</colorChannel-->
 						<!--hiddenUnderApparelFor>
-							<li>OrkFullHead</li>
-							<li>OrkUpperHead</li>
 							<li>FullHead</li>
 							<li>UpperHead</li>
 						</hiddenUnderApparelFor-->                
@@ -141,7 +139,7 @@
 								</crownTypes>
 							</north>
 							<east>
-								<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
+								<layerOffset>-0.2760</layerOffset> <!-- -0.2740 -->
 								<bodyTypes>
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
@@ -164,7 +162,7 @@
 							<!--MissingBodyPart>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Missing_Eye_L</MissingBodyPart-->
 						</hediffGraphics>
 					</li>
-					<!-- Ears -->
+				<!-- Ears -->
 					<li Class="AdeptusMechanicus.LinkedBodyAddon">
 						<path>Things/Pawn/Humanlike/Aeldari/Head/Ears/Eldar_Ear_L</path>
 						<debug>false</debug>
@@ -322,7 +320,7 @@
 					<hasStyle>true</hasStyle>
 					<!--getsGreyAt>15000</getsGreyAt--> 
 					<styleTagsOverride>
-						<li>OG_Eldar_Hair</li>
+						<li>OG_Aeldari_Eldar</li>
 					</styleTagsOverride>
 				</value>
 			</li>

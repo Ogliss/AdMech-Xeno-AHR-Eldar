@@ -21,20 +21,20 @@
             </alienrefugeekinds>
 			<startingColonists>
 				<li>
-				<pawnKindEntries>
-					<li>
-                    <kindDefs>
-                        <li>Colonist_OG_Eldar_Craftworld</li>
-                    </kindDefs>
-                    <chance>10.0</chance>
-					</li>
-					<li>
-                    <kindDefs>
-							<li>Colonist_OG_Eldar_Craftworld</li>
-                    </kindDefs>
-                    <chance>50.0</chance>
-					</li>
-				</pawnKindEntries>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>Colonist_OG_Eldar_Craftworld</li>
+							</kindDefs>
+							<chance>10.0</chance>
+						</li>
+						<li>
+							<kindDefs>
+									<li>Colonist_OG_Eldar_Craftworld</li>
+							</kindDefs>
+							<chance>50.0</chance>
+						</li>
+					</pawnKindEntries>
 					<factionDefs>
 						<li>OG_Eldar_Craftworld_PlayerColony</li> 
 					</factionDefs>

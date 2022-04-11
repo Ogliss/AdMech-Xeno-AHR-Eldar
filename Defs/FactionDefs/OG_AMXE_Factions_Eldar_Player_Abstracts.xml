@@ -12,7 +12,7 @@
 		<isPlayer>true</isPlayer>
 		<pawnSingular>aeldar</pawnSingular>
 		<pawnsPlural>aeldari</pawnsPlural>
-		<categoryTag>Outlander</categoryTag>
+		<categoryTag>OG_Outlander_Craftworld</categoryTag>
 		<basicMemberKind>Colonist_OG_Eldar_Craftworld</basicMemberKind>
 		<settlementNameMaker>OG_Eldar_NamerBases</settlementNameMaker>
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>

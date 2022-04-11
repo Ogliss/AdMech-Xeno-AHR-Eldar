@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MapGeneratorDef ParentName="MapCommonBase">
+    <defName>OG_EscapePortal_Webway</defName>
+    <genSteps>
+      <li>RocksFromGrid</li>
+      <li>OG_EscapePortal_Webway</li>
+    </genSteps>
+  </MapGeneratorDef>
+  
+  <!-- Webway Portal -->
+  <GenStepDef>
+    <defName>OG_EscapePortal_Webway</defName>
+    <order>400</order>
+    <genStep Class="AdeptusMechanicus.GenStep_EscapePortal_Webway">
+      <count>1</count>
+      <nearMapCenter>true</nearMapCenter>
+    </genStep>
+  </GenStepDef>
+  
+</Defs>

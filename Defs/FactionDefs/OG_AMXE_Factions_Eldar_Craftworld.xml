@@ -13,7 +13,7 @@
 		<canMakeRandomly>true</canMakeRandomly>
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
-		<earliestRaidDays>45</earliestRaidDays>
+		<earliestRaidDays>90</earliestRaidDays>
 		<factionNameMaker>OG_Eldar_Craftworld_NamerFaction</factionNameMaker>
 		<settlementNameMaker>OG_Eldar_NamerBases</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
@@ -52,6 +52,7 @@
 
 	<FactionDef Abstract="True" Name="OG_Eldar_Craftworld_Faction_Base" ParentName="OG_Eldar_Faction_Base">
 		<label>craftworld eldar strike force</label>
+		<categoryTag>OG_Outlander_Aeldari_Asuryani</categoryTag>
 		<maxConfigurableAtWorldCreation IgnoreIfNoMatchingField="True">9999</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority IgnoreIfNoMatchingField="True">20</configurationListOrderPriority>
 		<allowedCultures IgnoreIfNoMatchingField="True">
@@ -67,7 +68,7 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
 		</disallowedPrecepts>
 		<structureMemeWeights IgnoreIfNoMatchingField="True">
-			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1000</Structure_TheistAbstract>
 		</structureMemeWeights>
 		<hairTags IgnoreIfNoMatchingField="True">
 			<li>Civil</li>

@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <HairDef>
+    <defName>OG_Aeldari_Bald</defName>
     <label>Aeldari Bald</label>
     <texPath>Things/Pawn/Humanlike/Aeldari/Hair/Bald</texPath>
-    <defName>OG_Aeldari_Bald</defName>
     <hairGender>Any</hairGender>
-	<hairTags>
-		<li>OG_Eldar_Hair</li>
+	<hairTags IgnoreIfNoMatchingField="True">
+		<li>OG_Aeldari_Eldar</li>
 		<li>OG_DarkEldar_Hair</li>
 	</hairTags>
+	<styleTags IgnoreIfNoMatchingField="True">
+		<li>OG_Aeldari_Eldar</li>
+		<li>OG_DarkEldar_Hair</li>
+	</styleTags>
   </HairDef>
  
 </Defs>

@@ -307,7 +307,7 @@
 			<hasHair>true</hasHair>
 			<getsGreyAt>15000</getsGreyAt> 
 			<hairTags>
-				<li>OG_Eldar_Hair</li>
+				<li>OG_Aeldari_Eldar</li>
 			</hairTags>
 		</hairSettings>
    </alienRace>

@@ -27,11 +27,12 @@
 	  defName = "Mohawk"
 	  ]/hairTags</xpath>
 		<value>	
-			<li>OG_Eldar_Hair</li>
+			<li>OG_Aeldari_Eldar</li>
 		</value>
     </li>
 	
   <!-- Add William from royalty -->
+  
   </operations>
 </Operation>
 

@@ -292,7 +292,7 @@ namespace AdeptusMechanicus
 				")\n",
 				this.def.description,
 				"\n",
-				"Map Pain Total: "+this.pawn.Map.mapPain().totalPain
+				this.pawn.Map != null ? "Map Pain Total: "+this.pawn.Map.mapPain().totalPain.ToString("#.##") : ""
 			});
 		}
         public override void DrawOnGUI(Rect rect, int maxThresholdMarkers = int.MaxValue, float customMargin = -1, bool drawArrows = true, bool doTooltip = true, Rect? rectForTooltip = null)

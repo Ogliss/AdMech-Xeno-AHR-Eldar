@@ -4,8 +4,13 @@
     <!-- ========================= Dark Eldar - Clothes Base - Apparel Base ========================== -->
 	<ThingDef Name="OG_DarkEldar_Apparel_Base" ParentName="OG_Apparel_Base" Abstract="True">
 		<apparel>
+			<ideoDesireAllowedFactionCategoryTags IgnoreIfNoMatchingField="True">
+				<li>OG_Outlander_DarkEldar</li>
+				<li>OG_OutlanderRefugee_DarkEldar</li>
+			</ideoDesireAllowedFactionCategoryTags>
 			<tags>
-				<li>EldarApparel</li>
+				<li>AeldariApparel</li>
+				<li>DarkEldarApparel</li>
 			</tags>
 		</apparel>
 		<thingCategories>
@@ -47,7 +52,7 @@
 	<ThingDef Name="OG_DarkEldar_Apparel_Headgear" ParentName="OG_DarkEldar_Apparel_Makeable" Abstract="True">
 		<apparel>
 			<tags>
-				<li>EldarHat</li>
+				<li>DarkEldarHat</li>
 			</tags>
 		</apparel>
 		<thingCategories>
@@ -61,8 +66,12 @@
     <!-- ========================= Dark Eldar - Clothes Base - Apparel Base ========================== -->
 	<ThingDef Name="OG_DarkEldar_Apparel_Armor_Base" ParentName="OG_Apparel_Base" Abstract="True">
 		<apparel>
+			<ideoDesireAllowedFactionCategoryTags IgnoreIfNoMatchingField="True">
+				<li>OG_Outlander_DarkEldar</li>
+				<li>OG_OutlanderRefugee_DarkEldar</li>
+			</ideoDesireAllowedFactionCategoryTags>
 			<tags>
-				<li>DarkEldarApparel</li>
+				<li>DarkEldarArmour</li>
 			</tags>
 		</apparel>
 		<thingCategories>
@@ -116,10 +125,10 @@
 	</ThingDef>
 			
 	<!-- ========================= Dark Eldar - Apparel Wargear Base ========================== -->
-	<ThingDef Name="OG_DarkEldar_Apparel_Wargear_Base" ParentName="OG_Apparel_Base" Abstract="True">
+	<ThingDef Name="OG_DarkEldar_Apparel_Wargear_Base" ParentName="OG_Apparel_Wargear_Base" Abstract="True">
 		<apparel>
 			<tags>
-				<li>EldarWargear</li>
+				<li>DarkEldarWargear</li>
 			</tags>
 		</apparel>
 		<thingCategories>

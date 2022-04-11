@@ -67,6 +67,7 @@
     </colorGenerator>
     <generateCommonality>0.7</generateCommonality>
   </ThingDef>
+
 	<!--========================= Wrath ==========================-->
     <ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
 		<defName>OGE_Apparel_RuneWrath</defName>

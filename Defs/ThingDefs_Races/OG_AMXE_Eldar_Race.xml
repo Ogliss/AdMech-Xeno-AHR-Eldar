@@ -43,7 +43,7 @@
 				<humanRecipeImport>true</humanRecipeImport>
 				<notXenophobistTowards>
 					<li>OG_Alien_Eldar</li>
-					<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_Alien_DarkEldar</li>
+					<li>OG_Alien_DarkEldar</li>
 				</notXenophobistTowards>
 				<factionRelations>
 					<li>
