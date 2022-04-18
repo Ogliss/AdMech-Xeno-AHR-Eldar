@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-
 <Operation Class="PatchOperationSequence">
 	<operations>
 	
@@ -15,15 +14,6 @@
 		<value>
 			<li>OG_Alien_Eldar</li>
 		</value>
-	</li>
-	<li Class="PatchOperationConditional">
-			<xpath>/Defs/ScenarioDef[defName = "OGAM_TestScenario_Eldar"]/scenario/playerFaction/factionDef</xpath>
-			<match Class="PatchOperationReplace">
-				<xpath>Defs/ScenarioDef[defName = "OGAM_TestScenario_Eldar"]/scenario/playerFaction/factionDef</xpath>
-				<value>
-					<factionDef>OG_Eldar_Craftworld_PlayerColony</factionDef>
-				</value>
-			</match>
 	</li>
 	
 	</operations>

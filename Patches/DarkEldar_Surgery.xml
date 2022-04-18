@@ -16,15 +16,6 @@
 			<li>OG_Alien_DarkEldar</li>
 		</value>
 	</li>
-	<li Class="PatchOperationConditional">
-		<xpath>/Defs/ScenarioDef[defName = "OGAM_TestScenario_DarkEldar"]/scenario/playerFaction/factionDef</xpath>
-		<match Class="PatchOperationReplace">
-			<xpath>Defs/ScenarioDef[defName = "OGAM_TestScenario_DarkEldar"]/scenario/playerFaction/factionDef</xpath>
-			<value>
-				<factionDef>OG_DarkEldar_Kabal_PlayerColony</factionDef>
-			</value>
-		</match>
-	</li>
 	</operations>
 </Operation>
 
