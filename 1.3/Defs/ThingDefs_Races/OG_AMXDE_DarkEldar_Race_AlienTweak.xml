@@ -54,6 +54,8 @@
 				</li>
             </disallowedTraits>
             <alienPartGenerator>
+				<borderScale>1.5</borderScale>
+				<atlasScale>2</atlasScale>
 				<bodyAddons>
 					<!-- Eyes -->
 					<li Class="AdeptusMechanicus.LinkedBodyAddon">

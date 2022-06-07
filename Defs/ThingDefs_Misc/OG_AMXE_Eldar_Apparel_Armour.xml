@@ -850,6 +850,10 @@
 						<easttop>PostHead</easttop>
 					</li>
 				</PauldronEntries>
+				<SouthOffset>0,-0.0135,0</SouthOffset>
+				<!--NorthOffset>0,-0.13,0</NorthOffset>
+				<EastOffset>0,-0.375,0</EastOffset>
+				<WestOffset>0,-0.375,0</WestOffset-->
 			</li>
 		</comps>
 		<!--
@@ -1066,6 +1070,7 @@
 						<westtop>PostHead</westtop>
 					</li>
 				</PauldronEntries>
+				<SouthOffset>0,-0.03,0</SouthOffset>
 				<!--NorthOffset>0,0.5,0</NorthOffset>
 				<SouthOffset>0,-0.001,0</SouthOffset>
 				<EastOffset>0,0.35,0</EastOffset>
@@ -1092,8 +1097,8 @@
 					</li>
 				</PauldronEntries>
 				<PauldronEntryChance>0.5</PauldronEntryChance>
+				<SouthOffset>0,-0.030001,0</SouthOffset>
 				<!--NorthOffset>0,-0.13,0</NorthOffset>
-				<SouthOffset>0,-0.027,0</SouthOffset>
 				<EastOffset>0,-0.375,0</EastOffset>
 				<WestOffset>0,-0.375,0</WestOffset-->
 			</li>

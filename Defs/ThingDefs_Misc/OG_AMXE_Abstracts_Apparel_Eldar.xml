@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <!-- ========================= Eldar ========================== -->
-    <!-- ========================= Eldar - Clothes Base - Apparel Base ========================== -->
+    <!-- ========================= Eldar - Apparel Base ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel_Base" ParentName="OG_Apparel_Base" Abstract="True">
 		<apparel>
 			<ideoDesireAllowedFactionCategoryTags IgnoreIfNoMatchingField="True">
@@ -18,7 +17,7 @@
 		</thingCategories>
 	</ThingDef>
 	
-    <!-- ========================= Eldar - Clothes Base - Apparel Makeable Base ========================== -->
+    <!-- ========================= Eldar - Apparel Makeable Base ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel_Makeable" ParentName="OG_Eldar_Apparel_Base" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -36,7 +35,7 @@
 		</recipeMaker>
 	</ThingDef>
 		
-    <!-- ========================= Eldar - Clothes - Apparel Makeable ========================== -->
+    <!-- ========================= Eldar - Apparel Makeable - Clothes ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel" ParentName="OG_Eldar_Apparel_Makeable" Abstract="True">
 		<apparel>
 			<tags>
@@ -63,7 +62,7 @@
     </statBases>
 	</ThingDef>
 	
-    <!-- ========================= Eldar - Armor Base - Apparel Base ========================== -->
+    <!-- ========================= Eldar - Armor Base ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel_Armor_Base" ParentName="OG_Apparel_Base" Abstract="True">
 		<apparel>
 			<ideoDesireAllowedFactionCategoryTags IgnoreIfNoMatchingField="True">
@@ -126,9 +125,9 @@
 				<li>FullHead</li>
 			</bodyPartGroups>
 			<layers>
-				<li MayRequire="CETeam.CombatExtended">OnHead</li>
 				<li MayRequire="CETeam.CombatExtended">StrappedHead</li>
 				<li MayRequire="CETeam.CombatExtended">MiddleHead</li>
+				<li MayRequire="CETeam.CombatExtended">OnHead</li>
 				<li>Overhead</li>
 			</layers>
 			<tags>
