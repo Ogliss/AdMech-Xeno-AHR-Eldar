@@ -110,7 +110,7 @@
     </tools>
     <race>
       <body>OG_DarkEldar_Talos_Body</body>
-      <baseBodySize>1.5</baseBodySize>
+      <baseBodySize>3.5</baseBodySize>
       <baseHealthScale>3</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>

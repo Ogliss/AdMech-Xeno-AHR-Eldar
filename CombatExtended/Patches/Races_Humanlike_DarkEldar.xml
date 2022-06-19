@@ -4,7 +4,7 @@
   <!--success>Always</success-->
   <operations>
 	<li Class="PatchOperationReplace">
-		<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="OG_Eldar_RaceBase"]/tools</xpath>
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="OG_DarkEldar_RaceBase"]/tools</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">

@@ -47,7 +47,7 @@
 			<li>Waist</li>
 		</bodyPartGroups>
 		<layers>
-			<li>BeltWargear1</li>
+			<li>OG_Belt_Wargear_1</li>
 		</layers>
 		<tags>
 			<li>EldarPsyker</li>
@@ -110,7 +110,7 @@
 			</bodyPartGroups>
 			
 			<layers>
-				<li>BeltWargear2</li>
+				<li>OG_Belt_Wargear_2</li>
 			</layers>
 			<tags>
 				<li>EldarPsyker</li>
@@ -160,7 +160,7 @@
 				<li>Waist</li>
 			</bodyPartGroups>
 			<layers>
-				<li>BeltWargear2</li>
+				<li>OG_Belt_Wargear_2</li>
 			</layers>
 			<tags>
 				<li>EldarPsyker</li>
