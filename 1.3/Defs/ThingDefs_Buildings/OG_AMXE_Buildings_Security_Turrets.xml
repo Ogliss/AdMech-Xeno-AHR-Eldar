@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--=============== Eldar Turrets Base ===============-->
+	<ThingDef Abstract="True" Name="OGE_Turret" ParentName="OG_Turret_Base"> 
+		<graphicData>
+			<texPath>Things/Building/Security/TurretMini_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.27,0.25,0.27)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef Abstract="True" Name="OGE_LaserTurret" ParentName="OG_LaserTurret_Base"> 
+		<graphicData>
+			<texPath>Things/Building/Security/TurretMini_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.27,0.25,0.27)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef Abstract="True" Name="OGE_HeavyTurret" ParentName="OG_HeavyTurret_Base"> 
+		<graphicData>
+			<texPath>Things/Building/Eldar/Security/TurretHeavyAuto_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.5, 2.5)</drawSize>
+			<drawOffset>(0,0,0.1)</drawOffset>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.5,0.35,0.4)</volume>
+				<offset>(0,0,-0.05)</offset>
+			</shadowData>
+		</graphicData>		
+	</ThingDef>
+	
+	<ThingDef Abstract="True" Name="OGE_HeavyLaserTurret" ParentName="OG_HeavyLaserTurret_Base"> 
+		<graphicData>
+			<texPath>Things/Building/Eldar/Security/TurretHeavyAuto_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.5, 2.5)</drawSize>
+			<drawOffset>(0,0,0.1)</drawOffset>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.5,0.35,0.4)</volume>
+				<offset>(0,0,-0.05)</offset>
+			</shadowData>
+		</graphicData>		
+	</ThingDef>
+
+	<ThingDef Abstract="True" Name="OGE_ArtilleryTurret" ParentName="OG_BaseArtilleryBuilding"> 
+		<graphicData>
+			<texPath>Things/Building/Eldar/Security/TurretHeavyManual_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.5,2.5)</drawSize>
+			<damageData>
+				<rect>(0.38,0.2,0.56375,0.8)</rect>
+				<cornerTL>Damage/Corner</cornerTL>
+			</damageData>
+			<shadowData>
+				<offset>(-0.13,-0.87,-0.1)</offset>
+				<volume>(0.5,0.4,1.05)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingDef>
+
+	<!--=============== Shuriken Cannon turret ===============-->
+	<ThingDef ParentName="OGE_HeavyTurret">
+		<defName>OGE_Turret_ShurikenCannonDual_Auto</defName>
+		<label>twin-linked shuriken cannon turret</label>
+		<description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged.</description>		
+	<uiIconPath>Things/Building/Eldar/Security/TurretMount_ShurikenCannonDual_Menu</uiIconPath>
+		<statBases>
+		<AimingAccuracy MayRequire="CETeam.CombatExtended">0.25</AimingAccuracy>
+		<ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+		</statBases>
+		<costList>
+			<Steel>350</Steel>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>240</wickTicks>
+				<explosiveRadius>5.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>150</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until barrel change</fuelLabel>
+				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+				<outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+				<fuelFilter><thingDefs><li>Steel</li></thingDefs></fuelFilter>
+				<fuelCapacity>90</fuelCapacity>			
+				<fuelMultiplier>0.5</fuelMultiplier> 
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.5</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+		</comps>
+		<building>
+			<turretGunDef>OGE_GunTurret_SurikenCannonDual</turretGunDef>
+			<turretBurstCooldownTime>3.5</turretBurstCooldownTime>
+		</building>
+		<researchPrerequisites>
+			<li>OG_Eldar_Tech_Weapons_Shuriken</li>
+			<li>HeavyTurrets</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>OGE_GunTurret_SurikenCannonDual</defName>
+		<label>twin-linked shuriken cannon</label>
+		<description>A self-loading quad heavy stubber designed to attach to a turret.</description>
+		<graphicData>
+			<texPath>Things/Building/Eldar/Security/TurretMount_ShurikenCannonDual_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.25</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.60</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>40</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<verbs>
+			<li>
+		<verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+		<defaultProjectile>OGE_Bullet_ShurikenCannon</defaultProjectile>
+		<warmupTime>0</warmupTime>
+		<range>45</range>
+		<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+		<burstShotCount>21</burstShotCount>
+		<soundCast>OG_Shuriken_Sound</soundCast>
+		<soundCastTail>GunTail_Light</soundCastTail>
+		<muzzleFlashScale>8</muzzleFlashScale>
+		<targetParams>
+			<canTargetLocations>true</canTargetLocations>
+		</targetParams>
+			</li>
+		</verbs>
+	<comps>	
+		<li Class="AdeptusMechanicus.CompProperties_Weapon_GunSpecialRules">
+		<VerbEntries>
+			<li>
+				<TwinLinked>true</TwinLinked>
+			</li>
+		</VerbEntries>
+		</li>		
+	</comps>
+	</ThingDef>
+
+	<!--=============== Missile turret ===============-->
+	<ThingDef ParentName="OGE_HeavyTurret">
+		<defName>OGE_Turret_Missile_Auto</defName>
+		<label>missile turret</label>
+		<description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged.</description>	 
+	<uiIconPath>Things/Building/Eldar/Security/TurretMount_MissileLauncher_Menu</uiIconPath>
+		<statBases>
+		<AimingAccuracy MayRequire="CETeam.CombatExtended">0.75</AimingAccuracy>
+		<ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+		</statBases>
+		<costList>
+			<Steel>350</Steel>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>240</wickTicks>
+				<explosiveRadius>5.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>150</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until barrel change</fuelLabel>
+				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+				<outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+				<fuelFilter><thingDefs><li>Steel</li></thingDefs></fuelFilter>
+				<fuelCapacity>90</fuelCapacity>			
+				<fuelMultiplier>0.5</fuelMultiplier> 
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.5</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+		</comps>
+		<building>
+			<turretGunDef>OGE_GunTurret_Missile</turretGunDef>
+			<turretBurstCooldownTime>3.5</turretBurstCooldownTime>
+		</building>
+		<researchPrerequisites>
+			<li>HeavyTurrets</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>OGE_GunTurret_Missile</defName>
+		<label>missile launcher</label>
+		<description>A self-loading large-bore cannon designed to attach to a turret.</description>
+		<graphicData>
+			<texPath>Things/Building/Eldar/Security/TurretMount_MissileLauncher_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	<comps>		 
+		<li Class="OgsCompOversizedWeapon.CompProperties_OversizedWeapon">
+		</li>	
+	</comps>
+		<statBases>
+			<AccuracyTouch>0.25</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.60</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>40</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<label>Frag</label>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OGE_Bullet_RocketKrak</defaultProjectile>
+				<forcedMissRadius>2.9</forcedMissRadius>
+				<warmupTime>4.5</warmupTime>
+				<ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
+				<range>35.9</range>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<onlyManualCast>true</onlyManualCast>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<muzzleFlashScale>14</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<!-- ====================== Missile Krak ===================== -->
+	<ThingDef ParentName="OG_Bullet_Base">
+		<defName>OGE_Bullet_RocketKrak</defName>
+		<label>krak rocket</label>
+		<description>Krak grenades high explovie charge excels at dealing with vehicals, fortifications or heavily armoured troops, however due to their small blast radius they have little effect against large groups of light infantry.</description>
+		<graphicData>
+			<texPath>Things/Projectile/EldarMissile_Krak</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>70</damageAmountBase>
+			<armorPenetrationBase>0.84</armorPenetrationBase>
+			<explosionRadius>1.5</explosionRadius>
+			<stoppingPower>4</stoppingPower>
+			<speed>50</speed>
+		</projectile>
+		<modExtensions>
+			<li Class="AdeptusMechanicus.TrailerProjectileExtension">
+				<trailMoteDef>OG_Mote_BoltTrailPuff</trailMoteDef>
+				<trailMoteSize>0.75</trailMoteSize>
+				<trailerMoteInterval>3</trailerMoteInterval>
+				<motesThrown>3</motesThrown>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	  
+	<!-- ====================== Missile Plasma ===================== -->
+	<ThingDef ParentName="OG_Bullet_Base">
+		<defName>OGE_Bullet_RocketPlasma</defName>
+		<label>plasma rocket</label>
+		<description>plasma rockets have a large blast radius and excel at dealing with light infantry, however they have little effect against vehicals, fortifications or heavily armoured troops.</description>
+		<graphicData>
+			<texPath>Things/Projectile/EldarMissile_Plasma</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>35</damageAmountBase>
+			<armorPenetrationBase>0.16</armorPenetrationBase>
+			<explosionRadius>4.8</explosionRadius>
+			<stoppingPower>2</stoppingPower>
+			<speed>50</speed>
+		</projectile>
+		<modExtensions>
+			<li Class="AdeptusMechanicus.TrailerProjectileExtension">
+				<trailMoteDef>OG_Mote_BoltTrailPuff</trailMoteDef>
+				<trailMoteSize>0.75</trailMoteSize>
+				<trailerMoteInterval>3</trailerMoteInterval>
+				<motesThrown>3</motesThrown>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	  
+	<!--=============== Vibro Cannon turret ===============-->
+	<ThingDef ParentName="OGE_HeavyTurret">
+		<defName>OGE_Turret_VibroCannon</defName>
+		<label>vibro cannon turret</label>
+		<description>An armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor, but it requires new uranium slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged.</description>
+		<uiIconPath>Things/Building/Eldar/Security/TurretMount_VibroCannon_Menu</uiIconPath>
+		<statBases>
+		<AimingAccuracy MayRequire="CETeam.CombatExtended">0.75</AimingAccuracy>
+		<ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
+		</statBases>
+		<costList>
+			<Steel>300</Steel>
+			<Plasteel>30</Plasteel>
+			<Uranium>60</Uranium>
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>240</wickTicks>
+				<explosiveRadius>5.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>150</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until rearm</fuelLabel>
+				<fuelGizmoLabel>Uranium slugs</fuelGizmoLabel>
+				<outOfFuelMessage>Cannot shoot: No slugs</outOfFuelMessage>
+				<fuelFilter><thingDefs><li>Uranium</li></thingDefs></fuelFilter>
+				<fuelCapacity>30</fuelCapacity> 
+				<fuelMultiplier>0.3333</fuelMultiplier>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.5</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+		</comps>
+		<building>
+			<turretGunDef>OGE_GunTurret_VibroCannon</turretGunDef>
+			<turretBurstCooldownTime>3.2</turretBurstCooldownTime>
+		</building>
+		<researchPrerequisites>
+			<li>OG_Common_Tech_Weapons_Sonic</li>
+			<li>SniperTurret</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>OGE_GunTurret_VibroCannon</defName>
+		<label>vibro cannon</label>
+		<description>A self-loading uranium slug cannon designed to attach to a turret.</description>
+		<graphicData>
+			<texPath>Things/Building/Eldar/Security/TurretMount_VibroCannon_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.20</AccuracyTouch>
+			<AccuracyShort>0.30</AccuracyShort>
+			<AccuracyMedium>0.40</AccuracyMedium>
+			<AccuracyLong>0.95</AccuracyLong>
+			<RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>40</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<verbs>
+			<li Class="AdeptusMechanicus.AdvancedVerbProperties">
+				<verbClass>Verb_Shoot</verbClass>
+				<defaultProjectile>OGE_Bullet_VibroCannon</defaultProjectile>
+				<warmupTime>0</warmupTime>
+				<minRange>11.9</minRange>
+				<range>28</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>OG_Starcannon_Sound</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>18</muzzleFlashScale>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+				<barrelLength>0.650</barrelLength>
+			</li>
+		</verbs>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>OGE_Bullet_VibroCannon</defName>
+		<label>sonic blast</label>
+		<graphicData>
+			<drawSize>2.4</drawSize>
+			<texPath>Things/Projectile/SonicShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>AdeptusMechanicus.Sonic_Blast</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>50</damageAmountBase>
+			<speed>60</speed>
+		</projectile>
+		<modExtensions>
+			<li Class="AdeptusMechanicus.TrailerProjectileExtension">
+				<trailMoteDef>Mote_PlasmaGlow</trailMoteDef>
+				<trailMoteSize>0.7</trailMoteSize>
+				<trailerMoteInterval>6</trailerMoteInterval>
+			</li>
+			<li Class="AdeptusMechanicus.GlowerProjectileExtension">
+				<glowGrahphicData>
+					<texPath>Things/Mote/PsycastPsychicLineMask</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<shaderType>MoteGlowDistortBackground</shaderType>
+					<drawSize>1.00</drawSize>
+					<shaderParameters>
+						<!--_DistortionTex>/Other/Ripples</_DistortionTex-->
+						<!--_DistortionTex>/Things/Mote/PsychicConditionCauserMask</_DistortionTex-->
+						<_DistortionTex>/Things/Mote/PsycastPsychicLineMask</_DistortionTex>
+						<_distortionIntensity>0.15</_distortionIntensity>
+						<_brightnessMultiplier>0</_brightnessMultiplier>
+						<_DistortionScale>40</_DistortionScale>
+						<_distortionScrollSpeed>(0.00, 0.00, 0.0)</_distortionScrollSpeed>
+					</shaderParameters>
+				</glowGrahphicData>
+				<glowMoteDef>Mote_PlasmaGlow</glowMoteDef>
+				<glowMoteSize>6.5</glowMoteSize>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!--=============== Brightlance turret ===============-->
+	<ThingDef ParentName="OGE_HeavyLaserTurret" Class="AdeptusMechanicus.Lasers.Building_LaserGunDef">
+		<defName>OGE_Turret_Brightlance_Auto</defName>
+		<label>brightlance turret</label>
+		<description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged.</description>	
+		<uiIconPath>Things/Building/Eldar/Security/TurretMount_Brightlance_Menu</uiIconPath>
+		<statBases>
+		<AimingAccuracy MayRequire="CETeam.CombatExtended">0.75</AimingAccuracy>
+		<ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
+		</statBases>
+		<costList>
+			<Steel>350</Steel>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>240</wickTicks>
+				<explosiveRadius>5.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>150</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<building>
+			<turretGunDef>OGE_GunTurret_Brightlance</turretGunDef>
+			<turretBurstCooldownTime>3.5</turretBurstCooldownTime>
+		</building>
+	<beamPowerConsumption>30</beamPowerConsumption>
+		<researchPrerequisites>
+			<li>HeavyTurrets</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret" Class="AdeptusMechanicus.Lasers.LaserGunDef">
+		<defName>OGE_GunTurret_Brightlance</defName>
+		<label>brightlance</label>
+		<description>A self-loading large-bore cannon designed to attach to a turret.</description>
+		<graphicData>
+			<texPath>Things/Building/Eldar/Security/TurretMount_Brightlance_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<barrelLength>1.5</barrelLength>
+		<statBases>
+			<AccuracyTouch>0.25</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.60</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>40</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<verbs>
+			<li Class="AdeptusMechanicus.AdvancedVerbProperties">
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OGE_Bullet_Brightlance</defaultProjectile>
+				<warmupTime>2.5</warmupTime>
+				<range>45</range>
+				<soundCast>OG_Brightlance_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<!--=============== Twin-Linked Brightlance turret ===============-->
+	<ThingDef ParentName="OGE_HeavyLaserTurret" Class="AdeptusMechanicus.Lasers.Building_LaserGunDef">
+		<defName>OGE_Turret_BrightlanceDual_Auto</defName>
+		<label>twin-linked brightlance turret</label>
+		<description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged.</description>	 
+		<uiIconPath>Things/Building/Eldar/Security/TurretMount_BrightlanceDual_Menu</uiIconPath>
+		<statBases>
+			<AimingAccuracy MayRequire="CETeam.CombatExtended">0.75</AimingAccuracy>
+			<ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
+		</statBases>
+		<costList>
+			<Steel>350</Steel>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>240</wickTicks>
+				<explosiveRadius>5.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>150</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		
+		</comps>
+		<building>
+			<turretGunDef>OGE_GunTurret_BrightlanceDual</turretGunDef>
+			<turretBurstCooldownTime>3.5</turretBurstCooldownTime>
+		</building>
+		<beamPowerConsumption>60</beamPowerConsumption>
+		<researchPrerequisites>
+			<li>HeavyTurrets</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret" Class="AdeptusMechanicus.Lasers.LaserGunDef">
+		<defName>OGE_GunTurret_BrightlanceDual</defName>
+		<label>brightlance</label>
+		<description>A self-loading large-bore cannon designed to attach to a turret.</description>
+		<graphicData>
+			<texPath>Things/Building/Eldar/Security/TurretMount_BrightlanceDual_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<barrelLength>1.5</barrelLength>
+		<statBases>
+			<AccuracyTouch>0.25</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.60</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>40</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<verbs>
+			<li Class="AdeptusMechanicus.AdvancedVerbProperties">
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OGE_Bullet_Brightlance</defaultProjectile>
+				<warmupTime>2.5</warmupTime>
+				<range>45</range>
+				<soundCast>OG_Brightlance_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<comps>	
+			<li Class="AdeptusMechanicus.CompProperties_Weapon_GunSpecialRules">
+				<VerbEntries>
+					<li>
+						<TwinLinked>true</TwinLinked>
+					</li>
+				</VerbEntries>
+			</li>		
+		</comps>
+	</ThingDef>
+
+	<!--=============== D-Cannon turret ===============-->
+	<ThingDef ParentName="OGE_HeavyLaserTurret" Class="AdeptusMechanicus.Lasers.Building_LaserGunDef">
+		<defName>OGE_Turret_DistortCannon_Auto</defName>
+		<label>D-cannon turret</label>
+		<description>A heavy automatic turret. Its vortex weapon does heavy damage over medium ranges, but it is extremely innaccurate and requires large amount of power to operate. It cannot fire at close-up targets, and may explode when damaged.</description>	
+		<uiIconPath>Things/Building/Eldar/Security/TurretMount_DistortCannon_Menu</uiIconPath>
+		<statBases>
+		<AimingAccuracy MayRequire="CETeam.CombatExtended">0.75</AimingAccuracy>
+		<ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
+		</statBases>
+		<costList>
+			<Steel>350</Steel>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>240</wickTicks>
+				<explosiveRadius>5.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>150</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<building>
+			<turretGunDef>OGE_GunTurret_DistortCannon</turretGunDef>
+			<turretBurstCooldownTime>3.5</turretBurstCooldownTime>
+		</building>
+		<beamPowerConsumption>30</beamPowerConsumption>
+		<researchPrerequisites>
+			<li>OG_Eldar_Tech_Weapons_Vortex</li>
+			<li>HeavyTurrets</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret" Class="AdeptusMechanicus.Lasers.LaserGunDef">
+		<defName>OGE_GunTurret_DistortCannon</defName>
+		<label>D-Cannon</label>
+		<description>A self-loading heavy vortex weapon designed to attach to a turret.</description>
+		<graphicData>
+			<texPath>Things/Building/Eldar/Security/TurretMount_DistortCannon_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.25</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.60</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>40</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<verbs>
+			<li Class="AdeptusMechanicus.AdvancedVerbProperties">
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OGE_Bullet_DistortCannon</defaultProjectile>
+				<warmupTime>0.00</warmupTime>
+				<range>31</range>
+				<soundCast>OG_Wraithcannon_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
+				<barrelLength>0.75</barrelLength>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<ThingDef ParentName="OG_Bullet_LaserGeneric" Class="AdeptusMechanicus.Lasers.LaserBeamDef">
+		<defName>OGE_Bullet_DistortCannon</defName>
+		<label>distortion-cannon blast</label>
+		<graphicData>
+			<shaderType>MoteGlow</shaderType>
+			<color>(150,30,255,255)</color> <!-- default bolt colour -->
+		</graphicData>
+		<textures> <!-- list of possible beam textures, can leave blank to use Vanilla's Orbital Laser texture -->
+			<li>Things/Projectile/LightningBeam</li>
+		</textures>
+		<flareMatPath>Other/BeamGlowB</flareMatPath>
+		<lifetime>30</lifetime>
+		<seam>0</seam>
+		<impulseCurve>
+			<points>
+				<li>(0, 0.25)</li>
+				<li>(0.5, 0.75)</li>
+				<li>(1, 0.25)</li>
+			</points>
+		</impulseCurve>
+		<LightningBeam>true</LightningBeam>
+		<StaticLightning>false</StaticLightning>
+		<ArcCount>3</ArcCount>
+		<!--impactReflection>3</impactReflection-->
+		<flareLength>0.25</flareLength>
+		<!--flareWidth>0.25</flareWidth-->
+		<flareWidthMod>1.50</flareWidthMod>	
+		<!--flareLengthMod>0.250</flareLengthMod-->
+		
+		<lightningArcWidthDistCurve>
+			<points>
+				<li>(0, 0.5)</li>
+				<li>(0.1, 0.750)</li>
+				<li>(0.9, 0.750)</li>
+				<li>(1, 0.125)</li>
+			</points>
+		</lightningArcWidthDistCurve>
+		<lightningArcWidthTimeCurve>
+			<points>
+				<li>(0, 0.25)</li>
+				<li>(0.5, 1.5)</li>
+				<li>(1, 0.5)</li>
+			</points>
+		</lightningArcWidthTimeCurve>
+		<lightningArcVarianceDistCurve>
+			<points>
+				<li>(0, 1.5)</li>
+				<li>(0.1, 1.5)</li>
+				<li>(0.9, 1.5)</li>
+				<li>(1, 0.0)</li>
+			</points>
+		</lightningArcVarianceDistCurve>
+		<lightningArcVarianceTimeCurve>
+			<points>
+				<li>(0, 0)</li>
+				<li>(0.5, 1.5)</li>
+				<li>(1, 1)</li>
+			</points>
+		</lightningArcVarianceTimeCurve>
+		<effecterLifetime>120</effecterLifetime>
+		<explosionEffect>OG_Effecter_LightningImpact</explosionEffect>
+		<hitLivingEffect>OG_Effecter_LightningImpact</hitLivingEffect>
+    	<decorations>
+			<li>
+				<mote>AdeptusMechanicus_Mote_LaserEMP</mote>
+				<spacing>1</spacing>
+				<initialOffset>0</initialOffset>
+				<speed>0.0</speed>
+				<speedJitter>0.0</speedJitter>
+				<speedJitterOffset>0</speedJitterOffset>
+			</li>
+			<!--li>
+				<mote>AdeptusMechanicus_Mote_LaserEMP</mote>
+				<spacing>1</spacing>
+				<initialOffset>0.3</initialOffset>
+				<speed>1.0</speed>
+				<speedJitter>0.45</speedJitter>
+				<speedJitterOffset>90</speedJitterOffset>
+			</li-->
+    	</decorations>
+		<projectile>
+			<damageDef>OG_E_Distortion_Damage</damageDef>
+			<armorPenetrationBase>2</armorPenetrationBase>
+			<damageAmountBase>60</damageAmountBase>
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+			<explosionRadius>3.25</explosionRadius>
+			<soundExplode>MeleeHit_Metal_ThunderHammer</soundExplode>
+		</projectile>
+		<modExtensions>
+			<li Class="AdeptusMechanicus.ProjectileVFX">
+				<explosionMoteDef>OG_Mote_DistortBlast</explosionMoteDef>
+				<explosionMoteSize>3</explosionMoteSize>
+				<impactMoteDef>OG_Mote_PlasmaBlast</impactMoteDef>
+				<impactMoteSize>5</impactMoteSize>
+				<impactGlowMoteDef>OG_Mote_DistortBlastGlow</impactGlowMoteDef>
+				<impactGlowMoteSize>2.5</impactGlowMoteSize>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!--=============== Mortar - Shadow Weaver ===============-->
+	<ThingDef ParentName="OGE_ArtilleryTurret">
+		<defName>OGE_Turret_ShadowWeaver_Manual</defName>
+		<label>shadow weaver</label>
+		<description>A manned shadow weaver that launches all kinds of shells. While it can inflict devastating damage, the mortar's inherent inaccuracy makes it more useful for attacking large fortifications than groups of enemies in the field.</description>
+		<stuffCategories Inherit="false">
+
+		</stuffCategories>
+		<costStuffCount>0</costStuffCount>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>240</wickTicks>
+				<explosiveRadius>4.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+			</li>
+		</comps>
+		<designationHotKey>Misc4</designationHotKey>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<building>
+			<turretGunDef>OGE_GunTurret_ShadowWeaver</turretGunDef>
+			<buildingTags>
+				<li>Artillery_BaseDestroyer</li>
+				<li>Artillery_MannedMortar</li>
+			</buildingTags>
+		</building>
+	<uiIconPath>Things/Building/Eldar/Security/TurretMount_ShadowWeaver_Menu</uiIconPath>
+	<uiIconScale>0.9</uiIconScale>
+		<researchPrerequisites>
+			<li>OG_Aeldari_Tech_Weapons_Monofilament</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseArtilleryWeapon">
+		<defName>OGE_GunTurret_ShadowWeaver</defName>
+		<label>shadow weaver</label>
+		<description>Shadow weaver launcher. Lobs bombs over walls. Very inaccurate but long-ranged.</description>
+		<graphicData>
+			<texPath>Things/Building/Eldar/Security/TurretMount_ShadowWeaver_Top</texPath>
+		</graphicData>
+		<weaponTags>
+			<li>Artillery_BaseDestroyer</li>
+		</weaponTags>
+		<verbs>
+			<li Class="AdeptusMechanicus.AdvancedVerbProperties">
+				<verbClass>Verb_Shoot</verbClass>
+				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+				<warmupTime>4.0</warmupTime>
+				<forcedMissRadius>13</forcedMissRadius>
+				<requireLineOfSight>false</requireLineOfSight>
+				<minRange>20.9</minRange>
+				<range>100</range>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>Mortar_LaunchA</soundCast>
+				<muzzleFlashScale>16</muzzleFlashScale>
+				<barrelLength>0.55</barrelLength>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_ChangeableProjectile" />
+		</comps>
+		<building>
+			<fixedStorageSettings>
+				<filter>
+					<thingDefs>
+						<li>OGE_Shell_ShadowWeaver</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<filter>
+					<thingDefs>
+						<li>OGE_Shell_ShadowWeaver</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="MakeableShellBase">
+		<defName>OGE_Shell_ShadowWeaver</defName>
+		<label>monofilament spool</label>
+		<description>A spool filled with monofilament wire. Can be fired from Shadow Weavers or installed as a trap. Explodes when damaged.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Eldar/Shell/Shell_ShadowWeaver</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>2.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+				<wickTicks>30~60</wickTicks>
+			</li>
+		</comps>
+		<projectileWhenLoaded>OGE_Bullet_Shell_ShadowWeaver</projectileWhenLoaded>
+		<costList>
+			<Steel>25</Steel>
+			<Chemfuel>15</Chemfuel>
+		</costList>
+		<thingCategories Inherit="False">
+			<li>OGEMortarShells</li>
+		</thingCategories>
+		<recipeMaker>
+			<researchPrerequisite>Mortars</researchPrerequisite>
+			<recipeUsers>
+				<li>OGE_TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>OGE_Bullet_Shell_ShadowWeaver</defName>
+		<label>monofilament mass</label>
+		<graphicData>
+			<texPath>Things/Projectile/ShadowWeaverShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>AdeptusMechanicus.ArcingBullet</thingClass>
+		<projectile>
+			<damageDef>OGEShadowWeaver</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+			<postExplosionSpawnThingDef>OGE_MonofilamentCloud</postExplosionSpawnThingDef>
+			<postExplosionSpawnChance>1</postExplosionSpawnChance>
+			<speed>41</speed>
+			<explosionRadius>5</explosionRadius>
+			<arcHeightFactor>1</arcHeightFactor>
+			<flyOverhead>true</flyOverhead>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGas">
+		<defName>OGE_MonofilamentCloud</defName>
+		<label>monofilament cloud</label>
+		<graphicData>
+			<texPath>Things/Gas/MonofilamentCloud</texPath>
+			<drawSize>2.5</drawSize>
+			<color>(1,1,1,0.4)</color>
+		</graphicData>
+		<!--tickerType>Rare</tickerType-->
+		<thingClass>AdeptusMechanicus.DamageGas</thingClass>
+		<gas Class="AdeptusMechanicus.AdeptusGasProperties">
+			<damageDef>OGEDeathspinner</damageDef>
+			<damageChance>1</damageChance>
+			<damageMote>false</damageMote>
+			<blockTurretTracking>false</blockTurretTracking>
+			<accuracyPenalty>0.3</accuracyPenalty>
+			<rotationSpeed>10</rotationSpeed>
+			<expireSeconds>
+				<min>35</min>
+				<max>50</max>
+			</expireSeconds>
+		</gas>
+	</ThingDef>
+	
+</Defs>

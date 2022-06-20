@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Harlequin Eldar --> 
+	<!-- Harlequin Childhoods -->
+	<!-- Harlequin Child -->
+	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Child">
+		<defName>OG_Eldar_Harlequinn_Child</defName>
+		<title>Harlequinn</title>
+		<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] was to shape [PAWN_possessive] life, but when [PAWN_pronoun] was offered a place in a passing group of Harlequinns [PAWN_pronoun] left [PAWN_possessive] Craftworld to wander the Webway.</baseDescription>
+		<maleCommonality>0.05</maleCommonality>
+		<femaleCommonality>0.05</femaleCommonality>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedHediffs>
+		
+		</forcedHediffs>
+		<spawnCategories Inherit="true">
+			<li>Eldar_Harlequinn</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	  
+	<!-- Eldar_Harlequinn_Child_Psyker -->
+	<AlienRace.BackstoryDef ParentName="OG_Eldar_Child_Psyker">
+		<defName>OG_Eldar_Harlequinn_Child_Psyker</defName>
+		<title>Harlequinn</title>
+		<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] was to shape [PAWN_possessive] life, but when [PAWN_pronoun] was offered a place in a passing group of Harlequinns [PAWN_pronoun] left [PAWN_possessive] Craftworld to wander the Webway.</baseDescription>
+		<maleCommonality>0.015</maleCommonality>
+		<femaleCommonality>0.015</femaleCommonality>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedHediffs>
+		
+		</forcedHediffs>
+		<spawnCategories Inherit="true">
+			<li>Eldar_Harlequinn_Psyker</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	   
+	<!-- Harlequin Adulthoods -->
+	<!-- Baseline Civilian -->
+	<AlienRace.BackstoryDef Name="OG_Eldar_Harlequin_Base_Civilian" ParentName="OG_Eldar_Standard_Backstory" Abstract="true">
+		<defName>OG_Eldar_Harlequin_Civilian</defName>
+		<title>Harlequin Clansmen</title>
+		<titleShort>Harlequin</titleShort>
+		<slot>Adulthood</slot>
+
+		<!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<disallowedTraits>
+
+		</disallowedTraits>
+		<workDisables>
+		
+		</workDisables>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>-3</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>-3</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Eldar_Harlequin</li>
+			<li>Eldar_Harlequin_Civilian</li>
+			<li>Eldar_Harlequin_Warrior_Guardian</li>
+			<li>Eldar_Harlequin_Warrior_GuardianDefender</li>
+			<li>Eldar_Harlequin_Warrior_GuardianStorm</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- Civilians -->
+
+	<!-- Baseline Warrior -->
+	<AlienRace.BackstoryDef Name="OG_Eldar_Harlequin_Base_Warrior" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
+		<defName>OG_Eldar_Craftworld_Base_Warrior</defName>
+		<title>Harlequin Clansmen Warrior</title>
+		<titleShort>Harlequin Warrior</titleShort>
+		<disallowedTraits>
+
+		</disallowedTraits>
+		<workDisables>
+		
+		</workDisables>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>-3</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>-3</amount>
+			</li>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Harlequin</li>
+			<li>Eldar_Harlequin_Warrior</li>
+			<li>Eldar_Harlequin_Warrior_Guardian</li>
+			<li>Eldar_Harlequin_Warrior_GuardianDefender</li>
+			<li>Eldar_Harlequin_Warrior_GuardianStorm</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	  
+	<!-- Warriors -->
+	
+	<!-- Baseline Psyker -->
+	<AlienRace.BackstoryDef Name="OG_Eldar_Harlequin_Psyker" ParentName="OG_Eldar_Psyker_Backstory" Abstract="true">
+		<defName>OG_Eldar_Base_Seer</defName>
+		<title>Path of the Seer</title>
+		<titleShort>Eldar Seer</titleShort>
+		<slot>Adulthood</slot>
+		<!-- <linkedBackstory>Eldar_Craftworld_Child_Psyker</linkedBackstory> -->
+
+		<!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<disallowedTraits>
+
+		</disallowedTraits>
+		<workDisables>
+		
+		</workDisables>
+		<skillGains>
+		
+		</skillGains>
+		<spawnCategories>
+			<li>Eldar_Craftworld_Psyker</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	   
+	<!-- Psykers -->
+	
+</Defs>

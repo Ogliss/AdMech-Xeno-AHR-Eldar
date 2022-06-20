@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- ========================= Eldar ========================== -->
+    <!-- ========================= Eldar - Clothes Base - Apparel Base ========================== -->
+	<ThingDef Name="OG_Eldar_Apparel_Base" ParentName="OG_Apparel_Base" Abstract="True">
+		<apparel>
+			<tags>
+				<li>EldarApparel</li>
+			</tags>
+		</apparel>
+		<thingCategories>
+			<li>OGESub</li>
+		</thingCategories>
+	</ThingDef>
+	
+    <!-- ========================= Eldar - Clothes Base - Apparel Makable Base ========================== -->
+	<ThingDef Name="OG_Eldar_Apparel_Makeable" ParentName="OG_Eldar_Apparel_Base" Abstract="True">
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Base_T1</li>
+			</researchPrerequisites>
+		</recipeMaker>
+	</ThingDef>
+		
+    <!-- ========================= Eldar - Clothes - Apparel Makable ========================== -->
+	<ThingDef Name="OG_Eldar_Apparel" ParentName="OG_Eldar_Apparel_Makeable" Abstract="True">
+		<apparel>
+			<tags>
+				<li>EldarClothing</li>
+			</tags>
+		</apparel>
+		<thingCategories>
+			<li>OGEApparel</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<!-- ========================= Eldar - Headgear - Hat Makable ========================== -->
+	<ThingDef Name="OG_Eldar_Apparel_Headgear" ParentName="OG_Eldar_Apparel_Makeable" Abstract="True">
+		<apparel>
+			<tags>
+				<li>EldarHat</li>
+			</tags>
+		</apparel>
+		<thingCategories>
+			<li>OGEHeadgear</li>
+		</thingCategories>
+    <statBases>
+      <Mass>0.15</Mass>
+    </statBases>
+	</ThingDef>
+	
+    <!-- ========================= Eldar - Clothes Base - Apparel Base ========================== -->
+	<ThingDef Name="OG_Eldar_Apparel_Armor_Base" ParentName="OG_Apparel_Base" Abstract="True">
+		<apparel>
+			<tags>
+				<li>EldarArmour</li>
+			</tags>
+		</apparel>
+		<thingCategories>
+			<li>OGESub</li>
+		</thingCategories>
+	</ThingDef>
+
+    <!-- ========================= Eldar - Apparel Armor Makable Base ========================== -->
+	<ThingDef Name="OG_Eldar_Apparel_Armor_Makeable" ParentName="OG_Eldar_Apparel_Armor_Base" Abstract="True">
+		<graphicData>
+			<color>238,213,172</color> <!-- BLEACHED BONE -->
+			<colorTwo>74,76,88</colorTwo> <!-- ADEPTUS BATTLEGREY -->
+		</graphicData>
+		<recipeMaker>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<recipeUsers>
+				<li>OGE_TableMachining</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Base_T1</li>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<tags>
+				<li>EldarMilitary</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+	
+    <!-- ========================= Eldar - Apparel Armor Makable Base ========================== -->
+	<ThingDef Name="OG_Eldar_Apparel_Armor" ParentName="OG_Eldar_Apparel_Armor_Makeable" Abstract="True">
+		<apparel>
+			<tags>
+				<li>EldarArmour</li>
+			</tags>
+		</apparel>
+		<thingCategories>
+			<li>OGEArmour</li>
+		</thingCategories>
+	</ThingDef>	
+		
+	<!-- ========================= Eldar - Headgear Base - Helmet Makable Base ========================== -->
+	<ThingDef Name="OG_Eldar_Apparel_Armor_Headgear" ParentName="OG_Eldar_Apparel_Armor_Makeable" Abstract="True">
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li MayRequire="CETeam.CombatExtended">OnHead</li>
+				<li MayRequire="CETeam.CombatExtended">StrappedHead</li>
+				<li MayRequire="CETeam.CombatExtended">MiddleHead</li>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>EldarHelmet</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+				<li>EldarSoldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>OGEHeadgear</li>
+		</thingCategories>
+		<tradeTags>
+			<li>OGEHeadgear</li>
+			<li>EldarHeadgear</li>
+		</tradeTags>
+		<tickerType>Normal</tickerType>
+		<comps>     
+			  <li Class="AdeptusMechanicus.CompProperties_EyeProtectionApparel">
+			  <Chance>1</Chance>
+			</li>
+			  <li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
+			  <Chance>1</Chance>
+			</li>
+		</comps>
+		<modExtensions>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingGasMask</hediff>
+			</li>
+		</modExtensions>
+	</ThingDef>
+			
+	<!-- ========================= Eldar - Apparel Wargear Base ========================== -->
+	<ThingDef Name="OG_Eldar_Apparel_Wargear_Base" ParentName="OG_Apparel_Base" Abstract="True">
+		<apparel>
+			<tags>
+				<li>EldarWargear</li>
+			</tags>
+		</apparel>
+		<thingCategories>
+			<li>OGEWargear</li>
+		</thingCategories>
+		<tradeTags>
+			<li>OGEWargear</li>
+			<li>EldarWargear</li>
+		</tradeTags>
+	</ThingDef>	
+	
+	<!-- ========================= Eldar - Apparel Wargear Makable Base ========================== -->
+	<ThingDef Name="OG_Eldar_Apparel_Wargear_Makeable" ParentName="OG_Eldar_Apparel_Wargear_Base" Abstract="True">
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<recipeUsers>
+				<li>OGE_TableMachining</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Base_T1</li>
+			</researchPrerequisites>
+		</recipeMaker>
+	</ThingDef>	
+</Defs>

@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ============================ Eldar Civilians ========================== -->
+	<!-- ============================ Eldar Faction Leader Farseer ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_Farseer_FactionBase">
+		<defName>OG_Eldar_Farseer_Faction</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">3~5</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~27</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- ============================ Eldar Faction Leader Autarch ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_Autarch_FactionBase">
+		<defName>OG_Eldar_Autarch_Faction</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">3~5</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~27</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- ============================ Eldar Faction Traders ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_Craftworld_TraderBase">
+		<defName>OG_Eldar_Craftworld_Trader</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">0~1</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">7~12</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- ============================ Eldar Faction Slave ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_Craftworld_SlaveBase">
+		<defName>Slave_OG_Eldar_Craftworld</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">0~1</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">7~12</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- ============================ Eldar Security ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_CadetBase">
+		<defName>OG_Eldar_Cadet</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- ============================ Eldar Military ========================== -->	
+	<!-- ============================ Eldar Guardian Defender ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_GuardianBase">
+		<defName>OG_Eldar_Guardian</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- ============================ Eldar Storm Guardian ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_GuardianStormBase">
+		<defName>OG_Eldar_GuardianStorm</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- ============================ Eldar Support Guardian ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_GuardianSupportBase">
+		<defName>OG_Eldar_GuardianSupport</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Ranger ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_RangerBase">
+		<defName>OG_Eldar_Ranger</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">19~29</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Pathfinder ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_Ranger_PathfinderBase">
+		<defName>OG_Eldar_Ranger_Pathfinder</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">2~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">20~36</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Avenger ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_DireAvengerBase">
+		<defName>OG_Eldar_DireAvenger</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Avenger Exarch ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_DireAvenger_ExarchBase">
+		<defName>OG_Eldar_DireAvenger_Exarch</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">2~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Banshee ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_HowlingBansheeBase">
+		<defName>OG_Eldar_HowlingBanshee</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Banshee Exarch ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_HowlingBanshee_ExarchBase">
+		<defName>OG_Eldar_HowlingBanshee_Exarch</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Dragon ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_FireDragonBase">
+		<defName>OG_Eldar_FireDragon</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Dragon Exarch ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_FireDragon_ExarchBase">
+		<defName>OG_Eldar_FireDragon_Exarch</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Hawk ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_SwoopingHawkBase">
+		<defName>OG_Eldar_SwoopingHawk</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Hawk Exarch ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_SwoopingHawk_ExarchBase">
+		<defName>OG_Eldar_SwoopingHawk_Exarch</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Reaper ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_DarkReaperBase">
+		<defName>OG_Eldar_DarkReaper</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Reaper Exarch ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_DarkReaper_ExarchBase">
+		<defName>OG_Eldar_DarkReaper_Exarch</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Scorpion ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_StrikingScorpionBase">
+		<defName>OG_Eldar_StrikingScorpion</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Scorpion Exarch ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_StrikingScorpion_ExarchBase">
+		<defName>OG_Eldar_StrikingScorpion_Exarch</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Spectre ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_ShadowSpectreBase">
+		<defName>OG_Eldar_ShadowSpectre</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Spectre Exarch ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_ShadowSpectre_ExarchBase">
+		<defName>OG_Eldar_ShadowSpectre_Exarch</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Spider ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_WarpSpiderBase">
+		<defName>OG_Eldar_WarpSpider</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Spider Exarch ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_WarpSpider_ExarchBase">
+		<defName>OG_Eldar_WarpSpider_Exarch</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Warlock ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_WarlockBase">
+		<defName>OG_Eldar_Warlock</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">6~8</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">37~66</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Farseer ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_FarseerBase">
+		<defName>OG_Eldar_Farseer</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">6~8</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">37~66</initialResistanceRange>
+	</PawnKindDef>
+	
+	<!-- ============================ Eldar Autarch ========================== -->
+	<PawnKindDef ParentName="OG_Eldar_AutarchBase">
+		<defName>OG_Eldar_Autarch</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">6~8</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">37~66</initialResistanceRange>
+	</PawnKindDef>
+	
+</Defs>

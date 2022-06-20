@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+<!-- ======================== Jump Pack Ability Defs ================================== -->	
+	<ThingDef ParentName="FlyingObject_JumpPack">
+		<defName>FlyingObject_JumpPackEldar</defName>
+		<projectile>
+			<speed>25</speed>
+		</projectile>
+	</ThingDef>
+	
+	<AbilitesExtended.EquipmentAbilityDef>
+		<defName>OGE_Ability_HawkJump</defName>
+		<label>Jump</label>
+		<iconPath>Things/Item/Apparel/Eldar/HawkArmour/Pauldrons/Pauldron_Male_north</iconPath>
+		<description>Use Jump Pack.</description>
+		<abilityClass>AbilitesExtended.EquipmentAbility</abilityClass>
+		<cooldown>15</cooldown>
+		<verbProperties>
+			<verbClass>AbilitesExtended.Verb_UseEquipment</verbClass>
+			<range>24</range>
+			<requireLineOfSight>false</requireLineOfSight>
+			<minRange>10</minRange>
+			<warmupTime>0.5</warmupTime>
+			<!--warmupEffecter>JumpWarmupEffect</warmupEffecter-->
+			<targetParams>
+			<canTargetPawns>True</canTargetPawns>
+			<canTargetBuildings>false</canTargetBuildings>
+			<canTargetLocations>True</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AdeptusMechanicus.CompProperties_EquipmentAbilityJumpPack">
+				<compClass>AdeptusMechanicus.CompAbilityEffect_JumpPack</compClass>
+				<jumpingThing>FlyingObject_JumpPackEldar</jumpingThing>
+				<stunTicks>70~120</stunTicks>
+				<explodingLeaperRadius>2.5</explodingLeaperRadius>
+				<clamorRadius>10</clamorRadius>
+			</li>
+		</comps>
+	</AbilitesExtended.EquipmentAbilityDef>
+
+	<AbilitesExtended.EquipmentAbilityDef>
+		<defName>OGE_Ability_SpiderJump</defName>
+		<label>Jump</label>
+		<iconPath>Things/Item/Apparel/Eldar/SpiderArmour/Backpack/Base_Male_north</iconPath>
+		<description>Use Jump Pack.</description>
+		<abilityClass>AbilitesExtended.EquipmentAbility</abilityClass>
+		<cooldown>15</cooldown>
+		<verbProperties>
+			<verbClass>AbilitesExtended.Verb_UseEquipment</verbClass>
+			<range>24</range>
+			<requireLineOfSight>false</requireLineOfSight>
+			<minRange>0</minRange>
+			<warmupTime>0.5</warmupTime>
+			<!--warmupEffecter>JumpWarmupEffect</warmupEffecter-->
+			<targetParams>
+			<canTargetPawns>True</canTargetPawns>
+			<canTargetBuildings>false</canTargetBuildings>
+			<canTargetLocations>True</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AdeptusMechanicus.CompProperties_EquipmentAbilityJumpPack">
+				<compClass>AdeptusMechanicus.CompAbilityEffect_JumpPack</compClass>
+				<!--destination>Selected</destination-->
+				<type>Teleport</type>
+				<psychic>false</psychic>
+				<goodwillImpact>0</goodwillImpact>
+				<screenShakeIntensity>0</screenShakeIntensity>
+				<stunTicks>70~120</stunTicks>
+				<explodingLeaperRadius>2.5</explodingLeaperRadius>
+				<clamorRadius>10</clamorRadius>
+			</li>
+		</comps>
+	</AbilitesExtended.EquipmentAbilityDef>
+
+</Defs>

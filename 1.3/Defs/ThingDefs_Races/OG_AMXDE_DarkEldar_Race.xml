@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.ThingDef_AlienRace Name="OG_DarkEldar_RaceBase" ParentName="OG_Aeldari_RaceBase" Abstract="True">
+		<defName>OG_Alien_DarkEldar</defName>
+		<label>Dark Eldar</label>
+		<alienRace>
+			<generalSettings>
+				<forcedRaceTraitEntries>
+				
+				</forcedRaceTraitEntries>
+				<alienPartGenerator>
+					<aliencrowntypes>
+						<li>Eldar_Head_Gaunt</li>
+						<li>Eldar_Head_Pointy</li>
+						<li>Eldar_Head_Square</li>
+						<li>Eldar_Head_Straight</li>
+						<li>Eldar_Head_Triangle</li>
+					</aliencrowntypes>
+				<useGenderedHeads>false</useGenderedHeads>
+				</alienPartGenerator>
+				<chemicalSettings>	
+					
+				</chemicalSettings>
+				<notXenophobistTowards>
+					
+				</notXenophobistTowards>
+				<factionRelations>
+					<li>
+						<factions>
+							<li>PlayerColony</li>
+							<li>PlayerTribe</li>
+							<li>OutlanderCivil</li>
+							<li>OutlanderRough</li>
+							<li>TribeCivil</li>
+							<li>TribeRough</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>10</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li>OG_DarkEldar_Kabal_Faction</li>
+							<!--li>OG_DarkEldar_Kabal_PlayerColony</li-->
+						</factions>
+						<goodwill>
+							<min>-10</min>
+							<max>100</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_Astartes_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_AstartesNeophyte_PlayerColony</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_IoM</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tau_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_Faction</li>
+							<!--li>OG_Vespid_PlayerColony</li-->
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>25</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>10</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Waaagh</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Exodite_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Player_Exodite</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Harlequin_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Player_Harlequin</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Eldar_Craftworld_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_Chaos</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">IG_ChaosMarineFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">TraitorGuardFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">TyranidFaction</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>-100</max>
+						</goodwill>
+					</li>
+				</factionRelations>
+			</generalSettings>
+			<graphicPaths>
+				<li>
+					<head>Things/Pawn/Humanlike/Aeldari/Head/</head>
+					<body>Things/Pawn/Humanlike/Aeldari/Bodies/</body>
+				</li>
+				<!--
+				<li>
+					<head>Things/Pawn/Humanlike/Aeldari/Head/</head>
+				</li>
+				-->
+			</graphicPaths>
+			<thoughtSettings>
+				<cannotReceiveThoughts>
+					<li>ObservedLayingCorpse</li>
+					<li>EnvironmentDark</li>
+					<li>NeedOutdoors</li>
+					<li>DeadMansApparel</li>
+					<li>KnowGuestExecuted</li>
+					<li>KnowPrisonerDiedInnocent</li>
+					<li>AteRawFood</li>
+					<li>AteWithoutTable</li>
+					<li>KnowPrisonerSold</li>
+					<li>KnowGuestOrganHarvested</li>
+					<li>KnowColonistOrganHarvested</li>
+					<li>KnowButcheredHumanlikeCorpse</li>
+					<li>ButcheredHumanlikeCorpse</li>
+					<li>WitnessedDeathNonAlly</li>
+					<li>ColonistBanished</li>
+					<li>ColonistBanishedToDie</li>
+					<li>PrisonerBanishedToDie</li>
+					<li>ButcheredHumanlikeCorpseOpinion</li>
+				</cannotReceiveThoughts>
+			</thoughtSettings>
+			<relationSettings>
+					<relationChanceModifierParent>1</relationChanceModifierParent>
+					<relationChanceModifierChild>1</relationChanceModifierChild>
+					<relationChanceModifierSibling>1</relationChanceModifierSibling>
+				
+					<relationChanceModifierLover>1</relationChanceModifierLover>
+					<relationChanceModifierExLover>1</relationChanceModifierExLover>
+				
+					<relationChanceModifierFiance>1</relationChanceModifierFiance>
+					<relationChanceModifierSpouse>1</relationChanceModifierSpouse>
+					<relationChanceModifierExSpouse>1</relationChanceModifierExSpouse>
+			</relationSettings>
+			<raceRestriction>
+				<researchList>
+					<li>
+						<projects>
+					
+						</projects>
+					</li>
+				</researchList>
+				<apparelList>
+					<!--li>OGDE_Apparel_Armor_Kabalite</li>
+					<li>OGDE_Apparel_Armor_KabaliteHelmet</li>
+					<li>OGDE_Apparel_Armor_Sybarite</li>
+					<li>OGDE_Apparel_Armor_SybariteHelmet</li>
+					<li>OGDE_Apparel_Armor_Wych</li>
+					<li>OGDE_Apparel_Armor_WychHelmet</li>
+					<li>OGDE_Apparel_Armor_Haemonculus</li>
+					<li>OGDE_Apparel_Armor_HaemonculusHelmet</li>
+					<li>OGDE_Apparel_Armor_Hellion</li>
+					<li>OGDE_Apparel_Armor_HellionHelmet</li>
+					<li>OGDE_Apparel_Armor_Scourge</li>
+					<li>OGDE_Apparel_Armor_ScourgeHelmet</li>
+					<li>OGDE_Apparel_Armor_Incubi</li>
+					<li>OGDE_Apparel_Armor_IncubiHelmet</li>
+					<li>OGDE_Apparel_Armor_Archon</li>
+					<li>OGDE_Apparel_Armor_ArchonHelmet</li-->
+					<!--li>OGDE_Apparel_TheHex</li>
+					<li>OGDE_Apparel_ProphetsofFlesh</li>
+					<li>OGDE_Apparel_TheEbonSting</li>
+					<li>OGDE_Apparel_TheBlackDescent</li>
+					<li>OGDE_Apparel_TheAltered</li>
+					<li>OGDE_Apparel_TheDarkCreed</li-->
+				</apparelList>
+				<recipeList>
+			
+				</recipeList>
+				<buildingList>
+				
+				</buildingList>
+			</raceRestriction>
+		</alienRace>
+		<statBases>
+			<PsychicSensitivity>0.25</PsychicSensitivity>
+			<ButcheryFleshSpeed>1.15</ButcheryFleshSpeed>
+			<ButcheryFleshEfficiency>1.15</ButcheryFleshEfficiency>
+			<SmeltingSpeed>0.85</SmeltingSpeed>
+			<NegotiationAbility>0.75</NegotiationAbility>
+			<SocialImpact>0.75</SocialImpact>
+			<TradePriceImprovement>0.75</TradePriceImprovement>
+			<!--
+			-->
+		</statBases>
+		<tools>
+		
+		</tools>
+		<race>
+			<leatherDef>Leather_DarkEldar</leatherDef>
+			<nameGenerator>OG_DarkEldar_NamerPerson</nameGenerator>
+			<nameGeneratorFemale>OG_DarkEldar_NamerPersonFemale</nameGeneratorFemale>
+			<bloodDef>OG_FilthBlood_DarkEldar</bloodDef>
+			<lifeStageAges>
+			
+			</lifeStageAges>
+		</race>
+		<recipes>
+		
+		</recipes>
+		<comps>
+		
+		</comps>
+	</AlienRace.ThingDef_AlienRace>
+
+	<AlienRace.ThingDef_AlienRace ParentName="OG_DarkEldar_Race">
+		<defName>OG_Alien_DarkEldar</defName>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef ParentName="OG_Eldar_Player_Craftworld_Base">
+		<defName>OG_Eldar_Craftworld_PlayerColony</defName>
+		<allowedCultures IgnoreIfNoMatchingField="True">
+			<li>OG_Aeldari_Asuryani</li>
+		</allowedCultures>
+		<disallowedMemes IgnoreIfNoMatchingField="True">
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		</disallowedMemes>
+		<disallowedPrecepts IgnoreIfNoMatchingField="True">
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+		</disallowedPrecepts>
+		<structureMemeWeights IgnoreIfNoMatchingField="True">
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
+		</structureMemeWeights>
+		<hairTags IgnoreIfNoMatchingField="True">
+			<li>OG_Eldar_Hair</li>
+			<li>Rural</li>
+		</hairTags>
+	</FactionDef>
+
+	<!--
+	<FactionDef ParentName="OG_Eldar_Player_Exodite_Base">
+		<defName>OG_Eldar_Exodite_PlayerColony</defName>
+		<hairTags IgnoreIfNoMatchingField="True">
+			<li>OG_Eldar_Hair</li>
+			<li>Rural</li>
+		</hairTags>
+	</FactionDef>
+
+	<FactionDef ParentName="OG_Eldar_Player_Harlequin_Base">
+		<defName>OG_Eldar_Harlequin_PlayerColony</defName>
+		<hairTags IgnoreIfNoMatchingField="True">
+			<li>OG_Eldar_Hair</li>
+			<li>Rural</li>
+		</hairTags>
+	</FactionDef>
+	-->
+
+</Defs>

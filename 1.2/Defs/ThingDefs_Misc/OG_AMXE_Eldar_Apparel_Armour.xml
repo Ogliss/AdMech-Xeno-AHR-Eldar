@@ -1,0 +1,1250 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--========================= Eldar - Armour ==========================-->
+	<!--========================= Eldar - Mesh Armour ==========================-->
+	<!--========================= 5+ ==========================-->
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
+		<defName>OGE_Apparel_MeshArmour</defName>
+		<label>mesh armour</label>
+		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/GuardianArmour/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>238,213,172</color> <!-- BLEACHED BONE -->
+			<colorTwo>74,76,88</colorTwo> <!-- ADEPTUS BATTLEGREY -->
+		</graphicData>
+		<statBases>
+			<!--MarketValue>1500</MarketValue-->
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>30000</WorkToMake>
+			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<Insulation_Heat>10</Insulation_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
+			<Mass>3</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">6</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.12</MoveSpeed>
+			<WorkSpeedGlobal>-0.020</WorkSpeedGlobal>
+			<!--ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.10</PsychicSensitivity-->
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
+		</equippedStatOffsets>
+		<costList><!-- 238 Steel, 10 Jade -->
+			<Cloth>40</Cloth>
+			<OGE_Wraithbone>20</OGE_Wraithbone> <!-- 3 Steel each -->
+			<OGE_Component>1</OGE_Component> <!-- 4 Wraithbone(24 Steel)   -->
+			<OGE_SpiritStone>1</OGE_SpiritStone> <!-- 10 Wraithbone(6 Steel), 10 Jade and 1 Eldar Component(24 Steel) each/84 Steel, 10 Jade  -->
+
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/GuardianArmour/Base</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>EldarMilitary</li>
+				<li>EldarGaurdian</li>
+				<li>EldarGaurdianArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>OGEArmour</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Apparel</li>
+		</tradeTags>
+		<comps>
+		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+				<PauldronEntries>
+					<li>
+						<shoulderPadType>Both</shoulderPadType>
+						<shaderType>CutoutComplex</shaderType>
+						<padTexPath>Things/Item/Apparel/Eldar/GuardianArmour/Pauldrons/Base</padTexPath>
+						<commonality>10</commonality>
+						<northtop>PostHead</northtop>
+						<southtop>Shell</southtop>
+						<easttop>PostHead</easttop>
+						<westtop>PostHead</westtop>
+					</li>
+				</PauldronEntries>
+		  </li>
+		</comps>
+		<!--
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+				<weight>10</weight>
+				<max>(1,1,0.82)</max>
+				<min>(0.906,0.937,0.776)</min>
+			</li>
+		  </options>
+		</colorGenerator>
+		-->
+	</ThingDef>
+
+	<!-- ========================= Eldar - Ranger Suit ========================== -->
+	<!--========================= 5+ ==========================-->
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
+		<defName>OGE_Apparel_RangerArmour</defName>
+		<label>ranger armour</label>
+		<description>Ranger armour is a mesh suit with Eldar carapace plates attached to it. As a result, it is very flexible, allowing Rangers to move freely. However, this flexibility comes at the expense of protection, offering protection similar to Imperial Flak armour. Another feature is the intergration of a Cameleoline overcoat, which helps Rangers to blend into their surroundings, especially in poorly-lit environments.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/RangerArmour/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>238,213,172</color> <!-- BLEACHED BONE -->
+			<colorTwo>38,55,45</colorTwo> <!-- ORKHIDE SHADE  -->
+		</graphicData>
+		<statBases>
+			<!--MarketValue>1500</MarketValue-->
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>60000</WorkToMake>
+			<ArmorRating_Blunt>0.625</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.625</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.625</ArmorRating_Heat>
+			<Insulation_Heat>30</Insulation_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
+			<Mass>3</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">5</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">6</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.01</MoveSpeed>
+			<WorkSpeedGlobal>-0.03</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+			<HuntingStealth>0.750</HuntingStealth>
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
+		</equippedStatOffsets>
+		<costList>
+			<OGE_Wraithbone>15</OGE_Wraithbone>
+			<OGE_SpiritStone>1</OGE_SpiritStone>
+			<OGE_Component>1</OGE_Component>
+			<DevilstrandCloth>70</DevilstrandCloth>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/RangerArmour/Base</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>EldarMilitary</li>
+				<li>EldarRanger</li>
+				<li>EldarRangerArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>OGEArmour</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Apparel</li>
+		</tradeTags>
+		<comps>
+		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+				<PauldronEntries>
+					<li>
+						<shoulderPadType>Both</shoulderPadType>
+						<shaderType>CutoutComplex</shaderType>
+						<padTexPath>Things/Item/Apparel/Eldar/RangerArmour/Pauldrons/Base</padTexPath>
+						<commonality>10</commonality>
+						<northtop>PostHead</northtop>
+						<southtop>Shell</southtop>
+						<easttop>PostHead</easttop>
+						<westtop>PostHead</westtop>
+					</li>
+				</PauldronEntries>
+		  </li>
+		</comps>
+		<!--
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+				<weight>10</weight>
+				<max>(1,1,0.82)</max>
+				<min>(0.906,0.937,0.776)</min>
+			</li>
+		  </options>
+		</colorGenerator>
+		-->
+	</ThingDef>
+
+	<!--========================= 4+ ==========================-->
+	<!--========================= Eldar - Avenger Armour ==========================-->
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
+		<defName>OGE_Apparel_AvengerArmour</defName>
+		<label>dire avenger armour</label>
+		<description>Like other Aeldari Aspects, Dire Avengers wear lightweight synthetic bodysuits, reinforced with plates of psycho-sensitive bioplastics that will instantly harden to resist impacts. As well as absorbing impacts, those plates can morph their shape in accordance with the wearer's movements, meaning the armour does not encumber the wearer in the slightest, affording good protection with excellent mobility.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/AvengerArmour/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>49,100,157</color>
+		</graphicData>
+		<statBases>
+			<!--MarketValue>1500</MarketValue-->
+			<MaxHitPoints>225</MaxHitPoints>
+			<WorkToMake>65000</WorkToMake>
+			<ArmorRating_Blunt>0.92</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.92</ArmorRating_Heat>
+			<Insulation_Heat>12</Insulation_Heat>
+			<Insulation_Cold>32</Insulation_Cold>
+			<Mass>6.5</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">10</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">8</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.025</MoveSpeed>
+			<WorkSpeedGlobal>-0.01</WorkSpeedGlobal>
+			<!--ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.10</PsychicSensitivity-->
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
+		</equippedStatOffsets>
+		<costList>
+			<DevilstrandCloth>15</DevilstrandCloth>
+			<OGE_Wraithbone>30</OGE_Wraithbone> <!-- 6 Steel each/120 Steel -->
+			<OGE_Component>1</OGE_Component> <!-- 4 Wraithbone(24 Steel) each/24 Steel   -->
+			<OGE_SpiritStone>1</OGE_SpiritStone> <!-- 10 Wraithbone(60 Steel), 10 Jade and 1 Eldar Component(24 Steel) each/84 Steel, 10 Jade  -->
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/AvengerArmour/Base</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>EldarMilitary</li>
+				<li>EldarAvenger</li>
+				<li>EldarAvengerArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>OGEArmour</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Apparel</li>
+		</tradeTags>
+		<comps>
+			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+				<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+				<PauldronEntries>
+					<li>
+						<shoulderPadType>Both</shoulderPadType>
+						<shaderType>CutoutComplex</shaderType>
+						<padTexPath>Things/Item/Apparel/Eldar/AvengerArmour/Pauldrons/Base</padTexPath>
+						<commonality>10</commonality>
+						<northtop>PostHead</northtop>
+						<southtop>Shell</southtop>
+						<easttop>PostHead</easttop>
+						<westtop>PostHead</westtop>
+
+					</li>
+				</PauldronEntries>
+			</li>
+		</comps>
+		<!--
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+				<weight>10</weight>
+				<max>(1,1,0.82)</max>
+				<min>(0.906,0.937,0.776)</min>
+			</li>
+		  </options>
+		</colorGenerator>
+		-->
+	</ThingDef>
+
+	<!--========================= 4+ ==========================-->
+	<!--========================= Eldar - Banshee Armour ==========================-->
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
+		<defName>OGE_Apparel_BansheeArmour</defName>
+		<label>howling banshee armour</label>
+		<description>Like other Eldar Aspects, Howling Banshees wear lightweight synthetic bodysuits, reinforced with plates of psycho-sensitive bioplastics that will instantly harden to resist impacts. Those plates can also morph their shape in accordance with the wearer's movements, meaning the armour does not encumber the wearer in the slightest, affording both good protection with excellent mobility. The reinforced breastplate of the Aspect Warrior's armour bears her Spirit Stone, a precious item for all Eldar. \n\nRegardless of a shrine's Craftworld of origin, the Aspect's colour scheme is usually bone white and flaming red. The red proclaims the Howling Banshees' ferocity and the burning passion that defines their variant of the Warrior Path. The bone white colour symbolises the eternal death the spirit of the Banshee brings to the foes of the Eldar.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/BansheeArmour/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>238,213,172</color> <!-- BLEACHED BONE -->
+			<colorTwo>25,85,60</colorTwo> <!-- DARK ANGEL GREEN -->
+		</graphicData>
+		<statBases>
+			<!--MarketValue>1500</MarketValue-->
+			<MaxHitPoints>225</MaxHitPoints>
+			<WorkToMake>55000</WorkToMake>
+			<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.85</ArmorRating_Heat>
+			<Insulation_Heat>15</Insulation_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Mass>4</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">11</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>-0.20</WorkSpeedGlobal>
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
+		</equippedStatOffsets>
+		<costList>
+			<DevilstrandCloth>35</DevilstrandCloth>
+			<OGE_Wraithbone>25</OGE_Wraithbone>
+			<OGE_SpiritStone>1</OGE_SpiritStone>
+			<OGE_Component>2</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/BansheeArmour/Base</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>EldarMilitary</li>
+				<li>EldarBanshee</li>
+				<li>EldarBansheeArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>OGEArmour</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Apparel</li>
+		</tradeTags>
+		<comps>
+		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+				<PauldronEntries>
+					<li>
+						<shoulderPadType>Both</shoulderPadType>
+						<shaderType>CutoutComplex</shaderType>
+						<padTexPath>Things/Item/Apparel/Eldar/BansheeArmour/Pauldrons/Base</padTexPath>
+						<commonality>10</commonality>
+						<northtop>PostHead</northtop>
+						<southtop>Shell</southtop>
+						<easttop>PostHead</easttop>
+						<westtop>PostHead</westtop>
+					</li>
+				</PauldronEntries>
+		  </li>
+		</comps>
+		<!--
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+				<weight>10</weight>
+				<max>(1,1,0.82)</max>
+				<min>(0.906,0.937,0.776)</min>
+			</li>
+		  </options>
+		</colorGenerator>
+		-->
+	</ThingDef>
+
+	<!--========================= Eldar - Hawk Armour ==========================-->
+	<!--========================= 4+ ==========================-->
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
+		<defName>OGE_Apparel_HawkArmour</defName>
+		<label>swooping hawk armour</label>
+		<description>Like other Aeldari Aspects, Swooping Hawks wear lightweight synthetic bodysuits, reinforced with plates of psycho-sensitive bioplastics that will instantly harden to resist impacts. These plates can morph their shape in accordance with the wearer's movements, meaning the armour does not encumber the wearer in the slightest, affording excellent protection without detracting from the Aeldari warrior's unparalleled mobility. The Swooping Hawks wear cunningly constructed wings made up of vibrating feather plates that incorporate small anti-gravitic emitters. When the Swooping Hawks take to the air, these wings vibrate with such speed they turn into a blur of colour. The Swooping Hawks' armour is often coloured blue or grey to reflect the background colour of the sky. Their wings are coloured in brilliant, vibrant shades which create dazzling polychromatic patterns when in flight. Because the Swooping Hawks have to be concerned about maintaining their maneuverability in flight, their Aspect Armour is lighter and thinner than that of other Aspect Warriors. This means they have less protection from weapon impacts or melee blows than their fellows, but their increased speed and maneuverability normally more than makes up for this lack.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/HawkArmour/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>0,129,148</color> <!-- HAWK TURQUOISE -->
+			<colorTwo>0,111,69</colorTwo> <!-- SNOT GREEN -->
+		</graphicData>
+		<statBases>
+			<!--MarketValue>1500</MarketValue-->
+			<MaxHitPoints>225</MaxHitPoints>
+			<WorkToMake>55000</WorkToMake>
+			<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.85</ArmorRating_Heat>
+			<Insulation_Heat>15</Insulation_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Mass>4</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">11</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>-0.20</WorkSpeedGlobal>
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
+		</equippedStatOffsets>
+		<costList>
+			<DevilstrandCloth>35</DevilstrandCloth>
+			<OGE_Wraithbone>25</OGE_Wraithbone>
+			<OGE_SpiritStone>1</OGE_SpiritStone>
+			<OGE_Component>2</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/HawkArmour/Base</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>EldarMilitary</li>
+				<li>EldarHawk</li>
+				<li>EldarHawkArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>OGEArmour</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Apparel</li>
+		</tradeTags>
+		<comps>
+			<li Class="AbilitesExtended.CompProperties_AbilityItem">
+				<Abilities>
+					<li>OGE_Ability_HawkJump</li>
+				</Abilities>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+				<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+				<PauldronEntries>
+					<li>
+						<shoulderPadType>Both</shoulderPadType>
+						<shaderType>CutoutComplex</shaderType>
+						<padTexPath>Things/Item/Apparel/Eldar/HawkArmour/Pauldrons/Pauldron</padTexPath>
+						<commonality>10</commonality>
+						<northtop>PostHead</northtop>
+						<southtop>Shell</southtop>
+						<easttop>PostHead</easttop>
+						<westtop>PostHead</westtop>
+					</li>
+				</PauldronEntries>
+				<NorthOffset>0,0.0,-0.10</NorthOffset>
+				<SouthOffset>0,0.0,0</SouthOffset>
+				<EastOffset>0,0.0,0</EastOffset>
+				<WestOffset>0,0.0,0</WestOffset>
+			</li>
+		</comps>
+		<!--
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+				<weight>10</weight>
+				<max>(1,1,0.82)</max>
+				<min>(0.906,0.937,0.776)</min>
+			</li>
+		  </options>
+		</colorGenerator>
+		-->
+	</ThingDef>
+
+	<!--========================= Eldar - Dragon Armour ==========================-->
+	<!--========================= 4+ ==========================-->
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
+		<defName>OGE_Apparel_DragonArmour</defName>
+		<label>fire dragon armour</label>
+		<description>Like other Asuryani Aspects, Fire Dragons wear lightweight synthetic bodysuits, reinforced with plates of psycho-sensitive bioplastics that will instantly harden to resist impacts. As well as providing protection, those plates can alter their shape in accordance with the wearer's movements, meaning the armour does not encumber the wearer in the slightest, affording good protection as well as excellent mobility. Fire Dragon Aspect Armour is thicker than that of a Dire Avenger or most other Aspect Warriors, and has many spiny protrusions which help to make it stiffer and more resilient. This is important because the Fire Dragons' weapons have a relatively short range, so they must close with their enemies in order to deliver a murderous blast of heat from their fusion-based weaponry.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/DragonArmour/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<colorTwo>197,160,9</colorTwo>
+			<color>244,121,32</color> <!-- FIERY ORANGE -->
+		</graphicData>
+		<statBases>
+			<!--MarketValue>1500</MarketValue-->
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>65000</WorkToMake>
+			<ArmorRating_Blunt>0.98</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.98</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.98</ArmorRating_Heat>
+			<Insulation_Heat>50</Insulation_Heat>
+			<Insulation_Cold>12</Insulation_Cold>
+			<Mass>7</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">11</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">9</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.10</PsychicSensitivity>
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
+		</equippedStatOffsets>
+		<costList>
+			<DevilstrandCloth>35</DevilstrandCloth>
+			<OGE_Wraithbone>30</OGE_Wraithbone>
+			<OGE_SpiritStone>1</OGE_SpiritStone>
+			<OGE_Component>2</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/DragonArmour/Base</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>EldarMilitary</li>
+				<li>EldarDragon</li>
+				<li>EldarDragonArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>OGEArmour</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Apparel</li>
+		</tradeTags>
+		<comps>
+		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+				<PauldronEntries>
+					<li>
+						<shoulderPadType>Both</shoulderPadType>
+						<shaderType>CutoutComplex</shaderType>
+						<padTexPath>Things/Item/Apparel/Eldar/DragonArmour/Pauldrons/Pauldron</padTexPath>
+						<commonality>10</commonality>
+						<northtop>PostHead</northtop>
+						<southtop>Shell</southtop>
+						<easttop>PostHead</easttop>
+						<westtop>PostHead</westtop>
+					</li>
+				</PauldronEntries>
+		  </li>
+		</comps>
+		<!--
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+				<weight>10</weight>
+				<max>(1,1,0.82)</max>
+				<min>(0.906,0.937,0.776)</min>
+			</li>
+		  </options>
+		</colorGenerator>
+		-->
+	</ThingDef>
+
+	<!--========================= Eldar - Scorpion Armour ==========================-->
+	<!--========================= 3+ ==========================-->
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
+		<defName>OGE_Apparel_ScorpionArmour</defName>
+		<label>striking scorpion armour</label>
+		<description>Like other Aeldari Aspects, Striking Scorpions wear lightweight synthetic bodysuits, reinforced with plates of psycho-sensitive bioplastics that will instantly harden to resist impacts. Those plates can morph their shape in accordance with the wearer's movements, meaning the armour does not encumber the wearer in the slightest, providing good protection with unencumbered mobility. The Aspect Armour of the Striking Scorpions is similar in construction to that of other Aspect Shrines, but incorporates heavier, rigid armour plating for increased protection. While the extra weight of their Aspect Armour means Striking Scorpions are not as swift as their Howling Banshee counterparts, the protection it provides is similar to that of Imperial Power Armour.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/ScorpionArmour/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>101,179,69</color> <!-- SCORPION GREEN -->
+			<colorTwo>0,111,69</colorTwo> <!-- SNOT GREEN -->
+		</graphicData>
+		<statBases>
+			<!--MarketValue>1500</MarketValue-->
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>65000</WorkToMake>
+			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.06</ArmorRating_Heat>
+			<Insulation_Heat>12</Insulation_Heat>
+			<Insulation_Cold>32</Insulation_Cold>
+			<Mass>7</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">11</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">9</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.10</PsychicSensitivity>
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
+		</equippedStatOffsets>
+		<costList>
+			<DevilstrandCloth>20</DevilstrandCloth>
+			<OGE_Wraithbone>30</OGE_Wraithbone>
+			<OGE_SpiritStone>1</OGE_SpiritStone>
+			<OGE_Component>2</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/ScorpionArmour/Base</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>EldarMilitary</li>
+				<li>EldarScorpion</li>
+				<li>EldarScorpionArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>OGEArmour</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Apparel</li>
+		</tradeTags>
+		<comps>
+		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+				<PauldronEntries>
+					<li>
+						<shoulderPadType>Both</shoulderPadType>
+						<shaderType>CutoutComplex</shaderType>
+						<padTexPath>Things/Item/Apparel/Eldar/ScorpionArmour/Pauldrons/Pauldron</padTexPath>
+						<commonality>10</commonality>
+						<northtop>PostHead</northtop>
+						<southtop>Shell</southtop>
+						<easttop>PostHead</easttop>
+						<westtop>PostHead</westtop>
+					</li>
+				</PauldronEntries>
+		  </li>
+		</comps>
+		<!--
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+				<weight>10</weight>
+				<max>(1,1,0.82)</max>
+				<min>(0.906,0.937,0.776)</min>
+			</li>
+		  </options>
+		</colorGenerator>
+		-->
+	</ThingDef>
+
+	<!--========================= Eldar - Spider Armour ==========================-->
+	<!--========================= 3+ ==========================-->
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
+		<defName>OGE_Apparel_SpiderArmour</defName>
+		<label>warp spider armour</label>
+		<description>Like other Aeldari Aspects, Warp Spiders wear lightweight synthetic bodysuits, reinforced with plates of psycho-sensitive bioplastics that will instantly harden to resist impacts. These plates can also morph their shape in accordance with the wearer's movements, meaning the armour does not encumber the wearer in the slightest, offering both good protection with excellent mobility. Using a compact Warp Spider Jump Generator housed within their armoured backpack, they utilise to make short Warp-jumps, disappearing and reappearing in the blink of an eye. This enables them to make totally unexpected attacks upon their foes, though it does necessitate spending a short time unshielded in the Warp. For this reason, the Warp Spiders risk not only their lives in the name of the victory, but also their souls. Warp Spider Aspect Armour is much bulkier compared to that worn by other Aspect Warriors, making the Warp Spiders more heavily armoured than their fellows but also among the slowest of the usually highly mobile Aeldari Aspects, the protection it provides is similar to that of Imperial Power Armour.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/SpiderArmour/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>168,32,20</color> <!-- MECHRITE RED -->
+			<colorTwo>26,33,61</colorTwo> <!-- NECRON ABYSS -->
+		</graphicData>
+		<statBases>
+			<!--MarketValue>1500</MarketValue-->
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>65000</WorkToMake>
+			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.06</ArmorRating_Heat>
+			<Insulation_Heat>12</Insulation_Heat>
+			<Insulation_Cold>32</Insulation_Cold>
+			<Mass>7</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">11</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">9</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.10</PsychicSensitivity>
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
+		</equippedStatOffsets>
+		<costList>
+			<DevilstrandCloth>20</DevilstrandCloth>
+			<OGE_Wraithbone>30</OGE_Wraithbone>
+			<OGE_SpiritStone>1</OGE_SpiritStone>
+			<OGE_Component>2</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/SpiderArmour/Base</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>EldarMilitary</li>
+				<li>EldarSpider</li>
+				<li>EldarSpiderArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>OGEArmour</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Apparel</li>
+		</tradeTags>
+		<comps>
+			<li Class="AbilitesExtended.CompProperties_AbilityItem">
+				<Abilities>
+					<li>OGE_Ability_SpiderJump</li>
+				</Abilities>
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+				<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+				<PauldronEntries>
+					<li>
+						<shoulderPadType>Backpack</shoulderPadType>
+						<shaderType>CutoutComplex</shaderType>
+						<padTexPath>Things/Item/Apparel/Eldar/SpiderArmour/Backpack/Base</padTexPath>
+						<commonality>10</commonality>
+						<northtop>PostHead</northtop>
+						<southtop>Shell</southtop>
+						<easttop>PostHead</easttop>
+					</li>
+				</PauldronEntries>
+			</li>
+		</comps>
+		<!--
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+				<weight>10</weight>
+				<max>(1,1,0.82)</max>
+				<min>(0.906,0.937,0.776)</min>
+			</li>
+		  </options>
+		</colorGenerator>
+		-->
+	</ThingDef>
+
+	<!--========================= Eldar - Reaper Armour ==========================-->
+	<!--========================= 3+ ==========================-->
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
+		<defName>OGE_Apparel_ReaperArmour</defName>
+		<label>dark reaper armour</label>
+		<description>Like other Aeldari Aspects, Dark Reapers wear lightweight synthetic bodysuits, reinforced with plates of psycho-sensitive bioplastics that will instantly harden to resist impacts. As well as absorbing impacts, those plates can morph their shape in accordance with the wearer's movements, meaning the armour does not encumber the wearer in the slightest, affording good protection with excellent mobility. The Dark Reapers pride themselves on their accuracy. To absorb the recoil of firing the Reaper Launcher and maintain a steady firing position, the powered limb supports include lower leg armour and boots fitted with stabilisers and clamps to secure the Dark Reaper to the ground.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/ReaperArmour/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>26,33,61</color> <!-- NECRON ABYSS -->
+			<colorTwo>238,213,1720</colorTwo> <!-- BLEACHED BONE -->
+		</graphicData>
+		<statBases>
+			<!--MarketValue>1500</MarketValue-->
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>65000</WorkToMake>
+			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.06</ArmorRating_Heat>
+			<Insulation_Heat>12</Insulation_Heat>
+			<Insulation_Cold>32</Insulation_Cold>
+			<Mass>7</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">11</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">9</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.10</PsychicSensitivity>
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
+		</equippedStatOffsets>
+		<costList>
+			<DevilstrandCloth>20</DevilstrandCloth>
+			<OGE_Wraithbone>30</OGE_Wraithbone>
+			<OGE_SpiritStone>1</OGE_SpiritStone>
+			<OGE_Component>2</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/ReaperArmour/Base</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>EldarMilitary</li>
+				<li>EldarReaper</li>
+				<li>EldarReaperArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>OGEArmour</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Apparel</li>
+		</tradeTags>
+		<comps>
+		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+				<PauldronEntries>
+					<li>
+						<shoulderPadType>Backpack</shoulderPadType>
+						<shaderType>CutoutComplex</shaderType>
+						<padTexPath>Things/Item/Apparel/Eldar/ReaperArmour/Pauldrons/Base</padTexPath>
+						<commonality>10</commonality>
+						<northtop>PostHead</northtop>
+						<easttop>PostHead</easttop>
+					</li>
+				</PauldronEntries>
+		  </li>
+		</comps>
+		<!--
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+				<weight>10</weight>
+				<max>(1,1,0.82)</max>
+				<min>(0.906,0.937,0.776)</min>
+			</li>
+		  </options>
+		</colorGenerator>
+		-->
+	</ThingDef>
+
+	<!--========================= Eldar - Warlock Rune Armour ==========================-->
+	<!--========================= 6+/4+ ==========================-->
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
+		<defName>OGE_Apparel_RuneArmourWarlock</defName>
+		<label>warlock rune armour</label>
+		<description>Warlock Rune Armour is a protective wraithbone armour suit psychically moulded to its Eldar recipient. It provides greater protection than other, bulkier forms of armour, in part because its psychic energy can deflect a shot or blast before it hits the armour. Even lascannons and Plasma Weapons can be turned aside by Rune Armour. This Rune Armour is worn only by Warlocks.\n\nONLY WEARABLE BY ELDAR!</description>
+		<tickerType>Normal</tickerType>
+		<thingClass>AdeptusMechanicus.PsychicShield</thingClass>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/WarlockArmour/_Icon</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>238,213,172</color> <!-- BLEACHED BONE -->
+		</graphicData>
+		<statBases>
+			<!--MarketValue>1500</MarketValue-->
+			<MaxHitPoints>175</MaxHitPoints>
+			<WorkToMake>60000</WorkToMake>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.35</ArmorRating_Heat>
+			<Insulation_Heat>10</Insulation_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
+			<Mass>4</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">6</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">7</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.03</MoveSpeed>
+			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.10</PsychicSensitivity>
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
+		</equippedStatOffsets>
+		<costList>
+			<OGE_Wraithbone>15</OGE_Wraithbone>
+			<OGE_SpiritStone>3</OGE_SpiritStone>
+			<OGE_Component>4</OGE_Component>
+			<Hyperweave>10</Hyperweave>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T3</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/WarlockArmour/Base</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>EldarMilitary</li>
+				<li>EldarWarlock</li>
+				<li>EldarWarlockArmour</li>
+				<li>EldarRuneArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>OGEArmour</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Apparel</li>
+		</tradeTags>
+		<comps>
+			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+				<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+				<drawAll>true</drawAll>
+				<PauldronEntries>
+					<li>
+						<shoulderPadType>Both</shoulderPadType>
+						<shaderType>CutoutComplex</shaderType>
+						<padTexPath>Things/Item/Apparel/Eldar/WarlockArmour/Pauldrons/Pauldron</padTexPath>
+						<commonality>10</commonality>
+						<northtop>PostHead</northtop>
+						<southtop>Shell</southtop>
+						<easttop>PostHead</easttop>
+						<westtop>PostHead</westtop>
+					</li>
+				</PauldronEntries>
+				<!--NorthOffset>0,0.5,0</NorthOffset>
+				<SouthOffset>0,-0.001,0</SouthOffset>
+				<EastOffset>0,0.35,0</EastOffset>
+				<WestOffset>0,0.35,0</WestOffset-->
+			</li>
+			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+				<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+				<saveKey>1</saveKey>
+				<PauldronEntries>
+					<li>
+						<shoulderPadType>Both</shoulderPadType>
+						<shaderType>CutoutComplex</shaderType>
+						<padTexPath>Things/Item/Apparel/Eldar/Overcoat/Robe</padTexPath>
+						<overridePrimaryColor>1,1,1</overridePrimaryColor>
+						<!-- <overridePrimaryColor>1,1,1</overridePrimaryColor> -->
+						<!-- <overridePrimaryColor>0.441,0.32,0.118</overridePrimaryColor> -->
+						<!-- <overrideSecondaryColor>1,1,1</overrideSecondaryColor> -->
+						<!-- <overrideSecondaryColor>0.441,0.32,0.118</overrideSecondaryColor> -->
+						<commonality>10</commonality>
+						<northtop>PostHead</northtop>
+						<southtop>Shell</southtop>
+						<easttop>PostHead</easttop>
+						<westtop>PostHead</westtop>
+					</li>
+				</PauldronEntries>
+				<PauldronEntryChance>0.5</PauldronEntryChance>
+				<!--NorthOffset>0,-0.13,0</NorthOffset>
+				<SouthOffset>0,-0.027,0</SouthOffset>
+				<EastOffset>0,-0.375,0</EastOffset>
+				<WestOffset>0,-0.375,0</WestOffset-->
+			</li>
+		</comps>
+		<!--
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<max>(1,1,0.82)</max>
+					<min>(0.906,0.937,0.776)</min>
+				</li>
+			</options>
+		</colorGenerator>
+		-->
+	</ThingDef>
+
+	<!--========================= Eldar - Rune Armour ==========================-->
+	<!--========================= 6+/4+ ==========================-->
+	<ThingDef ParentName="OG_Eldar_Apparel_Armor_Makeable">
+		<defName>OGE_Apparel_RuneArmourFarseer</defName>
+		<label>farseer rune armour</label>
+		<description>Farseer Rune Armour is a protective wraithbone armour suit psychically moulded to its Eldar recipient. It provides greater protection than other, bulkier forms of armour, in part because its psychic energy can deflect a shot or blast before it hits the armour. Even lascannons and Plasma Weapons can be turned aside by Rune Armour. Rune Armour is worn only by Farseers.\n\nONLY WEARABLE BY ELDAR!</description>
+		<tickerType>Normal</tickerType>
+		<thingClass>AdeptusMechanicus.PsychicShield</thingClass>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/RuneArmour/_Icon</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>238,213,172</color> <!-- BLEACHED BONE -->
+			<colorTwo>70,63,57</colorTwo> <!-- CHARADON GRANITE -->
+		</graphicData>
+		<statBases>
+			<!--MarketValue>1500</MarketValue-->
+			<MaxHitPoints>175</MaxHitPoints>
+			<WorkToMake>60000</WorkToMake>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.5</ArmorRating_Heat>
+			<Insulation_Heat>30</Insulation_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
+			<Mass>4</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">6.5</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">7.5</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.03</MoveSpeed>
+			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.10</PsychicSensitivity>
+			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
+			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
+		</equippedStatOffsets>
+		<costList>
+			<Hyperweave>30</Hyperweave>
+			<OGE_Wraithbone>30</OGE_Wraithbone>
+			<OGE_SpiritStone>3</OGE_SpiritStone>
+			<OGE_Component>6</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T3</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li MayRequire="CETeam.CombatExtended">Hands</li>
+				<li MayRequire="CETeam.CombatExtended">Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/RuneArmour/Base</wornGraphicPath>
+			<!-- <wornGraphicPath>Things/Item/Apparel/Eldar/WarlockArmour/Base</wornGraphicPath> -->
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>EldarMilitary</li>
+				<li>EldarPsyker</li>
+				<li>EldarFarseer</li>
+				<li>EldarFarseerArmour</li>
+				<li>EldarRuneArmour</li>
+				<li>EVA</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>OGEArmour</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Apparel</li>
+		</tradeTags>
+		<comps>
+		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+				<PauldronEntries>
+					<li>
+						<shoulderPadType>Both</shoulderPadType>
+						<bodyspecificTextures>false</bodyspecificTextures>
+						<shaderType>CutoutComplex</shaderType>
+						<padTexPath>Things/Item/Apparel/Eldar/RuneArmour/Pauldrons/Base</padTexPath>
+						<commonality>10</commonality>
+						<northtop>PostHead</northtop>
+						<southtop>Shell</southtop>
+						<easttop>PostHead</easttop>
+						<westtop>PostHead</westtop>
+					</li>
+				</PauldronEntries>
+				<!--NorthOffset>0,0.5,0</NorthOffset>
+				<SouthOffset>0,-0.001,0</SouthOffset>
+				<EastOffset>0,0.35,0</EastOffset>
+				<WestOffset>0,0.35,0</WestOffset-->
+		  </li>
+		  <!--
+		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
+				<PauldronEntries>
+					<li>
+						<shoulderPadType>Both</shoulderPadType>
+						<shaderType>CutoutComplex</shaderType>
+						<padTexPath>Things/Item/Apparel/Eldar/Overcoat/Robe</padTexPath>
+						<PrimaryColor>1,1,1</PrimaryColor>
+						<commonality>10</commonality>
+					</li>
+				</PauldronEntries>
+				<NorthOffset>0,-0.13,0</NorthOffset>
+				<SouthOffset>0,-0.027,0</SouthOffset>
+				<EastOffset>0,-0.15,0</EastOffset>
+				<WestOffset>0,-0.15,0</WestOffset>
+		  </li>
+		  -->
+		</comps>
+		<!--
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+				<weight>10</weight>
+				<max>(1,1,0.82)</max>
+				<min>(0.906,0.937,0.776)</min>
+			</li>
+		  </options>
+		</colorGenerator>
+		-->
+	</ThingDef>
+	
+</Defs>

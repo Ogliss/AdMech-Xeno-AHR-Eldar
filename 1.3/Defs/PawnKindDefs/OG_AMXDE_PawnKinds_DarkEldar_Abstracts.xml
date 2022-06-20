@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ============================ Dark Eldar Base ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_BaseKind">
+		<defaultFactionType>OG_DarkEldar_Kabal_Faction</defaultFactionType>
+		<race>OG_Alien_DarkEldar</race>
+		<chemicalAddictionChance>0.015</chemicalAddictionChance>
+		<baseRecruitDifficulty>1</baseRecruitDifficulty>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<modExtensions>
+			<li Class="AlienRace.Info">
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>0.5</maleGenderProbability>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Civilian Base ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_Civ_BaseKind" ParentName="OG_DarkEldar_BaseKind">
+		<combatPower>25</combatPower>
+		<itemQuality>Normal</itemQuality>
+		<isFighter>false</isFighter>
+		<gearHealthRange>
+			<min>0.2</min>
+			<max>2.0</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>300</min>
+			<max>900</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>750</min>
+			<max>750</max>
+		</weaponMoney>
+		<weaponTags>
+		<li>DESplinterPistol</li>
+		</weaponTags>
+		<techHediffsMoney>
+			<min>200</min>
+			<max>300</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+		<techHediffsChance>0.51</techHediffsChance>
+		<invNutrition>2.55</invNutrition>
+		<inventoryOptions>
+			<skipChance>0.75</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>90</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>25</min>
+						<max>70</max>
+					</countRange>
+				</li>
+				<li>
+					<choiceChance>10</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>700</min>
+						<max>1000</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<modExtensions>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>2</min>
+					<max>5</max>
+				</primaryMagazineCount>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Civilians ========================== -->
+	<!-- ============================ Dark Eldar Faction Leader Archon ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_Archon_FactionBase" ParentName="OG_DarkEldar_Civ_BaseKind">
+		<label>grand archon</label>
+		<labelPlural>grand archons</labelPlural>
+		<factionLeader>true</factionLeader>
+		<isFighter>true</isFighter>
+		<gearHealthRange>
+			<min>0.5</min>
+			<max>2.0</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>1000</min>
+			<max>5000</max>
+		</apparelMoney>
+		<apparelTags>
+			<li>DarkEldar</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>10000</min>
+			<max>15500</max>
+		</weaponMoney>
+		<weaponTags>
+		<li>ESingingSpear</li>
+		</weaponTags>
+		<techHediffsMoney>
+			<min>200</min>
+			<max>300</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Kabal_Archon</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelRequired>
+			<li>OGDE_Apparel_Armor_Archon</li>
+			<li>OGDE_Apparel_Armor_ArchonHelmet</li>
+		</apparelRequired>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Faction Traders ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_TraderBase" ParentName="OG_DarkEldar_Civ_BaseKind">
+		<label>dark eldar trader</label>
+		<trader>true</trader>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Civilian</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Faction Slave ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_SlaveBase" ParentName="OG_DarkEldar_Civ_BaseKind">
+		<defName>Slave_OG_DarkEldar</defName>
+		<label>dark eldar slave</label>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Standard</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Security ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_CadetBase" ParentName="OG_DarkEldar_Civ_BaseKind">
+		<label>dark eldar warrior</label>
+		<combatPower>50</combatPower>
+		<maxGenerationAge>700</maxGenerationAge>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Civilian</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<gearHealthRange>
+			<min>0.5</min>
+			<max>1.8</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>300</min>
+			<max>1500</max>
+		</apparelMoney>
+		<apparelTags>
+			<li>Neolithic</li>
+			<li>DarkEldarMilitary</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>500</min>
+			<max>1500</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>DEGun</li>
+		</weaponTags>
+		<techHediffsMoney>
+			<min>200</min>
+			<max>500</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+		<techHediffsChance>0.20</techHediffsChance>
+		<invNutrition>2.55</invNutrition>
+		<inventoryOptions>
+			<skipChance>0.95</skipChance>
+			<thingDef>Silver</thingDef>
+			<countRange>
+				<min>30</min>
+				<max>100</max>
+			</countRange>
+		</inventoryOptions>
+		<apparelRequired>
+			<li>OGDE_Apparel_Armor_Kabalite</li>
+			<li>OGDE_Apparel_Armor_KabaliteHelmet</li>
+		</apparelRequired>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Military Base ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_Mil_BaseKind" ParentName="OG_DarkEldar_BaseKind">
+		<chemicalAddictionChance>0</chemicalAddictionChance>
+		<isFighter>true</isFighter>
+		<invNutrition>2.55</invNutrition>
+		<itemQuality>Normal</itemQuality>
+		<minGenerationAge>30</minGenerationAge>
+		<maxGenerationAge>10000</maxGenerationAge>
+		<gearHealthRange>
+			<min>0.7</min>
+			<max>2.3</max>
+		</gearHealthRange>
+		<apparelTags>
+			<li>Outlander</li>
+			<li>Military</li>
+			<li>DarkEldarMilitary</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>1500</min>
+			<max>2800</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>2750</min>
+			<max>7500</max>
+		</weaponMoney>
+		<techHediffsMoney>
+			<min>1000</min>
+			<max>1500</max>
+		</techHediffsMoney>
+		<inventoryOptions>
+			<skipChance>0.8</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>50</min>
+						<max>200</max>
+					</countRange>
+				</li>
+				<li>
+					<thingDef>MedicineIndustrial</thingDef>
+					<countRange>
+						<min>1</min>
+						<max>1</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<modExtensions>
+		<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.LoadoutPropertiesExtension">
+			<primaryMagazineCount>
+				<min>5</min>
+				<max>8</max>
+			</primaryMagazineCount>
+		</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Military ========================== -->	
+	<!-- ============================ Dark Eldar Kabalite Base ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_KabaliteBase" ParentName="OG_DarkEldar_Mil_BaseKind">
+		<label>Dark Eldar Kabalite</label>
+		<combatPower>50</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Kabal_Warrior</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelTags>
+			<li>DarkEldarBasic</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>OGDE_Apparel_Armor_Kabalite</li>
+			<li>OGDE_Apparel_Armor_KabaliteHelmet</li>
+		</apparelRequired>
+	</PawnKindDef>	
+
+	<!-- ============================ Dark Eldar Kabalite Ranged ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_Kabalite_WarriorBase" ParentName="OG_DarkEldar_KabaliteBase">
+		<label>Kabalite Warrior</label>
+		<combatPower>50</combatPower>
+		<weaponTags>
+			<li>EShurikenCatapult</li>
+			<li>EFusionGun</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Kabalite Melee ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_Kabalite_StormBase" ParentName="OG_DarkEldar_KabaliteBase">
+		<combatPower>50</combatPower>
+		<label>Kabalite Warrior</label>
+		<weaponTags>
+			<li>EShurikenPistol</li>
+			<li>EScorpionChainsword</li>
+			<li>EPowerSword</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Kabalite Support ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_Kabalite_SupportBase" ParentName="OG_DarkEldar_KabaliteBase">
+		<label>Kabalite Warrior</label>
+		<combatPower>100</combatPower>
+		<weaponTags>
+			<li>EShurikenCannon</li>
+			<li>EStarcannon</li>
+			<li>EBrightlance</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Elite Warrior Base ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_Vetran_Base" ParentName="OG_DarkEldar_Mil_BaseKind">
+		<label>Elite Warrior</label>
+		<combatPower>75</combatPower>
+		<minGenerationAge>2000</minGenerationAge>
+		<!--backstoryFiltersOverride>
+			<li>
+				<categories>
+		
+				</categories>
+			</li>
+		</backstoryFilters-->
+		<gearHealthRange>
+			<min>0.7</min>
+			<max>2.3</max>
+		</gearHealthRange>
+		<apparelTags>
+		<li>DarkEldarMilitary</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>1500</min>
+			<max>6500</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>8550</min>
+			<max>15800</max>
+		</weaponMoney>
+		<techHediffsMoney>
+			<min>1000</min>
+			<max>1500</max>
+		</techHediffsMoney>
+		<combatEnhancingDrugsCount>
+			<min>0</min>
+			<max>2</max>
+		</combatEnhancingDrugsCount>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<techHediffsChance>0.73</techHediffsChance>
+		<inventoryOptions>
+			<skipChance>0.8</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>50</min>
+						<max>200</max>
+					</countRange>
+				</li>
+				<li>
+					<thingDef>MedicineIndustrial</thingDef>
+					<countRange>
+						<min>1</min>
+						<max>1</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Aspect Warrior Exarch Base ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_Elite_Base" ParentName="OG_DarkEldar_Vetran_Base">
+		<!--backstoryFiltersOverride>
+			<li>
+				<categories>
+		
+				</categories>
+			</li>
+		</backstoryFilters-->
+		<gearHealthRange>
+			<min>1.7</min>
+			<max>2.3</max>
+		</gearHealthRange>
+		<apparelTags>
+		<li>DarkEldarMilitary</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>1500</min>
+			<max>6500</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>15800</min>
+			<max>15800</max>
+		</weaponMoney>
+		<techHediffsMoney>
+			<min>1000</min>
+			<max>1500</max>
+		</techHediffsMoney>
+		<combatEnhancingDrugsCount>
+			<min>0</min>
+			<max>2</max>
+		</combatEnhancingDrugsCount>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<techHediffsChance>0.73</techHediffsChance>
+		<inventoryOptions>
+			<skipChance>0.8</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>50</min>
+						<max>200</max>
+					</countRange>
+				</li>
+				<li>
+					<thingDef>MedicineIndustrial</thingDef>
+					<countRange>
+						<min>1</min>
+						<max>1</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+	
+	<!-- ============================ Dark Eldar Sybarite ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_Kabalite_SybariteBase" ParentName="OG_DarkEldar_Elite_Base">
+		<label>sybalite</label>
+		<combatPower>90</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Kabal_Sybarite_Elite</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags>
+			<li>EShurikenCatapultA</li>
+			<li>EShurikenPistol</li>
+			<li>EDireSword</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Wych ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_WychBase" ParentName="OG_DarkEldar_Vetran_Base">
+		<label>Wych</label>
+		<combatPower>75</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Cult_Wych</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags>
+			<li>EShurikenPistol</li>
+			<li>EPowerSword</li>
+			<li>EMirrorsword</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>OGDE_Apparel_Armor_Wych</li>
+			<li>OGDE_Apparel_Armor_WychHelmet</li>
+		</apparelRequired>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Wych Exarch ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_Wych_ExarchBase" ParentName="OG_DarkEldar_Elite_Base">
+		<label>Howling Banshee Exarch</label>
+		<combatPower>100</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Cult_Wych_Elite</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags>
+			<li>EShurikenPistol</li>
+			<li>EPowerSword</li>
+			<li>EMirrorsword</li>
+			<li>EDMirrorswords</li>
+			<li>EExecutioner</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>OGDE_Apparel_Armor_Wych</li>
+			<li>OGDE_Apparel_Armor_WychHelmet</li>
+		</apparelRequired>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Hellion ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_HellionBase" ParentName="OG_DarkEldar_Vetran_Base">
+		<label>Hellion</label>
+		<combatPower>75</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Kabal_Hellion</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags>
+			<li>EFusionGun</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>OGDE_Apparel_Armor_Hellion</li>
+			<li>OGDE_Apparel_Armor_HellionHelmet</li>
+		</apparelRequired>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Hellion Exarch ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_Hellion_EliteBase" ParentName="OG_DarkEldar_Elite_Base">
+		<label>Hellion</label>
+		<combatPower>100</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+				<li>DarkEldar_Kabal_Hellion_Elite</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags>
+			<li>EFusionGun</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>OGDE_Apparel_Armor_Hellion</li>
+			<li>OGDE_Apparel_Armor_HellionHelmet</li>
+		</apparelRequired>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Scourge ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_ScourgeBase" ParentName="OG_DarkEldar_Vetran_Base">
+		<label>scourge</label>
+		<combatPower>75</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Kabal_Scourge</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags>
+			<li>ELasblaster</li>
+		</weaponTags>
+		<apparelRequired>
+			<!--li>OGDE_Apparel_Armor_Scourge</li-->
+			<li>OGDE_Apparel_Armor_ScourgeHelmet</li>
+		</apparelRequired>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Haemonculus ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_HaemonculusBase" ParentName="OG_DarkEldar_Vetran_Base">
+		<label>haemonculus</label>
+		<combatPower>75</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Coven_Haemonculus</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags>
+			<li>EShurikenCannon</li>
+		</weaponTags>
+		<!--apparelRequired>
+			<li>OGDE_Apparel_Armor_Haemonculus</li>
+			<li>OGDE_Apparel_Armor_HaemonculusHelmet</li>
+		</apparelRequired-->
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Haemonculus Exarch ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_Haemonculus_ExarchBase" ParentName="OG_DarkEldar_Elite_Base">
+		<label>haemonculus Exarch</label>
+		<combatPower>100</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Coven_Haemonculus_Elite</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags>
+			<li>EShurikenCannon</li>
+			<li>EStarcannon</li>
+			<li>EBrightlance</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>OGDE_Apparel_Armor_Haemonculus</li>
+			<li>OGDE_Apparel_Armor_HaemonculusHelmet</li>
+		</apparelRequired>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Incubi ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_IncubiBase" ParentName="OG_DarkEldar_Vetran_Base">
+		<label>incubi</label>
+		<combatPower>75</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Klave_Incubi</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags>
+			<li>EShurikenPistol</li>
+			<li>EScorpionChainsword</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>OGDE_Apparel_Armor_Incubi</li>
+			<li>OGDE_Apparel_Armor_IncubiHelmet</li>
+		</apparelRequired>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Incubi Exarch ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_Incubi_LordBase" ParentName="OG_DarkEldar_Elite_Base">
+		<label>Incubi Lord</label>
+		<combatPower>100</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Klave_Incubi_Lord</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags>
+			<li>EShurikenPistol</li>
+			<li>EBitingBlade</li>
+			<li>EScorpionsClaw</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>OGDE_Apparel_Armor_Incubi</li>
+			<li>OGDE_Apparel_Armor_IncubiHelmet</li>
+		</apparelRequired>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Medusae ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_MedusaeBase" ParentName="OG_DarkEldar_Mil_BaseKind">
+		<label>medusae</label>
+		<combatPower>125</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Medusae</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags>
+			<li>EShurikenPistol</li>
+			<li>EPsykerMelee</li>
+		</weaponTags>
+		<apparelRequired>
+			<!--li>OGDE_Apparel_Armor_Medusae</li>
+			<li>OGDE_Apparel_Armor_MedusaeHelmet</li-->
+		</apparelRequired>
+	</PawnKindDef>
+
+	<!-- ============================ Dark Eldar Archon ========================== -->
+	<PawnKindDef Abstract="True" Name="OG_DarkEldar_ArchonBase" ParentName="OG_DarkEldar_Mil_BaseKind">
+		<label>archon</label>
+		<combatPower>150</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Kabal_Archon</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<gearHealthRange>
+			<min>0.8</min>
+			<max>3.5</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>3000</min>
+			<max>9000</max>
+		</apparelMoney>
+		<apparelTags>
+		</apparelTags>
+		<weaponMoney>
+			<min>15500</min>
+			<max>15500</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>EShurikenCatapult</li>
+			<li>EEliteGun</li>
+			<li>EHeavyGun</li>
+			<li>OGDEMelee</li>
+		</weaponTags>
+		<techHediffsMoney>
+			<min>2000</min>
+			<max>3000</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<techHediffsChance>0.80</techHediffsChance>
+		<combatEnhancingDrugsCount>
+			<min>1</min>
+			<max>2</max>
+		</combatEnhancingDrugsCount>
+		<combatEnhancingDrugsChance>0.1</combatEnhancingDrugsChance>
+		<inventoryOptions>
+			<skipChance>0.8</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>120</min>
+						<max>480</max>
+					</countRange>
+				</li>
+				<li>
+					<thingDef>MedicineIndustrial</thingDef>
+					<countRange>
+						<min>1</min>
+						<max>2</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<apparelRequired>
+			<li>OGDE_Apparel_Armor_Archon</li>
+			<li>OGDE_Apparel_Armor_ArchonHelmet</li>
+		</apparelRequired>
+	</PawnKindDef>
+
+</Defs>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--TerrainDef ParentName="FloorBase">
+		<defName>VeinSoilFlesh</defName>
+		<label>Vein Soil Flesh Floor</label>
+		<description>Tech Plate Floor. Fast to walk on and very quick to build, but neutral in terms of looks.</description>
+		<texturePath>Terrain/Surfaces/VeinSoilFlesh</texturePath>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>250</renderPrecedence>
+		<color>(175,175,175)</color>
+		<statBases>
+			<WorkToBuild>120</WorkToBuild>
+			<Beauty>10</Beauty>
+		</statBases>
+		<costList>
+			<OGDE_KabalFavor>1</OGDE_KabalFavor>
+		</costList>
+		<constructEffect>ConstructMetal</constructEffect>
+		<designationCategory>Floors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>KabalBrick</defName>
+		<label>Kabal Brick Floor</label>
+		<description>Tech Plate Floor. Fast to walk on and very quick to build, but neutral in terms of looks.</description>
+		<texturePath>Terrain/Surfaces/BloodBrick</texturePath>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>250</renderPrecedence>
+		<color>(175,175,175)</color>
+		<statBases>
+			<WorkToBuild>85</WorkToBuild>
+			<Beauty>3</Beauty>
+		</statBases>
+		<costList>
+			<Steel>3</Steel>
+		</costList>
+		<constructEffect>ConstructMetal</constructEffect>
+		<designationCategory>Floors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>MoltenTerrain</defName>
+		<label>Molten Terrain</label>
+		<description>Tech Plate Floor. Fast to walk on and very quick to build, but neutral in terms of looks.</description>
+		<texturePath>Terrain/Surfaces/MoltenTerrain</texturePath>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>250</renderPrecedence>
+		<color>(175,175,175)</color>
+		<statBases>
+			<WorkToBuild>85</WorkToBuild>
+			<Beauty>3</Beauty>
+		</statBases>
+		<costList>
+			<Steel>3</Steel>
+		</costList>
+		<constructEffect>ConstructMetal</constructEffect>
+		<designationCategory>Floors</designationCategory>
+	</TerrainDef-->
+
+</Defs>
