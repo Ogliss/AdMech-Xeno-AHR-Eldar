@@ -300,7 +300,7 @@
 		</projectile>
 		<modExtensions>
 			<li Class="AdeptusMechanicus.TrailerProjectileExtension">
-				<trailMoteDef>OG_Mote_BoltTrailPuff</trailMoteDef>
+				<trailMoteDef>OG_Mote_BoltTrail</trailMoteDef>
 				<trailMoteSize>0.75</trailMoteSize>
 				<trailerMoteInterval>3</trailerMoteInterval>
 				<motesThrown>3</motesThrown>
@@ -329,7 +329,7 @@
 		</projectile>
 		<modExtensions>
 			<li Class="AdeptusMechanicus.TrailerProjectileExtension">
-				<trailMoteDef>OG_Mote_BoltTrailPuff</trailMoteDef>
+				<trailMoteDef>OG_Mote_BoltTrail</trailMoteDef>
 				<trailMoteSize>0.75</trailMoteSize>
 				<trailerMoteInterval>3</trailerMoteInterval>
 				<motesThrown>3</motesThrown>
@@ -445,7 +445,7 @@
 		</projectile>
 		<modExtensions>
 			<li Class="AdeptusMechanicus.TrailerProjectileExtension">
-				<trailMoteDef>Mote_PlasmaGlow</trailMoteDef>
+				<trailMoteDef>OG_Mote_PlasmaGlow</trailMoteDef>
 				<trailMoteSize>0.7</trailMoteSize>
 				<trailerMoteInterval>6</trailerMoteInterval>
 			</li>
@@ -465,7 +465,7 @@
 						<_distortionScrollSpeed>(0.00, 0.00, 0.0)</_distortionScrollSpeed>
 					</shaderParameters>
 				</glowGrahphicData>
-				<glowMoteDef>Mote_PlasmaGlow</glowMoteDef>
+				<glowMoteDef>OG_Mote_PlasmaGlow</glowMoteDef>
 				<glowMoteSize>6.5</glowMoteSize>
 			</li>
 		</modExtensions>

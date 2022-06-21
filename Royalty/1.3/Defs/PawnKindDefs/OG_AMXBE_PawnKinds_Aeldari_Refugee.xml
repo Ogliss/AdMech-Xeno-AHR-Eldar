@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Refugee Base -->
+<PawnKindDef Abstract="True" Name="OG_Aeldari_Refugee_Base">
+	<label>refugee</label>
+	<!--
+	<race>OG_Alien_Ork</race>
+	<defaultFactionType>OG_Ork_FeralRefugee_Faction</defaultFactionType>
+	-->
+	<chemicalAddictionChance>0.12</chemicalAddictionChance>
+	<backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+	<invNutrition>2.55</invNutrition>
+	<biocodeWeaponChance>0.1</biocodeWeaponChance>
+	<combatPower>35</combatPower>
+	<gearHealthRange>0.2~0.6</gearHealthRange>
+	<itemQuality>Poor</itemQuality>
+	<apparelMoney>90~280</apparelMoney>
+	<apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+	<apparelTags>
+		<li>EldarApparel</li>
+	</apparelTags>
+	<weaponMoney>60~200</weaponMoney>
+	<weaponTags>
+		<li>MedievalMeleeBasic</li>
+		<li>NeolithicMeleeBasic</li>
+	</weaponTags>
+	<techHediffsMoney>50~50</techHediffsMoney>
+	<techHediffsTags>
+		<li>Poor</li>
+	</techHediffsTags>
+	<techHediffsChance>0.15</techHediffsChance>
+	<inventoryOptions>
+		<skipChance>0.9</skipChance>
+		<subOptionsChooseOne>
+		<li>
+			<thingDef>Silver</thingDef>
+			<countRange>30~70</countRange>
+		</li>
+		<li>
+			<thingDef>MedicineIndustrial</thingDef>
+			<countRange>1</countRange>
+		</li>
+		</subOptionsChooseOne>
+	</inventoryOptions>
+	<backstoryFiltersOverride Inherit="False">
+		<li>
+			<categories>
+				<li>Eldar_Standard</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
+</PawnKindDef>
+
+<PawnKindDef Abstract="True" Name="OG_Aeldari_Asuryani_Refugee" ParentName="OG_Aeldari_Refugee_Base">
+	<race>OG_Alien_Eldar</race>
+</PawnKindDef>
+	
+
+<!-- Refugee -->
+<PawnKindDef ParentName="OG_Aeldari_Asuryani_Refugee">
+	<defName>OG_Refugee_Aeldari_Asuryani</defName>
+	<initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
+	<initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
+</PawnKindDef>
+
+</Defs>
