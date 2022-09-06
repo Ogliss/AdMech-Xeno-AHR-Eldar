@@ -62,7 +62,6 @@
 			<ArmorRating_Sharp>1.26</ArmorRating_Sharp>
 			<ArmorRating_Blunt>1.26</ArmorRating_Blunt>
 			<ArmorRating_Heat>1.26</ArmorRating_Heat>
-			<MeleeCritChance MayRequire="CETeam.CombatExtended">1.0</MeleeCritChance>
 		</statBases>
 		<tools>
 			<li>
@@ -129,7 +128,6 @@
 			<ArmorRating_Sharp>1.76</ArmorRating_Sharp>
 			<ArmorRating_Blunt>1.76</ArmorRating_Blunt>
 			<ArmorRating_Heat>1.76</ArmorRating_Heat>
-			<MeleeCritChance MayRequire="CETeam.CombatExtended">1.0</MeleeCritChance>
 		</statBases>
 		<tools>
 			<li>

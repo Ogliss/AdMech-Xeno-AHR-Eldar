@@ -144,8 +144,6 @@
 			<GlobalLearningFactor>1.15</GlobalLearningFactor>
 			<MeleeDodgeChance>1.25</MeleeDodgeChance>
 			<MeleeHitChance>1.15</MeleeHitChance>
-			<MeleeCritChance MayRequire="CETeam.CombatExtended">1.15</MeleeCritChance>
-			<MeleeParryChance MayRequire="CETeam.CombatExtended">1.25</MeleeParryChance>
 			<GeneralLaborSpeed>1.18</GeneralLaborSpeed>
 			<ButcheryFleshSpeed>0.85</ButcheryFleshSpeed>
 			<ButcheryFleshEfficiency>0.85</ButcheryFleshEfficiency>

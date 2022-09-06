@@ -23,8 +23,6 @@
 			<Insulation_Cold>15</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2.5</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
@@ -148,8 +146,6 @@
 			<Insulation_Cold>15</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2.5</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
@@ -254,8 +250,6 @@
 			<Insulation_Cold>5</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
@@ -314,7 +308,7 @@
 		</comps>
 		<modExtensions>
 		  <li Class="AdeptusMechanicus.ApparelGraphicExtension">
-			<defaultLabel>battle-brother</defaultLabel>
+			<defaultLabel>default</defaultLabel>
 			<keyLabel>Style</keyLabel>
 			<alternateGraphics>
 				<li>
@@ -352,8 +346,6 @@
 			<Insulation_Cold>5</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
@@ -439,8 +431,6 @@
 			<Insulation_Cold>5</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
@@ -527,8 +517,6 @@
 			<Insulation_Cold>10</Insulation_Cold>
 			<Insulation_Heat>15</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
@@ -617,8 +605,6 @@
 			<Insulation_Cold>15</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2.5</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
@@ -723,8 +709,6 @@
 			<Insulation_Cold>20</Insulation_Cold>
 			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>2.5</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
@@ -837,8 +821,6 @@
 			<Insulation_Heat>5</Insulation_Heat>
 			<ToxicSensitivity>-0.30</ToxicSensitivity>
 			<EquipDelay>2.5</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
@@ -923,8 +905,6 @@
 			<Insulation_Heat>5</Insulation_Heat>
 			<ToxicSensitivity>-0.30</ToxicSensitivity>
 			<EquipDelay>2.5</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
@@ -1031,8 +1011,6 @@
 			<Insulation_Heat>15</Insulation_Heat>
 			<ToxicSensitivity>-1</ToxicSensitivity>
 			<EquipDelay>4</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>

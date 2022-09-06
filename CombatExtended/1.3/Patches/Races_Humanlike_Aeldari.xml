@@ -4,7 +4,7 @@
   <!--success>Always</success-->
   <operations>
 	<li Class="PatchOperationReplace">
-		<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="OG_DarkEldar_RaceBase"]/tools</xpath>
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="OG_Aeldari_RaceBase"]/tools</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
@@ -59,6 +59,18 @@
 				</li>
 			</tools>
 		</value>
+	</li>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="OG_Aeldari_RaceBase"]/statBases</xpath>
+		<value>
+			<MeleeCritChance>1.15</MeleeCritChance>
+		 </value>
+	</li>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="OG_Aeldari_RaceBase"]/statBases</xpath>
+		<value>
+			<MeleeParryChance>1.25</MeleeParryChance>
+		 </value>
 	</li>
 	
   </operations>

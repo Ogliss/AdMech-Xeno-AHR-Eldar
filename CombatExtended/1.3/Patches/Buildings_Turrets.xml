@@ -28,6 +28,12 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName="OGE_Turret_ShurikenCannonDual_Auto"]/comps/li[@Class = "CompProperties_Refuelable"]</xpath>
 			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OGE_Turret_ShurikenCannonDual_Auto"]/statBases</xpath>
+				<value>
+					<AimingAccuracy IgnoreIfNoMatchingField="True">0.25</AimingAccuracy>
+				</value>
+			</li>
 			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
 				<defName>OGE_GunTurret_SurikenCannonDual</defName>
 				<statBases>
@@ -97,6 +103,12 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName="OGE_Turret_Missile_Auto"]/comps/li[@Class = "CompProperties_Refuelable"]</xpath>
 			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OGE_Turret_Missile_Auto"]/statBases</xpath>
+				<value>
+					<AimingAccuracy IgnoreIfNoMatchingField="True">0.75</AimingAccuracy>
+				</value>
+			</li>
 			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
 				<defName>OGE_GunTurret_Missile</defName>
 				<statBases>
@@ -142,6 +154,12 @@
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName="OGE_Turret_Brightlance_Auto"]/comps/li[@Class = "CompProperties_Explosive"]</xpath>
 			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OGE_Turret_Brightlance_Auto"]/statBases</xpath>
+				<value>
+					<AimingAccuracy IgnoreIfNoMatchingField="True">0.75</AimingAccuracy>
+				</value>
+			</li>
 			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
 				<defName>OGE_GunTurret_Brightlance</defName>
 				<statBases>
@@ -186,6 +204,12 @@
 			</li>
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName="OGE_Turret_BrightlanceDual_Auto"]/comps/li[@Class = "CompProperties_Explosive"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OGE_Turret_BrightlanceDual_Auto"]/statBases</xpath>
+				<value>
+					<AimingAccuracy IgnoreIfNoMatchingField="True">0.75</AimingAccuracy>
+				</value>
 			</li>
 			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
 				<defName>OGE_GunTurret_BrightlanceDual</defName>
@@ -262,6 +286,12 @@
 			</li>
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName="OGE_Turret_DistortCannon_Auto"]/comps/li[@Class = "CompProperties_Explosive"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OGE_Turret_DistortCannon_Auto"]/statBases</xpath>
+				<value>
+					<AimingAccuracy IgnoreIfNoMatchingField="True">0.75</AimingAccuracy>
+				</value>
 			</li>
 			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
 				<defName>OGE_GunTurret_DistortCannon</defName>
@@ -347,6 +377,12 @@
 			</li>
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName="OGE_Turret_VibroCannon"]/comps/li[@Class = "CompProperties_Refuelable"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OGE_Turret_VibroCannon"]/statBases</xpath>
+				<value>
+					<AimingAccuracy IgnoreIfNoMatchingField="True">0.75</AimingAccuracy>
+				</value>
 			</li>
 			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
 				<defName>OGE_GunTurret_VibroCannon</defName>

@@ -125,9 +125,6 @@
 				<li>FullHead</li>
 			</bodyPartGroups>
 			<layers>
-				<li MayRequire="CETeam.CombatExtended">StrappedHead</li>
-				<li MayRequire="CETeam.CombatExtended">MiddleHead</li>
-				<li MayRequire="CETeam.CombatExtended">OnHead</li>
 				<li>Overhead</li>
 			</layers>
 			<tags>

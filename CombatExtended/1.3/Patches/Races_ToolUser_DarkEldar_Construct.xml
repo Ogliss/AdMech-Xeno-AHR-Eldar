@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 <Operation Class="PatchOperationSequence">
-  <!--success>Always</success-->
-  <operations>
-  
-  
-	<li Class="PatchOperationConditional">
-		<xpath>Defs/ThingDef[@Name="OG_DarkEldar_Construct_Pawn_Base"]/statBases/MeleeParryChance</xpath>
-		<!--success>Always</success-->
-		<nomatch Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[@Name="OG_DarkEldar_Construct_Pawn_Base"]/statBases</xpath>
-			<value>
-				<MeleeParryChance>1</MeleeParryChance>
-			</value>
-		</nomatch>
-	</li>
-	<li Class="PatchOperationConditional">
-		<xpath>Defs/ThingDef[@Name="OG_DarkEldar_Construct_Pawn_Base"]/statBases/MeleeCritChance</xpath>
-		<!--success>Always</success-->
-		<nomatch Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[@Name="OG_DarkEldar_Construct_Pawn_Base"]/statBases</xpath>
-			<value>
-				<MeleeCritChance>1</MeleeCritChance>
-			</value>
-		</nomatch>
-	</li>
-	<li Class="PatchOperationConditional">
-		<xpath>Defs/ThingDef[@Name="OG_DarkEldar_Construct_Pawn_Base"]/statBases/MeleeDodgeChance</xpath>
-		<!--success>Always</success-->
-		<nomatch Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[@Name="OG_DarkEldar_Construct_Pawn_Base"]/statBases</xpath>
-			<value>
-				<MeleeDodgeChance>1</MeleeDodgeChance>
-			</value>
-		</nomatch>
-	</li>
-	
-	<li Class="PatchOperationConditional">
-		<xpath>Defs/ThingDef[@Name="OG_DarkEldar_Construct_Pawn_Base"]/modExtensions/li[Class="CombatExtended.RacePropertiesExtensionCE"]</xpath>
-		<!--success>Always</success-->
-		<nomatch Class="PatchOperationAddModExtension">
-			<xpath>Defs/ThingDef[@Name="OG_DarkEldar_Construct_Pawn_Base"]</xpath>
-			<value>
-				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Humanoid</bodyShape>
-				</li>
-			</value>
-		</nomatch>
-	</li>
+	<operations>
+	  
+		<li Class="PatchOperationConditional">
+			<xpath>Defs/ThingDef[@Name="OG_DarkEldar_Construct_Pawn_Base"]/statBases/MeleeParryChance</xpath>
+			<!--success>Always</success-->
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="OG_DarkEldar_Construct_Pawn_Base"]/statBases</xpath>
+				<value>
+					<MeleeParryChance>1</MeleeParryChance>
+				</value>
+			</nomatch>
+		</li>
+		<li Class="PatchOperationConditional">
+			<xpath>Defs/ThingDef[@Name="OG_DarkEldar_Construct_Pawn_Base"]/statBases/MeleeCritChance</xpath>
+			<!--success>Always</success-->
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="OG_DarkEldar_Construct_Pawn_Base"]/statBases</xpath>
+				<value>
+					<MeleeCritChance>1</MeleeCritChance>
+				</value>
+			</nomatch>
+		</li>
+		<li Class="PatchOperationConditional">
+			<xpath>Defs/ThingDef[@Name="OG_DarkEldar_Construct_Pawn_Base"]/statBases/MeleeDodgeChance</xpath>
+			<!--success>Always</success-->
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="OG_DarkEldar_Construct_Pawn_Base"]/statBases</xpath>
+				<value>
+					<MeleeDodgeChance>1</MeleeDodgeChance>
+				</value>
+			</nomatch>
+		</li>
 		
-    <!--li Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[@Name="BaseEldarConstruct"]/comps</xpath>
-        <value>
-            <li Class="CombatExtended.CompProperties_Inventory" />
-        </value>
-    </li-->
+		<!--li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[@Name="OG_DarkEldar_Construct_Pawn_Base"]/comps</xpath>
+			<value>
+				<li Class="CombatExtended.CompProperties_Inventory" />
+			</value>
+		</li-->
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[@Name="OG_DarkEldar_Construct_Pawn_Base"]/comps</xpath>
+			<value>
+				<li>
+				  <compClass>CombatExtended.CompPawnGizmo</compClass>
+				</li>
+				<li Class="CombatExtended.CompProperties_Suppressable" />
+			</value>
+		</li>
 
-	
-	<li Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="OG_DarkEldar_TalosPainEngine_Race"]/tools</xpath>
-		<value>
+		<li Class="CombatExtended.PatchOperationMakeWeaponCECompatible">
+			<defName>OG_DarkEldar_TalosPainEngine_Race</defName>
+			<statBases>
+				<ArmorRating_Blunt>50</ArmorRating_Blunt>
+				<ArmorRating_Sharp>16</ArmorRating_Sharp>
+				<ArmorRating_Heat>40.40</ArmorRating_Heat>
+				<MeleeCritChance>1.1</MeleeCritChance>
+				<MeleeDodgeChance>0.8</MeleeDodgeChance>
+				<MeleeParryChance>1.2</MeleeParryChance>
+			</statBases>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
 					<label>left fist</label>
@@ -96,19 +96,9 @@
 					<armorPenetrationSharp>0.279</armorPenetrationSharp>
 				</li>
 			</tools>
-		</value>
-	</li>
-		
-	<li Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[@Name="OG_DarkEldar_Construct_Pawn_Base"]/comps</xpath>
-		<value>
-			<li>
-			  <compClass>CombatExtended.CompPawnGizmo</compClass>
-			</li>
-			<li Class="CombatExtended.CompProperties_Suppressable" />
-		</value>
-	</li>
-  </operations>
+		</li>
+  
+	</operations>
 </Operation>
 
 </Patch>

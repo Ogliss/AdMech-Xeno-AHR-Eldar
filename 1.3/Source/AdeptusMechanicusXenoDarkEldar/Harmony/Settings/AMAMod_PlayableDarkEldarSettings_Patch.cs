@@ -32,11 +32,11 @@ namespace AdeptusMechanicus.HarmonyInstance
         private static bool Dev => AMAMod.Dev;
         private static bool Xenobiologis => AdeptusIntergrationUtility.enabled_MagosXenobiologis;
         private static bool ShowXB => settings.ShowXenobiologisSettings;
-        private static bool ShowRaces => (Xenobiologis && settings.ShowAllowedRaceSettings && ShowXB) || (!Xenobiologis && settings.ShowDarkEldar);
-        private static bool Setting => ShowRaces && settings.ShowDarkEldar;
+        private static bool ShowRaces => (Xenobiologis && settings.ShowAllowedRaceSettings && ShowXB) || (!Xenobiologis && settings.ShowAeldari);
+        private static bool Setting => ShowRaces && settings.ShowAeldari;
 
         private static int Options = 2;
-        private static float RaceSettings => mod.Length(Setting, Options, lineheight, 8, ShowRaces ? 1 : 0);
+        private static float RaceSettings => AMAMod.Length(Setting, Options, lineheight, 8, ShowRaces ? 1 : 0);
 
         public static float MainMenuLength = 0;
         public static float MenuLength = 0;
@@ -52,7 +52,7 @@ namespace AdeptusMechanicus.HarmonyInstance
             }
             if (!Xenobiologis)
             {
-                if (!listing_Main.ButtonText(label, ref settings.ShowDarkEldar))
+                if (!listing_Main.ButtonText(label, ref settings.ShowAeldari))
                 {
                     return;
                 }
@@ -62,9 +62,9 @@ namespace AdeptusMechanicus.HarmonyInstance
                 Listing_StandardExpanding listing_Race = listing_Main.BeginSection((num2 != 0 ? num2 : RaceSettings), false, 3, 4, 0);
                 if (Xenobiologis)
                 {
-                    listing_Race.CheckboxLabeled(label, ref settings.ShowDarkEldar, Dev, ref inc, tooltip, false, true, ArmouryMain.collapseTex, ArmouryMain.expandTex);
+                    listing_Race.CheckboxLabeled(label, ref settings.ShowAeldari, Dev, ref inc, tooltip, false, true, ArmouryMain.collapseTex, ArmouryMain.expandTex);
                 }
-                if (settings.ShowDarkEldar)
+                if (settings.ShowAeldari)
                 {
                     Listing_StandardExpanding listing_General = listing_Race.BeginSection(MenuLength, true);
                     listing_General.ColumnWidth *= 0.488f;

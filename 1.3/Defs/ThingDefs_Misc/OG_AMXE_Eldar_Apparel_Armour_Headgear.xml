@@ -20,8 +20,6 @@
 			<ArmorRating_Heat>0.75</ArmorRating_Heat>
 			<Insulation_Heat>2</Insulation_Heat>
 			<Insulation_Cold>-10</Insulation_Cold>
-			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
@@ -76,8 +74,6 @@
 			<ArmorRating_Heat>0.75</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
 			<Insulation_Cold>10</Insulation_Cold>
-			<Bulk MayRequire="CETeam.CombatExtended">2.5</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">3</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
@@ -134,8 +130,6 @@
 			<ArmorRating_Heat>0.90</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
 			<Insulation_Cold>-10</Insulation_Cold>
-			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>

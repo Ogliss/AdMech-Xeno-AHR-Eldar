@@ -24,16 +24,12 @@
 			<Insulation_Heat>10</Insulation_Heat>
 			<Insulation_Cold>30</Insulation_Cold>
 			<Mass>3</Mass>
-			<Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">6</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.12</MoveSpeed>
 			<WorkSpeedGlobal>-0.020</WorkSpeedGlobal>
 			<!--ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
 			<PsychicSensitivity>0.10</PsychicSensitivity-->
-			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
-			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList><!-- 238 Steel, 10 Jade -->
 			<Cloth>40</Cloth>
@@ -55,8 +51,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/GuardianArmour/Base</wornGraphicPath>
 			<layers>
@@ -132,16 +126,12 @@
 			<Insulation_Heat>30</Insulation_Heat>
 			<Insulation_Cold>30</Insulation_Cold>
 			<Mass>3</Mass>
-			<Bulk MayRequire="CETeam.CombatExtended">5</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">6</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.01</MoveSpeed>
 			<WorkSpeedGlobal>-0.03</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
 			<HuntingStealth>0.750</HuntingStealth>
-			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
-			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList>
 			<OGE_Wraithbone>15</OGE_Wraithbone>
@@ -162,8 +152,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/RangerArmour/Base</wornGraphicPath>
 			<layers>
@@ -238,16 +226,12 @@
 			<Insulation_Heat>12</Insulation_Heat>
 			<Insulation_Cold>32</Insulation_Cold>
 			<Mass>6.5</Mass>
-			<Bulk MayRequire="CETeam.CombatExtended">10</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">8</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.025</MoveSpeed>
 			<WorkSpeedGlobal>-0.01</WorkSpeedGlobal>
 			<!--ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
 			<PsychicSensitivity>0.10</PsychicSensitivity-->
-			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
-			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList>
 			<DevilstrandCloth>15</DevilstrandCloth>
@@ -268,8 +252,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/AvengerArmour/Base</wornGraphicPath>
 			<layers>
@@ -346,13 +328,9 @@
 			<Insulation_Heat>15</Insulation_Heat>
 			<Insulation_Cold>20</Insulation_Cold>
 			<Mass>4</Mass>
-			<Bulk MayRequire="CETeam.CombatExtended">11</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<WorkSpeedGlobal>-0.20</WorkSpeedGlobal>
-			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
-			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList>
 			<DevilstrandCloth>35</DevilstrandCloth>
@@ -373,8 +351,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/BansheeArmour/Base</wornGraphicPath>
 			<layers>
@@ -450,13 +426,9 @@
 			<Insulation_Heat>15</Insulation_Heat>
 			<Insulation_Cold>20</Insulation_Cold>
 			<Mass>4</Mass>
-			<Bulk MayRequire="CETeam.CombatExtended">11</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<WorkSpeedGlobal>-0.20</WorkSpeedGlobal>
-			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
-			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList>
 			<DevilstrandCloth>35</DevilstrandCloth>
@@ -477,8 +449,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/HawkArmour/Base</wornGraphicPath>
 			<layers>
@@ -563,16 +533,12 @@
 			<Insulation_Heat>50</Insulation_Heat>
 			<Insulation_Cold>12</Insulation_Cold>
 			<Mass>7</Mass>
-			<Bulk MayRequire="CETeam.CombatExtended">11</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">9</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.02</MoveSpeed>
 			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
 			<PsychicSensitivity>0.10</PsychicSensitivity>
-			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
-			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList>
 			<DevilstrandCloth>35</DevilstrandCloth>
@@ -593,8 +559,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/DragonArmour/Base</wornGraphicPath>
 			<layers>
@@ -670,16 +634,12 @@
 			<Insulation_Heat>12</Insulation_Heat>
 			<Insulation_Cold>32</Insulation_Cold>
 			<Mass>7</Mass>
-			<Bulk MayRequire="CETeam.CombatExtended">11</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">9</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.02</MoveSpeed>
 			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
 			<PsychicSensitivity>0.10</PsychicSensitivity>
-			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
-			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList>
 			<DevilstrandCloth>20</DevilstrandCloth>
@@ -700,8 +660,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/ScorpionArmour/Base</wornGraphicPath>
 			<layers>
@@ -777,16 +735,12 @@
 			<Insulation_Heat>12</Insulation_Heat>
 			<Insulation_Cold>32</Insulation_Cold>
 			<Mass>7</Mass>
-			<Bulk MayRequire="CETeam.CombatExtended">11</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">9</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.02</MoveSpeed>
 			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
 			<PsychicSensitivity>0.10</PsychicSensitivity>
-			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
-			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList>
 			<DevilstrandCloth>20</DevilstrandCloth>
@@ -807,8 +761,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/SpiderArmour/Base</wornGraphicPath>
 			<layers>
@@ -841,7 +793,7 @@
 				<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
 				<PauldronEntries>
 					<li>
-						<shoulderPadType>Backpack</shoulderPadType>
+						<shoulderPadType>NotSouth</shoulderPadType>
 						<shaderType>CutoutComplex</shaderType>
 						<padTexPath>Things/Item/Apparel/Eldar/SpiderArmour/Backpack/Base</padTexPath>
 						<commonality>10</commonality>
@@ -892,16 +844,12 @@
 			<Insulation_Heat>12</Insulation_Heat>
 			<Insulation_Cold>32</Insulation_Cold>
 			<Mass>7</Mass>
-			<Bulk MayRequire="CETeam.CombatExtended">11</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">9</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.02</MoveSpeed>
 			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
 			<PsychicSensitivity>0.10</PsychicSensitivity>
-			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
-			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList>
 			<DevilstrandCloth>20</DevilstrandCloth>
@@ -922,8 +870,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/ReaperArmour/Base</wornGraphicPath>
 			<layers>
@@ -998,16 +944,12 @@
 			<Insulation_Heat>10</Insulation_Heat>
 			<Insulation_Cold>30</Insulation_Cold>
 			<Mass>4</Mass>
-			<Bulk MayRequire="CETeam.CombatExtended">6</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">7</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.03</MoveSpeed>
 			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
 			<PsychicSensitivity>0.10</PsychicSensitivity>
-			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
-			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList>
 			<OGE_Wraithbone>15</OGE_Wraithbone>
@@ -1029,8 +971,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/WarlockArmour/Base</wornGraphicPath>
 			<layers>
@@ -1141,16 +1081,12 @@
 			<Insulation_Heat>30</Insulation_Heat>
 			<Insulation_Cold>30</Insulation_Cold>
 			<Mass>4</Mass>
-			<Bulk MayRequire="CETeam.CombatExtended">6.5</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">7.5</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.03</MoveSpeed>
 			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>0.0</ShootingAccuracyPawn>
 			<PsychicSensitivity>0.10</PsychicSensitivity>
-			<CarryWeight MayRequire="CETeam.CombatExtended">10</CarryWeight>
-			<CarryBulk MayRequire="CETeam.CombatExtended">8</CarryBulk>
 		</equippedStatOffsets>
 		<costList>
 			<Hyperweave>30</Hyperweave>
@@ -1163,7 +1099,6 @@
 				<li>OG_Eldar_Tech_Apparel_Armour_T3</li>
 			</researchPrerequisites>
 		</recipeMaker>
-		
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<bodyPartGroups>
@@ -1172,8 +1107,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/Eldar/RuneArmour/Base</wornGraphicPath>
 			<!-- <wornGraphicPath>Things/Item/Apparel/Eldar/WarlockArmour/Base</wornGraphicPath> -->

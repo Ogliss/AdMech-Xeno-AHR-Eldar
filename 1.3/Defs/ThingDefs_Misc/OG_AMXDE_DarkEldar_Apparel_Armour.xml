@@ -22,8 +22,6 @@
 			<Insulation_Heat>10</Insulation_Heat>
 			<Insulation_Cold>30</Insulation_Cold>
 			<Mass>6</Mass>
-			<Bulk MayRequire="CETeam.CombatExtended">10</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">8</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.03</MoveSpeed>
@@ -54,8 +52,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/DarkEldar/KabaliteArmour/Base</wornGraphicPath>
 			<layers>
@@ -128,7 +124,7 @@
 						<SouthOffset>0,0.00105,0.0</SouthOffset>
 					</li>
 					<li>
-						<shoulderPadType>Backpack</shoulderPadType>
+						<shoulderPadType>NotSouth</shoulderPadType>
 						<shaderType>CutoutComplex</shaderType>
 						<padTexPath>Things/Item/Apparel/DarkEldar/KabaliteArmour/Back/Backpack</padTexPath>
 						<commonality>10</commonality>
@@ -183,8 +179,6 @@
 			<Insulation_Heat>10</Insulation_Heat>
 			<Insulation_Cold>30</Insulation_Cold>
 			<Mass>6</Mass>
-			<Bulk MayRequire="CETeam.CombatExtended">10</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">8</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.03</MoveSpeed>
@@ -215,8 +209,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/DarkEldar/SybariteArmour/SybariteArmour</wornGraphicPath>
 			<layers>
@@ -316,7 +308,7 @@
 						<WestOffset>0,0.00105,0.0</WestOffset>
 					</li>
 					<li>
-						<shoulderPadType>Backpack</shoulderPadType>
+						<shoulderPadType>NotSouth</shoulderPadType>
 						<shaderType>CutoutComplex</shaderType>
 						<padTexPath>Things/Item/Apparel/DarkEldar/SybariteArmour/Back/Backpack</padTexPath>
 						<commonality>10</commonality>
@@ -373,8 +365,6 @@
 			<Insulation_Cold>10</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">10</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">8</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
             <MoveSpeed>0.35</MoveSpeed>
@@ -486,8 +476,6 @@
 			<Insulation_Cold>20</Insulation_Cold>
 			<Insulation_Heat>15</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">10</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">8</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
             <MoveSpeed>0.25</MoveSpeed>
@@ -523,8 +511,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/DarkEldar/HaemonculusArmour/HaemonculusArmour</wornGraphicPath>
 			<layers>
@@ -590,8 +576,6 @@
 			<Insulation_Cold>30</Insulation_Cold>
 			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>3</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">10</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">8</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
             <MoveSpeed>0.5</MoveSpeed>
@@ -623,8 +607,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/DarkEldar/HellionArmour/HellionArmour</wornGraphicPath>
 			<layers>
@@ -717,8 +699,6 @@
 			<Insulation_Cold>55</Insulation_Cold>
 			<Insulation_Heat>35</Insulation_Heat>
 			<EquipDelay>5</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">10</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">8</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
             <MoveSpeed>1.45</MoveSpeed>
@@ -825,8 +805,6 @@
 			<Insulation_Cold>50</Insulation_Cold>
 			<Insulation_Heat>30</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">10</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">8</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
             <MoveSpeed>0.35</MoveSpeed>
@@ -858,8 +836,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/DarkEldar/IncubiArmour/Base</wornGraphicPath>
 			<layers>
@@ -948,8 +924,6 @@
 			<Insulation_Cold>50</Insulation_Cold>
 			<Insulation_Heat>30</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">10</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">8</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
             <MoveSpeed>0.35</MoveSpeed>
@@ -981,8 +955,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/DarkEldar/IncubiArmour/Lord</wornGraphicPath>
 			<layers>
@@ -1073,8 +1045,6 @@
 			<Insulation_Cold>85</Insulation_Cold>
 			<Insulation_Heat>60</Insulation_Heat>
 			<EquipDelay>6</EquipDelay>
-			<Bulk MayRequire="CETeam.CombatExtended">10</Bulk>
-			<WornBulk MayRequire="CETeam.CombatExtended">8</WornBulk>
 		</statBases>
 		<equippedStatOffsets>
             <MoveSpeed>0.75</MoveSpeed>
@@ -1110,8 +1080,6 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
-				<li MayRequire="CETeam.CombatExtended">Hands</li>
-				<li MayRequire="CETeam.CombatExtended">Feet</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Item/Apparel/DarkEldar/ArchonArmour/ArchonArmour</wornGraphicPath>
 			<layers>

@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<Operation Class="PatchOperationSequence">
-		<!--success>Always</success-->
 		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="OG_Eldar_Apparel_Armor_Headgear"]/apparel/layers</xpath>
+				<order>Prepend</order>
+				<value>
+					<li>OnHead</li>
+					<li>StrappedHead</li>
+				</value>
+			</li>
 			<!--========================= 5+ ==========================-->
 			<!-- ========================= Ranger Armour ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
@@ -10,7 +17,13 @@
 				<statBases>
 					<ArmorRating_Sharp>6</ArmorRating_Sharp>
 					<ArmorRating_Blunt>10</ArmorRating_Blunt>
+					<Bulk>5</Bulk>
+					<WornBulk>6</WornBulk>
 				</statBases>
+				<equippedStatOffsets>
+					<CarryWeight>10</CarryWeight>
+					<CarryBulk>8</CarryBulk>
+				</equippedStatOffsets>
 				<!--costList>
 					<Steel>25</Steel>
 				</costList>
@@ -20,16 +33,24 @@
 					</stuffCategories>
 					<costStuffCount>70</costStuffCount>
 				</stuffCost-->
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
 			</li>
-		
+			
 			<!-- ========================= Ranger Helmet ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_RangerHelmet</defName>
 				<statBases>
-					<Bulk>4</Bulk>
 					<ArmorRating_Sharp>5</ArmorRating_Sharp>
 					<ArmorRating_Blunt>8</ArmorRating_Blunt>
+					<Bulk>3</Bulk>
+					<WornBulk>4</WornBulk>
 				</statBases>
+				<equippedStatOffsets>
+					<SmokeSensitivity>-1</SmokeSensitivity>
+				</equippedStatOffsets>
 			</li>
 
 			<!-- ========================= Gaurdian Armour ========================== -->
@@ -38,7 +59,17 @@
 				<statBases>
 					<ArmorRating_Sharp>9</ArmorRating_Sharp>
 					<ArmorRating_Blunt>16</ArmorRating_Blunt>
+					<Bulk>8</Bulk>
+					<WornBulk>6</WornBulk>
 				</statBases>
+				<equippedStatOffsets>
+					<CarryWeight>10</CarryWeight>
+					<CarryBulk>8</CarryBulk>
+				</equippedStatOffsets>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
 			</li>
 
 			<!-- ========================= Gaurdian Helmet ========================== -->
@@ -47,7 +78,13 @@
 				<statBases>
 					<ArmorRating_Sharp>8</ArmorRating_Sharp>
 					<ArmorRating_Blunt>14</ArmorRating_Blunt>
+					<Bulk>3</Bulk>
+					<WornBulk>4</WornBulk>
 				</statBases>
+				<equippedStatOffsets>
+					<AimingAccuracy>-0.05</AimingAccuracy>
+					<SmokeSensitivity>-1</SmokeSensitivity>
+				</equippedStatOffsets>
 			</li>
 			
 			<!--========================= 4+ ==========================-->
@@ -57,7 +94,17 @@
 				<statBases>
 					<ArmorRating_Sharp>15</ArmorRating_Sharp>
 					<ArmorRating_Blunt>50</ArmorRating_Blunt>
+					<Bulk>10</Bulk>
+					<WornBulk>8</WornBulk>
 				</statBases>
+				<equippedStatOffsets>
+					<CarryWeight>10</CarryWeight>
+					<CarryBulk>8</CarryBulk>
+				</equippedStatOffsets>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
 			</li>
 			
 			<!-- ========================= Avenger Helmet ========================== -->
@@ -66,7 +113,13 @@
 				<statBases>
 					<ArmorRating_Sharp>12</ArmorRating_Sharp>
 					<ArmorRating_Blunt>38</ArmorRating_Blunt>
+					<Bulk>3</Bulk>
+					<WornBulk>4</WornBulk>
 				</statBases>
+				<equippedStatOffsets>
+					<AimingAccuracy>-0.05</AimingAccuracy>
+					<SmokeSensitivity>-1</SmokeSensitivity>
+				</equippedStatOffsets>
 			</li>
 			
 			<!-- ========================= Banshee Armour ========================== -->
@@ -75,8 +128,18 @@
 				<statBases>
 					<ArmorRating_Sharp>15</ArmorRating_Sharp>
 					<ArmorRating_Blunt>50</ArmorRating_Blunt>
+					<Bulk>11</Bulk>
+					<WornBulk>5</WornBulk>
 				</statBases>
-			</li>	
+				<equippedStatOffsets>
+					<CarryWeight>10</CarryWeight>
+					<CarryBulk>8</CarryBulk>
+				</equippedStatOffsets>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
+			</li>
 
 			<!-- ========================= Banshee Helmet ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
@@ -84,7 +147,13 @@
 				<statBases>
 					<ArmorRating_Sharp>12</ArmorRating_Sharp>
 					<ArmorRating_Blunt>38</ArmorRating_Blunt>
+					<Bulk>3</Bulk>
+					<WornBulk>4</WornBulk>
 				</statBases>
+				<equippedStatOffsets>
+					<AimingAccuracy>-0.05</AimingAccuracy>
+					<SmokeSensitivity>-1</SmokeSensitivity>
+				</equippedStatOffsets>
 			</li>
 			
 			<!-- ========================= Hawk Armour ========================== -->
@@ -93,16 +162,31 @@
 				<statBases>
 					<ArmorRating_Sharp>15</ArmorRating_Sharp>
 					<ArmorRating_Blunt>50</ArmorRating_Blunt>
+					<Bulk>11</Bulk>
+					<WornBulk>5</WornBulk>
 				</statBases>
-			</li>	
-
+				<equippedStatOffsets>
+					<CarryWeight>10</CarryWeight>
+					<CarryBulk>8</CarryBulk>
+				</equippedStatOffsets>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
+			</li>
 			<!-- ========================= Hawk Helmet ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_HawkHelmet</defName>
 				<statBases>
 					<ArmorRating_Sharp>12</ArmorRating_Sharp>
 					<ArmorRating_Blunt>38</ArmorRating_Blunt>
+					<Bulk>3</Bulk>
+					<WornBulk>4</WornBulk>
 				</statBases>
+				<equippedStatOffsets>
+					<AimingAccuracy>-0.05</AimingAccuracy>
+					<SmokeSensitivity>-1</SmokeSensitivity>
+				</equippedStatOffsets>
 			</li>
 			
 			<!-- ========================= Dragon Armour ========================== -->
@@ -111,8 +195,18 @@
 				<statBases>
 					<ArmorRating_Sharp>15</ArmorRating_Sharp>
 					<ArmorRating_Blunt>50</ArmorRating_Blunt>
+					<Bulk>11</Bulk>
+					<WornBulk>9</WornBulk>
 				</statBases>
-			</li>	
+				<equippedStatOffsets>
+					<CarryWeight>10</CarryWeight>
+					<CarryBulk>8</CarryBulk>
+				</equippedStatOffsets>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
+			</li>
 
 			<!-- ========================= Dragon Helmet ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
@@ -120,9 +214,15 @@
 				<statBases>
 					<ArmorRating_Sharp>12</ArmorRating_Sharp>
 					<ArmorRating_Blunt>38</ArmorRating_Blunt>
+					<Bulk>3</Bulk>
+					<WornBulk>4</WornBulk>
 				</statBases>
+				<equippedStatOffsets>
+					<AimingAccuracy>-0.05</AimingAccuracy>
+					<SmokeSensitivity>-1</SmokeSensitivity>
+				</equippedStatOffsets>
 			</li>
-						
+			
 			<!--========================= 3+ ==========================-->
 			<!-- ========================= Scoprion Armour ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
@@ -130,8 +230,18 @@
 				<statBases>
 					<ArmorRating_Sharp>24</ArmorRating_Sharp>
 					<ArmorRating_Blunt>72</ArmorRating_Blunt>
+					<Bulk>11</Bulk>
+					<WornBulk>9</WornBulk>
 				</statBases>
-			</li>		
+				<equippedStatOffsets>
+					<CarryWeight>10</CarryWeight>
+					<CarryBulk>8</CarryBulk>
+				</equippedStatOffsets>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
+			</li>
 
 			<!-- ========================= Scoprion Helmet ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
@@ -139,7 +249,13 @@
 				<statBases>
 					<ArmorRating_Sharp>19</ArmorRating_Sharp>
 					<ArmorRating_Blunt>55</ArmorRating_Blunt>
+					<Bulk>3</Bulk>
+					<WornBulk>4</WornBulk>
 				</statBases>
+				<equippedStatOffsets>
+					<AimingAccuracy>-0.05</AimingAccuracy>
+					<SmokeSensitivity>-1</SmokeSensitivity>
+				</equippedStatOffsets>
 			</li>
 			
 			<!-- ========================= Spider Armour ========================== -->
@@ -148,8 +264,18 @@
 				<statBases>
 					<ArmorRating_Sharp>24</ArmorRating_Sharp>
 					<ArmorRating_Blunt>72</ArmorRating_Blunt>
+					<Bulk>11</Bulk>
+					<WornBulk>9</WornBulk>
 				</statBases>
-			</li>		
+				<equippedStatOffsets>
+					<CarryWeight>10</CarryWeight>
+					<CarryBulk>8</CarryBulk>
+				</equippedStatOffsets>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
+			</li>
 
 			<!-- ========================= Spider Helmet ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
@@ -157,7 +283,13 @@
 				<statBases>
 					<ArmorRating_Sharp>19</ArmorRating_Sharp>
 					<ArmorRating_Blunt>55</ArmorRating_Blunt>
+					<Bulk>3</Bulk>
+					<WornBulk>4</WornBulk>
 				</statBases>
+				<equippedStatOffsets>
+					<AimingAccuracy>-0.05</AimingAccuracy>
+					<SmokeSensitivity>-1</SmokeSensitivity>
+				</equippedStatOffsets>
 			</li>
 			
 			<!-- ========================= Reaper Armour ========================== -->
@@ -166,8 +298,18 @@
 				<statBases>
 					<ArmorRating_Sharp>24</ArmorRating_Sharp>
 					<ArmorRating_Blunt>72</ArmorRating_Blunt>
+					<Bulk>11</Bulk>
+					<WornBulk>9</WornBulk>
 				</statBases>
-			</li>		
+				<equippedStatOffsets>
+					<CarryWeight>10</CarryWeight>
+					<CarryBulk>8</CarryBulk>
+				</equippedStatOffsets>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
+			</li>
 
 			<!-- ========================= Reaper Helmet ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
@@ -175,9 +317,15 @@
 				<statBases>
 					<ArmorRating_Sharp>19</ArmorRating_Sharp>
 					<ArmorRating_Blunt>55</ArmorRating_Blunt>
+					<Bulk>3</Bulk>
+					<WornBulk>4</WornBulk>
 				</statBases>
+				<equippedStatOffsets>
+					<AimingAccuracy>-0.05</AimingAccuracy>
+					<SmokeSensitivity>-1</SmokeSensitivity>
+				</equippedStatOffsets>
 			</li>
-						
+			
 			<!--========================= 6+ ==========================-->
 			<!-- ========================= Warlock Armour ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
@@ -185,13 +333,23 @@
 				<statBases>
 					<ArmorRating_Sharp>3</ArmorRating_Sharp>
 					<ArmorRating_Blunt>5</ArmorRating_Blunt>
+					<Bulk>6</Bulk>
+					<WornBulk>7</WornBulk>
 				</statBases>
+				<equippedStatOffsets>
+					<CarryWeight>10</CarryWeight>
+					<CarryBulk>8</CarryBulk>
+				</equippedStatOffsets>
 				<stuffCost>
 					<stuffCategories>
 						<li>Fabric</li>
 					</stuffCategories>
 					<costStuffCount>70</costStuffCount>
 				</stuffCost>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
 			</li>
 		
 			<!-- ========================= Warlock Helmet ========================== -->
@@ -201,22 +359,38 @@
 					<Bulk>4</Bulk>
 					<ArmorRating_Sharp>5</ArmorRating_Sharp>
 					<ArmorRating_Blunt>8</ArmorRating_Blunt>
+					<Bulk>3</Bulk>
+					<WornBulk>4</WornBulk>
 				</statBases>
+				<equippedStatOffsets>
+					<AimingAccuracy>-0.05</AimingAccuracy>
+					<SmokeSensitivity>-1</SmokeSensitivity>
+				</equippedStatOffsets>
 			</li>
-
+			
 			<!-- ========================= Farseer Armour ========================== -->
 			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
 				<defName>OGE_Apparel_RuneArmourFarseer</defName>
 				<statBases>
 					<ArmorRating_Sharp>5</ArmorRating_Sharp>
 					<ArmorRating_Blunt>8</ArmorRating_Blunt>
+					<Bulk>6.5</Bulk>
+					<WornBulk>7.5</WornBulk>
 				</statBases>
+				<equippedStatOffsets>
+					<CarryWeight>10</CarryWeight>
+					<CarryBulk>8</CarryBulk>
+				</equippedStatOffsets>
 				<stuffCost>
 					<stuffCategories>
 						<li>Fabric</li>
 					</stuffCategories>
 					<costStuffCount>70</costStuffCount>
 				</stuffCost>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
 			</li>
 		
 			<!-- ========================= Ghosthelm ========================== -->
@@ -226,9 +400,15 @@
 					<Bulk>4</Bulk>
 					<ArmorRating_Sharp>6</ArmorRating_Sharp>
 					<ArmorRating_Blunt>9</ArmorRating_Blunt>
+					<Bulk>3</Bulk>
+					<WornBulk>4</WornBulk>
 				</statBases>
+				<equippedStatOffsets>
+					<AimingAccuracy>-0.05</AimingAccuracy>
+					<SmokeSensitivity>-1</SmokeSensitivity>
+				</equippedStatOffsets>
 			</li>
-
+			
 		</operations>
 	</Operation>
 </Patch>

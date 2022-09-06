@@ -13,7 +13,7 @@
 		<canMakeRandomly>true</canMakeRandomly>
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
-		<earliestRaidDays>45</earliestRaidDays>
+		<earliestRaidDays>90</earliestRaidDays>
 		<factionNameMaker>OG_DarkEldar_Kabal_NamerFaction</factionNameMaker>
 		<settlementNameMaker>OG_DarkEldar_NamerBases</settlementNameMaker>
 		<techLevel>Spacer</techLevel>

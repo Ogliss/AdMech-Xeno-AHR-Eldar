@@ -85,10 +85,9 @@
 		<defName>OGE_Turret_ShurikenCannonDual_Auto</defName>
 		<label>twin-linked shuriken cannon turret</label>
 		<description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged.</description>		
-	<uiIconPath>Things/Building/Eldar/Security/TurretMount_ShurikenCannonDual_Menu</uiIconPath>
+		<uiIconPath>Things/Building/Eldar/Security/TurretMount_ShurikenCannonDual_Menu</uiIconPath>
 		<statBases>
-		<AimingAccuracy MayRequire="CETeam.CombatExtended">0.25</AimingAccuracy>
-		<ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<Steel>350</Steel>
@@ -187,10 +186,9 @@
 		<defName>OGE_Turret_Missile_Auto</defName>
 		<label>missile turret</label>
 		<description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged.</description>	 
-	<uiIconPath>Things/Building/Eldar/Security/TurretMount_MissileLauncher_Menu</uiIconPath>
+		<uiIconPath>Things/Building/Eldar/Security/TurretMount_MissileLauncher_Menu</uiIconPath>
 		<statBases>
-		<AimingAccuracy MayRequire="CETeam.CombatExtended">0.75</AimingAccuracy>
-		<ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<Steel>350</Steel>
@@ -344,8 +342,7 @@
 		<description>An armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor, but it requires new uranium slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged.</description>
 		<uiIconPath>Things/Building/Eldar/Security/TurretMount_VibroCannon_Menu</uiIconPath>
 		<statBases>
-		<AimingAccuracy MayRequire="CETeam.CombatExtended">0.75</AimingAccuracy>
-		<ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<Steel>300</Steel>
@@ -478,8 +475,7 @@
 		<description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged.</description>	
 		<uiIconPath>Things/Building/Eldar/Security/TurretMount_Brightlance_Menu</uiIconPath>
 		<statBases>
-		<AimingAccuracy MayRequire="CETeam.CombatExtended">0.75</AimingAccuracy>
-		<ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<Steel>350</Steel>
@@ -554,7 +550,6 @@
 		<description>A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged.</description>	 
 		<uiIconPath>Things/Building/Eldar/Security/TurretMount_BrightlanceDual_Menu</uiIconPath>
 		<statBases>
-			<AimingAccuracy MayRequire="CETeam.CombatExtended">0.75</AimingAccuracy>
 			<ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
@@ -640,8 +635,7 @@
 		<description>A heavy automatic turret. Its vortex weapon does heavy damage over medium ranges, but it is extremely innaccurate and requires large amount of power to operate. It cannot fire at close-up targets, and may explode when damaged.</description>	
 		<uiIconPath>Things/Building/Eldar/Security/TurretMount_DistortCannon_Menu</uiIconPath>
 		<statBases>
-		<AimingAccuracy MayRequire="CETeam.CombatExtended">0.75</AimingAccuracy>
-		<ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<Steel>350</Steel>
