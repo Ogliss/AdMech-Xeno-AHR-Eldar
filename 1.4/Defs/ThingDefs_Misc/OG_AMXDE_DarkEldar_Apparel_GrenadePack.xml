@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ========================= Dark Eldar - Wargear S 3 ========================== -->
+    <!-- ========================= Dark Eldar - Grenade Packs	========================== -->
+    <!-- ========================= Dark Eldar - Plasma Grenades	========================== -->
+	<ThingDef ParentName="OG_DarkEldar_Apparel_Wargear_Makeable">
+		<defName>OGDE_GrenadePack_Plasma</defName>
+		<label>plasma grenade pack (DE)</label>
+		<description>The Eldar and Dark Eldar use plasma grenades in placement of the more crudely designed Frag Grenades used by the Imperium. They use a small amount of exploding plasma to blind the enemy and prevent them from properly using their terrain to defend their position against advancing enemy forces.Plasma Grenades make use of a deliberate plasma containment failure to unleash a highly lethal blast of heat and light similar to a miniature sun which can take out almost any target.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/GrenadePacks/DarkEldar/DarkEldarPlasmaGrenades</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1500</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>1.2</Mass>
+		</statBases>
+		<equippedStatOffsets>
+		
+		</equippedStatOffsets>
+		<costList>
+			<Steel>40</Steel>
+			<Plasteel>4</Plasteel>
+			<OGDE_Wraithbone>20</OGDE_Wraithbone>
+			<OGDE_Component>4</OGDE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Common_Tech_Weapons_Plasma</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<thingCategories>
+			<li>OGDEGrens</li>
+		</thingCategories>
+		<tradeTags>
+			<li>OGDEGrens</li>
+		</tradeTags>
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>OG_Belt_Wargear_3</li>
+			</layers>
+			<tags>
+				<li>OGDEWargear</li>
+				<li>OGDEGrens</li>
+				<li>OGDEGrenPlasma</li>
+			</tags>
+		</apparel>
+		<verbs>
+			<li>
+				<label>throw plasma grenade</label>
+				<verbClass>Verb_LaunchProjectileStatic</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<range>12.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<defaultCooldownTime>1.9</defaultCooldownTime>
+				<warmupTime>1.5</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>OGDE_GrenadeThrown_Plasma</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="AdeptusMechanicus.CompProperties_WargearUseable">
+				<Cooldown>10</Cooldown>
+				<hotKey>Misc4</hotKey>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<!--comps>  
+			<li Class="AbilitesExtended.CompProperties_AbilityItem">
+				
+				<Abilities>
+					<li>OGDE_Ability_ThrowPlasma</li>
+				</Abilities>
+			</li>
+		</comps-->
+	</ThingDef>
+	
+    <!-- ========================= Dark Eldar - Haywire Grenades	========================== -->
+	<ThingDef ParentName="OG_DarkEldar_Apparel_Wargear_Makeable">
+		<defName>OGDE_GrenadePack_Haywire</defName>
+		<label>haywire grenade pack (DE)</label>
+		<description>Haywire Grenades are used by both the Eldar and Dark Eldar for disabling enemy vehicles. Each one sends out a pulse of electromagnetic energy which shorts out electrical wires and disrupts many energy systems. They don't have any effect on biological creatures.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/GrenadePacks/DarkEldar/DarkEldarHaywireGrenades</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1500</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>1.2</Mass>
+		</statBases>
+		<equippedStatOffsets>
+		
+		</equippedStatOffsets>
+		<costList>
+			<Steel>40</Steel>
+			<Plasteel>4</Plasteel>
+			<OGDE_Wraithbone>30</OGDE_Wraithbone>
+			<OGDE_Component>10</OGDE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Common_Tech_Weapons_Haywire</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<thingCategories>
+			<li>OGDEGrens</li>
+		</thingCategories>
+		<tradeTags>
+			<li>OGDEGrens</li>
+		</tradeTags>
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>OG_Belt_Wargear_3</li>
+			</layers>
+			<tags>
+				<li>OGDEWargear</li>
+				<li>OGDEGrens</li>
+				<li>OGDEGrenHaywire</li>
+			</tags>
+		</apparel>
+		<verbs>
+			<li>
+				<label>throw haywire grenade</label>
+				<verbClass>Verb_LaunchProjectileStatic</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<range>12.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<defaultCooldownTime>1.9</defaultCooldownTime>
+				<warmupTime>1.5</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<!--soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale-->
+				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>OGDE_GrenadeThrown_Haywire</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<comps>
+		  <li Class="AdeptusMechanicus.CompProperties_WargearUseable">
+			<Cooldown>10</Cooldown>
+			<soundReload>Standard_Reload</soundReload>
+			<hotKey>Misc4</hotKey>
+			<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+		  </li>
+		</comps>
+		<!--comps>  
+			<li Class="AbilitesExtended.CompProperties_AbilityItem">
+				<Abilities>
+					<li>OGDE_Ability_ThrowHaywire</li>
+				</Abilities>
+			</li>
+		</comps-->
+	</ThingDef>
+	
+    <!-- ========================= Dark Eldar - Melta Bomb	========================== -->
+	<ThingDef ParentName="OG_DarkEldar_Apparel_Wargear_Makeable">
+		<defName>OGDE_GrenadePack_Melta</defName>
+		<label>melta bomb pack (DE)</label>
+		<description>A melta bomb is a type of explosive charge belonging to the melta design tree. Typical examples have dimensions analogous to that of a grenade, but can be larger. When activated, they explode with intense thermal energy, 'melting' the target away. Like all melta-weapons, melta bombs are especially useful for attacking vehicles, buildings and other armoured targets.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/GrenadePacks/DarkEldar/DarkEldarMeltaBombs</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1500</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>1.2</Mass>
+		</statBases>
+		<equippedStatOffsets>
+		
+		</equippedStatOffsets>
+		<costList>
+			<Steel>40</Steel>
+			<Plasteel>4</Plasteel>
+			<OGDE_Wraithbone>35</OGDE_Wraithbone>
+			<OGDE_Component>10</OGDE_Component>
+		</costList>
+		<recipeMaker>
+			 <researchPrerequisite>OG_Common_Tech_Weapons_Melta</researchPrerequisite>
+		</recipeMaker>
+		<thingCategories>
+			<li>OGDEGrens</li>
+		</thingCategories>
+		<tradeTags>
+			<li>OGDEGrens</li>
+		</tradeTags>
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>OG_Belt_Wargear_3</li>
+			</layers>
+			<tags>
+				<li>OGDEWargear</li>
+				<li>OGDEGrens</li>
+				<li>OGDEGrenMelta</li>
+			</tags>
+		</apparel>
+		<verbs>
+			<li>
+				<label>throw melta grenade</label>
+				<verbClass>Verb_LaunchProjectileStatic</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<range>12.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<defaultCooldownTime>1.9</defaultCooldownTime>
+				<warmupTime>1.5</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<!--soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale-->
+				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+				<targetParams>
+				  <canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>OGDE_GrenadeThrown_Melta</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="AdeptusMechanicus.CompProperties_WargearUseable">
+				<Cooldown>15</Cooldown>
+				<hotKey>Misc4</hotKey>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<!--comps>  
+			<li Class="AbilitesExtended.CompProperties_AbilityItem">
+				<Abilities>
+					<li>OGDE_Ability_ThrowMelta</li>
+				</Abilities>
+			</li>
+		</comps-->
+		
+	</ThingDef>
+		
+    <!-- ========================= Dark Eldar - Hallucinogen Grenades	========================== -->
+	<!--ThingDef ParentName="OG_DarkEldar_Apparel_Wargear_Makeable">
+		<defName>OGDE_GrenadePack_Hallucinogen</defName>
+		<label>Hallucinogen grenade pack (DE)</label>
+		<description>Hallucinogen Grenades are used by both the Eldar and Dark Eldar for disabling enemy vehicles. Each one sends out a pulse of electromagnetic energy which shorts out electrical wires and disrupts many energy systems. They don't have any effect on biological creatures.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/GrenadePacks/DarkEldar/DarkEldarHaywireGrenades</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1500</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>1.2</Mass>
+		</statBases>
+		<equippedStatOffsets>
+		
+		</equippedStatOffsets>
+		<costList>
+			<Steel>40</Steel>
+			<Plasteel>4</Plasteel>
+			<OGDE_Wraithbone>40</OGDE_Wraithbone>
+			<OGDE_Component>10</OGDE_Component>
+		</costList>
+		<recipeMaker>
+			 <researchPrerequisite>OG_DarkEldar_Tech_Base_T2</researchPrerequisite>
+			
+		</recipeMaker>
+		<comps>  
+			<li Class="AbilitesExtended.CompProperties_AbilityItem">
+				<Abilities>
+					<li>OGDE_Ability_ThrowHallucinogen</li>
+				</Abilities>
+			</li>
+		</comps>
+		
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>OG_Belt_Wargear_3</li>
+			</layers>
+			<tags>
+				<li>OGDEWargear</li>
+				<li>OGDEGrens</li>
+				<li>OGDEGrenHallucinogen</li>
+			</tags>
+		</apparel>
+		<thingCategories>
+			<li>OGDEGrens</li>
+		</thingCategories>
+		<tradeTags>
+			<li>OGDEGrens</li>
+		</tradeTags>
+	</ThingDef-->
+
+
+</Defs>

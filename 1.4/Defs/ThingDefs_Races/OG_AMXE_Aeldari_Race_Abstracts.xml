@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BasePawn" Name="OG_Aeldari_Pawn_Base" Abstract="True">
+		<!--
+		<thingClass>Pawn</thingClass>
+		<category>Pawn</category>
+		<selectable>true</selectable>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Pawn</altitudeLayer>
+		<useHitPoints>false</useHitPoints>
+		<hasTooltip>true</hasTooltip>
+		<soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
+		<inspectorTabs>
+			<li>ITab_Pawn_Health</li>
+			<li>ITab_Pawn_Needs</li>
+			<li>ITab_Pawn_Character</li>
+			<li>ITab_Pawn_Training</li>
+			<li>ITab_Pawn_Gear</li>
+			<li>ITab_Pawn_Guest</li>
+			<li>ITab_Pawn_Prisoner</li>
+			<li>ITab_Pawn_Social</li>
+			<li>ITab_Pawn_Log</li>
+			<li>ITab_Pawn_FormingCaravan</li>
+		</inspectorTabs>
+		<comps>
+			<li>
+				<compClass>CompAttachBase</compClass>
+			</li>
+		</comps>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		-->
+		<inspectorTabs>
+			<li MayRequire="Corruption.Core">Corruption.Core.Soul.ITab_Pawn_Soul</li>
+		</inspectorTabs>
+		<comps>
+			<li MayRequire="Corruption.Psykers">
+				<compClass>Corruption.Psykers.CompPsyker</compClass>
+			</li>
+			<li MayRequire="Corruption.Core">
+				<compClass>Corruption.Core.Soul.CompSoul</compClass>
+			</li>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.CompProperties_Inventory" />
+			<li MayRequire="CETeam.CombatExtended">
+				<compClass>CombatExtended.CompPawnGizmo</compClass>
+			</li>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.CompProperties_Suppressable" />
+		</comps>
+	</ThingDef>
+
+	<AlienRace.ThingDef_AlienRace Name="OG_Aeldari_RaceBase" ParentName="OG_Aeldari_Pawn_Base" Abstract="True">
+		<label>Aeldari</label>
+		<description>The Aeldari race has a long and complex spacefaring history, so long in fact that little is known for certain about the course of their physical evolution and early planet-bound existence. The original Aeldari homeworld was destroyed during the catastrophic collapse of the Aeldari civilisation known as the Fall of the Aeldari. The remnants of Aeldari culture that survived the cataclysm preserved much of their species' history in the form of traditional stories, songs and dance. Written records, monuments and visual records were almost completely destroyed except for a few instances where they were taken aboard voidcraft fleeing from the doomed worlds.\n\nAs a humanoid race, Aeldari are physically similar to humans, although not entirely identical by any means. They possess longer and cleaner limbs, and fine ascetic features with penetrating and slightly slanted, almond-shaped eyes. Their ears are also slightly pointed, but otherwise they could pass as human at first glance. The most obvious difference between humans and Aeldari can only be seen when they move, for the movements of an Aeldari radiate a subtle grace which is impossible for a human to emulate. This can be seen in even their slightest gestures or the dexterity with which they manipulate small objects.\n\nThe Aeldari mind, while similar in general to the human psyche, is far more inclined towards extremes. Because of this, Aeldari are more intelligent but also far more intense than humans. Although an Aeldari and a human can both feel grief or joy, the Aeldari's experience is likely to be far more extreme.</description>
+		<alienRace>
+			<generalSettings>
+				<maleGenderProbability>0.5</maleGenderProbability>
+				<immuneToAge>false</immuneToAge>
+				<forcedRaceTraitEntries>
+					<li>
+						<defName>FastLearner</defName>
+						<chance>10</chance>
+					</li>
+					<li>
+						<defName>GreatMemory</defName>
+						<chance>10</chance>
+					</li>
+				</forcedRaceTraitEntries>
+				<alienPartGenerator>
+					<customDrawSize>(0.8, 1.0)</customDrawSize>
+					<!--customHeadDrawSize>(1.00, 1.00)</customHeadDrawSize-->
+					<alienbodytypes>
+						<li>Female</li>
+						<li>Male</li>
+					</alienbodytypes>
+					<useGenderedHeads>true</useGenderedHeads>
+					<useGenderedBodies>false</useGenderedBodies>
+				</alienPartGenerator>
+				<chemicalSettings>
+					
+				</chemicalSettings>
+				<humanRecipeImport>true</humanRecipeImport>
+				<notXenophobistTowards>
+					<li>OG_Alien_Eldar</li>
+					<li>OG_Alien_DarkEldar</li>
+				</notXenophobistTowards>
+				<factionRelations>
+				
+				</factionRelations>
+			</generalSettings>
+			<thoughtSettings>
+				<cannotReceiveThoughts>
+					
+				</cannotReceiveThoughts>
+			</thoughtSettings>
+			<relationSettings>
+				<relationChanceModifierParent>1</relationChanceModifierParent>
+				<relationChanceModifierChild>1</relationChanceModifierChild>
+				<relationChanceModifierSibling>1</relationChanceModifierSibling>
+			
+				<relationChanceModifierLover>1</relationChanceModifierLover>
+				<relationChanceModifierExLover>1</relationChanceModifierExLover>
+			
+				<relationChanceModifierFiance>1</relationChanceModifierFiance>
+				<relationChanceModifierSpouse>1</relationChanceModifierSpouse>
+				<relationChanceModifierExSpouse>1</relationChanceModifierExSpouse>
+			</relationSettings>
+			<raceRestriction>
+				<researchList>
+						<li>
+							<projects>
+					
+							</projects>
+						</li>
+				</researchList>
+				<apparelList>
+				
+				</apparelList>
+				<recipeList>
+				
+				</recipeList>
+				<buildingList>
+				
+				</buildingList>
+				<blackBuildingList>
+				
+				</blackBuildingList>
+			</raceRestriction>
+		</alienRace>
+		<statBases>
+			<MarketValue>2000</MarketValue>
+			<MoveSpeed>5</MoveSpeed>
+			<Flammability>0.3</Flammability>
+			<ComfyTemperatureMin>8</ComfyTemperatureMin>
+			<ComfyTemperatureMax>32</ComfyTemperatureMax>
+			<LeatherAmount>55</LeatherAmount>
+			<CarryingCapacity>80</CarryingCapacity>
+			<PsychicSensitivity>1.250</PsychicSensitivity>
+			<MiningSpeed>0.75</MiningSpeed>
+			<ShootingAccuracyPawn>0.95</ShootingAccuracyPawn>
+			<AimingDelayFactor>0.75</AimingDelayFactor>
+			<MentalBreakThreshold>0.025</MentalBreakThreshold>
+			<ImmunityGainSpeed>1.05</ImmunityGainSpeed>
+			<PainShockThreshold>0.85</PainShockThreshold>
+			<ForagedNutritionPerDay>1.0</ForagedNutritionPerDay>
+			<GlobalLearningFactor>1.15</GlobalLearningFactor>
+			<MeleeDodgeChance>1.25</MeleeDodgeChance>
+			<MeleeHitChance>1.15</MeleeHitChance>
+			<GeneralLaborSpeed>1.18</GeneralLaborSpeed>
+			<ButcheryFleshSpeed>0.85</ButcheryFleshSpeed>
+			<ButcheryFleshEfficiency>0.85</ButcheryFleshEfficiency>
+			<SmeltingSpeed>0.85</SmeltingSpeed>
+			<NegotiationAbility>1.15</NegotiationAbility>
+			<SocialImpact>1.15</SocialImpact>
+			<TradePriceImprovement>1.15</TradePriceImprovement>
+			<!--
+			-->
+		</statBases>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.6</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>22</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.6</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>22</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.8</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<lifeExpectancy>15000</lifeExpectancy>
+			<leatherDef>Leather_Eldar</leatherDef>
+			<nameGenerator>OG_Eldar_NamerPerson</nameGenerator>
+			<nameGeneratorFemale>OG_Eldar_NamerPersonFemale</nameGeneratorFemale>
+			<body>Human</body>
+			<bloodDef>OG_FilthBlood_Eldar</bloodDef>	
+			<!--meatColor>(200,135,100)</meatColor-->
+			<baseBodySize>0.95</baseBodySize>
+			<baseHealthScale>0.95</baseHealthScale>
+			<foodType>OmnivoreHuman</foodType>
+			<gestationPeriodDays>45</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0.02)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li>
+					<def>HumanlikeBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>HumanlikeToddler</def>
+					<minAge>1.2</minAge>
+				</li>
+				<li>
+					<def>HumanlikeChild</def>
+					<minAge>4</minAge>
+				</li>
+				<li>
+					<def>HumanlikeTeenager</def>
+					<minAge>13</minAge>
+				</li>
+				<li>
+					<def>HumanlikeAdult</def>
+					<minAge>18</minAge>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+				<points>
+					<li>(16,0)</li>
+					<li>(170,150)</li>
+					<li>(1500,100)</li>
+					<li>(2000,100)</li>
+					<li>(3000,100)</li>
+					<li>(4000,12)</li>
+					<li>(5000,6)</li>
+					<li>(7500,3)</li>
+					<li>(10000,2)</li>
+					<li>(12500,1)</li>
+					<li>(15000,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>OG_Aeldari_OrganicAgeless</li>
+			</hediffGiverSets>
+		</race>
+		<recipes>
+			<li>InstallArchotechEye</li>
+			<li>InstallArchotechArm</li>
+			<li>InstallArchotechLeg</li>
+			<li>InstallPowerClaw</li>
+			<li>InstallBionicEye</li>
+			<li>InstallBionicArm</li>
+			<li>InstallBionicLeg</li>
+			<li>InstallBionicSpine</li>
+			<li>InstallBionicHeart</li>
+			<li>InstallBionicStomach</li>
+			<li>InstallBionicEar</li>
+			<li>InstallSimpleProstheticArm</li>
+			<li>InstallSimpleProstheticLeg</li>
+			<li>InstallSimpleProstheticHeart</li>
+			<li>InstallCochlearImplant</li>
+			<li>InstallPegLeg</li>
+			<li>InstallDenture</li>
+			<li>InstallJoywire</li>
+			<li>InstallPainstopper</li>
+			<li>InstallNaturalHeart</li>
+			<li>InstallNaturalLung</li>
+			<li>InstallNaturalKidney</li>
+			<li>InstallNaturalLiver</li>
+			<li>ExciseCarcinoma</li>
+			<li>RemoveBodyPart</li>
+			<li>Euthanize</li>
+			<li>Anesthetize</li>
+		</recipes>
+		<comps>
+		
+		</comps>
+		<modExtensions>
+			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Humanoid</bodyShape>
+			</li>
+		</modExtensions>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

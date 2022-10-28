@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <HediffDef ParentName="OGSpecialGoodHeDiff">
+    <defName>OGDE_Soulblight</defName>
+    <label>soulblight</label>
+    <labelNoun>soulblighted</labelNoun>
+    <stages>
+      <li>
+        <hungerRateFactor>2</hungerRateFactor>
+        <restFallFactor>2</restFallFactor>
+        <painFactor>0</painFactor>
+        <socialFightChanceFactor>0</socialFightChanceFactor>
+        <statOffsets>
+          <MeleeHitChance>-0.5</MeleeHitChance>
+          <MeleeDodgeChance>-0.5</MeleeDodgeChance>
+          <ToxicSensitivity>1</ToxicSensitivity>
+          <!--PsychicSensitivity>-1</PsychicSensitivity-->
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+	
+    </comps>
+  </HediffDef>	
+  
+  <HediffDef ParentName="OGSpecialGoodHeDiff">
+    <defName>OGDE_PowerFromPain</defName>
+    <label>Power From Pain</label>
+    <labelNoun>Power From Pain</labelNoun>
+    <stages>
+      <li>
+        <label>Inured to Suffering</label>
+        <hungerRateFactor>0.95</hungerRateFactor>
+        <restFallFactor>0.95</restFallFactor>
+        <statOffsets>
+          <OG_ArmorRating_InvunerableSave>0.35</OG_ArmorRating_InvunerableSave>
+          <Beauty>0.35</Beauty>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Eager to Flay</label>
+        <minSeverity>0.3</minSeverity>
+        <hungerRateFactor>0.90</hungerRateFactor>
+        <restFallFactor>0.90</restFallFactor>
+        <statOffsets>
+          <OG_ArmorRating_InvunerableSave>0.35</OG_ArmorRating_InvunerableSave>
+          <MoveSpeed>0.5</MoveSpeed>
+          <Beauty>0.5</Beauty>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Flensing Fury</label>
+        <minSeverity>0.65</minSeverity>
+        <hungerRateFactor>0.85</hungerRateFactor>
+        <restFallFactor>0.85</restFallFactor>
+        <statOffsets>
+          <MeleeHitChance>0.35</MeleeHitChance>
+          <OG_ArmorRating_InvunerableSave>0.35</OG_ArmorRating_InvunerableSave>
+          <MoveSpeed>0.5</MoveSpeed>
+          <Beauty>0.75</Beauty>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Emboldened by Bloodshed</label>
+        <minSeverity>0.85</minSeverity>
+        <hungerRateFactor>0.80</hungerRateFactor>
+        <restFallFactor>0.80</restFallFactor>
+        <totalBleedFactor>0.75</totalBleedFactor>
+        <statOffsets>
+          <MeleeHitChance>0.35</MeleeHitChance>
+          <MeleeDodgeChance>0.35</MeleeDodgeChance>
+          <OG_ArmorRating_InvunerableSave>0.35</OG_ArmorRating_InvunerableSave>
+          <MoveSpeed>0.5</MoveSpeed>
+          <Beauty>0.95</Beauty>
+        </statOffsets>
+      </li>
+      <li>
+        <label>Mantle of Agony</label>
+        <minSeverity>1.0</minSeverity>
+        <hungerRateFactor>0.75</hungerRateFactor>
+        <restFallFactor>0.75</restFallFactor>
+        <totalBleedFactor>0.75</totalBleedFactor>
+        <naturalHealingFactor>1.25</naturalHealingFactor>
+        <statOffsets>
+          <MeleeHitChance>0.35</MeleeHitChance>
+          <MeleeDodgeChance>0.35</MeleeDodgeChance>
+          <OG_ArmorRating_InvunerableSave>0.35</OG_ArmorRating_InvunerableSave>
+          <MoveSpeed>0.5</MoveSpeed>
+          <Beauty>1.15</Beauty>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+	
+    </comps>
+  </HediffDef>	
+  
+
+</Defs>

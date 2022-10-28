@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<!--success>Always</success-->
+		<operations>
+			<!-- ========================= Dark Kabalite Armour ========================== -->
+			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_Kabalite</defName>
+				<statBases>
+					<ArmorRating_Sharp>9</ArmorRating_Sharp>
+					<ArmorRating_Blunt>16</ArmorRating_Blunt>
+					<Bulk IgnoreIfNoMatchingField="True">10</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">8</WornBulk>
+				</statBases>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
+			</li>
+
+			<!-- ========================= Kabalite Helmet ========================== -->
+			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_KabaliteHelmet</defName>
+				<statBases>
+					<ArmorRating_Sharp>8</ArmorRating_Sharp>
+					<ArmorRating_Blunt>14</ArmorRating_Blunt>
+					<Bulk IgnoreIfNoMatchingField="True">3</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">4</WornBulk>
+				</statBases>
+				<layersPrepend>
+					<li>OnHead</li>
+					<li>StrappedHead</li>
+				</layersPrepend>
+			</li>
+			
+			<!-- ========================= Sybarite Armour ========================== -->
+			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_Sybarite</defName>
+				<statBases>
+					<ArmorRating_Sharp>12</ArmorRating_Sharp>
+					<ArmorRating_Blunt>50</ArmorRating_Blunt>
+					<Bulk IgnoreIfNoMatchingField="True">10</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">8</WornBulk>
+				</statBases>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
+			</li>
+			
+			<!-- ========================= Sybarite Helmet ========================== -->
+			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_SybariteHelmet</defName>
+				<statBases>
+					<ArmorRating_Sharp>9</ArmorRating_Sharp>
+					<ArmorRating_Blunt>38</ArmorRating_Blunt>
+					<Bulk IgnoreIfNoMatchingField="True">3</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">4</WornBulk>
+				</statBases>
+				<layersPrepend>
+					<li>OnHead</li>
+					<li>StrappedHead</li>
+				</layersPrepend>
+			</li>
+			
+			<!--========================= 5+ ==========================-->
+			<!-- ========================= Wych Armour ========================== -->
+			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_Wych</defName>
+				<statBases>
+					<ArmorRating_Sharp>6</ArmorRating_Sharp>
+					<ArmorRating_Blunt>10</ArmorRating_Blunt>
+					<OG_ArmorRating_InvunerableSave>0.55</OG_ArmorRating_InvunerableSave>
+					<Bulk IgnoreIfNoMatchingField="True">10</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">8</WornBulk>
+				</statBases>
+				<!--costList>
+					<Steel>25</Steel>
+				</costList>
+				<stuffCost>
+					<stuffCategories>
+						<li>Fabric</li>
+					</stuffCategories>
+					<costStuffCount>70</costStuffCount>
+				</stuffCost-->
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
+			</li>
+		
+			<!-- ========================= Wych Helmet ========================== -->
+			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_WychHelmet</defName>
+				<statBases>
+					<Bulk>4</Bulk>
+					<ArmorRating_Sharp>5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>8</ArmorRating_Blunt>
+					<OG_ArmorRating_InvunerableSave>0.55</OG_ArmorRating_InvunerableSave>
+					<Bulk IgnoreIfNoMatchingField="True">3</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">4</WornBulk>
+				</statBases>
+				<layersPrepend>
+					<li>OnHead</li>
+					<li>StrappedHead</li>
+				</layersPrepend>
+			</li>
+			
+			<!-- ========================= Beastmaster Helmet ========================== -->
+			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_BeastmasterHelmet</defName>
+				<statBases>
+					<Bulk>4</Bulk>
+					<ArmorRating_Sharp>5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>8</ArmorRating_Blunt>
+					<Bulk IgnoreIfNoMatchingField="True">3</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">4</WornBulk>
+				</statBases>
+				<layersPrepend>
+					<li>OnHead</li>
+					<li>StrappedHead</li>
+				</layersPrepend>
+			</li>
+
+			<!-- ========================= Haemonculi Armour ========================== -->
+			<!--li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_Haemonculi</defName>
+				<statBases>
+					<ArmorRating_Sharp>15</ArmorRating_Sharp>
+					<ArmorRating_Blunt>50</ArmorRating_Blunt>
+					<OG_ArmorRating_InvunerableSave>0.75</OG_ArmorRating_InvunerableSave>
+					<Bulk IgnoreIfNoMatchingField="True">10</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">8</WornBulk>
+				</statBases>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
+			</li-->
+
+			<!-- ========================= Haemonculi Helmet ========================== -->
+			<!--li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_HaemonculiHelmet</defName>
+				<statBases>
+					<ArmorRating_Sharp>12</ArmorRating_Sharp>
+					<ArmorRating_Blunt>38</ArmorRating_Blunt>
+					<OG_ArmorRating_InvunerableSave>0.75</OG_ArmorRating_InvunerableSave>
+					<Bulk IgnoreIfNoMatchingField="True">3</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">4</WornBulk>
+				</statBases>
+				<layersPrepend>
+					<li>OnHead</li>
+					<li>StrappedHead</li>
+				</layersPrepend>
+			</li-->
+			
+			<!-- ========================= Hellion Armour ========================== -->
+			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_Hellion</defName>
+				<statBases>
+					<ArmorRating_Sharp>15</ArmorRating_Sharp>
+					<ArmorRating_Blunt>50</ArmorRating_Blunt>
+					<OG_ArmorRating_InvunerableSave>0.55</OG_ArmorRating_InvunerableSave>
+					<Bulk IgnoreIfNoMatchingField="True">10</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">8</WornBulk>
+				</statBases>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
+			</li>
+
+			<!-- ========================= Hellion Helmet ========================== -->
+			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_HellionHelmet</defName>
+				<statBases>
+					<ArmorRating_Sharp>12</ArmorRating_Sharp>
+					<ArmorRating_Blunt>38</ArmorRating_Blunt>
+					<OG_ArmorRating_InvunerableSave>0.55</OG_ArmorRating_InvunerableSave>
+					<Bulk IgnoreIfNoMatchingField="True">3</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">4</WornBulk>
+				</statBases>
+				<layersPrepend>
+					<li>OnHead</li>
+					<li>StrappedHead</li>
+				</layersPrepend>
+			</li>
+			
+			<!-- ========================= Scourge Armour ========================== -->
+			<!--li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_Scourge</defName>
+				<statBases>
+					<ArmorRating_Sharp>15</ArmorRating_Sharp>
+					<ArmorRating_Blunt>50</ArmorRating_Blunt>
+					<OG_ArmorRating_InvunerableSave>0.55</OG_ArmorRating_InvunerableSave>
+					<Bulk IgnoreIfNoMatchingField="True">10</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">8</WornBulk>
+				</statBases>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
+			</li-->
+
+			<!-- ========================= Scourge Helmet ========================== -->
+			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_ScourgeHelmet</defName>
+				<statBases>
+					<ArmorRating_Sharp>12</ArmorRating_Sharp>
+					<ArmorRating_Blunt>38</ArmorRating_Blunt>
+					<OG_ArmorRating_InvunerableSave>0.55</OG_ArmorRating_InvunerableSave>
+					<Bulk IgnoreIfNoMatchingField="True">3</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">4</WornBulk>
+				</statBases>
+				<layersPrepend>
+					<li>OnHead</li>
+					<li>StrappedHead</li>
+				</layersPrepend>
+			</li>
+			
+			<!--========================= 3+ ==========================-->
+			<!-- ========================= Incubi Armour ========================== -->
+			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_Incubi</defName>
+				<statBases>
+					<ArmorRating_Sharp>24</ArmorRating_Sharp>
+					<ArmorRating_Blunt>72</ArmorRating_Blunt>
+					<Bulk IgnoreIfNoMatchingField="True">10</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">8</WornBulk>
+				</statBases>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
+			</li>	
+
+			<!-- ========================= Incubi Helmet ========================== -->
+			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_IncubiHelmet</defName>
+				<statBases>
+					<ArmorRating_Sharp>19</ArmorRating_Sharp>
+					<ArmorRating_Blunt>55</ArmorRating_Blunt>
+					<Bulk IgnoreIfNoMatchingField="True">3</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">4</WornBulk>
+				</statBases>
+				<layersPrepend>
+					<li>OnHead</li>
+					<li>StrappedHead</li>
+				</layersPrepend>
+			</li>
+			
+			<!-- ========================= Incubi Lord Armour ========================== -->
+			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_IncubiLord</defName>
+				<statBases>
+					<ArmorRating_Sharp>24</ArmorRating_Sharp>
+					<ArmorRating_Blunt>72</ArmorRating_Blunt>
+					<Bulk IgnoreIfNoMatchingField="True">10</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">8</WornBulk>
+				</statBases>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
+			</li>
+
+			<!-- ========================= Incubi Lord Helmet ========================== -->
+			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_IncubiLordHelmet</defName>
+				<statBases>
+					<ArmorRating_Sharp>19</ArmorRating_Sharp>
+					<ArmorRating_Blunt>55</ArmorRating_Blunt>
+					<Bulk IgnoreIfNoMatchingField="True">3</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">4</WornBulk>
+				</statBases>
+				<layersPrepend>
+					<li>OnHead</li>
+					<li>StrappedHead</li>
+				</layersPrepend>
+			</li>
+			
+			<!-- ========================= Archon Armour ========================== -->
+			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_Archon</defName>
+				<statBases>
+					<ArmorRating_Sharp>24</ArmorRating_Sharp>
+					<ArmorRating_Blunt>72</ArmorRating_Blunt>
+					<OG_ArmorRating_InvunerableSave>1.25</OG_ArmorRating_InvunerableSave>
+					<Bulk IgnoreIfNoMatchingField="True">10</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">8</WornBulk>
+				</statBases>
+				<bodyPartGroups>
+					<li>Hands</li>
+					<li>Feet</li>
+				</bodyPartGroups>
+			</li>
+
+			<!-- ========================= Archon Helmet ========================== -->
+			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_ArchonHelmet</defName>
+				<statBases>
+					<ArmorRating_Sharp>19</ArmorRating_Sharp>
+					<ArmorRating_Blunt>55</ArmorRating_Blunt>
+					<OG_ArmorRating_InvunerableSave>1.25</OG_ArmorRating_InvunerableSave>
+					<Bulk IgnoreIfNoMatchingField="True">3</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">4</WornBulk>
+				</statBases>
+				<layersPrepend>
+					<li>OnHead</li>
+					<li>StrappedHead</li>
+				</layersPrepend>
+			</li>
+				
+			<!-- ========================= Wrack Helmet ========================== -->
+			<!--li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+				<defName>OGDE_Apparel_Armor_WrackHelmet</defName>
+				<statBases>
+					<ArmorRating_Sharp>19</ArmorRating_Sharp>
+					<ArmorRating_Blunt>55</ArmorRating_Blunt>
+					<OG_ArmorRating_InvunerableSave>1.25</OG_ArmorRating_InvunerableSave>
+					<Bulk IgnoreIfNoMatchingField="True">3</Bulk>
+					<WornBulk IgnoreIfNoMatchingField="True">4</WornBulk>
+				</statBases>
+				<layersPrepend>
+					<li>OnHead</li>
+					<li>StrappedHead</li>
+				</layersPrepend>
+			</li-->
+				
+		</operations>
+	</Operation>
+</Patch>

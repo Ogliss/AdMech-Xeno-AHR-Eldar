@@ -1,0 +1,746 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--========================= Eldar - Headgear ==========================-->
+	<!--========================= Eldar - Guardian Helmet ==========================-->
+    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<defName>OGE_Apparel_MeshHelmet</defName>
+		<label>mesh armour helmet</label>
+		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/GuardianHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>1</Mass>
+			<MaxHitPoints>225</MaxHitPoints>
+			<WorkToMake>30000</WorkToMake>
+			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<Insulation_Heat>2</Insulation_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn>
+			<WorkSpeedGlobal>-0.005</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>30</Steel>
+			<Plasteel>20</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<OGE_Wraithbone>15</OGE_Wraithbone>
+			<OGE_Component>5</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/GuardianHelmet/Base</wornGraphicPath>
+			<tags>
+				<li>EldarGaurdian</li>
+				<li>EldarGaurdianHeadgear</li>
+			</tags>
+		</apparel>
+		<comps>
+		
+		</comps>
+		<modExtensions>
+		
+		</modExtensions>
+	</ThingDef>
+
+	<!--========================= Eldar - Ranger Helmet ==========================-->
+    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<defName>OGE_Apparel_RangerHelmet</defName>
+		<label>ranger helmet</label>
+		<description>Ranger armour is a mesh suit with Eldar carapace plates attached to it. As a result, it is very flexible, allowing Rangers to move freely. However, this flexibility comes at the expense of protection, offering protection similar to Imperial Flak armour. Another feature is the intergration of a Cameleoline overcoat, which helps Rangers to blend into their surroundings, especially in poorly-lit environments.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/RangerHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<colorTwo>38,55,45</colorTwo> <!-- ORKHIDE SHADE  -->
+		</graphicData>
+		<statBases>
+			<Mass>1</Mass>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>30000</WorkToMake>
+			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+			<PsychicSensitivity>-0.10</PsychicSensitivity>
+			<HuntingStealth>0.250</HuntingStealth>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<OGE_Wraithbone>25</OGE_Wraithbone>
+			<OGE_Component>5</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/RangerHelmet/Base</wornGraphicPath>
+			<tags>
+				<li>EldarRanger</li>
+				<li>EldarRangerHeadgear</li>
+			</tags>
+		</apparel>
+		<comps>
+		
+		</comps>
+		<modExtensions>
+		
+		</modExtensions>
+	</ThingDef>
+
+	<!--========================= Eldar - Avenger Helmet ==========================-->
+    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<defName>OGE_Apparel_AvengerHelmet</defName>
+		<label>dire avenger helmet</label>
+		<description>Each warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. As a standard Dire Avenger, the helmet is distinctively tall with a long top crest of exotic animal hair, often dyed to match the parent Craftworld's colours.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/AvengerHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>49,100,157</color>
+		</graphicData>
+		<statBases>
+			<Mass>1</Mass>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>30000</WorkToMake>
+			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.90</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.90</ArmorRating_Heat>
+			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+			<PsychicSensitivity>-0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>30</Steel>
+			<Plasteel>20</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<OGE_Wraithbone>15</OGE_Wraithbone>
+			<OGE_Component>5</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Aeldari_Tech_Apparel_Armour_T1</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/AvengerHelmet/Base</wornGraphicPath>
+			<tags>
+				<li>EldarDireAvenger</li>
+				<li>EldarDireAvengerHeadgear</li>
+			</tags>
+		</apparel>
+		<comps>
+		
+		</comps>
+		<modExtensions>
+		
+		</modExtensions>
+	</ThingDef>
+
+	<!--========================= Eldar - Banshee Helmet ==========================-->
+    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<defName>OGE_Apparel_BansheeHelmet</defName>
+		<label>howling banshee mask</label>
+		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. A standard Howling Banshees Aspect Warrior's Banshee Mask is tall with their long flowing hair spilling from the top of it like a lion's mane. Their distinctive Banshee Masks contain psychosonic aplifiers that magnify their keening battle screams into mind-destroying shockwaves. This inflicts severe damage to the central nervous system of the Eldar warrior's foe, inspiring feeling of mortal terror and causing momentary paralysis.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/BansheeHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<colorTwo>25,85,60</colorTwo> <!-- DARK ANGEL GREEN -->
+		</graphicData>
+		<statBases>
+			<Mass>1</Mass>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>30000</WorkToMake>
+			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.06</ArmorRating_Heat>
+			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.01</MoveSpeed>
+			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<OGE_Wraithbone>20</OGE_Wraithbone>
+			<OGE_Component>10</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/BansheeHelmet/Base</wornGraphicPath>
+			<tags>
+				<li>EldarHowlingBanshee</li>
+				<li>EldarHowlingBansheeHeadgear</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="AdeptusMechanicus.CompProperties_ApparelExtraPartDrawer">
+				<ExtraPartEntryChance>1</ExtraPartEntryChance>
+				<onHead>true</onHead>
+				<ExtrasEntries>
+					<li>
+						<graphicData>
+							<texPath>Things/Item/Apparel/Eldar/BansheeHelmet/Plume/Base</texPath>
+							<!--graphicClass>Graphic_Single</graphicClass-->
+							<shaderType>Cutout</shaderType>
+							<!--color>255,255,255</color-->
+						</graphicData>
+						<commonality>1</commonality>
+						<maxQuality>Excellent</maxQuality>
+						<useParentPrimaryColor>false</useParentPrimaryColor>
+						<UseBodytypeTextures>false</UseBodytypeTextures>
+						<forceDynamicDraw IgnoreIfNoMatchingField="True">true</forceDynamicDraw>
+						<EastOffset>-0.0,0.0,0.0</EastOffset>
+						<WestOffset>0.0,0.0,0.0</WestOffset>
+					</li>
+					<li>
+						<graphicData>
+							<texPath>Things/Item/Apparel/Eldar/BansheeHelmet/Plume/Flip</texPath>
+							<!--graphicClass>Graphic_Single</graphicClass-->
+							<shaderType>Cutout</shaderType>
+							<!--color>255,255,255</color-->
+						</graphicData>
+						<commonality>1</commonality>
+						<maxQuality>Excellent</maxQuality>
+						<useParentPrimaryColor>false</useParentPrimaryColor>
+						<UseBodytypeTextures>false</UseBodytypeTextures>
+						<forceDynamicDraw IgnoreIfNoMatchingField="True">true</forceDynamicDraw>
+						<EastOffset>-0.0,0.0,0.0</EastOffset>
+						<WestOffset>0.0,0.0,0.0</WestOffset>
+					</li>
+				</ExtrasEntries>
+				<NorthOffset>0.0,0.35,0.0</NorthOffset>
+				<SouthOffset>0.0,-0.35,0.0</SouthOffset>
+				<EastOffset>0.0,-0.35,0.0</EastOffset>
+				<WestOffset>0.0,-0.35,0.0</WestOffset>
+			</li>
+		</comps>
+		<modExtensions>
+		
+		</modExtensions>
+	</ThingDef>
+
+	<!--========================= Eldar - Hawk Helmet ==========================-->
+    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<defName>OGE_Apparel_HawkHelmet</defName>
+		<label>swooping Hawk helmet</label>
+		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. For a standard Swooping Hawk, the helmet is distinctively tall and swept back, allowing for better aerodynamics.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/HawkHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>0,129,148</color> <!-- HAWK TURQUOISE -->
+			<colorTwo>0,111,69</colorTwo> <!-- SNOT GREEN -->
+		</graphicData>
+		<statBases>
+			<Mass>1</Mass>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>30000</WorkToMake>
+			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.06</ArmorRating_Heat>
+			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.01</MoveSpeed>
+			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<OGE_Wraithbone>20</OGE_Wraithbone>
+			<OGE_Component>10</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/HawkHelmet/Base</wornGraphicPath>
+			<tags>
+				<li>EldarHawk</li>
+				<li>EldarHawkHeadgear</li>
+			</tags>
+		</apparel>
+		<comps>
+		
+		</comps>
+		<modExtensions>
+		
+		</modExtensions>
+	</ThingDef>
+
+	<!--========================= Eldar - Dragon Helmet ==========================-->
+    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<defName>OGE_Apparel_DragonHelmet</defName>
+		<label>fire dragon helmet</label>
+		<description>Each warrior Aspect has its own distinctive helmet, and within each shrine of the Aspect the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. A standard Fire Dragon Aspect Warrior's helmet is distinctively tall with a long top crest. By custom, it is this helmet that marks the Aspect Warriors as the protectors and avengers of their Craftworld. It bears the rune of the Fire Dragons traced upon its forehead.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/DragonHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<colorTwo>197,160,9</colorTwo>
+			<color>244,121,32</color> <!-- FIERY ORANGE -->
+		</graphicData>
+		<statBases>
+			<Mass>1</Mass>
+			<MaxHitPoints>350</MaxHitPoints>
+			<WorkToMake>30000</WorkToMake>
+			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.06</ArmorRating_Heat>
+			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.01</MoveSpeed>
+			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<OGE_Wraithbone>20</OGE_Wraithbone>
+			<OGE_Component>10</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/DragonHelmet/Base</wornGraphicPath>
+			<tags>
+				<li>EldarFireDragon</li>
+				<li>EldarFireDragonHeadgear</li>
+				<li>EVA</li>
+			</tags>
+		</apparel>
+		<comps>
+		
+		</comps>
+		<modExtensions>
+		
+		</modExtensions>
+	</ThingDef>
+
+	<!--========================= Eldar - Scorpion Helmet ==========================-->
+    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<defName>OGE_Apparel_ScorpionHelmet</defName>
+		<label>striking scorpion helmet</label>
+		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. A standard Striking Scorpions warrior helmet is distinctively tall and swept back and incorporates a pair of weapon pods positioned and shaped much like the mandibles of a scorpion. Each pod houses a mandible blaster, or Mandiblaster, a unique and deadly device also known as the Sting of the Scorpion.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/ScorpionHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>101,179,69</color> <!-- SCORPION GREEN -->
+			<colorTwo>0,111,69</colorTwo> <!-- SNOT GREEN -->
+		</graphicData>
+		<statBases>
+			<Mass>1</Mass>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>30000</WorkToMake>
+			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.06</ArmorRating_Heat>
+			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.01</MoveSpeed>
+			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<OGE_Wraithbone>20</OGE_Wraithbone>
+			<OGE_Component>10</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/ScorpionHelmet/Base</wornGraphicPath>
+			<tags>
+				<li>EldarStrikingScorpion</li>
+				<li>EldarStrikingScorpionHeadgear</li>
+			</tags>
+		</apparel>
+		<comps>    
+			<li Class="AdeptusMechanicus.CompProperties_ApparelExtraPartDrawer">
+				<ExtraPartEntryChance>1</ExtraPartEntryChance>
+				<onHead>true</onHead>
+				<ExtrasEntries>
+					<li>
+						<graphicData>
+							<texPath>Things/Item/Apparel/Eldar/ScorpionHelmet/Plumes/Base</texPath>
+							<!--graphicClass>Graphic_Single</graphicClass-->
+							<shaderType>Cutout</shaderType>
+							<!--color>255,255,255</color-->
+						</graphicData>
+						<commonality>1</commonality>
+						<maxQuality>Excellent</maxQuality>
+						<useParentPrimaryColor>false</useParentPrimaryColor>
+						<UseBodytypeTextures>false</UseBodytypeTextures>
+						<forceDynamicDraw IgnoreIfNoMatchingField="True">true</forceDynamicDraw>
+						<EastOffset>-0.425,-0.35,0</EastOffset>
+						<WestOffset>0.425,0.35,0</WestOffset>
+					</li>
+					<li>
+						<graphicData>
+							<texPath>Things/Item/Apparel/Eldar/ScorpionHelmet/Plumes/Flip</texPath>
+							<!--graphicClass>Graphic_Single</graphicClass-->
+							<shaderType>Cutout</shaderType>
+							<!--color>255,255,255</color-->
+						</graphicData>
+						<commonality>1</commonality>
+						<maxQuality>Excellent</maxQuality>
+						<useParentPrimaryColor>false</useParentPrimaryColor>
+						<UseBodytypeTextures>false</UseBodytypeTextures>
+						<forceDynamicDraw IgnoreIfNoMatchingField="True">true</forceDynamicDraw>
+						<EastOffset>-0.425,0.35,0</EastOffset>
+						<WestOffset>0.425,-0.35,0</WestOffset>
+					</li>
+					<li>
+						<graphicData>
+							<texPath>Things/Item/Apparel/Eldar/ScorpionHelmet/Plumes/Exarch</texPath>
+							<!--graphicClass>Graphic_Single</graphicClass-->
+							<shaderType>Cutout</shaderType>
+						</graphicData>
+						<commonality>1</commonality>
+						<minQuality>Masterwork</minQuality>
+						<useParentPrimaryColor>false</useParentPrimaryColor>
+						<UseBodytypeTextures>false</UseBodytypeTextures>
+						<forceDynamicDraw IgnoreIfNoMatchingField="True">true</forceDynamicDraw>
+						<EastOffset>-0.425,-0.35,0</EastOffset>
+						<WestOffset>0.425,0.35,0</WestOffset>
+					</li>
+				</ExtrasEntries>
+				<NorthOffset>0,0.35,0</NorthOffset>
+				<SouthOffset>0,0.0,0</SouthOffset>
+				<EastOffset>0,0.0,0</EastOffset>
+				<WestOffset>0,0.0,0</WestOffset>
+			</li>
+		</comps>
+		<modExtensions>
+		
+		</modExtensions>
+	</ThingDef>
+
+	<!--========================= Eldar - Spider Helmet ==========================-->
+    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<defName>OGE_Apparel_SpiderHelmet</defName>
+		<label>warp spider helmet</label>
+		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. For a standard Warp Spider, the helmet is swept back and comes to a slight point.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/SpiderHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>168,32,20</color> <!-- MECHRITE RED -->
+			<colorTwo>26,33,61</colorTwo> <!-- NECRON ABYSS -->
+		</graphicData>
+		<statBases>
+			<Mass>1</Mass>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>30000</WorkToMake>
+			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.06</ArmorRating_Heat>
+			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.01</MoveSpeed>
+			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<OGE_Wraithbone>20</OGE_Wraithbone>
+			<OGE_Component>10</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/SpiderHelmet/Base</wornGraphicPath>
+			<tags>
+				<li>EldarWarpSpider</li>
+				<li>EldarWarpSpiderHeadgear</li>
+			</tags>
+		</apparel>
+		<comps>
+		
+		</comps>
+		<modExtensions>
+		
+		</modExtensions>
+	</ThingDef>
+
+	<!--========================= Eldar - Reaper Helmet ==========================-->
+    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<defName>OGE_Apparel_ReaperHelmet</defName>
+		<label>dark reaper helmet</label>
+		<description>Each Aeldari warrior Aspect has its own distinctive helmet, and within each Aspect Shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. For a standard Dark Reaper, the helmet incorporates a death mask, marking them out as the harbingers of death and destruction. Their helmet incorporates specialised rangefinding sensor vanes which extend out of the helmet of their Aspect Armour and allows a Dark Reaper to achieve target lock on even fast-moving vehicles.</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/ReaperHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>26,33,61</color> <!-- NECRON ABYSS -->
+			<colorTwo>238,213,172</colorTwo> <!-- BLEACHED BONE -->
+		</graphicData>
+		<statBases>
+			<Mass>1</Mass>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>30000</WorkToMake>
+			<ArmorRating_Blunt>1.06</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.06</ArmorRating_Heat>
+			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.01</MoveSpeed>
+			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+			<PsychicSensitivity>0.10</PsychicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<OGE_Wraithbone>20</OGE_Wraithbone>
+			<OGE_Component>10</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T2</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/ReaperHelmet/Base</wornGraphicPath>
+			<tags>
+				<li>EldarWarpSpider</li>
+				<li>EldarWarpSpiderHeadgear</li>
+			</tags>
+		</apparel>
+		<comps>    
+			<li Class="AdeptusMechanicus.CompProperties_ApparelExtraPartDrawer">
+				<ExtraPartEntryChance>1</ExtraPartEntryChance>
+				<onHead>true</onHead>
+				<ExtrasEntries>
+					<li>
+						<graphicData>
+							<texPath>Things/Item/Apparel/Eldar/ReaperHelmet/Plume/Base</texPath>
+							<!--graphicClass>Graphic_Single</graphicClass-->
+							<shaderType>Cutout</shaderType>
+							<!--color>255,255,255</color-->
+						</graphicData>
+						<commonality>1</commonality>
+						<maxQuality>Excellent</maxQuality>
+						<useParentPrimaryColor>false</useParentPrimaryColor>
+						<UseBodytypeTextures>false</UseBodytypeTextures>
+						<forceDynamicDraw IgnoreIfNoMatchingField="True">true</forceDynamicDraw>
+						<EastOffset>-0.0,0.0,0.0</EastOffset>
+						<WestOffset>0.0,0.0,0.0</WestOffset>
+					</li>
+					<li>
+						<graphicData>
+							<texPath>Things/Item/Apparel/Eldar/ReaperHelmet/Plume/Flip</texPath>
+							<!--graphicClass>Graphic_Single</graphicClass-->
+							<shaderType>Cutout</shaderType>
+							<!--color>255,255,255</color-->
+						</graphicData>
+						<commonality>1</commonality>
+						<maxQuality>Excellent</maxQuality>
+						<useParentPrimaryColor>false</useParentPrimaryColor>
+						<UseBodytypeTextures>false</UseBodytypeTextures>
+						<forceDynamicDraw IgnoreIfNoMatchingField="True">true</forceDynamicDraw>
+						<EastOffset>-0.0,0.0,0.0</EastOffset>
+						<WestOffset>0.0,0.0,0.0</WestOffset>
+					</li>
+				</ExtrasEntries>
+				<NorthOffset>0.0,0.35,0.0</NorthOffset>
+				<SouthOffset>0.0,-0.35,0.0</SouthOffset>
+				<EastOffset>0.0,-0.35,0.0</EastOffset>
+				<WestOffset>0.0,-0.35,0.0</WestOffset>
+			</li> 
+		</comps>
+		<modExtensions>
+		
+		</modExtensions>
+	</ThingDef>
+
+	<!--========================= Eldar - Warlock Helmet ==========================-->
+    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<defName>OGE_Apparel_WarlockHelmet</defName>
+		<label>warlock helmet</label>
+		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/WarlockHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Mass>1</Mass>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>30000</WorkToMake>
+			<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.85</ArmorRating_Heat>
+			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+			<PsychicSensitivity>-0.50</PsychicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<OGE_Wraithbone>30</OGE_Wraithbone>
+			<OGE_Component>10</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T3</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/WarlockHelmet/Base</wornGraphicPath>
+			<tags>
+				<li>EldarPsyker</li>
+				<li>EldarWarlock</li>
+				<li>EldarWarlockHeadgear</li>
+			</tags>
+		</apparel>
+		<comps>
+		
+		</comps>
+		<modExtensions>
+		
+		</modExtensions>
+	</ThingDef>
+	
+	<!--========================= Eldar - Ghosthelm ==========================-->
+    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<defName>OGE_Apparel_Ghosthelm</defName>
+		<label>ghosthelm</label>
+		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
+		<graphicData>
+			<texPath>Things/Item/Apparel/Eldar/GhostHelmet/_Icon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<colorTwo>70,63,57</colorTwo> <!-- CHARADON GRANITE -->
+		</graphicData>
+		<statBases>
+			<Mass>1</Mass>
+			<MaxHitPoints>175</MaxHitPoints>
+			<WorkToMake>30000</WorkToMake>
+			<ArmorRating_Blunt>0.87</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.87</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.87</ArmorRating_Heat>
+			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+			<PsychicSensitivity>-0.50</PsychicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<OGE_Wraithbone>30</OGE_Wraithbone>
+			<OGE_Component>10</OGE_Component>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>OG_Eldar_Tech_Apparel_Armour_T3</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPath>Things/Item/Apparel/Eldar/GhostHelmet/Base</wornGraphicPath>
+			<tags>
+				<li>EldarPsyker</li>
+				<li>EldarFarseer</li>
+				<li>EldarFarseerHeadgear</li>
+				<li>EldarGhostHelm</li>
+			</tags>
+		</apparel>
+		<comps>
+		
+		</comps>
+		<modExtensions>
+		
+		</modExtensions>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- ========== Snotling ========== -->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="CombatExtended.PatchOperationMakeWeaponCECompatible">
+				<defName>OG_Gyrinx</defName>
+				<statBases>
+					<ArmorRating_Blunt>4</ArmorRating_Blunt>
+					<ArmorRating_Sharp>2</ArmorRating_Sharp>
+					<MeleeCritChance>1.06</MeleeCritChance>
+					<MeleeDodgeChance>1.5</MeleeDodgeChance>
+					<MeleeParryChance>0.1</MeleeParryChance>
+				</statBases>
+				<tools>
+					<li Class="CombatExtended.ToolCE">
+						<label>left claw</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>10</power>
+						<cooldownTime>0.9</cooldownTime>
+						<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>20</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+						<armorPenetrationSharp>0.16</armorPenetrationSharp>
+						<armorPenetrationBlunt>0.423</armorPenetrationBlunt>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>right claw</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>10</power>
+						<cooldownTime>0.84</cooldownTime>
+						<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>20</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+						<armorPenetrationSharp>0.16</armorPenetrationSharp>
+						<armorPenetrationBlunt>0.423</armorPenetrationBlunt>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<power>18</power>
+						<cooldownTime>1.35</cooldownTime>
+						<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>20</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+						<armorPenetrationSharp>0.5</armorPenetrationSharp>
+						<armorPenetrationBlunt>2</armorPenetrationBlunt>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>head</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>2</power>
+						<cooldownTime>0.97</cooldownTime>
+						<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+						<chanceFactor>0.2</chanceFactor>
+						<armorPenetrationBlunt>0.423</armorPenetrationBlunt>
+					</li>
+				</tools>
+			</li>
+			
+		</operations>
+	</Operation>
+</Patch>

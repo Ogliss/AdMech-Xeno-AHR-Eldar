@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef ParentName="Colonist_OG_Eldar_Craftworld_Base">
+		<defName>Colonist_OG_Eldar_Craftworld</defName>
+		<initialWillRange IgnoreIfNoMatchingField="True">0~0</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">13~21</initialResistanceRange>
+	</PawnKindDef>
+
+</Defs>
