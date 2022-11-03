@@ -67,12 +67,12 @@
 				<alienPartGenerator>
 					<customDrawSize>(0.8, 1.0)</customDrawSize>
 					<!--customHeadDrawSize>(1.00, 1.00)</customHeadDrawSize-->
-					<alienbodytypes>
+					<bodyTypes>
 						<li>Female</li>
 						<li>Male</li>
-					</alienbodytypes>
-					<useGenderedHeads>true</useGenderedHeads>
-					<useGenderedBodies>false</useGenderedBodies>
+					</bodyTypes>
+					<!--useGenderedHeads>true</useGenderedHeads>
+					<useGenderedBodies>false</useGenderedBodies-->
 				</alienPartGenerator>
 				<chemicalSettings>
 					
@@ -225,26 +225,26 @@
 				</points>
 			</litterSizeCurve>
 			<lifeStageAges>
-				<li>
-					<def>HumanlikeBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
-					<def>HumanlikeToddler</def>
-					<minAge>1.2</minAge>
-				</li>
-				<li>
-					<def>HumanlikeChild</def>
-					<minAge>4</minAge>
-				</li>
-				<li>
-					<def>HumanlikeTeenager</def>
-					<minAge>13</minAge>
-				</li>
-				<li>
-					<def>HumanlikeAdult</def>
-					<minAge>18</minAge>
-				</li>
+			<li>
+				<def>HumanlikeBaby</def>
+				<minAge>0</minAge>
+			</li>
+			<li>
+				<def>HumanlikeChild</def>
+				<minAge>3</minAge>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">
+				<def>HumanlikePreTeenager</def>
+				<minAge>9</minAge>
+			</li>
+			<li>
+				<def>HumanlikeTeenager</def>
+				<minAge>13</minAge>
+			</li>
+			<li>
+				<def>HumanlikeAdult</def>
+				<minAge>18</minAge>
+			</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
@@ -255,7 +255,16 @@
 			</specialShadowData>
 			<ageGenerationCurve>
 				<points>
-					<li>(16,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>  <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->  
+					<li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>  
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>      
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li><!-- End exclude -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+					<li>(14,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
 					<li>(170,150)</li>
 					<li>(1500,100)</li>
 					<li>(2000,100)</li>

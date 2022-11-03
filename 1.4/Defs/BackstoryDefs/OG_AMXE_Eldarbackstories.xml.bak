@@ -75,7 +75,7 @@
     <defName>Eldar_Base_Child</defName>
     <title>Eldar child</title>
     <titleShort>Eldar child</titleShort>
-    <baseDescription>[PAWN_nameDef] is a young [PAWN_alienRace].</baseDescription>
+    <baseDesc>[PAWN_nameDef] is a young [PAWN_alienRace].</baseDesc>
 
     <!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
     <bodyTypeMale>Male</bodyTypeMale>
@@ -100,7 +100,7 @@
     <defName>Eldar_Psyker_Child</defName>
     <title>Eldar child</title>
     <titleShort>Eldar child</titleShort>
-    <baseDescription>[PAWN_nameDef] is a young [PAWN_alienRace] Pskyer.</baseDescription>
+    <baseDesc>[PAWN_nameDef] is a young [PAWN_alienRace] Pskyer.</baseDesc>
 
     <!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
     <bodyTypeMale>Male</bodyTypeMale>
@@ -125,7 +125,7 @@
   <AlienRace.BackstoryDef ParentName="Eldar_Base_Child">
     <defName>Eldar_Exodite_Child</defName>
     <title>Exodite</title>
-    <baseDescription>[PAWN_nameDef] was born on an Eldar maiden world. Isolationism and Mistrust were prominent.</baseDescription>
+    <baseDesc>[PAWN_nameDef] was born on an Eldar maiden world. Isolationism and Mistrust were prominent.</baseDesc>
     <maleCommonality>0.0</maleCommonality>
     <femaleCommonality>0.0</femaleCommonality>
     <skillGains>
@@ -162,7 +162,7 @@
   <AlienRace.BackstoryDef ParentName="Eldar_Psyker_Child">
     <defName>Eldar_Exodite_Psyker_Child</defName>
     <title>Exodite</title>
-    <baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] maiden world. The path of the [PAWN_alienRace], and [PAWN_possessive] apptitude for the psychic craft shaped [PAWN_possessive] life.</baseDescription>
+    <baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] maiden world. The path of the [PAWN_alienRace], and [PAWN_possessive] apptitude for the psychic craft shaped [PAWN_possessive] life.</baseDesc>
     <maleCommonality>0.0</maleCommonality>
     <femaleCommonality>0.0</femaleCommonality>
     <skillGains>
@@ -212,7 +212,7 @@
   <AlienRace.BackstoryDef ParentName="Eldar_Base_Child">
     <defName>Eldar_Craftworld_Child</defName>
     <title>Craftworlder</title>
-    <baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life. </baseDescription>
+    <baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life. </baseDesc>
     <maleCommonality>0.0</maleCommonality>
     <femaleCommonality>0.0</femaleCommonality>
     <skillGains>
@@ -245,7 +245,7 @@
   <AlienRace.BackstoryDef ParentName="Eldar_Psyker_Child">
     <defName>Eldar_Craftworld_Psyker_Child</defName>
     <title>Craftworlder</title>
-    <baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life. [PAWN_pronoun] showed signifcant Psychic potiential, even for one of the [PAWN_alienRace].</baseDescription>
+    <baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life. [PAWN_pronoun] showed signifcant Psychic potiential, even for one of the [PAWN_alienRace].</baseDesc>
     <maleCommonality>0.0</maleCommonality>
     <femaleCommonality>0.0</femaleCommonality>
     <skillGains>
@@ -279,7 +279,7 @@
   <AlienRace.BackstoryDef ParentName="Eldar_Base_Child">
     <defName>Eldar_Harlequinn_Child</defName>
     <title>Harlequinn</title>
-    <baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] was to shape [PAWN_possessive] life, but when [PAWN_pronoun] was offered a place in a passing group of Harlequinns [PAWN_pronoun] left [PAWN_possessive] Craftworld to wander the Webway.</baseDescription>
+    <baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] was to shape [PAWN_possessive] life, but when [PAWN_pronoun] was offered a place in a passing group of Harlequinns [PAWN_pronoun] left [PAWN_possessive] Craftworld to wander the Webway.</baseDesc>
     <maleCommonality>0.05</maleCommonality>
     <femaleCommonality>0.05</femaleCommonality>
     <skillGains>
@@ -312,7 +312,7 @@
   <AlienRace.BackstoryDef ParentName="Eldar_Psyker_Child">
     <defName>Eldar_Harlequinn_Psyker_Child</defName>
     <title>Harlequinn</title>
-    <baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] was to shape [PAWN_possessive] life, but when [PAWN_pronoun] was offered a place in a passing group of Harlequinns [PAWN_pronoun] left [PAWN_possessive] Craftworld to wander the Webway.</baseDescription>
+    <baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] was to shape [PAWN_possessive] life, but when [PAWN_pronoun] was offered a place in a passing group of Harlequinns [PAWN_pronoun] left [PAWN_possessive] Craftworld to wander the Webway.</baseDesc>
     <maleCommonality>0.00</maleCommonality>
     <femaleCommonality>0.00</femaleCommonality>
     <skillGains>
@@ -346,7 +346,7 @@
   <AlienRace.BackstoryDef ParentName="Eldar_Base_Child">
     <defName>Eldar_Outcast_Child</defName>
     <title>Outcast</title>
-    <baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. However the strict paths of the [PAWN_alienRace] that shape the lives of Craftworld [PAWN_alienRace] proved too much for [PAWN_pronoun].</baseDescription>
+    <baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. However the strict paths of the [PAWN_alienRace] that shape the lives of Craftworld [PAWN_alienRace] proved too much for [PAWN_pronoun].</baseDesc>
     <maleCommonality>0.0</maleCommonality>
     <femaleCommonality>0.0</femaleCommonality>
     <skillGains>
@@ -379,7 +379,7 @@
   <AlienRace.BackstoryDef ParentName="Eldar_Psyker_Child">
     <defName>Eldar_Outcast_Psyker_Child</defName>
     <title>Outcast</title>
-    <baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. However the strict paths of the [PAWN_alienRace] that shape the lives of Craftworld [PAWN_alienRace] proved too much for [PAWN_pronoun].</baseDescription>
+    <baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. However the strict paths of the [PAWN_alienRace] that shape the lives of Craftworld [PAWN_alienRace] proved too much for [PAWN_pronoun].</baseDesc>
     <maleCommonality>0.0</maleCommonality>
     <femaleCommonality>0.0</femaleCommonality>
     <skillGains>
@@ -416,7 +416,7 @@
     <defName>Path_of_seer_child</defName>
     <title>Path of the Seer</title>
     <titleShort>Eldar Seer</titleShort>
-    <baseDescription>[PAWN_nameDef] follows the path of the Seer.</baseDescription>
+    <baseDesc>[PAWN_nameDef] follows the path of the Seer.</baseDesc>
 
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -503,7 +503,7 @@
     <defName>Path_of_farseer_adult</defName>
     <title>Path of the Farseer</title>
     <titleShort>Eldar Farseer</titleShort>
-    <baseDescription>[PAWN_nameDef] follows the path of the Farseer.</baseDescription>
+    <baseDesc>[PAWN_nameDef] follows the path of the Farseer.</baseDesc>
 
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -588,7 +588,7 @@
     <defName>Path_of_Bonesinger_adult</defName>
     <title>Path of the Bonesinger</title>
     <titleShort>Bonesinger</titleShort>
-    <baseDescription>[PAWN_nameDef] follows the path of the Bonesinger.</baseDescription>
+    <baseDesc>[PAWN_nameDef] follows the path of the Bonesinger.</baseDesc>
 
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>

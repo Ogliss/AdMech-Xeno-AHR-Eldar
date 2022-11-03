@@ -60,7 +60,8 @@
 				<!-- Eyes -->
 					<li Class="AdeptusMechanicus.LinkedBodyAddon">
 						<path>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Eye_Right</path>
-						<bodyPart>right eye</bodyPart>
+						<bodyPart>Eye</bodyPart>
+						<bodyPartLabel>right eye</bodyPartLabel>
 						<inFrontOfBody>true</inFrontOfBody>
 						<linkLifeStageDrawSize>true</linkLifeStageDrawSize>
 						<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
@@ -74,9 +75,6 @@
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(-0.0,0.0)</Average_Ork>
-								</crownTypes>
 							</south>
 							<north>
 								<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
@@ -84,9 +82,6 @@
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(0,0.0)</Average_Ork>
-								</crownTypes>
 							</north>
 							<east>
 								<layerOffset>-0.27575</layerOffset> <!-- -0.2740 -->
@@ -94,9 +89,6 @@
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(-0.0,0.0)</Average_Ork>
-								</crownTypes>
 							</east>
 						</offsets>
 						<colorChannel>none</colorChannel>
@@ -112,7 +104,8 @@
 					</li>
 					<li Class="AdeptusMechanicus.LinkedBodyAddon">
 						<path>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Eye_Left</path>
-						<bodyPart>left eye</bodyPart>
+						<bodyPart>Eye</bodyPart>
+						<bodyPartLabel>left eye</bodyPartLabel>
 						<inFrontOfBody>true</inFrontOfBody>
 						<linkLifeStageDrawSize>true</linkLifeStageDrawSize>
 						<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
@@ -126,9 +119,6 @@
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(-0.0,0.0)</Average_Ork>
-								</crownTypes>
 							</south>
 							<north>
 								<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
@@ -136,9 +126,6 @@
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(0,0.0)</Average_Ork>
-								</crownTypes>
 							</north>
 							<east>
 								<layerOffset>-0.2760</layerOffset> <!-- -0.2740 -->
@@ -146,9 +133,6 @@
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(-0.0,0.0)</Average_Ork>
-								</crownTypes>
 							</east>
 						</offsets>
 						<colorChannel>none</colorChannel>
@@ -168,7 +152,8 @@
 					<li Class="AdeptusMechanicus.LinkedBodyAddon">
 						<path>Things/Pawn/Humanlike/Aeldari/Head/Ears/Eldar_Ear_L</path>
 						<debug>false</debug>
-						<bodyPart>left ear</bodyPart>
+						<bodyPart>Ear</bodyPart>
+						<bodyPartLabel>left ear</bodyPartLabel>
 						<inFrontOfBody>true</inFrontOfBody>
 						<layerInvert>true</layerInvert>
 						<alignWithHead>true</alignWithHead>
@@ -182,12 +167,6 @@
 									<Male>(-0.0,0.0)</Male>
 									<Female>(-0.0,0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Normal>(-0.0,0.0)</Average_Normal>
-									<Narrow_Normal>(0.0,0.0)</Narrow_Normal>
-									<Average_Wide>(0.00,0.0)</Average_Wide>
-									<Average_Pointy>(-0.0,0.0)</Average_Pointy>
-								</crownTypes>
 							  </south>
 							  <north>
 								<layerOffset>-0.0</layerOffset> <!-- -0.2740 -->
@@ -195,12 +174,6 @@
 									<Male>(0,0.0)</Male>
 									<Female>(0,0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Normal>(0,0.0)</Average_Normal>
-									<Narrow_Normal>(0,0.0)</Narrow_Normal>
-									<Average_Wide>(0,0.0)</Average_Wide>
-									<Average_Pointy>(0,0.0)</Average_Pointy>
-								</crownTypes>
 							  </north>
 							  <east>
 								<layerOffset>-0.0</layerOffset> <!-- -0.2740 -->
@@ -208,12 +181,6 @@
 									<Male>(-0.0,0.0)</Male>
 									<Female>(-0.0,0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Normal>(-0.0,0.0)</Average_Normal>
-									<Narrow_Normal>(-0.0,0.0)</Narrow_Normal>
-									<Average_Wide>(-0.0,0.0)</Average_Wide>
-									<Average_Pointy>(-0.0,0.0)</Average_Pointy>
-								</crownTypes>
 							  </east>
 						</offsets>
 						<colorChannel>skin</colorChannel>
@@ -236,7 +203,8 @@
 						<path>Things/Pawn/Humanlike/Aeldari/Head/Ears/Eldar_Ear_R</path>
 						<debug>false</debug>
 						<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
-						<bodyPart>right ear</bodyPart>
+						<bodyPart>Ear</bodyPart>
+						<bodyPartLabel>right ear</bodyPartLabel>
 						<inFrontOfBody>true</inFrontOfBody>
 						<layerInvert>true</layerInvert>
 						<alignWithHead>true</alignWithHead>
@@ -250,13 +218,6 @@
 									<Male>(-0.0,0.0)</Male>
 									<Female>(-0.0,0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Normal>(-0.0,0.0)</Average_Normal>
-									<Female_Narrow_Normal>(0.00,0.0)</Female_Narrow_Normal>
-									<Narrow_Normal>(0.00,0.0)</Narrow_Normal>
-									<Average_Wide>(-0.00,0.0)</Average_Wide>
-									<Average_Pointy>(-0.0,0.0)</Average_Pointy>
-								</crownTypes>
 							</south>
 							<north>
 								<layerOffset>-0.0</layerOffset> <!-- -0.2740 -->
@@ -264,12 +225,6 @@
 									<Male>(0,0.0)</Male>
 									<Female>(0,0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Normal>(-0.0,0.0)</Average_Normal>
-									<Narrow_Normal>(-0.0,0.0)</Narrow_Normal>
-									<Average_Wide>(-0.0,0.0)</Average_Wide>
-									<Average_Pointy>(-0.0,0.0)</Average_Pointy>
-								</crownTypes>
 							</north>
 							<east>
 								<layerOffset>-0.0</layerOffset> <!-- -0.2740 -->
@@ -277,12 +232,6 @@
 									<Male>(-0.0,0.0)</Male>
 									<Female>(-0.0,0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Normal>(-0.0,0.0)</Average_Normal>
-									<Narrow_Normal>(-0.0,0.0)</Narrow_Normal>
-									<Average_Wide>(-0.0,0.0)</Average_Wide>
-									<Average_Pointy>(-0.0,0.0)</Average_Pointy>
-								</crownTypes>
 							</east>
 						</offsets>
 						<colorChannel>skin</colorChannel>

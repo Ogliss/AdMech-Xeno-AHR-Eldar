@@ -6,25 +6,25 @@
 	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Child">
 		<defName>OG_Eldar_Harlequinn_Child</defName>
 		<title>Harlequinn</title>
-		<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] was to shape [PAWN_possessive] life, but when [PAWN_pronoun] was offered a place in a passing group of Harlequinns [PAWN_pronoun] left [PAWN_possessive] Craftworld to wander the Webway.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] was to shape [PAWN_possessive] life, but when [PAWN_pronoun] was offered a place in a passing group of Harlequinns [PAWN_pronoun] left [PAWN_possessive] Craftworld to wander the Webway.</baseDesc>
 		<maleCommonality>0.05</maleCommonality>
 		<femaleCommonality>0.05</femaleCommonality>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>3</amount>
+				<key>Shooting</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>2</amount>
+				<key>Melee</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Plants</defName>
-				<amount>1</amount>
+				<key>Plants</key>
+				<value>1</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>1</amount>
+				<key>Animals</key>
+				<value>1</value>
 			</li>
 		</skillGains>
 		<forcedHediffs>
@@ -39,25 +39,25 @@
 	<AlienRace.BackstoryDef ParentName="OG_Eldar_Child_Psyker">
 		<defName>OG_Eldar_Harlequinn_Child_Psyker</defName>
 		<title>Harlequinn</title>
-		<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] was to shape [PAWN_possessive] life, but when [PAWN_pronoun] was offered a place in a passing group of Harlequinns [PAWN_pronoun] left [PAWN_possessive] Craftworld to wander the Webway.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] was to shape [PAWN_possessive] life, but when [PAWN_pronoun] was offered a place in a passing group of Harlequinns [PAWN_pronoun] left [PAWN_possessive] Craftworld to wander the Webway.</baseDesc>
 		<maleCommonality>0.015</maleCommonality>
 		<femaleCommonality>0.015</femaleCommonality>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>3</amount>
+				<key>Shooting</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>2</amount>
+				<key>Melee</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Plants</defName>
-				<amount>1</amount>
+				<key>Plants</key>
+				<value>1</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>1</amount>
+				<key>Animals</key>
+				<value>1</value>
 			</li>
 		</skillGains>
 		<forcedHediffs>
@@ -87,12 +87,12 @@
 		</workDisables>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>-3</amount>
+				<key>Shooting</key>
+				<value>-3</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>-3</amount>
+				<key>Melee</key>
+				<value>-3</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -119,12 +119,12 @@
 		</workDisables>
 		<skillGains>
 			<li>
-				<defName>Animals</defName>
-				<amount>-3</amount>
+				<key>Animals</key>
+				<value>-3</value>
 			</li>
 			<li>
-				<defName>Mining</defName>
-				<amount>-3</amount>
+				<key>Mining</key>
+				<value>-3</value>
 			</li>
 		</skillGains>
 		<requiredWorkTags>

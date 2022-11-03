@@ -133,7 +133,7 @@ namespace AdeptusMechanicus
 		{
 			get
 			{
-				return this.pawn.ageTracker.CurLifeStage.hungerRateFactor * this.pawn.RaceProps.baseHungerRate * this.pawn.health.hediffSet.HungerRateFactor * ((this.pawn.story == null || this.pawn.story.traits == null) ? 1f : this.pawn.story.traits.HungerRateFactor) * this.pawn.GetStatValue(StatDefOf.HungerRateMultiplier, true);
+				return this.pawn.ageTracker.CurLifeStage.hungerRateFactor * this.pawn.RaceProps.baseHungerRate * this.pawn.health.hediffSet.HungerRateFactor * ((this.pawn.story == null || this.pawn.story.traits == null) ? 1f : this.pawn.story.traits.HungerRateFactor) * this.pawn.RaceProps.baseHungerRate;
 			}
 		}
 
@@ -141,7 +141,7 @@ namespace AdeptusMechanicus
 		{
 			get
 			{
-				return this.pawn.ageTracker.CurLifeStage.hungerRateFactor * this.pawn.RaceProps.baseHungerRate * this.pawn.health.hediffSet.GetHungerRateFactor(HediffDefOf.Malnutrition) * ((this.pawn.story == null || this.pawn.story.traits == null) ? 1f : this.pawn.story.traits.HungerRateFactor) * this.pawn.GetStatValue(StatDefOf.HungerRateMultiplier, true);
+				return this.pawn.ageTracker.CurLifeStage.hungerRateFactor * this.pawn.RaceProps.baseHungerRate * this.pawn.health.hediffSet.GetHungerRateFactor(HediffDefOf.Malnutrition) * ((this.pawn.story == null || this.pawn.story.traits == null) ? 1f : this.pawn.story.traits.HungerRateFactor) * this.pawn.RaceProps.baseHungerRate;
 			}
 		}
 
@@ -295,17 +295,17 @@ namespace AdeptusMechanicus
 				this.pawn.Map != null ? "Map Pain Total: "+this.pawn.Map.mapPain().totalPain.ToString("#.##") : ""
 			});
 		}
-        public override void DrawOnGUI(Rect rect, int maxThresholdMarkers = int.MaxValue, float customMargin = -1, bool drawArrows = true, bool doTooltip = true, Rect? rectForTooltip = null)
-		{
-			if (this.threshPercents == null)
-			{
-				this.threshPercents = new List<float>();
-			}
-			this.threshPercents.Clear();
-			this.threshPercents.Add(this.PercentageThreshDiminished);
-			this.threshPercents.Add(this.PercentageThreshFading);
-			base.DrawOnGUI(rect, maxThresholdMarkers, customMargin, drawArrows, doTooltip, rectForTooltip);
-        }
+		public override void DrawOnGUI(Rect rect, int maxThresholdMarkers = int.MaxValue, float customMargin = -1, bool drawArrows = true, bool doTooltip = true, Rect? rectForTooltip = null, bool drawLabel = true)
+        {
+            if (this.threshPercents == null)
+            {
+                this.threshPercents = new List<float>();
+            }
+            this.threshPercents.Clear();
+            this.threshPercents.Add(this.PercentageThreshDiminished);
+            this.threshPercents.Add(this.PercentageThreshFading);
+            base.DrawOnGUI(rect, maxThresholdMarkers, customMargin, drawArrows, doTooltip, rectForTooltip, drawLabel);	
+		}
 
 		private HediffDef hediffSoulblight = DefDatabase<HediffDef>.GetNamedSilentFail("OGDE_Soulblight");
 		private HediffDef hediffPowerFromPain = DefDatabase<HediffDef>.GetNamedSilentFail("OGDE_PowerFromPain"); 

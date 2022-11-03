@@ -943,7 +943,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseGas">
+	<ThingDef ParentName="OG_BaseGas">
 		<defName>OGE_MonofilamentCloud</defName>
 		<label>monofilament cloud</label>
 		<graphicData>
@@ -957,8 +957,8 @@
 			<damageDef>OGEDeathspinner</damageDef>
 			<damageChance>1</damageChance>
 			<damageMote>false</damageMote>
-			<blockTurretTracking>false</blockTurretTracking>
-			<accuracyPenalty>0.3</accuracyPenalty>
+			<!--blockTurretTracking>false</blockTurretTracking-->
+			<!--accuracyPenalty>0.3</accuracyPenalty-->
 			<rotationSpeed>10</rotationSpeed>
 			<expireSeconds>
 				<min>35</min>

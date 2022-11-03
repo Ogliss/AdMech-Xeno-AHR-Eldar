@@ -13,9 +13,9 @@
 		<disallowedTraits>
 
 		</disallowedTraits>
-		<forcedTraits>
+		<forcedTraitsChance>
 		
-		</forcedTraits>
+		</forcedTraitsChance>
 		<skillGains>
 		
 		</skillGains>
@@ -34,9 +34,9 @@
 		<disallowedTraits>
 
 		</disallowedTraits>
-		<forcedTraits>
+		<forcedTraitsChance>
 		
-		</forcedTraits>
+		</forcedTraitsChance>
 		<skillGains>
 		
 		</skillGains>
@@ -55,7 +55,7 @@
 		<disallowedTraits>
 
 		</disallowedTraits>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>PsychicSensitivity</defName>
 				<degree>2</degree>
@@ -66,7 +66,7 @@
 				<degree>1</degree>
 				<chance>100</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<skillGains>
 		
 		</skillGains>
@@ -81,7 +81,7 @@
 		<defName>OG_Eldar_Base_Child</defName>
 		<title>Eldar child</title>
 		<titleShort>Eldar child</titleShort>
-		<baseDescription>[PAWN_nameDef] is a young [PAWN_alienRace].</baseDescription>
+		<baseDesc>[PAWN_nameDef] is a young [PAWN_alienRace].</baseDesc>
 		<slot>Childhood</slot>
 		<disallowedTraits>
 
@@ -102,7 +102,7 @@
 		<defName>OG_Eldar_Child_Psyker</defName>
 		<title>Eldar child</title>
 		<titleShort>Eldar child</titleShort>
-		<baseDescription>[PAWN_nameDef] is a young [PAWN_alienRace] Pskyer.</baseDescription>
+		<baseDesc>[PAWN_nameDef] is a young [PAWN_alienRace] Pskyer.</baseDesc>
 
 		<!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
 		<bodyTypeMale>Male</bodyTypeMale>

@@ -61,7 +61,7 @@ namespace AdeptusMechanicus.HarmonyInstance
                 if (__result.isDarkEldar())
                 {
                     Pawn_StoryTracker storyTracker = __result.story;
-                    Backstory adulthood = storyTracker.adulthood;
+                    RimWorld.BackstoryDef adulthood = storyTracker.adulthood;
                     bool adult = adulthood != null;
                 }
             }

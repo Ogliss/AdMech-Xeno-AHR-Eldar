@@ -373,7 +373,7 @@
 			<MeleeDodgeChance>0.15</MeleeDodgeChance>
 			<MeleeHitChance>0.15</MeleeHitChance>
 			<PsychicSensitivity>-0.25</PsychicSensitivity>
-			<ToxicSensitivity>-1</ToxicSensitivity>
+			<ToxicResistance>-1</ToxicResistance>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>120</Steel>
@@ -486,7 +486,7 @@
 			<MedicalTendSpeed>0.45</MedicalTendSpeed>
 			<MedicalSurgerySuccessChance>0.45</MedicalSurgerySuccessChance>
 			<PsychicSensitivity>-0.95</PsychicSensitivity>
-			<ToxicSensitivity>-1</ToxicSensitivity>
+			<ToxicResistance>-1</ToxicResistance>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>275</Steel>
@@ -581,7 +581,7 @@
             <MoveSpeed>0.5</MoveSpeed>
             <CarryingCapacity>20</CarryingCapacity>
 			<PainShockThreshold>0.15</PainShockThreshold>
-			<ToxicSensitivity>-0.80</ToxicSensitivity>
+			<ToxicResistance>-0.80</ToxicResistance>
 			<PsychicSensitivity>-0.75</PsychicSensitivity>
 		</equippedStatOffsets>
 		<costList>
@@ -704,7 +704,7 @@
             <MoveSpeed>1.45</MoveSpeed>
             <CarryingCapacity>100</CarryingCapacity>
 			<PainShockThreshold>0.25</PainShockThreshold>
-			<ToxicSensitivity>-0.9</ToxicSensitivity>
+			<ToxicResistance>-0.9</ToxicResistance>
 			<PsychicSensitivity>-0.95</PsychicSensitivity>
 		</equippedStatOffsets>
 		<costList>
@@ -809,7 +809,7 @@
 		<equippedStatOffsets>
             <MoveSpeed>0.35</MoveSpeed>
             <CarryingCapacity>60</CarryingCapacity>
-			<ToxicSensitivity>-1</ToxicSensitivity>
+			<ToxicResistance>-1</ToxicResistance>
 			<PsychicSensitivity>-0.95</PsychicSensitivity>
 		</equippedStatOffsets>
 		<costList>
@@ -928,7 +928,7 @@
 		<equippedStatOffsets>
             <MoveSpeed>0.35</MoveSpeed>
             <CarryingCapacity>60</CarryingCapacity>
-			<ToxicSensitivity>-1</ToxicSensitivity>
+			<ToxicResistance>-1</ToxicResistance>
 			<PsychicSensitivity>-0.95</PsychicSensitivity>
 		</equippedStatOffsets>
 		<costList>
@@ -1053,7 +1053,7 @@
 			<MeleeDodgeChance>0.20</MeleeDodgeChance>
 			<MeleeHitChance>0.25</MeleeHitChance>
 			<PsychicSensitivity>-2</PsychicSensitivity>
-			<ToxicSensitivity>-1</ToxicSensitivity>
+			<ToxicResistance>-1</ToxicResistance>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>650</Steel>

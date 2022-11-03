@@ -9,14 +9,19 @@
 				
 				</forcedRaceTraitEntries>
 				<alienPartGenerator>
-					<aliencrowntypes>
-						<li>Eldar_Head_Gaunt</li>
-						<li>Eldar_Head_Pointy</li>
-						<li>Eldar_Head_Square</li>
-						<li>Eldar_Head_Straight</li>
-						<li>Eldar_Head_Triangle</li>
-					</aliencrowntypes>
-				<useGenderedHeads>false</useGenderedHeads>
+					<headTypes>
+						<li>Male_Aeldari_Gaunt</li>
+						<li>Male_Aeldari_Pointy</li>
+						<li>Male_Aeldari_Square</li>
+						<li>Male_Aeldari_Straight</li>
+						<li>Male_Aeldari_Triangle</li>
+						<li>Female_Aeldari_Gaunt</li>
+						<li>Female_Aeldari_Pointy</li>
+						<li>Female_Aeldari_Square</li>
+						<li>Female_Aeldari_Straight</li>
+						<li>Female_Aeldari_Triangle</li>
+					</headTypes>
+				<!--useGenderedHeads>false</useGenderedHeads-->
 				</alienPartGenerator>
 				<chemicalSettings>	
 					
@@ -114,10 +119,8 @@
 				</factionRelations>
 			</generalSettings>
 			<graphicPaths>
-				<li>
-					<head>Things/Pawn/Humanlike/Aeldari/Head/</head>
-					<body>Things/Pawn/Humanlike/Aeldari/Bodies/</body>
-				</li>
+				<head>Things/Pawn/Humanlike/Aeldari/Head/</head>
+				<body>Things/Pawn/Humanlike/Aeldari/Bodies/</body>
 				<!--
 				<li>
 					<head>Things/Pawn/Humanlike/Aeldari/Head/</head>

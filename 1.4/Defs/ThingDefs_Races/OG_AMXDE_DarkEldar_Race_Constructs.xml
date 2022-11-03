@@ -7,7 +7,7 @@
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <statBases>
       <PsychicSensitivity>+0.5</PsychicSensitivity>
-      <ToxicSensitivity>0</ToxicSensitivity>
+      <ToxicResistance>0</ToxicResistance>
       <Flammability>0</Flammability>
       <ComfyTemperatureMin>-100</ComfyTemperatureMin>
       <ComfyTemperatureMax>250</ComfyTemperatureMax>
@@ -16,7 +16,7 @@
     <race>
       <body>Human</body>
       <fleshType>OG_Flesh_Construct_DarkEldar</fleshType>
-	  <useMeatFrom>Mech_Centipede</useMeatFrom>
+	  <useMeatFrom>Mech_CentipedeBlaster</useMeatFrom>
       <needsRest>false</needsRest>
       <hasGenders>false</hasGenders>
       <foodType>None</foodType>

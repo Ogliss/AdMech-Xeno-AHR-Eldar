@@ -60,7 +60,7 @@ namespace AdeptusMechanicus.HarmonyInstance
                     return;
                 }
                 Pawn_StoryTracker storyTracker = __result.story;
-                Backstory adulthood = storyTracker.adulthood;
+                RimWorld.BackstoryDef adulthood = storyTracker.adulthood;
                 bool adult = adulthood != null;
                 switch (__result.gender)
                 {

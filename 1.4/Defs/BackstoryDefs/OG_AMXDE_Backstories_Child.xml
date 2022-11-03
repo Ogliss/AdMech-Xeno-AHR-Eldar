@@ -4,28 +4,26 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_CommorraghUnderworlder</defName>
 		<title>Commorragh Underworlder</title>
-		<baseDescription>[PAWN_nameDef] was born in depths of the underworld of Commorragh filled with scheming and conniving.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was born in depths of the underworld of Commorragh filled with scheming and conniving.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables />
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Beauty</defName>
 				<chance>20</chance>
 				<degree>-1</degree>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits>
-			<li>
-				<defName>Kind</defName>
-			</li>
+				<Kind>0</Kind>
 		</disallowedTraits>
 		<skillGains>
 			<li>
-				<defName>Mining</defName>
-				<amount>4</amount>
+				<key>Mining</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -47,7 +45,7 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_Drukhari_Trueborn</defName>
 		<title>Drukhari Trueborn</title>
-		<baseDescription>Naturally-born Drukhari are rare, due to the long gestation period of the Aeldari infant. The ones that are naturally birthed from their mothers' wombs, known as "Trueborns," are often very privileged in Drukhari society because of the circumstances of their birth.\n\nAs such,[PAWN_nameDef] has expects the highest quality subservience from their less "fortunate" kin as well as Xenos. [PAWN_nameDef] also received a greatest amount of experience in the cruel invasive incursions into realspace.</baseDescription>
+		<baseDesc>Naturally-born Drukhari are rare, due to the long gestation period of the Aeldari infant. The ones that are naturally birthed from their mothers' wombs, known as "Trueborns," are often very privileged in Drukhari society because of the circumstances of their birth.\n\nAs such,[PAWN_nameDef] has expects the highest quality subservience from their less "fortunate" kin as well as Xenos. [PAWN_nameDef] also received a greatest amount of experience in the cruel invasive incursions into realspace.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables>
 			<li>Cleaning</li>
@@ -56,7 +54,7 @@
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>ShootingAccuracy</defName>
 				<degree>1</degree>
@@ -67,16 +65,16 @@
 				<chance>60</chance>
 				<degree>1</degree>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>6</amount>
+				<key>Shooting</key>
+				<value>6</value>
 			</li>	
 			<li>
-				<defName>Melee</defName>
-				<amount>3</amount>
+				<key>Melee</key>
+				<value>3</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -98,32 +96,32 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_Drukhari_Halfborn</defName>
 		<title>Drukhari Halfborn</title>
-		<baseDescription>Most Halfborn Drukhari serve as slaves and manual laborers unless they can find another way to climb the Dark City's strict societal hierarchy.</baseDescription>
+		<baseDesc>Most Halfborn Drukhari serve as slaves and manual laborers unless they can find another way to climb the Dark City's strict societal hierarchy.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables />
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 			<defName>ShootingAccuracy</defName>
 			<degree>1</degree>
 			<chance>25</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>3</amount>
+				<key>Shooting</key>
+				<value>3</value>
 			</li>	
 			<li>
-				<defName>Melee</defName>
-				<amount>2</amount>
+				<key>Melee</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>-2</amount>
+				<key>Social</key>
+				<value>-2</value>
 			</li>	
 		</skillGains>
 		<spawnCategories>
@@ -135,7 +133,7 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_Drukhari_WychCultist</defName>
 		<title>Drukhari Wych Cultist</title>
-		<baseDescription>The Wych Cults or Hekatarii of Commorragh are second in prestige in Drukhari society only to the Kabals that sponsor them. The Drukhari thrive upon expert displays of bloodletting, and in the pursuit of murder the Wyches are talented Aeldari indeed.</baseDescription>
+		<baseDesc>The Wych Cults or Hekatarii of Commorragh are second in prestige in Drukhari society only to the Kabals that sponsor them. The Drukhari thrive upon expert displays of bloodletting, and in the pursuit of murder the Wyches are talented Aeldari indeed.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables>
 			<li>Cleaning</li>
@@ -143,21 +141,21 @@
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Brawler</defName>
 				<chance>25</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>-3</amount>
+				<key>Shooting</key>
+				<value>-3</value>
 			</li>	
 			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
+				<key>Melee</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -169,7 +167,7 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_Incubus_Aspirant</defName>
 		<title>Incubus Aspirant</title>
-		<baseDescription>The act of becoming an Incubus is dangerous in the extreme; through long and gruelling practice, the strong prosper, while the weak are cut down and their bodies burnt as an offering to the statue of Khaine, the Aeldari god of war, at the heart of each Incubus shrine.</baseDescription>
+		<baseDesc>The act of becoming an Incubus is dangerous in the extreme; through long and gruelling practice, the strong prosper, while the weak are cut down and their bodies burnt as an offering to the statue of Khaine, the Aeldari god of war, at the heart of each Incubus shrine.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables>
 			<li>Cleaning</li>
@@ -177,22 +175,22 @@
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Beauty</defName>
 				<chance>40</chance>
 				<degree>2</degree>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>8</amount>
+				<key>Shooting</key>
+				<value>8</value>
 			</li>	
 			<li>
-				<defName>Melee</defName>
-				<amount>5</amount>
+				<key>Melee</key>
+				<value>5</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -206,7 +204,7 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_HedonistDruk</defName>
 		<title>Hedonistic Seeker</title>
-		<baseDescription>The hedonistic cults believe that each person should do everything in their power to achieve the greatest amount of pleasure possible to them. The greater the heights of pleasure experienced and pain inflicted on the unwilling, the more exquisite the life of a cultist.</baseDescription>
+		<baseDesc>The hedonistic cults believe that each person should do everything in their power to achieve the greatest amount of pleasure possible to them. The greater the heights of pleasure experienced and pain inflicted on the unwilling, the more exquisite the life of a cultist.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables>
 			<li>Cleaning</li>
@@ -214,22 +212,22 @@
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>DrugDesire</defName>
 				<chance>50</chance>
 				<degree>1</degree>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>4</amount>
+				<key>Social</key>
+				<value>4</value>
 			</li>	
 			<li>
-				<defName>Cooking</defName>
-				<amount>4</amount>
+				<key>Cooking</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -250,24 +248,24 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_Acolyte_of_the_Lusting</defName>
 		<title>Acolyte of the Lusting</title>
-		<baseDescription>[PAWN_nameDef] has dedidcated their life to pursuing the sadistic pleasures of unquenchable lust.</baseDescription>
+		<baseDesc>[PAWN_nameDef] has dedidcated their life to pursuing the sadistic pleasures of unquenchable lust.</baseDesc>
 		<slot>Childhood</slot>
 			<workDisables />
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Beauty</defName>
 				<chance>20</chance>
 				<degree>1</degree>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>4</amount>
+				<key>Social</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -288,23 +286,23 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_Acolyte_of_the_Flayer</defName>
 		<title>Acolyte of the Flayer</title>
-		<baseDescription>[PAWN_nameDef] has dedidcated their life to pursuing the sadistic pleasures of flaying their inferiors in close quarters.</baseDescription>
+		<baseDesc>[PAWN_nameDef] has dedidcated their life to pursuing the sadistic pleasures of flaying their inferiors in close quarters.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables />
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Brawler</defName>
 				<chance>20</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
+				<key>Melee</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -325,23 +323,23 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_Acolyte_of_the_Tower</defName>
 		<title>Acolyte of the Tower</title>
-		<baseDescription>[PAWN_nameDef] has dedidcated their life to pursuing the construction of spires and halls to exhalt in depravity.</baseDescription>
+		<baseDesc>[PAWN_nameDef] has dedidcated their life to pursuing the construction of spires and halls to exhalt in depravity.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables />
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Undergrounder</defName>
 				<chance>20</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Construction</defName>
-				<amount>4</amount>
+				<key>Construction</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -354,23 +352,23 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_Acolyte_of_the_Extractor</defName>
 		<title>Acolyte of the Extractor</title>
-		<baseDescription>[PAWN_nameDef] has dedidcated their life to pursuing the sadistic pleasures of extracting and exploiting wealth.</baseDescription>
+		<baseDesc>[PAWN_nameDef] has dedidcated their life to pursuing the sadistic pleasures of extracting and exploiting wealth.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables />
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Jealous</defName>
 				<chance>20</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Mining</defName>
-				<amount>4</amount>
+				<key>Mining</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -383,23 +381,23 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_Acolyte_of_the_Bloody</defName>
 		<title>Acolyte of the Bloody</title>
-		<baseDescription>[PAWN_nameDef] has dedidcated their life to pursuing the sadistic pleasures of consuming the fleshes of many creatures.</baseDescription>
+		<baseDesc>[PAWN_nameDef] has dedidcated their life to pursuing the sadistic pleasures of consuming the fleshes of many creatures.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables />
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Gourmand</defName>
 				<chance>20</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Cooking</defName>
-				<amount>4</amount>
+				<key>Cooking</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -412,23 +410,23 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_Acolyte_of_the_Poisoner</defName>
 		<title>Acolyte of the Poisoner</title>
-		<baseDescription>[PAWN_nameDef] has dedidcated their life to pursuing the sadistic growing and exploitation of the materials for poison production.</baseDescription>
+		<baseDesc>[PAWN_nameDef] has dedidcated their life to pursuing the sadistic growing and exploitation of the materials for poison production.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables />
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Nimble</defName>
 				<chance>20</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Plants</defName>
-				<amount>4</amount>
+				<key>Plants</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -441,24 +439,24 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_Acolyte_of_the_Beast</defName>
 		<title>Acolyte of the Beast</title>
-		<baseDescription>[PAWN_nameDef] has dedidcated their life to harnessing the power of the various creatures of realspace and the Warp.</baseDescription>
+		<baseDesc>[PAWN_nameDef] has dedidcated their life to harnessing the power of the various creatures of realspace and the Warp.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables />
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Beauty</defName>
 				<chance>20</chance>
 				<degree>-1</degree>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Animals</defName>
-				<amount>4</amount>
+				<key>Animals</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -471,23 +469,23 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_Acolyte_of_the_Shaper</defName>
 		<title>Acolyte of the Shaper</title>
-		<baseDescription>[PAWN_nameDef] has dedidcated their life to pursuing the manufacture of powerful and sadistic tools of mayhem.</baseDescription>
+		<baseDesc>[PAWN_nameDef] has dedidcated their life to pursuing the manufacture of powerful and sadistic tools of mayhem.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables />
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Greedy</defName>
 				<chance>20</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Crafting</defName>
-				<amount>4</amount>
+				<key>Crafting</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -501,24 +499,24 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_Acolyte_of_the_Perfector</defName>
 		<title>Acolyte of the Perfector</title>
-		<baseDescription>[PAWN_nameDef] has dedidcated their life to pursuing perfection of twisted and beautiful art.</baseDescription>
+		<baseDesc>[PAWN_nameDef] has dedidcated their life to pursuing perfection of twisted and beautiful art.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables />
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Industriousness</defName>
 				<chance>20</chance>
 				<degree>1</degree>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Artistic</defName>
-				<amount>4</amount>
+				<key>Artistic</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -531,23 +529,23 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_Acolyte_of_the_Torturer</defName>
 		<title>Acolyte of the Torturer</title>
-		<baseDescription>[PAWN_nameDef] has dedidcated their life to pursuing the concoction of various poisons and deathstopping medicines.</baseDescription>
+		<baseDesc>[PAWN_nameDef] has dedidcated their life to pursuing the concoction of various poisons and deathstopping medicines.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables />
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Bloodlust</defName>
 				<chance>20</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Medicine</defName>
-				<amount>4</amount>
+				<key>Medicine</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -567,23 +565,23 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_Acolyte_of_the_Forbidden</defName>
 		<title>Acolyte of the Forbidden</title>
-		<baseDescription>[PAWN_nameDef] has dedidcated their life to pursuing the sadistic pleasures of forbidden knowledge and secrets of the Warp.</baseDescription>
+		<baseDesc>[PAWN_nameDef] has dedidcated their life to pursuing the sadistic pleasures of forbidden knowledge and secrets of the Warp.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables />
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>TooSmart</defName>
 				<chance>20</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>4</amount>
+				<key>Intellectual</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -603,27 +601,27 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_TwilightCultist</defName>
 		<title>Twilight Cultist</title>
-		<baseDescription>Those leading the new paradigm of total self-indulgence rise in status and power until they can secede entirely from the physical plane. They take up permanent residence in the webway, from which they can plumb the depths of decadence undisturbed by puritans and weaklings. Over time, their sovereign estates grow into entire sub-realms, many of which are powered by the energy of stolen suns. The solar systems plunged into darkness by the Aeldari’s star-theft wither and die in the freezing cold of the void, but the Aeldari care not.</baseDescription>
+		<baseDesc>Those leading the new paradigm of total self-indulgence rise in status and power until they can secede entirely from the physical plane. They take up permanent residence in the webway, from which they can plumb the depths of decadence undisturbed by puritans and weaklings. Over time, their sovereign estates grow into entire sub-realms, many of which are powered by the energy of stolen suns. The solar systems plunged into darkness by the Aeldari’s star-theft wither and die in the freezing cold of the void, but the Aeldari care not.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables />
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>TooSmart</defName>
 				<chance>20</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>2</amount>
+				<key>Intellectual</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>2</amount>
+				<key>Social</key>
+				<value>2</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -643,27 +641,27 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_NightmareDescendant</defName>
 		<title>Nightmare Descendant</title>
-		<baseDescription>To the Haemonculi, each foray into realspace is not so much an act of war as an exhibition of their talents. Members of a Coven will compete to create the most pleasingly abhorrent monstrosities in the lead-up to a raid, releasing them upon the foe and watching the results with interest. The Haemonculi consider such competition inspiring, and will offer a heartfelt compliment should their rivals’ creations achieve some especially impressive act of violence.</baseDescription>
+		<baseDesc>To the Haemonculi, each foray into realspace is not so much an act of war as an exhibition of their talents. Members of a Coven will compete to create the most pleasingly abhorrent monstrosities in the lead-up to a raid, releasing them upon the foe and watching the results with interest. The Haemonculi consider such competition inspiring, and will offer a heartfelt compliment should their rivals’ creations achieve some especially impressive act of violence.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables />
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>TooSmart</defName>
 				<chance>20</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Crafting</defName>
-				<amount>2</amount>
+				<key>Crafting</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Medicine</defName>
-				<amount>2</amount>
+				<key>Medicine</key>
+				<value>2</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -683,27 +681,27 @@
 	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Child_AllegiantofAgony</defName>
 		<title>Allegiant of Agony</title>
-		<baseDescription>Every step of a raid is planned in meticulous detail. In most cases such a raid is championed by an Archon, though on occasion a Succubus or Haemonculus will be its chief architect. Regardless of who leads, a raid brings together the most deadly factions of Commorrite society – the splinters of a Kabal, the circles of a Wych Cult and the cells of a Haemonculus Coven – to fight as a single terrifying force, whilst affording each the opportunity to pursue their own twisted proclivities on the battlefield.</baseDescription>
+		<baseDesc>Every step of a raid is planned in meticulous detail. In most cases such a raid is championed by an Archon, though on occasion a Succubus or Haemonculus will be its chief architect. Regardless of who leads, a raid brings together the most deadly factions of Commorrite society – the splinters of a Kabal, the circles of a Wych Cult and the cells of a Haemonculus Coven – to fight as a single terrifying force, whilst affording each the opportunity to pursue their own twisted proclivities on the battlefield.</baseDesc>
 		<slot>Childhood</slot>
 		<workDisables />
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Tough</defName>
 				<chance>20</chance>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 		<disallowedTraits />
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>2</amount>
+				<key>Melee</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Shooting</defName>
-				<amount>2</amount>
+				<key>Shooting</key>
+				<value>2</value>
 			</li>
 		</skillGains>
 		<spawnCategories>

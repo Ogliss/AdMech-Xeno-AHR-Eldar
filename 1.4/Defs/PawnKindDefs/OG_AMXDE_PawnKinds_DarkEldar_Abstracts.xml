@@ -5,7 +5,7 @@
 		<defaultFactionType>OG_DarkEldar_Kabal_Faction</defaultFactionType>
 		<race>OG_Alien_DarkEldar</race>
 		<chemicalAddictionChance>0.015</chemicalAddictionChance>
-		<baseRecruitDifficulty>1</baseRecruitDifficulty>
+		<!--baseRecruitDifficulty>1</baseRecruitDifficulty-->
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<modExtensions>
 			<li Class="AlienRace.Info">

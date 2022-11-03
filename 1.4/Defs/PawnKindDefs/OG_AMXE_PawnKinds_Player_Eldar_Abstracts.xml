@@ -4,12 +4,12 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_Base_PawnKind">
 		<race>OG_Alien_Eldar</race>
 		<combatPower>40</combatPower>
-		<baseRecruitDifficulty>1.0</baseRecruitDifficulty>
+		<!--baseRecruitDifficulty>1.0</baseRecruitDifficulty-->
 		<isFighter>false</isFighter>
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
-			<lifeStages>
+		<lifeStages>
 			<li>
 				<bodyGraphicData>
 					<drawSize>0.75</drawSize>
@@ -64,15 +64,21 @@
 				<commonality>1</commonality>
 			</li>
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Warrior</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 				<commonality>0.5</commonality>
 			</li>
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Psyker</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld_Child_Psyker</li>
+				</categoriesChildhood>
 				<commonality>0.25</commonality>
 			</li>
 		</backstoryFiltersOverride>

@@ -90,14 +90,14 @@
 			<alienPartGenerator>
 				<customDrawSize>(1.250, 1.250)</customDrawSize>
 				<!--customHeadDrawSize>(1.00, 1.00)</customHeadDrawSize-->
-				<aliencrowntypes>
+				<headTypes>
 					<li>Wraithguard_Head</li>
-				</aliencrowntypes>
-				<alienbodytypes>
+				</headTypes>
+				<bodyTypes>
 					<li>Hulk</li>
-				</alienbodytypes>
-				<useGenderedHeads>false</useGenderedHeads>
-				<useGenderedBodies>false</useGenderedBodies>
+				</bodyTypes>
+				<!--useGenderedHeads>false</useGenderedHeads>
+				<useGenderedBodies>false</useGenderedBodies-->
 			</alienPartGenerator>
 		<chemicalSettings>	
 		</chemicalSettings>
@@ -195,10 +195,8 @@
 		</factionRelations>
 		</generalSettings>
 		<graphicPaths>
-			<li>
-					<head>Things/Pawn/Humanlike/Aeldari/Head/</head>
-					<body>Things/Pawn/Humanlike/Eldar/Bodies/</body>
-			</li>
+			<head>Things/Pawn/Humanlike/Wraithguard/Head/</head>
+			<body>Things/Pawn/Humanlike/Wraithguard/Bodies/</body>
 		<!--
 			<li>
 					<head>Things/Pawn/Humanlike/Aeldari/Head/</head>
@@ -403,7 +401,7 @@
 		<nameGeneratorFemale>OG_Eldar_NamerPersonFemale</nameGeneratorFemale>
 		<body>OG_Eldar_ConstructBody</body>
 		<fleshType>OG_Flesh_Construct_Eldar</fleshType>	
-		<useMeatFrom>Mech_Centipede</useMeatFrom>
+		<useMeatFrom>Mech_CentipedeBlaster</useMeatFrom>
 		<baseBodySize>1.25</baseBodySize>
 		<baseHealthScale>3.0</baseHealthScale>
 		<needsRest>false</needsRest>
@@ -515,12 +513,12 @@
 				 
 				</disallowedTraits>
 				<alienPartGenerator>
-						<aliencrowntypes>
+						<headTypes>
 							<li>Average_WraithGuard</li>
-						</aliencrowntypes>
-						<alienbodytypes>
+						</headTypes>
+						<bodyTypes>
 						<li>Thin</li>
-						</alienbodytypes>
+						</bodyTypes>
 					<alienskincolorgen Class="ColorGenerator_Options">
 										<options>
 				<li>

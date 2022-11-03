@@ -28,7 +28,7 @@
 			<MoveSpeed>-0.01</MoveSpeed>
 			<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>0.08</ShootingAccuracyPawn>
-			<ToxicSensitivity>-0.30</ToxicSensitivity>
+			<ToxicResistance>-0.30</ToxicResistance>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>50</Steel>
@@ -151,7 +151,7 @@
 			<MoveSpeed>-0.01</MoveSpeed>
 			<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>0.08</ShootingAccuracyPawn>
-			<ToxicSensitivity>-0.30</ToxicSensitivity>
+			<ToxicResistance>-0.30</ToxicResistance>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>50</Steel>
@@ -256,7 +256,7 @@
 			<WorkSpeedGlobal>0.10</WorkSpeedGlobal>
 			<MeleeDodgeChance>0.15</MeleeDodgeChance>
 			<MeleeHitChance>0.10</MeleeHitChance>
-			<ToxicSensitivity>-0.15</ToxicSensitivity>
+			<ToxicResistance>-0.15</ToxicResistance>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>60</Steel>
@@ -352,7 +352,7 @@
 			<WorkSpeedGlobal>0.10</WorkSpeedGlobal>
 			<MeleeDodgeChance>0.15</MeleeDodgeChance>
 			<MeleeHitChance>0.10</MeleeHitChance>
-			<ToxicSensitivity>-0.15</ToxicSensitivity>
+			<ToxicResistance>-0.15</ToxicResistance>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>60</Steel>
@@ -437,7 +437,7 @@
 			<WorkSpeedGlobal>0.10</WorkSpeedGlobal>
 			<MeleeDodgeChance>0.15</MeleeDodgeChance>
 			<MeleeHitChance>0.10</MeleeHitChance>
-			<ToxicSensitivity>-0.15</ToxicSensitivity>
+			<ToxicResistance>-0.15</ToxicResistance>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>60</Steel>
@@ -525,7 +525,7 @@
 			<MeleeHitChance>0.05</MeleeHitChance>
 			<MedicalTendSpeed>0.35</MedicalTendSpeed>
 			<MedicalSurgerySuccessChance>0.35</MedicalSurgerySuccessChance>
-			<ToxicSensitivity>-1</ToxicSensitivity>
+			<ToxicResistance>-1</ToxicResistance>
 			<PsychicSensitivity>-0.05</PsychicSensitivity>
 		</equippedStatOffsets>
 		<costList>
@@ -608,7 +608,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
-			<ToxicSensitivity>-0.30</ToxicSensitivity>
+			<ToxicResistance>-0.30</ToxicResistance>
 			<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
 			<MeleeDodgeChance>0.15</MeleeDodgeChance>
 			<MeleeHitChance>0.20</MeleeHitChance>
@@ -714,7 +714,7 @@
 			<MoveSpeed>-0.01</MoveSpeed>
 			<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
 			<ShootingAccuracyPawn>0.20</ShootingAccuracyPawn>
-			<ToxicSensitivity>-0.60</ToxicSensitivity>
+			<ToxicResistance>-0.60</ToxicResistance>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>150</Steel>
@@ -819,7 +819,7 @@
 			<ArmorRating_Heat>1.06</ArmorRating_Heat>
 			<Insulation_Cold>15</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
-			<ToxicSensitivity>-0.30</ToxicSensitivity>
+			<ToxicResistance>-0.30</ToxicResistance>
 			<EquipDelay>2.5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
@@ -903,7 +903,7 @@
 			<ArmorRating_Heat>1.06</ArmorRating_Heat>
 			<Insulation_Cold>15</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
-			<ToxicSensitivity>-0.30</ToxicSensitivity>
+			<ToxicResistance>-0.30</ToxicResistance>
 			<EquipDelay>2.5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
@@ -1009,7 +1009,7 @@
 			<OG_ArmorRating_InvunerableSave>1.25</OG_ArmorRating_InvunerableSave>
 			<Insulation_Cold>25</Insulation_Cold>
 			<Insulation_Heat>15</Insulation_Heat>
-			<ToxicSensitivity>-1</ToxicSensitivity>
+			<ToxicResistance>-1</ToxicResistance>
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>

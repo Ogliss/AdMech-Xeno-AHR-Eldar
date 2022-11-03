@@ -46,14 +46,14 @@
                            <Fat>(-0.4275,0.5599)</Fat>
                            <Hulk>(-0.4275,0.5599)</Hulk>
                         </bodyTypes>
-                        <crownTypes>
+                        <!--crownTypes>
                            <Normal_Average>(0,0)</Normal_Average>
                            <Normal_Wide>(0,0)</Normal_Wide>
                            <Normal_Pointy>(0,0)</Normal_Pointy>
                            <Narrow_Normal>(0.01221865,0)</Narrow_Normal>
                            <Narrow_Wide>(0.006430863,0)</Narrow_Wide>
                            <Narrow_Pointy>(0.006430864,0)</Narrow_Pointy>
-                        </crownTypes>
+                        </crownTypes-->
                      </south>
 					 <north>
 					 </north>
@@ -65,14 +65,14 @@
 						   <Fat>(-0.7490435,0.554852)</Fat>
                            <Hulk>(-0.774767,0.554852)</Hulk>
                         </bodyTypes>
-                        <crownTypes>
+                        <!--crownTypes>
                            <Normal_Average>(0,0)</Normal_Average>
                            <Normal_Wide>(0,0)</Normal_Wide>
                            <Normal_Pointy>(0,0)</Normal_Pointy>
                            <Narrow_Normal>(0.03215434,0)</Narrow_Normal>
                            <Narrow_Wide>((0.05144694,0)</Narrow_Wide>
                            <Narrow_Pointy>(0.05144694,0)</Narrow_Pointy>
-                        </crownTypes>
+                        </crownTypes-->
                      </east>
                   </offsets>
                </li>
@@ -109,14 +109,14 @@
                            <Fat>(-0.4157074,0.5599)</Fat>
                            <Hulk>(-0.4157074,0.5599)</Hulk>
                         </bodyTypes>
-                        <crownTypes>
+                        <!--crownTypes>
                            <Normal_Average>(0,0)</Normal_Average>
                            <Normal_Wide>(0,0)</Normal_Wide>
                            <Normal_Pointy>(0,0)</Normal_Pointy>
                            <Narrow_Normal>(0,0)</Narrow_Normal>
                            <Narrow_Wide>((0,0)</Narrow_Wide>
                            <Narrow_Pointy>(0,0)</Narrow_Pointy>
-                        </crownTypes>
+                        </crownTypes-->
                      </south>
 					 <north>
 					 </north>
@@ -128,14 +128,14 @@
 						   <Fat>(-0.4878778,0.7341495)</Fat>
                            <Hulk>(-0.4878778,0.7341495)</Hulk>
                         </bodyTypes>
-                        <crownTypes>
+                        <!--crownTypes>
                            <Normal_Average>(0,0)</Normal_Average>
                            <Normal_Wide>(0,0)</Normal_Wide>
                            <Normal_Pointy>(0,0)</Normal_Pointy>
                            <Narrow_Normal>(0,0)</Narrow_Normal>
                            <Narrow_Wide>((0,0)</Narrow_Wide>
                            <Narrow_Pointy>(0,0)</Narrow_Pointy>
-                        </crownTypes>
+                        </crownTypes-->
                      </east>
                   </offsets>
                </li>
@@ -172,14 +172,14 @@
                            <Fat>(-0.4275,0.5599)</Fat>
                            <Hulk>(-0.4275,0.5599)</Hulk>
                         </bodyTypes>
-                        <crownTypes>
+                        <!--crownTypes>
                            <Normal_Average>(0,0)</Normal_Average>
                            <Normal_Wide>(0,0)</Normal_Wide>
                            <Normal_Pointy>(0,0)</Normal_Pointy>
                            <Narrow_Normal>(0.01286174,0)</Narrow_Normal>
                            <Narrow_Wide>(0,0)</Narrow_Wide>
                            <Narrow_Pointy>(0.006430864,0)</Narrow_Pointy>
-                        </crownTypes>
+                        </crownTypes-->
                      </south>
                      <north>
 					 </north>
@@ -191,14 +191,14 @@
 						   <Fat>(-0.7361817,0.5540852)</Fat>
                            <Hulk>(-0.7426126,0.554852)</Hulk>
                         </bodyTypes>
-                        <crownTypes>
+                        <!--crownTypes>
                            <Normal_Average>(0,0)</Normal_Average>
                            <Normal_Wide>(0,0)</Normal_Wide>
                            <Normal_Pointy>(0,0)</Normal_Pointy>
                            <Narrow_Normal>(0.01286174,0)</Narrow_Normal>
                            <Narrow_Wide>(0.01286174,0)</Narrow_Wide>
                            <Narrow_Pointy>(0.01286174,0)</Narrow_Pointy>
-                        </crownTypes>
+                        </crownTypes-->
                      </east>
                   </offsets>
                </li>
@@ -235,14 +235,14 @@
                            <Fat>(-0.4157074,0.5599)</Fat>
                            <Hulk>(-0.4157074,0.5599)</Hulk>
                         </bodyTypes>
-                        <crownTypes>
+                        <!--crownTypes>
                            <Normal_Average>(0,0)</Normal_Average>
                            <Normal_Wide>(0,0)</Normal_Wide>
                            <Normal_Pointy>(0,0)</Normal_Pointy>
                            <Narrow_Normal>(-0.01286174,0)</Narrow_Normal>
                            <Narrow_Wide>(-0.01286174,0)</Narrow_Wide>
                            <Narrow_Pointy>(-0.01286174,0)</Narrow_Pointy>
-                        </crownTypes>
+                        </crownTypes-->
                      </south>
                      <north>
 					 </north>
@@ -254,14 +254,14 @@
 						   <Fat>(-0.7361817,0.7341495)</Fat>
                            <Hulk>(-0.4878778,0.7341495)</Hulk>
                         </bodyTypes>
-                        <crownTypes>
+                        <!--crownTypes>
                            <Normal_Average>(0,0)</Normal_Average>
                            <Normal_Wide>(0,0)</Normal_Wide>
                            <Normal_Pointy>(0,0)</Normal_Pointy>
                            <Narrow_Normal>(0,0)</Narrow_Normal>
                            <Narrow_Wide>(0.0192926,0)</Narrow_Wide>
                            <Narrow_Pointy>(0,0)</Narrow_Pointy>
-                        </crownTypes>
+                        </crownTypes-->
                      </east>
                   </offsets>
                </li>

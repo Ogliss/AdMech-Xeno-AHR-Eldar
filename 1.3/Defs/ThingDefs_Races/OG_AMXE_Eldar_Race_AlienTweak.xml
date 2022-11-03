@@ -74,9 +74,6 @@
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(-0.0,0.0)</Average_Ork>
-								</crownTypes>
 							</south>
 							<north>
 								<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
@@ -84,9 +81,6 @@
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(0,0.0)</Average_Ork>
-								</crownTypes>
 							</north>
 							<east>
 								<layerOffset>-0.27575</layerOffset> <!-- -0.2740 -->
@@ -94,9 +88,6 @@
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(-0.0,0.0)</Average_Ork>
-								</crownTypes>
 							</east>
 						</offsets>
 						<colorChannel>none</colorChannel>
@@ -126,9 +117,6 @@
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(-0.0,0.0)</Average_Ork>
-								</crownTypes>
 							</south>
 							<north>
 								<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
@@ -136,9 +124,6 @@
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(0,0.0)</Average_Ork>
-								</crownTypes>
 							</north>
 							<east>
 								<layerOffset>-0.2760</layerOffset> <!-- -0.2740 -->
@@ -146,9 +131,6 @@
 									<Male>(-0.00,-0.0)</Male>
 									<Female>(-0.00,-0.0)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(-0.0,0.0)</Average_Ork>
-								</crownTypes>
 							</east>
 						</offsets>
 						<colorChannel>none</colorChannel>

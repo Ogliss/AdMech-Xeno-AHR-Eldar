@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Bases -->
+
+  <!--HeadTypeDef Name="AverageBase" Abstract="True">
+    <hairMeshSize>(1.5, 1.5)</hairMeshSize>
+    <beardMeshSize>(1.5, 1.5)</beardMeshSize>
+  </HeadTypeDef>
+
+  <HeadTypeDef Name="NarrowBase" Abstract="True">
+    <hairMeshSize>(1.3, 1.5)</hairMeshSize>
+    <beardMeshSize>(1.5, 1.5)</beardMeshSize>
+    <beardOffset>(0, 0, -0.05)</beardOffset>
+    <beardOffsetXEast>-0.05</beardOffsetXEast>
+    <eyeOffsetEastWest>(0.1, 0, 0.18)</eyeOffsetEastWest>
+    <narrow>true</narrow>
+  </HeadTypeDef-->
+
+  <!-- Unisex -->
+
+  <!--HeadTypeDef ParentName="AverageBase">
+    <defName>Skull</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/None_Average_Skull</graphicPath>
+    <selectionWeight>0</selectionWeight>
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Stump</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/None_Average_Stump</graphicPath>
+    <selectionWeight>0</selectionWeight>
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+  </HeadTypeDef-->
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Wraithguard_Head</defName>
+    <graphicPath>Things/Pawn/Humanlike/Wraithguard/Head/Wraithguard_Head</graphicPath>
+    <!--selectionWeight>0</selectionWeight-->
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+  </HeadTypeDef>
+
+  <!-- Male -->
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Male_Aeldari_AverageNormal</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Male_Aeldari_AveragePointy</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Male_Average_Pointy</graphicPath>
+    <eyeOffsetEastWest>(0.175, 0, 0.18)</eyeOffsetEastWest>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Male_Aeldari_AverageWide</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Male_Average_Wide</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Male_Aeldari_NarrowNormal</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Male_Narrow_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Male_Aeldari_NarrowPointy</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Male_Narrow_Pointy</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Male_Aeldari_NarrowWide</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Male_Narrow_Wide</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Male_Aeldari_Gaunt</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Eldar_Head_Gaunt</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Male_Aeldari_Pointy</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Eldar_Head_Pointy</graphicPath>
+    <eyeOffsetEastWest>(0.175, 0, 0.18)</eyeOffsetEastWest>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Male_Aeldari_Square</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Eldar_Head_Square</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Male_Aeldari_Straight</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Eldar_Head_Straight</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Male_Aeldari_Triangle</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Eldar_Head_Triangle</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <!-- Female -->
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Female_Aeldari_AverageNormal</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Female_Aeldari_AveragePointy</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Female_Average_Pointy</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Female_Aeldari_AverageWide</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Female_Average_Wide</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Female_Aeldari_NarrowNormal</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Female_Narrow_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Female_Aeldari_NarrowPointy</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Female_Narrow_Pointy</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Female_Aeldari_NarrowWide</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Female_Narrow_Wide</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Female_Aeldari_Gaunt</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Eldar_Head_Gaunt</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Female_Aeldari_Pointy</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Eldar_Head_Pointy</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Female_Aeldari_Square</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Eldar_Head_Square</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Female_Aeldari_Straight</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Eldar_Head_Straight</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Female_Aeldari_Triangle</defName>
+    <graphicPath>Things/Pawn/Humanlike/Aeldari/Head/Eldar_Head_Triangle</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+</Defs>

@@ -5,7 +5,7 @@
 		<defaultFactionType>OG_Eldar_Craftworld_Faction</defaultFactionType>
 		<race>OG_Alien_Eldar</race>
 		<chemicalAddictionChance>0.015</chemicalAddictionChance>
-		<baseRecruitDifficulty>1</baseRecruitDifficulty>
+		<!--baseRecruitDifficulty>1</baseRecruitDifficulty-->
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<modExtensions>
 			<li Class="AlienRace.Info">
@@ -107,7 +107,7 @@
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categories>
 					<li>Eldar_Craftworld_Psyker_Farseer</li>
@@ -151,11 +151,14 @@
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Command</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
@@ -164,11 +167,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_Craftworld_TraderBase" ParentName="OG_Eldar_Civ_BaseKind">
 		<label>Eldar trader</label>
 		<trader>true</trader>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Civilian</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
@@ -177,11 +183,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_Craftworld_SlaveBase" ParentName="OG_Eldar_Civ_BaseKind">
 		<defName>Slave_OG_Eldar_Craftworld</defName>
 		<label>Eldar slave</label>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Civilian</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>
@@ -191,11 +200,14 @@
 		<label>Eldar Guardian</label>
 		<combatPower>50</combatPower>
 		<maxGenerationAge>700</maxGenerationAge>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Civilian</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<gearHealthRange>
@@ -303,11 +315,14 @@
 	<PawnKindDef Abstract="True" Name="EldarGuardianBase" ParentName="OG_Eldar_Mil_BaseKind">
 		<label>Eldar Military</label>
 		<combatPower>50</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Civilian</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<apparelRequired>
@@ -326,11 +341,14 @@
 		<defName>OG_Eldar_Guardian</defName>
 		<label>Guardian Defender</label>
 		<combatPower>50</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Warrior_GuardianDefender</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -346,11 +364,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_GuardianStormBase" ParentName="EldarGuardianBase">
 		<combatPower>50</combatPower>
 		<label>Storm Guardian</label>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Warrior_GuardianStorm</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -367,11 +388,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_GuardianSupportBase" ParentName="EldarGuardianBase">
 		<label>Fire Support Guardian</label>
 		<combatPower>100</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Warrior_GuardianDefender</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -388,12 +412,15 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_RangerBase" ParentName="OG_Eldar_Mil_BaseKind">
 		<label>ranger</label>
 		<combatPower>60</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
-					<li>Eldar_Outcast_Child</li>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Ranger</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+					<li>Eldar_Outcast_Child</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -412,12 +439,15 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_Ranger_PathfinderBase" ParentName="OG_Eldar_Mil_BaseKind">
 		<label>pathfinder</label>
 		<combatPower>90</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
-					<li>Eldar_Outcast_Child</li>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Ranger</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+					<li>Eldar_Outcast_Child</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -554,13 +584,16 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_DireAvengerBase" ParentName="EldarAspectBase">
 		<label>Dire Avenger</label>
 		<combatPower>65</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-			<categories>
-				<li>Eldar_Craftworld_Warrior_DireAvenger</li>
-			</categories>
+				<categoriesAdulthood>
+					<li>Eldar_Craftworld_Warrior_DireAvenger</li>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
-			</backstoryFiltersOverride>
+		</backstoryFiltersOverride>
 		<weaponTags>
 			<li>EShurikenCatapultA</li>
 		</weaponTags>
@@ -578,11 +611,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_DireAvenger_ExarchBase" ParentName="EldarAspectExarchBase">
 		<label>Dire Avenger Exarch</label>
 		<combatPower>90</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Exarch_DireAvenger</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -604,11 +640,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_HowlingBansheeBase" ParentName="EldarAspectBase">
 		<label>Howling Banshee</label>
 		<combatPower>75</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Warrior_HowlingBanshee</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -630,11 +669,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_HowlingBanshee_ExarchBase" ParentName="EldarAspectExarchBase">
 		<label>Howling Banshee Exarch</label>
 		<combatPower>100</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Exarch_HowlingBanshee</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -658,11 +700,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_FireDragonBase" ParentName="EldarAspectBase">
 		<label>Fire Dragon</label>
 		<combatPower>75</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Warrior_FireDragon</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -674,11 +719,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_FireDragon_ExarchBase" ParentName="EldarAspectExarchBase">
 		<label>Fire Dragon Exarch</label>
 		<combatPower>100</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Exarch_FireDragon</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -690,11 +738,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_SwoopingHawkBase" ParentName="EldarAspectBase">
 		<label>Swooping Hawk</label>
 		<combatPower>75</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Warrior_SwoopingHawk</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -706,11 +757,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_SwoopingHawk_ExarchBase" ParentName="EldarAspectExarchBase">
 		<label>Swooping Hawk Exarch</label>
 		<combatPower>100</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Exarch_SwoopingHawk</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -723,11 +777,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_DarkReaperBase" ParentName="EldarAspectBase">
 		<label>Dark Reaper</label>
 		<combatPower>75</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Warrior_DarkReaper</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -739,11 +796,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_DarkReaper_ExarchBase" ParentName="EldarAspectExarchBase">
 		<label>Dark Reaper Exarch</label>
 		<combatPower>100</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Exarch_DarkReaper</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -757,11 +817,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_StrikingScorpionBase" ParentName="EldarAspectBase">
 		<label>Striking Scorpion</label>
 		<combatPower>75</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Warrior_StrikingScorpion</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -782,11 +845,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_StrikingScorpion_ExarchBase" ParentName="EldarAspectExarchBase">
 		<label>Striking Scorpion Exarch</label>
 		<combatPower>100</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Exarch_StrikingScorpion</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -808,11 +874,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_ShadowSpectreBase" ParentName="EldarAspectBase">
 		<label>Shadow Spectre</label>
 		<combatPower>75</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Warrior_ShadowSpectre</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -834,11 +903,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_ShadowSpectre_ExarchBase" ParentName="EldarAspectExarchBase">
 		<label>Shadow Spectre Exarch</label>
 		<combatPower>100</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Exarch_ShadowSpectre</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -860,11 +932,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_WarpSpiderBase" ParentName="EldarAspectBase">
 		<label>Warp Spider</label>
 		<combatPower>75</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Warrior_WarpSpider</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -886,11 +961,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_WarpSpider_ExarchBase" ParentName="EldarAspectExarchBase">
 		<label>Warp Spider Exarch</label>
 		<combatPower>100</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Exarch_WarpSpider</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -912,13 +990,15 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_WarlockBase" ParentName="OG_Eldar_Mil_BaseKind">
 		<label>Warlock</label>
 		<combatPower>125</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
-					<li>Eldar_Craftworld_Child_Psyker</li>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Psyker_Warlock</li>
 					<li>Eldar_Craftworld_Psyker_Spiritseer</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld_Child_Psyker</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<weaponTags>
@@ -945,11 +1025,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_FarseerBase" ParentName="OG_Eldar_Mil_BaseKind">
 		<label>Farseer</label>
 		<combatPower>250</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Psyker_Farseer</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld_Child_Psyker</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<gearHealthRange>
@@ -1020,11 +1103,14 @@
 	<PawnKindDef Abstract="True" Name="OG_Eldar_AutarchBase" ParentName="OG_Eldar_Mil_BaseKind">
 		<label>Autarch</label>
 		<combatPower>150</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categories>
+				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Command</li>
-				</categories>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld</li>
+				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
 		<gearHealthRange>

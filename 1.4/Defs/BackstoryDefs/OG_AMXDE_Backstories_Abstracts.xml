@@ -15,9 +15,9 @@
 		<disallowedTraits>
 
 		</disallowedTraits>
-		<forcedTraits>
+		<forcedTraitsChance>
 		
-		</forcedTraits>
+		</forcedTraitsChance>
 		<skillGains>
 		
 		</skillGains>
@@ -38,9 +38,9 @@
 		<disallowedTraits>
 
 		</disallowedTraits>
-		<forcedTraits>
+		<forcedTraitsChance>
 		
-		</forcedTraits>
+		</forcedTraitsChance>
 		<skillGains>
 		
 		</skillGains>
@@ -57,7 +57,7 @@
 		<titleShort>Dark Eldar child</titleShort>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		<baseDescription>[PAWN_nameDef] is a young [PAWN_alienRace].</baseDescription>
+		<baseDesc>[PAWN_nameDef] is a young [PAWN_alienRace].</baseDesc>
 		<slot>Childhood</slot>
 		<disallowedTraits>
 

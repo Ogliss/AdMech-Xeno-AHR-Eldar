@@ -14,7 +14,7 @@
         <statOffsets>
           <MeleeHitChance>-0.5</MeleeHitChance>
           <MeleeDodgeChance>-0.5</MeleeDodgeChance>
-          <ToxicSensitivity>1</ToxicSensitivity>
+          <ToxicResistance>1</ToxicResistance>
           <!--PsychicSensitivity>-1</PsychicSensitivity-->
         </statOffsets>
       </li>

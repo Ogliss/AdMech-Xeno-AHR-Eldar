@@ -20,23 +20,27 @@
 				<alienPartGenerator>
 					<customDrawSize>(0.8, 1.0)</customDrawSize>
 					<!--customHeadDrawSize>(1.00, 1.00)</customHeadDrawSize-->
-					<aliencrowntypes>
+					<headTypes>
 						<!--li>Eldar_Head_Gaunt</li>
 						<li>Eldar_Head_Pointy</li>
 						<li>Eldar_Head_Square</li>
 						<li>Eldar_Head_Straight</li>
 						<li>Eldar_Head_Triangle</li-->
-						<li>Average_Normal</li>
-						<li>Narrow_Normal</li>
-						<li>Average_Wide</li>
-						<li>Average_Pointy</li>
-					</aliencrowntypes>
-					<alienbodytypes>
+						<li>Male_Aeldari_AverageNormal</li>
+						<li>Male_Aeldari_NarrowNormal</li>
+						<li>Male_Aeldari_AverageWide</li>
+						<li>Male_Aeldari_AveragePointy</li>
+						<li>Female_Aeldari_AverageNormal</li>
+						<li>Female_Aeldari_NarrowNormal</li>
+						<li>Female_Aeldari_AverageWide</li>
+						<li>Female_Aeldari_AveragePointy</li>
+					</headTypes>
+					<bodyTypes>
 						<li>Female</li>
 						<li>Male</li>
-					</alienbodytypes>
-					<useGenderedHeads>true</useGenderedHeads>
-					<useGenderedBodies>false</useGenderedBodies>
+					</bodyTypes>
+					<!--useGenderedHeads>true</useGenderedHeads>
+					<useGenderedBodies>false</useGenderedBodies-->
 				</alienPartGenerator>
 				<chemicalSettings>	
 				</chemicalSettings>
@@ -134,10 +138,8 @@
 				</factionRelations>
 			</generalSettings>
 			<graphicPaths>
-				<li>
-					<head>Things/Pawn/Humanlike/Aeldari/Head/</head>
-					<body>Things/Pawn/Humanlike/Aeldari/Bodies/</body>
-				</li>
+				<head>Things/Pawn/Humanlike/Aeldari/Head/</head>
+				<body>Things/Pawn/Humanlike/Aeldari/Bodies/</body>
 				<!--
 				<li>
 					<head>Things/Pawn/Humanlike/Aeldari/Head/</head>

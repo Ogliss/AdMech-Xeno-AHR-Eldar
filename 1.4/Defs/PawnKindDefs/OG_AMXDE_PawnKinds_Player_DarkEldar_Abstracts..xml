@@ -4,7 +4,7 @@
 	<PawnKindDef Abstract="True" Name="OG_DarkEldar_Base_PawnKind">
 		<race>OG_Alien_DarkEldar</race>
 		<combatPower>40</combatPower>
-		<baseRecruitDifficulty>1.0</baseRecruitDifficulty>
+		<!--baseRecruitDifficulty>1.0</baseRecruitDifficulty-->
 		<isFighter>false</isFighter>
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>

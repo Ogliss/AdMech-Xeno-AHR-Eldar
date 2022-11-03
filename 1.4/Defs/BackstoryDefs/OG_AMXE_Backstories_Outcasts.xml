@@ -6,33 +6,33 @@
 	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Child">
 		<defName>OG_Eldar_Outcast_Child</defName>
 		<title>Outcast</title>
-		<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. However the strict paths of the [PAWN_alienRace] that shape the lives of Craftworld [PAWN_alienRace] proved too much for [PAWN_pronoun].</baseDescription>
+		<baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. However the strict paths of the [PAWN_alienRace] that shape the lives of Craftworld [PAWN_alienRace] proved too much for [PAWN_pronoun].</baseDesc>
 		<maleCommonality>0.25</maleCommonality>
 		<femaleCommonality>0.25</femaleCommonality>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>2</amount>
+				<key>Shooting</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>2</amount>
+				<key>Melee</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Plants</defName>
-				<amount>2</amount>
+				<key>Plants</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>2</amount>
+				<key>Animals</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>-3</amount>
+				<key>Intellectual</key>
+				<value>-3</value>
 			</li>
 		</skillGains>
 		<forcedHediffs>
-		  <!-- <li>HyperactiveNymuneOrgan</li> -->
+		
 		</forcedHediffs>
 		<spawnCategories Inherit="true">
 			<li>Eldar_Craftworld_Outcast</li>
@@ -44,29 +44,29 @@
 	<AlienRace.BackstoryDef ParentName="OG_Eldar_Child_Psyker">
 		<defName>OG_Eldar_Outcast_Child_Psyker</defName>
 		<title>Outcast</title>
-		<baseDescription>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. However the strict paths of the [PAWN_alienRace] that shape the lives of Craftworld [PAWN_alienRace] proved too much for [PAWN_pronoun].</baseDescription>
+		<baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. However the strict paths of the [PAWN_alienRace] that shape the lives of Craftworld [PAWN_alienRace] proved too much for [PAWN_pronoun].</baseDesc>
 		<maleCommonality>0.05</maleCommonality>
 		<femaleCommonality>0.05</femaleCommonality>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>3</amount>
+				<key>Shooting</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>2</amount>
+				<key>Melee</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Plants</defName>
-				<amount>2</amount>
+				<key>Plants</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>2</amount>
+				<key>Animals</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>-2</amount>
+				<key>Intellectual</key>
+				<value>-2</value>
 			</li>
 		</skillGains>
 		<forcedHediffs>
@@ -100,12 +100,12 @@
 		</workDisables>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>-3</amount>
+				<key>Shooting</key>
+				<value>-3</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>-3</amount>
+				<key>Melee</key>
+				<value>-3</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -123,23 +123,23 @@
 		<defName>OG_Eldar_Outcast_Hermit</defName>
 		<title>hermit</title>
 		<titleShort>hermit</titleShort>
-		<baseDescription>Worn out by the pressures of the strict ways required by the Eldar Path, [PAWN_nameDef] left [PAWN_possessive] craftworld to live a simple life in the wilderness. There, [PAWN_pronoun] spent [PAWN_possessive] days alone, tending [PAWN_possessive] garden and crafting the simple tools [PAWN_pronoun] needed to survive.</baseDescription>
+		<baseDesc>Worn out by the pressures of the strict ways required by the Eldar Path, [PAWN_nameDef] left [PAWN_possessive] craftworld to live a simple life in the wilderness. There, [PAWN_pronoun] spent [PAWN_possessive] days alone, tending [PAWN_possessive] garden and crafting the simple tools [PAWN_pronoun] needed to survive.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
 		  <li>Social</li>
 		</workDisables>
 		<skillGains>
 			<li>
-				<defName>Plants</defName>
-				<amount>4</amount>
+				<key>Plants</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Crafting</defName>
-				<amount>3</amount>
+				<key>Crafting</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Construction</defName>
-				<amount>1</amount>
+				<key>Construction</key>
+				<value>1</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -152,23 +152,23 @@
 		</requiredWorkTags>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Ascetic</defName>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Civilian">
 		<defName>OG_Eldar_Outcast_Builder</defName>
 		<title>outcast bonesinger</title>
 		<titleShort>bonesinger</titleShort>
-		<baseDescription>There is a law that says that you're not allowed to put terawatt-range grasers on a cargo scow. Especially if you hide them under what looks like a communications dish for better ambush potential. [PAWN_nameDef] discovered that there is great profit to be made, however, from those who are uninterested in these laws.</baseDescription>
+		<baseDesc>There is a law that says that you're not allowed to put terawatt-range grasers on a cargo scow. Especially if you hide them under what looks like a communications dish for better ambush potential. [PAWN_nameDef] discovered that there is great profit to be made, however, from those who are uninterested in these laws.</baseDesc>
 		<slot>Adulthood</slot>
 		<skillGains>
 			<li>
-				<defName>Construction</defName>
-				<amount>7</amount>
+				<key>Construction</key>
+				<value>7</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -195,12 +195,12 @@
 		</workDisables>
 		<skillGains>
 			<li>
-				<defName>Animals</defName>
-				<amount>-3</amount>
+				<key>Animals</key>
+				<value>-3</value>
 			</li>
 			<li>
-				<defName>Mining</defName>
-				<amount>-3</amount>
+				<key>Mining</key>
+				<value>-3</value>
 			</li>
 		</skillGains>
 		<requiredWorkTags>
@@ -223,46 +223,46 @@
 		<title>Ranger</title>
 		<titleShort>Ranger</titleShort>
 		<linkedBackstory>Eldar_Outcast_Child</linkedBackstory>
-		<baseDescription>[PAWN_nameDef] is An Outcast, The Path of the Outcast is the Path, paradoxically, of those Eldar who abandon the disciplined life of the Eldar Paths. Those who desert the Eldar Paths are known as Outcasts on the Craftworlds. The intensely potent and volatile Eldar mind sometimes rebels against the highly structured delineation of achievement which the Eldar Paths offer. Without the protection of the Eldar Paths an individual is likely to eventually succumb to self-destructive urges. The worst fate of all for an Outcast is to fall to the Path of Damnation, but no Eldar will speak of this aberration and so almost nothing is known about it save that they believe it is the Path walked, unknowingly or not, by their Dark Eldar kin. Sometimes young, inexperienced or disgraced Eldar leave their Craftworlds to wander among the stars. Most of the time such Outcasts become Rangers. Some eventually return to their Craftworlds and to the safety of the Paths. Those who are unable to return, for one reason or another, perhaps because they become lost upon the Path of the Outcast, eventually become the Rangers known as Pathfinders. Other Outcasts become pirates, raiders, and Eldar Corsairs.</baseDescription>
+		<baseDesc>[PAWN_nameDef] is An Outcast, The Path of the Outcast is the Path, paradoxically, of those Eldar who abandon the disciplined life of the Eldar Paths. Those who desert the Eldar Paths are known as Outcasts on the Craftworlds. The intensely potent and volatile Eldar mind sometimes rebels against the highly structured delineation of achievement which the Eldar Paths offer. Without the protection of the Eldar Paths an individual is likely to eventually succumb to self-destructive urges. The worst fate of all for an Outcast is to fall to the Path of Damnation, but no Eldar will speak of this aberration and so almost nothing is known about it save that they believe it is the Path walked, unknowingly or not, by their Dark Eldar kin. Sometimes young, inexperienced or disgraced Eldar leave their Craftworlds to wander among the stars. Most of the time such Outcasts become Rangers. Some eventually return to their Craftworlds and to the safety of the Paths. Those who are unable to return, for one reason or another, perhaps because they become lost upon the Path of the Outcast, eventually become the Rangers known as Pathfinders. Other Outcasts become pirates, raiders, and Eldar Corsairs.</baseDesc>
 		<workDisables>
 		
 		</workDisables>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>-4</amount>
+				<key>Social</key>
+				<value>-4</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>-2</amount>
+				<key>Intellectual</key>
+				<value>-2</value>
 			</li>
 			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
+				<key>Shooting</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>-2</amount>
+				<key>Melee</key>
+				<value>-2</value>
 			</li>
 			<li>
-				<defName>Construction</defName>
-				<amount>-2</amount>
+				<key>Construction</key>
+				<value>-2</value>
 			</li>
 			<li>
-				<defName>Cooking</defName>
-				<amount>1</amount>
+				<key>Cooking</key>
+				<value>1</value>
 			</li>
 			<li>
-				<defName>Plants</defName>
-				<amount>2</amount>
+				<key>Plants</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Crafting</defName>
-				<amount>3</amount>
+				<key>Crafting</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Medicine</defName>
-				<amount>2</amount>
+				<key>Medicine</key>
+				<value>2</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -276,46 +276,46 @@
 		<title>Pathfinder</title>
 		<titleShort>Pathfinder</titleShort>
 		<linkedBackstory>Eldar_Outcast_Child</linkedBackstory>
-		<baseDescription>[PAWN_nameDef] has become lost upon the Path of the Outcast, The Path of the Outcast is the Path, paradoxically, of those Eldar who abandon the disciplined life of the Eldar Paths. Those who desert the Eldar Paths are known as Outcasts on the Craftworlds. The intensely potent and volatile Eldar mind sometimes rebels against the highly structured delineation of achievement which the Eldar Paths offer. Without the protection of the Eldar Paths an individual is likely to eventually succumb to self-destructive urges. The worst fate of all for an Outcast is to fall to the Path of Damnation, but no Eldar will speak of this aberration and so almost nothing is known about it save that they believe it is the Path walked, unknowingly or not, by their Dark Eldar kin. Sometimes young, inexperienced or disgraced Eldar leave their Craftworlds to wander among the stars. Most of the time such Outcasts become Rangers. Some eventually return to their Craftworlds and to the safety of the Paths. Those who are unable to return, for one reason or another, perhaps because they become lost upon the Path of the Outcast, eventually become the Rangers known as Pathfinders. Other Outcasts become pirates, raiders, and Eldar Corsairs.</baseDescription>
+		<baseDesc>[PAWN_nameDef] has become lost upon the Path of the Outcast, The Path of the Outcast is the Path, paradoxically, of those Eldar who abandon the disciplined life of the Eldar Paths. Those who desert the Eldar Paths are known as Outcasts on the Craftworlds. The intensely potent and volatile Eldar mind sometimes rebels against the highly structured delineation of achievement which the Eldar Paths offer. Without the protection of the Eldar Paths an individual is likely to eventually succumb to self-destructive urges. The worst fate of all for an Outcast is to fall to the Path of Damnation, but no Eldar will speak of this aberration and so almost nothing is known about it save that they believe it is the Path walked, unknowingly or not, by their Dark Eldar kin. Sometimes young, inexperienced or disgraced Eldar leave their Craftworlds to wander among the stars. Most of the time such Outcasts become Rangers. Some eventually return to their Craftworlds and to the safety of the Paths. Those who are unable to return, for one reason or another, perhaps because they become lost upon the Path of the Outcast, eventually become the Rangers known as Pathfinders. Other Outcasts become pirates, raiders, and Eldar Corsairs.</baseDesc>
 		<workDisables>
 		
 		</workDisables>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>-5</amount>
+				<key>Social</key>
+				<value>-5</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>-4</amount>
+				<key>Intellectual</key>
+				<value>-4</value>
 			</li>
 			<li>
-				<defName>Shooting</defName>
-				<amount>6</amount>
+				<key>Shooting</key>
+				<value>6</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>3</amount>
+				<key>Melee</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Construction</defName>
-				<amount>-3</amount>
+				<key>Construction</key>
+				<value>-3</value>
 			</li>
 			<li>
-				<defName>Cooking</defName>
-				<amount>1</amount>
+				<key>Cooking</key>
+				<value>1</value>
 			</li>
 			<li>
-				<defName>Plants</defName>
-				<amount>2</amount>
+				<key>Plants</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Crafting</defName>
-				<amount>3</amount>
+				<key>Crafting</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Medicine</defName>
-				<amount>3</amount>
+				<key>Medicine</key>
+				<value>3</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -328,15 +328,15 @@
 		<defName>OG_Eldar_Outcast_Pirate</defName>
 		<title>aeldari pirate</title>
 		<titleShort>pirate</titleShort>
-		<baseDescription>like many young aeldari walking the path of the Outcast, [PAWN_nameDef] was drawn to Piracy, appearing anywhere that defences are weak and the imperium spread thin. [PAWN_nameDef] was part of this age-old part of existence, extorting and smashing peaceful trade ships for profit.</baseDescription>
+		<baseDesc>like many young aeldari walking the path of the Outcast, [PAWN_nameDef] was drawn to Piracy, appearing anywhere that defences are weak and the imperium spread thin. [PAWN_nameDef] was part of this age-old part of existence, extorting and smashing peaceful trade ships for profit.</baseDesc>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
+				<key>Melee</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
+				<key>Shooting</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -345,18 +345,18 @@
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
-		<defName>OG_Eldar_Outcast_Corsair_1</defName>
+		<defName>OG_Eldar_Outcast_Corsair_A</defName>
 		<title>aeldari corsair</title>
 		<titleShort>corsair</titleShort>
-		<baseDescription>[PAWN_nameDef] was a warrior in a Corsair fleet. [PAWN_possessive] job was to punch into enemy starships, gun down the crew, and capture the ship intact. And [PAWN_pronoun] was good at it.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was a warrior in a Corsair fleet. [PAWN_possessive] job was to punch into enemy starships, gun down the crew, and capture the ship intact. And [PAWN_pronoun] was good at it.</baseDesc>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>5</amount>
+				<key>Melee</key>
+				<value>5</value>
 			</li>
 			<li>
-				<defName>Shooting</defName>
-				<amount>7</amount>
+				<key>Shooting</key>
+				<value>7</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -365,10 +365,10 @@
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
-		<defName>OG_Eldar_Outcast_Corsair_2</defName>
+		<defName>OG_Eldar_Outcast_Corsair_B</defName>
 		<title>defector</title>
 		<titleShort>defector</titleShort>
-		<baseDescription>Early in [PAWN_possessive] adulthood, [PAWN_nameDef] decided to leave the oppressive Craftworld where [PAWN_pronoun] lived. [PAWN_possessive] actions with a group of Corsair Raiders led to the attentions of the Inquisition, and agents were sent out after [PAWN_objective].\n\n[PAWN_pronoun] spent years on the run, treating [PAWN_possessive] own wounds so no doctor could betray [PAWN_objective]. The ordeal made [PAWN_objective] bitter and untrusting.</baseDescription>
+		<baseDesc>Early in [PAWN_possessive] adulthood, [PAWN_nameDef] decided to leave the oppressive Craftworld where [PAWN_pronoun] lived. [PAWN_possessive] actions with a group of Corsair Raiders led to the attentions of the Inquisition, and agents were sent out after [PAWN_objective].\n\n[PAWN_pronoun] spent years on the run, treating [PAWN_possessive] own wounds so no doctor could betray [PAWN_objective]. The ordeal made [PAWN_objective] bitter and untrusting.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
 			<li>Artistic</li>
@@ -378,9 +378,18 @@
 			<li>Caring</li>
 		</requiredWorkTags>
 		<skillGains>
-			<li><defName>Shooting</defName><amount>5</amount></li>
-			<li><defName>Social</defName><amount>-4</amount></li>
-			<li><defName>Medicine</defName><amount>3</amount></li>
+			<li>
+				<key>Shooting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-4</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>3</value>
+			</li>
 		</skillGains>
 		<spawnCategories>
 			<li>Eldar_Outcast_Pirate</li>
@@ -390,14 +399,14 @@
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
-		<defName>OG_Eldar_Outcast_Raider_1</defName>
+		<defName>OG_Eldar_Outcast_Raider_A</defName>
 		<title>outcast raider</title>
 		<titleShort>raider</titleShort>
-		<baseDescription>[PAWN_nameDef] found great aclaim after leaving [PAWN_possessive] craftworld, [PAWN_pronoun] got in [PAWN_possessive] first fight. [PAWN_pronoun] won, but more important was the enjoyment of [PAWN_possessive] audience. Pit fighting turned out to be a lucrative career for those who could survive it. And it was even mostly legal.</baseDescription>
+		<baseDesc>[PAWN_nameDef] found great aclaim after leaving [PAWN_possessive] craftworld, [PAWN_pronoun] got in [PAWN_possessive] first fight. [PAWN_pronoun] won, but more important was the enjoyment of [PAWN_possessive] audience. Pit fighting turned out to be a lucrative career for those who could survive it. And it was even mostly legal.</baseDesc>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>8</amount>
+				<key>Melee</key>
+				<value>8</value>
 			</li>
 		</skillGains>
 		<spawnCategories>
@@ -410,18 +419,18 @@
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Brawler</defName>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
-		<defName>OG_Eldar_Outcast_Raider_2</defName>
+		<defName>OG_Eldar_Outcast_Raider_B</defName>
 		<title>torturer</title>
 		<titleShort>torturer</titleShort>
-		<baseDescription>Working for a tyrannical dictator, [PAWN_nameDef] earned a reputation as an expert in 'persuasion.' Any prisoner who went down into the dungeons left with no secrets - and with [PAWN_nameDef]'s smile scarred permanently into their nightmares.</baseDescription>
+		<baseDesc>Working for a tyrannical dictator, [PAWN_nameDef] earned a reputation as an expert in 'persuasion.' Any prisoner who went down into the dungeons left with no secrets - and with [PAWN_nameDef]'s smile scarred permanently into their nightmares.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
 			<li>Social</li>
@@ -431,51 +440,70 @@
 			<li>Violent</li>
 		</requiredWorkTags>
 		<skillGains>
-			<li><defName>Melee</defName><amount>6</amount></li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
 		</skillGains>
 		<spawnCategories>
 			<li>Eldar_Outcast_Pirate</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		<forcedTraits>
+		<forcedTraitsChance>
 				<li>
 					<defName>Psychopath</defName>
 				</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 	</AlienRace.BackstoryDef>
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Civilian">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Backstory">
 		<defName>OG_Eldar_Outcast_Assassin</defName>
 		<title>outcast assassin</title>
 		<titleShort>assassin</titleShort>
-		<baseDescription>[PAWN_nameDef] life outside [PAWN_possessive] craftwrold eventaully led down the path of a professional assassin. [PAWN_pronoun] was cold, calculating,and made a good profit. In this business, the skills learnt on the Path of the Warrior were an asset.</baseDescription>
+		<baseDesc>[PAWN_nameDef] life outside [PAWN_possessive] craftwrold eventaully led down the path of a professional assassin. [PAWN_pronoun] was cold, calculating,and made a good profit. In this business, the skills learnt on the Path of the Warrior were an asset.</baseDesc>
 		<slot>Adulthood</slot>
 		<skillGains>
-		  <li><defName>Melee</defName><amount>10</amount></li>
-		  <li><defName>Shooting</defName><amount>10</amount></li>
+			<li>
+				<key>Melee</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>-3</value>
+			</li>
 		</skillGains>
 		<spawnCategories>
-		  <li>Offworld</li>
-		  <li>Pirate</li>
+			<li>Eldar</li>
+			<li>Eldar_Outcast</li>
+			<li>Eldar_Outcast_Warrior</li>
+			<li>Eldar_Outcast_Warrior_Guardian</li>
+			<li>Eldar_Outcast_Warrior_GuardianDefender</li>
+			<li>Eldar_Outcast_Warrior_GuardianStorm</li>
+			<li>Offworld</li>
+			<li>Pirate</li>
 		</spawnCategories>
 		<workDisables>
-		  <li>Intellectual</li>
-		  <li>ManualDumb</li>
-		  <li>ManualSkilled</li>
-		  <li>Social</li>
-		  <li>Caring</li>
+			<li>Intellectual</li>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>Social</li>
+			<li>Caring</li>
 		</workDisables>
 		<requiredWorkTags>
-		  <li>Violent</li>
+			<li>Violent</li>
 		</requiredWorkTags>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Psychopath</defName>
 			</li>
-		</forcedTraits>
+		</forcedTraitsChance>
 	</AdeptusMechanicus.BackstoryDef>
 
 	<!-- Baseline Psyker -->
@@ -508,7 +536,7 @@
   <!--AlienRace.BackstoryDef>
     <title>actor</title>
     <titleShort>actor</titleShort>
-    <baseDescription>[PAWN_nameDef] travelled with a company of actors, playing to packed theatres and loving audiences everywhere. [PAWN_pronoun] was a perfectionist, and made [PAWN_possessive] own props and costumes rather than use the ones [PAWN_pronoun] was given.</baseDescription>
+    <baseDesc>[PAWN_nameDef] travelled with a company of actors, playing to packed theatres and loving audiences everywhere. [PAWN_pronoun] was a perfectionist, and made [PAWN_possessive] own props and costumes rather than use the ones [PAWN_pronoun] was given.</baseDesc>
     <slot>Adulthood</slot>
     <workDisables>
 		<li>ManualDumb</li>
@@ -517,8 +545,8 @@
 		<li>Social</li>
     </requiredWorkTags>
     <skillGains>
-		<li><defName>Social</defName><amount>8</amount></li>
-		<li><defName>Crafting</defName><amount>3</amount></li>
+		<li><key>Social</key><value>8</value></li>
+		<li><key>Crafting</key><value>3</value></li>
     </skillGains>
     <spawnCategories>
 		<li>Offworld</li>
@@ -532,12 +560,12 @@
   <AlienRace.BackstoryDef>
     <title>drifter</title>
     <titleShort>drifter</titleShort>
-    <baseDescription>[PAWN_nameDef] never figured out what to do with [PAWN_possessive] life. [PAWN_pronoun] travelled often, taking up casual work wherever [PAWN_pronoun] found it.\n\n[PAWN_pronoun] also occasionally worked on a novel that [PAWN_pronoun] knew would be a bestseller - just as soon as [PAWN_pronoun] could find a publisher who was interested.</baseDescription>
+    <baseDesc>[PAWN_nameDef] never figured out what to do with [PAWN_possessive] life. [PAWN_pronoun] travelled often, taking up casual work wherever [PAWN_pronoun] found it.\n\n[PAWN_pronoun] also occasionally worked on a novel that [PAWN_pronoun] knew would be a bestseller - just as soon as [PAWN_pronoun] could find a publisher who was interested.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
-		<li><defName>Cooking</defName><amount>3</amount></li>
-		<li><defName>Construction</defName><amount>3</amount></li>
-		<li><defName>Artistic</defName><amount>-4</amount></li>
+		<li><key>Cooking</key><value>3</value></li>
+		<li><key>Construction</key><value>3</value></li>
+		<li><key>Artistic</key><value>-4</value></li>
     </skillGains>
     <spawnCategories>
 		<li>Offworld</li>

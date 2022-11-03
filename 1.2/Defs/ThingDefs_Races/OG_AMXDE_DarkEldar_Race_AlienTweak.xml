@@ -71,27 +71,18 @@
 									<Male>(-0.00,-0.050)</Male>
 									<Female>(-0.00,-0.050)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(-0.0,0.0)</Average_Ork>
-								</crownTypes>
 							</south>
 							<north>
 								<bodyTypes>
 									<Male>(-0.00,-0.050)</Male>
 									<Female>(-0.00,-0.050)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(0,0.0)</Average_Ork>
-								</crownTypes>
 							</north>
 							<east>
 								<bodyTypes>
 									<Male>(-0.00,-0.050)</Male>
 									<Female>(-0.00,-0.050)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(-0.0,0.0)</Average_Ork>
-								</crownTypes>
 							</east>
 						</offsets>
 						<colorChannel>none</colorChannel>
@@ -122,27 +113,18 @@
 									<Male>(-0.00,-0.050)</Male>
 									<Female>(-0.00,-0.050)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(-0.0,0.0)</Average_Ork>
-								</crownTypes>
 							</south>
 							<north>
 								<bodyTypes>
 									<Male>(-0.00,-0.050)</Male>
 									<Female>(-0.00,-0.050)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(0,0.0)</Average_Ork>
-								</crownTypes>
 							</north>
 							<east>
 								<bodyTypes>
 									<Male>(-0.00,-0.050)</Male>
 									<Female>(-0.00,-0.050)</Female>
 								</bodyTypes>
-								<crownTypes>
-									<Average_Ork>(-0.0,0.0)</Average_Ork>
-								</crownTypes>
 							</east>
 						</offsets>
 						<colorChannel>none</colorChannel>
