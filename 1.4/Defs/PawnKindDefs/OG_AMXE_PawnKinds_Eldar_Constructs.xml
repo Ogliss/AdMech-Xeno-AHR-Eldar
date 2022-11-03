@@ -20,7 +20,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/ToolUser/Eldar/WraithGuard</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>1.65</drawSize>
+          <drawSize>2.65</drawSize>
           <color>(255,255,209)</color>
           <shaderType>CutoutComplex</shaderType>
           <shadowData>
@@ -49,7 +49,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/ToolUser/Eldar/WraithGuard</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>1.65</drawSize>
+          <drawSize>2.65</drawSize>
           <color>(255,255,209)</color>
           <shaderType>CutoutComplex</shaderType>
           <shadowData>

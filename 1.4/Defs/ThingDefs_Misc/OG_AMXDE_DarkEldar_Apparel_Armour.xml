@@ -906,7 +906,7 @@
 	<!-- ====== Incubi Lord Armor ====== -->
 	<ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Makeable">
 		<defName>OGDE_Apparel_Armor_IncubiLord</defName>
-		<label>incubus warsuit</label>
+		<label>incubus Lord warsuit</label>
 		<description>An aspect of Incubi equipment that is fairly unique among the Dark Eldar is their use of the power armour like Incubus Warsuit. This warsuit is used only by Incubi and not even Archons have access to armor of this kind. The warsuit is as tough as Space Marine power armour and so perfectly designed it barely inhibits dexterity at all.</description>
 		<graphicData>
 			<texPath>Things/Item/Apparel/DarkEldar/IncubiArmour/_Icon_Lord</texPath>
