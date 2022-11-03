@@ -997,7 +997,7 @@
 					<li>Eldar_Craftworld_Psyker_Spiritseer</li>
 				</categoriesAdulthood>
 				<categoriesChildhood>
-					<li>Eldar_Craftworld_Child_Psyker</li>
+					<li>Eldar_Craftworld_Psyker_Child</li>
 				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
@@ -1031,7 +1031,7 @@
 					<li>Eldar_Craftworld_Psyker_Farseer</li>
 				</categoriesAdulthood>
 				<categoriesChildhood>
-					<li>Eldar_Craftworld_Child_Psyker</li>
+					<li>Eldar_Craftworld_Psyker_Child</li>
 				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>

@@ -58,9 +58,12 @@
 		</apparelMoney>
 		<backstoryFiltersOverride>
 			<li>
-				<categories>
+				<categoriesAdulthood>
+					<li>Eldar_Craftworld_Civilian</li>
+				</categoriesAdulthood>
+				<categoriesChildhood>
 					<li>Eldar_Craftworld</li>
-				</categories>
+				</categoriesChildhood>
 				<commonality>1</commonality>
 			</li>
 			<li>
@@ -70,14 +73,14 @@
 				<categoriesChildhood>
 					<li>Eldar_Craftworld</li>
 				</categoriesChildhood>
-				<commonality>0.5</commonality>
+				<commonality>0.75</commonality>
 			</li>
 			<li>
 				<categoriesAdulthood>
 					<li>Eldar_Craftworld_Psyker</li>
 				</categoriesAdulthood>
 				<categoriesChildhood>
-					<li>Eldar_Craftworld_Child_Psyker</li>
+					<li>Eldar_Craftworld_Psyker_Child</li>
 				</categoriesChildhood>
 				<commonality>0.25</commonality>
 			</li>

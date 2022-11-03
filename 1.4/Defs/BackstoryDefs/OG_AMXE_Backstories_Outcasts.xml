@@ -3,7 +3,7 @@
 	<!-- Outcast Eldar --> 
 	<!-- Outcast Childhoods -->  
 	<!-- Outcast Child -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Child">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Child">
 		<defName>OG_Eldar_Outcast_Child</defName>
 		<title>Outcast</title>
 		<baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. However the strict paths of the [PAWN_alienRace] that shape the lives of Craftworld [PAWN_alienRace] proved too much for [PAWN_pronoun].</baseDesc>
@@ -38,10 +38,10 @@
 			<li>Eldar_Craftworld_Outcast</li>
 			<li>Eldar_Craftworld_Ranger</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
 	<!-- Eldar_Outcast_Child_Psyker -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Child_Psyker">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Child_Psyker">
 		<defName>OG_Eldar_Outcast_Child_Psyker</defName>
 		<title>Outcast</title>
 		<baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. However the strict paths of the [PAWN_alienRace] that shape the lives of Craftworld [PAWN_alienRace] proved too much for [PAWN_pronoun].</baseDesc>
@@ -79,11 +79,11 @@
 			<li>Eldar_Craftworld_Psyker_Bonesinger</li>
 			<li>Eldar_Craftworld_Outcast_Psyker</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
 	<!-- Outcast Adulthoods -->
 	<!-- Baseline Civilian -->
-	<AlienRace.BackstoryDef Name="OG_Eldar_Outcast_Base_Civilian" ParentName="OG_Eldar_Standard_Backstory" Abstract="true">
+	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Outcast_Base_Civilian" ParentName="OG_Eldar_Standard_Backstory" Abstract="true">
 		<defName>OG_Eldar_Outcast_Civilian</defName>
 		<title>Outcast Clansmen</title>
 		<titleShort>Outcast</titleShort>
@@ -115,11 +115,11 @@
 			<li>Eldar_Outcast_Warrior_GuardianDefender</li>
 			<li>Eldar_Outcast_Warrior_GuardianStorm</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
 	<!-- Outcast Civilians -->
 	<!-- Eldar_Outcast_Hermit -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Civilian">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Civilian">
 		<defName>OG_Eldar_Outcast_Hermit</defName>
 		<title>hermit</title>
 		<titleShort>hermit</titleShort>
@@ -150,16 +150,14 @@
 			<li>ManualDumb</li>
 			<li>Crafting</li>
 		</requiredWorkTags>
-		<bodyTypeMale>Thin</bodyTypeMale>
-		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<forcedTraitsChance>
 			<li>
 				<defName>Ascetic</defName>
 			</li>
 		</forcedTraitsChance>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Civilian">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Civilian">
 		<defName>OG_Eldar_Outcast_Builder</defName>
 		<title>outcast bonesinger</title>
 		<titleShort>bonesinger</titleShort>
@@ -177,13 +175,11 @@
 		<requiredWorkTags>
 			<li>ManualSkilled</li>
 		</requiredWorkTags>
-		<bodyTypeMale>Fat</bodyTypeMale>
-		<bodyTypeFemale>Fat</bodyTypeFemale>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
 
 	<!-- Baseline Warrior -->
-	<AlienRace.BackstoryDef Name="OG_Eldar_Outcast_Base_Warrior" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
+	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Outcast_Base_Warrior" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
 		<defName>OG_Eldar_Craftworld_Base_Warrior</defName>
 		<title>Outcast Clansmen Warrior</title>
 		<titleShort>Outcast Warrior</titleShort>
@@ -214,15 +210,15 @@
 			<li>Eldar_Outcast_Warrior_GuardianDefender</li>
 			<li>Eldar_Outcast_Warrior_GuardianStorm</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 	  
 	<!-- Warriors -->	   
 	<!-- Eldar Ranger -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
 		<defName>OG_Eldar_Outcast_Ranger</defName>
 		<title>Ranger</title>
 		<titleShort>Ranger</titleShort>
-		<linkedBackstory>Eldar_Outcast_Child</linkedBackstory>
+		<!--linkedBackstory>Eldar_Outcast_Child</linkedBackstory-->
 		<baseDesc>[PAWN_nameDef] is An Outcast, The Path of the Outcast is the Path, paradoxically, of those Eldar who abandon the disciplined life of the Eldar Paths. Those who desert the Eldar Paths are known as Outcasts on the Craftworlds. The intensely potent and volatile Eldar mind sometimes rebels against the highly structured delineation of achievement which the Eldar Paths offer. Without the protection of the Eldar Paths an individual is likely to eventually succumb to self-destructive urges. The worst fate of all for an Outcast is to fall to the Path of Damnation, but no Eldar will speak of this aberration and so almost nothing is known about it save that they believe it is the Path walked, unknowingly or not, by their Dark Eldar kin. Sometimes young, inexperienced or disgraced Eldar leave their Craftworlds to wander among the stars. Most of the time such Outcasts become Rangers. Some eventually return to their Craftworlds and to the safety of the Paths. Those who are unable to return, for one reason or another, perhaps because they become lost upon the Path of the Outcast, eventually become the Rangers known as Pathfinders. Other Outcasts become pirates, raiders, and Eldar Corsairs.</baseDesc>
 		<workDisables>
 		
@@ -268,14 +264,14 @@
 		<spawnCategories>
 		  <li>Eldar_Craftworld_Ranger</li>
 		</spawnCategories>
-	  </AlienRace.BackstoryDef>
+	  </AdeptusMechanicus.BackstoryDef>
 	  
 	<!-- Eldar Pathfinder -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
 		<defName>OG_Eldar_Outcast_Pathfinder</defName>
 		<title>Pathfinder</title>
 		<titleShort>Pathfinder</titleShort>
-		<linkedBackstory>Eldar_Outcast_Child</linkedBackstory>
+		<!--linkedBackstory>Eldar_Outcast_Child</linkedBackstory-->
 		<baseDesc>[PAWN_nameDef] has become lost upon the Path of the Outcast, The Path of the Outcast is the Path, paradoxically, of those Eldar who abandon the disciplined life of the Eldar Paths. Those who desert the Eldar Paths are known as Outcasts on the Craftworlds. The intensely potent and volatile Eldar mind sometimes rebels against the highly structured delineation of achievement which the Eldar Paths offer. Without the protection of the Eldar Paths an individual is likely to eventually succumb to self-destructive urges. The worst fate of all for an Outcast is to fall to the Path of Damnation, but no Eldar will speak of this aberration and so almost nothing is known about it save that they believe it is the Path walked, unknowingly or not, by their Dark Eldar kin. Sometimes young, inexperienced or disgraced Eldar leave their Craftworlds to wander among the stars. Most of the time such Outcasts become Rangers. Some eventually return to their Craftworlds and to the safety of the Paths. Those who are unable to return, for one reason or another, perhaps because they become lost upon the Path of the Outcast, eventually become the Rangers known as Pathfinders. Other Outcasts become pirates, raiders, and Eldar Corsairs.</baseDesc>
 		<workDisables>
 		
@@ -321,10 +317,10 @@
 		<spawnCategories>
 			<li>Eldar_Craftworld_Pathfinder</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 	  
 	<!-- Eldar Pirate -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
 		<defName>OG_Eldar_Outcast_Pirate</defName>
 		<title>aeldari pirate</title>
 		<titleShort>pirate</titleShort>
@@ -342,9 +338,9 @@
 		<spawnCategories>
 			<li>Eldar_Outcast_Pirate</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
 		<defName>OG_Eldar_Outcast_Corsair_A</defName>
 		<title>aeldari corsair</title>
 		<titleShort>corsair</titleShort>
@@ -362,9 +358,9 @@
 		<spawnCategories>
 			<li>Eldar_Outcast_Pirate</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
 		<defName>OG_Eldar_Outcast_Corsair_B</defName>
 		<title>defector</title>
 		<titleShort>defector</titleShort>
@@ -396,9 +392,9 @@
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
 		<defName>OG_Eldar_Outcast_Raider_A</defName>
 		<title>outcast raider</title>
 		<titleShort>raider</titleShort>
@@ -424,9 +420,9 @@
 				<defName>Brawler</defName>
 			</li>
 		</forcedTraitsChance>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
 		<defName>OG_Eldar_Outcast_Raider_B</defName>
 		<title>torturer</title>
 		<titleShort>torturer</titleShort>
@@ -455,7 +451,7 @@
 					<defName>Psychopath</defName>
 				</li>
 		</forcedTraitsChance>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
 	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Backstory">
 		<defName>OG_Eldar_Outcast_Assassin</defName>
@@ -480,12 +476,6 @@
 		<spawnCategories>
 			<li>Eldar</li>
 			<li>Eldar_Outcast</li>
-			<li>Eldar_Outcast_Warrior</li>
-			<li>Eldar_Outcast_Warrior_Guardian</li>
-			<li>Eldar_Outcast_Warrior_GuardianDefender</li>
-			<li>Eldar_Outcast_Warrior_GuardianStorm</li>
-			<li>Offworld</li>
-			<li>Pirate</li>
 		</spawnCategories>
 		<workDisables>
 			<li>Intellectual</li>
@@ -507,7 +497,7 @@
 	</AdeptusMechanicus.BackstoryDef>
 
 	<!-- Baseline Psyker -->
-	<AlienRace.BackstoryDef Name="OG_Eldar_Outcast_Psyker" ParentName="OG_Eldar_Psyker_Backstory" Abstract="true">
+	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Outcast_Psyker" ParentName="OG_Eldar_Psyker_Backstory" Abstract="true">
 		<defName>OG_Eldar_Outcast_Psyker</defName>
 		<title>outcast Seer</title>
 		<titleShort>Seer</titleShort>
@@ -529,11 +519,11 @@
 		<spawnCategories>
 			<li>Eldar_Craftworld_Psyker</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 	   
 	<!-- Psykers -->
 	
-  <!--AlienRace.BackstoryDef>
+  <!--AdeptusMechanicus.BackstoryDef>
     <title>actor</title>
     <titleShort>actor</titleShort>
     <baseDesc>[PAWN_nameDef] travelled with a company of actors, playing to packed theatres and loving audiences everywhere. [PAWN_pronoun] was a perfectionist, and made [PAWN_possessive] own props and costumes rather than use the ones [PAWN_pronoun] was given.</baseDesc>
@@ -555,9 +545,9 @@
     </spawnCategories>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
-  </AlienRace.BackstoryDef>
+  </AdeptusMechanicus.BackstoryDef>
 
-  <AlienRace.BackstoryDef>
+  <AdeptusMechanicus.BackstoryDef>
     <title>drifter</title>
     <titleShort>drifter</titleShort>
     <baseDesc>[PAWN_nameDef] never figured out what to do with [PAWN_possessive] life. [PAWN_pronoun] travelled often, taking up casual work wherever [PAWN_pronoun] found it.\n\n[PAWN_pronoun] also occasionally worked on a novel that [PAWN_pronoun] knew would be a bestseller - just as soon as [PAWN_pronoun] could find a publisher who was interested.</baseDesc>
@@ -574,6 +564,6 @@
     </spawnCategories>
     <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
-  </AlienRace.BackstoryDef-->
+  </AdeptusMechanicus.BackstoryDef-->
 
 </Defs>

@@ -3,9 +3,10 @@
 	<!-- Craftworld Eldar -->		
 	<!-- Craftworld Childhoods -->
 	<!-- Eldar_Craftworld_Child -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Child">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Child">
 		<defName>OG_Eldar_Craftworld_Child</defName>
 		<title>Craftworlder</title>
+		<titleShort>Craftworlder</titleShort>
 		<baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life.</baseDesc>
 		<skillGains>
 			<li>
@@ -24,8 +25,9 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
 			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Child</li>
 			<li>Eldar_Craftworld_Command</li>
 			<li>Eldar_Craftworld_Civilian</li>
 			<li>Eldar_Craftworld_Warrior</li>
@@ -52,12 +54,13 @@
 			<li>Eldar_Craftworld_Warrior_WarpSpider</li>
 			<li>Eldar_Craftworld_Exarch_WarpSpider</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Child -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Child">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Child">
 		<defName>OG_Eldar_Craftworld_Child_A</defName>
 		<title>Craftworlder</title>
+		<titleShort>Craftworlder</titleShort>
 		<baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life. [PAWN_pronoun] showed signifcant interst and skill at creating all manner of devices, even for one of the [PAWN_alienRace].</baseDesc>
 		<maleCommonality>0.5</maleCommonality>
 		<femaleCommonality>0.5</femaleCommonality>
@@ -78,8 +81,9 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
 			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Child</li>
 			<li>Eldar_Craftworld_Command</li>
 			<li>Eldar_Craftworld_Civilian</li>
 			<li>Eldar_Craftworld_Civilian_Crafter</li>
@@ -106,12 +110,13 @@
 			<li>Eldar_Craftworld_Warrior_WarpSpider</li>
 			<li>Eldar_Craftworld_Exarch_WarpSpider</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Child -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Child">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Child">
 		<defName>OG_Eldar_Craftworld_Child_B</defName>
 		<title>Craftworlder</title>
+		<titleShort>Craftworlder</titleShort>
 		<baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life. [PAWN_pronoun] spent a large portion of [PAWN_possessive] early years following the Path of Service.</baseDesc>
 		<maleCommonality>0.5</maleCommonality>
 		<femaleCommonality>0.5</femaleCommonality>
@@ -132,8 +137,9 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
 			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Child</li>
 			<li>Eldar_Craftworld_Command</li>
 			<li>Eldar_Craftworld_Civilian</li>
 			<li>Eldar_Craftworld_Civilian_Cook</li>
@@ -160,12 +166,13 @@
 			<li>Eldar_Craftworld_Warrior_WarpSpider</li>
 			<li>Eldar_Craftworld_Exarch_WarpSpider</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Child -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Child">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Child">
 		<defName>OG_Eldar_Craftworld_Child_C</defName>
 		<title>Craftworlder</title>
+		<titleShort>Craftworlder</titleShort>
 		<baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life. the Path of the Healer called to [PAWN_pronoun] during [PAWN_possessive] youth.</baseDesc>
 		<maleCommonality>0.5</maleCommonality>
 		<femaleCommonality>0.5</femaleCommonality>
@@ -186,8 +193,9 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
 			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Child</li>
 			<li>Eldar_Craftworld_Command</li>
 			<li>Eldar_Craftworld_Civilian</li>
 			<li>Eldar_Craftworld_Civilian_Healer</li>
@@ -214,12 +222,13 @@
 			<li>Eldar_Craftworld_Warrior_WarpSpider</li>
 			<li>Eldar_Craftworld_Exarch_WarpSpider</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Child_Psyker -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Child_Psyker">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Child_Psyker">
 		<defName>OG_Eldar_Craftworld_Child_Psyker</defName>
 		<title>Craftworlder</title>
+		<titleShort>Craftworlder</titleShort>
 		<baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life. </baseDesc>
 		<maleCommonality>0.15</maleCommonality>
 		<femaleCommonality>0.15</femaleCommonality>
@@ -244,19 +253,20 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
 			<li>Eldar_Craftworld_Psyker</li>
+			<li>Eldar_Craftworld_Psyker_Child</li>
 			<li>Eldar_Craftworld_Psyker_Farseer</li>
 			<li>Eldar_Craftworld_Psyker_Warlock</li>
 			<li>Eldar_Craftworld_Psyker_Spiritseer</li>
 			<li>Eldar_Craftworld_Psyker_Bonesinger</li>
 			<li>Eldar_Craftworld_Psyker_Healer</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		 
 	<!-- Craftworld Adulthoods -->
 	<!-- Path of Service -->
-	<AlienRace.BackstoryDef Name="OG_Eldar_Base_Civilian" ParentName="OG_Eldar_Standard_Backstory" Abstract="true">
+	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Base_Civilian" ParentName="OG_Eldar_Standard_Backstory" Abstract="true">
 		<defName>OG_Eldar_Base_Civilian</defName>
 		<title>Path of Service</title>
 		<titleShort>Service</titleShort>
@@ -288,11 +298,11 @@
 			<li>Eldar_Craftworld_Warrior_GuardianDefender</li>
 			<li>Eldar_Craftworld_Warrior_GuardianStorm</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
 	<!-- Civilians -->
 	<!-- Botanist --> 
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Civilian">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Civilian">
 		<defName>OG_Eldar_Base_Farmer</defName>
 		<title>Path of the Botanist</title>
 		<titleShort>Botanist</titleShort>
@@ -311,12 +321,15 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
-		
+			<li>Eldar_Base_Farmer</li>
+			<li>Eldar_Craftworld_Civilian</li>
+			<li>Eldar_Craftworld_Warrior_GuardianDefender</li>
+			<li>Eldar_Craftworld_Warrior_GuardianStorm</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Zoologist --> 
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Civilian">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Civilian">
 		<defName>OG_Eldar_Base_Zoologist</defName>
 		<title>Path of the Zoologist</title>
 		<titleShort>Zoologist</titleShort>
@@ -335,12 +348,15 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
-			<li>Eldar_Base_Farmer</li>
+			<li>Eldar_Base_AnimalMinder</li>
+			<li>Eldar_Craftworld_Civilian</li>
+			<li>Eldar_Craftworld_Warrior_GuardianDefender</li>
+			<li>Eldar_Craftworld_Warrior_GuardianStorm</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Cook --> 
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Civilian">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Civilian">
 		<defName>OG_Eldar_Base_Cook</defName>
 		<title>Path of the Cuisinier</title>
 		<titleShort>Cuisinier</titleShort>
@@ -350,21 +366,28 @@
 		<skillGains>
 			<li>
 				<key>Plants</key>
-				<value>-6</value>
+				<value>-3</value>
 			</li>
 			<li>
 				<key>Cooking</key>
 				<value>6</value>
 			</li>
+			<li>
+				<key>Animals</key>
+				<value>-3</value>
+			</li>
 		</skillGains>
 		<spawnCategories>
-			<li>Eldar_Base_Farmer</li>
+			<li>Eldar_Base_Cook</li>
+			<li>Eldar_Craftworld_Civilian</li>
+			<li>Eldar_Craftworld_Warrior_GuardianDefender</li>
+			<li>Eldar_Craftworld_Warrior_GuardianStorm</li>
 		</spawnCategories>
-		</AlienRace.BackstoryDef>
+		</AdeptusMechanicus.BackstoryDef>
 
 	<!-- Path of Awakening -->
 	<!-- Awakening Civilian -->
-	<AlienRace.BackstoryDef Name="OG_Eldar_Base_Awakening" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
+	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Base_Awakening" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
 		<defName>OG_Eldar_Base_Awakening</defName>
 		<title>Path of Awakening</title>
 		<titleShort>Awakening</titleShort>
@@ -394,10 +417,10 @@
 			<li>Eldar_Craftworld_Warrior_GuardianDefender</li>
 			<li>Eldar_Craftworld_Warrior_GuardianStorm</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		 
 	<!-- Artisan --> 
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Civilian">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Civilian">
 		<defName>OG_Eldar_Base_Artisan</defName>
 		<title>Path of the Artisan</title>
 		<titleShort>Artisan</titleShort>
@@ -420,11 +443,14 @@
 		</skillGains>
 		<spawnCategories>
 			<li>Eldar_Base_Farmer</li>
+			<li>Eldar_Craftworld_Civilian</li>
+			<li>Eldar_Craftworld_Warrior_GuardianDefender</li>
+			<li>Eldar_Craftworld_Warrior_GuardianStorm</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		 
 	<!-- Builder -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Awakening">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Awakening">
 		<defName>OG_Eldar_Base_Builder</defName>
 		<title>Path of the Shaper</title>
 		<titleShort>Bonesinger</titleShort>
@@ -442,10 +468,10 @@
 			<li>Eldar_Craftworld_Psyker</li>
 			<li>Eldar_Craftworld_Psyker_Bonesinger</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
 	<!-- Craftsman -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Awakening">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Awakening">
 		<defName>OG_Eldar_Base_Craftsman</defName>
 		<title>Path of the Artisan</title>
 		<titleShort>Artisan</titleShort>
@@ -463,11 +489,11 @@
 		<spawnCategories>
 			<li>Eldar_Standard</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 	 
 	<!-- Path of Warrior -->
 	<!-- Baseline Warrior -->
-	<AlienRace.BackstoryDef Name="OG_Eldar_Craftworld_Base_Warrior" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
+	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Craftworld_Base_Warrior" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
 		<defName>OG_Eldar_Craftworld_Base_Warrior</defName>
 		<title>Path of the Warrior</title>
 		<titleShort>Eldar Warrior</titleShort>
@@ -495,10 +521,10 @@
 			<li>Eldar_Craftworld</li>
 			<li>Eldar_Craftworld_Warrior</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Autarch -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Craftworld_Base_Warrior">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Craftworld_Base_Warrior">
 		<defName>OG_Eldar_Craftworld_Autarch</defName>
 		<title>Eldar Autarch</title>
 		<titleShort>Autarch</titleShort>
@@ -545,43 +571,49 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Warrior</li>
 			<li>Eldar_Craftworld_Command</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		 
 	<!-- Eldar_Craftworld_Aspect_Warrior -->
-	<AlienRace.BackstoryDef Name="OG_Eldar_Craftworld_Aspect_Warrior" ParentName="OG_Eldar_Craftworld_Base_Warrior" Abstract="true">
+	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Craftworld_Aspect_Warrior" ParentName="OG_Eldar_Craftworld_Base_Warrior" Abstract="true">
 		<defName>OG_Eldar_Craftworld_Aspect_Warrior</defName>
 		<maleCommonality>0.1</maleCommonality>
 		<femaleCommonality>0.1</femaleCommonality>
 		<skillGains>
 			<li>
-			<key>Construction</key>
-			<value>-2</value>
+				<key>Construction</key>
+				<value>-2</value>
 			</li>
 			<li>
-			<key>Cooking</key>
-			<value>-1</value>
+				<key>Cooking</key>
+				<value>-1</value>
 			</li>
 			<li>
-			<key>Plants</key>
-			<value>-2</value>
+				<key>Plants</key>
+				<value>-2</value>
 			</li>
 			<li>
-			<key>Artistic</key>
-			<value>-2</value>
+				<key>Artistic</key>
+				<value>-2</value>
 			</li>
 		</skillGains>
 		<forcedHediffs>
 			<!-- <li>HyperactiveNymuneOrgan</li> -->
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Warrior</li>
 			<li>Eldar_Craftworld_Warrior_Aspect</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Warrior_DireAvenger -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior">
 		<defName>OG_Eldar_Craftworld_Warrior_DireAvenger</defName>
 		<title>Dire Avenger</title>
 		<titleShort>Avenger</titleShort>
@@ -601,13 +633,16 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Warrior</li>
 			<li>Eldar_Craftworld_Warrior_DireAvenger</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Warrior_HowlingBanshee -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior">
 		<defName>OG_Eldar_Craftworld_Warrior_HowlingBanshee</defName>
 		<title>Howling Banshee</title>
 		<titleShort>Banshee</titleShort>
@@ -625,13 +660,16 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Warrior</li>
 			<li>Eldar_Craftworld_Warrior_HowlingBanshee</li>
 		</spawnCategories>
-		</AlienRace.BackstoryDef>
+		</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Warrior_FireDragon -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior">
 		<defName>OG_Eldar_Craftworld_Warrior_FireDragon</defName>
 		<title>Fire Dragon</title>
 		<titleShort>Dragon</titleShort>
@@ -649,13 +687,16 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Warrior</li>
 			<li>Eldar_Craftworld_Warrior_FireDragon</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Warrior_SwoopingHawk -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior">
 		<defName>OG_Eldar_Craftworld_Warrior_SwoopingHawk</defName>
 		<title>Swooping Hawk</title>
 		<titleShort>Hawk</titleShort>
@@ -673,13 +714,16 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Warrior</li>
 			<li>Eldar_Craftworld_Warrior_SwoopingHawk</li>
 	</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Warrior_DarkReaper -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior">
 		<defName>OG_Eldar_Craftworld_Warrior_DarkReaper</defName>
 		<title>Dark Reaper</title>
 		<titleShort>Reaper</titleShort>
@@ -697,13 +741,16 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Warrior</li>
 			<li>Eldar_Craftworld_Warrior_DarkReaper</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Warrior_StrikingScorpion -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior">
 		<defName>OG_Eldar_Craftworld_Warrior_StrikingScorpion</defName>
 		<title>Striking Scorpion</title>
 		<titleShort>Scorpion</titleShort>
@@ -721,13 +768,16 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Warrior</li>
 			<li>Eldar_Craftworld_Warrior_StrikingScorpion</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Warrior_ShadowSpectre -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior">
 		<defName>OG_Eldar_Craftworld_Warrior_ShadowSpectre</defName>
 		<title>Shadow Spectre</title>
 		<titleShort>Spectre</titleShort>
@@ -745,13 +795,16 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Warrior</li>
 			<li>Eldar_Craftworld_Warrior_ShadowSpectre</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Warrior_WarpSpider -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior">
 		<defName>OG_Eldar_Craftworld_Warrior_WarpSpider</defName>
 		<title>Warp Spider</title>
 		<titleShort>Spider</titleShort>
@@ -769,13 +822,16 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Warrior</li>
 			<li>Eldar_Craftworld_Warrior_WarpSpider</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Warrior_AspectExarch -->
-	<AlienRace.BackstoryDef Name="OG_Eldar_Craftworld_Aspect_Warrior_Exarch" ParentName="OG_Eldar_Craftworld_Base_Warrior" Abstract="true">
+	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Craftworld_Aspect_Warrior_Exarch" ParentName="OG_Eldar_Craftworld_Base_Warrior" Abstract="true">
 		<defName>OG_Eldar_Craftworld_Aspect_Warrior_Exarch</defName>
 		<maleCommonality>0.05</maleCommonality>
 		<femaleCommonality>0.05</femaleCommonality>
@@ -785,13 +841,15 @@
 		<forcedHediffs>
 			<!-- <li>HyperactiveNymuneOrgan</li> -->
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
 			<li>Eldar_Craftworld_Aspect_Warrior_Exarch</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
 	<!-- Eldar_Craftworld_Exarch_DireAvenger -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior_Exarch">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior_Exarch">
 		<defName>OG_Eldar_Craftworld_Exarch_DireAvenger</defName>
 		<title>Dire Avenger</title>
 		<titleShort>Avenger</titleShort>
@@ -809,13 +867,16 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Aspect_Warrior_Exarch</li>
 			<li>Eldar_Craftworld_Exarch_DireAvenger</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Exarch_HowlingBanshee -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior_Exarch">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior_Exarch">
 		<defName>OG_Eldar_Craftworld_Exarch_HowlingBanshee</defName>
 		<title>Howling Banshee</title>
 		<titleShort>Banshee</titleShort>
@@ -833,13 +894,16 @@
 		<forcedHediffs>
 
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Aspect_Warrior_Exarch</li>
 			<li>Eldar_Craftworld_Exarch_HowlingBanshee</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Exarch_FireDragon -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior_Exarch">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior_Exarch">
 		<defName>OG_Eldar_Craftworld_Exarch_FireDragon</defName>
 		<title>Fire Dragon</title>
 		<titleShort>Dragon</titleShort>
@@ -857,13 +921,16 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Aspect_Warrior_Exarch</li>
 			<li>Eldar_Craftworld_Exarch_FireDragon</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Exarch_SwoopingHawk -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior_Exarch">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior_Exarch">
 		<defName>OG_Eldar_Craftworld_Exarch_SwoopingHawk</defName>
 		<title>Swooping Hawk</title>
 		<titleShort>Hawk</titleShort>
@@ -881,13 +948,16 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Aspect_Warrior_Exarch</li>
 			<li>Eldar_Craftworld_Exarch_SwoopingHawk</li>
 		</spawnCategories>
-		</AlienRace.BackstoryDef>
+		</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Exarch_DarkReaper -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior_Exarch">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior_Exarch">
 		<defName>OG_Eldar_Craftworld_Exarch_DarkReaper</defName>
 		<title>Dark Reaper</title>
 		<titleShort>Reaper</titleShort>
@@ -905,13 +975,16 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Aspect_Warrior_Exarch</li>
 			<li>Eldar_Craftworld_Exarch_DarkReaper</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Exarch_StrikingScorpion -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior_Exarch">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior_Exarch">
 		<defName>OG_Eldar_Craftworld_Exarch_StrikingScorpion</defName>
 		<title>Striking Scorpion</title>
 		<titleShort>Scorpion</titleShort>
@@ -929,13 +1002,16 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Aspect_Warrior_Exarch</li>
 			<li>Eldar_Craftworld_Exarch_StrikingScorpion</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Exarch_ShadowSpectre -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior_Exarch">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior_Exarch">
 		<defName>OG_Eldar_Craftworld_Exarch_ShadowSpectre</defName>
 		<title>Shadow Spectre</title>
 		<titleShort>Spectre</titleShort>
@@ -953,13 +1029,16 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Aspect_Warrior_Exarch</li>
 			<li>Eldar_Craftworld_Exarch_ShadowSpectre</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Eldar_Craftworld_Exarch_WarpSpider -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior_Exarch">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Craftworld_Aspect_Warrior_Exarch">
 		<defName>OG_Eldar_Craftworld_Exarch_WarpSpider</defName>
 		<title>Warp Spider</title>
 		<titleShort>Spider</titleShort>
@@ -977,14 +1056,17 @@
 		<forcedHediffs>
 		
 		</forcedHediffs>
-		<spawnCategories Inherit="true">
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Craftworld</li>
+			<li>Eldar_Craftworld_Aspect_Warrior_Exarch</li>
 			<li>Eldar_Craftworld_Exarch_WarpSpider</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Path of Seer -->
 	<!-- Baseline Psyker -->
-	<AlienRace.BackstoryDef Name="OG_Eldar_Base_Seer" ParentName="OG_Eldar_Psyker_Backstory" Abstract="true">
+	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Base_Seer" ParentName="OG_Eldar_Psyker_Backstory" Abstract="true">
 		<defName>OG_Eldar_Base_Seer</defName>
 		<title>Path of the Seer</title>
 		<titleShort>Eldar Seer</titleShort>
@@ -1006,10 +1088,10 @@
 		<spawnCategories>
 			<li>Eldar_Craftworld_Psyker</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		 
 	<!-- Eldar_Base_Healer --> 
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Seer">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Seer">
 		<defName>OG_Eldar_Base_Healer</defName>
 		<title>Path of the Healer</title>
 		<titleShort>Healer</titleShort>
@@ -1043,13 +1125,14 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
+			<li>Eldar_Craftworld_Psyker</li>
 			<li>Eldar_Craftworld_Psyker_Healer</li>
 			<li>Eldar_Standard</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
 	<!-- Warlock -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Seer">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Seer">
 		<defName>OG_Eldar_Psyker_Warlock</defName>
 		<title>Eldar Warlock</title>
 		<titleShort>Warlock</titleShort>
@@ -1119,12 +1202,13 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
+			<li>Eldar_Craftworld_Psyker</li>
 			<li>Eldar_Craftworld_Psyker_Warlock</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		 
 	<!-- Spiritseer -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Seer">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Seer">
 		<defName>OG_Eldar_Psyker_Spiritseer</defName>
 		<title>Eldar Spiritseer</title>
 		<titleShort>Spiritseer</titleShort>
@@ -1194,12 +1278,13 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
+			<li>Eldar_Craftworld_Psyker</li>
 			<li>Eldar_Craftworld_Psyker_Spiritseer</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		 
 	<!-- Farseer -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Seer">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Seer">
 		<defName>OG_Eldar_Psyker_Farseer</defName>
 		<title>Eldar Farseer</title>
 		<titleShort>Farseer</titleShort>
@@ -1269,12 +1354,13 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
+			<li>Eldar_Craftworld_Psyker</li>
 			<li>Eldar_Craftworld_Psyker_Farseer</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 	<!-- Farseer -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Seer">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Seer">
 		<defName>OG_Eldar_Psyker_Farseer_Ancient</defName>
 		<title>Ancient Farseer</title>
 		<titleShort>Farseer</titleShort>
@@ -1344,8 +1430,9 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
+			<li>Eldar_Craftworld_Psyker</li>
 			<li>Eldar_Craftworld_Psyker_Farseer</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 		
 </Defs>

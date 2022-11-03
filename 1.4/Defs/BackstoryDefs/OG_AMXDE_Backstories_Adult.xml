@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_Chosen_of_Lhilitu</defName>
 		<title>Chosen of Lhilitu</title>
+		<titleShort>Lhilitu's Chosen</titleShort>
 		<baseDesc>The Consort of the Void's worshippers comprise a mysterious sisterhood who are desired by powerful Archons to serve as courtesans in their courts. These Lhamaeans are renowned in Commorragh for being both imaginative lovers and exceptional poisoners. They descend from the Cult of Llamaea, whose courtesan elite also worshipped Lhilitu, and gained their knowledge of poisons from Shaimesh.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -43,11 +44,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ScionofVileth</defName>
 		<title>Scion of Vileth</title>
+		<titleShort>Scion of Vileth</titleShort>
 		<baseDesc>Vileth is a being synonymous with the immense arrogance so often displayed by the Drukhari, and is particularly popular as an ideal to which many Drukhari Archons aspire. The "Scions of Vileth" are also known as the best aerial hunters of the Drukhari, piloting aircraft such as Razorwing jetfighters and Voidraven bombers. These Drukhari pilots will sometimes form mercenary aerial squadrons that will work for Kabals, Wych Cults, and the Haemonculi of the Dark City.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -79,11 +81,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Kabal_Archon</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ChosenofQaleh</defName>
 		<title>Chosen of Qa'leh</title>
+		<titleShort>Qa'leh's Chosen</titleShort>
 		<baseDesc>Traditionalist Wych Cults also often seek the ritual favour of the Mistress of Blades with a sacrifice for good fortune before combat.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -115,11 +118,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Cult_Wych</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_HaemonculisRetainer</defName>
 		<title>Haemonculi's Retainer</title>
+		<titleShort>Retainer</titleShort>
 		<baseDesc>One Haemonculus might only dine upon the left hands of his victims, while another may only drink from a fluted glass filled with the tears of children. Suffice to say [PAWN_nameDef] has seen the twisted innerworkings of the mind of their Haemonculus master. This has left them with both boons of knowledge and technological skill as a result with at times the scars to prove it.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -164,11 +168,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_WychBloodbride</defName>
 		<title>Wych Bloodbride</title>
+		<titleShort>Bloodbride</titleShort>
 		<baseDesc>It is common for a Succubus to gather the most talented and skilled of her Hekatrix handmaidens into a clique of elite murdereresses, led by the most skilled Hekatrix in the cult, who holds the position of Syren. These cliques, whose members are known as Hekatrix Bloodbrides.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -210,11 +215,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Cult_Wych</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_KabaliteWarrior</defName>
 		<title>Kabalite Warrior</title>
+		<titleShort>Kabalite</titleShort>
 		<baseDesc>The Warriors of the Dark Eldar Kabals lie at the heart of every Dark Eldar strike force, pirate fleet and slave raider assault. They are the cruelest members of their caste, hungry for power over their fellows and thirsty to taste the suffering of others. [PAWN_nameDef] has tasted the glory often granted to those who partake in the sinister raids inflicted by their Kabal.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -251,11 +257,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Kabal_Warrior</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ReaverRider</defName>
 		<title>Reaver Rider</title>
+		<titleShort>Reaver</titleShort>
 		<baseDesc>The Reavers of Commorragh are those Drukhari fascinated by bringing death to others at high speeds. They ride to war upon the most streamlined and pared-down of all Aeldari skycraft -- the Aeldari Jetbike, the perfect fusion of motion and lethal power.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -297,11 +304,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Kabal_Warrior</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_VeteranSybarite</defName>
 		<title>Veteran Sybarite</title>
+		<titleShort>Sybarite</titleShort>
 		<baseDesc>Sybarites are not only veteran raiders of realspace, but also the Kabalites who have the honour and duty of initiating each new warrior into the always-brutal mysteries of their Kabal.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -339,11 +347,12 @@
 			<li>DarkEldar_Kabal_Warrior_Elite</li>
 			<li>DarkEldar_Kabal_Sybarite_Elite</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_HellionRider</defName>
 		<title>Hellion Rider</title>
+		<titleShort>Hellion</titleShort>
 		<baseDesc>The tortured skies of Commorragh are warzones as perilous as its xenos-riddled ghettos and its noble-ruled spires. Through the mists soar arrogant lords and winged hunters seeking the next kill. The most savage of these airborne horrors are the Hellions, gangs of feral Dark Eldar who descend upon their prey in a flurry of blades before soaring away, safely out of reach.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -376,11 +385,12 @@
 			<li>DarkEldar_Kabal_Warrior</li>
 			<li>DarkEldar_Kabal_Warrior_Elite</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_WychBeastmaster</defName>
 		<title>Wych Beastmaster</title>
+		<titleShort>Beastmaster</titleShort>
 		<baseDesc>Over the millennia since Commorragh's founding, its sand-filled arenas have drunk the blood of millions. Each arena has witnessed countless spectacles of perversity and death, but there is one gladiatorial favourite that never fades in popularity: the wild hunts of the Beastmasters.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables />
@@ -419,11 +429,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Cult_Wych</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_FleshObsessed</defName>
 		<title>Flesh Obsessed</title>
+		<titleShort>Flesh Obsessed</titleShort>
 		<baseDesc>[PAWN_nameDef] takes great pleasure in the collection, display, and consumption of the flesh of the enemies they have defeated in their numerous raids into realspace. Centuries of practice have allowed [PAWN_nameDef] to accumulate knowledge on the myriad ways to "prepare" flesh in creative ways.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -467,11 +478,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_KeeperoftheLash</defName>
 		<title>Keeper of the Lash</title>
+		<titleShort>Lash Keeper</titleShort>
 		<baseDesc>Overwhelmingly the denizens of Commorragh take pleasure in the oppression of creatures and slaves deemed inferior to the Drukhari.[PAWN_nameDef] is no exception.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -503,11 +515,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ArchitectofFear</defName>
 		<title>Architect of Fear</title>
+		<titleShort>Architect of Fear</titleShort>
 		<baseDesc>The painfully beautiful contraptions and structures of the Drukhari are truly something to behold within the depths of Commorragh. [PAWN_nameDef] has studied the bloody ways of their manufacture.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -539,11 +552,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_KabalPoisonKeeper</defName>
 		<title>Kabal Poison Keeper</title>
+		<titleShort>Poison Keeper</titleShort>
 		<baseDesc>[PAWN_nameDef] understands that the cranial fluid of slaves who have been poisoned with a combination of other drugs and toxins including Corpse Obmulen and Liquid Agony, will result in a potent Murder's Boon. As such, [PAWN_nameDef] has been honored with the position of Poison Keeper within the Kabal. A powerful but an undertandably mistrusted position.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -579,11 +593,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 	 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_RavagerRider</defName>
 		<title>Ravager Rider</title>
+		<titleShort>Ravager</titleShort>
 		<baseDesc>It is perhaps indicative of the wider mindset of the Drukkhari that the Ravager, the most ubiquitous of their gunship designs, exhibits that speed is prized above all. [PAWN_nameDef] has ridden on the Ravagers of their Kabal excelling at picking off unfortunate targets from afar before escaping rapidly.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -621,11 +636,12 @@
 			<li>DarkEldar_Kabal_Warrior</li>
 			<li>DarkEldar_Kabal_Warrior_Elite</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 	 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_GluttonofBlood</defName>
 		<title>Glutton of Blood</title>
+		<titleShort>Glutton</titleShort>
 		<baseDesc>[PAWN_nameDef] takes exceptional pleasure in drawing out the lifeblood of their enemies and slaves. Blood has so many uses and... tastes.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -666,11 +682,12 @@
 			<li>DarkEldar_Civilian</li>
 			<li>DarkEldar_Kabal_Warrior_Melee</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 	 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_BloodyBladeHedonist</defName>
 		<title>Bloody Blade Hedonist</title>
+		<titleShort>Hedonist</titleShort>
 		<baseDesc>The Drukhari understand that there is no simpler but greater ecstasy experienced than when seeing the blood of a powerful foe or inferior being on their blade. [PAWN_nameDef] want to maximize the gore upon their chosen tool of close combat. Those who deny them this wish best keep clear...</baseDesc>
 		<slot>Adulthood</slot>
 		<!--workDisables>
@@ -706,11 +723,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Kabal_Warrior_Melee</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 	 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_BloodsportGladiator</defName>
 		<title>Bloodsport Gladiator</title>
+		<titleShort>Gladiator</titleShort>
 		<baseDesc>The nightly battles between the gladiatrixes of the Wych Cults draw baying crowds to every Commorrite arena. Wyches wield a variety of outlandish weapons that can whip out, extend, enmesh, retract, split in two, or snap an opponent's blade with the twist of a supple wrist.</baseDesc>
 		<slot>Adulthood</slot>
 		<!--workDisables>
@@ -746,11 +764,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Cult_Wych</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 	 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_BloodsportChampion</defName>
 		<title>Bloodsport Champion</title>
+		<titleShort>Champion</titleShort>
 		<baseDesc>The nightly battles between the gladiatrixes of the Wych Cults draw baying crowds to every Commorrite arena. Wyches wield a variety of outlandish weapons that can whip out, extend, enmesh, retract, split in two, or snap an opponent's blade with the twist of a supple wrist.</baseDesc>
 		<slot>Adulthood</slot>
 		<!--workDisables>
@@ -786,11 +805,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Cult_Wych</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 	 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_RealspaceRaidProcurer</defName>
 		<title>Realspace Raid Procurer</title>
+		<titleShort>Procurer</titleShort>
 		<baseDesc>Raids into realspace require tense and often violent negotiations with the various individuals to be involved in the planned incursion. Additionally, procurers are often resourceful in their acquisition of the logistics necessary to properly supply the raid.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -822,11 +842,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 	 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_RealspaceRaidSchemer</defName>
 		<title>Realspace Raid Schemer</title>
+		<titleShort>Schemer</titleShort>
 		<baseDesc>Raids into realspace require a cunning mind for its leader to concoct a sadistic plan. Additionally, schemers are often brillant in their ability to procure poisons and utilize them to soften the resistance of the targeted planet's defenders.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -858,11 +879,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 	 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_Incubus</defName>
 		<title>Incubus</title>
+		<titleShort>Incubus</titleShort>
 		<baseDesc>The act of becoming an Incubus is dangerous in the extreme; through long and gruelling practice, the strong prosper, while the weak are cut down and their bodies burnt as an offering to the statue of Khaine, the Aeldari god of war, at the heart of each Incubus shrine.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -904,11 +926,12 @@
 			<li>DarkEldar_Klave_Incubi</li>
 			<li>DarkEldar_Klave_Incubi_Lord</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ProphetofFlesh</defName>
 		<title>Prophet of Flesh</title>
+		<titleShort>Flesh Prophet</titleShort>
 		<baseDesc>The Prophets of Flesh are the Coven of Urien Rakarth himself. They are considered by many Commorrites to be the apex – or rather the nadir – of the inverted hierarchy of the underspires, and as such they receive more supplicants than any other Coven.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -940,11 +963,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_FeasterofPech</defName>
 		<title>Feaster of Pech</title>
+		<titleShort>Feaster</titleShort>
 		<baseDesc>After capturing not only countless T’au upon Vigos but also the mercenaries with which they bolster their cadres, the Prophets of Flesh discovered that the Kroot are able to adapt and evolve by selectively devouring the dead. The Haemonculi of the Coven immediately began experimenting on the captives in the hopes of appropriating this ability.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -980,11 +1004,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_HarvesterofChogros</defName>
 		<title>Harvester of Chogros</title>
+		<titleShort>Harvester</titleShort>
 		<baseDesc>The Kabal of the Broken Sigil began a series of raids on the planet Chogros, capturing the Ogryn natives for the arenas. When Astra Militarum regiments arrive to intervene, the conflict escalates into a planet-wide engagement. Though they fight hard, the soldiers of the Imperium are eventually defeated. The Crucibael is thronged for many nights to come as the captured Guardsmen are forced to fight the very Ogryns they were sent to save.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -1016,11 +1041,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
  
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_DelivereroftheSerpentA</defName>
 		<title>Deliverer of the Serpent</title>
+		<titleShort>Deliverer</titleShort>
 		<baseDesc>The toxin crafters of the Kabal of the Poisoned Tongue tailor their venoms to the targets of a raid, ensuring they will have the most gruesome effect on the victims’ physiologies.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -1056,11 +1082,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>  
+	</AdeptusMechanicus.BackstoryDef>  
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_DelivereroftheSerpentB</defName>
 		<title>Deliverer of the Serpent</title>
+		<titleShort>Deliverer</titleShort>
 		<baseDesc>The toxin crafters of the Kabal of the Poisoned Tongue tailor their venoms to the targets of a raid, ensuring they will have the most gruesome effect on the victims’ physiologies.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -1096,11 +1123,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>  
+	</AdeptusMechanicus.BackstoryDef>  
  
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_DistillerofFear</defName>
 		<title>Distiller of Fear</title>
+		<titleShort>Distiller</titleShort>
 		<baseDesc>The Prophets of Flesh have modified their own bodies and those of their servants to an extraordinary extent – so much so that few weapons their enemies bring to bear against them can inflict damage greater than that they have already endured.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -1136,11 +1164,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>   
+	</AdeptusMechanicus.BackstoryDef>   
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ConnoisseurofPain</defName>
 		<title>Connoisseur of Pain</title>
+		<titleShort>Connoisseur</titleShort>
 		<baseDesc>The Coven of the Dark Creed has perfected every method of inducing terror, to the extent that their mere presence fills the minds of their enemies with nightmarish dread.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -1172,11 +1201,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
  
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_InflictorofMalediction</defName>
 		<title>Inflictor of Malediction</title>
+		<titleShort>Inflictor</titleShort>
 		<baseDesc>When released, the souls of psykers tortured unto death that are held within a crucible of malediction spew outward, driving insane any nearby whose minds are attuned to the warp. What glorious screams they made...</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -1208,11 +1238,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>  
+	</AdeptusMechanicus.BackstoryDef>  
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_MasterNemesine</defName>
 		<title>Master Nemesine</title>
+		<titleShort>Nemesine</titleShort>
 		<baseDesc>Out of a twisted scientific curiosity, this Warlord knows a variety of ways to kill every realspace species they have ever discovered. There is no weak point unknown to them, and no nerve cluster they cannot excise with their scalpels.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -1249,11 +1280,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Kabal_Archon</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>  
+	</AdeptusMechanicus.BackstoryDef>  
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_TreacherousDeceiver</defName>
 		<title>Treacherous Deceiver</title>
+		<titleShort>Deceiver</titleShort>
 		<baseDesc>The Succubi of the Cult of the Cursed Blade are cunning and treacherous, exploiting any opportunity to wrong- foot and deceive their foes before striking them with concealed weapons.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -1285,11 +1317,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>  
+	</AdeptusMechanicus.BackstoryDef>  
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_DiabolicalSoothsayer</defName>
 		<title>Diabolical Soothsayer</title>
+		<titleShort>Soothsayer</titleShort>
 		<baseDesc>Many Haemonculi of the Prophets of Flesh dabble in soothsaying, despite the prohibition on psychic activity that pervades Commorragh. The insights they gain by doing so give them a great advantage before launching a realspace raid.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -1321,11 +1354,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>  
+	</AdeptusMechanicus.BackstoryDef>  
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ScarletEpicurean</defName>
 		<title>Scarlet Epicurean</title>
+		<titleShort>Epicurean</titleShort>
 		<baseDesc>The Haemonculi of the Coven of Twelve have been slain and resurrected so many times that there are few methods of death they are not intimately familiar with. Unless they wish to experience a new fatality, they are notoriously difficult to kill.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -1362,11 +1396,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Kabal_Archon</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>  
+	</AdeptusMechanicus.BackstoryDef>  
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_DecadentofDeath</defName>
 		<title>Decadent of Death</title>
+		<titleShort>Decadent</titleShort>
 		<baseDesc>The Last Hatred are recognisable for the myriad, still-living bodies that adorn the hulls of their raiding craft in different states of necrosis. The twisted grimaces and agonised screams of these unfortunates not only terrifies the Kabal’s enemies, but also invigorates its warriors as they ride into battle.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -1406,11 +1441,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_BringerofTwilight</defName>
 		<title>Bringer of Twilight</title>
+		<titleShort>Bringer</titleShort>
 		<baseDesc>Proportionally, the Dying Sun are comprised of more Trueborn Drukhari than any other Kabal, and they show open disdain to those lesser born. Even Asdrubael Vect is viewed amongst the Kabal as a usurper who has elevated himself far beyond his birthright.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -1446,11 +1482,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_WrightofWar</defName>
 		<title>Wright of War</title>
+		<titleShort>Wright</titleShort>
 		<baseDesc>The deafening scream of grav-engines heralds the Lords of Iron Thorn as they burst from the webway into realspace. Few other Kabals can boast as great a navy as the rulers of Pandaimon, and none can match their ability to create these machines of war.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -1486,11 +1523,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
  
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_WeaverofFear</defName>
 		<title>Weaver of Fear</title>
+		<titleShort>Weaver</titleShort>
 		<baseDesc>Though uncontrolled fear is a common byproduct of a Drukhari raid, the Broken Sigil ensure that their victims are gripped with terror before a single Kabalite has emerged from the shadows. Perched in the wings of the webway, they wait for the sound of screaming to beckon them to the stage of battle.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -1526,11 +1564,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_GhorvenfalRaider</defName>
 		<title>Ghorvenfal Raider</title>
+		<titleShort>Raider</titleShort>
 		<baseDesc>One of the more infamous joint endeavours between the Kabal of the Black Heart and the Wych Cult of Strife was the raid upon the world of Ghorvenfal. The planet was a stronghold of the Alpha Legion, a Heretic Astartes faction synonymous with the use of stealth and subterfuge. For decades an Alpha Legion warlord by the name of Jaghathra Vrax had operated out of a fortress in Ghorvenfal’s Black Mountains.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -1566,11 +1605,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ThiefofLethidia</defName>
 		<title>Thief of Lethidia</title>
+		<titleShort>Thief</titleShort>
 		<baseDesc>Following their successful experimentations on the Kroot, the Prophets of Flesh turned their attention to the hyper-adaptive capabilities of the Tyranids. Urien Rakarth mustered a number of Covens under his banner, and together they set out for the southern edge of the galaxy.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -1606,11 +1646,12 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
 
-	<AlienRace.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ButcherwithoutEqual</defName>
 		<title>Butcher without Equal</title>
+		<titleShort>Butcher</titleShort>
 		<baseDesc>Masters of close-quarters combat. They must be, for the only way to ascend the ranks of the Coven is for a Wrack to slaughter their master, and each Haemonculus is always on guard against the gruesome scheme that would see their body ravaged beyond repair.</baseDesc>
 		<slot>Adulthood</slot>
 		<workDisables>
@@ -1646,6 +1687,6 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Kabal_Archon</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef> 
+	</AdeptusMechanicus.BackstoryDef> 
  
 </Defs>

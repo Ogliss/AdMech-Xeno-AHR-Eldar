@@ -3,7 +3,7 @@
 	<!-- Harlequin Eldar --> 
 	<!-- Harlequin Childhoods -->
 	<!-- Harlequin Child -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Base_Child">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Child">
 		<defName>OG_Eldar_Harlequinn_Child</defName>
 		<title>Harlequinn</title>
 		<baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] was to shape [PAWN_possessive] life, but when [PAWN_pronoun] was offered a place in a passing group of Harlequinns [PAWN_pronoun] left [PAWN_possessive] Craftworld to wander the Webway.</baseDesc>
@@ -33,10 +33,10 @@
 		<spawnCategories Inherit="true">
 			<li>Eldar_Harlequinn</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 	  
 	<!-- Eldar_Harlequinn_Child_Psyker -->
-	<AlienRace.BackstoryDef ParentName="OG_Eldar_Child_Psyker">
+	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Child_Psyker">
 		<defName>OG_Eldar_Harlequinn_Child_Psyker</defName>
 		<title>Harlequinn</title>
 		<baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. The path of the [PAWN_alienRace] was to shape [PAWN_possessive] life, but when [PAWN_pronoun] was offered a place in a passing group of Harlequinns [PAWN_pronoun] left [PAWN_possessive] Craftworld to wander the Webway.</baseDesc>
@@ -66,11 +66,11 @@
 		<spawnCategories Inherit="true">
 			<li>Eldar_Harlequinn_Psyker</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 	   
 	<!-- Harlequin Adulthoods -->
 	<!-- Baseline Civilian -->
-	<AlienRace.BackstoryDef Name="OG_Eldar_Harlequin_Base_Civilian" ParentName="OG_Eldar_Standard_Backstory" Abstract="true">
+	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Harlequin_Base_Civilian" ParentName="OG_Eldar_Standard_Backstory" Abstract="true">
 		<defName>OG_Eldar_Harlequin_Civilian</defName>
 		<title>Harlequin Clansmen</title>
 		<titleShort>Harlequin</titleShort>
@@ -102,12 +102,12 @@
 			<li>Eldar_Harlequin_Warrior_GuardianDefender</li>
 			<li>Eldar_Harlequin_Warrior_GuardianStorm</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 
 	<!-- Civilians -->
 
 	<!-- Baseline Warrior -->
-	<AlienRace.BackstoryDef Name="OG_Eldar_Harlequin_Base_Warrior" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
+	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Harlequin_Base_Warrior" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
 		<defName>OG_Eldar_Craftworld_Base_Warrior</defName>
 		<title>Harlequin Clansmen Warrior</title>
 		<titleShort>Harlequin Warrior</titleShort>
@@ -138,12 +138,12 @@
 			<li>Eldar_Harlequin_Warrior_GuardianDefender</li>
 			<li>Eldar_Harlequin_Warrior_GuardianStorm</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 	  
 	<!-- Warriors -->
 	
 	<!-- Baseline Psyker -->
-	<AlienRace.BackstoryDef Name="OG_Eldar_Harlequin_Psyker" ParentName="OG_Eldar_Psyker_Backstory" Abstract="true">
+	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Harlequin_Psyker" ParentName="OG_Eldar_Psyker_Backstory" Abstract="true">
 		<defName>OG_Eldar_Base_Seer</defName>
 		<title>Path of the Seer</title>
 		<titleShort>Eldar Seer</titleShort>
@@ -165,7 +165,7 @@
 		<spawnCategories>
 			<li>Eldar_Craftworld_Psyker</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AdeptusMechanicus.BackstoryDef>
 	   
 	<!-- Psykers -->
 	
