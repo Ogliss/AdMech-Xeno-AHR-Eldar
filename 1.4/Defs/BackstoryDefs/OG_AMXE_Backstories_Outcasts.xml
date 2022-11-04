@@ -3,7 +3,7 @@
 	<!-- Outcast Eldar --> 
 	<!-- Outcast Childhoods -->  
 	<!-- Outcast Child -->
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Child">
+	<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
 		<defName>OG_Eldar_Outcast_Child</defName>
 		<title>Outcast</title>
 		<baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. However the strict paths of the [PAWN_alienRace] that shape the lives of Craftworld [PAWN_alienRace] proved too much for [PAWN_pronoun].</baseDesc>
@@ -38,10 +38,10 @@
 			<li>Eldar_Craftworld_Outcast</li>
 			<li>Eldar_Craftworld_Ranger</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 	<!-- Eldar_Outcast_Child_Psyker -->
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Child_Psyker">
+	<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Child_Psyker">
 		<defName>OG_Eldar_Outcast_Child_Psyker</defName>
 		<title>Outcast</title>
 		<baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] craftworld. However the strict paths of the [PAWN_alienRace] that shape the lives of Craftworld [PAWN_alienRace] proved too much for [PAWN_pronoun].</baseDesc>
@@ -79,11 +79,11 @@
 			<li>Eldar_Craftworld_Psyker_Bonesinger</li>
 			<li>Eldar_Craftworld_Outcast_Psyker</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 	<!-- Outcast Adulthoods -->
 	<!-- Baseline Civilian -->
-	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Outcast_Base_Civilian" ParentName="OG_Eldar_Standard_Backstory" Abstract="true">
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Outcast_Base_Civilian" ParentName="OG_Eldar_Standard_Backstory" Abstract="true">
 		<defName>OG_Eldar_Outcast_Civilian</defName>
 		<title>Outcast Clansmen</title>
 		<titleShort>Outcast</titleShort>
@@ -115,11 +115,11 @@
 			<li>Eldar_Outcast_Warrior_GuardianDefender</li>
 			<li>Eldar_Outcast_Warrior_GuardianStorm</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 	<!-- Outcast Civilians -->
 	<!-- Eldar_Outcast_Hermit -->
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Civilian">
+	<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Outcast_Base_Civilian">
 		<defName>OG_Eldar_Outcast_Hermit</defName>
 		<title>hermit</title>
 		<titleShort>hermit</titleShort>
@@ -155,9 +155,9 @@
 				<defName>Ascetic</defName>
 			</li>
 		</forcedTraitsChance>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Civilian">
+	<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Outcast_Base_Civilian">
 		<defName>OG_Eldar_Outcast_Builder</defName>
 		<title>outcast bonesinger</title>
 		<titleShort>bonesinger</titleShort>
@@ -175,11 +175,11 @@
 		<requiredWorkTags>
 			<li>ManualSkilled</li>
 		</requiredWorkTags>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 
 	<!-- Baseline Warrior -->
-	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Outcast_Base_Warrior" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Outcast_Base_Warrior" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
 		<defName>OG_Eldar_Craftworld_Base_Warrior</defName>
 		<title>Outcast Clansmen Warrior</title>
 		<titleShort>Outcast Warrior</titleShort>
@@ -210,11 +210,11 @@
 			<li>Eldar_Outcast_Warrior_GuardianDefender</li>
 			<li>Eldar_Outcast_Warrior_GuardianStorm</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	  
 	<!-- Warriors -->	   
 	<!-- Eldar Ranger -->
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
+	<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
 		<defName>OG_Eldar_Outcast_Ranger</defName>
 		<title>Ranger</title>
 		<titleShort>Ranger</titleShort>
@@ -264,10 +264,10 @@
 		<spawnCategories>
 		  <li>Eldar_Craftworld_Ranger</li>
 		</spawnCategories>
-	  </AdeptusMechanicus.BackstoryDef>
+	  </AlienRace.AlienBackstoryDef>
 	  
 	<!-- Eldar Pathfinder -->
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
+	<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
 		<defName>OG_Eldar_Outcast_Pathfinder</defName>
 		<title>Pathfinder</title>
 		<titleShort>Pathfinder</titleShort>
@@ -317,10 +317,10 @@
 		<spawnCategories>
 			<li>Eldar_Craftworld_Pathfinder</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	  
 	<!-- Eldar Pirate -->
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
+	<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
 		<defName>OG_Eldar_Outcast_Pirate</defName>
 		<title>aeldari pirate</title>
 		<titleShort>pirate</titleShort>
@@ -338,9 +338,9 @@
 		<spawnCategories>
 			<li>Eldar_Outcast_Pirate</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
+	<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
 		<defName>OG_Eldar_Outcast_Corsair_A</defName>
 		<title>aeldari corsair</title>
 		<titleShort>corsair</titleShort>
@@ -358,9 +358,9 @@
 		<spawnCategories>
 			<li>Eldar_Outcast_Pirate</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
+	<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
 		<defName>OG_Eldar_Outcast_Corsair_B</defName>
 		<title>defector</title>
 		<titleShort>defector</titleShort>
@@ -392,9 +392,9 @@
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
+	<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
 		<defName>OG_Eldar_Outcast_Raider_A</defName>
 		<title>outcast raider</title>
 		<titleShort>raider</titleShort>
@@ -420,9 +420,9 @@
 				<defName>Brawler</defName>
 			</li>
 		</forcedTraitsChance>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
+	<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Outcast_Base_Warrior">
 		<defName>OG_Eldar_Outcast_Raider_B</defName>
 		<title>torturer</title>
 		<titleShort>torturer</titleShort>
@@ -451,9 +451,9 @@
 					<defName>Psychopath</defName>
 				</li>
 		</forcedTraitsChance>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_Eldar_Base_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Backstory">
 		<defName>OG_Eldar_Outcast_Assassin</defName>
 		<title>outcast assassin</title>
 		<titleShort>assassin</titleShort>
@@ -494,10 +494,10 @@
 				<defName>Psychopath</defName>
 			</li>
 		</forcedTraitsChance>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 	<!-- Baseline Psyker -->
-	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Outcast_Psyker" ParentName="OG_Eldar_Psyker_Backstory" Abstract="true">
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Outcast_Psyker" ParentName="OG_Eldar_Psyker_Backstory" Abstract="true">
 		<defName>OG_Eldar_Outcast_Psyker</defName>
 		<title>outcast Seer</title>
 		<titleShort>Seer</titleShort>
@@ -519,11 +519,11 @@
 		<spawnCategories>
 			<li>Eldar_Craftworld_Psyker</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	   
 	<!-- Psykers -->
 	
-  <!--AdeptusMechanicus.BackstoryDef>
+  <!--AlienRace.AlienBackstoryDef>
     <title>actor</title>
     <titleShort>actor</titleShort>
     <baseDesc>[PAWN_nameDef] travelled with a company of actors, playing to packed theatres and loving audiences everywhere. [PAWN_pronoun] was a perfectionist, and made [PAWN_possessive] own props and costumes rather than use the ones [PAWN_pronoun] was given.</baseDesc>
@@ -545,9 +545,9 @@
     </spawnCategories>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
-  </AdeptusMechanicus.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
 
-  <AdeptusMechanicus.BackstoryDef>
+  <AlienRace.AlienBackstoryDef>
     <title>drifter</title>
     <titleShort>drifter</titleShort>
     <baseDesc>[PAWN_nameDef] never figured out what to do with [PAWN_possessive] life. [PAWN_pronoun] travelled often, taking up casual work wherever [PAWN_pronoun] found it.\n\n[PAWN_pronoun] also occasionally worked on a novel that [PAWN_pronoun] knew would be a bestseller - just as soon as [PAWN_pronoun] could find a publisher who was interested.</baseDesc>
@@ -564,6 +564,6 @@
     </spawnCategories>
     <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
-  </AdeptusMechanicus.BackstoryDef-->
+  </AlienRace.AlienBackstoryDef-->
 
 </Defs>

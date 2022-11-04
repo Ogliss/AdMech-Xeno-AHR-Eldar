@@ -3,7 +3,7 @@
 	<!-- Dark Eldar --> 
 	<!-- Baseline Dark Eldar -->
 	<!-- DarkEldar_Base_Backstory -->
-	<AdeptusMechanicus.BackstoryDef Name="OG_DarkEldar_Base_Backstory" Abstract="true">
+	<AlienRace.AlienBackstoryDef Name="OG_DarkEldar_Base_Backstory" Abstract="true">
 		<defName>OG_DarkEldar_Base_Backstory</defName>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -24,11 +24,11 @@
 		<spawnCategories>
 			<li>DarkEldar</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	  
 	<!-- Standard Dark Eldar -->
 	<!-- DarkEldar_Standard_Backstory -->
-	<AdeptusMechanicus.BackstoryDef Name="OG_DarkEldar_Standard_Backstory" ParentName="OG_DarkEldar_Base_Backstory" Abstract="true">
+	<AlienRace.AlienBackstoryDef Name="OG_DarkEldar_Standard_Backstory" ParentName="OG_DarkEldar_Base_Backstory" Abstract="true">
 		<defName>OG_DarkEldar_Standard_Backstory</defName>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -47,11 +47,11 @@
 		<spawnCategories>
 			<li>DarkEldar_Standard</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	  
 	<!-- Dark Eldar Childhoods -->
 	<!-- DarkEldar_Base_Child -->
-	<AdeptusMechanicus.BackstoryDef Name="OG_DarkEldar_Base_Child" ParentName="OG_DarkEldar_Standard_Backstory" Abstract="true">
+	<AlienRace.AlienBackstoryDef Name="OG_DarkEldar_Base_Child" ParentName="OG_DarkEldar_Standard_Backstory" Abstract="true">
 		<defName>OG_DarkEldar_Base_Child</defName>
 		<title>Dark Eldar child</title>
 		<titleShort>Dark Eldar child</titleShort>
@@ -70,6 +70,6 @@
 		<spawnCategories>
 		
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	  
 </Defs>

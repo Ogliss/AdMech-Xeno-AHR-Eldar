@@ -3,7 +3,7 @@
 	<!-- Exodite Eldar --> 
 	<!-- Exodite Childhoods -->
 	<!-- Exodite Child -->
-	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Exodite_Child" ParentName="OG_Eldar_Base_Child">
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Exodite_Child" ParentName="OG_Eldar_Base_Child">
 		<defName>OG_Eldar_Exodite_Child</defName>
 		<title>Exodite</title>
 		<baseDesc>[PAWN_nameDef] was born on an Eldar maiden world. Isolationism and Mistrust were prominent.</baseDesc>
@@ -33,10 +33,10 @@
 		<spawnCategories Inherit="true">
 			<li>Eldar_Exodite</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	   
 	<!--  Exodite Child Psyker -->
-	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Exodite_Child_Psyker" ParentName="OG_Eldar_Child_Psyker">
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Exodite_Child_Psyker" ParentName="OG_Eldar_Child_Psyker">
 		<defName>OG_Eldar_Exodite_Child_Psyker</defName>
 		<title>Exodite</title>
 		<baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] maiden world. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life.</baseDesc>
@@ -66,11 +66,11 @@
 		<spawnCategories Inherit="true">
 			<li>Eldar_Exodite_Psyker</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	   
 	<!-- Exodite Adulthoods -->
 	<!-- Baseline Civilian -->
-	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Exodite_Base_Civilian" ParentName="OG_Eldar_Standard_Backstory" Abstract="true">
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Exodite_Base_Civilian" ParentName="OG_Eldar_Standard_Backstory" Abstract="true">
 		<defName>OG_Eldar_Exodite_Civilian</defName>
 		<title>Exodite Clansmen</title>
 		<titleShort>Exodite</titleShort>
@@ -102,11 +102,11 @@
 			<li>Eldar_Exodite_Warrior_GuardianDefender</li>
 			<li>Eldar_Exodite_Warrior_GuardianStorm</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 	<!-- Civilians -->
 	<!-- Baseline Warrior -->
-	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Exodite_Base_Warrior" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Exodite_Base_Warrior" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
 		<defName>OG_Eldar_Craftworld_Base_Warrior</defName>
 		<title>Exodite Clansmen Warrior</title>
 		<titleShort>Exodite Warrior</titleShort>
@@ -137,12 +137,12 @@
 			<li>Eldar_Exodite_Warrior_GuardianDefender</li>
 			<li>Eldar_Exodite_Warrior_GuardianStorm</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	  
 	<!-- Warriors -->
 	
 	<!-- Baseline Psyker -->
-	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Exodite_Psyker" ParentName="OG_Eldar_Psyker_Backstory" Abstract="true">
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Exodite_Psyker" ParentName="OG_Eldar_Psyker_Backstory" Abstract="true">
 		<defName>OG_Eldar_Base_Seer</defName>
 		<title>Path of the Seer</title>
 		<titleShort>Eldar Seer</titleShort>
@@ -164,7 +164,7 @@
 		<spawnCategories>
 			<li>Eldar_Craftworld_Psyker</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	   
 	<!-- Psykers -->
 	

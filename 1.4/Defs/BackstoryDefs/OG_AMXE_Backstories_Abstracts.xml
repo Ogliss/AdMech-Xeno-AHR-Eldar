@@ -3,7 +3,7 @@
 	<!-- Eldar --> 
 	<!-- Baseline Eldar -->
 	<!-- Eldar_Base_Backstory -->
-	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Base_Backstory" Abstract="true">
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Base_Backstory" Abstract="true">
 		<defName>OG_Eldar_Base_Backstory</defName>
 		<slot>Adulthood</slot>
 		<maleCommonality>0.5</maleCommonality>
@@ -23,11 +23,11 @@
 		<spawnCategories>
 			<li>Eldar</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	  
 	<!-- Standard Eldar -->
 	<!-- Eldar_Standard_Backstory -->
-	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Standard_Backstory" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Standard_Backstory" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
 		<defName>OG_Eldar_Standard_Backstory</defName>
 		<workDisables>
 		
@@ -44,11 +44,11 @@
 		<spawnCategories>
 			<li>Eldar_Standard</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	  
 	<!-- Psyker Eldar -->
 	<!-- Psyker Eldar_Psyker_Backstory -->
-	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Psyker_Backstory" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Psyker_Backstory" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
 		<defName>OG_Eldar_Psyker_Backstory</defName>
 		<workDisables>
 		
@@ -74,11 +74,11 @@
 		<spawnCategories>
 			<li>Eldar_Psyker</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	  
 	<!-- Eldar Childhoods -->
 	<!-- Eldar_Base_Child -->
-	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Base_Child" ParentName="OG_Eldar_Standard_Backstory" Abstract="true">
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Base_Child" ParentName="OG_Eldar_Standard_Backstory" Abstract="true">
 		<defName>OG_Eldar_Base_Child</defName>
 		<title>Eldar child</title>
 		<titleShort>Eldar child</titleShort>
@@ -95,11 +95,11 @@
 		<spawnCategories>
 		
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	  
 	<!-- Psyker Child -->
 	<!-- Eldar_Child_Psyker -->
-	<AdeptusMechanicus.BackstoryDef Name="OG_Eldar_Child_Psyker" ParentName="OG_Eldar_Psyker_Backstory" Abstract="true">
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Child_Psyker" ParentName="OG_Eldar_Psyker_Backstory" Abstract="true">
 		<defName>OG_Eldar_Child_Psyker</defName>
 		<title>Eldar child</title>
 		<titleShort>Eldar child</titleShort>
@@ -120,6 +120,6 @@
 		<spawnCategories>
 		
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	  
 </Defs>

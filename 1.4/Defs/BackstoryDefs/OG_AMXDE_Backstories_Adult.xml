@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_Chosen_of_Lhilitu</defName>
 		<title>Chosen of Lhilitu</title>
 		<titleShort>Lhilitu's Chosen</titleShort>
@@ -44,9 +44,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ScionofVileth</defName>
 		<title>Scion of Vileth</title>
 		<titleShort>Scion of Vileth</titleShort>
@@ -81,9 +81,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Kabal_Archon</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ChosenofQaleh</defName>
 		<title>Chosen of Qa'leh</title>
 		<titleShort>Qa'leh's Chosen</titleShort>
@@ -118,9 +118,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Cult_Wych</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_HaemonculisRetainer</defName>
 		<title>Haemonculi's Retainer</title>
 		<titleShort>Retainer</titleShort>
@@ -168,9 +168,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_WychBloodbride</defName>
 		<title>Wych Bloodbride</title>
 		<titleShort>Bloodbride</titleShort>
@@ -215,9 +215,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Cult_Wych</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_KabaliteWarrior</defName>
 		<title>Kabalite Warrior</title>
 		<titleShort>Kabalite</titleShort>
@@ -257,9 +257,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Kabal_Warrior</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ReaverRider</defName>
 		<title>Reaver Rider</title>
 		<titleShort>Reaver</titleShort>
@@ -304,9 +304,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Kabal_Warrior</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_VeteranSybarite</defName>
 		<title>Veteran Sybarite</title>
 		<titleShort>Sybarite</titleShort>
@@ -347,9 +347,9 @@
 			<li>DarkEldar_Kabal_Warrior_Elite</li>
 			<li>DarkEldar_Kabal_Sybarite_Elite</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_HellionRider</defName>
 		<title>Hellion Rider</title>
 		<titleShort>Hellion</titleShort>
@@ -385,9 +385,9 @@
 			<li>DarkEldar_Kabal_Warrior</li>
 			<li>DarkEldar_Kabal_Warrior_Elite</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_WychBeastmaster</defName>
 		<title>Wych Beastmaster</title>
 		<titleShort>Beastmaster</titleShort>
@@ -429,9 +429,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Cult_Wych</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_FleshObsessed</defName>
 		<title>Flesh Obsessed</title>
 		<titleShort>Flesh Obsessed</titleShort>
@@ -478,9 +478,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_KeeperoftheLash</defName>
 		<title>Keeper of the Lash</title>
 		<titleShort>Lash Keeper</titleShort>
@@ -515,9 +515,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ArchitectofFear</defName>
 		<title>Architect of Fear</title>
 		<titleShort>Architect of Fear</titleShort>
@@ -552,9 +552,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_KabalPoisonKeeper</defName>
 		<title>Kabal Poison Keeper</title>
 		<titleShort>Poison Keeper</titleShort>
@@ -593,9 +593,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 	 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_RavagerRider</defName>
 		<title>Ravager Rider</title>
 		<titleShort>Ravager</titleShort>
@@ -636,9 +636,9 @@
 			<li>DarkEldar_Kabal_Warrior</li>
 			<li>DarkEldar_Kabal_Warrior_Elite</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 	 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_GluttonofBlood</defName>
 		<title>Glutton of Blood</title>
 		<titleShort>Glutton</titleShort>
@@ -682,9 +682,9 @@
 			<li>DarkEldar_Civilian</li>
 			<li>DarkEldar_Kabal_Warrior_Melee</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 	 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_BloodyBladeHedonist</defName>
 		<title>Bloody Blade Hedonist</title>
 		<titleShort>Hedonist</titleShort>
@@ -723,9 +723,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Kabal_Warrior_Melee</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 	 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_BloodsportGladiator</defName>
 		<title>Bloodsport Gladiator</title>
 		<titleShort>Gladiator</titleShort>
@@ -764,9 +764,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Cult_Wych</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 	 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_BloodsportChampion</defName>
 		<title>Bloodsport Champion</title>
 		<titleShort>Champion</titleShort>
@@ -805,9 +805,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Cult_Wych</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_RealspaceRaidProcurer</defName>
 		<title>Realspace Raid Procurer</title>
 		<titleShort>Procurer</titleShort>
@@ -842,9 +842,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 	 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_RealspaceRaidSchemer</defName>
 		<title>Realspace Raid Schemer</title>
 		<titleShort>Schemer</titleShort>
@@ -879,9 +879,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 	 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_Incubus</defName>
 		<title>Incubus</title>
 		<titleShort>Incubus</titleShort>
@@ -926,9 +926,9 @@
 			<li>DarkEldar_Klave_Incubi</li>
 			<li>DarkEldar_Klave_Incubi_Lord</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ProphetofFlesh</defName>
 		<title>Prophet of Flesh</title>
 		<titleShort>Flesh Prophet</titleShort>
@@ -963,9 +963,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_FeasterofPech</defName>
 		<title>Feaster of Pech</title>
 		<titleShort>Feaster</titleShort>
@@ -1004,9 +1004,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_HarvesterofChogros</defName>
 		<title>Harvester of Chogros</title>
 		<titleShort>Harvester</titleShort>
@@ -1041,9 +1041,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
  
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_DelivereroftheSerpentA</defName>
 		<title>Deliverer of the Serpent</title>
 		<titleShort>Deliverer</titleShort>
@@ -1082,9 +1082,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>  
+	</AlienRace.AlienBackstoryDef>  
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_DelivereroftheSerpentB</defName>
 		<title>Deliverer of the Serpent</title>
 		<titleShort>Deliverer</titleShort>
@@ -1123,9 +1123,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>  
+	</AlienRace.AlienBackstoryDef>  
  
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_DistillerofFear</defName>
 		<title>Distiller of Fear</title>
 		<titleShort>Distiller</titleShort>
@@ -1164,9 +1164,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>   
+	</AlienRace.AlienBackstoryDef>   
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ConnoisseurofPain</defName>
 		<title>Connoisseur of Pain</title>
 		<titleShort>Connoisseur</titleShort>
@@ -1201,9 +1201,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
  
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_InflictorofMalediction</defName>
 		<title>Inflictor of Malediction</title>
 		<titleShort>Inflictor</titleShort>
@@ -1238,9 +1238,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>  
+	</AlienRace.AlienBackstoryDef>  
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_MasterNemesine</defName>
 		<title>Master Nemesine</title>
 		<titleShort>Nemesine</titleShort>
@@ -1280,9 +1280,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Kabal_Archon</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>  
+	</AlienRace.AlienBackstoryDef>  
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_TreacherousDeceiver</defName>
 		<title>Treacherous Deceiver</title>
 		<titleShort>Deceiver</titleShort>
@@ -1317,9 +1317,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>  
+	</AlienRace.AlienBackstoryDef>  
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_DiabolicalSoothsayer</defName>
 		<title>Diabolical Soothsayer</title>
 		<titleShort>Soothsayer</titleShort>
@@ -1354,9 +1354,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>  
+	</AlienRace.AlienBackstoryDef>  
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ScarletEpicurean</defName>
 		<title>Scarlet Epicurean</title>
 		<titleShort>Epicurean</titleShort>
@@ -1396,9 +1396,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Kabal_Archon</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>  
+	</AlienRace.AlienBackstoryDef>  
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_DecadentofDeath</defName>
 		<title>Decadent of Death</title>
 		<titleShort>Decadent</titleShort>
@@ -1441,9 +1441,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_BringerofTwilight</defName>
 		<title>Bringer of Twilight</title>
 		<titleShort>Bringer</titleShort>
@@ -1482,9 +1482,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_WrightofWar</defName>
 		<title>Wright of War</title>
 		<titleShort>Wright</titleShort>
@@ -1523,9 +1523,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
  
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_WeaverofFear</defName>
 		<title>Weaver of Fear</title>
 		<titleShort>Weaver</titleShort>
@@ -1564,9 +1564,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_GhorvenfalRaider</defName>
 		<title>Ghorvenfal Raider</title>
 		<titleShort>Raider</titleShort>
@@ -1605,9 +1605,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ThiefofLethidia</defName>
 		<title>Thief of Lethidia</title>
 		<titleShort>Thief</titleShort>
@@ -1646,9 +1646,9 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Civilian</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
 
-	<AdeptusMechanicus.BackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
+	<AlienRace.AlienBackstoryDef ParentName="OG_DarkEldar_Standard_Backstory">
 		<defName>OG_AMXDE_Adult_ButcherwithoutEqual</defName>
 		<title>Butcher without Equal</title>
 		<titleShort>Butcher</titleShort>
@@ -1687,6 +1687,6 @@
 			<li>DarkEldar_Standard</li>
 			<li>DarkEldar_Kabal_Archon</li>
 		</spawnCategories>
-	</AdeptusMechanicus.BackstoryDef> 
+	</AlienRace.AlienBackstoryDef> 
  
 </Defs>
