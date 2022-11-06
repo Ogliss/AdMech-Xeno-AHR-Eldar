@@ -106,7 +106,7 @@
 			</optionsTwo>
 		</colorGenerator>
 		<modExtensions>
-		  <li Class="AdeptusMechanicus.ApparelGraphicExtension">
+			<li Class="AdeptusMechanicus.ApparelGraphicExtension">
 			<defaultLabel>default</defaultLabel>
 			<keyLabel>Style</keyLabel>
 			<alternateGraphics>
@@ -117,7 +117,7 @@
 					<wornGraphicPath>Things/Item/Apparel/DarkEldar/KabaliteHelmet/VarA</wornGraphicPath>
 				</li>
 			</alternateGraphics>
-		  </li>
+			</li>
 			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.ApparelHediffExtension">
 				<hediff>WearingGasMask</hediff>
 			</li>
@@ -307,7 +307,7 @@
 			</li>
 		</comps>
 		<modExtensions>
-		  <li Class="AdeptusMechanicus.ApparelGraphicExtension">
+			<li Class="AdeptusMechanicus.ApparelGraphicExtension">
 			<defaultLabel>default</defaultLabel>
 			<keyLabel>Style</keyLabel>
 			<alternateGraphics>
@@ -318,7 +318,7 @@
 					<wornGraphicPath>Things/Item/Apparel/DarkEldar/WychMask/Flip</wornGraphicPath>
 				</li>
 			</alternateGraphics>
-		  </li>
+			</li>
 			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.ApparelHediffExtension">
 				<hediff>WearingGasMask</hediff>
 			</li>
@@ -677,7 +677,7 @@
 				<SouthOffset>0,0.000,0</SouthOffset>
 				<EastOffset>0,00.000,0</EastOffset>
 				<WestOffset>0,0.000,0</WestOffset>
-			</li>  
+			</li>	
 		</comps>
 		<modExtensions>
 			<li MayRequire="CETeam.CombatExtended" Class="CombatExtended.ApparelHediffExtension">

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!-- ========================= Eldar - Wargear S 3 ========================== -->
-    <!-- ========================= Eldar - Grenade Packs	========================== -->
-    <!-- ========================= Eldar - Plasma Grenades	========================== -->
+		<!-- ========================= Eldar - Grenade Packs	========================== -->
+		<!-- ========================= Eldar - Plasma Grenades	========================== -->
 	<ThingDef ParentName="OG_Eldar_Apparel_Wargear_Makeable">
 		<defName>OGE_GrenadePack_Plasma</defName>
 		<label>plasma grenade pack (E)</label>
@@ -68,7 +68,7 @@
 				<muzzleFlashScale>14</muzzleFlashScale-->
 				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
 				<targetParams>
-				  <canTargetLocations>true</canTargetLocations>
+					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<defaultProjectile>OGE_GrenadeThrown_Plasma</defaultProjectile>
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
@@ -81,7 +81,7 @@
 				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
 			</li>
 		</comps>
-		<!--comps>  
+		<!--comps>	
 			<li Class="AbilityUser.CompProperties_AbilityItem">
 				
 				<Abilities>
@@ -91,7 +91,7 @@
 		</comps-->
 	</ThingDef>
 	
-    <!-- ========================= Eldar - Haywire Grenades	========================== -->
+		<!-- ========================= Eldar - Haywire Grenades	========================== -->
 	<ThingDef ParentName="OG_Eldar_Apparel_Wargear_Makeable">
 		<defName>OGE_GrenadePack_Haywire</defName>
 		<label>haywire grenade pack (E)</label>
@@ -157,7 +157,7 @@
 				<muzzleFlashScale>14</muzzleFlashScale-->
 				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
 				<targetParams>
-				  <canTargetLocations>true</canTargetLocations>
+					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<defaultProjectile>OGE_GrenadeThrown_Haywire</defaultProjectile>
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
@@ -170,7 +170,7 @@
 				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
 			</li>
 		</comps>
-		<!--comps>  
+		<!--comps>	
 			<li Class="AbilityUser.CompProperties_AbilityItem">
 				
 				<Abilities>
@@ -180,7 +180,7 @@
 		</comps-->
 	</ThingDef>
 	
-    <!-- ========================= Eldar - Melta Bomb	========================== -->
+		<!-- ========================= Eldar - Melta Bomb	========================== -->
 	<ThingDef ParentName="OG_Eldar_Apparel_Wargear_Makeable">
 		<defName>OGE_GrenadePack_Melta</defName>
 		<label>melta bomb pack (E)</label>
@@ -246,7 +246,7 @@
 				<muzzleFlashScale>14</muzzleFlashScale-->
 				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
 				<targetParams>
-				  <canTargetLocations>true</canTargetLocations>
+					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<defaultProjectile>OGE_GrenadeThrown_Melta</defaultProjectile>
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
@@ -259,7 +259,7 @@
 				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
 			</li>
 		</comps>
-		<!--comps>  
+		<!--comps>	
 			<li Class="AbilityUser.CompProperties_AbilityItem">
 				
 				<Abilities>
@@ -269,7 +269,7 @@
 		</comps-->
 	</ThingDef>
 		
-    <!-- ========================= Eldar - Hallucinogen Grenades	========================== -->
+		<!-- ========================= Eldar - Hallucinogen Grenades	========================== -->
 	<ThingDef ParentName="OG_Eldar_Apparel_Wargear_Makeable">
 		<defName>OGE_GrenadePack_Hallucinogen</defName>
 		<label>Hallucinogen grenade pack (E)</label>
@@ -335,7 +335,7 @@
 				<muzzleFlashScale>14</muzzleFlashScale-->
 				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
 				<targetParams>
-				  <canTargetLocations>true</canTargetLocations>
+					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<defaultProjectile>OGE_GrenadeThrown_Hallucinogen</defaultProjectile>
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
@@ -348,7 +348,7 @@
 				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
 			</li>
 		</comps>
-		<!--comps>  
+		<!--comps>	
 			<li Class="AbilityUser.CompProperties_AbilityItem">
 				<Abilities>
 					<li>OGE_Ability_ThrowHallucinogen</li>

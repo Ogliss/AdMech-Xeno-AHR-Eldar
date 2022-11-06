@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <!-- ========================= Eldar - Apparel Base ========================== -->
+		<!-- ========================= Eldar - Apparel Base ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel_Base" ParentName="OG_Apparel_Base" Abstract="True">
 		<apparel>
 			<ideoDesireAllowedFactionCategoryTags IgnoreIfNoMatchingField="True">
@@ -17,7 +17,7 @@
 		</thingCategories>
 	</ThingDef>
 	
-    <!-- ========================= Eldar - Apparel Makeable Base ========================== -->
+		<!-- ========================= Eldar - Apparel Makeable Base ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel_Makeable" ParentName="OG_Eldar_Apparel_Base" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -35,7 +35,7 @@
 		</recipeMaker>
 	</ThingDef>
 		
-    <!-- ========================= Eldar - Apparel Makeable - Clothes ========================== -->
+		<!-- ========================= Eldar - Apparel Makeable - Clothes ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel" ParentName="OG_Eldar_Apparel_Makeable" Abstract="True">
 		<apparel>
 			<tags>
@@ -57,12 +57,12 @@
 		<thingCategories>
 			<li>OGEHeadgear</li>
 		</thingCategories>
-    <statBases>
-      <Mass>0.15</Mass>
-    </statBases>
+		<statBases>
+			<Mass>0.15</Mass>
+		</statBases>
 	</ThingDef>
 	
-    <!-- ========================= Eldar - Armor Base ========================== -->
+		<!-- ========================= Eldar - Armor Base ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel_Armor_Base" ParentName="OG_Apparel_Base" Abstract="True">
 		<apparel>
 			<ideoDesireAllowedFactionCategoryTags IgnoreIfNoMatchingField="True">
@@ -78,7 +78,7 @@
 		</thingCategories>
 	</ThingDef>
 
-    <!-- ========================= Eldar - Apparel Armor Makeable Base ========================== -->
+		<!-- ========================= Eldar - Apparel Armor Makeable Base ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel_Armor_Makeable" ParentName="OG_Eldar_Apparel_Armor_Base" Abstract="True">
 		<graphicData>
 			<color>238,213,172</color> <!-- BLEACHED BONE -->
@@ -106,7 +106,7 @@
 		</apparel>
 	</ThingDef>
 	
-    <!-- ========================= Eldar - Apparel Armor Makeable Base ========================== -->
+		<!-- ========================= Eldar - Apparel Armor Makeable Base ========================== -->
 	<ThingDef Name="OG_Eldar_Apparel_Armor" ParentName="OG_Eldar_Apparel_Armor_Makeable" Abstract="True">
 		<apparel>
 			<tags>
@@ -144,12 +144,12 @@
 			<li>EldarHeadgear</li>
 		</tradeTags>
 		<tickerType>Normal</tickerType>
-		<comps>     
-			  <li Class="AdeptusMechanicus.CompProperties_EyeProtectionApparel">
-			  <Chance>1</Chance>
+		<comps>		 
+				<li Class="AdeptusMechanicus.CompProperties_EyeProtectionApparel">
+				<Chance>1</Chance>
 			</li>
-			  <li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
-			  <Chance>1</Chance>
+				<li Class="AdeptusMechanicus.CompProperties_LungProtectionApparel">
+				<Chance>1</Chance>
 			</li>
 		</comps>
 		<modExtensions>

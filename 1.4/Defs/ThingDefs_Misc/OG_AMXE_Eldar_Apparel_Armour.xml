@@ -34,8 +34,8 @@
 		<costList><!-- 238 Steel, 10 Jade -->
 			<Cloth>40</Cloth>
 			<OGE_Wraithbone>20</OGE_Wraithbone> <!-- 3 Steel each -->
-			<OGE_Component>1</OGE_Component> <!-- 4 Wraithbone(24 Steel)   -->
-			<OGE_SpiritStone>1</OGE_SpiritStone> <!-- 10 Wraithbone(6 Steel), 10 Jade and 1 Eldar Component(24 Steel) each/84 Steel, 10 Jade  -->
+			<OGE_Component>1</OGE_Component> <!-- 4 Wraithbone(24 Steel)	 -->
+			<OGE_SpiritStone>1</OGE_SpiritStone> <!-- 10 Wraithbone(6 Steel), 10 Jade and 1 Eldar Component(24 Steel) each/84 Steel, 10 Jade	-->
 
 		</costList>
 		<recipeMaker>
@@ -74,7 +74,7 @@
 			<li>Apparel</li>
 		</tradeTags>
 		<comps>
-		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
 			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
 				<PauldronEntries>
 					<li>
@@ -88,17 +88,17 @@
 						<westtop>PostHead</westtop>
 					</li>
 				</PauldronEntries>
-		  </li>
+			</li>
 		</comps>
 		<!--
 		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
+			<options>
 			<li>
 				<weight>10</weight>
 				<max>(1,1,0.82)</max>
 				<min>(0.906,0.937,0.776)</min>
 			</li>
-		  </options>
+			</options>
 		</colorGenerator>
 		-->
 	</ThingDef>
@@ -114,7 +114,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<color>238,213,172</color> <!-- BLEACHED BONE -->
-			<colorTwo>38,55,45</colorTwo> <!-- ORKHIDE SHADE  -->
+			<colorTwo>38,55,45</colorTwo> <!-- ORKHIDE SHADE	-->
 		</graphicData>
 		<statBases>
 			<!--MarketValue>1500</MarketValue-->
@@ -175,7 +175,7 @@
 			<li>Apparel</li>
 		</tradeTags>
 		<comps>
-		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
 			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
 				<PauldronEntries>
 					<li>
@@ -189,17 +189,17 @@
 						<westtop>PostHead</westtop>
 					</li>
 				</PauldronEntries>
-		  </li>
+			</li>
 		</comps>
 		<!--
 		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
+			<options>
 			<li>
 				<weight>10</weight>
 				<max>(1,1,0.82)</max>
 				<min>(0.906,0.937,0.776)</min>
 			</li>
-		  </options>
+			</options>
 		</colorGenerator>
 		-->
 	</ThingDef>
@@ -236,8 +236,8 @@
 		<costList>
 			<DevilstrandCloth>15</DevilstrandCloth>
 			<OGE_Wraithbone>30</OGE_Wraithbone> <!-- 6 Steel each/120 Steel -->
-			<OGE_Component>1</OGE_Component> <!-- 4 Wraithbone(24 Steel) each/24 Steel   -->
-			<OGE_SpiritStone>1</OGE_SpiritStone> <!-- 10 Wraithbone(60 Steel), 10 Jade and 1 Eldar Component(24 Steel) each/84 Steel, 10 Jade  -->
+			<OGE_Component>1</OGE_Component> <!-- 4 Wraithbone(24 Steel) each/24 Steel	 -->
+			<OGE_SpiritStone>1</OGE_SpiritStone> <!-- 10 Wraithbone(60 Steel), 10 Jade and 1 Eldar Component(24 Steel) each/84 Steel, 10 Jade	-->
 		</costList>
 		<recipeMaker>
 			<researchPrerequisites>
@@ -294,13 +294,13 @@
 		</comps>
 		<!--
 		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
+			<options>
 			<li>
 				<weight>10</weight>
 				<max>(1,1,0.82)</max>
 				<min>(0.906,0.937,0.776)</min>
 			</li>
-		  </options>
+			</options>
 		</colorGenerator>
 		-->
 	</ThingDef>
@@ -374,7 +374,7 @@
 			<li>Apparel</li>
 		</tradeTags>
 		<comps>
-		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
 			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
 				<PauldronEntries>
 					<li>
@@ -388,17 +388,17 @@
 						<westtop>PostHead</westtop>
 					</li>
 				</PauldronEntries>
-		  </li>
+			</li>
 		</comps>
 		<!--
 		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
+			<options>
 			<li>
 				<weight>10</weight>
 				<max>(1,1,0.82)</max>
 				<min>(0.906,0.937,0.776)</min>
 			</li>
-		  </options>
+			</options>
 		</colorGenerator>
 		-->
 	</ThingDef>
@@ -499,13 +499,13 @@
 		</comps>
 		<!--
 		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
+			<options>
 			<li>
 				<weight>10</weight>
 				<max>(1,1,0.82)</max>
 				<min>(0.906,0.937,0.776)</min>
 			</li>
-		  </options>
+			</options>
 		</colorGenerator>
 		-->
 	</ThingDef>
@@ -582,7 +582,7 @@
 			<li>Apparel</li>
 		</tradeTags>
 		<comps>
-		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
 			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
 				<PauldronEntries>
 					<li>
@@ -596,17 +596,17 @@
 						<westtop>PostHead</westtop>
 					</li>
 				</PauldronEntries>
-		  </li>
+			</li>
 		</comps>
 		<!--
 		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
+			<options>
 			<li>
 				<weight>10</weight>
 				<max>(1,1,0.82)</max>
 				<min>(0.906,0.937,0.776)</min>
 			</li>
-		  </options>
+			</options>
 		</colorGenerator>
 		-->
 	</ThingDef>
@@ -683,7 +683,7 @@
 			<li>Apparel</li>
 		</tradeTags>
 		<comps>
-		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
 			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
 				<PauldronEntries>
 					<li>
@@ -697,17 +697,17 @@
 						<westtop>PostHead</westtop>
 					</li>
 				</PauldronEntries>
-		  </li>
+			</li>
 		</comps>
 		<!--
 		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
+			<options>
 			<li>
 				<weight>10</weight>
 				<max>(1,1,0.82)</max>
 				<min>(0.906,0.937,0.776)</min>
 			</li>
-		  </options>
+			</options>
 		</colorGenerator>
 		-->
 	</ThingDef>
@@ -810,13 +810,13 @@
 		</comps>
 		<!--
 		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
+			<options>
 			<li>
 				<weight>10</weight>
 				<max>(1,1,0.82)</max>
 				<min>(0.906,0.937,0.776)</min>
 			</li>
-		  </options>
+			</options>
 		</colorGenerator>
 		-->
 	</ThingDef>
@@ -893,7 +893,7 @@
 			<li>Apparel</li>
 		</tradeTags>
 		<comps>
-		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
 			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
 				<PauldronEntries>
 					<li>
@@ -905,17 +905,17 @@
 						<easttop>PostHead</easttop>
 					</li>
 				</PauldronEntries>
-		  </li>
+			</li>
 		</comps>
 		<!--
 		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
+			<options>
 			<li>
 				<weight>10</weight>
 				<max>(1,1,0.82)</max>
 				<min>(0.906,0.937,0.776)</min>
 			</li>
-		  </options>
+			</options>
 		</colorGenerator>
 		-->
 	</ThingDef>
@@ -1133,7 +1133,7 @@
 			<li>Apparel</li>
 		</tradeTags>
 		<comps>
-		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
 			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
 				<PauldronEntries>
 					<li>
@@ -1152,9 +1152,9 @@
 				<SouthOffset>0,-0.001,0</SouthOffset>
 				<EastOffset>0,0.35,0</EastOffset>
 				<WestOffset>0,0.35,0</WestOffset-->
-		  </li>
-		  <!--
-		  <li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
+			</li>
+			<!--
+			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
 			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
 				<PauldronEntries>
 					<li>
@@ -1169,18 +1169,18 @@
 				<SouthOffset>0,-0.027,0</SouthOffset>
 				<EastOffset>0,-0.15,0</EastOffset>
 				<WestOffset>0,-0.15,0</WestOffset>
-		  </li>
-		  -->
+			</li>
+			-->
 		</comps>
 		<!--
 		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
+			<options>
 			<li>
 				<weight>10</weight>
 				<max>(1,1,0.82)</max>
 				<min>(0.906,0.937,0.776)</min>
 			</li>
-		  </options>
+			</options>
 		</colorGenerator>
 		-->
 	</ThingDef>

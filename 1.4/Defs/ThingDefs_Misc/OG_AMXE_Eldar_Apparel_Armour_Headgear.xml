@@ -2,7 +2,7 @@
 <Defs>
 	<!--========================= Eldar - Headgear ==========================-->
 	<!--========================= Eldar - Guardian Helmet ==========================-->
-    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
 		<defName>OGE_Apparel_MeshHelmet</defName>
 		<label>mesh armour helmet</label>
 		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
@@ -55,7 +55,7 @@
 	</ThingDef>
 
 	<!--========================= Eldar - Ranger Helmet ==========================-->
-    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
 		<defName>OGE_Apparel_RangerHelmet</defName>
 		<label>ranger helmet</label>
 		<description>Ranger armour is a mesh suit with Eldar carapace plates attached to it. As a result, it is very flexible, allowing Rangers to move freely. However, this flexibility comes at the expense of protection, offering protection similar to Imperial Flak armour. Another feature is the intergration of a Cameleoline overcoat, which helps Rangers to blend into their surroundings, especially in poorly-lit environments.</description>
@@ -63,7 +63,7 @@
 			<texPath>Things/Item/Apparel/Eldar/RangerHelmet/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<colorTwo>38,55,45</colorTwo> <!-- ORKHIDE SHADE  -->
+			<colorTwo>38,55,45</colorTwo> <!-- ORKHIDE SHADE	-->
 		</graphicData>
 		<statBases>
 			<Mass>1</Mass>
@@ -111,7 +111,7 @@
 	</ThingDef>
 
 	<!--========================= Eldar - Avenger Helmet ==========================-->
-    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
 		<defName>OGE_Apparel_AvengerHelmet</defName>
 		<label>dire avenger helmet</label>
 		<description>Each warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. As a standard Dire Avenger, the helmet is distinctively tall with a long top crest of exotic animal hair, often dyed to match the parent Craftworld's colours.</description>
@@ -166,7 +166,7 @@
 	</ThingDef>
 
 	<!--========================= Eldar - Banshee Helmet ==========================-->
-    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
 		<defName>OGE_Apparel_BansheeHelmet</defName>
 		<label>howling banshee mask</label>
 		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. A standard Howling Banshees Aspect Warrior's Banshee Mask is tall with their long flowing hair spilling from the top of it like a lion's mane. Their distinctive Banshee Masks contain psychosonic aplifiers that magnify their keening battle screams into mind-destroying shockwaves. This inflicts severe damage to the central nervous system of the Eldar warrior's foe, inspiring feeling of mortal terror and causing momentary paralysis.</description>
@@ -260,7 +260,7 @@
 	</ThingDef>
 
 	<!--========================= Eldar - Hawk Helmet ==========================-->
-    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
 		<defName>OGE_Apparel_HawkHelmet</defName>
 		<label>swooping Hawk helmet</label>
 		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. For a standard Swooping Hawk, the helmet is distinctively tall and swept back, allowing for better aerodynamics.</description>
@@ -316,7 +316,7 @@
 	</ThingDef>
 
 	<!--========================= Eldar - Dragon Helmet ==========================-->
-    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
 		<defName>OGE_Apparel_DragonHelmet</defName>
 		<label>fire dragon helmet</label>
 		<description>Each warrior Aspect has its own distinctive helmet, and within each shrine of the Aspect the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. A standard Fire Dragon Aspect Warrior's helmet is distinctively tall with a long top crest. By custom, it is this helmet that marks the Aspect Warriors as the protectors and avengers of their Craftworld. It bears the rune of the Fire Dragons traced upon its forehead.</description>
@@ -373,7 +373,7 @@
 	</ThingDef>
 
 	<!--========================= Eldar - Scorpion Helmet ==========================-->
-    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
 		<defName>OGE_Apparel_ScorpionHelmet</defName>
 		<label>striking scorpion helmet</label>
 		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. A standard Striking Scorpions warrior helmet is distinctively tall and swept back and incorporates a pair of weapon pods positioned and shaped much like the mandibles of a scorpion. Each pod houses a mandible blaster, or Mandiblaster, a unique and deadly device also known as the Sting of the Scorpion.</description>
@@ -420,7 +420,7 @@
 				<li>EldarStrikingScorpionHeadgear</li>
 			</tags>
 		</apparel>
-		<comps>    
+		<comps>		
 			<li Class="AdeptusMechanicus.CompProperties_ApparelExtraPartDrawer">
 				<ExtraPartEntryChance>1</ExtraPartEntryChance>
 				<onHead>true</onHead>
@@ -482,7 +482,7 @@
 	</ThingDef>
 
 	<!--========================= Eldar - Spider Helmet ==========================-->
-    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
 		<defName>OGE_Apparel_SpiderHelmet</defName>
 		<label>warp spider helmet</label>
 		<description>Each Warrior Aspect has its own distinctive helmet, and within each shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. For a standard Warp Spider, the helmet is swept back and comes to a slight point.</description>
@@ -538,7 +538,7 @@
 	</ThingDef>
 
 	<!--========================= Eldar - Reaper Helmet ==========================-->
-    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
 		<defName>OGE_Apparel_ReaperHelmet</defName>
 		<label>dark reaper helmet</label>
 		<description>Each Aeldari warrior Aspect has its own distinctive helmet, and within each Aspect Shrine the helmet may vary in form slightly, with correspondingly more elaborate versions for the shrine's Exarchs. For a standard Dark Reaper, the helmet incorporates a death mask, marking them out as the harbingers of death and destruction. Their helmet incorporates specialised rangefinding sensor vanes which extend out of the helmet of their Aspect Armour and allows a Dark Reaper to achieve target lock on even fast-moving vehicles.</description>
@@ -585,7 +585,7 @@
 				<li>EldarWarpSpiderHeadgear</li>
 			</tags>
 		</apparel>
-		<comps>    
+		<comps>		
 			<li Class="AdeptusMechanicus.CompProperties_ApparelExtraPartDrawer">
 				<ExtraPartEntryChance>1</ExtraPartEntryChance>
 				<onHead>true</onHead>
@@ -633,7 +633,7 @@
 	</ThingDef>
 
 	<!--========================= Eldar - Warlock Helmet ==========================-->
-    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
 		<defName>OGE_Apparel_WarlockHelmet</defName>
 		<label>warlock helmet</label>
 		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
@@ -688,7 +688,7 @@
 	</ThingDef>
 	
 	<!--========================= Eldar - Ghosthelm ==========================-->
-    <ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
+		<ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
 		<defName>OGE_Apparel_Ghosthelm</defName>
 		<label>ghosthelm</label>
 		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>

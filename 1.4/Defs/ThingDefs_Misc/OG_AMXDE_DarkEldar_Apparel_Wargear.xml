@@ -7,13 +7,13 @@
 	<defName>OGDE_Apparel_RuneWarding</defName>
 	<label>rune of warding</label>
 	<description>unes of Warding are special items used by Eldar Farseers. These runes allow the Farseer to divine when an enemy psyker is attempting to use his powers and then produce psychic interference strong enough to hinder them. The result can not only prevent the enemy from using their abilities, but also cause them to suffer from the Perils of the Warp.\n\nAlthough untill abilities are intergrated it will function as a shield</description>
-    <thingClass>AdeptusMechanicus.AdvShieldBelt</thingClass>
-    <graphicData>
-      <texPath>Things/Item/Equipment/Wargear/Eldar/RuneOfWarding</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tickerType>Normal</tickerType>
-    <statBases>
+		<thingClass>AdeptusMechanicus.AdvShieldBelt</thingClass>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Wargear/Eldar/RuneOfWarding</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<statBases>
 		<Mass>3</Mass>
 		<EnergyShieldRechargeRate>0.26</EnergyShieldRechargeRate>
 		<EnergyShieldEnergyMax>1.00</EnergyShieldEnergyMax>
@@ -24,7 +24,7 @@
 		<ArmorRating_Heat>0.10</ArmorRating_Heat>
 		<Insulation_Heat>10</Insulation_Heat>
 		<Insulation_Cold>10</Insulation_Cold>
-    </statBases>
+		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.03</MoveSpeed>
 			<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
@@ -41,7 +41,7 @@
 				<li>OG_DarkEldar_Tech_Apparel_Armour_T3</li>
 			</researchPrerequisites>
 		</recipeMaker>
-    <apparel>
+		<apparel>
 		<careIfWornByCorpse>false</careIfWornByCorpse>
 		<bodyPartGroups>
 			<li>Waist</li>
@@ -55,21 +55,21 @@
 		<defaultOutfitTags>
 			<li>Soldier</li>
 		</defaultOutfitTags>
-    </apparel>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>RGBA(1,1,1,1)</only>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>RGBA(1,1,1,1)</only>
 
-        </li>
-      </options>
-    </colorGenerator>
-    <generateCommonality>0.7</generateCommonality>
-  </ThingDef-->
-  
+				</li>
+			</options>
+		</colorGenerator>
+		<generateCommonality>0.7</generateCommonality>
+	</ThingDef-->
+	
 	<!--========================= Wrath ==========================-->
-    <!--ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Makeable">
+		<!--ThingDef ParentName="OG_DarkEldar_Apparel_Armor_Makeable">
 		<defName>OGDE_Apparel_RuneWrath</defName>
 		<label>rune of wrath</label>
 		<description>The Runes of Wrath cause a Farseer's close-combat attacks to deliver a second delayed blow of psychic damage.\n\nUntil abilities are added it improves melee hit chance</description>

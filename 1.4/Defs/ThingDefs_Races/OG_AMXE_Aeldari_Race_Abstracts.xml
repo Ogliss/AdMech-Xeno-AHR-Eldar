@@ -70,6 +70,8 @@
 					<bodyTypes>
 						<li>Female</li>
 						<li>Male</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
 					</bodyTypes>
 					<!--useGenderedHeads>true</useGenderedHeads>
 					<useGenderedBodies>false</useGenderedBodies-->

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!-- ========================= Dark Eldar - Wargear S 3 ========================== -->
-    <!-- ========================= Dark Eldar - Grenade Packs	========================== -->
-    <!-- ========================= Dark Eldar - Plasma Grenades	========================== -->
+		<!-- ========================= Dark Eldar - Grenade Packs	========================== -->
+		<!-- ========================= Dark Eldar - Plasma Grenades	========================== -->
 	<ThingDef ParentName="OG_DarkEldar_Apparel_Wargear_Makeable">
 		<defName>OGDE_GrenadePack_Plasma</defName>
 		<label>plasma grenade pack (DE)</label>
@@ -66,7 +66,7 @@
 				<soundCast>ThrowGrenade</soundCast>
 				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
 				<targetParams>
-				  <canTargetLocations>true</canTargetLocations>
+					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<defaultProjectile>OGDE_GrenadeThrown_Plasma</defaultProjectile>
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
@@ -79,7 +79,7 @@
 				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
 			</li>
 		</comps>
-		<!--comps>  
+		<!--comps>	
 			<li Class="AbilitesExtended.CompProperties_AbilityItem">
 				
 				<Abilities>
@@ -89,7 +89,7 @@
 		</comps-->
 	</ThingDef>
 	
-    <!-- ========================= Dark Eldar - Haywire Grenades	========================== -->
+		<!-- ========================= Dark Eldar - Haywire Grenades	========================== -->
 	<ThingDef ParentName="OG_DarkEldar_Apparel_Wargear_Makeable">
 		<defName>OGDE_GrenadePack_Haywire</defName>
 		<label>haywire grenade pack (DE)</label>
@@ -155,21 +155,21 @@
 				<muzzleFlashScale>14</muzzleFlashScale-->
 				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
 				<targetParams>
-				  <canTargetLocations>true</canTargetLocations>
+					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<defaultProjectile>OGDE_GrenadeThrown_Haywire</defaultProjectile>
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
 			</li>
 		</verbs>
 		<comps>
-		  <li Class="AdeptusMechanicus.CompProperties_WargearUseable">
+			<li Class="AdeptusMechanicus.CompProperties_WargearUseable">
 			<Cooldown>10</Cooldown>
 			<soundReload>Standard_Reload</soundReload>
 			<hotKey>Misc4</hotKey>
 			<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
-		  </li>
+			</li>
 		</comps>
-		<!--comps>  
+		<!--comps>	
 			<li Class="AbilitesExtended.CompProperties_AbilityItem">
 				<Abilities>
 					<li>OGDE_Ability_ThrowHaywire</li>
@@ -178,7 +178,7 @@
 		</comps-->
 	</ThingDef>
 	
-    <!-- ========================= Dark Eldar - Melta Bomb	========================== -->
+		<!-- ========================= Dark Eldar - Melta Bomb	========================== -->
 	<ThingDef ParentName="OG_DarkEldar_Apparel_Wargear_Makeable">
 		<defName>OGDE_GrenadePack_Melta</defName>
 		<label>melta bomb pack (DE)</label>
@@ -242,7 +242,7 @@
 				<muzzleFlashScale>14</muzzleFlashScale-->
 				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
 				<targetParams>
-				  <canTargetLocations>true</canTargetLocations>
+					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<defaultProjectile>OGDE_GrenadeThrown_Melta</defaultProjectile>
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
@@ -255,7 +255,7 @@
 				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
 			</li>
 		</comps>
-		<!--comps>  
+		<!--comps>	
 			<li Class="AbilitesExtended.CompProperties_AbilityItem">
 				<Abilities>
 					<li>OGDE_Ability_ThrowMelta</li>
@@ -265,7 +265,7 @@
 		
 	</ThingDef>
 		
-    <!-- ========================= Dark Eldar - Hallucinogen Grenades	========================== -->
+		<!-- ========================= Dark Eldar - Hallucinogen Grenades	========================== -->
 	<!--ThingDef ParentName="OG_DarkEldar_Apparel_Wargear_Makeable">
 		<defName>OGDE_GrenadePack_Hallucinogen</defName>
 		<label>Hallucinogen grenade pack (DE)</label>
@@ -293,7 +293,7 @@
 			 <researchPrerequisite>OG_DarkEldar_Tech_Base_T2</researchPrerequisite>
 			
 		</recipeMaker>
-		<comps>  
+		<comps>	
 			<li Class="AbilitesExtended.CompProperties_AbilityItem">
 				<Abilities>
 					<li>OGDE_Ability_ThrowHallucinogen</li>
