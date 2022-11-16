@@ -84,7 +84,7 @@ namespace AdeptusMechanicus.HarmonyInstance
                             {
                                 Pawn_StoryTracker storyTracker = __result.story;
                                 bool weirdKind = kindDef.defName.Contains("Weird");
-                                bool weirdStory = storyTracker.adulthood.identifier.Contains("Weird") || storyTracker.childhood.identifier.Contains("Weird");
+                                bool weirdStory = storyTracker.adulthood.defName.Contains("Weird") || storyTracker.childhood.identifier.Contains("Weird");
                                 bool weirdOrk = __result.def == OGOrkThingDefOf.OG_Alien_Ork && (weirdStory || weirdKind);
                                 bool weirdGrot = __result.def == OGOrkThingDefOf.OG_Alien_Grot && (weirdStory || weirdKind);
                                 bool weird = (weirdGrot || weirdOrk);

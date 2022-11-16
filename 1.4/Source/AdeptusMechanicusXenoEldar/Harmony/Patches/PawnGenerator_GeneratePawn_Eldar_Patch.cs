@@ -80,11 +80,11 @@ namespace AdeptusMechanicus.HarmonyInstance
                         Trait trait = new Trait(TraitDefOf.PsychicSensitivity, 1);
                         if (storyTracker.adulthood != null)
                         {
-                            if (storyTracker.adulthood.identifier.Contains("_Farseer"))
+                            if (storyTracker.adulthood.defName.Contains("_Farseer"))
                             {
                                 trait = new Trait(TraitDefOf.PsychicSensitivity, 2);
                             }
-                            else if (storyTracker.adulthood.identifier.Contains("_Warlock"))
+                            else if (storyTracker.adulthood.defName.Contains("_Warlock"))
                             {
                                 Rand.PushState();
                                 trait = new Trait(TraitDefOf.PsychicSensitivity, Rand.RangeInclusive(1, 2));
@@ -101,13 +101,13 @@ namespace AdeptusMechanicus.HarmonyInstance
                             _Psylink.suppressPostAddLetter = true;
                             __result.health.AddHediff(_Psylink);
                         }
-                        if (storyTracker.adulthood.identifier.Contains("_Farseer"))
+                        if (storyTracker.adulthood.defName.Contains("_Farseer"))
                         {
                             Rand.PushState();
                             __result.ChangePsylinkLevel(Math.Min(Rand.RangeInclusive(3, 5), __result.GetMaxPsylinkLevel()), false);
                             Rand.PopState();
                         }
-                        else if (storyTracker.adulthood.identifier.Contains("_Warlock"))
+                        else if (storyTracker.adulthood.defName.Contains("_Warlock"))
                         {
                             Rand.PushState();
                             __result.ChangePsylinkLevel(Math.Min(Rand.RangeInclusive(1, 3), __result.GetMaxPsylinkLevel()), false);

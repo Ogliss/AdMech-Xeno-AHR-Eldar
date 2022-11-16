@@ -504,6 +504,7 @@
 	<beamPowerConsumption>30</beamPowerConsumption>
 		<researchPrerequisites>
 			<li>HeavyTurrets</li>
+			<li>OG_Common_Tech_Weapons_Laser</li>
 		</researchPrerequisites>
 	</ThingDef>
 
@@ -580,6 +581,7 @@
 		<beamPowerConsumption>60</beamPowerConsumption>
 		<researchPrerequisites>
 			<li>HeavyTurrets</li>
+			<li>OG_Common_Tech_Weapons_Laser</li>
 		</researchPrerequisites>
 	</ThingDef>
 
