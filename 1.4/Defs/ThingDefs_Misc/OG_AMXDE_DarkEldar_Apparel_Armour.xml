@@ -83,7 +83,7 @@
 			</li>
 			<!--li Class="CompProperties_Art">
 				<nameMaker>NamerArtWeaponMelee</nameMaker>
-				<descriptionMaker>OG_AMAA_ArtDescription_ApparelArmour</descriptionMaker>
+				<descriptionMaker>OG_ArtDescription_ApparelArmour</descriptionMaker>
 				<minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li-->
 			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
@@ -240,7 +240,7 @@
 			</li>
 			<!--li Class="CompProperties_Art">
 				<nameMaker>NamerArtWeaponMelee</nameMaker>
-				<descriptionMaker>OG_AMAA_ArtDescription_ApparelArmour</descriptionMaker>
+				<descriptionMaker>OG_ArtDescription_ApparelArmour</descriptionMaker>
 				<minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li-->
 			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
@@ -638,7 +638,7 @@
 			</li>
 			<!--li Class="CompProperties_Art">
 				<nameMaker>NamerArtWeaponMelee</nameMaker>
-				<descriptionMaker>OG_AMAA_ArtDescription_ApparelArmour</descriptionMaker>
+				<descriptionMaker>OG_ArtDescription_ApparelArmour</descriptionMaker>
 				<minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li-->
 			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
@@ -1111,7 +1111,7 @@
 			</li>
 			<!--li Class="CompProperties_Art">
 				<nameMaker>NamerArtWeaponMelee</nameMaker>
-				<descriptionMaker>OG_AMAA_ArtDescription_ApparelArmour</descriptionMaker>
+				<descriptionMaker>OG_ArtDescription_ApparelArmour</descriptionMaker>
 				<minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li-->
 			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
