@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-		<!-- ========================= Dark Eldar ========================== -->
-		<!-- ========================= Dark Eldar - Clothes Base - Apparel Base ========================== -->
+	<!-- ========================= Dark Eldar ========================== -->
+	<!-- ========================= Dark Eldar - Clothes Base - Apparel Base ========================== -->
 	<ThingDef Name="OG_DarkEldar_Apparel_Base" ParentName="OG_Apparel_Base" Abstract="True">
 		<apparel>
 			<ideoDesireAllowedFactionCategoryTags IgnoreIfNoMatchingField="True">
@@ -18,7 +18,7 @@
 		</thingCategories>
 	</ThingDef>
 	
-		<!-- ========================= Dark Eldar - Clothes Base - Apparel Makable Base ========================== -->
+	<!-- ========================= Dark Eldar - Clothes Base - Apparel Makable Base ========================== -->
 	<ThingDef Name="OG_DarkEldar_Apparel_Makeable" ParentName="OG_DarkEldar_Apparel_Base" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -36,7 +36,7 @@
 		</recipeMaker>
 	</ThingDef>
 		
-		<!-- ========================= Dark Eldar - Clothes - Apparel Makable ========================== -->
+	<!-- ========================= Dark Eldar - Clothes - Apparel Makable ========================== -->
 	<ThingDef Name="OG_DarkEldar_Apparel" ParentName="OG_DarkEldar_Apparel_Makeable" Abstract="True">
 		<apparel>
 			<tags>
@@ -63,7 +63,7 @@
 		</statBases>
 	</ThingDef>
 	
-		<!-- ========================= Dark Eldar - Clothes Base - Apparel Base ========================== -->
+	<!-- ========================= Dark Eldar - Clothes Base - Apparel Base ========================== -->
 	<ThingDef Name="OG_DarkEldar_Apparel_Armor_Base" ParentName="OG_Apparel_Base" Abstract="True">
 		<apparel>
 			<ideoDesireAllowedFactionCategoryTags IgnoreIfNoMatchingField="True">
@@ -79,7 +79,7 @@
 		</thingCategories>
 	</ThingDef>
 
-		<!-- ========================= Dark Eldar - Apparel Armor Makable Base ========================== -->
+	<!-- ========================= Dark Eldar - Apparel Armor Makable Base ========================== -->
 	<ThingDef Name="OG_DarkEldar_Apparel_Armor_Makeable" ParentName="OG_DarkEldar_Apparel_Armor_Base" Abstract="True">
 		<recipeMaker>
 			<useIngredientsForColor>false</useIngredientsForColor>
@@ -97,7 +97,7 @@
 		</recipeMaker>
 	</ThingDef>
 	
-		<!-- ========================= Dark Eldar - Apparel Armor Makable Base ========================== -->
+	<!-- ========================= Dark Eldar - Apparel Armor Makable Base ========================== -->
 	<ThingDef Name="OG_DarkEldar_Apparel_Armor" ParentName="OG_DarkEldar_Apparel_Armor_Makeable" Abstract="True">
 				<apparel>
 			<tags>
@@ -152,4 +152,5 @@
 			</researchPrerequisites>
 		</recipeMaker>
 	</ThingDef>	
+	
 </Defs>

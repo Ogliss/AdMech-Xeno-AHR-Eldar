@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<!-- Orkoid Weirdboy Meditation Focus Link -->
+	<!-- Aeldari Psyker Meditation Focus Link -->
 	<Operation Class="PatchOperationSequence">
 	<success>Always</success>
 		<operations>

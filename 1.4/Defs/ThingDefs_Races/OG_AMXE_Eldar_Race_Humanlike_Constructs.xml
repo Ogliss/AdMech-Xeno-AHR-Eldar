@@ -234,86 +234,22 @@
 			<relationChanceModifierExSpouse>1</relationChanceModifierExSpouse>
 		</relationSettings>
 		<raceRestriction>
+			<onlyHaveRaceRestrictedGenes>true</onlyHaveRaceRestrictedGenes>
 			<researchList>
-					<li>
-						<projects>
-				
-						</projects>
-					</li>
+				<li>
+					<projects>
+			
+					</projects>
+				</li>
 			</researchList>
 			<apparelList>
-				<li>OGE_Apparel_BansheeArmour</li>
-				<li>OGE_Apparel_BansheeHelmet</li>
-				<li>OGE_Apparel_RuneArmourWarlock</li>
-				<li>OGE_Apparel_WarlockHelmet</li>
-				<li>OGE_Apparel_RuneArmourFarseer</li>
-				<li>OGE_Apparel_Ghosthelm</li>
-				<li>OGE_Apparel_RuneWarding</li>
-				<li>OGE_Apparel_RuneWrath</li>
-				<li>OGE_Apparel_RuneFortune</li>
+			
 			</apparelList>
 			<recipeList>
-				<!--li>Make_OGE_Apparel_MeshArmour</li>
-				<li>Make_OGE_Apparel_MeshHelmet</li>
-				<li>Make_OGE_Apparel_AvengerArmour</li>
-				<li>Make_OGE_Apparel_AvengerHelmet</li>
-				<li>Make_OGE_Apparel_RangerArmour</li>
-				<li>Make_OGE_Apparel_RangerHelmet</li>
-				<li>Make_OGE_Apparel_BansheeArmour</li>
-				<li>Make_OGE_Apparel_BansheeHelmet</li>
-				<li>Make_OGE_Apparel_StrikingScorpionArmour</li>
-				<li>Make_OGE_Apparel_StrikingScorpionHelmet</li>
-				<li>Make_OGE_Apparel_RuneArmourWarlock</li>
-				<li>Make_OGE_Apparel_WarlockHelmet</li>
-				<li>Make_OGE_Apparel_RuneArmourFarseer</li>
-				<li>Make_OGE_Apparel_Ghosthelm</li>
-				<li>Make_OGE_Apparel_RuneWarding</li>
-				<li>Make_OGE_Apparel_RuneWrath</li>
-				<li>Make_OGE_Apparel_RuneFortune</li>
-				<li>Make_OGE_GrenadePack_Plasma</li>
-				<li>Make_OGE_GrenadePack_Haywire</li>
-				<li>Make_OGE_GrenadePack_Melta</li>
-				<li>Make_OGE_Melee_ScorpionChainsword</li>
-				<li>Make_OGE_Melee_BitingBlade</li>
-				<li>Make_OGE_Melee_ScorpionsClaw</li>
-				<li>Make_OGE_Melee_PowerSword</li>
-				<li>Make_OGE_Melee_MirrorswordS</li>
-				<li>Make_OGE_Melee_MirrorswordD</li>
-				<li>Make_OGE_Melee_GhostSword</li>
-				<li>Make_OGE_Melee_GhostSwordD</li>
-				<li>Make_OGE_Melee_GhostAxe</li>
-				<li>Make_OGE_Melee_Executioner</li>
-				<li>Make_OGE_Melee_Diresword</li>
-				<li>Make_OGE_Melee_Witchblade</li>
-				<li>Make_OGE_Melee_Miststave</li>
-				<li>Make_OGE_Melee_HarlequinsKiss</li>
-				<li>Make_OGE_Melee_SingingSpear</li>
-				<li>Make_OGE_Gun_ShurikenPistol</li>
-				<li>Make_OGE_Gun_ShurikenCatapult</li>
-				<li>Make_OGE_Gun_ShurikenCatapultAvenger</li>
-				<li>Make_OGE_Gun_ShurikenCannon</li>
-				<li>Make_OGE_Gun_Starcannon</li>
-				<li>Make_OGE_Gun_Wraithcannon</li>
-				<li>Make_OGE_Gun_LasBlaster</li>
-				<li>Make_OGE_Gun_RangerLongrifle</li>
-				<li>Make_OGE_Gun_PrismRifle</li>
-				<li>Make_OGE_Gun_Brightlance</li>
-				<li>Make_OGE_Gun_FusionGun</li>
-				<li>Make_OGE_Gun_NeuroDisruptor</li>
-				<li>Make_OGE_Gun_Deathspinner</li>
-				<li>Make_OGE_Gun_ReaperLauncher</li>
-				<li>Make_OGE_Gun_NeuroDisruptor</li>
-				<li>Make_OGE_Gun_HaywireCannon</li-->
+			
 			</recipeList>
 			<buildingList>
-				<!--li>OGE_TableMachining</li>
-				<li>OGE_Turret_ShurikenCannonDual_Auto</li>
-				<li>OGE_Turret_Missile_Auto</li>
-				<li>OGE_Turret_Brightlance_Auto</li>
-				<li>OGE_Turret_BrightlanceDual_Auto</li>
-				<li>OGE_Turret_DistortCannon_Auto</li>
-				<li>OGE_Turret_VibroCannon</li>
-				<li>OGE_Turret_ShadowWeaver_Manual</li-->
+			
 			</buildingList>
 		</raceRestriction>
     </alienRace>
@@ -343,8 +279,6 @@
 		<NegotiationAbility>1.15</NegotiationAbility>
 		<SocialImpact>1.15</SocialImpact>
 		<TradePriceImprovement>1.15</TradePriceImprovement>
-		<!--
-		-->
     </statBases>
 	<tools>
 		<li>

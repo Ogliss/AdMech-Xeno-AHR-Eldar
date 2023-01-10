@@ -16,15 +16,21 @@
 					<li>
 						<categoryTag>OG_Outlander_Craftworld</categoryTag>
 						<pawnKinds>
-						  <li>OG_Ork_Boy_Runt</li>
+						  <li>Colonist_OG_Eldar_Craftworld</li>
 						</pawnKinds>
 					</li>
 					<li>
-						<categoryTag>OG_Tribal_Exodite</categoryTag>
+						<categoryTag>OG_Outlander_DarkEldar</categoryTag>
 						<pawnKinds>
-						  <li>OG_Ork_Feral_Boy_Runt</li>
+						  <li>Colonist_OG_DarkEldar_Kabal</li>
 						</pawnKinds>
 					</li>
+					<!--li>
+						<categoryTag>OG_Tribal_Exodite</categoryTag>
+						<pawnKinds>
+						  <li>Colonist_OG_Eldar_Exoditel</li>
+						</pawnKinds>
+					</li-->
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -39,19 +45,26 @@
 					<li>
 						<categoryTag>OG_Outlander_Craftworld</categoryTag>
 						<pawnKinds>
-						  <li>OG_Ork_Boy_Runt</li>
+						  <li>OG_Eldar_Guardian</li>
+						  <li>OG_Eldar_GuardianStorm</li>
+						  <li>OG_Eldar_GuardianSupport</li>
+						  <li>OG_Eldar_Ranger</li>
 						</pawnKinds>
 					</li>
 					<li>
-						<categoryTag>OG_Tribal_Exodite</categoryTag>
+						<categoryTag>OG_Outlander_DarkEldar</categoryTag>
 						<pawnKinds>
-						  <li>OG_Ork_Feral_Boy_Runt</li>
+						  <li>OG_DarkEldar_Cadet</li>
+						  <li>OG_DarkEldar_Kabalite_Warrior</li>
+						  <li>OG_DarkEldar_Kabalite_Storm</li>
+						  <li>OG_DarkEldar_Kabalite_Support</li>
+						  <li>OG_DarkEldar_Kabalite_Sybarite</li>
 						</pawnKinds>
 					</li>
 				</value>
 			</li>
 			
-			<!--li Class="PatchOperationConditional">
+			<li Class="PatchOperationConditional">
 				<xpath>/Defs/QuestScriptDef[defName="Hospitality_Animals"]/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_GetPawnKind"]</xpath>
 				<match Class="PatchOperationReplace">
 					<xpath>/Defs/QuestScriptDef[defName="Hospitality_Animals"]/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_GetPawnKind"]</xpath>
@@ -65,13 +78,13 @@
 								<li>
 									<categoryTag>OG_Outlander_Craftworld</categoryTag>
 									<pawnKinds>
-									
+										<li>OG_Gyrinx</li>
 									</pawnKinds>
 								</li>
 								<li>
 									<categoryTag>OG_Tribal_Exodite</categoryTag>
 									<pawnKinds>
-									
+										<li>OG_Gyrinx</li>
 									</pawnKinds>
 								</li>              
 							</choices>
@@ -89,7 +102,7 @@
 						</li>
 					</value>
 				</match>
-			</li-->
+			</li>
 		</operations>
 	</Operation>
 </Patch>

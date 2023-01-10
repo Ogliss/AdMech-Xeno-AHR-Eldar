@@ -41,11 +41,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
+    <Folder Include="Utils\ExtentsionMethods\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AeldariMain.cs" />
     <Compile Include="CompPowerPlantWindEldar.cs" />
     <Compile Include="ExtentsionMethods\AdeptusMechanicusEldarExtensions.cs" />
+    <Compile Include="Harmony\Patches\AlienRaceUtility_RaceAgeSkillFactor_Aeldari_Patch.cs" />
+    <Compile Include="Harmony\Patches\AlienRaceUtility_RaceAgeSkillMaxFactorCurve_Aeldari_Patch.cs" />
     <Compile Include="Harmony\Patches\PawnGenerator_GeneratePawn_DarkEldar_Patch.cs" />
     <Compile Include="Harmony\Patches\PawnGenerator_GeneratePawn_Eldar_Patch.cs" />
     <Compile Include="Harmony\Patches\Pawn_NeedsTracker_ShouldHaveNeed_DarkEldarSoulNeed_Patch.cs" />
@@ -61,13 +64,12 @@
     <Compile Include="Needs\Need_DarkEldar_Soul.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_DarkEldar_NeedSoul.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_Eldar_NeedSoulstone.cs" />
-    <Compile Include="Utils\ExtentsionMethods\DarkEldarExtensions.cs" />
     <Compile Include="Utils\SoulCategory.cs" />
     <Compile Include="WraithConstructs\CompSoulStone.cs" />
     <Compile Include="WraithConstructs\WraithPawn.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.4.3542" GeneratePathProperty="true" />
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.4.3563" GeneratePathProperty="true" />
     <PackageReference Include="Lib.Harmony">
       <Version>2.2.2</Version>
     </PackageReference>

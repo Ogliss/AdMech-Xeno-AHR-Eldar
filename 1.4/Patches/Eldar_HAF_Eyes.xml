@@ -11,7 +11,7 @@
 					<operations>
 						
          <li Class="PatchOperationAdd">
-            <xpath>/Defs/AlienRace.ThingDef_AlienRace[@Name="OG_Eldar_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
+            <xpath>/Defs/AlienRace.ThingDef_AlienRace[@Name="OG_Eldar_RaceBase"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
             <value>
                <!-- Male Eyes -->
                <li>
