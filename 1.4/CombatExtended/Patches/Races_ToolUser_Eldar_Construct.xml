@@ -64,7 +64,7 @@
 			</value>
 		</li>
 		
-		<li Class="CombatExtended.PatchOperationMakeWeaponCECompatible">
+		<li Class="AdeptusMechanicus.PatchOperationMakeWeaponCECompatible">
 			<defName>OG_Eldar_Wraithguard_Race</defName>
 			<statBases>
 				<ArmorRating_Blunt>72</ArmorRating_Blunt>
@@ -112,7 +112,7 @@
 			</tools>
 		</li>
   
-		<li Class="CombatExtended.PatchOperationMakeWeaponCECompatible">
+		<li Class="AdeptusMechanicus.PatchOperationMakeWeaponCECompatible">
 			<defName>OG_Eldar_Wraithlord_Race</defName>
 			<statBases>
 				<ArmorRating_Blunt>108</ArmorRating_Blunt>

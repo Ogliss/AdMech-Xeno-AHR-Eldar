@@ -160,13 +160,13 @@
       
       <!-- Weapons -->
       <li Class="StockGenerator_MarketValue">
-        <tradeTag>WeaponRanged</tradeTag>
-        <countRange>5~5</countRange>
+        <tradeTag>OGDERanged</tradeTag>
+        <countRange>3~6</countRange>
       </li>
       <li Class="StockGenerator_Category">
-        <categoryDef>WeaponsMelee</categoryDef>
-        <thingDefCountRange>6~6</thingDefCountRange>
-        <countRange>1~1</countRange>
+        <categoryDef>OGDEMelee</categoryDef>
+        <thingDefCountRange>3~4</thingDefCountRange>
+        <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>MortarShell</tradeTag>
@@ -174,14 +174,14 @@
         <countRange>3~15</countRange>
       </li>
       
-      <li Class="StockGenerator_Category">
-        <categoryDef>OGDERanged</categoryDef>
-        <thingDefCountRange>6~6</thingDefCountRange>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>OGDEPowerWeapon</tradeTag>
+        <thingDefCountRange>1~3</thingDefCountRange>
         <countRange>1~3</countRange>
       </li>
-      <li Class="StockGenerator_Category">
-        <categoryDef>OGDERanged</categoryDef>
-        <thingDefCountRange>6~6</thingDefCountRange>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>OGDEForceWeapon</tradeTag>
+        <thingDefCountRange>0~2</thingDefCountRange>
         <countRange>1~1</countRange>
       </li>
       <!-- Apparel -->
@@ -192,12 +192,12 @@
       <li Class="StockGenerator_Category">
         <categoryDef>OGDEArmour</categoryDef>
         <thingDefCountRange>6~6</thingDefCountRange>
-        <countRange>1~1</countRange>
+        <countRange>1~4</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>OGDEHeadgear</categoryDef>
         <thingDefCountRange>6~6</thingDefCountRange>
-        <countRange>1~1</countRange>
+        <countRange>1~4</countRange>
       </li>
       
       <!-- Implants -->

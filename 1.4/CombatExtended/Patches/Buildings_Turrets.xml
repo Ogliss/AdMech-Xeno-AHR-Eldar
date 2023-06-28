@@ -34,7 +34,7 @@
 					<AimingAccuracy IgnoreIfNoMatchingField="True">0.25</AimingAccuracy>
 				</value>
 			</li>
-			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeWeaponCECompatible">
 				<defName>OGE_GunTurret_SurikenCannonDual</defName>
 				<statBases>
 				  <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
@@ -109,7 +109,7 @@
 					<AimingAccuracy IgnoreIfNoMatchingField="True">0.75</AimingAccuracy>
 				</value>
 			</li>
-			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeWeaponCECompatible">
 				<defName>OGE_GunTurret_Missile</defName>
 				<statBases>
 				  <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
@@ -160,7 +160,7 @@
 					<AimingAccuracy IgnoreIfNoMatchingField="True">0.75</AimingAccuracy>
 				</value>
 			</li>
-			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeWeaponCECompatible">
 				<defName>OGE_GunTurret_Brightlance</defName>
 				<statBases>
 				  <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
@@ -211,7 +211,7 @@
 					<AimingAccuracy IgnoreIfNoMatchingField="True">0.75</AimingAccuracy>
 				</value>
 			</li>
-			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeWeaponCECompatible">
 				<defName>OGE_GunTurret_BrightlanceDual</defName>
 				<statBases>
 				  <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
@@ -293,7 +293,7 @@
 					<AimingAccuracy IgnoreIfNoMatchingField="True">0.75</AimingAccuracy>
 				</value>
 			</li>
-			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeWeaponCECompatible">
 				<defName>OGE_GunTurret_DistortCannon</defName>
 				<statBases>
 				  <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
@@ -384,7 +384,7 @@
 					<AimingAccuracy IgnoreIfNoMatchingField="True">0.75</AimingAccuracy>
 				</value>
 			</li>
-			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeWeaponCECompatible">
 				<defName>OGE_GunTurret_VibroCannon</defName>
 				<statBases>
 				  <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>

@@ -50,7 +50,7 @@
 			</value>
 		</li>
 
-		<li Class="CombatExtended.PatchOperationMakeWeaponCECompatible">
+		<li Class="AdeptusMechanicus.PatchOperationMakeWeaponCECompatible">
 			<defName>OG_DarkEldar_TalosPainEngine_Race</defName>
 			<statBases>
 				<ArmorRating_Blunt>50</ArmorRating_Blunt>

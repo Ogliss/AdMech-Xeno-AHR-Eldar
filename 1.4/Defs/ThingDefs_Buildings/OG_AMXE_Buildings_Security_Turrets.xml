@@ -242,9 +242,7 @@
 			<texPath>Things/Building/Eldar/Security/TurretMount_MissileLauncher_Top</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-	<comps>		 
-		<li Class="OgsCompOversizedWeapon.CompProperties_OversizedWeapon">
-		</li>	
+	<comps>
 	</comps>
 		<statBases>
 			<AccuracyTouch>0.25</AccuracyTouch>

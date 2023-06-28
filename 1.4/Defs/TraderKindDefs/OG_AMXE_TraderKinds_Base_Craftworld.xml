@@ -130,11 +130,11 @@
 
       <!-- Weapons -->
       <li Class="StockGenerator_MarketValue">
-        <tradeTag>WeaponRanged</tradeTag>
+        <tradeTag>OGERanged</tradeTag>
         <countRange>3~6</countRange>
       </li>
       <li Class="StockGenerator_Category">
-        <categoryDef>WeaponsMelee</categoryDef>
+        <categoryDef>OGEMelee</categoryDef>
         <thingDefCountRange>3~4</thingDefCountRange>
         <countRange>1~2</countRange>
       </li>

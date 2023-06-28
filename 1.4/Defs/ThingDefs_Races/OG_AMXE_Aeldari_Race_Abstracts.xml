@@ -133,6 +133,7 @@
 				<li>BodyType</li>
 				<li>Headbone</li>
 				<li>Head</li>
+				<li>Jaw</li>
 			</blackEndoCategories>
 				<researchList>
 						<li>
@@ -255,26 +256,26 @@
 				</points>
 			</litterSizeCurve>
 			<lifeStageAges>
-			<li>
-				<def>HumanlikeBaby</def>
-				<minAge>0</minAge>
-			</li>
-			<li>
-				<def>HumanlikeChild</def>
-				<minAge>3</minAge>
-			</li>
-			<li MayRequire="Ludeon.RimWorld.Biotech">
-				<def>HumanlikePreTeenager</def>
-				<minAge>9</minAge>
-			</li>
-			<li>
-				<def>HumanlikeTeenager</def>
-				<minAge>13</minAge>
-			</li>
-			<li>
-				<def>HumanlikeAdult</def>
-				<minAge>18</minAge>
-			</li>
+				<li>
+					<def>HumanlikeBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>HumanlikeChild</def>
+					<minAge>3</minAge>
+				</li>
+				<li MayRequire="Ludeon.RimWorld.Biotech">
+					<def>HumanlikePreTeenager</def>
+					<minAge>9</minAge>
+				</li>
+				<li>
+					<def>HumanlikeTeenager</def>
+					<minAge>13</minAge>
+				</li>
+				<li>
+					<def>HumanlikeAdult</def>
+					<minAge>18</minAge>
+				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>

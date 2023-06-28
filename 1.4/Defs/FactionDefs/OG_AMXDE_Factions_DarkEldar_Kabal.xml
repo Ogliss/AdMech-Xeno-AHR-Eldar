@@ -6,7 +6,7 @@
 		<pawnSingular>drukhar</pawnSingular>
 		<pawnsPlural>drukhari</pawnsPlural>
 		<leaderTitle>Archon</leaderTitle>
-		<basicMemberKind>OG_DarkEldar_Kabalite_Warrior</basicMemberKind>
+		<basicMemberKind>OG_DarkEldar_Kabalite_Ranged</basicMemberKind>
 		<listOrderPriority>30</listOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -55,6 +55,7 @@
 
 	<FactionDef Abstract="True" Name="OG_DarkEldar_Kabal_Faction_Base" ParentName="OG_DarkEldar_Faction_Base">
 		<label>drukhari raiders</label>
+		<categoryTag>OG_Outlander_Aeldari_Drukhari</categoryTag>
 		<maxConfigurableAtWorldCreation IgnoreIfNoMatchingField="True">9999</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority IgnoreIfNoMatchingField="True">20</configurationListOrderPriority>
 		<allowedCultures IgnoreIfNoMatchingField="True">
@@ -84,7 +85,7 @@
 				<kindDef>Combat</kindDef>
 				<options>
 					<OG_DarkEldar_Cadet>7</OG_DarkEldar_Cadet>
-					<OG_DarkEldar_Kabalite_Warrior>10</OG_DarkEldar_Kabalite_Warrior>
+					<OG_DarkEldar_Kabalite_Ranged>10</OG_DarkEldar_Kabalite_Ranged>
 					<OG_DarkEldar_Kabalite_Sybarite>4</OG_DarkEldar_Kabalite_Sybarite>
 					<OG_DarkEldar_Kabalite_Support>5</OG_DarkEldar_Kabalite_Support>
 					<OG_DarkEldar_Wych>6</OG_DarkEldar_Wych>
@@ -101,7 +102,7 @@
 				<kindDef>Peaceful</kindDef>
 				<options>
 					<OG_DarkEldar_Cadet>7</OG_DarkEldar_Cadet>
-					<OG_DarkEldar_Kabalite_Warrior>10</OG_DarkEldar_Kabalite_Warrior>
+					<OG_DarkEldar_Kabalite_Ranged>10</OG_DarkEldar_Kabalite_Ranged>
 					<OG_DarkEldar_Kabalite_Support>5</OG_DarkEldar_Kabalite_Support>
 					<OG_DarkEldar_Medusae>3</OG_DarkEldar_Medusae>
 				</options>
@@ -117,8 +118,8 @@
 				</carriers>
 				<guards>
 					<OG_DarkEldar_Cadet>7</OG_DarkEldar_Cadet>
-					<OG_DarkEldar_Kabalite_Warrior>10</OG_DarkEldar_Kabalite_Warrior>
-					<OG_DarkEldar_Kabalite_Storm>10</OG_DarkEldar_Kabalite_Storm>
+					<OG_DarkEldar_Kabalite_Ranged>10</OG_DarkEldar_Kabalite_Ranged>
+					<OG_DarkEldar_Kabalite_Melee>10</OG_DarkEldar_Kabalite_Melee>
 					<OG_DarkEldar_Medusae>3</OG_DarkEldar_Medusae>
 					<OG_DarkEldar_Kabalite_Support>5</OG_DarkEldar_Kabalite_Support>
 				</guards>
@@ -127,8 +128,8 @@
 				<kindDef>Settlement</kindDef>
 				<options>
 					<OG_DarkEldar_Cadet>9</OG_DarkEldar_Cadet>
-					<OG_DarkEldar_Kabalite_Warrior>10</OG_DarkEldar_Kabalite_Warrior>
-					<OG_DarkEldar_Kabalite_Storm>10</OG_DarkEldar_Kabalite_Storm>
+					<OG_DarkEldar_Kabalite_Ranged>10</OG_DarkEldar_Kabalite_Ranged>
+					<OG_DarkEldar_Kabalite_Melee>10</OG_DarkEldar_Kabalite_Melee>
 					<OG_DarkEldar_Kabalite_Support>5</OG_DarkEldar_Kabalite_Support>
 					<OG_DarkEldar_Kabalite_Sybarite>4</OG_DarkEldar_Kabalite_Sybarite>
 					<OG_DarkEldar_Wych>6</OG_DarkEldar_Wych>
@@ -145,7 +146,7 @@
 	</FactionDef>
 	
 	<FactionDef Abstract="True" Name="OG_DarkEldar_Kabal_BlackHand_Base" ParentName="OG_DarkEldar_Kabal_Faction_Base">
-		<label>dark eldar raiders</label>
+		<label>Kabal of the Black Hand</label>
 		<factionIconPath>Icons/DarkEldar/Icon_DarkEldar</factionIconPath>
 		<settlementTexturePath>Icons/DarkEldar/Icon_DarkEldar</settlementTexturePath>
 		<colorSpectrum>

@@ -4,7 +4,7 @@
 		<!--success>Always</success-->
 		<operations>
 			<!-- ========================= Dark Kabalite Armour ========================== -->
-			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_Kabalite</defName>
 				<statBases>
 					<ArmorRating_Sharp>9</ArmorRating_Sharp>
@@ -19,7 +19,7 @@
 			</li>
 
 			<!-- ========================= Kabalite Helmet ========================== -->
-			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_KabaliteHelmet</defName>
 				<statBases>
 					<ArmorRating_Sharp>8</ArmorRating_Sharp>
@@ -34,7 +34,7 @@
 			</li>
 			
 			<!-- ========================= Sybarite Armour ========================== -->
-			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_Sybarite</defName>
 				<statBases>
 					<ArmorRating_Sharp>12</ArmorRating_Sharp>
@@ -49,7 +49,7 @@
 			</li>
 			
 			<!-- ========================= Sybarite Helmet ========================== -->
-			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_SybariteHelmet</defName>
 				<statBases>
 					<ArmorRating_Sharp>9</ArmorRating_Sharp>
@@ -65,7 +65,7 @@
 			
 			<!--========================= 5+ ==========================-->
 			<!-- ========================= Wych Armour ========================== -->
-			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_Wych</defName>
 				<statBases>
 					<ArmorRating_Sharp>6</ArmorRating_Sharp>
@@ -90,7 +90,7 @@
 			</li>
 		
 			<!-- ========================= Wych Helmet ========================== -->
-			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_WychHelmet</defName>
 				<statBases>
 					<Bulk>4</Bulk>
@@ -107,7 +107,7 @@
 			</li>
 			
 			<!-- ========================= Beastmaster Helmet ========================== -->
-			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_BeastmasterHelmet</defName>
 				<statBases>
 					<Bulk>4</Bulk>
@@ -123,7 +123,7 @@
 			</li>
 
 			<!-- ========================= Haemonculi Armour ========================== -->
-			<!--li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<!--li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_Haemonculi</defName>
 				<statBases>
 					<ArmorRating_Sharp>15</ArmorRating_Sharp>
@@ -139,7 +139,7 @@
 			</li-->
 
 			<!-- ========================= Haemonculi Helmet ========================== -->
-			<!--li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<!--li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_HaemonculiHelmet</defName>
 				<statBases>
 					<ArmorRating_Sharp>12</ArmorRating_Sharp>
@@ -155,7 +155,7 @@
 			</li-->
 			
 			<!-- ========================= Hellion Armour ========================== -->
-			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_Hellion</defName>
 				<statBases>
 					<ArmorRating_Sharp>15</ArmorRating_Sharp>
@@ -171,7 +171,7 @@
 			</li>
 
 			<!-- ========================= Hellion Helmet ========================== -->
-			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_HellionHelmet</defName>
 				<statBases>
 					<ArmorRating_Sharp>12</ArmorRating_Sharp>
@@ -187,7 +187,7 @@
 			</li>
 			
 			<!-- ========================= Scourge Armour ========================== -->
-			<!--li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<!--li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_Scourge</defName>
 				<statBases>
 					<ArmorRating_Sharp>15</ArmorRating_Sharp>
@@ -203,7 +203,7 @@
 			</li-->
 
 			<!-- ========================= Scourge Helmet ========================== -->
-			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_ScourgeHelmet</defName>
 				<statBases>
 					<ArmorRating_Sharp>12</ArmorRating_Sharp>
@@ -220,7 +220,7 @@
 			
 			<!--========================= 3+ ==========================-->
 			<!-- ========================= Incubi Armour ========================== -->
-			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_Incubi</defName>
 				<statBases>
 					<ArmorRating_Sharp>24</ArmorRating_Sharp>
@@ -235,7 +235,7 @@
 			</li>	
 
 			<!-- ========================= Incubi Helmet ========================== -->
-			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_IncubiHelmet</defName>
 				<statBases>
 					<ArmorRating_Sharp>19</ArmorRating_Sharp>
@@ -250,7 +250,7 @@
 			</li>
 			
 			<!-- ========================= Incubi Lord Armour ========================== -->
-			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_IncubiLord</defName>
 				<statBases>
 					<ArmorRating_Sharp>24</ArmorRating_Sharp>
@@ -265,7 +265,7 @@
 			</li>
 
 			<!-- ========================= Incubi Lord Helmet ========================== -->
-			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_IncubiLordHelmet</defName>
 				<statBases>
 					<ArmorRating_Sharp>19</ArmorRating_Sharp>
@@ -280,7 +280,7 @@
 			</li>
 			
 			<!-- ========================= Archon Armour ========================== -->
-			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_Archon</defName>
 				<statBases>
 					<ArmorRating_Sharp>24</ArmorRating_Sharp>
@@ -296,7 +296,7 @@
 			</li>
 
 			<!-- ========================= Archon Helmet ========================== -->
-			<li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_ArchonHelmet</defName>
 				<statBases>
 					<ArmorRating_Sharp>19</ArmorRating_Sharp>
@@ -312,7 +312,7 @@
 			</li>
 				
 			<!-- ========================= Wrack Helmet ========================== -->
-			<!--li Class="CombatExtended.PatchOperationMakeApparelCECompatible">
+			<!--li Class="AdeptusMechanicus.PatchOperationMakeApparelCECompatible">
 				<defName>OGDE_Apparel_Armor_WrackHelmet</defName>
 				<statBases>
 					<ArmorRating_Sharp>19</ArmorRating_Sharp>

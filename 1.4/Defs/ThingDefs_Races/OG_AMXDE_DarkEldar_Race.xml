@@ -131,6 +131,7 @@
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<alignWithHead>true</alignWithHead>
 							<debug>false</debug>
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
 							<defaultOffset>Center</defaultOffset>
 							<offsets>
 								<south>

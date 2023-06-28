@@ -927,7 +927,7 @@
 		<label>warlock rune armour</label>
 		<description>Warlock Rune Armour is a protective wraithbone armour suit psychically moulded to its Eldar recipient. It provides greater protection than other, bulkier forms of armour, in part because its psychic energy can deflect a shot or blast before it hits the armour. Even lascannons and Plasma Weapons can be turned aside by Rune Armour. This Rune Armour is worn only by Warlocks.\n\nONLY WEARABLE BY ELDAR!</description>
 		<tickerType>Normal</tickerType>
-		<thingClass>AdeptusMechanicus.PsychicShield</thingClass>
+		<thingClass>AdeptusMechanicus.ApparelComposite</thingClass>
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/WarlockArmour/_Icon</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -995,6 +995,13 @@
 			<li>Apparel</li>
 		</tradeTags>
 		<comps>
+			<li Class="AdeptusMechanicus.CompProperties_Shield">
+				<psykerRequired>true</psykerRequired>
+				<allowRangedAttacks>true</allowRangedAttacks>
+				<blocksMeleeWeapons>true</blocksMeleeWeapons>
+				<drawX>1.1</drawX>
+				<drawY>1.1</drawY>
+			</li>
 			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
 				<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
 				<drawAll>true</drawAll>
@@ -1063,7 +1070,7 @@
 		<label>farseer rune armour</label>
 		<description>Farseer Rune Armour is a protective wraithbone armour suit psychically moulded to its Eldar recipient. It provides greater protection than other, bulkier forms of armour, in part because its psychic energy can deflect a shot or blast before it hits the armour. Even lascannons and Plasma Weapons can be turned aside by Rune Armour. Rune Armour is worn only by Farseers.\n\nONLY WEARABLE BY ELDAR!</description>
 		<tickerType>Normal</tickerType>
-		<thingClass>AdeptusMechanicus.PsychicShield</thingClass>
+		<thingClass>AdeptusMechanicus.ApparelComposite</thingClass>
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/RuneArmour/_Icon</texPath>
 			<shaderType>CutoutComplex</shaderType>
@@ -1133,6 +1140,13 @@
 			<li>Apparel</li>
 		</tradeTags>
 		<comps>
+			<li Class="AdeptusMechanicus.CompProperties_Shield">
+				<psykerRequired>true</psykerRequired>
+				<allowRangedAttacks>true</allowRangedAttacks>
+				<blocksMeleeWeapons>true</blocksMeleeWeapons>
+				<drawX>1.1</drawX>
+				<drawY>1.1</drawY>
+			</li>
 			<li Class="AdeptusMechanicus.CompProperties_PauldronDrawer">
 			<compClass>AdeptusMechanicus.CompPauldronDrawer</compClass>
 				<PauldronEntries>
