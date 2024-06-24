@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.ThingDef_AlienRace Name="OG_DarkEldar_RaceBase" ParentName="OG_Aeldari_RaceBase" Abstract="True">
+		<defName>OG_Alien_DarkEldar</defName>
+		<label>Dark Eldar</label>
+		<alienRace>
+			<generalSettings>
+				<forcedRaceTraitEntries>
+				
+				</forcedRaceTraitEntries>
+				<disallowedTraits>
+				
+				</disallowedTraits>
+				<alienPartGenerator>
+					<headTypes>
+						<li>Male_Aeldari_Gaunt</li>
+						<li>Male_Aeldari_Pointy</li>
+						<li>Male_Aeldari_Square</li>
+						<li>Male_Aeldari_Straight</li>
+						<li>Male_Aeldari_Triangle</li>
+						<li>Female_Aeldari_Gaunt</li>
+						<li>Female_Aeldari_Pointy</li>
+						<li>Female_Aeldari_Square</li>
+						<li>Female_Aeldari_Straight</li>
+						<li>Female_Aeldari_Triangle</li>
+					</headTypes>
+					<!--useGenderedHeads>false</useGenderedHeads-->
+					<borderScale>1.5</borderScale>
+					<atlasScale>2</atlasScale>
+					<bodyAddons>
+						<!-- Eyes -->
+						<li>
+							<path>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Eye_Right</path>
+							<inFrontOfBody>true</inFrontOfBody>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<alignWithHead>true</alignWithHead>
+							<debug>false</debug>
+							<defaultOffset>Center</defaultOffset>
+							<conditions>
+								<BodyPart>
+									<bodyPart>Eye</bodyPart>
+									<bodyPartLabel>right eye</bodyPartLabel>
+								</BodyPart>
+								<Posture>
+									<drawnInBed>true</drawnInBed>
+									<drawnStanding>true</drawnStanding>
+									<drawnLaying>true</drawnLaying>
+								</Posture>
+								<RotStage>Fresh,Rotting</RotStage>
+								<Apparel>
+									<hiddenUnderApparelFor>
+										<li>FullHead</li>
+										<!--li>UpperHead</li-->
+									</hiddenUnderApparelFor>
+								</Apparel>
+							</conditions>
+							<offsets>
+								<south>
+									<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
+									<bodyTypes>
+										<Male>(-0.00,-0.0)</Male>
+										<Female>(-0.00,-0.0)</Female>
+									</bodyTypes>
+								</south>
+								<north>
+									<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
+									<bodyTypes>
+										<Male>(-0.00,-0.0)</Male>
+										<Female>(-0.00,-0.0)</Female>
+									</bodyTypes>
+								</north>
+								<east>
+									<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
+									<bodyTypes>
+										<Male>(-0.00,-0.0)</Male>
+										<Female>(-0.00,-0.0)</Female>
+									</bodyTypes>
+								</east>
+							</offsets>
+							<colorChannel>none</colorChannel>            
+							<hediffGraphics>
+								<BionicEye>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Bionic_Eye_R</BionicEye>
+								<!--MissingBodyPart>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Missing_Eye_R</MissingBodyPart-->
+							</hediffGraphics>
+						</li>
+						<li>
+							<path>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Eye_Left</path>
+							<inFrontOfBody>true</inFrontOfBody>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<alignWithHead>true</alignWithHead>
+							<debug>false</debug>
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+							<defaultOffset>Center</defaultOffset>
+							<conditions>
+								<BodyPart>
+									<bodyPart>Eye</bodyPart>
+									<bodyPartLabel>left eye</bodyPartLabel>
+								</BodyPart>
+								<Posture>
+									<drawnInBed>true</drawnInBed>
+									<drawnStanding>true</drawnStanding>
+									<drawnLaying>true</drawnLaying>
+								</Posture>
+								<RotStage>Fresh,Rotting</RotStage>
+								<Apparel>
+									<hiddenUnderApparelFor>
+										<li>FullHead</li>
+										<!--li>UpperHead</li-->
+									</hiddenUnderApparelFor>
+								</Apparel>
+							</conditions>
+							<offsets>
+								<south>
+									<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
+									<bodyTypes>
+										<Male>(-0.00,-0.000)</Male>
+										<Female>(-0.00,-0.000)</Female>
+									</bodyTypes>
+								</south>
+								<north>
+									<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
+									<bodyTypes>
+										<Male>(-0.00,-0.0)</Male>
+										<Female>(-0.00,-0.0)</Female>
+									</bodyTypes>
+								</north>
+								<east>
+									<layerOffset>-0.2740</layerOffset> <!-- -0.2740 -->
+									<bodyTypes>
+										<Male>(-0.00,-0.0)</Male>
+										<Female>(-0.00,-0.0)</Female>
+									</bodyTypes>
+								</east>
+							</offsets>
+							<colorChannel>none</colorChannel>   
+							<hediffGraphics>
+								<BionicEye>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Bionic_Eye_L</BionicEye>
+								<!--MissingBodyPart>Things/Pawn/Humanlike/Aeldari/Head/Eyes/Eldar_Missing_Eye_L</MissingBodyPart-->
+							</hediffGraphics>
+						</li>
+						<!-- Ears -->
+						<li Class="AdeptusMechanicus.LinkedBodyAddon">
+							<path>Things/Pawn/Humanlike/Aeldari/Head/Ears/Eldar_Ear_L</path>
+							<debug>false</debug>
+							<inFrontOfBody>true</inFrontOfBody>
+							<layerInvert>true</layerInvert>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<defaultOffset>Center</defaultOffset>
+							<conditions>
+								<BodyPart>
+									<bodyPart>Ear</bodyPart>
+									<bodyPartLabel>left ear</bodyPartLabel>
+								</BodyPart>
+								<Posture>
+									<drawnInBed>true</drawnInBed>
+									<drawnStanding>true</drawnStanding>
+									<drawnLaying>true</drawnLaying>
+								</Posture>
+								<RotStage>Fresh,Rotting</RotStage>
+								<Apparel>
+									<hiddenUnderApparelFor>
+										<li>FullHead</li>
+										<li>UpperHead</li>
+									</hiddenUnderApparelFor>
+								</Apparel>
+							</conditions>
+							<offsets>
+								  <south>
+									<layerOffset>-0.0</layerOffset> <!-- -0.2740 -->
+									<bodyTypes>
+										<Male>(-0.0,0.0)</Male>
+										<Female>(-0.0,0.0)</Female>
+									</bodyTypes>
+								  </south>
+								  <north>
+									<layerOffset>-0.0</layerOffset> <!-- -0.2740 -->
+									<bodyTypes>
+										<Male>(0,0.0)</Male>
+										<Female>(0,0.0)</Female>
+									</bodyTypes>
+								  </north>
+								  <east>
+									<layerOffset>-0.0</layerOffset> <!-- -0.2740 -->
+									<bodyTypes>
+										<Male>(-0.0,0.0)</Male>
+										<Female>(-0.0,0.0)</Female>
+									</bodyTypes>
+								  </east>
+							</offsets>
+							<colorChannel>skin</colorChannel>
+							<allowPairWith>
+								<li>
+									<li>0</li>
+									<li>4</li>
+								</li>
+								<li>
+									<li>1</li>
+									<li>2</li>
+								</li>
+							</allowPairWith>
+						</li>
+						<li Class="AdeptusMechanicus.LinkedBodyAddon">
+							<path>Things/Pawn/Humanlike/Aeldari/Head/Ears/Eldar_Ear_R</path>
+							<debug>false</debug>
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+							<inFrontOfBody>true</inFrontOfBody>
+							<layerInvert>true</layerInvert>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<defaultOffset>Center</defaultOffset>
+							<conditions>
+								<BodyPart>
+									<bodyPart>Ear</bodyPart>
+									<bodyPartLabel>right ear</bodyPartLabel>
+								</BodyPart>
+								<Posture>
+									<drawnInBed>true</drawnInBed>
+									<drawnStanding>true</drawnStanding>
+									<drawnLaying>true</drawnLaying>
+								</Posture>
+								<RotStage>Fresh,Rotting</RotStage>
+								<Apparel>
+									<hiddenUnderApparelFor>
+										<li>FullHead</li>
+										<li>UpperHead</li>
+									</hiddenUnderApparelFor>
+								</Apparel>
+							</conditions>
+							<offsets>
+								<south>
+									<layerOffset>-0.0</layerOffset> <!-- -0.2740 -->
+									<bodyTypes>
+										<Male>(-0.0,0.0)</Male>
+										<Female>(-0.0,0.0)</Female>
+									</bodyTypes>
+								</south>
+								<north>
+									<layerOffset>-0.0</layerOffset> <!-- -0.2740 -->
+									<bodyTypes>
+										<Male>(0,0.0)</Male>
+										<Female>(0,0.0)</Female>
+									</bodyTypes>
+								</north>
+								<east>
+									<layerOffset>-0.0</layerOffset> <!-- -0.2740 -->
+									<bodyTypes>
+										<Male>(-0.0,0.0)</Male>
+										<Female>(-0.0,0.0)</Female>
+									</bodyTypes>
+								</east>
+							</offsets>
+							<colorChannel>skin</colorChannel>
+						</li>
+					</bodyAddons>
+					<colorChannels>
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>10</weight>
+										<only>(216,206,208)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>(230,213,219)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>(211,205,174)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>(206,193,197)</only>
+									</li>
+									<!--li>
+										<weight>10</weight>
+										<min>(160,175,170)</min>
+										<max>(170,167,175)</max>
+									</li-->
+									<!--li>
+										<weight>10</weight>
+										<only>(69, 69, 69)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>(133, 133, 133)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>(105, 105, 105)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>(95, 124, 130)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>(50, 83, 89)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>(57, 77, 92)</only>
+									</li-->
+								</options>
+							</first>
+							<!--second Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(0.500, 1.000, 0.000, 1.000)</only>
+									</li>
+								</options>
+							</second-->
+						</li>
+						<li>
+							<name>hair</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+								<li>
+									<weight>10</weight>
+									<only>(219, 219, 219)</only>
+								</li>
+								</options>
+							</first>
+							<!--second Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(0.500, 1.000, 0.000, 1.000)</only>
+									</li>
+								</options>
+							</second-->
+						</li>
+					</colorChannels>
+				</alienPartGenerator>
+				<chemicalSettings>	
+					
+				</chemicalSettings>
+				<notXenophobistTowards>
+					<li>OG_Alien_Eldar</li>
+					<li>OG_Alien_DarkEldar</li>
+				</notXenophobistTowards>
+				<factionRelations>
+					<li>
+						<factions>
+							<li>PlayerColony</li>
+							<li>PlayerTribe</li>
+							<li>OutlanderCivil</li>
+							<li>OutlanderRough</li>
+							<li>TribeCivil</li>
+							<li>TribeRough</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>10</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li>OG_DarkEldar_Kabal_Faction</li>
+							<!--li>OG_DarkEldar_Kabal_PlayerColony</li-->
+						</factions>
+						<goodwill>
+							<min>-10</min>
+							<max>100</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_Astartes_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_AstartesNeophyte_PlayerColony</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_IoM</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tau_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_Faction</li>
+							<!--li>OG_Vespid_PlayerColony</li-->
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>25</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>10</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Waaagh</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Exodite_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Player_Exodite</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Harlequin_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Player_Harlequin</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Eldar_Craftworld_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_Chaos</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_ChaosMarineFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TraitorGuardFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TyranidFaction</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>-100</max>
+						</goodwill>
+					</li>
+				</factionRelations>
+			</generalSettings>
+			<graphicPaths>
+				<head>Things/Pawn/Humanlike/Aeldari/Head/</head>
+				<body>
+					<bodytypeGraphics>
+					  <Baby MayRequire="Ludeon.RimWorld.Biotech">
+						<path>Things/Pawn/Humanlike/Bodies/Naked_Child</path>
+					  </Baby>
+					  <Child MayRequire="Ludeon.RimWorld.Biotech">
+						<path>Things/Pawn/Humanlike/Bodies/Naked_Child</path>
+					  </Child>
+					  <Male>
+						<path>Things/Pawn/Humanlike/Aeldari/Bodies/Naked_Male</path>
+					  </Male>
+					  <Female>
+						<path>Things/Pawn/Humanlike/Aeldari/Bodies/Naked_Female</path>
+					  </Female>
+					</bodytypeGraphics>
+				</body>
+				<!--
+				<li>
+					<head>Things/Pawn/Humanlike/Aeldari/Head/</head>
+				</li>
+				-->
+			</graphicPaths>
+			<thoughtSettings>
+				<cannotReceiveThoughts>
+					<li>ObservedLayingCorpse</li>
+					<li>EnvironmentDark</li>
+					<li>NeedOutdoors</li>
+					<li>DeadMansApparel</li>
+					<li>KnowGuestExecuted</li>
+					<li>KnowPrisonerDiedInnocent</li>
+					<li>AteRawFood</li>
+					<li>AteWithoutTable</li>
+					<li>KnowPrisonerSold</li>
+					<li>KnowGuestOrganHarvested</li>
+					<li>KnowColonistOrganHarvested</li>
+					<li>KnowButcheredHumanlikeCorpse</li>
+					<li>ButcheredHumanlikeCorpse</li>
+					<li>WitnessedDeathNonAlly</li>
+					<li>ColonistBanished</li>
+					<li>ColonistBanishedToDie</li>
+					<li>PrisonerBanishedToDie</li>
+					<li>ButcheredHumanlikeCorpseOpinion</li>
+				</cannotReceiveThoughts>
+			</thoughtSettings>
+			<relationSettings>
+					<relationChanceModifierParent>1</relationChanceModifierParent>
+					<relationChanceModifierChild>1</relationChanceModifierChild>
+					<relationChanceModifierSibling>1</relationChanceModifierSibling>
+				
+					<relationChanceModifierLover>1</relationChanceModifierLover>
+					<relationChanceModifierExLover>1</relationChanceModifierExLover>
+				
+					<relationChanceModifierFiance>1</relationChanceModifierFiance>
+					<relationChanceModifierSpouse>1</relationChanceModifierSpouse>
+					<relationChanceModifierExSpouse>1</relationChanceModifierExSpouse>
+			</relationSettings>
+			<raceRestriction>
+				<researchList>
+					<li>
+						<projects>
+					
+						</projects>
+					</li>
+				</researchList>
+				<apparelList>
+					<!--li>OGDE_Apparel_Armor_Kabalite</li>
+					<li>OGDE_Apparel_Armor_KabaliteHelmet</li>
+					<li>OGDE_Apparel_Armor_Sybarite</li>
+					<li>OGDE_Apparel_Armor_SybariteHelmet</li>
+					<li>OGDE_Apparel_Armor_Wych</li>
+					<li>OGDE_Apparel_Armor_WychHelmet</li>
+					<li>OGDE_Apparel_Armor_Haemonculus</li>
+					<li>OGDE_Apparel_Armor_HaemonculusHelmet</li>
+					<li>OGDE_Apparel_Armor_Hellion</li>
+					<li>OGDE_Apparel_Armor_HellionHelmet</li>
+					<li>OGDE_Apparel_Armor_Scourge</li>
+					<li>OGDE_Apparel_Armor_ScourgeHelmet</li>
+					<li>OGDE_Apparel_Armor_Incubi</li>
+					<li>OGDE_Apparel_Armor_IncubiHelmet</li>
+					<li>OGDE_Apparel_Armor_Archon</li>
+					<li>OGDE_Apparel_Armor_ArchonHelmet</li-->
+					<!--li>OGDE_Apparel_TheHex</li>
+					<li>OGDE_Apparel_ProphetsofFlesh</li>
+					<li>OGDE_Apparel_TheEbonSting</li>
+					<li>OGDE_Apparel_TheBlackDescent</li>
+					<li>OGDE_Apparel_TheAltered</li>
+					<li>OGDE_Apparel_TheDarkCreed</li-->
+				</apparelList>
+				<recipeList>
+			
+				</recipeList>
+				<buildingList>
+				
+				</buildingList>
+			</raceRestriction>
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<!--getsGreyAt>15000</getsGreyAt--> 
+						<styleTagsOverride>
+							<li>OG_DarkEldar_Hair</li>
+							<li>Raider</li>
+							<li>Pirate</li>
+							<li>Punk</li>
+							<li>Tribal</li>
+						</styleTagsOverride>
+					</value>
+				</li>
+				<!--li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li-->
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
+		</alienRace>
+		<statBases>
+			<PsychicSensitivity>0.25</PsychicSensitivity>
+			<ButcheryFleshSpeed>1.15</ButcheryFleshSpeed>
+			<ButcheryFleshEfficiency>1.15</ButcheryFleshEfficiency>
+			<SmeltingSpeed>0.85</SmeltingSpeed>
+			<NegotiationAbility>0.75</NegotiationAbility>
+			<SocialImpact>0.75</SocialImpact>
+			<TradePriceImprovement>0.75</TradePriceImprovement>
+			<!--
+			-->
+		</statBases>
+		<tools>
+		
+		</tools>
+		<race>
+			<leatherDef>Leather_DarkEldar</leatherDef>
+			<nameGenerator>OG_DarkEldar_NamerPerson</nameGenerator>
+			<nameGeneratorFemale>OG_DarkEldar_NamerPersonFemale</nameGeneratorFemale>
+			<bloodDef>OG_FilthBlood_DarkEldar</bloodDef>
+			<lifeStageAges>
+			
+			</lifeStageAges>
+		</race>
+		<recipes>
+		
+		</recipes>
+		<comps>
+		
+		</comps>
+	</AlienRace.ThingDef_AlienRace>
+
+	<AlienRace.ThingDef_AlienRace ParentName="OG_DarkEldar_RaceBase">
+		<defName>OG_Alien_DarkEldar</defName>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

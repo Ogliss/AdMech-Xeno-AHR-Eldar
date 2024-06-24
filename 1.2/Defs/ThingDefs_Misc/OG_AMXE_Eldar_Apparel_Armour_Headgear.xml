@@ -19,7 +19,7 @@
 			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.75</ArmorRating_Heat>
 			<Insulation_Heat>2</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
 			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
 		</statBases>
@@ -133,7 +133,7 @@
 			<ArmorRating_Sharp>0.90</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.90</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 			<Bulk MayRequire="CETeam.CombatExtended">3</Bulk>
 			<WornBulk MayRequire="CETeam.CombatExtended">4</WornBulk>
 		</statBases>
@@ -190,7 +190,7 @@
 			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
 			<ArmorRating_Heat>1.06</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.01</MoveSpeed>
@@ -285,7 +285,7 @@
 			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
 			<ArmorRating_Heat>1.06</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.01</MoveSpeed>
@@ -341,7 +341,7 @@
 			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
 			<ArmorRating_Heat>1.06</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.01</MoveSpeed>
@@ -398,7 +398,7 @@
 			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
 			<ArmorRating_Heat>1.06</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.01</MoveSpeed>
@@ -507,7 +507,7 @@
 			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
 			<ArmorRating_Heat>1.06</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.01</MoveSpeed>
@@ -563,7 +563,7 @@
 			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
 			<ArmorRating_Heat>1.06</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.01</MoveSpeed>
@@ -656,7 +656,7 @@
 			<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.85</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
@@ -712,7 +712,7 @@
 			<ArmorRating_Sharp>0.87</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.87</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RuleDef>
+    <defName>OG_Portal_Webway_Core</defName>
+    <symbol>portal_webway_core</symbol>
+    <resolvers>
+      <li Class="AdeptusMechanicus.SymbolResolver_Portal_Webway_Core" />
+    </resolvers>
+  </RuleDef>
+
+  <RuleDef>
+    <defName>OG_Portal_Webway_Pregen</defName>
+    <symbol>portal_webway_pregen</symbol>
+    <resolvers>
+      <li Class="AdeptusMechanicus.SymbolResolver_Portal_Webway_Pregen" />
+    </resolvers>
+  </RuleDef>
+  
+  <RuleDef>
+    <defName>OG_Portal_Webway_Spine</defName>
+    <symbol>portal_webway_spine</symbol>
+    <resolvers>
+      <li Class="AdeptusMechanicus.SymbolResolver_Portal_Webway_Spine" />
+    </resolvers>
+  </RuleDef>
+
+  <RuleDef>
+    <defName>OG_Portal_Webway_Populate</defName>
+    <symbol>portal_webway_populate</symbol>
+    <resolvers>
+      <li Class="AdeptusMechanicus.SymbolResolver_Portal_Webway_Populate" />
+    </resolvers>
+  </RuleDef>
+</Defs>

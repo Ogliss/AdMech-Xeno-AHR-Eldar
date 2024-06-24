@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <IncidentCategoryDef>
+    <defName>OG_EndGame_WebwayEscape</defName>
+  </IncidentCategoryDef>
+
+  <IncidentDef ParentName="GiveQuestBase">
+    <defName>GiveQuest_OG_EndGame_WebwayEscape</defName>
+    <label>journey offer</label>
+    <letterLabel>Journey offer</letterLabel>
+    <questScriptDef>OG_EndGame_WebwayEscape</questScriptDef>
+    <baseChance>0</baseChance> <!-- given by a special storyteller comp -->
+  </IncidentDef>
+
+</Defs>

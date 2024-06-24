@@ -5,7 +5,7 @@
 		<ThingDef ParentName="OG_Eldar_Apparel_Armor_Headgear">
 		<defName>OGE_Apparel_MeshHelmet</defName>
 		<label>mesh armour helmet</label>
-		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons.[1][2] The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight.[3] Guardian mesh armour also contains additional features, including an independent air supply[4a] and heat-sensing lenses.[4b]</description>
+		<description>Mesh armour is commonly worn by Eldar Guardians. It is formed of tens of thousands of individual pieces of thermoplas interwoven to produce a dense material resembling reptile scales or chainmail. It becomes momentarily rigid when hit, spreading force across a larger area, thereby reducing the damage. The thermoplas also disperses heat rapidly, giving reasonable protection against energy weapons. The material is psychically sensitive, automatically reacting to the wearer's movements and thoughts to maintain a glove-tight fit as they move and fight. Guardian mesh armour also contains additional features, including an independent air supply and heat-sensing lenses.</description>
 		<graphicData>
 			<texPath>Things/Item/Apparel/Eldar/GuardianHelmet/_Icon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -19,7 +19,7 @@
 			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.75</ArmorRating_Heat>
 			<Insulation_Heat>2</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
@@ -129,7 +129,7 @@
 			<ArmorRating_Sharp>0.90</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.90</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
@@ -184,7 +184,7 @@
 			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
 			<ArmorRating_Heat>1.06</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.01</MoveSpeed>
@@ -279,7 +279,7 @@
 			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
 			<ArmorRating_Heat>1.06</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.01</MoveSpeed>
@@ -335,7 +335,7 @@
 			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
 			<ArmorRating_Heat>1.06</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.01</MoveSpeed>
@@ -392,7 +392,7 @@
 			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
 			<ArmorRating_Heat>1.06</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.01</MoveSpeed>
@@ -501,7 +501,7 @@
 			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
 			<ArmorRating_Heat>1.06</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.01</MoveSpeed>
@@ -557,7 +557,7 @@
 			<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
 			<ArmorRating_Heat>1.06</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.01</MoveSpeed>
@@ -650,7 +650,7 @@
 			<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.85</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
@@ -706,7 +706,7 @@
 			<ArmorRating_Sharp>0.87</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.87</ArmorRating_Heat>
 			<Insulation_Heat>3</Insulation_Heat>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Cold>10</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>

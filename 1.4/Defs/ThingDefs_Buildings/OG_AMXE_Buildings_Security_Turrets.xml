@@ -155,28 +155,28 @@
 		</statBases>
 		<verbs>
 			<li>
-		<verbClass>Verb_Shoot</verbClass>
-		<hasStandardCommand>true</hasStandardCommand>
-		<defaultProjectile>OGE_Bullet_ShurikenCannon</defaultProjectile>
-		<warmupTime>0</warmupTime>
-		<range>45</range>
-		<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-		<burstShotCount>21</burstShotCount>
-		<soundCast>OG_Shuriken_Sound</soundCast>
-		<soundCastTail>GunTail_Light</soundCastTail>
-		<muzzleFlashScale>8</muzzleFlashScale>
-		<targetParams>
-			<canTargetLocations>true</canTargetLocations>
-		</targetParams>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OGE_Bullet_ShurikenCannon</defaultProjectile>
+				<warmupTime>0</warmupTime>
+				<range>45</range>
+				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<burstShotCount>21</burstShotCount>
+				<soundCast>OG_Shuriken_Sound</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>8</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
 			</li>
 		</verbs>
 	<comps>	
 		<li Class="AdeptusMechanicus.CompProperties_Weapon_GunSpecialRules">
-		<VerbEntries>
-			<li>
-				<TwinLinked>true</TwinLinked>
-			</li>
-		</VerbEntries>
+			<VerbEntries>
+				<li>
+					<TwinLinked>true</TwinLinked>
+				</li>
+			</VerbEntries>
 		</li>		
 	</comps>
 	</ThingDef>

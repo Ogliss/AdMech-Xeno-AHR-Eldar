@@ -71,7 +71,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs</xpath>
 				<value>
-					<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseBullet">
+					<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseBulletCE">
 						<defName>OGE_Bullet_ShurikenCannonDual</defName>
 						<label>Shuriken</label>
 						<graphicData>

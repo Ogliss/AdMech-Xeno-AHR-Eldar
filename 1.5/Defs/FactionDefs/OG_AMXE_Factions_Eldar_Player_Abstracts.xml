@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FactionDef Abstract="True" Name="OG_Eldar_PlayerFaction_Base" ParentName="FactionBase">
+		<colorSpectrum>
+			<li>(1, 0.437, 0.847)</li>
+		</colorSpectrum>
+	</FactionDef>
+
+	<FactionDef Abstract="True" Name="OG_Eldar_Player_Craftworld_Base" ParentName="OG_Eldar_PlayerFaction_Base">
+		<label>Craftworld Eldar</label>
+		<description>Your own community.</description>
+		<isPlayer>true</isPlayer>
+		<pawnSingular>aeldar</pawnSingular>
+		<pawnsPlural>aeldari</pawnsPlural>
+		<categoryTag>OG_Outlander_Craftworld</categoryTag>
+		<basicMemberKind>Colonist_OG_Eldar_Craftworld</basicMemberKind>
+		<settlementNameMaker>OG_Eldar_NamerBases</settlementNameMaker>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>OG_Eldar_Craftworld_NamerFaction</factionNameMaker>
+		<techLevel>Ultra</techLevel>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<factionIconPath>Icons/Eldar/Icon_Eldar_Craftworld</factionIconPath>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Synthread</li>
+			</thingDefs>
+		</apparelStuffFilter>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Eldar_Craftworld</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<modExtensions>
+			<li Class="AdeptusMechanicus.FactionDefExtension">
+				<!--
+				<ForcedTraits>
+					<li>
+						<def>Bloodlust</def>
+						<degree>0</degree>
+						<Chance>1</Chance>
+					</li>
+				</ForcedTraits>
+				-->
+			</li>
+		</modExtensions>
+	</FactionDef>
+	
+<!--
+
+	<FactionDef	Abstract="True" Name="OG_Eldar_Player_Exodite_Base" ParentName="OG_Eldar_PlayerFaction_Base">
+		<label>Exodite Eldar</label>
+		<description>Eldar Exodite Start.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>Colonist_OG_Eldar_Craftworld</basicMemberKind>
+		<pawnsPlural>colonists</pawnsPlural>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>OG_Eldar_Craftworld_NamerFaction</factionNameMaker>
+		<settlementNameMaker>OG_Eldar_NamerBases</settlementNameMaker>
+		<techLevel>Ultra</techLevel>
+		<backstoryCategories>
+			<li>ExoditeCommand</li>
+		</backstoryCategories>
+		<factionIconPath>World/WorldObjects/TribalSettlement</factionIconPath>
+		<settlementTexturePath>Icons/Eldar/Icon_Eldar_Exodite_B</settlementTexturePath>
+		<startingResearchTags>
+			<li>TribalStart</li>
+		</startingResearchTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Synthread</li>
+			</thingDefs>
+		</apparelStuffFilter>
+		<colorSpectrum>
+			<li>(0, 0.437, 0.847)</li>
+		</colorSpectrum>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+	</FactionDef>
+	
+	<FactionDef Abstract="True" Name="OG_Eldar_Player_Harlequin_Base" ParentName="OG_Eldar_PlayerFaction_Base">
+		<label>Harlequin Eldar</label>
+		<description>Eldar Harlequin Start.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>Colonist_OG_Eldar_Craftworld</basicMemberKind>
+		<pawnsPlural>colonists</pawnsPlural>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>OG_Eldar_Craftworld_NamerFaction</factionNameMaker>
+		<settlementNameMaker>OG_Eldar_NamerBases</settlementNameMaker>
+		<techLevel>Ultra</techLevel>
+		<backstoryCategories>
+			<li>ExoditeCommand</li>
+		</backstoryCategories>
+		<factionIconPath>World/WorldObjects/TribalSettlement</factionIconPath>
+		<settlementTexturePath>Icons/Eldar/Icon_Eldar_Harlequin_B</settlementTexturePath>
+		<startingResearchTags>
+			<li>TribalStart</li>
+		</startingResearchTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Synthread</li>
+			</thingDefs>
+		</apparelStuffFilter>
+		<colorSpectrum>
+			<li>(0, 0.437, 0.847)</li>
+		</colorSpectrum>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+	</FactionDef>
+	
+-->
+</Defs>

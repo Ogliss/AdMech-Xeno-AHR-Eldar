@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <NeedDef>
+    <defName>OGDE_Soul</defName>
+    <needClass>AdeptusMechanicus.Need_DarkEldar_Soul</needClass>
+    <label>Soul</label>
+    <description>Food is the amount of nutrition a creature has consumed recently. If it is at zero, a creature will become increasingly malnourished and eventually die.</description>
+    <listPriority>0</listPriority>
+    <minIntelligence>Humanlike</minIntelligence>
+    <major>true</major>
+    <colonistAndPrisonersOnly>true</colonistAndPrisonersOnly>
+    <showForCaravanMembers>true</showForCaravanMembers>
+    <scaleBar>true</scaleBar>
+  </NeedDef>
+
+</Defs>

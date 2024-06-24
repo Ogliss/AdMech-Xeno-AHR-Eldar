@@ -1,0 +1,1077 @@
+<Defs>
+
+  <RulePackDef>
+    <defName>OG_PlaceMakerCommon_Asuryani</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>place_personalWeapon->shuriken catapult</li>
+        <li>place_personalWeapon->shuriken pistol</li>
+        <li>place_personalWeapon->chainsword</li>
+        <li>place_personalWeapon->powersword</li>
+        <li>place_massWeapon->an archotech mass-inverter</li>
+        <li>seismicDevice->a seismic quake-generation device</li>
+        <li>anEMPAttack->an EMP strike to the communication systems</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+<PlaceDef>
+  <defName>OG_Place_Alaitoc</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Alaitoc</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Alaitoc</li>
+      <li>place_adjective->Alaitoci</li>
+      <li>place_summary->a craftworld known for its use of Rangers and focus on stealth and misdirection</li>
+      <li>place_community->hidden ranger outpost</li>
+      <li>place_community->stealth training ground</li>
+      <li>place_powerCenter->Starstrider council chamber</li>
+      <li>place_job->ranger</li>
+      <li>place_job->scout</li>
+      <li>place_job->sniper</li>
+      <li>place_personalWeapon->long rifle</li>
+      <li>place_personalWeapon->shuriken pistol</li>
+      <li>place_massWeapon->stealth drone</li>
+      <li>place_massWeapon->neuro disruptor</li>
+      <li>place_foeLeader->imperial inquisitor</li>
+      <li>place_foeSoldiers->imperial stormtroopers</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Altansar</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Altansar</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Altansar</li>
+      <li>place_adjective->Altansari</li>
+      <li>place_summary->a craftworld believed lost in the Eye of Terror, now reemerging with a dark reputation</li>
+      <li>place_community->haunted dome</li>
+      <li>place_community->shadowed council chamber</li>
+      <li>place_powerCenter->crypt of the seers</li>
+      <li>place_job->seer</li>
+      <li>place_job->warlock</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_massWeapon->shadow lance</li>
+      <li>place_foeLeader->chaos sorcerer</li>
+      <li>place_foeSoldiers->chaos cultists</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_AnIolsus</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_AnIolsus</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->An-Iolsus</li>
+      <li>place_adjective->An-Iolsus</li>
+      <li>place_summary->a craftworld that allied with the Imperium during the Gothic War</li>
+      <li>place_community->warrior's enclave</li>
+      <li>place_community->imperial alliance hall</li>
+      <li>place_powerCenter->command spire</li>
+      <li>place_job->guardian</li>
+      <li>place_job->seer</li>
+      <li>place_job->aspect warrior</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->power sword</li>
+      <li>place_massWeapon->fire prism</li>
+      <li>place_massWeapon->wraithcannon</li>
+      <li>place_foeLeader->chaos warlord</li>
+      <li>place_foeSoldiers->chaos space marines</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_BielTan</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_BielTan</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Biel-Tan</li>
+      <li>place_adjective->Biel-Tani</li>
+      <li>place_summary->the most martial craftworld, dedicated to the reforging of the Eldar Empire</li>
+      <li>place_community->aspect shrine</li>
+      <li>place_community->warrior's training hall</li>
+      <li>place_powerCenter->temple of Khaine</li>
+      <li>place_job->aspect warrior</li>
+      <li>place_job->exarch</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->power sword</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_massWeapon->fire prism</li>
+      <li>place_massWeapon->warp spider jump generator</li>
+      <li>place_foeLeader->necron overlord</li>
+      <li>place_foeSoldiers->necron warriors</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_BlackLibrary</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_BlackLibrary</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Black Library</li>
+      <li>place_adjective->Black Library</li>
+      <li>place_summary->a secret craftworld housing a vast repository of forbidden Chaos lore</li>
+      <li>place_community->hidden vault</li>
+      <li>place_community->forbidden archive</li>
+      <li>place_powerCenter->chamber of the Black Council</li>
+      <li>place_job->librarian</li>
+      <li>place_job->warlock</li>
+      <li>place_job->seer</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_personalWeapon->runes of warding</li>
+      <li>place_massWeapon->void mine</li>
+      <li>place_massWeapon->psychic disruptor</li>
+      <li>place_foeLeader->chaos daemon prince</li>
+      <li>place_foeSoldiers->chaos space marines</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Crudarach</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Crudarach</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Crudarach</li>
+      <li>place_adjective->Crudarachi</li>
+      <li>place_summary->a lesser-known craftworld with a focus on ancient traditions</li>
+      <li>place_community->ancient dome</li>
+      <li>place_community->hall of echoes</li>
+      <li>place_powerCenter->eldritch spire</li>
+      <li>place_job->bonesinger</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->eldar spear</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->solar lance</li>
+      <li>place_massWeapon->wraithcannon</li>
+      <li>place_foeLeader->orks warboss</li>
+      <li>place_foeSoldiers->orks boyz</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Ctho</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Ctho</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Ctho</li>
+      <li>place_adjective->Ctho</li>
+      <li>place_summary->a legendary lost craftworld</li>
+      <li>place_community->hidden sanctuary</li>
+      <li>place_community->ancient archive</li>
+      <li>place_powerCenter->mystic spire</li>
+      <li>place_job->seer</li>
+      <li>place_job->warlock</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_massWeapon->psychic lance</li>
+      <li>place_massWeapon->wraithcannon</li>
+      <li>place_foeLeader->chaos sorcerer</li>
+      <li>place_foeSoldiers->chaos cultists</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Dorhai</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Dorhai</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Dorhai</li>
+      <li>place_adjective->Dorhai</li>
+      <li>place_summary->a craftworld that avoids contact, believing itself the only pure survivor of the Fall</li>
+      <li>place_community->isolated enclave</li>
+      <li>place_community->secluded shrine</li>
+      <li>place_powerCenter->purity sanctum</li>
+      <li>place_job->guardian</li>
+      <li>place_job->seer</li>
+      <li>place_job->warrior</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->power sword</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_massWeapon->wraithcannon</li>
+      <li>place_foeLeader->chaos lord</li>
+      <li>place_foeSoldiers->chaos space marines</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_FeinCineal</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_FeinCineal</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Féin-Cineál</li>
+      <li>place_adjective->Féin-Cineál</li>
+      <li>place_summary->a craftworld that was destroyed</li>
+      <li>place_community->ruined dome</li>
+      <li>place_community->memorial hall</li>
+      <li>place_powerCenter->crypt of the fallen</li>
+      <li>place_job->guardian</li>
+      <li>place_job->seer</li>
+      <li>place_job->warrior</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->power sword</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_massWeapon->wraithcannon</li>
+      <li>place_foeLeader->chaos sorcerer</li>
+      <li>place_foeSoldiers->chaos cultists</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Idharae</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Idharae</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Idharae</li>
+      <li>place_adjective->Idharaei</li>
+      <li>place_summary->a craftworld known for its mastery of the psychic arts and Wraithbone constructs</li>
+      <li>place_community->psychic training grounds</li>
+      <li>place_community->Wraithbone forges</li>
+      <li>place_community->sanctuary of the seers</li>
+      <li>place_powerCenter->Eversong's Spire</li>
+      <li>place_job->bonesinger</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->singing spear</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->wraithcannon</li>
+      <li>place_massWeapon->psychic lance</li>
+      <li>place_foeLeader->space marine captain</li>
+      <li>place_foeSoldiers->space marines</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_IlaManesh</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_IlaManesh</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Ila-Manesh</li>
+      <li>place_adjective->Ila-Maneshi</li>
+      <li>place_summary->a craftworld destroyed by the Night Lords, now a graveyard of Eldar souls</li>
+      <li>place_community->ruined halls</li>
+      <li>place_community->haunted sanctums</li>
+      <li>place_powerCenter->shadowed spire</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_job->wraithguard</li>
+      <li>place_personalWeapon->wraithblade</li>
+      <li>place_personalWeapon->ghostglaive</li>
+      <li>place_massWeapon->wraithcannon</li>
+      <li>place_massWeapon->d-cannon</li>
+      <li>place_foeLeader->night lords captain</li>
+      <li>place_foeSoldiers->night lords marines</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+
+<PlaceDef>
+  <defName>OG_Place_IlKaithe</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_IlKaithe</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Il-Kaithe</li>
+      <li>place_adjective->Il-Kaithei</li>
+      <li>place_summary->a craftworld renowned for its dedication to combating Chaos and the corruption it brings</li>
+      <li>place_community->warrior shrine</li>
+      <li>place_community->purification chamber</li>
+      <li>place_powerCenter->Sanctum of Purity</li>
+      <li>place_job->warrior</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->power sword</li>
+      <li>place_personalWeapon->shuriken pistol</li>
+      <li>place_massWeapon->psychic disruptor</li>
+      <li>place_massWeapon->chaos nullifier</li>
+      <li>place_foeLeader->chaos lord</li>
+      <li>place_foeSoldiers->chaos space marines</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Ilmaren</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Ilmaren</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Ilmaren</li>
+      <li>place_adjective->Ilmareni</li>
+      <li>place_summary->a lesser-known craftworld focused on preserving ancient Eldar knowledge</li>
+      <li>place_community->knowledge archives</li>
+      <li>place_community->scholar's sanctum</li>
+      <li>place_powerCenter->great library</li>
+      <li>place_job->scholar</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_massWeapon->star cannon</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_foeLeader->dark eldar archon</li>
+      <li>place_foeSoldiers->dark eldar warriors</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Iyanden</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Iyanden</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Iyanden</li>
+      <li>place_adjective->Iyandeni</li>
+      <li>place_summary->a once-great craftworld now devastated by Tyranid invasions, heavily relying on Wraith constructs</li>
+      <li>place_community->wraithbone forges</li>
+      <li>place_community->dome of the dead</li>
+      <li>place_powerCenter->Spire of the Dead</li>
+      <li>place_job->spiritseer</li>
+      <li>place_job->wraithguard</li>
+      <li>place_job->wraithlord</li>
+      <li>place_personalWeapon->wraithblade</li>
+      <li>place_personalWeapon->ghostglaive</li>
+      <li>place_massWeapon->wraithcannon</li>
+      <li>place_massWeapon->d-cannon</li>
+      <li>place_foeLeader->tyranid hive tyrant</li>
+      <li>place_foeSoldiers->tyranid warriors</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Iybraesil</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Iybraesil</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Iybraesil</li>
+      <li>place_adjective->Iybraesili</li>
+      <li>place_summary->a craftworld known for its veneration of the goddess Morai-Heg and its focus on female warriors</li>
+      <li>place_community->temple of Morai-Heg</li>
+      <li>place_community->warrior maiden training grounds</li>
+      <li>place_powerCenter->Oracle's Spire</li>
+      <li>place_job->warrior maiden</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->d-cannon</li>
+      <li>place_massWeapon->vibrocannon</li>
+      <li>place_foeLeader->dark eldar archon</li>
+      <li>place_foeSoldiers->dark eldar warriors</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Kaelor</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Kaelor</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Kaelor</li>
+      <li>place_adjective->Kaelorian</li>
+      <li>place_summary->an extremely isolated craftworld, virtually forgotten by the galaxy</li>
+      <li>place_community->Sentrium (capital city)</li>
+      <li>place_community->exiled house stronghold</li>
+      <li>place_powerCenter->Rivalin Dynasty palace</li>
+      <li>place_job->guardian</li>
+      <li>place_job->farseer</li>
+      <li>place_job->dire avenger</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->power sword</li>
+      <li>place_massWeapon->falcon grav-tank</li>
+      <li>place_massWeapon->warp spider web-spinner</li>
+      <li>place_foeLeader->chaos sorcerer</li>
+      <li>place_foeSoldiers->chaos space marines</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_KherYs</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_KherYs</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Kher-Ys</li>
+      <li>place_adjective->Kher-Ysi</li>
+      <li>place_summary->a lesser-known craftworld shrouded in mystery and ancient secrets</li>
+      <li>place_community->hidden enclave</li>
+      <li>place_community->ancient library</li>
+      <li>place_powerCenter->tower of secrets</li>
+      <li>place_job->seer</li>
+      <li>place_job->warrior</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_massWeapon->star cannon</li>
+      <li>place_massWeapon->psychic lance</li>
+      <li>place_foeLeader->dark eldar archon</li>
+      <li>place_foeSoldiers->dark eldar warriors</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Lanedin</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Lanedin</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Lan'edin</li>
+      <li>place_adjective->Lan'edini</li>
+      <li>place_summary->a craftworld known for its fierce independence and warrior culture</li>
+      <li>place_community->warrior's barracks</li>
+      <li>place_community->training grounds</li>
+      <li>place_powerCenter->war council</li>
+      <li>place_job->warrior</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->power sword</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_massWeapon->wraithcannon</li>
+      <li>place_foeLeader->orks warboss</li>
+      <li>place_foeSoldiers->orks boyz</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_LuNasad</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_LuNasad</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Lu'Nasad</li>
+      <li>place_adjective->Lu'Nasi</li>
+      <li>place_summary->a craftworld known for its mysterious rituals and arcane knowledge</li>
+      <li>place_community->ritual chamber</li>
+      <li>place_community->arcane library</li>
+      <li>place_powerCenter->oracle's spire</li>
+      <li>place_job->seer</li>
+      <li>place_job->warlock</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->runes of warding</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->eldritch storm</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_foeLeader->necron overlord</li>
+      <li>place_foeSoldiers->necron warriors</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Lugganath</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Lugganath</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Lugganath</li>
+      <li>place_adjective->Lugganathi</li>
+      <li>place_summary->a craftworld on the edge of known space, with a focus on expansion and exploration</li>
+      <li>place_community->explorer's hall</li>
+      <li>place_community->navigator's dome</li>
+      <li>place_powerCenter->starship command</li>
+      <li>place_job->explorer</li>
+      <li>place_job->ranger</li>
+      <li>place_job->seer</li>
+      <li>place_personalWeapon->long rifle</li>
+      <li>place_personalWeapon->shuriken pistol</li>
+      <li>place_massWeapon->plasma cannon</li>
+      <li>place_massWeapon->orbital bombardment</li>
+      <li>place_foeLeader->tyranid hive tyrant</li>
+      <li>place_foeSoldiers->tyranid warriors</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Malantai</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Malantai</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Malan'tai</li>
+      <li>place_adjective->Malan'tai</li>
+      <li>place_summary->a craftworld devastated by Tyranid invasions, with a focus on Wraith constructs</li>
+      <li>place_community->wraithbone forges</li>
+      <li>place_community->dome of the dead</li>
+      <li>place_powerCenter->Spire of the Dead</li>
+      <li>place_job->spiritseer</li>
+      <li>place_job->wraithguard</li>
+      <li>place_job->wraithlord</li>
+      <li>place_personalWeapon->wraithblade</li>
+      <li>place_personalWeapon->ghostglaive</li>
+      <li>place_massWeapon->wraithcannon</li>
+      <li>place_massWeapon->d-cannon</li>
+      <li>place_foeLeader->tyranid hive tyrant</li>
+      <li>place_foeSoldiers->tyranid warriors</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Miandrothe</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Miandrothe</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Miandrothe</li>
+      <li>place_adjective->Miandrothi</li>
+      <li>place_summary->a craftworld with a reputation for its artistic prowess and unique technological advancements</li>
+      <li>place_community->artisan's enclave</li>
+      <li>place_community->technological forge</li>
+      <li>place_powerCenter->innovation council</li>
+      <li>place_job->artisan</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->wraithcannon</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_foeLeader->imperial warlord</li>
+      <li>place_foeSoldiers->imperial guardsmen</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Mymeara</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Mymeara</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Mymeara</li>
+      <li>place_adjective->Mymearan</li>
+      <li>place_summary->a craftworld known for its ice-blue colors and focus on stealth and subterfuge</li>
+      <li>place_community->hidden sanctum</li>
+      <li>place_community->scout's refuge</li>
+      <li>place_powerCenter->cold spire</li>
+      <li>place_job->shadow spectre</li>
+      <li>place_job->ranger</li>
+      <li>place_job->seer</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->power sword</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_massWeapon->wraithcannon</li>
+      <li>place_foeLeader->imperial inquisitor</li>
+      <li>place_foeSoldiers->imperial stormtroopers</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Mynathensar</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Mynathensar</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Mynathensar</li>
+      <li>place_adjective->Mynathensari</li>
+      <li>place_summary->a lesser-known craftworld focused on preserving the ancient traditions and culture of the Eldar</li>
+      <li>place_community->cultural dome</li>
+      <li>place_community->historical archives</li>
+      <li>place_powerCenter->council of elders</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_job->artisan</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_massWeapon->star cannon</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_foeLeader->dark eldar archon</li>
+      <li>place_foeSoldiers->dark eldar warriors</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_OlhnTann</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_OlhnTann</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Olhn-Tann</li>
+      <li>place_adjective->Olhn-Tanni</li>
+      <li>place_summary->a craftworld noted for its strategic brilliance and exceptional commanders</li>
+      <li>place_community->war council chamber</li>
+      <li>place_community->strategist's hall</li>
+      <li>place_powerCenter->command spire</li>
+      <li>place_job->commander</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->power sword</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_massWeapon->wraithcannon</li>
+      <li>place_foeLeader->imperial warlord</li>
+      <li>place_foeSoldiers->imperial guardsmen</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Ostara</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Ostara</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Os'tara</li>
+      <li>place_adjective->Os'tarai</li>
+      <li>place_summary->a craftworld dedicated to spiritual pursuits and the study of the warp</li>
+      <li>place_community->spiritual sanctum</li>
+      <li>place_community->warp academy</li>
+      <li>place_powerCenter->psychic nexus</li>
+      <li>place_job->seer</li>
+      <li>place_job->warlock</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_personalWeapon->shuriken pistol</li>
+      <li>place_massWeapon->wraithcannon</li>
+      <li>place_massWeapon->psychic disruptor</li>
+      <li>place_foeLeader->chaos sorcerer</li>
+      <li>place_foeSoldiers->chaos space marines</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_SaimHann</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_SaimHann</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Saim-Hann</li>
+      <li>place_adjective->Saim-Hanni</li>
+      <li>place_summary->a craftworld known for its barbarous, wild culture and preference for fast, hit-and-run tactics</li>
+      <li>place_community->wild rider hall</li>
+      <li>place_community->jetbike stables</li>
+      <li>place_powerCenter->warrior council</li>
+      <li>place_job->wild rider</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->laser lance</li>
+      <li>place_massWeapon->scatter laser</li>
+      <li>place_massWeapon->star cannon</li>
+      <li>place_foeLeader->orks warboss</li>
+      <li>place_foeSoldiers->orks boyz</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+
+<PlaceDef>
+  <defName>OG_Place_Telennar</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Telennar</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Telennar</li>
+      <li>place_adjective->Telennari</li>
+      <li>place_summary->a mysterious craftworld with a focus on ancient knowledge and psychic prowess</li>
+      <li>place_community->seer council chamber</li>
+      <li>place_community->psychic academy</li>
+      <li>place_powerCenter->oracle's spire</li>
+      <li>place_job->seer</li>
+      <li>place_job->warlock</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_personalWeapon->shuriken pistol</li>
+      <li>place_massWeapon->wraithcannon</li>
+      <li>place_massWeapon->psychic lance</li>
+      <li>place_foeLeader->chaos sorcerer</li>
+      <li>place_foeSoldiers->chaos cultists</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Thuyela</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Thuyela</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Thuyela</li>
+      <li>place_adjective->Thuyelai</li>
+      <li>place_summary->a craftworld renowned for its artistic achievements and dedication to preserving Eldar culture</li>
+      <li>place_community->artisan's dome</li>
+      <li>place_community->museum of history</li>
+      <li>place_powerCenter->hall of the seers</li>
+      <li>place_job->artist</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_massWeapon->wraithcannon</li>
+      <li>place_foeLeader->dark eldar archon</li>
+      <li>place_foeSoldiers->dark eldar warriors</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Ulthwe</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Ulthwe</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Ulthwé</li>
+      <li>place_adjective->Ulthwé</li>
+      <li>place_summary->a craftworld near the Eye of Terror, constantly at war with Chaos forces</li>
+      <li>place_community->warrior's council</li>
+      <li>place_community->black guardian barracks</li>
+      <li>place_powerCenter->seer council</li>
+      <li>place_job->black guardian</li>
+      <li>place_job->seer</li>
+      <li>place_job->warlock</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->star cannon</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_foeLeader->chaos warlord</li>
+      <li>place_foeSoldiers->chaos space marines</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Varantha</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Varantha</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Varantha</li>
+      <li>place_adjective->Varanthai</li>
+      <li>place_summary->a craftworld known for its crafted gems, rare flowers, and beautiful metals</li>
+      <li>place_community->explorer's hall</li>
+      <li>place_community->artisan's dome</li>
+      <li>place_powerCenter->starship command</li>
+      <li>place_job->explorer</li>
+      <li>place_job->ranger</li>
+      <li>place_job->seer</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->power sword</li>
+      <li>place_massWeapon->plasma cannon</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_foeLeader->chaos lord</li>
+      <li>place_foeSoldiers->chaos space marines</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_YmeLoc</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_YmeLoc</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Yme-Loc</li>
+      <li>place_adjective->Yme-Locian</li>
+      <li>place_summary->a craftworld renowned for its artisans and colossal war machines</li>
+      <li>place_community->artisan's enclave</li>
+      <li>place_community->war machine foundry</li>
+      <li>place_powerCenter->forge temple</li>
+      <li>place_job->artisan</li>
+      <li>place_job->warlock</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->wraithknight</li>
+      <li>place_massWeapon->scorpion super-heavy tank</li>
+      <li>place_foeLeader->imperial warlord</li>
+      <li>place_foeSoldiers->imperial guardsmen</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Xamot</defName>
+  <tags>
+    <li>OG_OriginEldar</li>
+    <li>OG_Eldar</li>
+    <li>OG_Eldar_Craftworld</li>
+    <li>OG_Eldar_Craftworld_Xamot</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Asuryani</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->X'amot</li>
+      <li>place_adjective->X'amot</li>
+      <li>place_summary->a craftworld that was destroyed</li>
+      <li>place_community->ruined dome</li>
+      <li>place_community->memorial hall</li>
+      <li>place_powerCenter->crypt of the fallen</li>
+      <li>place_job->guardian</li>
+      <li>place_job->seer</li>
+      <li>place_job->warrior</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->power sword</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_massWeapon->wraithcannon</li>
+      <li>place_foeLeader->chaos warlord</li>
+      <li>place_foeSoldiers->chaos space marines</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+</Defs>

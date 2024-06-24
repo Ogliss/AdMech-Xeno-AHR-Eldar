@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>OGDE_TortureTable</defName>
+		<label>Torture Table</label>
+		<description>Torture Table</description>
+		<graphicData>
+			<texPath>Things/Building/DarkEldar/Decorations/Other/TortureTable/TortureTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<thingCategories>
+			<li>Buildings</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>0</Flammability>
+			<Beauty>15</Beauty>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Steel>60</Steel>
+		</costList>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.45</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<isSittable>false</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>		
+		<size>(1,1)</size>		
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>OGDE_Stocks</defName>
+		<label>Prisoner Stocks</label>
+		<description>Prisoner Stocks</description>
+		<graphicData>
+			<texPath>Things/Building/DarkEldar/Decorations/Other/Stocks</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<thingCategories>
+			<li>Buildings</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>0</Flammability>
+			<Beauty>15</Beauty>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Gold>10</Gold>
+			<Steel>80</Steel>
+		</costList>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.45</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<isSittable>false</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>		
+		<size>(1,1)</size>		
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>OGDE_SoulFireBrazier</defName>
+		<label>Soul Fire Brazier</label>
+		<description>Soul Fire Brazier</description>
+		<graphicData>
+			<texPath>Things/Building/DarkEldar/Decorations/Other/SoulFireBrazier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<thingCategories>
+			<li>Buildings</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>0</Flammability>
+			<Beauty>15</Beauty>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Steel>80</Steel>
+		</costList>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.45</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<isSittable>false</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>		
+		<size>(1,1)</size>	
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>10</glowRadius>
+				<glowColor>(78,226,229,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>3.5</heatPerSecond>
+				<heatPushMaxTemperature>23</heatPushMaxTemperature>
+			</li>
+			<!--li Class="CompProperties_FireOverlay">
+				<fireSize>0.4</fireSize>
+				<offset>(0,0,0.2)</offset>
+			</li-->
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes><li>Flame</li></focusTypes>
+				<offsets>
+					<li Class="FocusStrengthOffset_Lit">
+						<offset>0.1</offset>
+					</li>
+					<li Class="FocusStrengthOffset_BuildingDefsLit">
+						<defs>
+							<li>Campfire</li>
+							<li>TorchLamp</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">Darktorch</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">DarktorchFungus</li>
+						</defs>
+						<offsetPerBuilding>0.01</offsetPerBuilding>
+						<radius>9.9</radius>
+						<maxBuildings>8</maxBuildings>
+						<explanationKey>MeditationFocusPerFlame</explanationKey>
+						<explanationKeyAbstract>MeditationFocusPerFlameAbstract</explanationKeyAbstract>
+					</li>
+				</offsets>
+			</li>
+		</comps>	
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>OGDE_Spire</defName>
+		<label>Death Spire</label>
+		<description>Death Spire</description>
+		<graphicData>
+			<texPath>Things/Building/DarkEldar/Decorations/Other/Spire</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<thingCategories>
+			<li>Buildings</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>0</Flammability>
+			<Beauty>35</Beauty>
+			<TerrorSource MayRequire="Ludeon.RimWorld.Ideology">0</TerrorSource>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Gold>50</Gold>
+			<Steel>150</Steel>
+		</costList>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.5</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<isSittable>false</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<size>(1,2)</size>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>OGDE_SoulCairn</defName>
+		<label>Soul Cairn</label>
+		<description>Soul Cairn</description>
+		<graphicData>
+			<texPath>Things/Building/DarkEldar/Decorations/Other/SoulCairn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<thingCategories>
+			<li>Buildings</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>0</Flammability>
+			<Beauty>35</Beauty>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Gold>50</Gold>
+			<Steel>150</Steel>
+		</costList>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.5</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<isSittable>false</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>	
+		<size>(2,2)</size>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>OGDE_PrisonerCage</defName>
+		<label>Prisoner Cage</label>
+		<description>Prisoner Cage</description>
+		<graphicData>
+			<texPath>Things/Building/DarkEldar/Decorations/Other/PrisonerCage</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<thingCategories>
+			<li>Buildings</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>0</Flammability>
+			<Beauty>35</Beauty>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Gold>50</Gold>
+			<Steel>150</Steel>
+		</costList>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.5</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<isSittable>false</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>	
+		<size>(3,2)</size>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>OGDE_Flag_DarkEldar</defName>
+		<label>Black Heart Kabaal Flag</label>
+		<description>Black Heart Kabaal Flag</description>
+		<graphicData>
+			<texPath>Things/Building/DarkEldar/Decorations/Other/Flag_DarkEldar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,2)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<thingCategories>
+			<li>Buildings</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>12</Beauty>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Cloth>80</Cloth>
+			<Steel>60</Steel>
+		</costList>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.45</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<isSittable>false</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>	
+	</ThingDef>
+
+	<!--============================== Pile Decorations ==============================-->
+	<!--============================== Skull Pile ==============================-->
+	<ThingDef ParentName="FurnitureBase">
+		<defName>OGDE_Pile_Skull</defName>
+		<label>Skull Pile</label>
+		<description>Skull Pile</description>
+		<graphicData>
+			<texPath>Things/Building/DarkEldar/Decorations/Loot_Piles/Loot_Skulls</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<thingCategories>
+			<li>Buildings</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>8</Beauty>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Steel>50</Steel>
+		</costList>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.45</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<isSittable>false</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>		
+		<size>(1,1)</size>		
+	</ThingDef>
+
+	<!--============================== Weapon Decorations ==============================-->
+	<!--============================== Weapon Pile ==============================-->
+		<ThingDef ParentName="FurnitureBase">
+		<defName>OGDE_Pile_Weapon</defName>
+		<label>Weapon Pile</label>
+		<description>Weapon Loot Pile</description>
+		<graphicData>
+			<texPath>Things/Building/DarkEldar/Decorations/Weapon_Deco/Pile_Weapon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<thingCategories>
+			<li>Buildings</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>0</Flammability>
+			<Beauty>15</Beauty>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Steel>80</Steel>
+		</costList>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.45</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<isSittable>false</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>		
+		<size>(1,1)</size>		
+	</ThingDef>
+
+		<ThingDef ParentName="FurnitureBase">
+		<defName>OGDE_PikedDeath</defName>
+		<label>Piked Corpses</label>
+		<description>Piked Corpses</description>
+		<graphicData>
+			<texPath>Things/Building/DarkEldar/Decorations/Weapon_Deco/PikedDeath</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<thingCategories>
+			<li>Buildings</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>0</Flammability>
+			<Beauty>10</Beauty>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<costList>
+			<Steel>60</Steel>
+		</costList>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc3</designationHotKey>
+		<fillPercent>0.45</fillPercent>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<building>
+			<isSittable>false</isSittable>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>		
+		<size>(1,1)</size>		
+	</ThingDef>
+
+</Defs>

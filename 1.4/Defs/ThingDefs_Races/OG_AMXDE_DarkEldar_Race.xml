@@ -348,7 +348,8 @@
 					
 				</chemicalSettings>
 				<notXenophobistTowards>
-					
+					<li>OG_Alien_Eldar</li>
+					<li>OG_Alien_DarkEldar</li>
 				</notXenophobistTowards>
 				<factionRelations>
 					<li>
@@ -441,7 +442,22 @@
 			</generalSettings>
 			<graphicPaths>
 				<head>Things/Pawn/Humanlike/Aeldari/Head/</head>
-				<body>Things/Pawn/Humanlike/Aeldari/Bodies/</body>
+				<body>
+					<bodytypeGraphics>
+					  <Baby>
+						<path>Things/Pawn/Humanlike/Bodies/Naked_Child</path>
+					  </Baby>
+					  <Child>
+						<path>Things/Pawn/Humanlike/Bodies/Naked_Child</path>
+					  </Child>
+					  <Male>
+						<path>Things/Pawn/Humanlike/Aeldari/Bodies/Naked_Male</path>
+					  </Male>
+					  <Female>
+						<path>Things/Pawn/Humanlike/Aeldari/Bodies/Naked_Female</path>
+					  </Female>
+					</bodytypeGraphics>
+				</body>
 				<!--
 				<li>
 					<head>Things/Pawn/Humanlike/Aeldari/Head/</head>
@@ -483,6 +499,10 @@
 					<relationChanceModifierExSpouse>1</relationChanceModifierExSpouse>
 			</relationSettings>
 			<raceRestriction>
+				<reproductionList>
+					<li>OG_Alien_Eldar</li>
+					<li>OG_Alien_DarkEldar</li>
+				</reproductionList>
 				<researchList>
 					<li>
 						<projects>
