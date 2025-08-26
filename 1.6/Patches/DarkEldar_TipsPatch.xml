@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/TipSetDef[defName = "GameplayTips"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TipSetDef[defName = "GameplayTips"]/tips</xpath>
+				<value>			
+					<li>Dark Eldar weapons and technology can only be produced/researched by Dark Eldar</li>
+					<!--li>Ask not the Eldar a question, for they will give you three answers, all of which are true and terrifying to know. - Inquisitor Czevak</li-->
+				</value>
+			</li>
+		</operations>	
+	</Operation>
+	
+</Patch>

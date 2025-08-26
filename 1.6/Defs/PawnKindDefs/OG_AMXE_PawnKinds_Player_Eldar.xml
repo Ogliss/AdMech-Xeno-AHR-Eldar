@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Abstract="True" Name="OG_Eldar_BaseKind_Player">
+		<race>OG_Alien_Eldar</race>
+		<combatPower>40</combatPower>
+		<isFighter>false</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelIgnorePollution MayRequire="Ludeon.RimWorld.Biotech">true</apparelIgnorePollution>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<initialWillRange>0~0</initialWillRange>
+		<humanPregnancyChance>0.006</humanPregnancyChance>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesAdulthood>
+					<li>Eldar_Craftworld</li>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld_Child</li>
+				</categoriesChildhood>
+				<commonality>1</commonality>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<PawnKindDef Name="Colonist_OG_Eldar_Craftworld_Base" ParentName="OG_Eldar_BaseKind_Player">
+		<defName>Colonist_OG_Eldar_Craftworld</defName>
+		<label>colonist (Aeldari)</label>
+		<defaultFactionType>OG_Eldar_Craftworld_PlayerColony</defaultFactionType>
+		<initialWillRange>0~0</initialWillRange>
+		<initialResistanceRange>13~21</initialResistanceRange>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>350~600</apparelMoney>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<backstoryFiltersOverride Inherit="false">
+			<li>
+				<categoriesAdulthood>
+					<li>Eldar_Craftworld_Civilian</li>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld_Child</li>
+				</categoriesChildhood>
+				<commonality>1</commonality>
+			</li>
+			<li>
+				<categoriesAdulthood>
+					<li>Eldar_Craftworld_Warrior</li>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld_Child</li>
+				</categoriesChildhood>
+				<commonality>0.75</commonality>
+			</li>
+			<li>
+				<categoriesAdulthood>
+					<li>Eldar_Craftworld_Psyker</li>
+				</categoriesAdulthood>
+				<categoriesChildhood>
+					<li>Eldar_Craftworld_Psyker_Child</li>
+				</categoriesChildhood>
+				<commonality>0.25</commonality>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<PawnKindDef Abstract="True" Name="Colonist_OG_Eldar_Exodite_Base" ParentName="OG_Eldar_BaseKind_Player">
+		<defName>Tribesperson_OG_Eldar_Exodite</defName>
+		<label>member (Aeldari)</label>
+		<defaultFactionType>OG_Eldar_Exodite_PlayerTribe</defaultFactionType>
+		<chemicalAddictionChance>0.05</chemicalAddictionChance>
+		<apparelTags>
+			<li>Neolithic</li>
+		</apparelTags>
+		<apparelMoney>200~200</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.02</techHediffsChance>
+		<initialResistanceRange>9~15</initialResistanceRange>
+	</PawnKindDef>
+	
+</Defs>

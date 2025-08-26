@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <StyleItemCategoryDef>
+    <defName>OG_Aeldari_Eldar</defName>
+    <label>eldar hair</label>
+  </StyleItemCategoryDef>
+
+  <StyleItemCategoryDef>
+    <defName>OG_DarkEldar_Hair</defName>
+    <label>dark eldar hair</label>
+  </StyleItemCategoryDef>
+
+</Defs>

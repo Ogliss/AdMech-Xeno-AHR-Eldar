@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<!-- Craftworld Eldar -->		
+<!-- Craftworld Childhoods -->
+<!-- PathOfTheArtificer -->
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheArtificer_CraftmastersProdigy</defName>
+    <title>Craftmaster's Prodigy</title>
+    <titleShort>Prodigy</titleShort>
+    <baseDesc>Born with a natural talent for creation, [PAWN_nameDef] followed the Path of the Artificer from a tender age. Under the guidance of master artisans, [PAWN_pronoun] honed [PAWN_possessive] skills in crafting intricate works of art and technology. The craftworld's reliance on such creations imbued [PAWN_objective] with a deep sense of purpose. However, the pressure to constantly innovate may have left [PAWN_objective] with a lingering fear of failure.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Crafting>4</Crafting>
+    </skillGains>
+    <forcedTraits>
+        <Industriousness>2</Industriousness>
+    </forcedTraits>
+    <disallowedTraits>
+        <Industriousness>-1</Industriousness>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">Nerves</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">Neurotic</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<!-- PathOfTheArtisan -->
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheArtisan_Craftsmaster</defName>
+    <title>Craftsmaster</title>
+    <titleShort>Craftsmaster</titleShort>
+    <baseDesc>[PAWN_name] grew up surrounded by the masterful works of the craftworld's artisans. From a young age, [PAWN_pronoun] displayed exceptional skill in creating intricate wraithbone constructs. The tranquil, focused atmosphere of the artisan workshops nurtured [PAWN_possessive] talent, although the drive for perfection sometimes made [PAWN_pronoun] overly critical of [PAWN_possessive] own work.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Crafting>4</Crafting>
+        <Intellectual>2</Intellectual>
+    </skillGains>
+    <forcedTraits>
+        <Industriousness>2</Industriousness>
+    </forcedTraits>
+    <disallowedTraits>
+        <Industriousness>-1</Industriousness>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">Nerves</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">PsychicSensitivity</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDef</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheArtisan_ElegantCraftsman</defName>
+    <title>Elegant Craftsman</title>
+    <titleShort>Craftsman</titleShort>
+    <titleFemale>Elegant Craftswoman</titleFemale>
+    <titleShortFemale>Craftswoman</titleShortFemale>
+    <baseDesc>Surrounded by the beauty of the craftworld, [PAWN_nameDef] found joy in creating intricate and elegant works. The Path of the Artisan called to [PAWN_pronoun], allowing [PAWN_objective] to perfect [PAWN_possessive] skills in crafting and design. While the pursuit of perfection brought great satisfaction, it also sometimes led to self-imposed pressure and occasional bouts of frustration.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Crafting>4</Crafting>
+        <Artistic>2</Artistic>
+    </skillGains>
+    <forcedTraits>
+        <Industriousness>2</Industriousness>
+    </forcedTraits>
+    <disallowedTraits>
+        <Industriousness>-1</Industriousness>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="1">Neurotic</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">PsychicSensitivity</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheArtisan_SpiritWeaver</defName>
+    <title>Spirit Weaver</title>
+    <titleShort>Spirit Weaver</titleShort>
+    <baseDesc>Growing up among the artisans, [PAWN_nameDef] developed a deep affinity for crafting wraithbone, the living material of the Eldar. Under the watchful eye of skilled bone singers, [PAWN_pronoun] learned to shape this material with precision and grace. The serene workshops fostered [PAWN_possessive] creativity, though the focus on perfecting [PAWN_possessive] craft sometimes made [PAWN_pronoun] introspective and detached.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Crafting>4</Crafting>
+        <Artistic>2</Artistic>
+    </skillGains>
+    <forcedTraits>
+        <Industriousness>2</Industriousness>
+    </forcedTraits>
+    <disallowedTraits>
+        <Industriousness>-1</Industriousness>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="1">Neurotic</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">PsychicSensitivity</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Psyker_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheArtisan_WeaverOfDreams</defName>
+    <title>Weaver of Dreams</title>
+    <titleShort>Weaver of Dreams</titleShort>
+    <baseDesc>In the quiet workshops of the craftworld, [PAWN_nameDef] found a passion for the Path of the Artisan. Surrounded by masterful creations, [PAWN_pronoun] learned the art of crafting intricate and beautiful works, from delicate jewelry to complex machinery. The meditative process of creation brought [PAWN_objective] peace and fulfillment, though the high standards of Eldar craftsmanship could sometimes lead to bouts of self-doubt and perfectionism.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Crafting>4</Crafting>
+        <Artistic>2</Artistic>
+    </skillGains>
+    <forcedTraits>
+        <Industriousness>2</Industriousness>
+    </forcedTraits>
+    <disallowedTraits>
+        <Industriousness>-1</Industriousness>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="1">Neurotic</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">PsychicSensitivity</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<!-- PathOfTheBard -->
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheBard_TaleSpinner</defName>
+    <title>Tale Spinner</title>
+    <titleShort>Tale Spinner</titleShort>
+    <baseDesc>The ancient songs and stories of the Eldar captivated [PAWN_nameDef] from an early age. Immersed in the Path of the Bard, [PAWN_pronoun] learned to weave tales that inspired and educated. The quietude of the craftworld allowed [PAWN_pronoun] to focus on mastering [PAWN_possessive] craft, though the weight of preserving tradition sometimes left [PAWN_pronoun] with a sense of melancholy.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Artistic>3</Artistic>
+        <Social>2</Social>
+    </skillGains>
+    <forcedTraits>
+        <Kind>0</Kind>
+    </forcedTraits>
+    <disallowedTraits>
+        <Abrasive>0</Abrasive>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">Nerves</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">PsychicSensitivity</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<!-- PathOfTheBotanist -->
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheBotanist_NaturesWhisper</defName>
+    <title>Nature's Whisper</title>
+    <titleShort>Nature's Whisper</titleShort>
+    <baseDesc>Growing up amidst the verdant biodomes of the craftworld, [PAWN_nameDef] was drawn to the Path of the Botanist. The lush, green sanctuaries offered a haven of tranquility, where [PAWN_pronoun] spent countless hours nurturing the flora. [PAWN_possessive] gentle touch and patient observation taught [PAWN_objective] the delicate balance of nature. Though the serene environment fostered a calm demeanor, [PAWN_pronoun] may also carry the weight of the craftworld's silent despair, a reminder of their dwindling race.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Plants>4</Plants>
+    </skillGains>
+    <forcedTraits>
+        <Kind>0</Kind>
+    </forcedTraits>
+    <disallowedTraits>
+        <Neurotic>0</Neurotic>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-2">NaturalMood</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">Industriousness</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>BotanistChildhood</defName>
+    <title>Path of the Dreamer: Botanist</title>
+    <titleShort>Botanist</titleShort>
+    <baseDesc>[PAWN_nameDef] spent [PAWN_possessive] formative years amidst the serene beauty of [PAWN_possessive] Craftworld's biodomes, nurturing the delicate balance of life within. [PAWN_PronounSubject] developed a deep connection with the natural world, often found lost in contemplation amidst the lush greenery. [PAWN_pronoun] honed [PAWN_possessive] skills in nurturing and caring for plants, fostering an oasis of tranquility amidst the calm of [PAWN_possessive] Craftworld. [PAWN_pronoun] possessed an innate affinity for the natural world, reflected in [PAWN_possessive] preference for peaceful resolutions and [PAWN_possessive] aversion to conflict. [PAWN_PronounSubject] harbored an inner resilience, cultivated through [PAWN_possessive] experiences in the ever-changing environment of [PAWN_possessive] home. [PAWN_possessive] neurotic tendencies occasionally drove intense focus and intellectual pursuits, though [PAWN_pronoun] sometimes struggled with overthinking situations and adapting quickly to new challenges. [PAWN_Possessive] preference for peaceful resolutions may have been influenced by [PAWN_possessive] aversion to physical confrontation, viewing it as unnecessary in the pursuit of harmony. [PAWN_possessive] serene demeanor might have been shaped by [PAWN_possessive] experiences, leading to [PAWN_possessive] preference for contemplation over confrontation. The natural growth on a Craftworld is likely a breath of life in an otherwise largely quiet and sparsely populated space. Traits [PAWN_pronoun] possessed, such as [PAWN_possessive] quick sleeper nature, could have been impacted by [PAWN_possessive] nurturing surroundings, providing [PAWN_pronoun] with ample rest amidst [PAWN_possessive] studies and contemplation. [PAWN_pronoun] may have developed a keen sense of empathy and understanding, allowing [PAWN_objective] to connect deeply with others and [PAWN_possessive] environment, fostering a sense of unity and harmony within [PAWN_possessive] community.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <slot>Childhood</slot>
+    <!--bioAgeRange>0~3000</bioAgeRange-->
+    <!--chronoAgeRange>0~3000<chronoAgeRange-->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>0.5</maleCommonality>
+    <femaleCommonality>0.5</femaleCommonality>
+    <workDisables>
+        <li>ManualDumb</li>
+    </workDisables>
+    <disallowedTraits>
+        <Brawler>0</Brawler>
+    </disallowedTraits>
+    <forcedTraits>
+        <Kind>0</Kind>
+        <QuickSleeper>0</QuickSleeper>
+    </forcedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="1">SlowLearner</defName>
+            <chance>0.15</chance>
+        </li>
+        <li>
+            <defName Degree="1">Tough</defName>
+            <chance>0.05</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">Neurotic</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <passions>
+        <Plants>2</Plants>
+        <Intellectual>1</Intellectual>
+    </passions>
+    <skillGains>
+        <Plants>2</Plants>
+        <Intellectual>1</Intellectual>
+    </skillGains>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheBotanist_UniqueEnviro</defName>
+    <title>Child of the Biodomes</title>
+    <titleShort>Child of the Biodomes</titleShort>
+    <baseDesc>As a child of the craftworld, [PAWN_possessive] days were spent amidst the towering biodomes that dot our vast spacecraft. Within these lush environments, [PAWN_subjective] learned the delicate art of nurturing life, tending to the vibrant flora and fauna that thrive within. The tranquil beauty of our biodomes is a stark contrast to the quiet and sparsely populated space that encompasses the rest of our craftworld. Here, amidst the verdant greenery and blooming flowers, [PAWN_subjective] found solace and purpose, guided by the Path of the Botanist. The experiences of [PAWN_possessive] childhood instilled in [PAWN_objective] a deep sense of empathy and compassion, traits that would serve [PAWN_objective] well in the years to come.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <!--nameMaker>None</nameMaker-->
+    <workDisables>
+        <li>ManualDumb</li>
+    </workDisables>
+    <requiredWorkTags>
+        <li>PlantWork</li>
+    </requiredWorkTags>
+    <skillGains>
+        <Plants>2</Plants>
+    </skillGains>
+    <passions>
+        <Plants>2</Plants>
+    </passions>
+    <possessions>
+        <!--MedicineHerbal>2</MedicineHerbal-->
+    </possessions>
+    <forcedTraits>
+        <Kind>0</Kind>
+    </forcedTraits>
+    <disallowedTraits>
+        <QuickSleeper>0</QuickSleeper>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-2">NaturalMood</defName>
+            <chance>0.15</chance>
+        </li>
+        <li>
+            <defName Degree="2">Neurotic</defName>
+            <chance>0.05</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="2">Nerves</defName>
+            <chance>0.1</chance>
+        </li>
+        <li>
+            <defName Degree="1">Industriousness</defName>
+            <chance>0.05</chance>
+        </li>
+    </forcedTraitsChance>
+    <requiresSpawnCategory>true</requiresSpawnCategory>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<!-- PathOfTheDreamer -->
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheDreamer_StarSeeker</defName>
+    <title>Star Seeker</title>
+    <titleShort>Star Seeker</titleShort>
+    <baseDesc>From a young age, [PAWN_nameDef] was captivated by the endless expanse of the cosmos, leading [PAWN_objective] to the Path of the Dreamer. [PAWN_possessive] nights were spent gazing at the stars, imagining the countless worlds beyond the craftworld. This curiosity fostered a deep understanding of the universe and its mysteries. However, the vast emptiness of space could also leave [PAWN_objective] feeling isolated, a reflection of the loneliness that sometimes pervades their society.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Intellectual>3</Intellectual>
+    </skillGains>
+    <forcedTraits>
+        <Nimble>0</Nimble>
+    </forcedTraits>
+    <disallowedTraits>
+        <Pyromaniac>0</Pyromaniac>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="1">DrugDesire</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="2">Industriousness</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<!-- PathOfTheHealer -->
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheHealer_GentleSoul</defName>
+    <title>Gentle Soul</title>
+    <titleShort>Gentle Soul</titleShort>
+    <baseDesc>As a child, [PAWN_nameDef] showed an innate empathy and desire to help others, leading [PAWN_objective] to the Path of the Healer. [PAWN_pronoun] spent [PAWN_possessive] early years learning about the intricate art of healing, from herbal remedies to advanced medical procedures. The satisfaction of alleviating pain and suffering was [PAWN_possessive] greatest reward. However, the emotional burden of constantly tending to the wounded may have left [PAWN_objective] somewhat weary.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Medicine>4</Medicine>
+    </skillGains>
+    <forcedTraits>
+        <Kind>0</Kind>
+    </forcedTraits>
+    <disallowedTraits>
+        <Psychopath>0</Psychopath>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="0">Gourmand</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="0">FastLearner</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheHealer_HealingTouch</defName>
+    <title>Healing Touch</title>
+    <titleShort>Healing Touch</titleShort>
+    <baseDesc>From an early age, [PAWN_nameDef] showed a natural talent for healing. The Path of the Healer offered [PAWN_pronoun] a way to nurture this gift, learning from the craftworld's most skilled healers. The serene environment of the craftworld allowed [PAWN_pronoun] to focus on developing [PAWN_possessive] skills, though the responsibility of healing sometimes weighed heavily on [PAWN_possessive] mind.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Medicine>4</Medicine>
+        <Social>2</Social>
+    </skillGains>
+    <forcedTraits>
+        <Kind>0</Kind>
+    </forcedTraits>
+    <disallowedTraits>
+        <Psychopath>0</Psychopath>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="1">Bloodlust</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li MayRequire="Ludeon.RimWorld.Anomaly">
+            <defName Degree="1">Joyous</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<!-- PathOfTheHistorian -->
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheHistorian_LoreKeeper</defName>
+    <title>Lore Keeper</title>
+    <titleShort>Lore Keeper</titleShort>
+    <baseDesc>Fascinated by the rich history of the Eldar, [PAWN_nameDef] devoted [PAWN_possessive] childhood to the Path of the Historian. The grand libraries of the craftworld became [PAWN_possessive] second home, where [PAWN_pronoun] absorbed ancient lore and records. This deep connection to the past gave [PAWN_objective] a profound respect for Eldar traditions, though sometimes it also made [PAWN_pronoun] seem overly serious or nostalgic.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Intellectual>4</Intellectual>
+        <Social>2</Social>
+    </skillGains>
+    <forcedTraits>
+        <PsychicSensitivity>1</PsychicSensitivity>
+    </forcedTraits>
+    <disallowedTraits>
+        <DrugDesire>1</DrugDesire>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">PsychicSensitivity</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="2">PsychicSensitivity</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<!-- PathOfTheHunter -->
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheHunter_StealthyStalker</defName>
+    <title>Stealthy Stalker</title>
+    <titleShort>Stalker</titleShort>
+    <baseDesc>Growing up amidst the biodomes, [PAWN_nameDef] was fascinated by the delicate ecosystems and the balance of predator and prey. Choosing the Path of the Hunter, [PAWN_pronoun] developed exceptional skills in tracking and ambush tactics. The serene and controlled environment of the craftworld allowed [PAWN_objective] to perfect [PAWN_possessive] stealth, though the isolation of this path sometimes fostered a detached and solitary nature.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Shooting>3</Shooting>
+        <Animals>2</Animals>
+    </skillGains>
+    <forcedTraits>
+        <Nimble>0</Nimble>
+    </forcedTraits>
+    <disallowedTraits>
+        <Brawler>0</Brawler>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">Nerves</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">ShootingAccuracy</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheHunter_ShadowTracker</defName>
+    <title>Shadow Tracker</title>
+    <titleShort>Shadow Tracker</titleShort>
+    <baseDesc>Drawn to the tranquility of the craftworld's biodomes, [PAWN_nameDef] honed [PAWN_possessive] skills in the Path of the Hunter. The balance of predator and prey fascinated [PAWN_objective], and [PAWN_pronoun] excelled in stealth and tracking. The serene environment allowed for focused training, though the solitary nature of the path sometimes made [PAWN_pronoun] appear distant and reserved.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Shooting>3</Shooting>
+        <Animals>2</Animals>
+    </skillGains>
+    <forcedTraits>
+        <Nimble>0</Nimble>
+    </forcedTraits>
+    <disallowedTraits>
+        <Brawler>0</Brawler>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">Nerves</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">ShootingAccuracy</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<!-- PathOfTheMusician -->
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheMusician_MelodicSoul</defName>
+    <title>Melodic Soul</title>
+    <titleShort>Melodic Soul</titleShort>
+    <baseDesc>Gifted with an innate sense of rhythm and harmony, [PAWN_nameDef] pursued the Path of the Musician. The craftworld's serene halls resonated with the melodies [PAWN_pronoun] created, bringing solace and joy to [PAWN_possessive] people. The beauty of the Eldar's musical traditions filled [PAWN_objective] with pride, though the weight of preserving such heritage sometimes led to a deep sense of responsibility and occasional melancholy.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Artistic>4</Artistic>
+    </skillGains>
+    <forcedTraits>
+        <TorturedArtist>0</TorturedArtist>
+    </forcedTraits>
+    <disallowedTraits>
+        <Ascetic>0</Ascetic>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">NaturalMood</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">NaturalMood</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheMusician_HarmoniousSoul</defName>
+    <title>Harmonious Soul</title>
+    <titleShort>Harmonious Soul</titleShort>
+    <baseDesc>Music and harmony were central to [PAWN_nameDef]'s childhood on the craftworld. Drawn to the Path of the Musician, [PAWN_pronoun] spent countless hours mastering various instruments and compositions. The beauty of the craftworld's environment inspired [PAWN_possessive] creativity, though the pursuit of perfect harmony sometimes led to [PAWN_possessive] detachment from more practical concerns.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Artistic>4</Artistic>
+        <Social>2</Social>
+    </skillGains>
+    <forcedTraits>
+        <Beauty>2</Beauty>
+    </forcedTraits>
+    <disallowedTraits>
+        <Beauty>-1</Beauty>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="0">Ascetic</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="0">Kind</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<!-- PathOfTheOutcast -->
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheOutcast_Wanderer0</defName>
+    <title>Wanderer</title>
+    <titleShort>Wanderer</titleShort>
+    <baseDesc>[PAWN_name] felt the call of the stars early in life, leading [PAWN_pronoun] to the Path of the Outcast. Roaming far beyond the craftworld, [PAWN_pronoun] encountered numerous alien cultures and faced the harsh realities of the galaxy. This experience broadened [PAWN_possessive] perspective but also instilled a sense of detachment from the serene life of the craftworld. The constant need to adapt may have left [PAWN_pronoun] resourceful and independent, but also wary and distrustful.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Shooting>2</Shooting>
+        <Social>2</Social>
+        <Intellectual>1</Intellectual>
+    </skillGains>
+    <forcedTraits>
+        <Nimble>0</Nimble>
+        <Recluse MayRequire="Ludeon.RimWorld.Biotech">0</Recluse>
+    </forcedTraits>
+    <disallowedTraits>
+        <Undergrounder>0</Undergrounder>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">PsychicSensitivity</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="0">QuickSleeper</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Outcast_Child</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheOutcast_Wanderer1</defName>
+    <title>Wanderer</title>
+    <titleShort>Wanderer</titleShort>
+    <baseDesc>[PAWN_name] felt the call of the stars early in life, leading [PAWN_pronoun] to the Path of the Outcast. Roaming far beyond the craftworld, [PAWN_pronoun] encountered numerous alien cultures and faced the harsh realities of the galaxy. This experience broadened [PAWN_possessive] perspective but also instilled a sense of detachment from the serene life of the craftworld. The constant need to adapt may have left [PAWN_pronoun] resourceful and independent, but also wary and distrustful.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Shooting>2</Shooting>
+        <Social>2</Social>
+        <Intellectual>1</Intellectual>
+    </skillGains>
+    <forcedTraits>
+        <SpeedOffset>1</SpeedOffset>
+    </forcedTraits>
+    <disallowedTraits>
+        <SpeedOffset>-1</SpeedOffset>
+        <Recluse MayRequire="Ludeon.RimWorld.Biotech">0</Recluse>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">PsychicSensitivity</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="0">QuickSleeper</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Outcast_Child</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheOutcast_Wayfarer</defName>
+    <title>Wayfarer</title>
+    <titleShort>Wayfarer</titleShort>
+    <baseDesc>[PAWN_name] embarked on the Path of the Outcast driven by an insatiable curiosity about the universe. As a Wayfarer, [PAWN_pronoun] traversed distant stars, exploring hidden corners of the galaxy. [PAWN_pronoun] developed remarkable survival skills, adapting to the harsh environments encountered during [PAWN_possessive] journeys. However, the solitary nature of [PAWN_possessive] wanderings may have left [PAWN_objective] with a profound sense of isolation, despite [PAWN_possessive] deep connection to the cosmos.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Shooting>2</Shooting>
+        <Plants>1</Plants>
+        <Animals>1</Animals>
+    </skillGains>
+    <forcedTraits>
+        <Tough>0</Tough>
+    </forcedTraits>
+    <disallowedTraits>
+        <Industriousness>-1</Industriousness>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">PsychicSensitivity</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">Nerves</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Outcast</li>
+        <li>Eldar_Craftworld_Ranger</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheOutcast_Nomad</defName>
+    <title>Nomad</title>
+    <titleShort>Nomad</titleShort>
+    <baseDesc>From a young age, [PAWN_nameDef] embraced the spirit of wanderlust, setting out alone on the Path of the Outcast. As a Nomad, [PAWN_pronoun] roamed the stars, living off the land and learning the secrets of survival. [PAWN_possessive] experiences honed [PAWN_possessive] instincts, making [PAWN_objective] resourceful and adaptable. However, the transient nature of [PAWN_possessive] existence may have left [PAWN_objective] with a longing for stability and belonging.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Shooting>2</Shooting>
+        <Plants>1</Plants>
+        <Animals>1</Animals>
+    </skillGains>
+    <forcedTraits>
+        <Nerves>1</Nerves>
+    </forcedTraits>
+    <disallowedTraits>
+        <AnnoyingVoice>0</AnnoyingVoice>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">PsychicSensitivity</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="0">Nimble</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Outcast</li>
+        <li>Eldar_Craftworld_Ranger</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheOutcast_Recluse</defName>
+    <title>Recluse</title>
+    <titleShort>Recluse</titleShort>
+    <baseDesc>Isolated from the strict life of the craftworld, [PAWN_nameDef] found solace in solitude from a young age, embracing the Path of the Outcast as a Recluse. [PAWN_pronoun] delved deep into introspection and meditation, seeking wisdom in silence. Through [PAWN_possessive] solitary contemplation, [PAWN_subject] honed [PAWN_possessive] mind and spirit, developing keen insights and profound understanding. Yet, [PAWN_pronoun] may carry with [PAWN_objective] a sense of detachment from social bonds, preferring the tranquility of [PAWN_possessive] own company.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Intellectual>2</Intellectual>
+        <Crafting>1</Crafting>
+        <Social>1</Social>
+    </skillGains>
+    <forcedTraits>
+        <NaturalMood>2</NaturalMood>
+    </forcedTraits>
+    <disallowedTraits>
+        <NaturalMood>-2</NaturalMood>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="1">AnnoyingVoice</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">Nimble</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Outcast</li>
+        <li>Eldar_Craftworld_Ranger</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheOutcast_Vagabond</defName>
+    <title>Vagabond</title>
+    <titleShort>Vagabond</titleShort>
+    <baseDesc>From a young age, [PAWN_nameDef] felt the call of adventure and exploration, forsaking the confines of the craftworld to tread the Path of the Outcast as a Vagabond. [PAWN_pronoun] wandered far and wide, embracing the freedom of the open void and the myriad worlds beyond. [PAWN_possessive] travels have instilled in [PAWN_objective] a sense of adaptability and resourcefulness, as [PAWN_pronoun] learned to navigate diverse cultures and environments. Yet, [PAWN_possessive] nomadic lifestyle may have fostered a reluctance to settle down, always yearning for the next horizon.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Shooting>2</Shooting>
+        <Melee>1</Melee>
+        <Social>1</Social>
+    </skillGains>
+    <forcedTraits>
+        <Nimble>0</Nimble>
+    </forcedTraits>
+    <disallowedTraits>
+        <NaturalMood>-2</NaturalMood>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">SpeedOffset</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">SpeedOffset</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Outcast</li>
+        <li>Eldar_Craftworld_Ranger</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<!-- PathOfThePoet -->
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfThePoet_Songweaver</defName>
+    <title>Songweaver</title>
+    <titleShort>Songweaver</titleShort>
+    <baseDesc>[PAWN_nameDef] grew up immersed in the rich cultural heritage of the craftworld, gravitating towards the Path of the Poet. [PAWN_pronoun] spent [PAWN_possessive] youth weaving intricate tales and songs that captured the essence of the Eldar's history and emotions. The melodic verses and poignant stories not only entertained but also preserved the legacy of their people. While [PAWN_pronoun] embraced the creative spirit, the awareness of their race's tragic past often cast a shadow over [PAWN_possessive] art.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Artistic>4</Artistic>
+    </skillGains>
+    <forcedTraits>
+        <TorturedArtist>0</TorturedArtist>
+    </forcedTraits>
+    <disallowedTraits>
+        <Ascetic>0</Ascetic>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">NaturalMood</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">NaturalMood</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<!-- PathOfTheScholar -->
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheScholar_KnowledgeSeeker</defName>
+    <title>Knowledge Seeker</title>
+    <titleShort>Knowledge Seeker</titleShort>
+    <baseDesc>Curiosity and a thirst for knowledge led  [PAWN_nameDef] to the Path of the Scholar. {PAWN_pronoun} spent {PAWN_possessive} childhood in the grand libraries of the craftworld, absorbing ancient lore and new scientific discoveries alike. This pursuit of wisdom shaped {PAWN_objective}'s worldview, fostering a deep appreciation for the Eldar's rich history and a keen intellect. However, the relentless quest for understanding sometimes made {PAWN_pronoun} seem detached or overly analytical.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Intellectual>5</Intellectual>
+        <Social>3</Social>
+    </skillGains>
+    <forcedTraits>
+        <Nimble>0</Nimble>
+    </forcedTraits>
+    <disallowedTraits>
+        <DrugDesire>1</DrugDesire>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">PsychicSensitivity</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">PsychicSensitivity</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<!-- PathOfTheSeer -->
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Child_Psyker">
+    <defName>PathOfTheSeer_MysticConnection</defName>
+    <title>Mystic Connection</title>
+    <titleShort>Mystic Connection</titleShort>
+    <baseDesc>From an early age, [PAWN_nameDef] exhibited a profound connection to the warp, leading [PAWN_objective] to the Path of the Seer. Under the tutelage of experienced farseers, [PAWN_pronoun] learned to navigate the complex currents of fate and future. The craftworld's tranquil halls provided a perfect setting for honing these mystical talents, though the ever-present threat of the warp's corruption instilled a cautious and sometimes apprehensive outlook.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Intellectual>3</Intellectual>
+        <Social>2</Social>
+    </skillGains>
+    <forcedTraits>
+	
+    </forcedTraits>
+    <disallowedTraits>
+        <DrugDesire>1</DrugDesire>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="1">Jealous</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">PsychicSensitivity</defName>
+            <chance>0.9</chance>
+        </li>
+        <li>
+            <defName Degree="2">PsychicSensitivity</defName>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Child_Psyker">
+    <defName>PathOfTheMystic_FarseersProtege</defName>
+    <title>Farseer's Protégé</title>
+    <titleShort>Farseer's Protégé</titleShort>
+    <baseDesc>From a young age,  [PAWN_nameDef] showed a natural talent for sensing the warp. Guided by a seasoned farseer, {PAWN_pronoun} delved into the mysteries of the cosmos. The serene and contemplative environment of the craftworld was ideal for nurturing {PAWN_possessive} abilities, though the ever-present danger of warp taint sometimes led to cautious and introspective tendencies.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Intellectual>3</Intellectual>
+        <Social>2</Social>
+    </skillGains>
+    <forcedTraits>
+	
+    </forcedTraits>
+    <disallowedTraits>
+        <DrugDesire>1</DrugDesire>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="1">Jealous</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">PsychicSensitivity</defName>
+            <chance>0.5</chance>
+        </li>
+        <li>
+            <defName Degree="2">PsychicSensitivity</defName>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Child_Psyker">
+    <defName>PathOfTheSeer_WarlockNovice</defName>
+    <title>Warlock Novice</title>
+    <titleShort>Warlock Novice</titleShort>
+    <baseDesc>Raised in the quiet halls of the craftworld, [PAWN_nameDef] felt a deep connection to the warp. Trained under the guidance of experienced warlocks, [PAWN_pronoun] learned to harness psychic powers while maintaining the balance between the material and immaterial worlds. This path instilled in [PAWN_pronoun] a profound sense of responsibility, though the weight of the psychic potential sometimes caused great strain.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Intellectual>3</Intellectual>
+        <Social>2</Social>
+    </skillGains>
+    <forcedTraits>
+	
+    </forcedTraits>
+    <disallowedTraits>
+	
+        <DrugDesire>2</DrugDesire>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">Nerves</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">PsychicSensitivity</defName>
+            <chance>0.9</chance>
+        </li>
+        <li>
+            <defName Degree="2">PsychicSensitivity</defName>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheSeer_Farseer</defName>
+    <title>Farseer</title>
+    <titleShort>Farseer</titleShort>
+    <baseDesc>From [PAWN_possessive] earliest years, [PAWN_nameDef] was drawn to the mysteries of the cosmos, showing a remarkable affinity for psychic abilities. Trained as a Farseer, [PAWN_nameDef] delved into the intricate web of fate, learning to interpret the swirling currents of destiny. Guided by visions and prophecies, [PAWN_pronoun] honed [PAWN_possessive] psychic powers, preparing to guide [PAWN_possessive] craftworld through the trials ahead. As [PAWN_pronoun] grew older, [PAWN_pronoun] embraced [PAWN_possessive] role as a Farseer, seeking to uncover the secrets of the universe and safeguard [PAWN_possessive] people.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Social>2</Social>
+        <Intellectual>2</Intellectual>
+        <Shooting>1</Shooting>
+    </skillGains>
+    <forcedTraits>
+        <PsychicSensitivity>2</PsychicSensitivity>
+    </forcedTraits>
+    <disallowedTraits>
+        <NaturalMood>-2</NaturalMood>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">SpeedOffset</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">Industriousness</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Psyker</li>
+        <li>Eldar_Craftworld_Farseer</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<!-- PathOfTheWarrior -->
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheWarrior_DireAvengerTrainee</defName>
+    <title>Dire Avenger Trainee</title>
+    <titleShort>Avenger Trainee</titleShort>
+    <baseDesc>From an early age, [PAWN_nameDef] was drawn to the teachings of Asurmen, the first of the Phoenix Lords. Training in the Dire Avenger Shrine, [PAWN_pronoun] learned the art of war and discipline. The tranquil halls of the craftworld provided a stark contrast to the fierce combat training, a balance that shaped [PAWN_possessive] character. Though the constant readiness for battle instilled vigilance, it sometimes left [PAWN_pronoun] restless.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Shooting>3</Shooting>
+        <Melee>2</Melee>
+    </skillGains>
+    <forcedTraits>
+        <ShootingAccuracy>1</ShootingAccuracy>
+    </forcedTraits>
+    <disallowedTraits>
+        <DrugDesire>1</DrugDesire>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">Nerves</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">PsychicSensitivity</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+        <li>Eldar_Craftworld_Guardian</li>
+        <li>Eldar_Craftworld_GuardianDefender</li>
+        <li>Eldar_Craftworld_GuardianStorm</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheWarrior_DireAvenger0</defName>
+    <title>Dire Avenger</title>
+    <titleShort>Dire Avenger</titleShort>
+    <baseDesc>From [PAWN_possessive] earliest memories, [PAWN_nameDef] was trained in the art of war, honing [PAWN_possessive] skills as a Dire Avenger, a disciplined guardian dedicated to protecting the craftworld and its people. [PAWN_pronoun] learned the ways of strategy and tactics, mastering [PAWN_possessive] chosen aspect with unwavering focus and determination. As [PAWN_pronoun] grew older, [PAWN_pronoun] embraced the mantle of the Dire Avenger, ready to defend [PAWN_possessive] home against any threat that may arise.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Shooting>2</Shooting>
+        <Melee>1</Melee>
+    </skillGains>
+    <forcedTraits>
+        <Nimble>0</Nimble>
+    </forcedTraits>
+    <disallowedTraits>
+        <NaturalMood>-2</NaturalMood>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="-1">SpeedOffset</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">Industriousness</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Warrior_Aspect</li>
+        <li>Eldar_Craftworld_DireAvenger</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef><AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheWarrior_DireAvenger1</defName>
+    <title>Dire Avenger</title>
+    <titleShort>Dire Avenger</titleShort>
+    <baseDesc>From a young age, [PAWN_nameDef] showed a natural inclination towards martial prowess, drawn to the disciplined and graceful art of combat. Trained as a Dire Avenger, [PAWN_nameDef] mastered the way of the warrior, honing [PAWN_possessive] skills with the shuriken catapult and embracing the rigid discipline of the Aspect Shrine. Through rigorous training and unwavering dedication, [PAWN_nameDef] prepared to serve [PAWN_possessive] craftworld as a stalwart defender, ready to face any threat that dared to challenge [PAWN_possessive] people.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Shooting>2</Shooting>
+        <Melee>1</Melee>
+    </skillGains>
+    <forcedTraits>
+        <Nimble>0</Nimble>
+    </forcedTraits>
+    <disallowedTraits>
+        <SlowLearner>0</SlowLearner>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="0">QuickSleeper</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">NaturalMood</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Warrior_Aspect</li>
+        <li>Eldar_Craftworld_DireAvenger</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheWarrior_Banshee0</defName>
+    <title>Howling Banshee</title>
+    <titleShort>Howling Banshee</titleShort>
+    <baseDesc>From a young age, [PAWN_nameDef] exhibited remarkable agility and a keen sense of rhythm. Embracing the Path of the Howling Banshee, [PAWN_nameDef] refined [PAWN_possessive] martial skills in acrobatics, swordplay, and the haunting Banshee battle cries. Trained to strike fear into [PAWN_possessive] foes with [PAWN_possessive] unearthly wails and lightning-fast strikes, [PAWN_nameDef] embodies the grace and ferocity of the Howling Banshees, ready to unleash [PAWN_possessive] fury upon any who dare challenge [PAWN_possessive] craftworld.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>0.2</maleCommonality>
+    <femaleCommonality>0.8</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Melee>2</Melee>
+        <Social>1</Social>
+    </skillGains>
+    <forcedTraits>
+        <Nimble>0</Nimble>
+    </forcedTraits>
+    <disallowedTraits>
+        <SlowLearner>0</SlowLearner>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="0">QuickSleeper</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="2">Nerves</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Warrior_Aspect</li>
+        <li>Eldar_Craftworld_Banshee</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheWarrior_Banshee1</defName>
+    <title>Howling Banshee</title>
+    <titleShort>Howling Banshee</titleShort>
+    <baseDesc>From a young age, [PAWN_nameDef] displayed a fierce spirit and an unparalleled agility. Embracing the Path of the Howling Banshee, [PAWN_nameDef] honed [PAWN_possessive] combat skills with the deadly shriek of the Banshee Mask and the graceful dance of the battlefield. Trained to strike fear into the hearts of [PAWN_possessive] enemies, [PAWN_nameDef] is destined to embody the swift and deadly essence of the Howling Banshees, ready to unleash [PAWN_possessive] fury upon any who dare threaten [PAWN_possessive] craftworld.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>0.2</maleCommonality>
+    <femaleCommonality>0.8</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Melee>2</Melee>
+        <Social>1</Social>
+    </skillGains>
+    <forcedTraits>
+        <Nimble>0</Nimble>
+    </forcedTraits>
+    <disallowedTraits>
+        <SlowLearner>0</SlowLearner>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="0">QuickSleeper</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="2">Nerves</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Warrior_Aspect</li>
+        <li>Eldar_Craftworld_Banshee</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheWarrior_Banshee2</defName>
+    <title>Howling Banshee</title>
+    <titleShort>Howling Banshee</titleShort>
+    <baseDesc>From a young age, [PAWN_nameDef] displayed extraordinary agility, reflexes, and a haunting voice that resonated with power. Embracing the Path of the Howling Banshee, [PAWN_nameDef] perfected [PAWN_possessive] combat techniques, becoming a master of close-quarters engagements and the graceful dance of death. Trained to strike fear into the hearts of [PAWN_possessive] enemies with [PAWN_possessive] unearthly wail and lightning-fast strikes, [PAWN_nameDef] embodies the deadly elegance and relentless speed of the Howling Banshees, forever bound to the defense of [PAWN_possessive] craftworld.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>0.1</maleCommonality>
+    <femaleCommonality>0.9</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Melee>2</Melee>
+        <Social>1</Social>
+    </skillGains>
+    <forcedTraits>
+        <Kind>0</Kind>
+    </forcedTraits>
+    <disallowedTraits>
+        <Industriousness>-1</Industriousness>
+        <SpeedOffset>-1</SpeedOffset>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+	
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="2">Nerves</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Warrior_Aspect</li>
+        <li>Eldar_Craftworld_HowlingBanshee</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheWarrior_FireDragon0</defName>
+    <title>Fire Dragon</title>
+    <titleShort>Fire Dragon</titleShort>
+    <baseDesc>From a young age, [PAWN_nameDef] showed an exceptional affinity for heat and flame. Drawn to the Path of the Fire Dragon, [PAWN_nameDef] honed [PAWN_possessive] skills in pyromancy, explosives, and close-quarters combat. Trained to harness the destructive power of fire to incinerate [PAWN_possessive] enemies and breach heavily fortified positions, [PAWN_nameDef] embodies the relentless fury and unyielding determination of the Fire Dragons, always ready to unleash [PAWN_possessive] flames in the defense of [PAWN_possessive] craftworld.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>0.4</maleCommonality>
+    <femaleCommonality>0.6</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Shooting>2</Shooting>
+        <Crafting>1</Crafting>
+    </skillGains>
+    <forcedTraits>
+        <Nerves>2</Nerves>
+    </forcedTraits>
+    <disallowedTraits>
+        <Nerves>-1</Nerves>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="1">Neurotic</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="2">NaturalMood</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Warrior_Aspect</li>
+        <li>Eldar_Craftworld_FireDragon</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>PathOfTheWarrior_Scorpion0</defName>
+    <title>Striking Scorpion</title>
+    <titleShort>Striking Scorpion</titleShort>
+    <baseDesc>From early childhood, [PAWN_nameDef] displayed a natural stealth and predatory instinct. Embracing the Path of the Striking Scorpion, [PAWN_nameDef] honed [PAWN_possessive] skills in ambush tactics, infiltration, and close-quarters combat. Trained to strike from the shadows and instill fear in [PAWN_possessive] enemies, [PAWN_nameDef] embodies the lethal prowess of the Striking Scorpions, ready to unleash [PAWN_possessive] deadly strikes upon any who threaten [PAWN_possessive] craftworld.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Melee>2</Melee>
+        <Shooting>1</Shooting>
+    </skillGains>
+    <forcedTraits>
+        <Nimble>0</Nimble>
+    </forcedTraits>
+    <disallowedTraits>
+        <SlowLearner>0</SlowLearner>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="0">QuickSleeper</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="2">Nerves</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Warrior_Aspect</li>
+        <li>Eldar_Craftworld_Scorpion</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>Exodite_Rescue0</defName>
+    <title>Rescued Exodite</title>
+    <titleShort>Rescued Exodite</titleShort>
+    <baseDesc>From a verdant Exodite world under siege, [PAWN_nameDef] was plucked from the brink of destruction by the valiant defenders of the Asuryani. Brought into the sanctuary of the craftworld, [PAWN_nameDef] grew up under the watchful gaze of wise seers and skilled warriors. Their tale is one of survival, of a life spared from the ravages of war, and a destiny intertwined with the fate of [PAWN_possessive] new home. As [PAWN_pronoun] matures, [PAWN_pronoun] will be a beacon of hope, a living testament to the resilience of the Aeldari amidst the darkness of the galaxy.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>0.5</maleCommonality>
+    <femaleCommonality>0.5</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Shooting>2</Shooting>
+        <Social>1</Social>
+    </skillGains>
+    <forcedTraits>
+        <Kind>0</Kind>
+    </forcedTraits>
+    <disallowedTraits>
+        <Nudist>0</Nudist>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="1">Neurotic</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="2">Nerves</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>Exodite_Rescue1</defName>
+    <title>Rescued Exodite</title>
+    <titleShort>Rescued Exodite</titleShort>
+    <baseDesc>[PAWN_name] was born on a distant Maidenworld, a place of tranquility and harmony. However, [PAWN_pronoun] was not destined to remain there. When the forces of chaos threatened [PAWN_possessive] home, [PAWN_nameDef] was among those rescued by the Asuryani. Brought into a world of technology and discipline, [PAWN_pronoun] must now adapt to the ways of the Craftworld. Despite [PAWN_possessive] origins, [PAWN_nameDef] carries the spirit of [PAWN_possessive] homeworld within [PAWN_objective] and seeks to find [PAWN_objective] place amidst the stars.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>0.5</maleCommonality>
+    <femaleCommonality>0.5</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Plants>2</Plants>
+        <Crafting>1</Crafting>
+    </skillGains>
+    <forcedTraits>
+        <Industriousness>1</Industriousness>
+    </forcedTraits>
+    <disallowedTraits>
+        <NaturalMood>-2</NaturalMood>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="0">FastLearner</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="0">QuickSleeper</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="OG_Eldar_Base_Child">
+    <defName>DarkEldar_Conversion0</defName>
+    <title>Converted Dark Eldar</title>
+    <titleShort>Converted Drukarhi</titleShort>
+    <baseDesc>Born amidst the depravity of the dark city, [PAWN_nameDef] was once a scourge of the galaxy, reveling in the cruelty of the Dark Eldar. However, a fateful encounter with the forces of [CRAFTWORLD_NAME] led to a change of heart. Captured or drawn away by visions of a different destiny, [PAWN_nameDef] was brought to the craftworld and taught the ways of the Aeldari. Now, [PAWN_pronoun] walks a different path, seeking redemption for [PAWN_possessive] past sins and embracing the noble ideals of [CRAFTWORLD_NAME]. [PAWN_pronoun] carries the weight of [PAWN_possessive] dark past, but also the hope of a brighter future.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <maleCommonality>0.5</maleCommonality>
+    <femaleCommonality>0.5</femaleCommonality>
+    <!--bioAgeRange>0~600</bioAgeRange-->
+    <!--chronoAgeRange>0~1000<chronoAgeRange-->
+    <skillGains>
+        <Melee>2</Melee>
+        <Crafting>1</Crafting>
+    </skillGains>
+    <forcedTraits>
+        <Nerves>2</Nerves>
+    </forcedTraits>
+    <disallowedTraits>
+        <NaturalMood>-2</NaturalMood>
+    </disallowedTraits>
+    <disallowedTraitsChance>
+        <li>
+            <defName Degree="0">FastLearner</defName>
+            <chance>0.1</chance>
+        </li>
+    </disallowedTraitsChance>
+    <forcedTraitsChance>
+        <li>
+            <defName Degree="1">PsychicSensitivity</defName>
+            <chance>0.1</chance>
+        </li>
+    </forcedTraitsChance>
+    <spawnCategories>
+        <li>Eldar_Craftworld</li>
+        <li>Eldar_Craftworld_Child</li>
+        <li>Eldar_Craftworld_Civilian</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+
+</Defs>

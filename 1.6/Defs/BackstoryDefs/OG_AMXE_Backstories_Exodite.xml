@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Exodite Eldar --> 
+	<!-- Exodite Childhoods -->
+	<!-- Exodite Child -->
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Exodite_Child" ParentName="OG_Eldar_Base_Child">
+		<defName>OG_Eldar_Exodite_Child</defName>
+		<title>Exodite</title>
+		<baseDesc>[PAWN_nameDef] was born on an Eldar maiden world. Isolationism and Mistrust were prominent.</baseDesc>
+		<maleCommonality>0.0</maleCommonality>
+		<femaleCommonality>0.0</femaleCommonality>
+		<skillGains>
+			<Shooting>1</Shooting>
+			<Melee>3</Melee>
+			<Plants>4</Plants>
+			<Animals>4</Animals>
+		</skillGains>
+		<forcedHediffs>
+		
+		</forcedHediffs>
+		<spawnCategories Inherit="true">
+			<li>Eldar_Exodite</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	   
+	<!--  Exodite Child Psyker -->
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Exodite_Child_Psyker" ParentName="OG_Eldar_Child_Psyker">
+		<defName>OG_Eldar_Exodite_Child_Psyker</defName>
+		<title>Exodite</title>
+		<baseDesc>[PAWN_nameDef] was born on an [PAWN_alienRace] maiden world. The path of the [PAWN_alienRace] shaped [PAWN_possessive] life.</baseDesc>
+		<maleCommonality>0.15</maleCommonality>
+		<femaleCommonality>0.15</femaleCommonality>
+		<skillGains>
+			<Shooting>3</Shooting>
+			<Melee>2</Melee>
+			<Plants>1</Plants>
+			<Animals>1</Animals>
+		</skillGains>
+		<forcedHediffs>
+		
+		</forcedHediffs>
+		<spawnCategories Inherit="true">
+			<li>Eldar_Exodite_Psyker</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	   
+	<!-- Exodite Adulthoods -->
+	<!-- Baseline Civilian -->
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Exodite_Base_Civilian" ParentName="OG_Eldar_Standard_Backstory" Abstract="true">
+		<defName>OG_Eldar_Exodite_Civilian</defName>
+		<title>Exodite Clansmen</title>
+		<titleShort>Exodite</titleShort>
+		<slot>Adulthood</slot>
+
+		<!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<disallowedTraits>
+
+		</disallowedTraits>
+		<workDisables>
+		
+		</workDisables>
+		<skillGains>
+			<Shooting>-3</Shooting>
+			<Melee>-3</Melee>
+		</skillGains>
+		<spawnCategories>
+			<li>Eldar_Exodite</li>
+			<li>Eldar_Exodite_Civilian</li>
+			<li>Eldar_Exodite_Warrior_Guardian</li>
+			<li>Eldar_Exodite_Warrior_GuardianDefender</li>
+			<li>Eldar_Exodite_Warrior_GuardianStorm</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- Civilians -->
+	<!-- Baseline Warrior -->
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Exodite_Base_Warrior" ParentName="OG_Eldar_Base_Backstory" Abstract="true">
+		<defName>OG_Eldar_Craftworld_Base_Warrior</defName>
+		<title>Exodite Clansmen Warrior</title>
+		<titleShort>Exodite Warrior</titleShort>
+		<disallowedTraits>
+
+		</disallowedTraits>
+		<workDisables>
+		
+		</workDisables>
+		<skillGains>
+			<Animals>-3</Animals>
+			<Mining>-3</Mining>
+		</skillGains>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<spawnCategories>
+			<li>Eldar</li>
+			<li>Eldar_Exodite</li>
+			<li>Eldar_Exodite_Warrior</li>
+			<li>Eldar_Exodite_Warrior_Guardian</li>
+			<li>Eldar_Exodite_Warrior_GuardianDefender</li>
+			<li>Eldar_Exodite_Warrior_GuardianStorm</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	  
+	<!-- Warriors -->
+	
+	<!-- Baseline Psyker -->
+	<AlienRace.AlienBackstoryDef Name="OG_Eldar_Exodite_Psyker" ParentName="OG_Eldar_Psyker_Backstory" Abstract="true">
+		<defName>OG_Eldar_Base_Seer</defName>
+		<title>Path of the Seer</title>
+		<titleShort>Eldar Seer</titleShort>
+		<slot>Adulthood</slot>
+		<!-- <linkedBackstory>Eldar_Craftworld_Child_Psyker</linkedBackstory> -->
+
+		<!-- <bodyTypeGlobal>Male</bodyTypeGlobal> -->
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<disallowedTraits>
+
+		</disallowedTraits>
+		<workDisables>
+		
+		</workDisables>
+		<skillGains>
+		
+		</skillGains>
+		<spawnCategories>
+			<li>Eldar_Craftworld_Psyker</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	   
+	<!-- Psykers -->
+	
+</Defs>

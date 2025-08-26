@@ -1,0 +1,717 @@
+<Defs>
+
+  <RulePackDef>
+    <defName>OG_PlaceMakerCommon_Exodite</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>place_personalWeapon->shuriken catapult</li>
+        <li>place_personalWeapon->shuriken pistol</li>
+        <li>place_personalWeapon->chainsword</li>
+        <li>place_personalWeapon->powersword</li>
+        <li>place_massWeapon->an archotech mass-inverter</li>
+        <li>seismicDevice->a seismic quake-generation device</li>
+        <li>anEMPAttack->an EMP strike to the communication systems</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+<PlaceDef>
+  <defName>OG_Place_Menimshemash</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_Menimshemash</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Menimshemash</li>
+      <li>place_adjective->Menimshemashi</li>
+      <li>place_summary->a world plagued by daemonic invasions after Tzeentch corrupted its World Spirit</li>
+      <li>place_community->world spirit shrine</li>
+      <li>place_community->daemonic ruins</li>
+      <li>place_powerCenter->shattered obelisk</li>
+      <li>place_job->dragon knight</li>
+      <li>place_job->worldsinger</li>
+      <li>place_job->seer</li>
+      <li>place_personalWeapon->shuriken rifle</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_massWeapon->psychic disruptor</li>
+      <li>place_foeLeader->daemon prince</li>
+      <li>place_foeSoldiers->daemon hordes</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Daethe</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_Daethe</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Daethe</li>
+      <li>place_adjective->Daethean</li>
+      <li>place_summary->an Exodite world in the Nachmund Sector, recently besieged by a Black Legion warband</li>
+      <li>place_community->dragon knight citadel</li>
+      <li>place_community->hidden groves</li>
+      <li>place_powerCenter->crystal sanctum</li>
+      <li>place_job->dragon knight</li>
+      <li>place_job->ranger</li>
+      <li>place_job->seer</li>
+      <li>place_personalWeapon->shuriken pistol</li>
+      <li>place_personalWeapon->power sword</li>
+      <li>place_massWeapon->dinosaur cavalry</li>
+      <li>place_massWeapon->psychic lance</li>
+      <li>place_foeLeader->black legion warpsmith</li>
+      <li>place_foeSoldiers->black legionnaires</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Mirienh</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_Mirienh</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Mirienh</li>
+      <li>place_adjective->Mirienhi</li>
+      <li>place_summary->a lush world, rich in natural beauty, currently at risk of Necron incursions</li>
+      <li>place_community->dragon knight stronghold</li>
+      <li>place_community->worldsinger's grove</li>
+      <li>place_powerCenter->soulstone monolith</li>
+      <li>place_job->dragon knight</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_foeLeader->necron overlord</li>
+      <li>place_foeSoldiers->necron warriors</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Myrandias</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_Myrandias</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Myrandias</li>
+      <li>place_adjective->Myrandian</li>
+      <li>place_summary->a world shrouded in mists and mystery, home to powerful psychic entities</li>
+      <li>place_community->hidden villages</li>
+      <li>place_community->psychic groves</li>
+      <li>place_powerCenter->ethereal citadel</li>
+      <li>place_job->seer</li>
+      <li>place_job->warlock</li>
+      <li>place_job->worldsinger</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->singing spear</li>
+      <li>place_massWeapon->psychic storm generator</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_foeLeader->chaos sorcerer</li>
+      <li>place_foeSoldiers->chaos cultists</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Naiatoc</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_Naiatoc</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Naiatoc</li>
+      <li>place_adjective->Naiatoci</li>
+      <li>place_summary->a tropical world with dense jungles and dangerous fauna, home to fierce dragon knights</li>
+      <li>place_community->jungle villages</li>
+      <li>place_community->dragon knight arenas</li>
+      <li>place_powerCenter->emerald spire</li>
+      <li>place_job->dragon knight</li>
+      <li>place_job->ranger</li>
+      <li>place_job->seer</li>
+      <li>place_personalWeapon->shuriken pistol</li>
+      <li>place_personalWeapon->power sword</li>
+      <li>place_massWeapon->dinosaur cavalry</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_foeLeader->orks warboss</li>
+      <li>place_foeSoldiers->orks boyz</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Oelil</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_Oelil</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Oelil</li>
+      <li>place_adjective->Oelili</li>
+      <li>place_summary->a serene world, known for its peaceful valleys and flowing rivers, recently threatened by Necron incursions</li>
+      <li>place_community->valley sanctuaries</li>
+      <li>place_community->river settlements</li>
+      <li>place_powerCenter->crystal citadel</li>
+      <li>place_job->dragon knight</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_foeLeader->necron overlord</li>
+      <li>place_foeSoldiers->necron warriors</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Qsandritoc</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_Qsandritoc</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Q'sandritoc</li>
+      <li>place_adjective->Q'sandritoci</li>
+      <li>place_summary->a desert world, characterized by its vast dunes and ancient ruins, often raided by Orks</li>
+      <li>place_community->desert oasis settlements</li>
+      <li>place_community->ancient ruins</li>
+      <li>place_powerCenter->sunken temple</li>
+      <li>place_job->dragon knight</li>
+      <li>place_job->ranger</li>
+      <li>place_job->seer</li>
+      <li>place_personalWeapon->shuriken pistol</li>
+      <li>place_personalWeapon->power sword</li>
+      <li>place_massWeapon->dinosaur cavalry</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_foeLeader->orks warboss</li>
+      <li>place_foeSoldiers->orks boyz</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Quilan</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_Quilan</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Quilan</li>
+      <li>place_adjective->Quilani</li>
+      <li>place_summary->a forested world with ancient trees and hidden groves, frequented by Harlequin troupes</li>
+      <li>place_community->forest villages</li>
+      <li>place_community->hidden groves</li>
+      <li>place_powerCenter->world shrine</li>
+      <li>place_job->worldsinger</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->psychic disruptor</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_foeLeader->chaos warlord</li>
+      <li>place_foeSoldiers->chaos space marines</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Rhildhol</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_Rhildhol</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Rhildhol</li>
+      <li>place_adjective->Rhildholi</li>
+      <li>place_summary->a mountainous world with towering peaks and deep valleys, known for its mining operations</li>
+      <li>place_community->mountain fortresses</li>
+      <li>place_community->valley settlements</li>
+      <li>place_powerCenter->crystal caverns</li>
+      <li>place_job->miner</li>
+      <li>place_job->dragon knight</li>
+      <li>place_job->seer</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->power sword</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_foeLeader->necron overlord</li>
+      <li>place_foeSoldiers->necron warriors</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Selesti</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_Selesti</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Selesti</li>
+      <li>place_adjective->Selesti</li>
+      <li>place_summary->a lush world often targeted by Ork Waaaghs, defended by Eldar from Craftworld Ulthwé</li>
+      <li>place_community->forest enclaves</li>
+      <li>place_community->warrior lodges</li>
+      <li>place_powerCenter->crystal tower</li>
+      <li>place_job->dragon knight</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_foeLeader->orks warboss</li>
+      <li>place_foeSoldiers->orks boyz</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Svehlin</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_Svehlin</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Svehlin</li>
+      <li>place_adjective->Svehlin</li>
+      <li>place_summary->a temperate world known for its rolling hills and fertile plains, currently threatened by Tyranid swarms</li>
+      <li>place_community->hilltop villages</li>
+      <li>place_community->fertile plains settlements</li>
+      <li>place_powerCenter->world shrine</li>
+      <li>place_job->dragon knight</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->psychic disruptor</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_foeLeader->tyranid hive tyrant</li>
+      <li>place_foeSoldiers->tyranid warriors</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Syph</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_Syph</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Syph</li>
+      <li>place_adjective->Syphi</li>
+      <li>place_summary->a volcanic world, known for its geothermal activity and fiery landscapes, recently invaded by Dark Eldar</li>
+      <li>place_community->volcanic fortresses</li>
+      <li>place_community->geothermal springs settlements</li>
+      <li>place_powerCenter->magma spire</li>
+      <li>place_job->dragon knight</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_foeLeader->dark eldar archon</li>
+      <li>place_foeSoldiers->dark eldar warriors</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Tkrahn</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_Tkrahn</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->T'krahn</li>
+      <li>place_adjective->T'krahn</li>
+      <li>place_summary->a resource-rich world, heavily contested by Orks and defended by Ulthwé</li>
+      <li>place_community->resource enclaves</li>
+      <li>place_community->defensive outposts</li>
+      <li>place_powerCenter->world spirit obelisk</li>
+      <li>place_job->dragon knight</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_foeLeader->orks warboss</li>
+      <li>place_foeSoldiers->orks boyz</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Talhennor</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_Talhennor</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Talhennor</li>
+      <li>place_adjective->Talhennori</li>
+      <li>place_summary->a verdant world known for its vast forests and harmonious communities, recently attacked by Necrons</li>
+      <li>place_community->forest sanctuaries</li>
+      <li>place_community->woodland villages</li>
+      <li>place_powerCenter->crystal tower</li>
+      <li>place_job->dragon knight</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_foeLeader->necron overlord</li>
+      <li>place_foeSoldiers->necron warriors</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_TarEtenil</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_TarEtenil</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Tar-Etenil</li>
+      <li>place_adjective->Tar-Etenil</li>
+      <li>place_summary->a world known for its floating islands and rich mineral deposits, often targeted by pirates</li>
+      <li>place_community->floating island settlements</li>
+      <li>place_community->mineral extraction sites</li>
+      <li>place_powerCenter->levitation spire</li>
+      <li>place_job->miner</li>
+      <li>place_job->dragon knight</li>
+      <li>place_job->seer</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->power sword</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_massWeapon->psychic disruptor</li>
+      <li>place_foeLeader->dark eldar archon</li>
+      <li>place_foeSoldiers->dark eldar warriors</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Telethai</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_Telethai</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Teleth-ai</li>
+      <li>place_adjective->Telethai</li>
+      <li>place_summary->a mountainous world with numerous underground caverns, often raided by Chaos warbands</li>
+      <li>place_community->mountain fortresses</li>
+      <li>place_community->underground settlements</li>
+      <li>place_powerCenter->crystal caves</li>
+      <li>place_job->dragon knight</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->power sword</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_massWeapon->psychic disruptor</li>
+      <li>place_foeLeader->chaos warlord</li>
+      <li>place_foeSoldiers->chaos space marines</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_ThreeSisters</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_ThreeSisters</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Three Sisters</li>
+      <li>place_adjective->Three Sisters</li>
+      <li>place_summary->a trio of interconnected worlds, each with unique ecosystems, frequently visited by Harlequin troupes</li>
+      <li>place_community->forest enclaves</li>
+      <li>place_community->mountain fortresses</li>
+      <li>place_powerCenter->world shrine</li>
+      <li>place_job->dragon knight</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_foeLeader->orks warboss</li>
+      <li>place_foeSoldiers->orks boyz</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_Tirathain</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_Tirathain</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Tirathain</li>
+      <li>place_adjective->Tirathaini</li>
+      <li>place_summary->a world located in the galactic south of the Ultima Segmentum, known for its lush forests and ancient ruins</li>
+      <li>place_community->forest sanctuaries</li>
+      <li>place_community->ancient ruins</li>
+      <li>place_powerCenter->crystal spire</li>
+      <li>place_job->dragon knight</li>
+      <li>place_job->seer</li>
+      <li>place_job->guardian</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_massWeapon->psychic disruptor</li>
+      <li>place_foeLeader->chaos sorcerer</li>
+      <li>place_foeSoldiers->chaos space marines</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+<PlaceDef>
+  <defName>OG_Place_TorakalIV</defName>
+  <tags>
+    <li>OG_OriginExodite</li>
+    <li>OG_Exodite</li>
+    <li>OG_Exodite_MaidenWorld</li>
+    <li>OG_Exodite_MaidenWorld_TorakalIV</li>
+  </tags>
+  <placeRules>
+    <include>
+      <li>OG_PlaceMakerCommon_Exodite</li>
+    </include>
+    <rulesStrings>
+      <li>place_name->Torakal IV</li>
+      <li>place_adjective->Torakal IV</li>
+      <li>place_summary->a world destroyed by Exterminatus carried out by the Tarantulas Chapter around 785.M41</li>
+      <li>place_community->ruined domes</li>
+      <li>place_community->memorials</li>
+      <li>place_powerCenter->remnants of the crystal shrine</li>
+      <li>place_job->guardian</li>
+      <li>place_job->seer</li>
+      <li>place_job->warrior</li>
+      <li>place_personalWeapon->shuriken catapult</li>
+      <li>place_personalWeapon->witchblade</li>
+      <li>place_massWeapon->warp cannon</li>
+      <li>place_massWeapon->prism cannon</li>
+      <li>place_foeLeader->imperial warlord</li>
+      <li>place_foeSoldiers->imperial guardsmen</li>
+    </rulesStrings>
+  </placeRules>
+</PlaceDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Defs>

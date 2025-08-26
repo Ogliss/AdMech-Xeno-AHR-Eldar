@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="Colonist_OG_DarkEldar_Kabal_Base" ParentName="OG_DarkEldar_Base_PawnKind">
+		<defName>Colonist_OG_DarkEldar_Kabal</defName>
+		<label>colonist (Dark Eldar)</label>
+		<initialWillRange IgnoreIfNoMatchingField="True">0~0</initialWillRange>
+		<initialResistanceRange IgnoreIfNoMatchingField="True">13~21</initialResistanceRange>
+		<defaultFactionType>OG_DarkEldar_Kabal_PlayerColony</defaultFactionType>
+		<apparelTags>
+			<li>Spacer</li>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>500</min>
+			<max>1200</max>
+		</apparelMoney>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DarkEldar_Standard</li>
+				</categories>
+				<commonality>1</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>DarkEldar_Kabal_Warrior</li>
+				</categories>
+				<commonality>0.5</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>DarkEldar_Kabal_Archon</li>
+				</categories>
+				<commonality>0.25</commonality>
+			</li>
+		</backstoryFiltersOverride>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+	</PawnKindDef>
+	
+</Defs>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<JobDef>
+		<defName>OGE_InstallSpiritStone</defName>
+		<driverClass>AdeptusMechanicus.JobDriver_InstallSpiritStone</driverClass>
+		<reportString>installing spirit stone in TargetA.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+  
+</Defs>

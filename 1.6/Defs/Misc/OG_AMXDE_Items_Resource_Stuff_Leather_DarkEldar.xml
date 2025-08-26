@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_DarkEldar</defName>
+    <label>Eldar leather</label>
+    <description>Tanned, dried, scraped tau skin. It is not tough and it is a poor insulator.</description>
+    <graphicData>
+      <color>(197,198,176)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.2</MarketValue>
+      <StuffPower_Armor_Sharp>0.42</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(211,194,143)</color>
+      <commonality>0.025</commonality>
+      <statFactors>
+        <MaxHitPoints>0.85</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+</Defs>

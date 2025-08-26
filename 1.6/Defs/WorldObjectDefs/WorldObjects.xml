@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+ 
+  <WorldObjectDef>
+    <defName>OG_EscapePortal_Webway</defName>
+    <label>webway portal</label>
+    <description>The location of a hidden entrance to the webway which can help you escape the planet.</description>
+    <worldObjectClass>EscapeShip</worldObjectClass>
+    <texture>World/WorldObjects/JourneyDestination</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>World/WorldObjects/Expanding/JourneyDestination</expandingIconTexture>
+    <expandingIconPriority>50</expandingIconPriority>
+    <expandMore>true</expandMore>
+    <IncidentTargetTags>
+      <li>Map_PlayerHome</li>
+    </IncidentTargetTags>
+    <mapGenerator>OG_EscapePortal_Webway</mapGenerator>
+    <canBePlayerHome>true</canBePlayerHome>
+    <comps>
+      <li Class="WorldObjectCompProperties_Abandon" />
+      <!--li Class="WorldObjectCompProperties_EscapeShip" /-->
+      <li Class="AdeptusMechanicus.WorldObjectCompProperties_EscapePortalWebway" />
+      <li Class="WorldObjectCompProperties_FormCaravan" />
+      <li Class="WorldObjectCompProperties_EnterCooldown" />
+    </comps>
+  </WorldObjectDef>
+  
+</Defs>

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Make_ComponentDarkEldar</defName>
+    <label>make dark eldar component</label>
+    <description>Make a dark eldar component.</description>
+    <jobString>Making dark eldar component.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>5000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>OGDE_Wraithbone</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>OGDE_Wraithbone</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <OGDE_Component>1</OGDE_Component>
+    </products>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+	<recipeUsers>
+		<li>OGDE_TableMachining</li>
+	</recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Make_OGDE_Wraithbone</defName>
+    <label>make wraithbone</label>
+    <description>Make some wraithbone.</description>
+    <jobString>Making wraithbone.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>500</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>12</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <OGDE_Wraithbone>2</OGDE_Wraithbone>
+    </products>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+	<recipeUsers>
+		<li>OGDE_TableMachining</li>
+	</recipeUsers>
+  </RecipeDef>
+
+
+  <RecipeDef>
+    <defName>Make_OGDE_SpiritStone</defName>
+    <label>make spirit stones</label>
+    <description>Make a spirit stone.</description>
+    <jobString>Making spirit stones.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>7000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>OGDE_Wraithbone</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>OGDE_Component</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Jade</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>OGDE_Wraithbone</li>
+        <li>OGDE_Component</li>
+        <li>Jade</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <OGDE_SpiritStone>1</OGDE_SpiritStone>
+    </products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+	<recipeUsers>
+		<li>OGDE_TableMachining</li>
+	</recipeUsers>
+  </RecipeDef>
+
+	<!--RecipeDef>
+		<defName>Make_OGDE_KabalFavor</defName>
+		<label>Sacrifce the soul and flesh to the Kabaal</label>
+		<description>Sacrifce the soul and flesh to the Kabaal!</description>
+		<jobString>Sacrifce the soul and flesh to the Kabaal.</jobString>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>200</workAmount>
+		<recipeUsers>
+			<li>OGDE_SacrificialAlter</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+			<filter>
+			<categories>
+				<li>Corpses</li>
+			</categories>
+			</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+	<fixedIngredientFilter>
+      <categories>
+        <li>Corpses</li>
+      </categories>
+      <disallowedCategories>
+        <li>CorpsesMechanoid</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Corpse_Human</li>
+      </thingDefs>
+      <specialFiltersToAllow>
+        <li>AllowCorpsesColonist</li>
+        <li>AllowCorpsesStranger</li>
+      </specialFiltersToAllow>
+    </defaultIngredientFilter>
+		<products>
+			<OGDE_KabalFavor>1</OGDE_KabalFavor>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<skillRequirements>
+			<Crafting>1</Crafting>
+		</skillRequirements>
+	</RecipeDef-->
+	
+</Defs>
