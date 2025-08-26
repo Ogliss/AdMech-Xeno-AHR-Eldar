@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<FactionDef Abstract="True" Name="OG_DarkEldar_Faction_Base" ParentName="FactionBase">
+	<FactionDef Abstract="True" Name="OG_DarkEldar_Faction" ParentName="OG_DarkEldar_Faction_Base">
 		<description>The Drukhari (pronounced Druh-KAR-ee) or "Dark Ones" in the Aeldari Lexicon, also known to outsiders as the Dark Eldar, are a forsaken and corrupt Aeldari kindred, the sadistic, malicious counterparts of the Asuryani. Like their cousins of the craftworlds, the Drukhari are an ancient and highly advanced alien race of fey humanoids.</description>
 		<pawnSingular>drukhar</pawnSingular>
 		<pawnsPlural>drukhari</pawnsPlural>
@@ -51,29 +51,19 @@
 				<li>(100000, 10000)</li>
 			</points>
 		</maxPawnCostPerTotalPointsCurve>
+		<structureMemeWeights>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1000</Structure_TheistAbstract>
+		</structureMemeWeights>
 	</FactionDef>
 
 	<FactionDef Abstract="True" Name="OG_DarkEldar_Kabal_Faction_Base" ParentName="OG_DarkEldar_Faction_Base">
 		<label>drukhari raiders</label>
 		<categoryTag>OG_Outlander_Aeldari_Drukhari</categoryTag>
-		<maxConfigurableAtWorldCreation IgnoreIfNoMatchingField="True">9999</maxConfigurableAtWorldCreation>
-		<configurationListOrderPriority IgnoreIfNoMatchingField="True">20</configurationListOrderPriority>
-		<allowedCultures IgnoreIfNoMatchingField="True">
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>20</configurationListOrderPriority>
+		<allowedCultures>
 			<li>OG_Aeldari_Drukhari</li>
 		</allowedCultures>
-		<hairTags IgnoreIfNoMatchingField="True">
-			<li>Civil</li>
-			<li>Raider</li>
-			<li>Rural</li>
-		</hairTags>
-		<startingGoodwill IgnoreIfNoMatchingField="True">
-			<min>-60</min>
-			<max>60</max>
-		</startingGoodwill>
-		<naturalColonyGoodwill IgnoreIfNoMatchingField="True">
-			<min>-60</min>
-			<max>0</max>
-		</naturalColonyGoodwill>
 		<factionIconPath>Icons/DarkEldar/Icon_DarkEldar</factionIconPath>
 		<settlementTexturePath>Icons/DarkEldar/Icon_DarkEldar</settlementTexturePath>
 		<colorSpectrum>

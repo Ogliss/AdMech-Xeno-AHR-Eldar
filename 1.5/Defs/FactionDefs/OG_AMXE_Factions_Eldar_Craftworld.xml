@@ -68,7 +68,7 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
 		</disallowedPrecepts>
 		<structureMemeWeights>
-			<OG_Structure_Aeldari_Asuryani MayRequire="Ludeon.RimWorld.Ideology">1000</OG_Structure_Aeldari_Asuryani>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1000</Structure_TheistAbstract>
 		</structureMemeWeights>
 		<factionIconPath>Icons/Eldar/Icon_Eldar_Craftworld</factionIconPath>
 		<settlementTexturePath>Icons/Eldar/Icon_Eldar_Craftworld</settlementTexturePath>
